@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+[ "{%" ] 	/home/mike/code/web/mhp3db/template.lua	/^	[ "{%" ] = function( block )$/;"	f	language:Lua
+[ "{(" ] 	/home/mike/code/web/mhp3db/template.lua	/^	[ "{(" ] = function( str )$/;"	f	language:Lua
+[ "{<" ] 	/home/mike/code/web/mhp3db/template.lua	/^	[ "{<" ] = function( str )$/;"	f	language:Lua
+[ "{{" ] 	/home/mike/code/web/mhp3db/template.lua	/^	[ "{{" ] = function( str )$/;"	f	language:Lua
+compileTemplate	/home/mike/code/web/mhp3db/template.lua	/^function compileTemplate( template, name )$/;"	f	language:Lua
+decodeArray	/home/mike/code/web/mhp3db/json.lua	/^local function decodeArray( str, pos )$/;"	f	language:Lua
+decodeNumber	/home/mike/code/web/mhp3db/json.lua	/^local function decodeNumber( str, pos )$/;"	f	language:Lua
+decodeObject	/home/mike/code/web/mhp3db/json.lua	/^local function decodeObject( str, pos )$/;"	f	language:Lua
+decodeString	/home/mike/code/web/mhp3db/json.lua	/^local function decodeString( str, pos )$/;"	f	language:Lua
+decodeValue	/home/mike/code/web/mhp3db/json.lua	/^function decodeValue( str, pos )$/;"	f	language:Lua
+echo	/home/mike/code/web/mhp3db/template.lua	/^function echo( str )$/;"	f	language:Lua
+isArray	/home/mike/code/web/mhp3db/json.lua	/^local function isArray( table )$/;"	f	language:Lua
+json.decode	/home/mike/code/web/mhp3db/json.lua	/^function json.decode( str )$/;"	f	language:Lua
+json.encode	/home/mike/code/web/mhp3db/json.lua	/^function json.encode( object )$/;"	f	language:Lua
+json.null	/home/mike/code/web/mhp3db/json.lua	/^function json.null()$/;"	f	language:Lua
+loadTemplate	/home/mike/code/web/mhp3db/template.lua	/^function loadTemplate( file )$/;"	f	language:Lua
+skip	/home/mike/code/web/mhp3db/json.lua	/^local function skip( str, pos )$/;"	f	language:Lua
+string.at 	/home/mike/code/web/mhp3db/json.lua	/^string.at = function( self, idx )$/;"	f	language:Lua
+string.skip 	/home/mike/code/web/mhp3db/json.lua	/^string.skip = function( self, pos )$/;"	f	language:Lua
+string.startsWith 	/home/mike/code/web/mhp3db/json.lua	/^string.startsWith = function( self, str, from )$/;"	f	language:Lua
+string.unescape 	/home/mike/code/web/mhp3db/json.lua	/^string.unescape = function( self )$/;"	f	language:Lua
