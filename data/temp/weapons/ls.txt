@@ -1,0 +1,44 @@
+Old Yukomo LS
+50
+R1
+0%
+---
+
+	Yukomo Longsword
+	70
+	R1
+	0%
+	---
+	Yukomo Wood 1
+	Iron Ore 1
+	750z
+	Yukomo Wood 3
+	Iron Ore 3
+	Desc
+	Wood Scraps 1
+	Ore Scraps 1
+
+Iron Katana
+80
+R1
+0%
+---
+1500z
+Iron Ore 5
+Machalite Ore 3
+Desc
+Ore Scraps 2
+
+Bone Katana "Fang"
+90
+R1
+0%
+---
+2100z
+Sm Monster Bone 4
+Iron Ore 4
+Jaggi Hide 5
+Jaggi Scale 5
+Desc
+Bone Scraps 1
+Ore Scraps 1

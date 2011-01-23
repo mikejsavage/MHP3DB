@@ -1,0 +1,41 @@
+Old Yukomo Axe
+
+	Yukomo Axe
+	70
+	Power
+	R1
+	0%
+	---
+	750z
+	Yukomo Wood 3
+	Iron Ore 3
+	Desc
+	Wood Scraps 1
+	Ore Scraps 1
+
+Bone Axe
+80
+Power
+R1
+0%
+---
+1500z
+Sm Monster Bone 5
+Machalite Ore 3
+Monster Fluid 2
+Desc
+Bone Scraps 2
+
+Aoashira Switch Axe
+110
+Poison
+R1
+0%
+---
+3750z
+Aoashira Arm 3
+Aoashira Pelt 4
+Bealite Ore 5
+Giant Bone 1
+Desc
+Aoashira Scraps 2

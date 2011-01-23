@@ -1,0 +1,48 @@
+Old Yukomo Gunlance
+50
+N1
+R1
+0%
+---
+
+	Yukomo Gunlance
+	70
+	N1
+	R1
+	0%
+	---
+	Yukomo Wood 1
+	Iron Ore 1
+	750z
+	Yukomo Wood 3
+	Iron Ore 3
+	Desc
+	Wood Scraps 1
+	Ore Scraps 1
+
+Special Ops Gunlance
+110
+N1
+R1
+0%
+---
+3750z
+Bealite Ore 5
+Machalite Ore 5
+Fire Herb 10
+Desc
+Ore Scraps 2
+
+Bone Gunlance
+100
+N1
+R1
+0%
+---
+2850z
+Bone 4
+Iron Ore 5
+Rumblefish 5
+Desc
+Bone Scraps 1
+Ore Scraps 1

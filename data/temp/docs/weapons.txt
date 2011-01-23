@@ -1,0 +1,135 @@
+// root is an array
+[
+	// containing objects describing each weapon type
+	{
+		// name of weapon class eg Great Swords
+		"name" : translation
+		// shorted form of name eg gs
+		"short" : string
+
+		// CLASS variable for damage formula eg 4.8
+		"class" : float
+
+		// array containing attacks
+		"attacks" : [
+			{
+				// name of attack eg Unsheathe Attack
+				"name" : translation
+				// type of attack - corresponds to hitzone names eg cut
+				"type" : string
+				// attack multiplier
+				"power" : float
+				// KO value if type == impact
+				"ko" : int (conditional)
+			}
+			...
+		]
+
+		// array containing weapons
+		"weapons" : [
+			// object describing each weapon
+			// TODO: attack upgrades
+			{
+				// name of weapon
+				"name" : translation
+				// description
+				"description" : translation
+
+				// attack power
+				"attack" : int
+
+				// element eg fire
+				"element" : string
+				// elemental power
+				"elemattack" : int (conditional)
+				// element requires awaken?
+				"awaken" : bool (conditional)
+
+				// array of sharpness info - each elem is number
+				// of hits for that sharpness level / 10
+				"sharpness" : [
+					int
+					...
+				]
+				// same as above but for sharpness +1 skill
+				"sharpness+1" : [
+					int
+					...
+				]
+
+				// affinity as a percentage eg 25
+				"affinity" : int
+
+				// weapon slots
+				"slots" : int
+
+				// rarity
+				"rarity" : int
+
+				// price to UPGRADE TO
+				// if creating from scratch use this * 1.5
+				// if buying use this * 2
+				// TODO: confirm above
+				"price" : int
+
+				// is this weapon buyable?
+				"buyable" : bool
+
+				// materials required to create
+				"create" : [
+					// there may be multiple ways
+					// to create a weapon
+					[
+						{
+							// index into Items array
+							"id" : int
+							// number required
+							"count" : int
+						}
+						...
+					]
+					...
+				] (conditional)
+
+				// info on upgrading to this weapon
+				"improve" : {
+					// array of indices into weapons array
+					"from" : [
+						int
+						...
+					]
+					// materials required
+					"materials" : [
+						{
+							// index into items array
+							"id" : int
+							// number required
+							"count" : int
+						}
+						...
+					]
+				} (conditional)
+
+				// scraps after manufacturing
+				// TODO: is this ok?
+				"scraps" : [
+					{
+						// index into items array
+						"id" : int
+						// number given
+						"count" : int
+					}
+					...
+				] (conditional)
+
+				// weapons this upgrades into
+				// array of indices into weapons array
+				"upgrades" : [
+					int
+					...
+				]
+			}
+			...
+		] // weapons
+	}
+]

@@ -1,0 +1,138 @@
+Old Yukomo Cannon
+50
+R1
+0%
+---
+Slow
+None
+Moderate
+Desc
+4! 4 0
+0 0 0
+2 0 0
+0 0 0
+0 0 0
+0 0
+2 0
+0 0
+0 0
+0 0
+0
+0
+0
+0
+0
+2
+2
+0
+0
+0
+
+	Yukomo Cannon
+	80
+	R1
+	0%
+	---
+	Slow
+	None
+	Moderate
+	Yukomo Wood 1
+	Iron Ore 1
+	990z
+	Yukomo Wood 2
+	Iron Ore 4
+	Desc
+	Wood Scraps 1
+	Ore Scraps 1
+	4! 5 0
+	2 0 0
+	3 0 0
+	0 0 0
+	0 0 0
+	2 0
+	2 0
+	0 0
+	0 0
+	2 0
+	0
+	0
+	0
+	0
+	0
+	2
+	2
+	0
+	0
+	0
+
+Bone Shooter
+90
+R1
+0%
+---
+Slow
+None
+Moderate
+1125z
+Machalite Ore 2
+Sm Monster Bone 5
+Carpenterbug 3
+Desc
+Bone Scraps 1
+Ore Scraps 1
+5! 4 0
+2 0 0
+3 0 0
+0 0 0
+0 0 0
+0 1
+0 0
+0 0
+0 0
+0 0
+0
+3
+0
+0
+0
+2
+2
+0
+1
+0
+
+Aoashira Gun
+120
+R2
+0%
+---
+Slow
+???
+Moderate
+3600z
+Aoashira Pelt 5
+Aoashira Arm 3
+Aoashira Shell 4
+Bealite Ore 5
+Desc
+Aoashira Scraps 2
+5 4 0
+2 0 0
+3 3 0
+1 0 0
+0 0 0
+2 0
+0 0
+2 0
+0 0
+3 1
+2
+0
+0
+0
+0
+2
+2
+1
+0
+0

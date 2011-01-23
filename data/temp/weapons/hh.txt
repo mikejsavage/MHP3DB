@@ -1,0 +1,45 @@
+Old Yukomo Flute
+50
+WBR
+R1
+0%
+---
+
+	Yukomo Flute
+	70
+	WBR
+	R1
+	0%
+	---
+	750z
+	Yukomo Wood 4
+	Iron Ore 2
+	Desc
+	Wood Scraps 1
+	Ore Scraps 1
+
+Metal Bagpipe
+80
+WCR
+R1
+0%
+O--
+1500z
+Machalite Ore 5
+Earth Crystal 4
+Carpenterbug 3
+Desc
+Ore Scraps 2
+
+Grizzly Shoko MK I
+120
+WRY
+R1
+0%
+---
+Aoashira Pelt 4
+Aoashira Arm 2
+Yukomo Wood 3
+Bealite Ore 5
+Desc
+Aoashira Scraps 2

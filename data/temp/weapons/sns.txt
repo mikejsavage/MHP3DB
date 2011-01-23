@@ -1,0 +1,80 @@
+Old Yukomo Machete
+50
+R1
+0%
+---
+Desc
+
+	Yukomo Machete
+	70
+	R1
+	0%
+	---
+	Yukomo Wood 1
+	Iron Ore 1
+	450z
+	Yukomo Wood 2
+	Iron Ore 3
+	Desc
+	Wood Scraps 1
+	Ore Scraps 1
+
+		Yukomo Machete+
+		90
+		R1
+		0%
+		---
+		Machalite Ore 5
+		Yukomo Wood 5
+		Sm Goldenfish 2
+		600z
+		Desc
+		Wood Scraps 1
+		Ore Scraps 1
+
+		Hunter's Dagger
+		80
+		R1
+		0%
+		---
+		Earth Crystal 2
+		Iron Ore 2
+		900z
+		Machalite Ore 1
+		Earth Crystal 3
+		Carpenterbug 3
+		Desc
+		Ore Scraps 2
+
+			Hunter's Dagger+
+			110
+			R1
+			0%
+			---
+			Bealite Ore 2
+			Iron Ore 3
+			1500z
+			Desc
+			Ore Scraps 2
+
+		Soldier's Dagger
+		90
+		R1
+		0%
+		O--
+		Jaggi Hide 3
+		Jaggi Scale 3
+		Earth Crystal 5
+		840z
+		Desc
+		Ore Scraps 2
+
+Bone Kukri
+90
+R1
+0%
+---
+1260z
+Sm Monster Bone 2
+Desc
+Bone Scraps 2

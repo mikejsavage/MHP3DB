@@ -1,0 +1,44 @@
+Old Yukomo Bow
+50
+Spread
+0%
+---
+Desc
+R1
+R1
+R2
+YYNNNYN
+
+	Yukomo Bow
+	70
+	Spread
+	0%
+	---
+	1035z
+	Yukomo Wood 2
+	Iron Ore 4
+	Desc
+	Wood Scraps 1
+	Ore Scraps 1
+	R1
+	P2
+	R2
+	YYNNNYN
+
+Hunter's Bow I
+80
+Spread
+0%
+Def 5
+---
+1155z
+Bone 4
+Iron Ore 5
+Warm Pelt 2
+Desc
+Bone Scraps 1
+Ore Scraps 1
+R1
+R2
+R2
+YNNYYYY

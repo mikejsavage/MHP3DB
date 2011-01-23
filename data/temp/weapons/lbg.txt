@@ -1,0 +1,99 @@
+Old Yukomo Bowgun
+50
+R1
+0%
+Normal
+None
+Moderate
+Desc
+4 4 0
+0 0 0
+2 0 0
+0 0 0
+0 0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0
+0
+0
+0
+0
+2
+2
+0
+0
+0
+
+	Yukomo Bowgun
+	70
+	R1
+	0%
+	---
+	Normal
+	None
+	Moderate
+	900z
+	Yukomo Wood 2
+	Iron Ore 4
+	Desc
+	Wood Scraps 1
+	Ore Scraps 1
+	4!5W 5 0
+	3 0 0
+	2 0 0
+	1 0 0
+	0 0 0
+	2 0
+	2 0
+	0 0
+	2 0
+	2 0
+	0
+	0
+	0
+	0
+	0
+	2
+	2
+	1
+	1
+	0
+
+Crossbowgun
+80
+R1
+0%
+---
+Normal
+None
+Moderate
+1050z
+Iron Ore 3
+Bone 4
+Earth Crystal 3
+Desc
+Bone Scraps 1
+Ore Scraps 1
+4 4 5
+0 0 0
+4 0 0
+0 0 0
+1 0 0
+2 0
+0 0
+2 0
+0 0
+0 0
+2
+0
+0
+0
+0
+2
+2
+0
+0
+0

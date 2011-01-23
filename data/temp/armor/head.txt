@@ -1,0 +1,225 @@
+Yukomo Hat
+1
+0 0 3 0 0
+BG
+R1
+---
+Yukomo Wood 1
+Gagua Feather 1
+50z
+Expert 2
+Protection 2
+Whim 2
+Desc
+Wood Scraps 1
+
+Leather Helm
+1
+-1 0 0 0 1
+BG
+R1
+O--
+Warm Pelt 1
+Iron Ore 1
+50z
+Gathering 2
+HiSpdGathr 2
+Whim 3
+Desc
+Pelt Scraps 1
+
+Chain Helm
+2
+2 1 -2 1 0
+BG
+R1
+O--
+Earth Crystal 1
+Iron Ore 1
+50z
+Health 2
+Combo Rate 4
+Shot Mix 1
+Desc
+Ore Scraps 1
+
+Hunter's Helm
+6
+0 1 -4 0 0
+BG
+R1
+O--
+Machalite Ore 1
+Iron Ore 1
+Carpenterbug 2
+450z
+Poison -2
+Psychic 2
+SpeedSetup 3
+Huntsman 2
+Desc
+Ore Scraps 2
+
+Hunter's Cap
+3
+1 2 -2 0 1
+BG
+R1
+O--
+Machalite Ore 1
+Iron Ore 1
+Carpenterbug 2
+450z
+Poison -1
+Psychic 4
+SpeedSetup 2
+Huntsman 4
+Desc
+Ore Scraps 2
+
+Bone Helm
+8
+2 0 -1 -2 0
+BG
+R1
+O--
+Large Fin 3
+Unknown Skull 1
+Sharp Fang 2
+650z
+Sleep -3
+Gathering 3
+Horn 1
+KO 2
+Desc
+Bone Scraps 2
+
+Bone Cap
+4
+4 0 0 -1 0
+BG
+R1
+O--
+Large Fin 3
+Unknown Skull 1
+Sharp Fang 2
+650z
+Sleep -1
+Gathering 3
+Horn 3
+KO 4
+Desc
+Bone Scraps 2
+
+Alloy Helm
+8
+-1 1 -2 -2 -1
+BG
+R1
+O--
+Machalite Ore 3
+Bealite Ore 2
+Iron Ore 3
+750z
+Expert 1
+Sharpener 3
+WindPress 2
+Gathering -3
+Desc
+Ore Scraps 2
+
+Alloy Cap
+4
+0 2 -1 -1 0
+BG
+R1
+O--
+Machalite Ore 3
+Bealite Ore 2
+Iron Ore 3
+750z
+Reload Spd 3
+PelletS Up 3
+PelletSAdd 3
+Gathering -2
+Desc
+Ore Scraps 2
+
+Zuwaro Helm
+12
+-2 2 0 -1 1
+BG
+R3
+---
+Zuwaroposu Hide 2
+Bulldrome Hide 2
+Bullfango Pelt 3
+850z
+Health 5
+Water Res 6
+Desc
+Zuwaro Scraps 3
+
+Zuwaro Cap
+6
+-1 4 0 0 2
+BG
+R3
+---
+Zuwaroposu Hide 2
+Bulldrome Hide 2
+Bullfango Pelt 3
+750z
+Health 5
+Water Res 6
+Desc
+Zuwaro Scraps 3
+
+Aoashira Helm
+12
+-3 1 -1 -2 1
+BG
+R2
+O--
+Aoashira Shell 2
+Aoashira Pelt 2
+Giant Bone 2
+Carpenterbug 3
+1150z
+Paralysis -3
+Stun 3
+Gluttony 1
+Defense 2
+Desc
+Aoashira Scraps 2
+
+Aoashira Cap
+6
+-2 2 0 -1 3
+BG
+R2
+O--
+Aoashira Shell 2
+Aoashira Pelt 2
+Giant Bone 2
+Carpenterbug 3
+1150z
+Paralysis -2
+Stun 3
+Gluttony 3
+Defense 3
+Desc
+Aoashira Scraps 2
+
+Gagua Mask
+8
+-4 -2 -1 2 1
+BG
+R3
+---
+Gagua Feather 7
+Yukomo Wood 5
+850z
+Combo Rate 10
+Desc
+Pelt Scraps 4
