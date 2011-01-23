@@ -1,4 +1,4 @@
-Old Yukomo Bow
+Old Yukumo Bow
 50
 Spread
 0%
@@ -9,13 +9,13 @@ R1
 R2
 YYNNNYN
 
-	Yukomo Bow
+	Yukumo Bow
 	70
 	Spread
 	0%
 	---
 	1035z
-	Yukomo Wood 2
+	Yukumo Wood 2
 	Iron Ore 4
 	Desc
 	Wood Scraps 1

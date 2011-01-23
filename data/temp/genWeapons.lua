@@ -8,24 +8,26 @@ local Types =
 {
 	"gs",
 	"ls",
-	"ds",
 	"sns",
+	"ds",
 	"hm",
 	"hh",
 	"lc",
 	"gl",
+	"sa",
 }
 
 local Bases =
 {
 	gs = { name = { hgg = "Great Swords" } },
 	ls = { name = { hgg = "Long Swords" } },
-	ds = { name = { hgg = "Dual Swords" } },
 	sns = { name = { hgg = "Swords" } },
+	ds = { name = { hgg = "Dual Swords" } },
 	hm = { name = { hgg = "Hammers" } },
 	hh = { name = { hgg = "Hunting Horns" } },
 	lc = { name = { hgg = "Lances" } },
 	gl = { name = { hgg = "Gunlances" } },
+	sa = { name = { hgg = "Switch Axes" } },
 }
 
 local Elements =
@@ -58,14 +60,38 @@ local Notes =
 	Y = "yellow",
 }
 
+function readFile( path )
+	local file = assert( io.open( path, "r" ) )
+
+	local content = file:read( "*all" )
+
+	file:close()
+
+	return content
+end
+
+local Items = json.decode( readFile( "../items.json" ) )
+
+function itemID( name )
+	for id, item in ipairs( Items ) do
+		if item.name == name then
+			return id
+		end
+	end
+	
+	assert( nil, "itemID failed to find item: " .. name )
+end
+
 local MaxSlots = 3
 
 local function parseItem( line )
-	local _, _, name, count = line:find( "^([%a ]+) (%d+)$" )
+	local success, _, name, count = line:find( "^([%a ]+) (%d+)$" )
 
-	-- TODO: name lookup
-	
-	return 0, count
+	if not success then
+		return
+	end
+
+	return itemID( name ), count
 end
 
 local Actions =
@@ -123,7 +149,9 @@ local Actions =
 			return "special"
 		end
 
-		print( "special failed: " .. weapon.name.hgg )
+		weapon.phial = line:lower()
+
+		return "special"
 	end,
 
 	affinity = function( line, weapon )
@@ -157,13 +185,23 @@ local Actions =
 
 		local id, count = parseItem( line )
 
-		if not weapon.improve then
-			weapon.improve = { }
+		if not id then
+			weapon.description = line
+
+			return "scraps"
 		end
 
-		table.insert( weapon.improve, { id = id, count = count } )
+		if not weapon.improve then
+			print( weapon.name.hgg )
+		end
+
+		table.insert( weapon.improve.materials, { id = id, count = count } )
 
 		return "improve"
+	end,
+
+	scraps = function( line, weapon )
+		return "null"
 	end,
 
 	null = function( line, weapon )
@@ -195,13 +233,40 @@ for _, short in pairs( Types ) do
 	local state = "init"
 	local weapon = { }
 
+	local lastDepth = { }
+	local currentIdx = 1
+
 	for line in io.lines() do
 		if line == "" then
 			table.insert( class.weapons, weapon )
 
 			state = "init"
 			weapon = { }
+
+			currentIdx = currentIdx + 1
 		else
+			local depth = 1
+
+			if state == "init" then
+				while line:sub( depth, depth ) == '\t' do
+					depth = depth + 1
+				end
+
+				lastDepth[ depth ] = currentIdx
+
+				if depth ~= 1 then
+					local from = lastDepth[ depth - 1 ]
+
+					weapon.improve = { from = { from }, materials = { } }
+
+					if not class.weapons[ from ].upgrades then
+						class.weapons[ from ].upgrades = { }
+					end
+
+					table.insert( class.weapons[ from ].upgrades, currentIdx )
+				end
+			end
+
 			state = doLine( line, weapon, state )
 		end
 	end

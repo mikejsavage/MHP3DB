@@ -1,18 +1,19 @@
-Old Yukomo Flute
+Old Yukumo Flute
 50
 WBR
 R1
 0%
 ---
+Desc
 
-	Yukomo Flute
+	Yukumo Flute
 	70
 	WBR
 	R1
 	0%
 	---
 	750z
-	Yukomo Wood 4
+	Yukumo Wood 4
 	Iron Ore 2
 	Desc
 	Wood Scraps 1
@@ -37,9 +38,10 @@ WRY
 R1
 0%
 ---
+4800z
 Aoashira Pelt 4
 Aoashira Arm 2
-Yukomo Wood 3
+Yukumo Wood 3
 Bealite Ore 5
 Desc
 Aoashira Scraps 2

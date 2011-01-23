@@ -15,11 +15,14 @@ doLine	/home/mike/code/web/mhp3db/data/temp/genWeapons.lua	/^function doLine( li
 improve 	/home/mike/code/web/mhp3db/data/temp/genWeapons.lua	/^	improve = function( line, weapon )$/;"	f	language:Lua
 init 	/home/mike/code/web/mhp3db/data/temp/genWeapons.lua	/^	init = function( line, weapon )$/;"	f	language:Lua
 isArray	/home/mike/code/web/mhp3db/data/temp/json.lua	/^local function isArray( table )$/;"	f	language:Lua
+itemID	/home/mike/code/web/mhp3db/data/temp/genWeapons.lua	/^function itemID( name )$/;"	f	language:Lua
 json.decode	/home/mike/code/web/mhp3db/data/temp/json.lua	/^function json.decode( str )$/;"	f	language:Lua
 json.encode	/home/mike/code/web/mhp3db/data/temp/json.lua	/^function json.encode( object )$/;"	f	language:Lua
 json.null	/home/mike/code/web/mhp3db/data/temp/json.lua	/^function json.null()$/;"	f	language:Lua
 null 	/home/mike/code/web/mhp3db/data/temp/genWeapons.lua	/^	null = function( line, weapon )$/;"	f	language:Lua
 parseItem	/home/mike/code/web/mhp3db/data/temp/genWeapons.lua	/^local function parseItem( line )$/;"	f	language:Lua
+readFile	/home/mike/code/web/mhp3db/data/temp/genWeapons.lua	/^function readFile( path )$/;"	f	language:Lua
+scraps 	/home/mike/code/web/mhp3db/data/temp/genWeapons.lua	/^	scraps = function( line, weapon )$/;"	f	language:Lua
 skip	/home/mike/code/web/mhp3db/data/temp/json.lua	/^local function skip( str, pos )$/;"	f	language:Lua
 slots 	/home/mike/code/web/mhp3db/data/temp/genWeapons.lua	/^	slots = function( line, weapon )$/;"	f	language:Lua
 special 	/home/mike/code/web/mhp3db/data/temp/genWeapons.lua	/^	special = function( line, weapon )$/;"	f	language:Lua

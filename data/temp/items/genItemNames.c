@@ -1,0 +1,72 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+char *contents( char *filename, int *len )
+{
+        FILE *file = fopen( filename, "r" );
+
+        if( file == NULL )
+        {
+                return "";
+        }
+
+        fseek( file, 0, SEEK_END );
+        *len = ftell( file );
+
+        fseek( file, 0, SEEK_SET );
+
+        char *contents = malloc( *len * sizeof( char ) + 1 );
+        fread( contents, *len, 1, file );
+
+        contents[ *len ] = '\0';
+
+        fclose( file );
+
+        return contents;
+}
+
+char *memnchr( char *haystack, char needle, int len )
+{
+	for( int i = 0; i < len; i++ )
+	{
+		if( haystack[ i ] == needle )
+		{
+			return haystack + i + 1;
+		}
+	}
+
+	return NULL;
+}
+
+int main()
+{
+	int len;
+	char *data = contents( "./items/items.bin", &len );
+
+	// get rid of the damn \n vim insists on adding...
+	data[ len - 1 ] = '\0';
+
+	char *currName = data;
+
+	printf( "[" );
+
+	while( 1 )
+	{
+		printf( "\n\t{\n\t\t\"name\" : \"%s\"\n\t}", currName );
+
+		char *nextName = memnchr( currName, '\0', len );
+
+		if( *nextName == NULL )
+		{
+			break;
+		}
+
+		printf( "," );
+
+		currName = nextName;
+	}
+
+	printf( "\n]\n" );
+
+	return EXIT_SUCCESS;
+}

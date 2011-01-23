@@ -1,20 +1,21 @@
-Old Yukomo Gunlance
+Old Yukumo Gunlance
 50
 N1
 R1
 0%
 ---
+Desc
 
-	Yukomo Gunlance
+	Yukumo Gunlance
 	70
 	N1
 	R1
 	0%
 	---
-	Yukomo Wood 1
+	Yukumo Wood 1
 	Iron Ore 1
 	750z
-	Yukomo Wood 3
+	Yukumo Wood 3
 	Iron Ore 3
 	Desc
 	Wood Scraps 1

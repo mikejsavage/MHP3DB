@@ -1,4 +1,4 @@
-Old Yukomo Cannon
+Old Yukumo Cannon
 50
 R1
 0%
@@ -28,7 +28,7 @@ Desc
 0
 0
 
-	Yukomo Cannon
+	Yukumo Cannon
 	80
 	R1
 	0%
@@ -36,10 +36,10 @@ Desc
 	Slow
 	None
 	Moderate
-	Yukomo Wood 1
+	Yukumo Wood 1
 	Iron Ore 1
 	990z
-	Yukomo Wood 2
+	Yukumo Wood 2
 	Iron Ore 4
 	Desc
 	Wood Scraps 1

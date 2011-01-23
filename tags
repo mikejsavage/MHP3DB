@@ -20,6 +20,7 @@ json.decode	/home/mike/code/web/mhp3db/json.lua	/^function json.decode( str )$/;
 json.encode	/home/mike/code/web/mhp3db/json.lua	/^function json.encode( object )$/;"	f	language:Lua
 json.null	/home/mike/code/web/mhp3db/json.lua	/^function json.null()$/;"	f	language:Lua
 loadTemplate	/home/mike/code/web/mhp3db/template.lua	/^function loadTemplate( file )$/;"	f	language:Lua
+recursiveWeaponTree	/home/mike/code/web/mhp3db/weapons.lua	/^function recursiveWeaponTree( class, startId, depth )$/;"	f	language:Lua
 skip	/home/mike/code/web/mhp3db/json.lua	/^local function skip( str, pos )$/;"	f	language:Lua
 string.at 	/home/mike/code/web/mhp3db/json.lua	/^string.at = function( self, idx )$/;"	f	language:Lua
 string.skip 	/home/mike/code/web/mhp3db/json.lua	/^string.skip = function( self, pos )$/;"	f	language:Lua

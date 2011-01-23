@@ -1,18 +1,19 @@
-Old Yukomo LS
+Old Yukumo LS
 50
 R1
 0%
 ---
+Desc
 
-	Yukomo Longsword
+	Yukumo Longsword
 	70
 	R1
 	0%
 	---
-	Yukomo Wood 1
+	Yukumo Wood 1
 	Iron Ore 1
 	750z
-	Yukomo Wood 3
+	Yukumo Wood 3
 	Iron Ore 3
 	Desc
 	Wood Scraps 1

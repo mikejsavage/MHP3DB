@@ -1,4 +1,4 @@
-Old Yukomo Bowgun
+Old Yukumo Bowgun
 50
 R1
 0%
@@ -27,7 +27,7 @@ Desc
 0
 0
 
-	Yukomo Bowgun
+	Yukumo Bowgun
 	70
 	R1
 	0%
@@ -36,7 +36,7 @@ Desc
 	None
 	Moderate
 	900z
-	Yukomo Wood 2
+	Yukumo Wood 2
 	Iron Ore 4
 	Desc
 	Wood Scraps 1
