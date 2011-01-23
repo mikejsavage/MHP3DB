@@ -217,6 +217,12 @@ function json.encode( object )
 			local str = "["
 			local len = table.getn( object )
 
+			if len == 0 then
+				return ( "%s]" ):format( str )
+			end
+
+			-- is it actually faster unrolling like this?...
+
 			for i = 1, len - 1 do
 				str = ( "%s%s," ):format( str, json.encode( object[ i ] ) )
 			end
@@ -226,12 +232,13 @@ function json.encode( object )
 
 		local str = "{"
 
+		-- ...if it is then this should be unrolled too
+
 		for key, val in pairs( object ) do
 			str = ( "%s\"%s\":%s," ):format( str, key, json.encode( val ) )
 		end
 
-		-- we can't unroll this so use str:sub to strip the
-		-- trailing comma
+		-- strip trailing comma
 		return ( "%s}" ):format( str:sub( 1, -2 ) )
 	end
 end
