@@ -4,6 +4,8 @@
 local treeItem = loadTemplate( "meleeTreeItem" )
 %}
 
+<h1>{{ icon( "equipment/" .. class.short ) }} {{ T( class.name ) }}</h1>
+
 <table class="data eq weapons">
 	<thead>
 		<tr>

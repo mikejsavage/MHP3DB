@@ -7,23 +7,30 @@ HeaderLinks =
 	{
 		text =
 		{
-			hgg = "weapons"
+			hgg = "weapons",
 		},
 		url = "weapons"
 	},
 	{
 		text =
 		{
-			hgg = "armory"
+			hgg = "armory",
 		},
 		url = "armory"
 	},
 	{
 		text =
 		{
-			hgg = "sets"
+			hgg = "sets",
 		},
 		url = "sets"
+	},
+	{
+		text =
+		{
+			hgg = "items",
+		},
+		url = "items"
 	},
 }
 

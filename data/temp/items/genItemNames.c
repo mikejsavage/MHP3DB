@@ -52,7 +52,7 @@ int main()
 
 	while( 1 )
 	{
-		printf( "\n\t{\n\t\t\"name\" : \"%s\"\n\t}", currName );
+		printf( "\n\t{\n\t\t\"name\" : {\n\t\t\t\"hgg\" : \"%s\"\n\t\t}\n\t}", currName );
 
 		char *nextName = memnchr( currName, '\0', len );
 

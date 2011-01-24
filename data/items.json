@@ -1,2444 +1,4072 @@
 [
 	{
-		"name" : "Book of Combos 1"
+		"name" : {
+			"hgg" : "Book of Combos 1"
+		}
 	},
 	{
-		"name" : "Book of Combos 2"
+		"name" : {
+			"hgg" : "Book of Combos 2"
+		}
 	},
 	{
-		"name" : "Book of Combos 3"
+		"name" : {
+			"hgg" : "Book of Combos 3"
+		}
 	},
 	{
-		"name" : "Book of Combos 4"
+		"name" : {
+			"hgg" : "Book of Combos 4"
+		}
 	},
 	{
-		"name" : "Book of Combos 5"
+		"name" : {
+			"hgg" : "Book of Combos 5"
+		}
 	},
 	{
-		"name" : "Organizer Guide"
+		"name" : {
+			"hgg" : "Organizer Guide"
+		}
 	},
 	{
-		"name" : "BackPacker Guide"
+		"name" : {
+			"hgg" : "BackPacker Guide"
+		}
 	},
 	{
-		"name" : "Potion"
+		"name" : {
+			"hgg" : "Potion"
+		}
 	},
 	{
-		"name" : "Mega Potion"
+		"name" : {
+			"hgg" : "Mega Potion"
+		}
 	},
 	{
-		"name" : "Nutrients"
+		"name" : {
+			"hgg" : "Nutrients"
+		}
 	},
 	{
-		"name" : "Mega Nutrients"
+		"name" : {
+			"hgg" : "Mega Nutrients"
+		}
 	},
 	{
-		"name" : "Antidote"
+		"name" : {
+			"hgg" : "Antidote"
+		}
 	},
 	{
-		"name" : "Herbal Medicine"
+		"name" : {
+			"hgg" : "Herbal Medicine"
+		}
 	},
 	{
-		"name" : "Immunizer"
+		"name" : {
+			"hgg" : "Immunizer"
+		}
 	},
 	{
-		"name" : "Energy Drink"
+		"name" : {
+			"hgg" : "Energy Drink"
+		}
 	},
 	{
-		"name" : "Power Juice"
+		"name" : {
+			"hgg" : "Power Juice"
+		}
 	},
 	{
-		"name" : "Mega Juice"
+		"name" : {
+			"hgg" : "Mega Juice"
+		}
 	},
 	{
-		"name" : "Demondrug"
+		"name" : {
+			"hgg" : "Demondrug"
+		}
 	},
 	{
-		"name" : "Mega Demondrug"
+		"name" : {
+			"hgg" : "Mega Demondrug"
+		}
 	},
 	{
-		"name" : "Power Pill"
+		"name" : {
+			"hgg" : "Power Pill"
+		}
 	},
 	{
-		"name" : "Armorskin"
+		"name" : {
+			"hgg" : "Armorskin"
+		}
 	},
 	{
-		"name" : "Mega Armorskin"
+		"name" : {
+			"hgg" : "Mega Armorskin"
+		}
 	},
 	{
-		"name" : "Armor Pill"
+		"name" : {
+			"hgg" : "Armor Pill"
+		}
 	},
 	{
-		"name" : "Cool Drink"
+		"name" : {
+			"hgg" : "Cool Drink"
+		}
 	},
 	{
-		"name" : "Hot Drink"
+		"name" : {
+			"hgg" : "Hot Drink"
+		}
 	},
 	{
-		"name" : "Cleanser"
+		"name" : {
+			"hgg" : "Cleanser"
+		}
 	},
 	{
-		"name" : "Deodorant"
+		"name" : {
+			"hgg" : "Deodorant"
+		}
 	},
 	{
-		"name" : "Psychoserum"
+		"name" : {
+			"hgg" : "Psychoserum"
+		}
 	},
 	{
-		"name" : "Max Potion"
+		"name" : {
+			"hgg" : "Max Potion"
+		}
 	},
 	{
-		"name" : "Ancient Potion"
+		"name" : {
+			"hgg" : "Ancient Potion"
+		}
 	},
 	{
-		"name" : "Lifecrystals"
+		"name" : {
+			"hgg" : "Lifecrystals"
+		}
 	},
 	{
-		"name" : "Lifepowder"
+		"name" : {
+			"hgg" : "Lifepowder"
+		}
 	},
 	{
-		"name" : "Catalyst"
+		"name" : {
+			"hgg" : "Catalyst"
+		}
 	},
 	{
-		"name" : "Tranquilizer"
+		"name" : {
+			"hgg" : "Tranquilizer"
+		}
 	},
 	{
-		"name" : "Power Charm"
+		"name" : {
+			"hgg" : "Power Charm"
+		}
 	},
 	{
-		"name" : "Powertalon"
+		"name" : {
+			"hgg" : "Powertalon"
+		}
 	},
 	{
-		"name" : "Armor Charm"
+		"name" : {
+			"hgg" : "Armor Charm"
+		}
 	},
 	{
-		"name" : "Armortalon"
+		"name" : {
+			"hgg" : "Armortalon"
+		}
 	},
 	{
-		"name" : "Raw Meat"
+		"name" : {
+			"hgg" : "Raw Meat"
+		}
 	},
 	{
-		"name" : "Poisoned Meat"
+		"name" : {
+			"hgg" : "Poisoned Meat"
+		}
 	},
 	{
-		"name" : "Tainted Meat"
+		"name" : {
+			"hgg" : "Tainted Meat"
+		}
 	},
 	{
-		"name" : "Drugged Meat"
+		"name" : {
+			"hgg" : "Drugged Meat"
+		}
 	},
 	{
-		"name" : "Rare Steak"
+		"name" : {
+			"hgg" : "Rare Steak"
+		}
 	},
 	{
-		"name" : "Well-Done Steak"
+		"name" : {
+			"hgg" : "Well-Done Steak"
+		}
 	},
 	{
-		"name" : "Burnt Meat"
+		"name" : {
+			"hgg" : "Burnt Meat"
+		}
 	},
 	{
-		"name" : "Cold Meat"
+		"name" : {
+			"hgg" : "Cold Meat"
+		}
 	},
 	{
-		"name" : "Hot Meat"
+		"name" : {
+			"hgg" : "Hot Meat"
+		}
 	},
 	{
-		"name" : "Rare Fish"
+		"name" : {
+			"hgg" : "Rare Fish"
+		}
 	},
 	{
-		"name" : "Gourmet Fish"
+		"name" : {
+			"hgg" : "Gourmet Fish"
+		}
 	},
 	{
-		"name" : "Burnt Fish"
+		"name" : {
+			"hgg" : "Burnt Fish"
+		}
 	},
 	{
-		"name" : "Hotspring Egg"
+		"name" : {
+			"hgg" : "Hotspring Egg"
+		}
 	},
 	{
-		"name" : "Boomerang"
+		"name" : {
+			"hgg" : "Boomerang"
+		}
 	},
 	{
-		"name" : "Throwing Knife"
+		"name" : {
+			"hgg" : "Throwing Knife"
+		}
 	},
 	{
-		"name" : "Poison Thrw Knf"
+		"name" : {
+			"hgg" : "Poison Thrw Knf"
+		}
 	},
 	{
-		"name" : "SleepingThrwKnf"
+		"name" : {
+			"hgg" : "SleepingThrwKnf"
+		}
 	},
 	{
-		"name" : "ParalyzeThrwKnf"
+		"name" : {
+			"hgg" : "ParalyzeThrwKnf"
+		}
 	},
 	{
-		"name" : "Tranq Thrw Knf"
+		"name" : {
+			"hgg" : "Tranq Thrw Knf"
+		}
 	},
 	{
-		"name" : "Bomb Material"
+		"name" : {
+			"hgg" : "Bomb Material"
+		}
 	},
 	{
-		"name" : "Paintball"
+		"name" : {
+			"hgg" : "Paintball"
+		}
 	},
 	{
-		"name" : "Flash Bomb"
+		"name" : {
+			"hgg" : "Flash Bomb"
+		}
 	},
 	{
-		"name" : "Sonic Bomb"
+		"name" : {
+			"hgg" : "Sonic Bomb"
+		}
 	},
 	{
-		"name" : "Dung"
+		"name" : {
+			"hgg" : "Dung"
+		}
 	},
 	{
-		"name" : "Wyvern Droppings"
+		"name" : {
+			"hgg" : "Wyvern Droppings"
+		}
 	},
 	{
-		"name" : "Dung Bomb"
+		"name" : {
+			"hgg" : "Dung Bomb"
+		}
 	},
 	{
-		"name" : "Smoke Bomb"
+		"name" : {
+			"hgg" : "Smoke Bomb"
+		}
 	},
 	{
-		"name" : "Poison Bomb"
+		"name" : {
+			"hgg" : "Poison Bomb"
+		}
 	},
 	{
-		"name" : "Farcaster"
+		"name" : {
+			"hgg" : "Farcaster"
+		}
 	},
 	{
-		"name" : "Tranq Bomb"
+		"name" : {
+			"hgg" : "Tranq Bomb"
+		}
 	},
 	{
-		"name" : "Spiderweb"
+		"name" : {
+			"hgg" : "Spiderweb"
+		}
 	},
 	{
-		"name" : "Net"
+		"name" : {
+			"hgg" : "Net"
+		}
 	},
 	{
-		"name" : "Trap Tool"
+		"name" : {
+			"hgg" : "Trap Tool"
+		}
 	},
 	{
-		"name" : "Pitfall Trap"
+		"name" : {
+			"hgg" : "Pitfall Trap"
+		}
 	},
 	{
-		"name" : "Shock Trap"
+		"name" : {
+			"hgg" : "Shock Trap"
+		}
 	},
 	{
-		"name" : "Gunpowder"
+		"name" : {
+			"hgg" : "Gunpowder"
+		}
 	},
 	{
-		"name" : "Small Barrel"
+		"name" : {
+			"hgg" : "Small Barrel"
+		}
 	},
 	{
-		"name" : "Large Barrel"
+		"name" : {
+			"hgg" : "Large Barrel"
+		}
 	},
 	{
-		"name" : "Sm Barrel-Bomb"
+		"name" : {
+			"hgg" : "Sm Barrel-Bomb"
+		}
 	},
 	{
-		"name" : "Lg Barrel-Bomb"
+		"name" : {
+			"hgg" : "Lg Barrel-Bomb"
+		}
 	},
 	{
-		"name" : "Lg Barrel-Bomb+"
+		"name" : {
+			"hgg" : "Lg Barrel-Bomb+"
+		}
 	},
 	{
-		"name" : "Bounce Bomb"
+		"name" : {
+			"hgg" : "Bounce Bomb"
+		}
 	},
 	{
-		"name" : "Catnip Bomb"
+		"name" : {
+			"hgg" : "Catnip Bomb"
+		}
 	},
 	{
-		"name" : "Jump Barrel Bmb"
+		"name" : {
+			"hgg" : "Jump Barrel Bmb"
+		}
 	},
 	{
-		"name" : "Polytan Bomb"
+		"name" : {
+			"hgg" : "Polytan Bomb"
+		}
 	},
 	{
-		"name" : "Old Pickaxe"
+		"name" : {
+			"hgg" : "Old Pickaxe"
+		}
 	},
 	{
-		"name" : "Iron Pickaxe"
+		"name" : {
+			"hgg" : "Iron Pickaxe"
+		}
 	},
 	{
-		"name" : "Mega Pickaxe"
+		"name" : {
+			"hgg" : "Mega Pickaxe"
+		}
 	},
 	{
-		"name" : "Old Bugnet"
+		"name" : {
+			"hgg" : "Old Bugnet"
+		}
 	},
 	{
-		"name" : "Bugnet"
+		"name" : {
+			"hgg" : "Bugnet"
+		}
 	},
 	{
-		"name" : "Mega Bugnet"
+		"name" : {
+			"hgg" : "Mega Bugnet"
+		}
 	},
 	{
-		"name" : "BBQ Spit"
+		"name" : {
+			"hgg" : "BBQ Spit"
+		}
 	},
 	{
-		"name" : "Whetstone"
+		"name" : {
+			"hgg" : "Whetstone"
+		}
 	},
 	{
-		"name" : "Huskberry"
+		"name" : {
+			"hgg" : "Huskberry"
+		}
 	},
 	{
-		"name" : "Bone Husk"
+		"name" : {
+			"hgg" : "Bone Husk"
+		}
 	},
 	{
-		"name" : "Normal S Lv1"
+		"name" : {
+			"hgg" : "Normal S Lv1"
+		}
 	},
 	{
-		"name" : "Normal S Lv2"
+		"name" : {
+			"hgg" : "Normal S Lv2"
+		}
 	},
 	{
-		"name" : "Normal S Lv3"
+		"name" : {
+			"hgg" : "Normal S Lv3"
+		}
 	},
 	{
-		"name" : "Pierce S Lv1"
+		"name" : {
+			"hgg" : "Pierce S Lv1"
+		}
 	},
 	{
-		"name" : "Pierce S Lv2"
+		"name" : {
+			"hgg" : "Pierce S Lv2"
+		}
 	},
 	{
-		"name" : "Pierce S Lv3"
+		"name" : {
+			"hgg" : "Pierce S Lv3"
+		}
 	},
 	{
-		"name" : "Pellet S Lv1"
+		"name" : {
+			"hgg" : "Pellet S Lv1"
+		}
 	},
 	{
-		"name" : "Pellet S Lv2"
+		"name" : {
+			"hgg" : "Pellet S Lv2"
+		}
 	},
 	{
-		"name" : "Pellet S Lv3"
+		"name" : {
+			"hgg" : "Pellet S Lv3"
+		}
 	},
 	{
-		"name" : "Crag S Lv1"
+		"name" : {
+			"hgg" : "Crag S Lv1"
+		}
 	},
 	{
-		"name" : "Crag S Lv2"
+		"name" : {
+			"hgg" : "Crag S Lv2"
+		}
 	},
 	{
-		"name" : "Crag S Lv3"
+		"name" : {
+			"hgg" : "Crag S Lv3"
+		}
 	},
 	{
-		"name" : "Clust S Lv1"
+		"name" : {
+			"hgg" : "Clust S Lv1"
+		}
 	},
 	{
-		"name" : "Clust S Lv2"
+		"name" : {
+			"hgg" : "Clust S Lv2"
+		}
 	},
 	{
-		"name" : "Clust S Lv3"
+		"name" : {
+			"hgg" : "Clust S Lv3"
+		}
 	},
 	{
-		"name" : "Flaming S"
+		"name" : {
+			"hgg" : "Flaming S"
+		}
 	},
 	{
-		"name" : "Water S"
+		"name" : {
+			"hgg" : "Water S"
+		}
 	},
 	{
-		"name" : "Thunder S"
+		"name" : {
+			"hgg" : "Thunder S"
+		}
 	},
 	{
-		"name" : "Freeze S"
+		"name" : {
+			"hgg" : "Freeze S"
+		}
 	},
 	{
-		"name" : "Dragon S"
+		"name" : {
+			"hgg" : "Dragon S"
+		}
 	},
 	{
-		"name" : "Cutter S"
+		"name" : {
+			"hgg" : "Cutter S"
+		}
 	},
 	{
-		"name" : "Poison S Lv1"
+		"name" : {
+			"hgg" : "Poison S Lv1"
+		}
 	},
 	{
-		"name" : "Poison S Lv2"
+		"name" : {
+			"hgg" : "Poison S Lv2"
+		}
 	},
 	{
-		"name" : "Para S Lv1"
+		"name" : {
+			"hgg" : "Para S Lv1"
+		}
 	},
 	{
-		"name" : "Para S Lv2"
+		"name" : {
+			"hgg" : "Para S Lv2"
+		}
 	},
 	{
-		"name" : "Sleep S Lv1"
+		"name" : {
+			"hgg" : "Sleep S Lv1"
+		}
 	},
 	{
-		"name" : "Sleep S Lv2"
+		"name" : {
+			"hgg" : "Sleep S Lv2"
+		}
 	},
 	{
-		"name" : "Fatigue S Lv1"
+		"name" : {
+			"hgg" : "Fatigue S Lv1"
+		}
 	},
 	{
-		"name" : "Fatigue S Lv2"
+		"name" : {
+			"hgg" : "Fatigue S Lv2"
+		}
 	},
 	{
-		"name" : "Recov S Lv1"
+		"name" : {
+			"hgg" : "Recov S Lv1"
+		}
 	},
 	{
-		"name" : "Recov S Lv2"
+		"name" : {
+			"hgg" : "Recov S Lv2"
+		}
 	},
 	{
-		"name" : "Demon S"
+		"name" : {
+			"hgg" : "Demon S"
+		}
 	},
 	{
-		"name" : "Armor S"
+		"name" : {
+			"hgg" : "Armor S"
+		}
 	},
 	{
-		"name" : "Tranq S"
+		"name" : {
+			"hgg" : "Tranq S"
+		}
 	},
 	{
-		"name" : "Paint S"
+		"name" : {
+			"hgg" : "Paint S"
+		}
 	},
 	{
-		"name" : "No Bottle"
+		"name" : {
+			"hgg" : "No Bottle"
+		}
 	},
 	{
-		"name" : "Empty Bottle"
+		"name" : {
+			"hgg" : "Empty Bottle"
+		}
 	},
 	{
-		"name" : "Power Coating"
+		"name" : {
+			"hgg" : "Power Coating"
+		}
 	},
 	{
-		"name" : "Razor Coating"
+		"name" : {
+			"hgg" : "Razor Coating"
+		}
 	},
 	{
-		"name" : "Poison Coating"
+		"name" : {
+			"hgg" : "Poison Coating"
+		}
 	},
 	{
-		"name" : "ParalysisCoatng"
+		"name" : {
+			"hgg" : "ParalysisCoatng"
+		}
 	},
 	{
-		"name" : "Sleep Coating"
+		"name" : {
+			"hgg" : "Sleep Coating"
+		}
 	},
 	{
-		"name" : "Fatigue Coating"
+		"name" : {
+			"hgg" : "Fatigue Coating"
+		}
 	},
 	{
-		"name" : "Paint Coating"
+		"name" : {
+			"hgg" : "Paint Coating"
+		}
 	},
 	{
-		"name" : "Worm"
+		"name" : {
+			"hgg" : "Worm"
+		}
 	},
 	{
-		"name" : "MegaFishing Fly"
+		"name" : {
+			"hgg" : "MegaFishing Fly"
+		}
 	},
 	{
-		"name" : "Goldenfish Bait"
+		"name" : {
+			"hgg" : "Goldenfish Bait"
+		}
 	},
 	{
-		"name" : "Blast Bait"
+		"name" : {
+			"hgg" : "Blast Bait"
+		}
 	},
 	{
-		"name" : "Bountiful Bait"
+		"name" : {
+			"hgg" : "Bountiful Bait"
+		}
 	},
 	{
-		"name" : "Binoculars"
+		"name" : {
+			"hgg" : "Binoculars"
+		}
 	},
 	{
-		"name" : "Garbage"
+		"name" : {
+			"hgg" : "Garbage"
+		}
 	},
 	{
-		"name" : "Flute"
+		"name" : {
+			"hgg" : "Flute"
+		}
 	},
 	{
-		"name" : "Health Flute"
+		"name" : {
+			"hgg" : "Health Flute"
+		}
 	},
 	{
-		"name" : "Antidote Flute"
+		"name" : {
+			"hgg" : "Antidote Flute"
+		}
 	},
 	{
-		"name" : "Demon Flute"
+		"name" : {
+			"hgg" : "Demon Flute"
+		}
 	},
 	{
-		"name" : "Armor Flute"
+		"name" : {
+			"hgg" : "Armor Flute"
+		}
 	},
 	{
-		"name" : "Honey"
+		"name" : {
+			"hgg" : "Honey"
+		}
 	},
 	{
-		"name" : "Herb"
+		"name" : {
+			"hgg" : "Herb"
+		}
 	},
 	{
-		"name" : "Antidote Herb"
+		"name" : {
+			"hgg" : "Antidote Herb"
+		}
 	},
 	{
-		"name" : "Fire Herb"
+		"name" : {
+			"hgg" : "Fire Herb"
+		}
 	},
 	{
-		"name" : "Snow Herb"
+		"name" : {
+			"hgg" : "Snow Herb"
+		}
 	},
 	{
-		"name" : "Ivy"
+		"name" : {
+			"hgg" : "Ivy"
+		}
 	},
 	{
-		"name" : "Sleep Herb"
+		"name" : {
+			"hgg" : "Sleep Herb"
+		}
 	},
 	{
-		"name" : "Sap Plant"
+		"name" : {
+			"hgg" : "Sap Plant"
+		}
 	},
 	{
-		"name" : "Felvine"
+		"name" : {
+			"hgg" : "Felvine"
+		}
 	},
 	{
-		"name" : "Cactus Flower"
+		"name" : {
+			"hgg" : "Cactus Flower"
+		}
 	},
 	{
-		"name" : "Hot Pepper"
+		"name" : {
+			"hgg" : "Hot Pepper"
+		}
 	},
 	{
-		"name" : "Hypnotic Pollen"
+		"name" : {
+			"hgg" : "Hypnotic Pollen"
+		}
 	},
 	{
-		"name" : "Blue Mushroom"
+		"name" : {
+			"hgg" : "Blue Mushroom"
+		}
 	},
 	{
-		"name" : "Nitroshroom"
+		"name" : {
+			"hgg" : "Nitroshroom"
+		}
 	},
 	{
-		"name" : "Parashroom"
+		"name" : {
+			"hgg" : "Parashroom"
+		}
 	},
 	{
-		"name" : "Toadstool"
+		"name" : {
+			"hgg" : "Toadstool"
+		}
 	},
 	{
-		"name" : "Exciteshroom"
+		"name" : {
+			"hgg" : "Exciteshroom"
+		}
 	},
 	{
-		"name" : "Wearyshroom"
+		"name" : {
+			"hgg" : "Wearyshroom"
+		}
 	},
 	{
-		"name" : "Dragn Toadstool"
+		"name" : {
+			"hgg" : "Dragn Toadstool"
+		}
 	},
 	{
-		"name" : "Mega Parashroom"
+		"name" : {
+			"hgg" : "Mega Parashroom"
+		}
 	},
 	{
-		"name" : "Pickaxe Shroom"
+		"name" : {
+			"hgg" : "Pickaxe Shroom"
+		}
 	},
 	{
-		"name" : "Paintberry"
+		"name" : {
+			"hgg" : "Paintberry"
+		}
 	},
 	{
-		"name" : "Power Seed"
+		"name" : {
+			"hgg" : "Power Seed"
+		}
 	},
 	{
-		"name" : "Armor Seed"
+		"name" : {
+			"hgg" : "Armor Seed"
+		}
 	},
 	{
-		"name" : "Cure Seed"
+		"name" : {
+			"hgg" : "Cure Seed"
+		}
 	},
 	{
-		"name" : "Dragon Seed"
+		"name" : {
+			"hgg" : "Dragon Seed"
+		}
 	},
 	{
-		"name" : "Scatternut"
+		"name" : {
+			"hgg" : "Scatternut"
+		}
 	},
 	{
-		"name" : "Needleberry"
+		"name" : {
+			"hgg" : "Needleberry"
+		}
 	},
 	{
-		"name" : "Spikeberry"
+		"name" : {
+			"hgg" : "Spikeberry"
+		}
 	},
 	{
-		"name" : "Bomberry"
+		"name" : {
+			"hgg" : "Bomberry"
+		}
 	},
 	{
-		"name" : "Red seed"
+		"name" : {
+			"hgg" : "Red seed"
+		}
 	},
 	{
-		"name" : "Green seed"
+		"name" : {
+			"hgg" : "Green seed"
+		}
 	},
 	{
-		"name" : "Pepipo Pumpkin"
+		"name" : {
+			"hgg" : "Pepipo Pumpkin"
+		}
 	},
 	{
-		"name" : "Yukumo Wood"
+		"name" : {
+			"hgg" : "Yukumo Wood"
+		}
 	},
 	{
-		"name" : "Yukumo Wood+"
+		"name" : {
+			"hgg" : "Yukumo Wood+"
+		}
 	},
 	{
-		"name" : "High Qualty Ash"
+		"name" : {
+			"hgg" : "High Qualty Ash"
+		}
 	},
 	{
-		"name" : "Knife Mackerel"
+		"name" : {
+			"hgg" : "Knife Mackerel"
+		}
 	},
 	{
-		"name" : "Sushifish"
+		"name" : {
+			"hgg" : "Sushifish"
+		}
 	},
 	{
-		"name" : "Sleepyfish"
+		"name" : {
+			"hgg" : "Sleepyfish"
+		}
 	},
 	{
-		"name" : "Pin Tuna"
+		"name" : {
+			"hgg" : "Pin Tuna"
+		}
 	},
 	{
-		"name" : "Rumblefish"
+		"name" : {
+			"hgg" : "Rumblefish"
+		}
 	},
 	{
-		"name" : "Scatterfish"
+		"name" : {
+			"hgg" : "Scatterfish"
+		}
 	},
 	{
-		"name" : "Burst Arrowana"
+		"name" : {
+			"hgg" : "Burst Arrowana"
+		}
 	},
 	{
-		"name" : "Bomb Arrowana"
+		"name" : {
+			"hgg" : "Bomb Arrowana"
+		}
 	},
 	{
-		"name" : "Sm Goldenfish"
+		"name" : {
+			"hgg" : "Sm Goldenfish"
+		}
 	},
 	{
-		"name" : "Deepsea Sardine"
+		"name" : {
+			"hgg" : "Deepsea Sardine"
+		}
 	},
 	{
-		"name" : "Ancient Fish"
+		"name" : {
+			"hgg" : "Ancient Fish"
+		}
 	},
 	{
-		"name" : "Cutlassfish"
+		"name" : {
+			"hgg" : "Cutlassfish"
+		}
 	},
 	{
-		"name" : "Shellfish"
+		"name" : {
+			"hgg" : "Shellfish"
+		}
 	},
 	{
-		"name" : "Armord Beakfish"
+		"name" : {
+			"hgg" : "Armord Beakfish"
+		}
 	},
 	{
-		"name" : "Ancnt Sharkskin"
+		"name" : {
+			"hgg" : "Ancnt Sharkskin"
+		}
 	},
 	{
-		"name" : "Insect Husk"
+		"name" : {
+			"hgg" : "Insect Husk"
+		}
 	},
 	{
-		"name" : "Hawkmoth Larva"
+		"name" : {
+			"hgg" : "Hawkmoth Larva"
+		}
 	},
 	{
-		"name" : "Bombhopper"
+		"name" : {
+			"hgg" : "Bombhopper"
+		}
 	},
 	{
-		"name" : "Snakebee Larva"
+		"name" : {
+			"hgg" : "Snakebee Larva"
+		}
 	},
 	{
-		"name" : "Godbug"
+		"name" : {
+			"hgg" : "Godbug"
+		}
 	},
 	{
-		"name" : "Bitterbug"
+		"name" : {
+			"hgg" : "Bitterbug"
+		}
 	},
 	{
-		"name" : "Flashbug"
+		"name" : {
+			"hgg" : "Flashbug"
+		}
 	},
 	{
-		"name" : "Thunderbug"
+		"name" : {
+			"hgg" : "Thunderbug"
+		}
 	},
 	{
-		"name" : "Carpenterbug"
+		"name" : {
+			"hgg" : "Carpenterbug"
+		}
 	},
 	{
-		"name" : "Killer Beetle"
+		"name" : {
+			"hgg" : "Killer Beetle"
+		}
 	},
 	{
-		"name" : "Hercudrome"
+		"name" : {
+			"hgg" : "Hercudrome"
+		}
 	},
 	{
-		"name" : "Mega Thunderbug"
+		"name" : {
+			"hgg" : "Mega Thunderbug"
+		}
 	},
 	{
-		"name" : "King Scarab"
+		"name" : {
+			"hgg" : "King Scarab"
+		}
 	},
 	{
-		"name" : "Rare Scarab"
+		"name" : {
+			"hgg" : "Rare Scarab"
+		}
 	},
 	{
-		"name" : "Bell Cricket"
+		"name" : {
+			"hgg" : "Bell Cricket"
+		}
 	},
 	{
-		"name" : "Swallowtail"
+		"name" : {
+			"hgg" : "Swallowtail"
+		}
 	},
 	{
-		"name" : "Stone"
+		"name" : {
+			"hgg" : "Stone"
+		}
 	},
 	{
-		"name" : "Iron Ore"
+		"name" : {
+			"hgg" : "Iron Ore"
+		}
 	},
 	{
-		"name" : "Earth Crystal"
+		"name" : {
+			"hgg" : "Earth Crystal"
+		}
 	},
 	{
-		"name" : "Machalite Ore"
+		"name" : {
+			"hgg" : "Machalite Ore"
+		}
 	},
 	{
-		"name" : "Pelagicite Ore"
+		"name" : {
+			"hgg" : "Pelagicite Ore"
+		}
 	},
 	{
-		"name" : "Bealite Ore"
+		"name" : {
+			"hgg" : "Bealite Ore"
+		}
 	},
 	{
-		"name" : "Isisium Ore"
+		"name" : {
+			"hgg" : "Isisium Ore"
+		}
 	},
 	{
-		"name" : "Lightcrystal"
+		"name" : {
+			"hgg" : "Lightcrystal"
+		}
 	},
 	{
-		"name" : "Dragonite Ore"
+		"name" : {
+			"hgg" : "Dragonite Ore"
+		}
 	},
 	{
-		"name" : "Magma Shard"
+		"name" : {
+			"hgg" : "Magma Shard"
+		}
 	},
 	{
-		"name" : "Fire Stone"
+		"name" : {
+			"hgg" : "Fire Stone"
+		}
 	},
 	{
-		"name" : "Carbalite Ore"
+		"name" : {
+			"hgg" : "Carbalite Ore"
+		}
 	},
 	{
-		"name" : "Depthlite Ore"
+		"name" : {
+			"hgg" : "Depthlite Ore"
+		}
 	},
 	{
-		"name" : "Union Ore"
+		"name" : {
+			"hgg" : "Union Ore"
+		}
 	},
 	{
-		"name" : "Gracium Ore"
+		"name" : {
+			"hgg" : "Gracium Ore"
+		}
 	},
 	{
-		"name" : "Firecell Stone"
+		"name" : {
+			"hgg" : "Firecell Stone"
+		}
 	},
 	{
-		"name" : "Ice Crystal"
+		"name" : {
+			"hgg" : "Ice Crystal"
+		}
 	},
 	{
-		"name" : "Rainbow Crystal"
+		"name" : {
+			"hgg" : "Rainbow Crystal"
+		}
 	},
 	{
-		"name" : "Mystery Bone"
+		"name" : {
+			"hgg" : "Mystery Bone"
+		}
 	},
 	{
-		"name" : "Unknown Skull"
+		"name" : {
+			"hgg" : "Unknown Skull"
+		}
 	},
 	{
-		"name" : "Bone"
+		"name" : {
+			"hgg" : "Bone"
+		}
 	},
 	{
-		"name" : "Sm Monster Bone"
+		"name" : {
+			"hgg" : "Sm Monster Bone"
+		}
 	},
 	{
-		"name" : "Med Mnster Bone"
+		"name" : {
+			"hgg" : "Med Mnster Bone"
+		}
 	},
 	{
-		"name" : "Lg Monster Bone"
+		"name" : {
+			"hgg" : "Lg Monster Bone"
+		}
 	},
 	{
-		"name" : "Monster Bone+"
+		"name" : {
+			"hgg" : "Monster Bone+"
+		}
 	},
 	{
-		"name" : "Shrp Mnster Bne"
+		"name" : {
+			"hgg" : "Shrp Mnster Bne"
+		}
 	},
 	{
-		"name" : "Hrd Mnster Bone"
+		"name" : {
+			"hgg" : "Hrd Mnster Bone"
+		}
 	},
 	{
-		"name" : "Bird Wyvrn Bone"
+		"name" : {
+			"hgg" : "Bird Wyvrn Bone"
+		}
 	},
 	{
-		"name" : "Giant Bone"
+		"name" : {
+			"hgg" : "Giant Bone"
+		}
 	},
 	{
-		"name" : "Stout Bone"
+		"name" : {
+			"hgg" : "Stout Bone"
+		}
 	},
 	{
-		"name" : "Ancnt Drgn Bone"
+		"name" : {
+			"hgg" : "Ancnt Drgn Bone"
+		}
 	},
 	{
-		"name" : "Wyvern Fang"
+		"name" : {
+			"hgg" : "Wyvern Fang"
+		}
 	},
 	{
-		"name" : "Wyvern Claw "
+		"name" : {
+			"hgg" : "Wyvern Claw "
+		}
 	},
 	{
-		"name" : "BrdWyvern Stone"
+		"name" : {
+			"hgg" : "BrdWyvern Stone"
+		}
 	},
 	{
-		"name" : "Wyvern Stone"
+		"name" : {
+			"hgg" : "Wyvern Stone"
+		}
 	},
 	{
-		"name" : "EldrDragonBlood"
+		"name" : {
+			"hgg" : "EldrDragonBlood"
+		}
 	},
 	{
-		"name" : "Screamer"
+		"name" : {
+			"hgg" : "Screamer"
+		}
 	},
 	{
-		"name" : "Poison Sac"
+		"name" : {
+			"hgg" : "Poison Sac"
+		}
 	},
 	{
-		"name" : "Toxin Sac"
+		"name" : {
+			"hgg" : "Toxin Sac"
+		}
 	},
 	{
-		"name" : "Paralysis Sac"
+		"name" : {
+			"hgg" : "Paralysis Sac"
+		}
 	},
 	{
-		"name" : "Torpor Sac"
+		"name" : {
+			"hgg" : "Torpor Sac"
+		}
 	},
 	{
-		"name" : "Sleep Sac"
+		"name" : {
+			"hgg" : "Sleep Sac"
+		}
 	},
 	{
-		"name" : "Coma Sac"
+		"name" : {
+			"hgg" : "Coma Sac"
+		}
 	},
 	{
-		"name" : "Flame Sac"
+		"name" : {
+			"hgg" : "Flame Sac"
+		}
 	},
 	{
-		"name" : "Inferno Sac"
+		"name" : {
+			"hgg" : "Inferno Sac"
+		}
 	},
 	{
-		"name" : "Aqua Sac"
+		"name" : {
+			"hgg" : "Aqua Sac"
+		}
 	},
 	{
-		"name" : "Hydro Sac"
+		"name" : {
+			"hgg" : "Hydro Sac"
+		}
 	},
 	{
-		"name" : "Thunder Sac"
+		"name" : {
+			"hgg" : "Thunder Sac"
+		}
 	},
 	{
-		"name" : "Frost Sac"
+		"name" : {
+			"hgg" : "Frost Sac"
+		}
 	},
 	{
-		"name" : "Glacial Sac"
+		"name" : {
+			"hgg" : "Glacial Sac"
+		}
 	},
 	{
-		"name" : "Power Extract"
+		"name" : {
+			"hgg" : "Power Extract"
+		}
 	},
 	{
-		"name" : "Pale Extract"
+		"name" : {
+			"hgg" : "Pale Extract"
+		}
 	},
 	{
-		"name" : "Monster Fluid"
+		"name" : {
+			"hgg" : "Monster Fluid"
+		}
 	},
 	{
-		"name" : "Monster Broth"
+		"name" : {
+			"hgg" : "Monster Broth"
+		}
 	},
 	{
-		"name" : "Gagua Feather"
+		"name" : {
+			"hgg" : "Gagua Feather"
+		}
 	},
 	{
-		"name" : "Kelbi Horn"
+		"name" : {
+			"hgg" : "Kelbi Horn"
+		}
 	},
 	{
-		"name" : "Warm Pelt"
+		"name" : {
+			"hgg" : "Warm Pelt"
+		}
 	},
 	{
-		"name" : "High Qualty Plt"
+		"name" : {
+			"hgg" : "High Qualty Plt"
+		}
 	},
 	{
-		"name" : "Anteka Antlers"
+		"name" : {
+			"hgg" : "Anteka Antlers"
+		}
 	},
 	{
-		"name" : "Rhenoplos Shell"
+		"name" : {
+			"hgg" : "Rhenoplos Shell"
+		}
 	},
 	{
-		"name" : "Rhenoplos Crpce"
+		"name" : {
+			"hgg" : "Rhenoplos Crpce"
+		}
 	},
 	{
-		"name" : "Rhnplos Skl Shl"
+		"name" : {
+			"hgg" : "Rhnplos Skl Shl"
+		}
 	},
 	{
-		"name" : "Zuwaroposu Hide"
+		"name" : {
+			"hgg" : "Zuwaroposu Hide"
+		}
 	},
 	{
-		"name" : "Zuwaropsu Hide+"
+		"name" : {
+			"hgg" : "Zuwaropsu Hide+"
+		}
 	},
 	{
-		"name" : "Large Fin"
+		"name" : {
+			"hgg" : "Large Fin"
+		}
 	},
 	{
-		"name" : "Quality Fin"
+		"name" : {
+			"hgg" : "Quality Fin"
+		}
 	},
 	{
-		"name" : "Sharp Fang"
+		"name" : {
+			"hgg" : "Sharp Fang"
+		}
 	},
 	{
-		"name" : "Glossy Hide"
+		"name" : {
+			"hgg" : "Glossy Hide"
+		}
 	},
 	{
-		"name" : "Bnahabra Shell"
+		"name" : {
+			"hgg" : "Bnahabra Shell"
+		}
 	},
 	{
-		"name" : "Bnahabra Carpce"
+		"name" : {
+			"hgg" : "Bnahabra Carpce"
+		}
 	},
 	{
-		"name" : "Bnahabra Wing"
+		"name" : {
+			"hgg" : "Bnahabra Wing"
+		}
 	},
 	{
-		"name" : "Bnahabra Stingr"
+		"name" : {
+			"hgg" : "Bnahabra Stingr"
+		}
 	},
 	{
-		"name" : "Altaroth Jaw"
+		"name" : {
+			"hgg" : "Altaroth Jaw"
+		}
 	},
 	{
-		"name" : "Altarth Abdomen"
+		"name" : {
+			"hgg" : "Altarth Abdomen"
+		}
 	},
 	{
-		"name" : "Quality Abdomen"
+		"name" : {
+			"hgg" : "Quality Abdomen"
+		}
 	},
 	{
-		"name" : "Bullfango Pelt"
+		"name" : {
+			"hgg" : "Bullfango Pelt"
+		}
 	},
 	{
-		"name" : "Bullfango Head"
+		"name" : {
+			"hgg" : "Bullfango Head"
+		}
 	},
 	{
-		"name" : "Bulldrome Hide"
+		"name" : {
+			"hgg" : "Bulldrome Hide"
+		}
 	},
 	{
-		"name" : "Bulldrome Hide+"
+		"name" : {
+			"hgg" : "Bulldrome Hide+"
+		}
 	},
 	{
-		"name" : "Bulldrome Tusk"
+		"name" : {
+			"hgg" : "Bulldrome Tusk"
+		}
 	},
 	{
-		"name" : "Jaggi Scale"
+		"name" : {
+			"hgg" : "Jaggi Scale"
+		}
 	},
 	{
-		"name" : "Jaggi Scale+"
+		"name" : {
+			"hgg" : "Jaggi Scale+"
+		}
 	},
 	{
-		"name" : "Jaggi Hide"
+		"name" : {
+			"hgg" : "Jaggi Hide"
+		}
 	},
 	{
-		"name" : "Brd Wyvern Fang"
+		"name" : {
+			"hgg" : "Brd Wyvern Fang"
+		}
 	},
 	{
-		"name" : "Grt Jaggi Hide"
+		"name" : {
+			"hgg" : "Grt Jaggi Hide"
+		}
 	},
 	{
-		"name" : "Grt Jaggi Hide+"
+		"name" : {
+			"hgg" : "Grt Jaggi Hide+"
+		}
 	},
 	{
-		"name" : "Grt Jaggi Claw"
+		"name" : {
+			"hgg" : "Grt Jaggi Claw"
+		}
 	},
 	{
-		"name" : "Grt Jaggi Claw+"
+		"name" : {
+			"hgg" : "Grt Jaggi Claw+"
+		}
 	},
 	{
-		"name" : "Regal Frill"
+		"name" : {
+			"hgg" : "Regal Frill"
+		}
 	},
 	{
-		"name" : "Grt Jaggi Head"
+		"name" : {
+			"hgg" : "Grt Jaggi Head"
+		}
 	},
 	{
-		"name" : "Froggi Scale"
+		"name" : {
+			"hgg" : "Froggi Scale"
+		}
 	},
 	{
-		"name" : "Froggi Scale+"
+		"name" : {
+			"hgg" : "Froggi Scale+"
+		}
 	},
 	{
-		"name" : "Froggi Hide"
+		"name" : {
+			"hgg" : "Froggi Hide"
+		}
 	},
 	{
-		"name" : "Froggi Fang"
+		"name" : {
+			"hgg" : "Froggi Fang"
+		}
 	},
 	{
-		"name" : "Grt Froggi Hide"
+		"name" : {
+			"hgg" : "Grt Froggi Hide"
+		}
 	},
 	{
-		"name" : "Grt Frggi Hide+"
+		"name" : {
+			"hgg" : "Grt Frggi Hide+"
+		}
 	},
 	{
-		"name" : "Grt Frggi Arm"
+		"name" : {
+			"hgg" : "Grt Frggi Arm"
+		}
 	},
 	{
-		"name" : "Grt Frggi Arm+"
+		"name" : {
+			"hgg" : "Grt Frggi Arm+"
+		}
 	},
 	{
-		"name" : "Regal Snout"
+		"name" : {
+			"hgg" : "Regal Snout"
+		}
 	},
 	{
-		"name" : "Baggi Scale"
+		"name" : {
+			"hgg" : "Baggi Scale"
+		}
 	},
 	{
-		"name" : "Baggi Scale+"
+		"name" : {
+			"hgg" : "Baggi Scale+"
+		}
 	},
 	{
-		"name" : "Baggi Hide"
+		"name" : {
+			"hgg" : "Baggi Hide"
+		}
 	},
 	{
-		"name" : "Grt Baggi Hide"
+		"name" : {
+			"hgg" : "Grt Baggi Hide"
+		}
 	},
 	{
-		"name" : "Grt Baggi Hide+"
+		"name" : {
+			"hgg" : "Grt Baggi Hide+"
+		}
 	},
 	{
-		"name" : "Grt Baggi Claw"
+		"name" : {
+			"hgg" : "Grt Baggi Claw"
+		}
 	},
 	{
-		"name" : "Grt Baggi Claw+"
+		"name" : {
+			"hgg" : "Grt Baggi Claw+"
+		}
 	},
 	{
-		"name" : "Regal Crest"
+		"name" : {
+			"hgg" : "Regal Crest"
+		}
 	},
 	{
-		"name" : "Aoashira Pelt"
+		"name" : {
+			"hgg" : "Aoashira Pelt"
+		}
 	},
 	{
-		"name" : "Aoashira Pelt+"
+		"name" : {
+			"hgg" : "Aoashira Pelt+"
+		}
 	},
 	{
-		"name" : "Aoashira Shell"
+		"name" : {
+			"hgg" : "Aoashira Shell"
+		}
 	},
 	{
-		"name" : "Aoashira Carpce"
+		"name" : {
+			"hgg" : "Aoashira Carpce"
+		}
 	},
 	{
-		"name" : "Aoashira Arm"
+		"name" : {
+			"hgg" : "Aoashira Arm"
+		}
 	},
 	{
-		"name" : "Aoashira Arm+"
+		"name" : {
+			"hgg" : "Aoashira Arm+"
+		}
 	},
 	{
-		"name" : "Urukusu Pelt"
+		"name" : {
+			"hgg" : "Urukusu Pelt"
+		}
 	},
 	{
-		"name" : "Urukusu Pelt+"
+		"name" : {
+			"hgg" : "Urukusu Pelt+"
+		}
 	},
 	{
-		"name" : "Urukusu Ear"
+		"name" : {
+			"hgg" : "Urukusu Ear"
+		}
 	},
 	{
-		"name" : "Urukusu Lng Ear"
+		"name" : {
+			"hgg" : "Urukusu Lng Ear"
+		}
 	},
 	{
-		"name" : "Urukusu Belly"
+		"name" : {
+			"hgg" : "Urukusu Belly"
+		}
 	},
 	{
-		"name" : "Urksu Hrd Belly"
+		"name" : {
+			"hgg" : "Urksu Hrd Belly"
+		}
 	},
 	{
-		"name" : "Urukusu Claw"
+		"name" : {
+			"hgg" : "Urukusu Claw"
+		}
 	},
 	{
-		"name" : "Urukusu Claw+"
+		"name" : {
+			"hgg" : "Urukusu Claw+"
+		}
 	},
 	{
-		"name" : "Rangurotora Shl"
+		"name" : {
+			"hgg" : "Rangurotora Shl"
+		}
 	},
 	{
-		"name" : "Rangurotora Cpc"
+		"name" : {
+			"hgg" : "Rangurotora Cpc"
+		}
 	},
 	{
-		"name" : "Rangurotora Clw"
+		"name" : {
+			"hgg" : "Rangurotora Clw"
+		}
 	},
 	{
-		"name" : "Rangurtora Clw+"
+		"name" : {
+			"hgg" : "Rangurtora Clw+"
+		}
 	},
 	{
-		"name" : "Rangrtora Belly"
+		"name" : {
+			"hgg" : "Rangrtora Belly"
+		}
 	},
 	{
-		"name" : "Qurupeco Scale"
+		"name" : {
+			"hgg" : "Qurupeco Scale"
+		}
 	},
 	{
-		"name" : "Qurupeco Scale+"
+		"name" : {
+			"hgg" : "Qurupeco Scale+"
+		}
 	},
 	{
-		"name" : "Qurupeco Feathr"
+		"name" : {
+			"hgg" : "Qurupeco Feathr"
+		}
 	},
 	{
-		"name" : "Qurupeco Wing"
+		"name" : {
+			"hgg" : "Qurupeco Wing"
+		}
 	},
 	{
-		"name" : "Vibrant Down"
+		"name" : {
+			"hgg" : "Vibrant Down"
+		}
 	},
 	{
-		"name" : "Queer Beak"
+		"name" : {
+			"hgg" : "Queer Beak"
+		}
 	},
 	{
-		"name" : "Splendid Beak"
+		"name" : {
+			"hgg" : "Splendid Beak"
+		}
 	},
 	{
-		"name" : "Flintstone"
+		"name" : {
+			"hgg" : "Flintstone"
+		}
 	},
 	{
-		"name" : "Red Qurpeco Scl"
+		"name" : {
+			"hgg" : "Red Qurpeco Scl"
+		}
 	},
 	{
-		"name" : "Red Qurpeco Wng"
+		"name" : {
+			"hgg" : "Red Qurpeco Wng"
+		}
 	},
 	{
-		"name" : "Piezo Crystal"
+		"name" : {
+			"hgg" : "Piezo Crystal"
+		}
 	},
 	{
-		"name" : "Ludroth Hide"
+		"name" : {
+			"hgg" : "Ludroth Hide"
+		}
 	},
 	{
-		"name" : "Ludroth Hide+"
+		"name" : {
+			"hgg" : "Ludroth Hide+"
+		}
 	},
 	{
-		"name" : "Juvenile Sponge"
+		"name" : {
+			"hgg" : "Juvenile Sponge"
+		}
 	},
 	{
-		"name" : "Spongy Hide"
+		"name" : {
+			"hgg" : "Spongy Hide"
+		}
 	},
 	{
-		"name" : "Spongy Hide+"
+		"name" : {
+			"hgg" : "Spongy Hide+"
+		}
 	},
 	{
-		"name" : "RoyalLudrothScl"
+		"name" : {
+			"hgg" : "RoyalLudrothScl"
+		}
 	},
 	{
-		"name" : "RoyalLudrthScl+"
+		"name" : {
+			"hgg" : "RoyalLudrthScl+"
+		}
 	},
 	{
-		"name" : "RoyalLudrothClw"
+		"name" : {
+			"hgg" : "RoyalLudrothClw"
+		}
 	},
 	{
-		"name" : "RoyalLudrthClw+"
+		"name" : {
+			"hgg" : "RoyalLudrthClw+"
+		}
 	},
 	{
-		"name" : "RyalLudrthCrest"
+		"name" : {
+			"hgg" : "RyalLudrthCrest"
+		}
 	},
 	{
-		"name" : "Exquisite Crest"
+		"name" : {
+			"hgg" : "Exquisite Crest"
+		}
 	},
 	{
-		"name" : "RoyalLudrthTail"
+		"name" : {
+			"hgg" : "RoyalLudrthTail"
+		}
 	},
 	{
-		"name" : "SpongyPurplHide"
+		"name" : {
+			"hgg" : "SpongyPurplHide"
+		}
 	},
 	{
-		"name" : "PurpRylLdrthScl"
+		"name" : {
+			"hgg" : "PurpRylLdrthScl"
+		}
 	},
 	{
-		"name" : "PurpRylLdrthClw"
+		"name" : {
+			"hgg" : "PurpRylLdrthClw"
+		}
 	},
 	{
-		"name" : "Barroth Shell"
+		"name" : {
+			"hgg" : "Barroth Shell"
+		}
 	},
 	{
-		"name" : "Barroth Carapce"
+		"name" : {
+			"hgg" : "Barroth Carapce"
+		}
 	},
 	{
-		"name" : "Barroth Spine"
+		"name" : {
+			"hgg" : "Barroth Spine"
+		}
 	},
 	{
-		"name" : "Barroth Thracic"
+		"name" : {
+			"hgg" : "Barroth Thracic"
+		}
 	},
 	{
-		"name" : "Barroth Claw"
+		"name" : {
+			"hgg" : "Barroth Claw"
+		}
 	},
 	{
-		"name" : "Barroth Claw+"
+		"name" : {
+			"hgg" : "Barroth Claw+"
+		}
 	},
 	{
-		"name" : "Barroth Skl Shl"
+		"name" : {
+			"hgg" : "Barroth Skl Shl"
+		}
 	},
 	{
-		"name" : "Barroth Tail"
+		"name" : {
+			"hgg" : "Barroth Tail"
+		}
 	},
 	{
-		"name" : "Fertile Mud"
+		"name" : {
+			"hgg" : "Fertile Mud"
+		}
 	},
 	{
-		"name" : "Ice Barroth Shl"
+		"name" : {
+			"hgg" : "Ice Barroth Shl"
+		}
 	},
 	{
-		"name" : "IceBarrothSpine"
+		"name" : {
+			"hgg" : "IceBarrothSpine"
+		}
 	},
 	{
-		"name" : "Ice Barroth Clw"
+		"name" : {
+			"hgg" : "Ice Barroth Clw"
+		}
 	},
 	{
-		"name" : "IceBarrthSklShl"
+		"name" : {
+			"hgg" : "IceBarrthSklShl"
+		}
 	},
 	{
-		"name" : "IceBarrothTail"
+		"name" : {
+			"hgg" : "IceBarrothTail"
+		}
 	},
 	{
-		"name" : "Frozen Mucus"
+		"name" : {
+			"hgg" : "Frozen Mucus"
+		}
 	},
 	{
-		"name" : "Hapurubokka Shl"
+		"name" : {
+			"hgg" : "Hapurubokka Shl"
+		}
 	},
 	{
-		"name" : "Hapurubokka Cpc"
+		"name" : {
+			"hgg" : "Hapurubokka Cpc"
+		}
 	},
 	{
-		"name" : "Hapurbokka Hide"
+		"name" : {
+			"hgg" : "Hapurbokka Hide"
+		}
 	},
 	{
-		"name" : "Haprbokka Hide+"
+		"name" : {
+			"hgg" : "Haprbokka Hide+"
+		}
 	},
 	{
-		"name" : "Hapurubokka Clw"
+		"name" : {
+			"hgg" : "Hapurubokka Clw"
+		}
 	},
 	{
-		"name" : "Hapurbokka Clw+"
+		"name" : {
+			"hgg" : "Hapurbokka Clw+"
+		}
 	},
 	{
-		"name" : "Hprbkka Skl Shl"
+		"name" : {
+			"hgg" : "Hprbkka Skl Shl"
+		}
 	},
 	{
-		"name" : "Brilliant Fluid"
+		"name" : {
+			"hgg" : "Brilliant Fluid"
+		}
 	},
 	{
-		"name" : "Chromatic Fluid"
+		"name" : {
+			"hgg" : "Chromatic Fluid"
+		}
 	},
 	{
-		"name" : "Gigginox Hide"
+		"name" : {
+			"hgg" : "Gigginox Hide"
+		}
 	},
 	{
-		"name" : "Gigginox Hide+"
+		"name" : {
+			"hgg" : "Gigginox Hide+"
+		}
 	},
 	{
-		"name" : "Uncanny Hide"
+		"name" : {
+			"hgg" : "Uncanny Hide"
+		}
 	},
 	{
-		"name" : "Uncanny Hide+"
+		"name" : {
+			"hgg" : "Uncanny Hide+"
+		}
 	},
 	{
-		"name" : "Gigginox Claw"
+		"name" : {
+			"hgg" : "Gigginox Claw"
+		}
 	},
 	{
-		"name" : "Gigginox Claw+"
+		"name" : {
+			"hgg" : "Gigginox Claw+"
+		}
 	},
 	{
-		"name" : "Horrific Maw"
+		"name" : {
+			"hgg" : "Horrific Maw"
+		}
 	},
 	{
-		"name" : "Poison Gland"
+		"name" : {
+			"hgg" : "Poison Gland"
+		}
 	},
 	{
-		"name" : "Venom Gland"
+		"name" : {
+			"hgg" : "Venom Gland"
+		}
 	},
 	{
-		"name" : "ThdrGiggnoxHide"
+		"name" : {
+			"hgg" : "ThdrGiggnoxHide"
+		}
 	},
 	{
-		"name" : "ThndrGiggnoxClw"
+		"name" : {
+			"hgg" : "ThndrGiggnoxClw"
+		}
 	},
 	{
-		"name" : "Rathian Scale"
+		"name" : {
+			"hgg" : "Rathian Scale"
+		}
 	},
 	{
-		"name" : "Rathian Scale+"
+		"name" : {
+			"hgg" : "Rathian Scale+"
+		}
 	},
 	{
-		"name" : "Rathian Shell"
+		"name" : {
+			"hgg" : "Rathian Shell"
+		}
 	},
 	{
-		"name" : "Rathian Carapce"
+		"name" : {
+			"hgg" : "Rathian Carapce"
+		}
 	},
 	{
-		"name" : "Rathian Webbing"
+		"name" : {
+			"hgg" : "Rathian Webbing"
+		}
 	},
 	{
-		"name" : "Rathian Spike"
+		"name" : {
+			"hgg" : "Rathian Spike"
+		}
 	},
 	{
-		"name" : "Rathian Spike+"
+		"name" : {
+			"hgg" : "Rathian Spike+"
+		}
 	},
 	{
-		"name" : "Rathian Plate"
+		"name" : {
+			"hgg" : "Rathian Plate"
+		}
 	},
 	{
-		"name" : "Rathian Ruby"
+		"name" : {
+			"hgg" : "Rathian Ruby"
+		}
 	},
 	{
-		"name" : "Gld Rathian Scl"
+		"name" : {
+			"hgg" : "Gld Rathian Scl"
+		}
 	},
 	{
-		"name" : "Gld Rathian Cpc"
+		"name" : {
+			"hgg" : "Gld Rathian Cpc"
+		}
 	},
 	{
-		"name" : "GldRathianSpike"
+		"name" : {
+			"hgg" : "GldRathianSpike"
+		}
 	},
 	{
-		"name" : "Rathalos Scale"
+		"name" : {
+			"hgg" : "Rathalos Scale"
+		}
 	},
 	{
-		"name" : "Rathalos Scale+"
+		"name" : {
+			"hgg" : "Rathalos Scale+"
+		}
 	},
 	{
-		"name" : "Rathalos Shell"
+		"name" : {
+			"hgg" : "Rathalos Shell"
+		}
 	},
 	{
-		"name" : "Rathalos Carpce"
+		"name" : {
+			"hgg" : "Rathalos Carpce"
+		}
 	},
 	{
-		"name" : "Rathalos Webbng"
+		"name" : {
+			"hgg" : "Rathalos Webbng"
+		}
 	},
 	{
-		"name" : "Rathalos Tail"
+		"name" : {
+			"hgg" : "Rathalos Tail"
+		}
 	},
 	{
-		"name" : "Rathalos Plate"
+		"name" : {
+			"hgg" : "Rathalos Plate"
+		}
 	},
 	{
-		"name" : "Rathalos Ruby"
+		"name" : {
+			"hgg" : "Rathalos Ruby"
+		}
 	},
 	{
-		"name" : "Slvr Rthlos Scl"
+		"name" : {
+			"hgg" : "Slvr Rthlos Scl"
+		}
 	},
 	{
-		"name" : "Slvr Rthlos Cpc"
+		"name" : {
+			"hgg" : "Slvr Rthlos Cpc"
+		}
 	},
 	{
-		"name" : "Slvr RthlosTail"
+		"name" : {
+			"hgg" : "Slvr RthlosTail"
+		}
 	},
 	{
-		"name" : "Fire Wyvern Clw"
+		"name" : {
+			"hgg" : "Fire Wyvern Clw"
+		}
 	},
 	{
-		"name" : "FireWyvrnMarrow"
+		"name" : {
+			"hgg" : "FireWyvrnMarrow"
+		}
 	},
 	{
-		"name" : "FireWyvrnBrnStm"
+		"name" : {
+			"hgg" : "FireWyvrnBrnStm"
+		}
 	},
 	{
-		"name" : "FireWyvernFluid"
+		"name" : {
+			"hgg" : "FireWyvernFluid"
+		}
 	},
 	{
-		"name" : "Jinouga Shell"
+		"name" : {
+			"hgg" : "Jinouga Shell"
+		}
 	},
 	{
-		"name" : "Jinouga Carapce"
+		"name" : {
+			"hgg" : "Jinouga Carapce"
+		}
 	},
 	{
-		"name" : "Jinouga Pelt"
+		"name" : {
+			"hgg" : "Jinouga Pelt"
+		}
 	},
 	{
-		"name" : "Jinouga Pelt+"
+		"name" : {
+			"hgg" : "Jinouga Pelt+"
+		}
 	},
 	{
-		"name" : "Jinouga Horn"
+		"name" : {
+			"hgg" : "Jinouga Horn"
+		}
 	},
 	{
-		"name" : "Jinouga Horn+"
+		"name" : {
+			"hgg" : "Jinouga Horn+"
+		}
 	},
 	{
-		"name" : "Jinouga Claw"
+		"name" : {
+			"hgg" : "Jinouga Claw"
+		}
 	},
 	{
-		"name" : "Jinouga Claw+"
+		"name" : {
+			"hgg" : "Jinouga Claw+"
+		}
 	},
 	{
-		"name" : "Jinouga Tail"
+		"name" : {
+			"hgg" : "Jinouga Tail"
+		}
 	},
 	{
-		"name" : "Static Carapace"
+		"name" : {
+			"hgg" : "Static Carapace"
+		}
 	},
 	{
-		"name" : "LightningCarpce"
+		"name" : {
+			"hgg" : "LightningCarpce"
+		}
 	},
 	{
-		"name" : "Jinouga Plate"
+		"name" : {
+			"hgg" : "Jinouga Plate"
+		}
 	},
 	{
-		"name" : "Jinouga Jewel"
+		"name" : {
+			"hgg" : "Jinouga Jewel"
+		}
 	},
 	{
-		"name" : "Narga Scale"
+		"name" : {
+			"hgg" : "Narga Scale"
+		}
 	},
 	{
-		"name" : "Narga Scale+"
+		"name" : {
+			"hgg" : "Narga Scale+"
+		}
 	},
 	{
-		"name" : "Black Narga Plt"
+		"name" : {
+			"hgg" : "Black Narga Plt"
+		}
 	},
 	{
-		"name" : "BlackNargaPelt+"
+		"name" : {
+			"hgg" : "BlackNargaPelt+"
+		}
 	},
 	{
-		"name" : "Nargacuga Tail"
+		"name" : {
+			"hgg" : "Nargacuga Tail"
+		}
 	},
 	{
-		"name" : "Narga TailSpike"
+		"name" : {
+			"hgg" : "Narga TailSpike"
+		}
 	},
 	{
-		"name" : "Nargacuga Wing"
+		"name" : {
+			"hgg" : "Nargacuga Wing"
+		}
 	},
 	{
-		"name" : "Nargacuga Wing+"
+		"name" : {
+			"hgg" : "Nargacuga Wing+"
+		}
 	},
 	{
-		"name" : "Nargacuga Fang"
+		"name" : {
+			"hgg" : "Nargacuga Fang"
+		}
 	},
 	{
-		"name" : "Nargacuga Fang+"
+		"name" : {
+			"hgg" : "Nargacuga Fang+"
+		}
 	},
 	{
-		"name" : "Narga Marrow"
+		"name" : {
+			"hgg" : "Narga Marrow"
+		}
 	},
 	{
-		"name" : "Narga Brain Stm"
+		"name" : {
+			"hgg" : "Narga Brain Stm"
+		}
 	},
 	{
-		"name" : "Green Narga Scl"
+		"name" : {
+			"hgg" : "Green Narga Scl"
+		}
 	},
 	{
-		"name" : "Grn Narga Pelt"
+		"name" : {
+			"hgg" : "Grn Narga Pelt"
+		}
 	},
 	{
-		"name" : "Grn Narga Wing"
+		"name" : {
+			"hgg" : "Grn Narga Wing"
+		}
 	},
 	{
-		"name" : "Grn Narga Fang"
+		"name" : {
+			"hgg" : "Grn Narga Fang"
+		}
 	},
 	{
-		"name" : "Barioth Shell"
+		"name" : {
+			"hgg" : "Barioth Shell"
+		}
 	},
 	{
-		"name" : "Barioth Carapce"
+		"name" : {
+			"hgg" : "Barioth Carapce"
+		}
 	},
 	{
-		"name" : "Barioth Pelt"
+		"name" : {
+			"hgg" : "Barioth Pelt"
+		}
 	},
 	{
-		"name" : "Barioth Pelt+"
+		"name" : {
+			"hgg" : "Barioth Pelt+"
+		}
 	},
 	{
-		"name" : "Barioth Claw"
+		"name" : {
+			"hgg" : "Barioth Claw"
+		}
 	},
 	{
-		"name" : "Barioth Claw+"
+		"name" : {
+			"hgg" : "Barioth Claw+"
+		}
 	},
 	{
-		"name" : "Barioth Spike"
+		"name" : {
+			"hgg" : "Barioth Spike"
+		}
 	},
 	{
-		"name" : "Barioth Tail"
+		"name" : {
+			"hgg" : "Barioth Tail"
+		}
 	},
 	{
-		"name" : "Amber Fang"
+		"name" : {
+			"hgg" : "Amber Fang"
+		}
 	},
 	{
-		"name" : "Amber Fang+"
+		"name" : {
+			"hgg" : "Amber Fang+"
+		}
 	},
 	{
-		"name" : "SandBariothShl"
+		"name" : {
+			"hgg" : "SandBariothShl"
+		}
 	},
 	{
-		"name" : "SandBariothPlt"
+		"name" : {
+			"hgg" : "SandBariothPlt"
+		}
 	},
 	{
-		"name" : "SandBariothClw"
+		"name" : {
+			"hgg" : "SandBariothClw"
+		}
 	},
 	{
-		"name" : "SandBariothTail"
+		"name" : {
+			"hgg" : "SandBariothTail"
+		}
 	},
 	{
-		"name" : "Sapphire Fang"
+		"name" : {
+			"hgg" : "Sapphire Fang"
+		}
 	},
 	{
-		"name" : "Hard Pleura"
+		"name" : {
+			"hgg" : "Hard Pleura"
+		}
 	},
 	{
-		"name" : "Uragaan Scale"
+		"name" : {
+			"hgg" : "Uragaan Scale"
+		}
 	},
 	{
-		"name" : "Uragaan Scale+"
+		"name" : {
+			"hgg" : "Uragaan Scale+"
+		}
 	},
 	{
-		"name" : "Uragaan Shell"
+		"name" : {
+			"hgg" : "Uragaan Shell"
+		}
 	},
 	{
-		"name" : "Uragaan Carapce"
+		"name" : {
+			"hgg" : "Uragaan Carapce"
+		}
 	},
 	{
-		"name" : "Uragaan Jaw"
+		"name" : {
+			"hgg" : "Uragaan Jaw"
+		}
 	},
 	{
-		"name" : "Uragaan Shield"
+		"name" : {
+			"hgg" : "Uragaan Shield"
+		}
 	},
 	{
-		"name" : "Uragaan Marrow"
+		"name" : {
+			"hgg" : "Uragaan Marrow"
+		}
 	},
 	{
-		"name" : "Uragaan Ruby"
+		"name" : {
+			"hgg" : "Uragaan Ruby"
+		}
 	},
 	{
-		"name" : "SteelUragaanScl"
+		"name" : {
+			"hgg" : "SteelUragaanScl"
+		}
 	},
 	{
-		"name" : "SteelUragaanCpc"
+		"name" : {
+			"hgg" : "SteelUragaanCpc"
+		}
 	},
 	{
-		"name" : "SteelUragaanJaw"
+		"name" : {
+			"hgg" : "SteelUragaanJaw"
+		}
 	},
 	{
-		"name" : "SteelUrgnShield"
+		"name" : {
+			"hgg" : "SteelUrgnShield"
+		}
 	},
 	{
-		"name" : "Doboru Shell"
+		"name" : {
+			"hgg" : "Doboru Shell"
+		}
 	},
 	{
-		"name" : "Doboru Carapace"
+		"name" : {
+			"hgg" : "Doboru Carapace"
+		}
 	},
 	{
-		"name" : "Mossy Carapace"
+		"name" : {
+			"hgg" : "Mossy Carapace"
+		}
 	},
 	{
-		"name" : "Mossy Carapace+"
+		"name" : {
+			"hgg" : "Mossy Carapace+"
+		}
 	},
 	{
-		"name" : "Doboru Kelp"
+		"name" : {
+			"hgg" : "Doboru Kelp"
+		}
 	},
 	{
-		"name" : "Doboru Tail"
+		"name" : {
+			"hgg" : "Doboru Tail"
+		}
 	},
 	{
-		"name" : "Doboru Tail+"
+		"name" : {
+			"hgg" : "Doboru Tail+"
+		}
 	},
 	{
-		"name" : "Doboru Horn"
+		"name" : {
+			"hgg" : "Doboru Horn"
+		}
 	},
 	{
-		"name" : "Doboru Horn+"
+		"name" : {
+			"hgg" : "Doboru Horn+"
+		}
 	},
 	{
-		"name" : "Doboru Tailbone"
+		"name" : {
+			"hgg" : "Doboru Tailbone"
+		}
 	},
 	{
-		"name" : "Doboru Sacrum"
+		"name" : {
+			"hgg" : "Doboru Sacrum"
+		}
 	},
 	{
-		"name" : "Tigrex Scale"
+		"name" : {
+			"hgg" : "Tigrex Scale"
+		}
 	},
 	{
-		"name" : "Tigrex Scale+"
+		"name" : {
+			"hgg" : "Tigrex Scale+"
+		}
 	},
 	{
-		"name" : "Tigrex Shell"
+		"name" : {
+			"hgg" : "Tigrex Shell"
+		}
 	},
 	{
-		"name" : "Tigrex Carapace"
+		"name" : {
+			"hgg" : "Tigrex Carapace"
+		}
 	},
 	{
-		"name" : "Tigrex Tail"
+		"name" : {
+			"hgg" : "Tigrex Tail"
+		}
 	},
 	{
-		"name" : "Tigrex Claw"
+		"name" : {
+			"hgg" : "Tigrex Claw"
+		}
 	},
 	{
-		"name" : "Tigrex Claw+"
+		"name" : {
+			"hgg" : "Tigrex Claw+"
+		}
 	},
 	{
-		"name" : "Tigrex Fang"
+		"name" : {
+			"hgg" : "Tigrex Fang"
+		}
 	},
 	{
-		"name" : "Tigrex Fang+"
+		"name" : {
+			"hgg" : "Tigrex Fang+"
+		}
 	},
 	{
-		"name" : "Tigrex Skl Shl"
+		"name" : {
+			"hgg" : "Tigrex Skl Shl"
+		}
 	},
 	{
-		"name" : "Tigrex Jaw"
+		"name" : {
+			"hgg" : "Tigrex Jaw"
+		}
 	},
 	{
-		"name" : "Blk Tigrex Scl"
+		"name" : {
+			"hgg" : "Blk Tigrex Scl"
+		}
 	},
 	{
-		"name" : "Blk Tigrex Shl"
+		"name" : {
+			"hgg" : "Blk Tigrex Shl"
+		}
 	},
 	{
-		"name" : "Blk Tigrex Claw"
+		"name" : {
+			"hgg" : "Blk Tigrex Claw"
+		}
 	},
 	{
-		"name" : "Blk Tigrex Fang"
+		"name" : {
+			"hgg" : "Blk Tigrex Fang"
+		}
 	},
 	{
-		"name" : "Diablos Shell"
+		"name" : {
+			"hgg" : "Diablos Shell"
+		}
 	},
 	{
-		"name" : "Diablos Carapce"
+		"name" : {
+			"hgg" : "Diablos Carapce"
+		}
 	},
 	{
-		"name" : "Diablos Spine"
+		"name" : {
+			"hgg" : "Diablos Spine"
+		}
 	},
 	{
-		"name" : "Diablos Thorcic"
+		"name" : {
+			"hgg" : "Diablos Thorcic"
+		}
 	},
 	{
-		"name" : "DiablosTailbone"
+		"name" : {
+			"hgg" : "DiablosTailbone"
+		}
 	},
 	{
-		"name" : "Blos Fang"
+		"name" : {
+			"hgg" : "Blos Fang"
+		}
 	},
 	{
-		"name" : "Twisted Horn"
+		"name" : {
+			"hgg" : "Twisted Horn"
+		}
 	},
 	{
-		"name" : "Majestic Horn"
+		"name" : {
+			"hgg" : "Majestic Horn"
+		}
 	},
 	{
-		"name" : "Diablos Marrow"
+		"name" : {
+			"hgg" : "Diablos Marrow"
+		}
 	},
 	{
-		"name" : "Diablos Brnstm"
+		"name" : {
+			"hgg" : "Diablos Brnstm"
+		}
 	},
 	{
-		"name" : "Black Blos Shl"
+		"name" : {
+			"hgg" : "Black Blos Shl"
+		}
 	},
 	{
-		"name" : "Blk Blos Spine"
+		"name" : {
+			"hgg" : "Blk Blos Spine"
+		}
 	},
 	{
-		"name" : "MajesticBlkHorn"
+		"name" : {
+			"hgg" : "MajesticBlkHorn"
+		}
 	},
 	{
-		"name" : "Uroktor Scale"
+		"name" : {
+			"hgg" : "Uroktor Scale"
+		}
 	},
 	{
-		"name" : "Uroktor Scale+"
+		"name" : {
+			"hgg" : "Uroktor Scale+"
+		}
 	},
 	{
-		"name" : "Agnaktor Scale"
+		"name" : {
+			"hgg" : "Agnaktor Scale"
+		}
 	},
 	{
-		"name" : "Agnaktor Shell"
+		"name" : {
+			"hgg" : "Agnaktor Shell"
+		}
 	},
 	{
-		"name" : "Agnaktor Carpce"
+		"name" : {
+			"hgg" : "Agnaktor Carpce"
+		}
 	},
 	{
-		"name" : "Agnaktor Hide"
+		"name" : {
+			"hgg" : "Agnaktor Hide"
+		}
 	},
 	{
-		"name" : "Agnaktor Hide+"
+		"name" : {
+			"hgg" : "Agnaktor Hide+"
+		}
 	},
 	{
-		"name" : "Agnaktor Claw"
+		"name" : {
+			"hgg" : "Agnaktor Claw"
+		}
 	},
 	{
-		"name" : "Agnaktor Claw+"
+		"name" : {
+			"hgg" : "Agnaktor Claw+"
+		}
 	},
 	{
-		"name" : "Agnaktor Fin"
+		"name" : {
+			"hgg" : "Agnaktor Fin"
+		}
 	},
 	{
-		"name" : "Agnaktor Fin+"
+		"name" : {
+			"hgg" : "Agnaktor Fin+"
+		}
 	},
 	{
-		"name" : "Agnaktor Snout"
+		"name" : {
+			"hgg" : "Agnaktor Snout"
+		}
 	},
 	{
-		"name" : "Agnaktor Tail"
+		"name" : {
+			"hgg" : "Agnaktor Tail"
+		}
 	},
 	{
-		"name" : "Igneous Thorax"
+		"name" : {
+			"hgg" : "Igneous Thorax"
+		}
 	},
 	{
-		"name" : "Igneous Thorax+"
+		"name" : {
+			"hgg" : "Igneous Thorax+"
+		}
 	},
 	{
-		"name" : "Ice Agnktor Shl"
+		"name" : {
+			"hgg" : "Ice Agnktor Shl"
+		}
 	},
 	{
-		"name" : "Ice Agnktr Hide"
+		"name" : {
+			"hgg" : "Ice Agnktr Hide"
+		}
 	},
 	{
-		"name" : "Ice Agnktor Clw"
+		"name" : {
+			"hgg" : "Ice Agnktor Clw"
+		}
 	},
 	{
-		"name" : "Ice Agnktor Fin"
+		"name" : {
+			"hgg" : "Ice Agnktor Fin"
+		}
 	},
 	{
-		"name" : "IceAgnktorSnout"
+		"name" : {
+			"hgg" : "IceAgnktorSnout"
+		}
 	},
 	{
-		"name" : "Ice Agnktr Tail"
+		"name" : {
+			"hgg" : "Ice Agnktr Tail"
+		}
 	},
 	{
-		"name" : "Clammy Thorax"
+		"name" : {
+			"hgg" : "Clammy Thorax"
+		}
 	},
 	{
-		"name" : "Jhen Mohran Shl"
+		"name" : {
+			"hgg" : "Jhen Mohran Shl"
+		}
 	},
 	{
-		"name" : "Jhen Mohran Cpc"
+		"name" : {
+			"hgg" : "Jhen Mohran Cpc"
+		}
 	},
 	{
-		"name" : "Jhen Mohran Scl"
+		"name" : {
+			"hgg" : "Jhen Mohran Scl"
+		}
 	},
 	{
-		"name" : "Jhen Mhran Scl+"
+		"name" : {
+			"hgg" : "Jhen Mhran Scl+"
+		}
 	},
 	{
-		"name" : "Jhen Mohran Arm"
+		"name" : {
+			"hgg" : "Jhen Mohran Arm"
+		}
 	},
 	{
-		"name" : "Jhen Mhran Arm+"
+		"name" : {
+			"hgg" : "Jhen Mhran Arm+"
+		}
 	},
 	{
-		"name" : "Jhen Mhran Fang"
+		"name" : {
+			"hgg" : "Jhen Mhran Fang"
+		}
 	},
 	{
-		"name" : "Jhen Mhrn Fang+"
+		"name" : {
+			"hgg" : "Jhen Mhrn Fang+"
+		}
 	},
 	{
-		"name" : "Jhen Mohran Jwl"
+		"name" : {
+			"hgg" : "Jhen Mohran Jwl"
+		}
 	},
 	{
-		"name" : "Deviljho Scale"
+		"name" : {
+			"hgg" : "Deviljho Scale"
+		}
 	},
 	{
-		"name" : "Deviljho Hide"
+		"name" : {
+			"hgg" : "Deviljho Hide"
+		}
 	},
 	{
-		"name" : "Deviljho Fang"
+		"name" : {
+			"hgg" : "Deviljho Fang"
+		}
 	},
 	{
-		"name" : "Deviljho Claw"
+		"name" : {
+			"hgg" : "Deviljho Claw"
+		}
 	},
 	{
-		"name" : "Dviljho Skl Shl"
+		"name" : {
+			"hgg" : "Dviljho Skl Shl"
+		}
 	},
 	{
-		"name" : "Deviljho Tail"
+		"name" : {
+			"hgg" : "Deviljho Tail"
+		}
 	},
 	{
-		"name" : "Deviljho Drool"
+		"name" : {
+			"hgg" : "Deviljho Drool"
+		}
 	},
 	{
-		"name" : "Deviljho Jewel"
+		"name" : {
+			"hgg" : "Deviljho Jewel"
+		}
 	},
 	{
-		"name" : "Akantor Scale"
+		"name" : {
+			"hgg" : "Akantor Scale"
+		}
 	},
 	{
-		"name" : "Akantor Shell"
+		"name" : {
+			"hgg" : "Akantor Shell"
+		}
 	},
 	{
-		"name" : "Akantor Tail"
+		"name" : {
+			"hgg" : "Akantor Tail"
+		}
 	},
 	{
-		"name" : "Akantor Claw"
+		"name" : {
+			"hgg" : "Akantor Claw"
+		}
 	},
 	{
-		"name" : "Akantor Fang"
+		"name" : {
+			"hgg" : "Akantor Fang"
+		}
 	},
 	{
-		"name" : "Akantor Spike"
+		"name" : {
+			"hgg" : "Akantor Spike"
+		}
 	},
 	{
-		"name" : "Akantor Jewel"
+		"name" : {
+			"hgg" : "Akantor Jewel"
+		}
 	},
 	{
-		"name" : "Ukanlos Shell"
+		"name" : {
+			"hgg" : "Ukanlos Shell"
+		}
 	},
 	{
-		"name" : "Ukanlos Scale"
+		"name" : {
+			"hgg" : "Ukanlos Scale"
+		}
 	},
 	{
-		"name" : "Ukanlos Tail"
+		"name" : {
+			"hgg" : "Ukanlos Tail"
+		}
 	},
 	{
-		"name" : "Ukanlos Claw"
+		"name" : {
+			"hgg" : "Ukanlos Claw"
+		}
 	},
 	{
-		"name" : "Ukanlos Jaw"
+		"name" : {
+			"hgg" : "Ukanlos Jaw"
+		}
 	},
 	{
-		"name" : "Ukanlos Fin"
+		"name" : {
+			"hgg" : "Ukanlos Fin"
+		}
 	},
 	{
-		"name" : "Ukanlos Jewel"
+		"name" : {
+			"hgg" : "Ukanlos Jewel"
+		}
 	},
 	{
-		"name" : "Alatreon Shell"
+		"name" : {
+			"hgg" : "Alatreon Shell"
+		}
 	},
 	{
-		"name" : "Alatreon Plate"
+		"name" : {
+			"hgg" : "Alatreon Plate"
+		}
 	},
 	{
-		"name" : "Alatreon Claw"
+		"name" : {
+			"hgg" : "Alatreon Claw"
+		}
 	},
 	{
-		"name" : "Alatreon Webbng"
+		"name" : {
+			"hgg" : "Alatreon Webbng"
+		}
 	},
 	{
-		"name" : "Alatreon Tail"
+		"name" : {
+			"hgg" : "Alatreon Tail"
+		}
 	},
 	{
-		"name" : "Alatreon Horn"
+		"name" : {
+			"hgg" : "Alatreon Horn"
+		}
 	},
 	{
-		"name" : "Alatreon Horn+"
+		"name" : {
+			"hgg" : "Alatreon Horn+"
+		}
 	},
 	{
-		"name" : "Alatreon Jewel"
+		"name" : {
+			"hgg" : "Alatreon Jewel"
+		}
 	},
 	{
-		"name" : "Amatsu Shell"
+		"name" : {
+			"hgg" : "Amatsu Shell"
+		}
 	},
 	{
-		"name" : "Amatsu Patagium"
+		"name" : {
+			"hgg" : "Amatsu Patagium"
+		}
 	},
 	{
-		"name" : "Amatsu Horn"
+		"name" : {
+			"hgg" : "Amatsu Horn"
+		}
 	},
 	{
-		"name" : "Amatsu Claw"
+		"name" : {
+			"hgg" : "Amatsu Claw"
+		}
 	},
 	{
-		"name" : "Amatsu Tail"
+		"name" : {
+			"hgg" : "Amatsu Tail"
+		}
 	},
 	{
-		"name" : "Amatsu Thorax"
+		"name" : {
+			"hgg" : "Amatsu Thorax"
+		}
 	},
 	{
-		"name" : "Tempest Sac"
+		"name" : {
+			"hgg" : "Tempest Sac"
+		}
 	},
 	{
-		"name" : "Amatsu Jewel"
+		"name" : {
+			"hgg" : "Amatsu Jewel"
+		}
 	},
 	{
-		"name" : "Ruststone"
+		"name" : {
+			"hgg" : "Ruststone"
+		}
 	},
 	{
-		"name" : "Ancient Stone"
+		"name" : {
+			"hgg" : "Ancient Stone"
+		}
 	},
 	{
-		"name" : "Rustshard"
+		"name" : {
+			"hgg" : "Rustshard"
+		}
 	},
 	{
-		"name" : "Lrg Ancnt Shard"
+		"name" : {
+			"hgg" : "Lrg Ancnt Shard"
+		}
 	},
 	{
-		"name" : "Thn Ancnt Shard"
+		"name" : {
+			"hgg" : "Thn Ancnt Shard"
+		}
 	},
 	{
-		"name" : "Lng Ancnt Shard"
+		"name" : {
+			"hgg" : "Lng Ancnt Shard"
+		}
 	},
 	{
-		"name" : "Steel Egg"
+		"name" : {
+			"hgg" : "Steel Egg"
+		}
 	},
 	{
-		"name" : "Silver Egg"
+		"name" : {
+			"hgg" : "Silver Egg"
+		}
 	},
 	{
-		"name" : "Golden Egg"
+		"name" : {
+			"hgg" : "Golden Egg"
+		}
 	},
 	{
-		"name" : "Commendation"
+		"name" : {
+			"hgg" : "Commendation"
+		}
 	},
 	{
-		"name" : "Commendation G"
+		"name" : {
+			"hgg" : "Commendation G"
+		}
 	},
 	{
-		"name" : "Pawprint Stamp"
+		"name" : {
+			"hgg" : "Pawprint Stamp"
+		}
 	},
 	{
-		"name" : "Yukumo Ticket"
+		"name" : {
+			"hgg" : "Yukumo Ticket"
+		}
 	},
 	{
-		"name" : "Drink Ticket"
+		"name" : {
+			"hgg" : "Drink Ticket"
+		}
 	},
 	{
-		"name" : "HotSpringTicket"
+		"name" : {
+			"hgg" : "HotSpringTicket"
+		}
 	},
 	{
-		"name" : "Comrade Ticket"
+		"name" : {
+			"hgg" : "Comrade Ticket"
+		}
 	},
 	{
-		"name" : "VeggieElderTckt"
+		"name" : {
+			"hgg" : "VeggieElderTckt"
+		}
 	},
 	{
-		"name" : "VeggieEldrTckt+"
+		"name" : {
+			"hgg" : "VeggieEldrTckt+"
+		}
 	},
 	{
-		"name" : "VegElderTcktBrz"
+		"name" : {
+			"hgg" : "VegElderTcktBrz"
+		}
 	},
 	{
-		"name" : "VegElderTcktSlv"
+		"name" : {
+			"hgg" : "VegElderTcktSlv"
+		}
 	},
 	{
-		"name" : "VegElderTcktGld"
+		"name" : {
+			"hgg" : "VegElderTcktGld"
+		}
 	},
 	{
-		"name" : "SecretSwordBook"
+		"name" : {
+			"hgg" : "SecretSwordBook"
+		}
 	},
 	{
-		"name" : "SecretBowgunBk"
+		"name" : {
+			"hgg" : "SecretBowgunBk"
+		}
 	},
 	{
-		"name" : "Secret LS Book"
+		"name" : {
+			"hgg" : "Secret LS Book"
+		}
 	},
 	{
-		"name" : "Call to Arms"
+		"name" : {
+			"hgg" : "Call to Arms"
+		}
 	},
 	{
-		"name" : "Champion Proof"
+		"name" : {
+			"hgg" : "Champion Proof"
+		}
 	},
 	{
-		"name" : "Lily Proof"
+		"name" : {
+			"hgg" : "Lily Proof"
+		}
 	},
 	{
-		"name" : "Ancnt Mnstr Fng"
+		"name" : {
+			"hgg" : "Ancnt Mnstr Fng"
+		}
 	},
 	{
-		"name" : "SwdMaster Book"
+		"name" : {
+			"hgg" : "SwdMaster Book"
+		}
 	},
 	{
-		"name" : "Detective Proof"
+		"name" : {
+			"hgg" : "Detective Proof"
+		}
 	},
 	{
-		"name" : "Leek Contract"
+		"name" : {
+			"hgg" : "Leek Contract"
+		}
 	},
 	{
-		"name" : "Magazine Ticket"
+		"name" : {
+			"hgg" : "Magazine Ticket"
+		}
 	},
 	{
-		"name" : "Treasure J Tckt"
+		"name" : {
+			"hgg" : "Treasure J Tckt"
+		}
 	},
 	{
-		"name" : "Pirate J Ticket"
+		"name" : {
+			"hgg" : "Pirate J Ticket"
+		}
 	},
 	{
-		"name" : "Legend J Ticket"
+		"name" : {
+			"hgg" : "Legend J Ticket"
+		}
 	},
 	{
-		"name" : "Pirate J Dbloon"
+		"name" : {
+			"hgg" : "Pirate J Dbloon"
+		}
 	},
 	{
-		"name" : "Famitsu Ticket"
+		"name" : {
+			"hgg" : "Famitsu Ticket"
+		}
 	},
 	{
-		"name" : "Famitsu S Tckt"
+		"name" : {
+			"hgg" : "Famitsu S Tckt"
+		}
 	},
 	{
-		"name" : "Famitsu G Tckt"
+		"name" : {
+			"hgg" : "Famitsu G Tckt"
+		}
 	},
 	{
-		"name" : "Famitsu P Tckt"
+		"name" : {
+			"hgg" : "Famitsu P Tckt"
+		}
 	},
 	{
-		"name" : "Famitsu Coin"
+		"name" : {
+			"hgg" : "Famitsu Coin"
+		}
 	},
 	{
-		"name" : "Dengeki Ticket"
+		"name" : {
+			"hgg" : "Dengeki Ticket"
+		}
 	},
 	{
-		"name" : "Dengeki Ticket+"
+		"name" : {
+			"hgg" : "Dengeki Ticket+"
+		}
 	},
 	{
-		"name" : "Big Boss Title"
+		"name" : {
+			"hgg" : "Big Boss Title"
+		}
 	},
 	{
-		"name" : "Secret Card"
+		"name" : {
+			"hgg" : "Secret Card"
+		}
 	},
 	{
-		"name" : "Uniqlo Ticket"
+		"name" : {
+			"hgg" : "Uniqlo Ticket"
+		}
 	},
 	{
-		"name" : "BlkCrystalTckt"
+		"name" : {
+			"hgg" : "BlkCrystalTckt"
+		}
 	},
 	{
-		"name" : "Wht Raven Quill"
+		"name" : {
+			"hgg" : "Wht Raven Quill"
+		}
 	},
 	{
-		"name" : "DragnScaleTckt"
+		"name" : {
+			"hgg" : "DragnScaleTckt"
+		}
 	},
 	{
-		"name" : "Mafumofu Ticket"
+		"name" : {
+			"hgg" : "Mafumofu Ticket"
+		}
 	},
 	{
-		"name" : "Felyne Diary"
+		"name" : {
+			"hgg" : "Felyne Diary"
+		}
 	},
 	{
-		"name" : "MH Club Form"
+		"name" : {
+			"hgg" : "MH Club Form"
+		}
 	},
 	{
-		"name" : "Lynian Info"
+		"name" : {
+			"hgg" : "Lynian Info"
+		}
 	},
 	{
-		"name" : "Neopteron Info"
+		"name" : {
+			"hgg" : "Neopteron Info"
+		}
 	},
 	{
-		"name" : "Piscine Info"
+		"name" : {
+			"hgg" : "Piscine Info"
+		}
 	},
 	{
-		"name" : "Herbivore Info"
+		"name" : {
+			"hgg" : "Herbivore Info"
+		}
 	},
 	{
-		"name" : "Bird Wyvern Info 1"
+		"name" : {
+			"hgg" : "Bird Wyvern Info 1"
+		}
 	},
 	{
-		"name" : "Bird Wyvern Info 2"
+		"name" : {
+			"hgg" : "Bird Wyvern Info 2"
+		}
 	},
 	{
-		"name" : "Pelagus Info"
+		"name" : {
+			"hgg" : "Pelagus Info"
+		}
 	},
 	{
-		"name" : "Brute Wyvern Info 1"
+		"name" : {
+			"hgg" : "Brute Wyvern Info 1"
+		}
 	},
 	{
-		"name" : "Brute Wyvern Info 2"
+		"name" : {
+			"hgg" : "Brute Wyvern Info 2"
+		}
 	},
 	{
-		"name" : "Doboruberuku Info"
+		"name" : {
+			"hgg" : "Doboruberuku Info"
+		}
 	},
 	{
-		"name" : "Deviljho Info"
+		"name" : {
+			"hgg" : "Deviljho Info"
+		}
 	},
 	{
-		"name" : "Leviathan Info 1"
+		"name" : {
+			"hgg" : "Leviathan Info 1"
+		}
 	},
 	{
-		"name" : "Leviathan Info 2"
+		"name" : {
+			"hgg" : "Leviathan Info 2"
+		}
 	},
 	{
-		"name" : "Hapurubokka info"
+		"name" : {
+			"hgg" : "Hapurubokka info"
+		}
 	},
 	{
-		"name" : "FlyingWyvernInfo 1"
+		"name" : {
+			"hgg" : "FlyingWyvernInfo 1"
+		}
 	},
 	{
-		"name" : "FlyingWyvernInfo 2"
+		"name" : {
+			"hgg" : "FlyingWyvernInfo 2"
+		}
 	},
 	{
-		"name" : "Akantor Info"
+		"name" : {
+			"hgg" : "Akantor Info"
+		}
 	},
 	{
-		"name" : "Ukanlos Info"
+		"name" : {
+			"hgg" : "Ukanlos Info"
+		}
 	},
 	{
-		"name" : "Jinouga Info"
+		"name" : {
+			"hgg" : "Jinouga Info"
+		}
 	},
 	{
-		"name" : "Jhen Mohran Info"
+		"name" : {
+			"hgg" : "Jhen Mohran Info"
+		}
 	},
 	{
-		"name" : "Amatsu Info"
+		"name" : {
+			"hgg" : "Amatsu Info"
+		}
 	},
 	{
-		"name" : "Alatreon Info"
+		"name" : {
+			"hgg" : "Alatreon Info"
+		}
 	},
 	{
-		"name" : "Map"
+		"name" : {
+			"hgg" : "Map"
+		}
 	},
 	{
-		"name" : "First-Aid Med"
+		"name" : {
+			"hgg" : "First-Aid Med"
+		}
 	},
 	{
-		"name" : "Ration"
+		"name" : {
+			"hgg" : "Ration"
+		}
 	},
 	{
-		"name" : "Portable Spit"
+		"name" : {
+			"hgg" : "Portable Spit"
+		}
 	},
 	{
-		"name" : "Mini Whetstone"
+		"name" : {
+			"hgg" : "Mini Whetstone"
+		}
 	},
 	{
-		"name" : "Paw Pass Ticket"
+		"name" : {
+			"hgg" : "Paw Pass Ticket"
+		}
 	},
 	{
-		"name" : "Prtbl Shock Trap"
+		"name" : {
+			"hgg" : "Prtbl Shock Trap"
+		}
 	},
 	{
-		"name" : "Supply Flash Bmb"
+		"name" : {
+			"hgg" : "Supply Flash Bmb"
+		}
 	},
 	{
-		"name" : "Supply Sonic Bmb"
+		"name" : {
+			"hgg" : "Supply Sonic Bmb"
+		}
 	},
 	{
-		"name" : "Sply Max Potion"
+		"name" : {
+			"hgg" : "Sply Max Potion"
+		}
 	},
 	{
-		"name" : "Sply Pitfall Trp"
+		"name" : {
+			"hgg" : "Sply Pitfall Trp"
+		}
 	},
 	{
-		"name" : "Sply Lg Brrl Bmb"
+		"name" : {
+			"hgg" : "Sply Lg Brrl Bmb"
+		}
 	},
 	{
-		"name" : "Anti-Dragon Bomb"
+		"name" : {
+			"hgg" : "Anti-Dragon Bomb"
+		}
 	},
 	{
-		"name" : "Ballista S"
+		"name" : {
+			"hgg" : "Ballista S"
+		}
 	},
 	{
-		"name" : "Harpoon S"
+		"name" : {
+			"hgg" : "Harpoon S"
+		}
 	},
 	{
-		"name" : "Binder S"
+		"name" : {
+			"hgg" : "Binder S"
+		}
 	},
 	{
-		"name" : "Royal Honey"
+		"name" : {
+			"hgg" : "Royal Honey"
+		}
 	},
 	{
-		"name" : "Special Mushroom"
+		"name" : {
+			"hgg" : "Special Mushroom"
+		}
 	},
 	{
-		"name" : "Select Mushroom"
+		"name" : {
+			"hgg" : "Select Mushroom"
+		}
 	},
 	{
-		"name" : "Ripe Mushroom"
+		"name" : {
+			"hgg" : "Ripe Mushroom"
+		}
 	},
 	{
-		"name" : "Great Mushroom"
+		"name" : {
+			"hgg" : "Great Mushroom"
+		}
 	},
 	{
-		"name" : "Special Bamboo"
+		"name" : {
+			"hgg" : "Special Bamboo"
+		}
 	},
 	{
-		"name" : "Aurora Plant"
+		"name" : {
+			"hgg" : "Aurora Plant"
+		}
 	},
 	{
-		"name" : "Volcano Pepper"
+		"name" : {
+			"hgg" : "Volcano Pepper"
+		}
 	},
 	{
-		"name" : "Goldenfish"
+		"name" : {
+			"hgg" : "Goldenfish"
+		}
 	},
 	{
-		"name" : "Silverfish"
+		"name" : {
+			"hgg" : "Silverfish"
+		}
 	},
 	{
-		"name" : "Brocadefish"
+		"name" : {
+			"hgg" : "Brocadefish"
+		}
 	},
 	{
-		"name" : "Ryl Brocadefish"
+		"name" : {
+			"hgg" : "Ryl Brocadefish"
+		}
 	},
 	{
-		"name" : "Royal Rhino"
+		"name" : {
+			"hgg" : "Royal Rhino"
+		}
 	},
 	{
-		"name" : "Divine Rhino"
+		"name" : {
+			"hgg" : "Divine Rhino"
+		}
 	},
 	{
-		"name" : "Silver Cricket"
+		"name" : {
+			"hgg" : "Silver Cricket"
+		}
 	},
 	{
-		"name" : "Golden Cricket"
+		"name" : {
+			"hgg" : "Golden Cricket"
+		}
 	},
 	{
-		"name" : "Goldstone Piece"
+		"name" : {
+			"hgg" : "Goldstone Piece"
+		}
 	},
 	{
-		"name" : "Goldstone Hunk"
+		"name" : {
+			"hgg" : "Goldstone Hunk"
+		}
 	},
 	{
-		"name" : "FlowrstonePiece"
+		"name" : {
+			"hgg" : "FlowrstonePiece"
+		}
 	},
 	{
-		"name" : "Flowrstone Hunk"
+		"name" : {
+			"hgg" : "Flowrstone Hunk"
+		}
 	},
 	{
-		"name" : "Wyvern Crystal"
+		"name" : {
+			"hgg" : "Wyvern Crystal"
+		}
 	},
 	{
-		"name" : "Golden Bone"
+		"name" : {
+			"hgg" : "Golden Bone"
+		}
 	},
 	{
-		"name" : "Bloodstone"
+		"name" : {
+			"hgg" : "Bloodstone"
+		}
 	},
 	{
-		"name" : "Dark Bloodstone"
+		"name" : {
+			"hgg" : "Dark Bloodstone"
+		}
 	},
 	{
-		"name" : "Coal"
+		"name" : {
+			"hgg" : "Coal"
+		}
 	},
 	{
-		"name" : "Saturated Coal"
+		"name" : {
+			"hgg" : "Saturated Coal"
+		}
 	},
 	{
-		"name" : "Cannon S"
+		"name" : {
+			"hgg" : "Cannon S"
+		}
 	},
 	{
-		"name" : "Wyvern Egg"
+		"name" : {
+			"hgg" : "Wyvern Egg"
+		}
 	},
 	{
-		"name" : "Herbivore Egg"
+		"name" : {
+			"hgg" : "Herbivore Egg"
+		}
 	},
 	{
-		"name" : "Gagua Egg"
+		"name" : {
+			"hgg" : "Gagua Egg"
+		}
 	},
 	{
-		"name" : "Gagua GoldenEgg"
+		"name" : {
+			"hgg" : "Gagua GoldenEgg"
+		}
 	},
 	{
-		"name" : "Sootstone Ore"
+		"name" : {
+			"hgg" : "Sootstone Ore"
+		}
 	},
 	{
-		"name" : "Powderstone"
+		"name" : {
+			"hgg" : "Powderstone"
+		}
 	},
 	{
-		"name" : "Gagua Dung"
+		"name" : {
+			"hgg" : "Gagua Dung"
+		}
 	},
 	{
-		"name" : "White Liver"
+		"name" : {
+			"hgg" : "White Liver"
+		}
 	},
 	{
-		"name" : "Zuwaru Blubber"
+		"name" : {
+			"hgg" : "Zuwaru Blubber"
+		}
 	},
 	{
-		"name" : "Popo Tongue"
+		"name" : {
+			"hgg" : "Popo Tongue"
+		}
 	},
 	{
-		"name" : "Secret Pouch"
+		"name" : {
+			"hgg" : "Secret Pouch"
+		}
 	},
 	{
-		"name" : "Perfect Acorn"
+		"name" : {
+			"hgg" : "Perfect Acorn"
+		}
 	},
 	{
-		"name" : "Clean Gut"
+		"name" : {
+			"hgg" : "Clean Gut"
+		}
 	},
 	{
-		"name" : "Sparkling Gut"
+		"name" : {
+			"hgg" : "Sparkling Gut"
+		}
 	},
 	{
-		"name" : "Giggi Essence"
+		"name" : {
+			"hgg" : "Giggi Essence"
+		}
 	},
 	{
-		"name" : "Monster Liver"
+		"name" : {
+			"hgg" : "Monster Liver"
+		}
 	},
 	{
-		"name" : "Wyvern Tears"
+		"name" : {
+			"hgg" : "Wyvern Tears"
+		}
 	},
 	{
-		"name" : "Wyvern Sobs"
+		"name" : {
+			"hgg" : "Wyvern Sobs"
+		}
 	},
 	{
-		"name" : "Pelagus Tears"
+		"name" : {
+			"hgg" : "Pelagus Tears"
+		}
 	},
 	{
-		"name" : "Pelagus Sobs"
+		"name" : {
+			"hgg" : "Pelagus Sobs"
+		}
 	},
 	{
-		"name" : "Wood Scraps"
+		"name" : {
+			"hgg" : "Wood Scraps"
+		}
 	},
 	{
-		"name" : "Wood Scraps+"
+		"name" : {
+			"hgg" : "Wood Scraps+"
+		}
 	},
 	{
-		"name" : "Pumpkin Scraps"
+		"name" : {
+			"hgg" : "Pumpkin Scraps"
+		}
 	},
 	{
-		"name" : "Ore Scraps"
+		"name" : {
+			"hgg" : "Ore Scraps"
+		}
 	},
 	{
-		"name" : "Ore Scraps+"
+		"name" : {
+			"hgg" : "Ore Scraps+"
+		}
 	},
 	{
-		"name" : "Bone Scraps"
+		"name" : {
+			"hgg" : "Bone Scraps"
+		}
 	},
 	{
-		"name" : "Bone Scraps+"
+		"name" : {
+			"hgg" : "Bone Scraps+"
+		}
 	},
 	{
-		"name" : "Pelt Scraps"
+		"name" : {
+			"hgg" : "Pelt Scraps"
+		}
 	},
 	{
-		"name" : "Pelt Scraps+"
+		"name" : {
+			"hgg" : "Pelt Scraps+"
+		}
 	},
 	{
-		"name" : "Rhnoplos Scraps"
+		"name" : {
+			"hgg" : "Rhnoplos Scraps"
+		}
 	},
 	{
-		"name" : "Rhnplos Scraps+"
+		"name" : {
+			"hgg" : "Rhnplos Scraps+"
+		}
 	},
 	{
-		"name" : "Zuwaru Scraps"
+		"name" : {
+			"hgg" : "Zuwaru Scraps"
+		}
 	},
 	{
-		"name" : "Zuwaru Scraps+"
+		"name" : {
+			"hgg" : "Zuwaru Scraps+"
+		}
 	},
 	{
-		"name" : "Bnahabra Scraps"
+		"name" : {
+			"hgg" : "Bnahabra Scraps"
+		}
 	},
 	{
-		"name" : "Bnahbra Scraps+"
+		"name" : {
+			"hgg" : "Bnahbra Scraps+"
+		}
 	},
 	{
-		"name" : "Altaroth Scraps"
+		"name" : {
+			"hgg" : "Altaroth Scraps"
+		}
 	},
 	{
-		"name" : "Altarth Scraps+"
+		"name" : {
+			"hgg" : "Altarth Scraps+"
+		}
 	},
 	{
-		"name" : "Bulldrme Scraps"
+		"name" : {
+			"hgg" : "Bulldrme Scraps"
+		}
 	},
 	{
-		"name" : "Bulldrm Scraps+"
+		"name" : {
+			"hgg" : "Bulldrm Scraps+"
+		}
 	},
 	{
-		"name" : "GrtJaggi Scraps"
+		"name" : {
+			"hgg" : "GrtJaggi Scraps"
+		}
 	},
 	{
-		"name" : "GrtJaggiScraps+"
+		"name" : {
+			"hgg" : "GrtJaggiScraps+"
+		}
 	},
 	{
-		"name" : "GrtFroggiScraps"
+		"name" : {
+			"hgg" : "GrtFroggiScraps"
+		}
 	},
 	{
-		"name" : "GrtFrggiScraps+"
+		"name" : {
+			"hgg" : "GrtFrggiScraps+"
+		}
 	},
 	{
-		"name" : "GrtBaggiScraps"
+		"name" : {
+			"hgg" : "GrtBaggiScraps"
+		}
 	},
 	{
-		"name" : "GrtBaggiScraps+"
+		"name" : {
+			"hgg" : "GrtBaggiScraps+"
+		}
 	},
 	{
-		"name" : "Aoashira Scraps"
+		"name" : {
+			"hgg" : "Aoashira Scraps"
+		}
 	},
 	{
-		"name" : "AoashiraScraps+"
+		"name" : {
+			"hgg" : "AoashiraScraps+"
+		}
 	},
 	{
-		"name" : "Urukusu Scraps"
+		"name" : {
+			"hgg" : "Urukusu Scraps"
+		}
 	},
 	{
-		"name" : "Urukusu Scraps+"
+		"name" : {
+			"hgg" : "Urukusu Scraps+"
+		}
 	},
 	{
-		"name" : "Ranguro Scraps"
+		"name" : {
+			"hgg" : "Ranguro Scraps"
+		}
 	},
 	{
-		"name" : "Ranguro Scraps+"
+		"name" : {
+			"hgg" : "Ranguro Scraps+"
+		}
 	},
 	{
-		"name" : "Qurupeco Scraps"
+		"name" : {
+			"hgg" : "Qurupeco Scraps"
+		}
 	},
 	{
-		"name" : "Qurupco Scraps+"
+		"name" : {
+			"hgg" : "Qurupco Scraps+"
+		}
 	},
 	{
-		"name" : "Ludroth Scraps"
+		"name" : {
+			"hgg" : "Ludroth Scraps"
+		}
 	},
 	{
-		"name" : "Ludroth Scraps+"
+		"name" : {
+			"hgg" : "Ludroth Scraps+"
+		}
 	},
 	{
-		"name" : "Barroth Scraps"
+		"name" : {
+			"hgg" : "Barroth Scraps"
+		}
 	},
 	{
-		"name" : "Barroth Scraps+"
+		"name" : {
+			"hgg" : "Barroth Scraps+"
+		}
 	},
 	{
-		"name" : "Haprbkka Scraps"
+		"name" : {
+			"hgg" : "Haprbkka Scraps"
+		}
 	},
 	{
-		"name" : "Hapbkka Scraps+"
+		"name" : {
+			"hgg" : "Hapbkka Scraps+"
+		}
 	},
 	{
-		"name" : "Gigginox Scraps"
+		"name" : {
+			"hgg" : "Gigginox Scraps"
+		}
 	},
 	{
-		"name" : "Giggnox Scraps+"
+		"name" : {
+			"hgg" : "Giggnox Scraps+"
+		}
 	},
 	{
-		"name" : "Rathian Scraps"
+		"name" : {
+			"hgg" : "Rathian Scraps"
+		}
 	},
 	{
-		"name" : "Rathian Scraps+"
+		"name" : {
+			"hgg" : "Rathian Scraps+"
+		}
 	},
 	{
-		"name" : "Rathalos Scraps"
+		"name" : {
+			"hgg" : "Rathalos Scraps"
+		}
 	},
 	{
-		"name" : "Rthalos Scraps+"
+		"name" : {
+			"hgg" : "Rthalos Scraps+"
+		}
 	},
 	{
-		"name" : "Jinouga Scraps"
+		"name" : {
+			"hgg" : "Jinouga Scraps"
+		}
 	},
 	{
-		"name" : "Jinouga Scraps+"
+		"name" : {
+			"hgg" : "Jinouga Scraps+"
+		}
 	},
 	{
-		"name" : "Narga Scraps"
+		"name" : {
+			"hgg" : "Narga Scraps"
+		}
 	},
 	{
-		"name" : "Narga Scraps+"
+		"name" : {
+			"hgg" : "Narga Scraps+"
+		}
 	},
 	{
-		"name" : "Barioth Scraps"
+		"name" : {
+			"hgg" : "Barioth Scraps"
+		}
 	},
 	{
-		"name" : "Barioth Scraps+"
+		"name" : {
+			"hgg" : "Barioth Scraps+"
+		}
 	},
 	{
-		"name" : "Uragaan Scraps"
+		"name" : {
+			"hgg" : "Uragaan Scraps"
+		}
 	},
 	{
-		"name" : "Uragaan Scraps+"
+		"name" : {
+			"hgg" : "Uragaan Scraps+"
+		}
 	},
 	{
-		"name" : "Doboru Scraps"
+		"name" : {
+			"hgg" : "Doboru Scraps"
+		}
 	},
 	{
-		"name" : "Doboru Scraps+"
+		"name" : {
+			"hgg" : "Doboru Scraps+"
+		}
 	},
 	{
-		"name" : "Tigrex Scraps"
+		"name" : {
+			"hgg" : "Tigrex Scraps"
+		}
 	},
 	{
-		"name" : "Tigrex Scraps+"
+		"name" : {
+			"hgg" : "Tigrex Scraps+"
+		}
 	},
 	{
-		"name" : "Diablos Scraps"
+		"name" : {
+			"hgg" : "Diablos Scraps"
+		}
 	},
 	{
-		"name" : "Diablos Scraps+"
+		"name" : {
+			"hgg" : "Diablos Scraps+"
+		}
 	},
 	{
-		"name" : "Agnaktor Scraps"
+		"name" : {
+			"hgg" : "Agnaktor Scraps"
+		}
 	},
 	{
-		"name" : "Agnktor Scraps+"
+		"name" : {
+			"hgg" : "Agnktor Scraps+"
+		}
 	},
 	{
-		"name" : "JhenMhranScraps"
+		"name" : {
+			"hgg" : "JhenMhranScraps"
+		}
 	},
 	{
-		"name" : "JhenMhrnScraps+"
+		"name" : {
+			"hgg" : "JhenMhrnScraps+"
+		}
 	},
 	{
-		"name" : "Deviljho Scraps"
+		"name" : {
+			"hgg" : "Deviljho Scraps"
+		}
 	},
 	{
-		"name" : "Akantor Scraps"
+		"name" : {
+			"hgg" : "Akantor Scraps"
+		}
 	},
 	{
-		"name" : "Ukanlos Scraps"
+		"name" : {
+			"hgg" : "Ukanlos Scraps"
+		}
 	},
 	{
-		"name" : "Alatreon Scraps"
+		"name" : {
+			"hgg" : "Alatreon Scraps"
+		}
 	},
 	{
-		"name" : "Amatsu Scraps"
+		"name" : {
+			"hgg" : "Amatsu Scraps"
+		}
 	},
 	{
-		"name" : "Courage Scraps"
+		"name" : {
+			"hgg" : "Courage Scraps"
+		}
 	},
 	{
-		"name" : "Courage Scraps+"
+		"name" : {
+			"hgg" : "Courage Scraps+"
+		}
 	},
 	{
-		"name" : "Enhance Stone"
+		"name" : {
+			"hgg" : "Enhance Stone"
+		}
 	},
 	{
-		"name" : "Enhance Sphere"
+		"name" : {
+			"hgg" : "Enhance Sphere"
+		}
 	},
 	{
-		"name" : "Enhance Sphere+"
+		"name" : {
+			"hgg" : "Enhance Sphere+"
+		}
 	},
 	{
-		"name" : "Hrd Enhance Sph"
+		"name" : {
+			"hgg" : "Hrd Enhance Sph"
+		}
 	},
 	{
-		"name" : "Hvy Enhance Sph"
+		"name" : {
+			"hgg" : "Hvy Enhance Sph"
+		}
 	},
 	{
-		"name" : "Mystery Charm"
+		"name" : {
+			"hgg" : "Mystery Charm"
+		}
 	},
 	{
-		"name" : "Radiant Charm"
+		"name" : {
+			"hgg" : "Radiant Charm"
+		}
 	},
 	{
-		"name" : "Ancient Charm"
+		"name" : {
+			"hgg" : "Ancient Charm"
+		}
 	},
 	{
-		"name" : "Suiko Jewel"
+		"name" : {
+			"hgg" : "Suiko Jewel"
+		}
 	},
 	{
-		"name" : "Akito Jewel"
+		"name" : {
+			"hgg" : "Akito Jewel"
+		}
 	},
 	{
-		"name" : "Battlefield Jwl"
+		"name" : {
+			"hgg" : "Battlefield Jwl"
+		}
 	},
 	{
-		"name" : "LapisLazuli Jwl"
+		"name" : {
+			"hgg" : "LapisLazuli Jwl"
+		}
 	}
 ]

@@ -2,19 +2,46 @@
 
 require( "cgi" )
 
-local Weapons = data( "weapons" )
-local Items   = data( "items" )
+Weapons = data( "weapons" )
+Items   = data( "items" )
 
 print( "Content-type: text/html\n" )
 
-print( header( { title = "Weapons" } ) )
-
 local meleeTree = loadTemplate( "meleeTree" )
+local meleeInfo = loadTemplate( "meleeInfo" )
 
-for _, class in ipairs( Weapons ) do
-	print( "<h1>" .. icon( "equipment/" .. class.short ) .. " " .. class.name.hgg .. "</h1>" )
+local function classFromShort( short )
+	for _, class in ipairs( Weapons ) do
+		if class.short == short then
+			return class
+		end
+	end
 
-	print( meleeTree( { class = class } ) )
+	return nil
+end
+
+if Get.class then
+	local class = classFromShort( Get.class )
+
+	if class then
+		if Get.id then
+			local weapon = class.weapons[ tonumber( Get.id ) ]
+
+			print( header( { title = T( weapon.name ) } ) )
+
+			print( meleeInfo( { weapon = weapon, class = class } ) )
+		else
+			print( header( { title = T( class.name ) } ) )
+
+			print( meleeTree( { class = class } ) )
+		end
+	end
+else
+	print( header( { title = "Weapons" } ) )
+
+	for _, class in ipairs( Weapons ) do
+		print( T( class.name ) )
+	end
 end
 
 print( footer() )
