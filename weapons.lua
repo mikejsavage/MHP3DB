@@ -7,7 +7,7 @@ local Items   = data( "items" )
 
 print( "Content-type: text/html\n" )
 
-print( header() )
+print( header( { title = "Weapons" } ) )
 
 local meleeTree = loadTemplate( "meleeTree" )
 

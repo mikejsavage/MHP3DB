@@ -6,15 +6,21 @@
 
 		<link rel="shortcut icon" href="favicon.ico">
 
-		<title>sup</title>
+		<title>{{ title and title .. " - " or "" }}P3DB</title>
 	</head>
 
 	<body>
 		<header>
+			<a href="{{ U( "" ) }}" class="home">p3db</a>
+
 			<nav>
-				weapons
-				armor
-				sets
+				{%
+				local headerLink = loadTemplate( "headerLink" )
+
+				for _, link in ipairs( HeaderLinks ) do
+					print( headerLink( { text = link.text.hgg, url = link.url } ) )
+				end
+				%}
 			</nav>
 		</header>
 

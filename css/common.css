@@ -5,6 +5,12 @@ body {
 	margin: 0;
 }
 
+/* html5 element styles */
+
+header, nav, footer {
+	display: block;
+}
+
 /* generic table style */
 
 table {
@@ -30,12 +36,6 @@ img {
 img.icon {
 	width: 1.2em;
 	vertical-align: top;
-}
-
-/* html5 element styles */
-
-header, footer {
-	display: block;
 }
 
 /* content background colour */
@@ -86,6 +86,34 @@ header, .main, .curve {
 	-khtml-border-radius:  32px 0 0;
 	-moz-border-radius:    32px 0 0;
 	-webkit-border-radius: 32px 0 0;
+}
+
+/* header */
+
+header {
+	font-size: large;
+	font-weight: bold;
+	height: 2em;
+	line-height: 2em;
+}
+header a {
+	color: #666;
+	display: inline-block;
+	padding: 0 10px;
+	text-decoration: none;
+}
+header a.cur, header a:hover {
+	color: #f1d910;
+}
+
+header a.home {
+	float: left;
+}
+
+nav {
+	margin: 0 auto;
+	text-align: right;
+	width: 800px;
 }
 
 /* main content container */
