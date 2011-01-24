@@ -42,8 +42,6 @@
 				"element" : string
 				// elemental power
 				"elemattack" : int (conditional)
-				// element requires awaken?
-				"awaken" : bool (conditional)
 
 				// array of sharpness info - each elem is number
 				// of hits for that sharpness level / 10

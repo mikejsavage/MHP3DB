@@ -65,6 +65,42 @@ Desc
 	0
 	0
 
+		Yukumo Cannon+
+		100
+		R2
+		0%
+		---
+		Slow
+		None
+		Moderate
+		Machalite Ore 5
+		Yukumo Wood 5
+		Zuwaroposu Hide 4
+		1650z
+		Wood Scraps 1
+		Ore Scraps 1
+		Desc
+		5! 5 0
+		2 0 0
+		3 0 0
+		1 0 0
+		0 0 0
+		2 0
+		2 0
+		2 0
+		0 0
+		2 0
+		0
+		0
+		0
+		0
+		0
+		2
+		2
+		0
+		0
+		0
+
 Bone Shooter
 90
 R1

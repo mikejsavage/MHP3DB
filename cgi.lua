@@ -1,18 +1,14 @@
-function readFile( path )
-	local file = assert( io.open( path, "r" ) )
+require( "config" )
 
-	local content = file:read( "*all" )
+require( "json" )
+require( "template" )
 
-	file:close()
-
-	return content
-end
+require( "utils" )
 
 local function parse( str )
 	local tokens = { }
 
-	str:gsub( "([^&]+)&?",
-	function( token )
+	str:gsub( "([^&]+)&?", function( token )
 		local idx = token:find( "=" )
 
 		if idx ~= nil then

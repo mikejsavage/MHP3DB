@@ -1,0 +1,11 @@
+WW Movement Speed Up
+WRR Attack Up [Lo]
+RBW Health Inc [Lo]
+BBR Wind Cancel
+WBB Defense Up [Lo]
+CCC Snow & Mud Negated
+CRC No Cold
+RRC No Heat
+CCRW Hear Protect [Lo]
+YRW Fire Res Up [Lo]
+YYY High Frequency

@@ -68,7 +68,7 @@ function compileTemplate( template, name )
 end
 
 function loadTemplate( file )
-	return compileTemplate( readFile( file ), file )
+	return compileTemplate( readFile( ( "%s/%s.lua" ):format( TemplatesDir, file ) ), file )
 end
 
 function echo( str )

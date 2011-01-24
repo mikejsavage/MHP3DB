@@ -62,6 +62,77 @@ Desc
 	1
 	0
 
+		Yukumo Bowgun+
+		90
+		R2
+		0%
+		---
+		Normal
+		None
+		Moderate
+		Machalite Ore 5
+		Yukumo Wood 5
+		Ludroth Hide 3
+		1500z
+		Desc
+		Wood Scraps 1
+		Ore Scraps 1
+		5!5W 5 6
+		3 0 0
+		2 0 0
+		1 0 0
+		0 0 0
+		2 0
+		2 0
+		0 0
+		2 0
+		2 0
+		0
+		0
+		0
+		0
+		0
+		2
+		2
+		1
+		1
+		0
+
+		Roaring Sling
+		110
+		R2
+		0%
+		---
+		Normal
+		None
+		Moderate
+		Juvenile Sponge 3
+		Ludroth Hide 4
+		Iron Ore 4
+		1980z
+		Desc
+		Ore Scraps 2
+		4 4 4
+		0 0 0
+		4 4 0
+		0 0 0
+		1 0 0
+		3 0
+		2 0
+		0 0
+		0 0
+		0 0
+		0
+		3
+		0
+		0
+		0
+		2
+		2
+		0
+		0
+		0
+
 Crossbowgun
 80
 R1

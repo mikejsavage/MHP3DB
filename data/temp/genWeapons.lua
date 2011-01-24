@@ -94,6 +94,9 @@ local function parseItem( line )
 	return itemID( name ), count
 end
 
+-- in hindsight perhaps a gigantic FSM was
+-- not the best way of doing this
+
 local Actions =
 {
 	init = function( line, weapon )
@@ -143,7 +146,7 @@ local Actions =
 			return "special"
 		end
 
-		if line:find( "%[?%u%u %d+%]?" ) then
+		if line:find( "%u%u %d+" ) then
 			-- elem
 			
 			return "special"
