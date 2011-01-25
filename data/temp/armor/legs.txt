@@ -1,0 +1,228 @@
+Yukumo Skirt
+1
+0 0 3 0 0
+BG
+R1
+---
+Yukumo Wood 2
+Carpenterbug 2
+50z
+Expert 2
+Protection 2
+Whim 2
+Desc
+Wood Scraps 1
+
+Leather Pants
+1
+-1 0 0 0 1
+BG
+R1
+O--
+Warm Pelt 2
+50z
+Gathering 1
+HiSpdGathr 2
+Whim 4
+Desc
+Pelt Scraps 1
+
+Chain Pants
+2
+2 1 -2 1 0
+BG
+R1
+O--
+Iron Ore 2
+Yukumo Wood 2
+50z
+Health 2
+Combo Rate 2
+Shot Mix 3
+Desc
+Ore Scraps 1
+
+Hunter's Greaves
+6
+0 1 -4 0 0
+B
+R1
+O--
+Iron Ore 1
+Bullfango Pelt 1
+Yukumo Wood 2
+450z
+Poison -2
+Psychic 3
+SpeedSetup 2
+Huntsman 2
+Desc
+Ore Scraps 1
+Pelt Scraps 1
+
+Hunter's Leggings
+3
+1 2 -2 0 1
+G
+R1
+O--
+Iron Ore 1
+Bullfango Pelt 1
+Yukumo Wood 2
+450z
+Poison -2
+Psychic 3
+SpeedSetup 3
+Huntsman 1
+Desc
+Ore Scraps 1
+Pelt Scraps 1
+
+Loc Lac Boots
+4
+2 -3 1 0 0
+BG
+R1
+O--
+Altaroth Jaw 3
+Altarth Abdomen 2
+Ice Crystal 3
+550z
+Hunger 3
+Backpackng 6
+Desc
+Bnahabra Scraps 2
+
+Bone Greaves
+8
+2 0 -1 -2 0
+B
+R1
+O--
+Med Monster Bone 2
+Bone 2
+Mystery Bone 4
+650z
+Sleep -1
+Gathering 3
+Horn 4
+KO 1
+Desc
+Bone Scraps 2
+
+Bone Leggings
+4
+4 0 0 -1 0
+G
+R1
+O--
+Med Monster Bone 2
+Bone 2
+Mystery Bone 4
+650z
+Sleep -3
+Gathering 4
+Horn 1
+KO 1
+Desc
+Bone Scraps 2
+
+Alloy Greaves
+8
+-1 1 -2 -2 -1
+B
+R1
+O--
+Machalite Ore 4
+Bealite Ore 2
+Iron Ore 2
+750z
+Expert 2
+Sharpener 1
+WindPress 4
+Gathering -2
+Desc
+Ore Scraps 2
+
+Alloy Leggings
+4
+0 2 -1 -1 0
+G
+R1
+O--
+Machalite Ore 4
+Bealite Ore 2
+Iron Ore 2
+750z
+Reload Spd 1
+PelletS Up 3
+PelletSAdd 3
+Gathering -2
+Desc
+Ore Scraps 2
+
+Jaggi Greaves
+12
+-4 -2 -2 -2 1
+B
+R2
+O--
+Jaggi Hide 4
+Jaggi Scale 3
+Sm Monster Bone 4
+Machalite Ore 2
+1150z
+Rec Speed 2
+Attack 2
+LastingPwr -2
+Perception 3
+Desc
+Ore Scraps 2
+
+Jaggi Leggings
+6
+-2 -1 -1 -1 2
+G
+R2
+O--
+Jaggi Hide 4
+Jaggi Scale 3
+Sm Monster Bone 4
+Machalite Ore 2
+1150z
+Rec Speed 3
+Attack 2
+LastingPwr -2
+Perception 2
+Desc
+Ore Scraps 2
+
+Aoashira Greaves
+12
+-3 1 -1 -2 1
+B
+R2
+---
+Aoashira Arm 2
+Aoashira Pelt 2
+Bnahabra Shell 2
+Killer Beetle 2
+1150z
+Torso Up 1
+Desc
+Aoashira Scraps 2
+
+Aoashira Leggings
+6
+-2 2 0 -1 3
+G
+R2
+---
+Aoashira Arm 2
+Aoashira Pelt 2
+Bnahabra Shell 2
+Killer Beetle 2
+1150z
+Torso Up 1
+Desc
+Aoashira Scraps 2
