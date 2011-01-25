@@ -1,3 +1,5 @@
+// TODO: strip out "No Bottle" item?
+
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -20,10 +20,18 @@ function rareColor( rarity )
 	return RareColors[ rarity ]
 end
 
+function string.startsWith( self, needle )
+	return self:sub( 1, needle:len() ) == needle
+end
+
 -- name/url conversion
 
 function string.urlEscape( self )
 	return self:gsub( "'", "" ):gsub( " ", "_" )
+end
+
+function urlFromName( name )
+	return name[ DefaultLanguage ]:urlEscape()
 end
 
 -- returns a HTML element of type elem, with class class and contents contents

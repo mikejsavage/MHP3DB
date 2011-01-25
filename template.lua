@@ -42,7 +42,7 @@ function compileTemplate( template, name )
 		local action = Actions[ block:sub( 1, 2 ) ]
 
 		if action then
-			table.insert( code, action( block:sub( 3, -3 ):gsub( "%f[%a]print%(", "table.insert%( output, " ) ) )
+			table.insert( code, action( block:sub( 3, -3 ):gsub( "%f[%a]print%(", "table.insert%( output," ) ) )
 		elseif block ~= "{}" then
 			table.insert( code, ( "table.insert( output, [[ <h3>Bad block: %s</h3> ]] )" ):format( block ) )
 		end

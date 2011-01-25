@@ -1,1 +1,1 @@
-<a href="{{ U( url ) }}">{{ text }}</a>
+<a {{ CurrentUrl:startsWith( url ) and " class=\"cur\"" or "" }}href="{{ U( url ) }}">{{ text }}</a>

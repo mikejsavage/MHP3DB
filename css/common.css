@@ -1,5 +1,5 @@
 body {
-	background-color: #319db8;
+	background: #319db8;
 	color: #ccc;
 	font-family: sans-serif;
 	margin: 0;
@@ -52,7 +52,7 @@ img.icon {
 /* content background colour */
 
 header, .main, .curve {
-	background-color: #1a1a1a;
+	background: #1a1a1a;
 }
 
 /* .main + curves container */
@@ -167,27 +167,31 @@ footer {
 	text-decoration: none;
 }
 .grid img {
-	background-color: #333333;
-	border: 1px solid #CCCCCC;
+	background: #333;
+	border: 1px solid #ccc;
 	border-radius: 4px;
 	padding: 4px;
 	margin-right: 8px;
-	width: 33px;
 
-	-khtml-border-radius: 4px;
-	-moz-border-radius: 4px;
+	-khtml-border-radius:  4px;
+	-moz-border-radius:    4px;
 	-webkit-border-radius: 4px;
 }
-.grid a:hover img {
-	background-color: #666;
+.grid a:hover img, .grid a:active img {
+	background: #666;
+}
+
+/* smaller images for equipment grids
+ * so they don't get stretched */
+
+.grid.eq img {
+	width: 33px;
 }
 
 /* generic data tables */
 
 .data {
-	font-family: monospace;
-	font-size: 14px;
-	line-height: 120%;
+	font: 14px/120% monospace;
 	white-space: pre;
 }
 
@@ -214,10 +218,10 @@ footer {
 	border-top: 0;
 }
 .data.eq tbody tr:nth-child( 2n ) {
-	background-color: #1d1d1d;
+	background: #1d1d1d;
 }
 .data.eq tbody tr:hover {
-	background-color: #222;
+	background: #222;
 	color: #fff;
 	font-weight: bold;
 }
@@ -261,23 +265,23 @@ footer {
 }
 
 .sharp0 {
-	background-color: red;
+	background: red;
 }
 .sharp1 {
-	background-color: orange;
+	background: orange;
 }
 .sharp2 {
-	background-color: yellow;
+	background: yellow;
 }
 .sharp3 {
-	background-color: lime;
+	background: lime;
 }
 .sharp4 {
-	background-color: #3581E1;
+	background: #3581E1;
 }
 .sharp5 {
-	background-color: white;
+	background: white;
 }
 .sharp6 {
-	background-color: magenta;
+	background: magenta;
 }

@@ -1,0 +1,226 @@
+Yukumo Shirt
+1
+0 0 3 0 0
+BG
+R1
+O--
+Yukomo Wood 2
+Ivy 2
+50z
+Expert 1
+Protection 2
+Whim 2
+Desc
+Wood Scraps 1
+
+Leather Armor
+1
+-1 0 0 0 1
+BG
+R1
+---
+Bullfango Pelt 1
+Iron Ore 1
+50z
+Gathering 3
+HiSpdGathr 3
+Whim 2
+Desc
+Pelt Scraps 1
+
+Chain Mail
+2
+2 1 -2 1 0
+BG
+R1
+---
+Iron Ore 2
+Yukumo Wood 1
+50z
+Health 3
+Combo Rate 3
+Shot Mix 3
+Desc
+Ore Scraps 1
+
+Hunter's Mail
+6
+0 1 -4 0 0
+B
+R1
+O--
+Iron Ore 2
+Jaggi Scale 1
+Bullfango Pelt 2
+450z
+Poison -1
+Psychic 2
+SpeedSetup 1
+Huntsman 3
+Desc
+Ore Scraps 1
+Pelt Scraps 1
+
+Hunter's Vest
+3
+1 2 -2 0 1
+G
+R1
+O--
+Iron Ore 2
+Jaggi Scale 1
+Bullfango Pelt 2
+450z
+Poison -2
+Psychic 2
+SpeedSetup 1
+Huntsman 2
+
+Loc Lac Suit
+4
+2 -3 1 0 0
+BG
+R1
+O--
+Altarth Abdomen 1
+Monster Fluid 3
+Ice Crystal 3
+550z
+Hunger 5
+Backpacking 2
+Desc
+Bnahabra Scraps 2
+
+Bone Mail
+8
+2 0 -1 -2 0
+B
+R1
+O--
+Giant Bone 1
+Mystery Bone 4
+Sharp Fang 2
+650z
+Sleep -1
+Gathering 2
+Horn 1
+KO 3
+Desc
+Bone Scraps 2
+
+Bone Vest
+4
+4 0 0 -1 0
+G
+R1
+O--
+Giant Bone 1
+Mystery Bone 4
+Sharp Fang 2
+650z
+Sleep -2
+Gathering 2
+Horn 2
+KO 1
+Desc
+Bone Scraps 2
+
+Alloy Mail
+8
+-1 1 -2 -2 -1
+B
+R1
+O--
+Machalite Ore 3
+Pelagicite Ore 2
+Iron Ore 2
+750z
+Expert 2
+Sharpener 2
+WindPress 1
+Gathering -2
+Desc
+Ore Scraps 2
+
+Alloy Vest
+4
+0 2 -1 -1 0
+G
+R1
+O--
+Machalite Ore 3
+Pelagicite Ore 2
+Iron Ore 2
+750z
+Reload Spd 2
+PelletS Up 2
+PelletSAdd 1
+Gathering -2
+Desc
+Ore Scraps 2
+
+Zuwaro Mantle
+12
+-2 2 0 -1 1
+B
+R3
+---
+Zuwaroposu Hide 4
+Bulldrome Hide 1
+Bullfango Pelt 3
+850z
+Health 5
+Water Res 4
+Desc
+Zuwaru Scraps 3
+
+Zuwaro Cape
+6
+-1 4 0 0 2
+G
+R3
+---
+Zuwaroposu Hide 4
+Bulldrome Hide 1
+Bullfango Pelt 3
+850z
+Health 5
+Water Res 4
+Desc
+Zuwaru Scraps 3
+
+Aoashira Mail
+12
+-3 1 -1 -2 1
+B
+R2
+O--
+Aoashira Pelt 3
+Aoashira Shell 1
+Bnahabra Shell 2
+Killer Beetle 2
+1150z
+Paralysis -2
+Stun 1
+Gluttony 2
+Defense 2
+Desc
+Aoashira Scraps 2
+
+Aoashira Vest
+6
+-2 2 0 -1 3
+G
+R2
+O--
+Aoashira Pelt 3
+Aoashira Shell 1
+Bnahabra Shell 2
+Killer Beetle 2
+1150z
+Paralysis -2
+Stun 1
+Gluttony 2
+Defense 2
+Desc
+Aoashira Scraps 2

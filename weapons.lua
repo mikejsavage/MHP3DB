@@ -1,5 +1,3 @@
-#! /usr/bin/lua
-
 require( "cgi" )
 
 print( "Content-type: text/html\n" )
@@ -24,6 +22,9 @@ weaponName    = loadTemplate( "weapons/weaponName" )
 itemCounts = loadTemplate( "itemCounts" )
 itemName   = loadTemplate( "itemName" )
 
+grid     = loadTemplate( "weapons/grid" )
+gridCell = loadTemplate( "weapons/gridCell" )
+
 
 
 local function classFromShort( short )
@@ -41,7 +42,7 @@ local function weaponFromName( class, name )
 		-- convert every weapon name to a url and not the other
 		-- way around because converting to a url is destructive
 
-		if weapon.name[ DefaultLanguage ]:urlEscape() == name then
+		if urlFromName( weapon.name ) == name then
 			return weapon
 		end
 	end
@@ -82,33 +83,11 @@ if state == "nothing" then
 
 	print( "<h1>Real weapons</h1>" )
 
-	print( "<table class='grid'>" )
+	print( grid( { weapons = Weapons } ) )
 
-	local COLS = 3
-	local col = 0
+	print( "<h1>Sissy weapons</h1>" ) -- :)
 
-	for _, class in ipairs( Weapons ) do
-		if col == 0 then
-			print( "<tr>" )
-		end
-
-		print( "<td>" ..
-			"<a href='" .. U( "weapons/" .. class.short ) .. "'>" ..
-			"<div>" .. icon( "equipment/" .. class.short ) .. T( class.name ) .. "</div>" ..
-			"</a>" ..
-			"</td>" )
-
-		col = col + 1
-		if col == COLS then
-			print( "</tr>" )
-
-			col = 0
-		end
-	end
-
-	print( "</table>" )
-
-	print( "<h1>Sissy weapons</h1>" )
+	-- guns
 end
 
 footer()

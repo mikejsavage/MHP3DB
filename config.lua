@@ -1,7 +1,9 @@
 DefaultLanguage = "hgg"
 TemplatesDir = "templates"
 TranslationsDir = "translations"
+
 BaseUrl = ""
+CurrentUrl = os.getenv( "REQUEST_URI" ):sub( BaseUrl:len() + 2 )
 
 HeaderLinks =
 {
