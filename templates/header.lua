@@ -2,16 +2,16 @@
 
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="css/common.css">
+		<link rel="stylesheet" type="text/css" href="{{ U( "css/common.css" ) }}">
 
-		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="shortcut icon" href="{{ U( "favicon.ico" ) }}">
 
-		<title>{{ title and title .. " - " or "" }}P3DB</title>
+		<title>{{ title and title .. " - " or "" }}3rdDB</title>
 	</head>
 
 	<body>
 		<header>
-			<a href="{{ U( "" ) }}" class="home">p3db</a>
+			<a href="{{ U( "" ) }}" class="home">3rddb</a>
 
 			<nav>
 				{%

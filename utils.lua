@@ -8,8 +8,42 @@ function readFile( path )
 	return content
 end
 
+function translations( translations )
+	return dofile( ( "%s/%s.lua" ):format( TranslationsDir, translations ) )
+end
+
 function data( file )
 	return json.decode( readFile( ( "data/%s.json" ):format( file ) ) )
+end
+
+function rareColor( rarity )
+	return RareColors[ rarity ]
+end
+
+-- name/url conversion
+
+function string.urlEscape( self )
+	return self:gsub( "'", "" ):gsub( " ", "_" )
+end
+
+-- returns a HTML element of type elem, with class class and contents contents
+function E( elem, class, contents )
+	local classStr
+	local contentStr
+
+	if class then
+		classStr = ( " class=\"%s\"" ):format( class )
+	else
+		classStr = ""
+	end
+
+	if contents then
+		contentStr = ( ">%s</%s" ):format( contents, elem )
+	else
+		contentStr = ""
+	end
+
+	return ( "<%s%s%s>" ):format( elem, classStr, contentStr )
 end
 
 -- returns a rewrite safe url
@@ -28,8 +62,15 @@ end
 
 -- templates
 
-header = loadTemplate( "header" )
-footer = loadTemplate( "footer" )
+headerTemplate = loadTemplate( "header" )
+header = function( title )
+	print( headerTemplate( title ) )
+end
+
+footerTemplate = loadTemplate( "footer" )
+footer = function()
+	print( footerTemplate() )
+end
 
 iconTemplate = loadTemplate( "icon" )
 icon = function( icon )

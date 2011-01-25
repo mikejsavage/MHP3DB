@@ -5,6 +5,10 @@ body {
 	margin: 0;
 }
 
+a {
+	color: #ccc;
+}
+
 /* html5 element styles */
 
 header, nav, footer {
@@ -20,12 +24,19 @@ table {
 
 /* generic header styles */
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h1 a, h2 a, h3 a, a strong {
 	color: #fff;
 }
 h1 {
 	margin-top: 0;
 	text-align: center;
+}
+
+h2, h3 {
+	margin: 8px 0 4px;
+}
+h2 + h3 {
+	margin-top: 0;
 }
 
 /* images */
@@ -35,7 +46,7 @@ img {
 }
 img.icon {
 	width: 1.2em;
-	vertical-align: top;
+	vertical-align: middle;
 }
 
 /* content background colour */
@@ -121,6 +132,7 @@ nav {
 .main {
 	border-bottom: 32px solid #1a1a1a;
 	border-radius: 0 0 32px 32px;
+	line-height: 130%;
 	margin: 0 auto -32px; /* -ve bottom margin for the footer */
 	padding: 0 32px 16px;
 	width: 752px;
@@ -144,11 +156,38 @@ footer {
 	width: 752px;
 }
 
+/* grids */
+
+.grid {
+	margin: 0 auto;
+}
+.grid td a {
+	display: table-cell;
+	padding: 8px;
+	text-decoration: none;
+}
+.grid img {
+	background-color: #333333;
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;
+	padding: 4px;
+	margin-right: 8px;
+	width: 33px;
+
+	-khtml-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+.grid a:hover img {
+	background-color: #666;
+}
+
 /* generic data tables */
 
 .data {
 	font-family: monospace;
 	font-size: 14px;
+	line-height: 120%;
 	white-space: pre;
 }
 
@@ -184,6 +223,10 @@ footer {
 }
 .data .split {
 	border-top: 2px solid #333;
+}
+
+.create {
+	font-weight: bold;
 }
 
 /* colour spans */

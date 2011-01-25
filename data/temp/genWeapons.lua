@@ -74,7 +74,7 @@ local Items = json.decode( readFile( "../items.json" ) )
 
 function itemID( name )
 	for id, item in ipairs( Items ) do
-		if item.name == name then
+		if item.name.hgg == name then
 			return id
 		end
 	end
@@ -94,8 +94,8 @@ local function parseItem( line )
 	return itemID( name ), count
 end
 
--- in hindsight perhaps a gigantic FSM was
--- not the best way of doing this
+-- perhaps a gigantic FSM was not
+-- the best way of doing this
 
 local Actions =
 {
@@ -183,7 +183,7 @@ local Actions =
 		if line:sub( -1 ) == "z" then
 			weapon.price = tonumber( line:sub( 1, -2 ) )
 
-			return "null"
+			return "create"
 		end
 
 		local id, count = parseItem( line )
@@ -194,17 +194,39 @@ local Actions =
 			return "scraps"
 		end
 
-		if not weapon.improve then
-			print( weapon.name.hgg )
-		end
-
 		table.insert( weapon.improve.materials, { id = id, count = count } )
 
 		return "improve"
 	end,
 
+	create = function( line, weapon )
+		local id, count = parseItem( line )
+
+		if not id then
+			weapon.description = line
+
+			return "scraps"
+		end
+
+		if not weapon.create then
+			weapon.create = { }
+		end
+
+		table.insert( weapon.create, { id = id, count = count } )
+
+		return "create"
+	end,
+
 	scraps = function( line, weapon )
-		return "null"
+		local id, count = parseItem( line )
+
+		if not weapon.scraps then
+			weapon.scraps = { }
+		end
+
+		table.insert( weapon.scraps, { id = id, count = count } )
+
+		return "scraps"
 	end,
 
 	null = function( line, weapon )
