@@ -1,6 +1,7 @@
 Old Yukumo Bow
 50
 Spread
+R1
 0%
 ---
 Desc
@@ -12,6 +13,7 @@ YYNNNYN
 	Yukumo Bow
 	70
 	Spread
+	R1
 	0%
 	---
 	1035z
@@ -28,6 +30,7 @@ YYNNNYN
 Hunter's Bow I
 80
 Spread
+R1
 0%
 Def 5
 ---
@@ -46,6 +49,7 @@ YNNYYYY
 Froggi Revolver I
 120
 Blast
+R2
 0%
 ---
 3630z
@@ -60,3 +64,22 @@ P2
 R3
 YYNNNYN
 Poison
+
+Heart Peco Bow I
+70
+Spread
+Fire 16
+R2
+0%
+O--
+4980z
+Queer Beak 2
+Vibrant Down 4
+Flintstone 4
+Iron Ore 5
+Desc
+Qurupeco Scraps 2
+S1
+S2
+S2
+NNYYYYN

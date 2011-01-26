@@ -260,3 +260,39 @@ Gluttony 2
 Defense 2
 Desc
 Aoashira Scraps 2
+
+Qurupeco Mail
+12
+2 -2 -1 -4 2
+B
+R2
+---
+Vibrant Down 1
+Qurupeco Scale 2
+Med Mnster Bone 2
+Carpenterbug 3
+1150z
+Wide Area 4
+Psychic 2
+Rec Level 2
+Eating -1
+Desc
+Qurupeco Scraps 2
+
+Qurupeco Vest
+6
+4 -1 0 -3 4
+G
+R2
+---
+Vibrant Down 1
+Qurupeco Scale 2
+Med Mnster Bone 2
+Carpenterbug 3
+1150z
+Wide Area 2
+Psychic 4
+Rec Level 2
+Eating -1
+Desc
+Qurupeco Scraps 2

@@ -53,3 +53,16 @@ Bone 5
 Carpenterbug 2
 Desc
 Pelt Scraps 2
+
+Flint Warclub
+110
+Fire 25
+R2
+0%
+---
+6000z
+Qurupeco Feathr 4
+Flintstone 2
+Med Mnster Bone 5
+Desc
+Qurupeco Scraps 2

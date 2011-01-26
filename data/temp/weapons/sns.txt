@@ -117,3 +117,17 @@ Jaggi Hide 5
 Iron Ore 5
 Desc
 GrtJaggi Scraps 2
+
+Bone Handaxe
+120
+Fire 15
+R2
+0%
+---
+4410z
+Vibrant Down 1
+Qurupeco Scale 5
+Flintstone 1
+Lg Monster Bone 1
+Desc
+Qurupeco Scraps 2

@@ -260,3 +260,39 @@ Killer Beetle 2
 Torso Up 0
 Desc
 Aoashira Scraps 2
+
+Qurupeco Greaves
+12
+2 -2 -1 -4 2
+B
+R2
+O--
+Qurupeco Scale 2
+Vibrant Down 1
+Sm Monster Bone 4
+Killer Beetle 2
+1150z
+Wide Area 1
+Rec Level 2
+Eating -1
+Horn 5
+Desc
+Qurupeco Scraps 2
+
+Qurupeco Leggings
+6
+4 -1 0 -3 4
+G
+R2
+O--
+Qurupeco Scale 2
+Vibrant Down 1
+Sm Monster Bone 4
+Killer Beetle 2
+1150z
+Wide Area 1
+Rec Level 1
+Eating -2
+Horn 5
+Desc
+Qurupeco Scraps 2

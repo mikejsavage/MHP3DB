@@ -9,3 +9,6 @@ RRC No Heat
 CCRW Hear Protect [Lo]
 YRW Fire Res Up [Lo]
 YYY High Frequency
+WGW Health Rec [Lo]
+GWCG HealthRec[Mid]&Deodorant
+CCGW Hear Protect [Lo]

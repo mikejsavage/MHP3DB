@@ -47,3 +47,18 @@ Bealite Ore 5
 Giant Bone 1
 Desc
 Aoashira Scraps 2
+
+Peco Spanda
+120
+???
+Fire 16
+R2
+0%
+OO-
+6000z
+Vibrant Down 2
+Qurupeco Scale 5
+Flintstone 3
+Lg Monster Bone 2
+Desc
+Qurupeco Scraps 2

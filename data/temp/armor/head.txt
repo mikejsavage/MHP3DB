@@ -247,6 +247,42 @@ Defense 3
 Desc
 Aoashira Scraps 2
 
+Qurupeco Helm
+12
+2 -2 -1 -4 2
+BG
+R2
+O--
+Queer Beak 2
+Qurupeco Feathr 2
+Med Mnster Bone 2
+Carpenterbug 3
+1150z
+Wide Area 1
+Rec Level 3
+Eating -3
+Horn 2
+Desc
+Qurupeco Scraps 2
+
+Qurupeco Cap
+6
+4 -1 0 -3 4
+BG
+R2
+O--
+Queer Beak 2
+Qurupeco Feathr 2
+Med Mnster Bone 2
+Carpenterbug 3
+1150z
+Wide Area 4
+Rec Level 4
+Eating -1
+Horn 2
+Desc
+Qurupeco Scraps 2
+
 Gagua Mask
 8
 -4 -2 -1 2 1

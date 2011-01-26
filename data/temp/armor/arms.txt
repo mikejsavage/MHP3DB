@@ -249,3 +249,39 @@ Gluttony 2
 Defense 3
 Desc
 Aoashira Scraps 2
+
+Qurupeco Vambraces
+12
+2 -2 -1 -4 2
+B
+R2
+O--
+Flintstone 1
+Qurupeco Feathr 2
+Qurupeco Scale 2
+Thunderbug 2
+1150z
+Wide Area 1
+Psychic 4
+Rec Level 2
+Eating -2
+Desc
+Qurupeco Scraps 2
+
+Qurupeco Guards
+6
+4 -1 0 -3 4
+G
+R2
+O--
+Flintstone 1
+Qurupeco Feathr 2
+Qurupeco Scale 2
+Thunderbug 2
+1150z
+Wide Area 2
+Psychic 3
+Rec Level 2
+Eating -2
+Desc
+Qurupeco Scraps 2

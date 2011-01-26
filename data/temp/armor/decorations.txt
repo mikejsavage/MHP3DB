@@ -219,6 +219,23 @@ Whim 2
 Suiko Jewel 1
 Iron Ore 2
 
+FriendshpJwl
+pink 4
+1
+Wide Area 1
+Sense -1
+200z
+Suiko Jewel 1
+Qurupeco Feathr 1
+
+Psychic Jwl
+orange 4
+1
+Psychic 2
+200z
+Suiko Jewel 1
+Vibrant Down 1
+
 ProfessorJwl
 purple 4
 1

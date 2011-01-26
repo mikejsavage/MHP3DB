@@ -45,3 +45,18 @@ Yukumo Wood 3
 Bealite Ore 5
 Desc
 Aoashira Scraps 2
+
+Qurupeco Cornet
+130
+WCG
+Fire 12
+R2
+0%
+O--
+7350z
+Queer Beak 2
+Flintstone 3
+Qurupeco Scale 8
+Lg Monster Bone 2
+Desc
+Qurupeco Scraps 2

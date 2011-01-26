@@ -32,14 +32,14 @@ local Bases =
 
 local Elements =
 {
-	FI = fire,
-	WA = water,
-	TH = thunder,
-	IC = ice,
-	DR = dragon,
-	PO = poison,
-	PA = paralyze,
-	SL = sleep,
+	"fire",
+	"water",
+	"thunder",
+	"ice",
+	"dragon",
+	"poison",
+	"paralyze",
+	"sleep",
 }
 
 local Shells =
@@ -80,6 +80,16 @@ function itemID( name )
 	end
 	
 	assert( nil, "itemID failed to find item: " .. name )
+end
+
+function isElement( element )
+	for _, elem in ipairs( Elements ) do
+		if elem == element then
+			return true
+		end
+	end
+
+	return false
 end
 
 local MaxSlots = 3
@@ -146,8 +156,17 @@ local Actions =
 			return "special"
 		end
 
-		if line:find( "%u%u %d+" ) then
-			-- elem
+		if line:find( "%a+ %d+" ) then
+			local _, _, element, elemAttack = line:find( "(%a+) (%d+)" )
+
+			element = element:lower()
+
+			if not isElement( element ) then
+				assert( nil, "bad element in " .. weapon.name.hgg .. ": " .. line )
+			end
+
+			weapon.element = element
+			weapon.elemAttack = elemAttack
 			
 			return "special"
 		end
@@ -158,7 +177,13 @@ local Actions =
 	end,
 
 	affinity = function( line, weapon )
-		weapon.affinity = tonumber( line:sub( 1, -2 ) ) -- strip %
+		local success, _, affinity = line:find( "^(%d+)%%$" )
+
+		if not success then
+			assert( nil, "bad affinity in " .. weapon.name.hgg .. ": " .. line )
+		end
+
+		weapon.affinity = tonumber( affinity )
 
 		return "slots"
 	end,
@@ -192,6 +217,10 @@ local Actions =
 			weapon.description = line
 
 			return "scraps"
+		end
+
+		if not weapon.improve then
+			assert( nil, "bad improve in " .. weapon.name.hgg .. ": " .. line )
 		end
 
 		table.insert( weapon.improve.materials, { id = id, count = count } )
