@@ -42,3 +42,21 @@ R1
 R2
 R2
 YNNYYYY
+
+Froggi Revolver I
+120
+Blast
+0%
+---
+3630z
+Froggi Hide 6
+Froggi Fang 4
+Iron Ore 8
+Gunpowder 5
+Desc
+Ore Scraps 2
+R2
+P2
+R3
+YYNNNYN
+Poison
