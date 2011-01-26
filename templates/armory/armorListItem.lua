@@ -13,7 +13,12 @@
 		local alt = false
 
 		for _, skill in ipairs( piece.skills ) do
-			local form = alt and ", %-10s %3d\n" or "%-10s %3d"
+			-- :)
+			local form =
+				skill.points > 0 and
+					( alt and ", %-10s %3d\n" or "%-10s %3d" )
+				or
+					( alt and ", <span class=\"neg\">%-10s %3d</span>\n" or "<span class=\"neg\">%-10s %3d</span>" )
 
 			print( form:format( T( Skills[ skill.id ].name ), skill.points ) )
 
