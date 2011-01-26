@@ -58,7 +58,7 @@ function skillID( name )
 end
 
 local function parseItem( line )
-	local success, _, name, count = line:find( "^([%a ]+) (%d+)$" )
+	local success, _, name, count = line:find( "^([%a%d%- ]+) (%d+)$" )
 
 	if not success then
 		-- don't throw anything since this usually marks
@@ -71,7 +71,7 @@ local function parseItem( line )
 end
 
 local function parseSkill( line )
-	local success, _, name, points = line:find( "^([%a ]+) (%-?%d+)$" )
+	local success, _, name, points = line:find( "^([%a%-/ ]+) (%-?%d+)$" )
 
 	if not success then
 		return
@@ -95,7 +95,7 @@ local Actions =
 		local success, _, defense = line:find( "(%d+)" )
 
 		if not success then
-			assert( nil, "bad defense " .. piece.name.hgg .. ": " .. line )
+			assert( nil, "bad defense in " .. piece.name.hgg .. ": " .. line )
 		end
 
 		piece.defense = tonumber( defense )
@@ -108,7 +108,7 @@ local Actions =
 		local success, _, fire, water, thunder, ice, dragon = line:find( "(%-?%d+) (%-?%d+) (%-?%d+) (%-?%d+) (%-?%d+)" )
 
 		if not success then
-			assert( nil, "bad elemdef " .. piece.name.hgg .. ": " .. line )
+			assert( nil, "bad elemdef in " .. piece.name.hgg .. ": " .. line )
 
 			return
 		end
@@ -133,7 +133,7 @@ local Actions =
 		local success, _, rarity = line:find( "R(%d+)" )
 
 		if not success then
-			assert( nil, "bad rarity " .. piece.name.hgg .. ": " .. line )
+			assert( nil, "bad rarity in " .. piece.name.hgg .. ": " .. line )
 		end
 
 		piece.rarity = tonumber( rarity )
@@ -248,7 +248,6 @@ for _, short in pairs( Types ) do
 	local piece = { }
 
 	local lastDepth = { }
-	local currentIdx = 1
 
 	for line in io.lines() do
 		if line == "" then
@@ -256,8 +255,6 @@ for _, short in pairs( Types ) do
 
 			state = "init"
 			piece = { }
-
-			currentIdx = currentIdx + 1
 		else
 			state = doLine( line, piece, state )
 		end

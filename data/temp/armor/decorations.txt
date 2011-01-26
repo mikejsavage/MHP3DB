@@ -206,8 +206,8 @@ purple 4
 1
 Combo Rate 2
 200z
-Suiko 1
-Book of Combos 1
+Suiko Jewel 1
+Book of Combos 1 1
 Gagua Feather 1
 
 Armory Jewel
@@ -232,7 +232,7 @@ yellow 4
 Perception 2
 200z
 Suiko Jewel 1
-Zuwaroposu Hides 1
+Zuwaroposu Hide 1
 Binoculars 1
 
 DungmastrJwl
