@@ -22,7 +22,7 @@ weaponName    = loadTemplate( "weapons/weaponName" )
 itemCounts  = loadTemplate( "itemCounts" )
 itemNameURL = loadTemplate( "itemNameURL" )
 
-grid     = loadTemplate( "weapons/grid" )
+grid     = loadTemplate( "grid" )
 gridCell = loadTemplate( "weapons/gridCell" )
 
 
@@ -85,7 +85,7 @@ if state == "nothing" then
 
 	print( "<h1>Real weapons</h1>" )
 
-	print( grid( { weapons = Weapons, cols = 3 } ) )
+	print( grid( { classes = Weapons, cols = 3 } ) )
 
 	print( "<h1>Sissy weapons</h1>" ) -- :)
 

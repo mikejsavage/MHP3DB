@@ -240,7 +240,14 @@ footer {
 
 /* armor tables */
 
-.data.eq.armor tbody td:last-child {
+.data.eq.armor td:last-child, .data.eq.decorations td:last-child {
+	text-align: left;
+}
+
+/* decorations tables */
+
+.data.eq.decorations .name {
+	border-left: 0;
 	text-align: left;
 }
 

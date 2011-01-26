@@ -4,9 +4,10 @@ print( "Content-type: text/html\n" )
 
 -- data
 
-Armors = data( "armors" )
-Items  = data( "items" )
-Skills = data( "skills" )
+Armors      = data( "armors" )
+Decorations = data( "decorations" )
+Items       = data( "items" )
+Skills      = data( "skills" )
 
 -- translations
 
@@ -17,11 +18,15 @@ Skills = data( "skills" )
 local armorList = loadTemplate( "armory/armorList" )
 local pieceInfo = loadTemplate( "armory/pieceInfo" )
 
+local decorList = loadTemplate( "armory/decorList" )
+local decorInfo = loadTemplate( "armory/decorInfo" )
+
 itemCounts  = loadTemplate( "itemCounts" )
 itemNameURL = loadTemplate( "itemNameURL" )
 
-grid     = loadTemplate( "armory/grid" )
-gridCell = loadTemplate( "armory/gridCell" )
+grid      = loadTemplate( "grid" )
+gridCell  = loadTemplate( "armory/gridCell" )
+gridDecor = loadTemplate( "armory/gridDecor" )
 
 
 
@@ -48,32 +53,64 @@ local function pieceFromName( class, name )
 	return nil
 end
 
+local function decorFromName( name )
+	for _, decor in ipairs( Decorations ) do
+		if urlFromName( decor.name ) == name then
+			return decor
+		end
+	end
+
+	return nil
+end
+
 
 
 local state = "nothing"
 
 if Get.class then
-	local class = classFromShort( Get.class )
-
-	if class then
-		state = "class"
-
+	if Get.class == "jwl" then
 		if Get.name then
-			local piece = pieceFromName( class, Get.name )
+			local decoration = decorFromName( Get.name )
 
-			if piece then
-				header( T( piece.name ) )
+			if decoration then
+				header( T( decoration.name ) )
 
-				print( pieceInfo( { class = class, piece = piece } ) )
+				print( decorInfo( { decor = decoration } ) )
 
-				state = "piece"
+				state = "decoration"
 			end
 		end
 
-		if state == "class" then
-			header( T( class.name ) )
+		if state == "nothing" then
+			header( "Decorations" )
 
-			print( armorList( { class = class } ) )
+			print( decorList() )
+
+			state = "decorations"
+		end
+	else
+		local class = classFromShort( Get.class )
+
+		if class then
+			state = "class"
+
+			if Get.name then
+				local piece = pieceFromName( class, Get.name )
+
+				if piece then
+					header( T( piece.name ) )
+
+					print( pieceInfo( { class = class, piece = piece } ) )
+
+					state = "piece"
+				end
+			end
+
+			if state == "class" then
+				header( T( class.name ) )
+
+				print( armorList( { class = class } ) )
+			end
 		end
 	end
 end
@@ -81,7 +118,9 @@ end
 if state == "nothing" then
 	header( "Armory" )
 
-	print( grid( { weapons = Armors, cols = 5 } ) )
+	print( grid( { classes = Armors, cols = 5 } ) )
+
+	print( gridDecor() )
 end
 
 footer()

@@ -16,12 +16,18 @@ function data( file )
 	return json.decode( readFile( ( "data/%s.json" ):format( file ) ) )
 end
 
-function rareColor( rarity )
-	return RareColors[ rarity ]
-end
-
 function string.startsWith( self, needle )
 	return self:sub( 1, needle:len() ) == needle
+end
+
+-- color functions
+
+function colorFromName( color )
+	return NamedColors[ color ]
+end
+
+function rareColor( rarity )
+	return RareColors[ rarity ]
 end
 
 -- name/url conversion

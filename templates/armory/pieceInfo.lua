@@ -24,7 +24,8 @@
 					"%s: +%d"
 				or skill.points < 0 and
 					"%s: <span class=\"neg\">%d</span>"
-				or "%s"
+				or
+					"%s"
 
 			print( form:format( T( Skills[ skill.id ].name ), skill.points ) .. "<br>" )
 		end

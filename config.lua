@@ -56,7 +56,7 @@ RareColors =
 	"ff2954",
 }
 
-ItemColors =
+NamedColors =
 {
 	white  = "ffffff",
 	gray   = "aaaaaa",
