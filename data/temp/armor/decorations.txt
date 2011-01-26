@@ -252,6 +252,15 @@ Suiko Jewel 1
 Sushifish 1
 Raw Meat 2
 
+Grinder Jwl
+yellow 4
+1
+Sharpener 2
+200z
+Suiko Jewel 1
+Grt Jaggi Claw 1
+Machalite Ore 1
+
 ShotBonusJwl
 orange 4
 1

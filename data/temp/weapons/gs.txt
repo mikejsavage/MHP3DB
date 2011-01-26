@@ -40,3 +40,15 @@ Sm Monster Bone 3
 Jaggi Hide 2
 Desc
 Bone Scraps 2
+
+Wild Greatsword
+100
+R1
+0%
+O--
+2850z
+Grt Jaggi Claw 6
+Grt Jaggi Hide 3
+Machalite Ore 2
+Desc
+GrtJaggi Scraps 2

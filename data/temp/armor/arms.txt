@@ -144,6 +144,42 @@ Gathering -2
 Desc
 Ore Scraps 2
 
+Jaggi Vambraces
+12
+-4 -2 -2 -2 1
+B
+R2
+O--
+Grt Jaggi Claw 2
+Grt Jaggi Hide 3
+Jaggi Scale 2
+Earth Crystal 2
+1150z
+Rec Speed 3
+Attack 3
+LastingPwr -1
+Perception 2
+Desc
+GrtJaggi Scraps 2
+
+Jaggi Guards
+6
+-2 -1 -1 -1 2
+G
+R2
+O--
+Grt Jaggi Claw 2
+Grt Jaggi Hide 3
+Jaggi Scale 2
+Earth Crystal 2
+1150z
+Rec Speed 2
+Attack 3
+LastingPwr -2
+Perception 2
+Desc
+GrtJaggi Scraps 2
+
 Aoashira Vambraces
 12
 -3 1 -1 -2 1

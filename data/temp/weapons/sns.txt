@@ -90,3 +90,16 @@ R1
 Sm Monster Bone 2
 Desc
 Bone Scraps 2
+
+Hydra Knife
+100
+R2
+0%
+O--
+1710z
+Grt Jaggi Claw 3
+Regal Frill 1
+Jaggi Hide 5
+Iron Ore 5
+Desc
+GrtJaggi Scraps 2
