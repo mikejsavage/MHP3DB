@@ -1,13 +1,17 @@
 require( "cgi" )
 
+header()
+
 local commits = json.decode( readFile( "./commits.json" ) )
 
-print( "Latest commits" )
+print( "<h1>Latest commits</h1>" )
 
 for _, commit in ipairs( commits.commits ) do
-	print( "\n" .. ( "-" ):rep( 72 ) .. "\n" )
+	print( ( "<h3>%s @ %s</h3>" ):format( commit.author.name, commit.committed_date ) )
 
-	print( ( "%s @ %s:\n" ):format( commit.author.name, commit.committed_date ) )
+	print( ( commit.message:gsub( "\n", "<br>" ) ) )
 
-	print( commit.message )
+	print( "<br><br>" )
 end
+
+footer()
