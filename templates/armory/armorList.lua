@@ -23,9 +23,11 @@ local listItem = loadTemplate( "armory/armorListItem" )
 		</tr>
 	</thead>
 
-	{%
-	for _, piece in ipairs( class.pieces ) do
-		print( listItem( { class = class, piece = piece } ) )
-	end
-	%}
+	<tbody>
+		{%
+		for _, piece in ipairs( class.pieces ) do
+			print( listItem( { class = class, piece = piece } ) )
+		end
+		%}
+	</tbody>
 </table>

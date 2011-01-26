@@ -32,7 +32,10 @@ h1 {
 	text-align: center;
 }
 
-h2, h3 {
+h2 {
+	margin: 16px 0 4px;
+}
+h3 {
 	margin: 8px 0 4px;
 }
 h2 + h3 {

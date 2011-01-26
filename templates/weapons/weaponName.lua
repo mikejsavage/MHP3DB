@@ -1,1 +1,1 @@
-{{ icon( "equipment/" .. class.short, rareColor( class.rarity ) ) }} {{ T( weapon.name ) }}
+{{ icon( "equipment/" .. class.short, rareColor( weapon.rarity ) ) }} {{ T( weapon.name ) }}

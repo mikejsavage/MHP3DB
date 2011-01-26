@@ -10,21 +10,25 @@
 	<td>{{ piece.dragonRes }}</td>
 	<td>{{ piece.slots == 0 and "-" or ( "O" ):rep( piece.slots ) }}</td>
 	<td>{%
-		local alt = false
+		if piece.skills then
+			local alt = false
 
-		for _, skill in ipairs( piece.skills ) do
-			-- :)
-			local form =
-				skill.points > 0 and
-					( alt and ", %-10s %3d\n" or "%-10s %3d" )
-				or skill.points < 0 and
-					( alt and ", <span class=\"neg\">%-10s %3d</span>\n" or "<span class=\"neg\">%-10s %3d</span>" )
-				or 
-					( alt and ", %-10s    \n" or "%-10s    " )
+			for _, skill in ipairs( piece.skills ) do
+				-- :)
+				local form =
+					skill.points > 0 and
+						( alt and ", %-10s %3d\n" or "%-10s %3d" )
+					or skill.points < 0 and
+						( alt and ", <span class=\"neg\">%-10s %3d</span>\n" or "<span class=\"neg\">%-10s %3d</span>" )
+					or 
+						( alt and ", %-10s    \n" or "%-10s    " )
 
-			print( form:format( T( Skills[ skill.id ].name ), skill.points ) )
+				print( form:format( T( Skills[ skill.id ].name ), skill.points ) )
 
-			alt = not alt
+				alt = not alt
+			end
+		else
+			print( "-" )
 		end
 	%}</td>
 </tr>

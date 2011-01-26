@@ -15,6 +15,7 @@ Skills = data( "skills" )
 -- templates
 
 local armorList = loadTemplate( "armory/armorList" )
+local pieceInfo = loadTemplate( "armory/pieceInfo" )
 
 itemCounts  = loadTemplate( "itemCounts" )
 itemNameURL = loadTemplate( "itemNameURL" )
@@ -58,10 +59,12 @@ if Get.class then
 		state = "class"
 
 		if Get.name then
-			local piece = pieceFromName( Get.name )
+			local piece = pieceFromName( class, Get.name )
 
 			if piece then
 				header( T( piece.name ) )
+
+				print( pieceInfo( { class = class, piece = piece } ) )
 
 				state = "piece"
 			end

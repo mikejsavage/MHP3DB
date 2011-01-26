@@ -1,0 +1,270 @@
+Steadfast Jwl
+blue 4
+1
+Stun 1
+Paralysis -1
+200z
+Suiko Jewel 1
+Brd Wyvern Fang 3
+
+ParalysisJwl
+yellow 4
+1
+Paralysis 1
+Stun -1
+200z
+Suiko Jewel 1
+Bnahabra Shell 2
+
+Pep Jewel
+cyan 4
+1
+Sleep 1
+Mud/Snow -1
+200z
+Suiko Jewel 1
+Baggi Hide 2
+
+Antidote Jwl
+purple 1
+1
+Poison 1
+Stun -1
+200z
+Suiko Jewel 1
+Froggi Hide 2
+
+FortitudeJwl
+purple 4
+1
+Fortitude 2
+200z
+Suiko Jewel 1
+Armor Seed 2
+Catalyst 2
+
+Alarm Jewel
+grey 4
+1
+Anti-Theft 2
+200z
+Suiko Jewel 1
+Felvine 3
+
+Cooling Jwl
+cyan 4
+1
+Heat Res 2
+200z
+Suiko Jewel 1
+Ice Crystal 3
+
+Attack Jewel
+red 4
+1
+Attack 1
+Defense -1
+200z
+Suiko Jewel 1
+Jaggi Scale 2
+Power Seed 1
+
+Expert Jewel
+blue 4
+1
+Expert 1
+Dragon Res -1
+200z
+Suiko Jewel 1
+Sharp Fang 2
+Iron Ore 1
+
+Defense Jwl
+blue 4
+1
+Defense 1
+Attack -1
+200z
+Suiko Jewel 1
+Aoashira Shell 1
+Armor Seed 2
+
+Inferno Jwl
+red 4
+1
+Fire Res 1
+Water Res -1
+200z
+Suiko Jewel 1
+Fire Herb 5
+
+Stream Jewel
+cyan 4
+1
+Water Res 1
+ThunderRes -1
+200z
+Suiko Jewel 1
+Knife Mackerel 5
+
+Thunder Jwl
+yellow 4
+1
+ThunderRes 1
+Ice Res -1
+200z
+Suiko Jewel 1
+Thunderbug 3
+
+Freeze Jewel
+blue 4
+1
+Ice Res 1
+Fire Res -1
+200z
+Suiko Jewel 1
+Ice Crystal 5
+
+Slayer Jewel
+purple 4
+1
+Dragon Res 1
+Poison -1
+200z
+Suiko Jewel 1
+Dragon Seed 2
+
+Health Jewel
+red 4
+1
+Health 2
+200z
+Suiko Jewel 1
+Bulldrome Hide 1
+
+FeelGood Jwl
+green 4
+1
+Rec Speed 1
+Eating -1
+200z
+Suiko Jewel 1
+Jaggi Hide 2
+
+PickyEatrJwl
+white 4
+1
+Hunger 2
+200z
+Suiko Jewel 1
+Bulldrome Tusk 1
+Well-Done Steak 1
+
+Fatso Jewel
+orange 4
+1
+Gluttony 2
+200z
+Suiko Jewel 1
+Giant Bone 1
+
+Backpckng Jewel
+cyan 4
+1
+Backpackng 2
+200z
+Suiko Jewel 1
+Power Extract 1
+
+GatherngJwl
+green 4
+1
+Gathering 2
+200z
+Suiko Jewel 1
+Pepipo Pumpkin 2
+
+GrabnDashJwl
+green 4
+1
+HiSpdGathr 2
+200z
+Suiko Jewel 1
+Pepipo Pumpkin 1
+Sm Monster Bone 2
+
+GoodLuck Jwl
+pink 4
+1
+Whim 2
+200z
+Suiko Jewel 1
+Iron Ore 2
+
+ProfessorJwl
+purple 4
+1
+Combo Rate 2
+200z
+Suiko 1
+Book of Combos 1
+Gagua Feather 1
+
+Armory Jewel
+white 4
+1
+Shot Mix 2
+200z
+Suiko Jewel 1
+Sm Goldenfish 1
+
+StayngPwrJwl
+blue 4
+1
+LastingPwr 2
+200z
+Suiko Jewel 1
+Large Fin 1
+
+Perceptn Jwl
+yellow 4
+1
+Perception 2
+200z
+Suiko Jewel 1
+Zuwaroposu Hides 1
+Binoculars 1
+
+DungmastrJwl
+purple 4
+1
+Dungmaster 2
+200z
+Suiko Jewel 1
+Dung Bomb 2
+
+Huntsman Jwl
+white 4
+1
+Huntsman 2
+200z
+Suiko Jewel 1
+Sushifish 1
+Raw Meat 2
+
+ShotBonusJwl
+orange 4
+1
+NormalSAdd 1
+Reload Spd -1
+200z
+Suiko Jewel 1
+Med Mnster Bone 2
+
+Sniper Jewel
+white 4
+1
+Precision 2
+200z
+Suiko Jewel 1
+Unknown Skull 2

@@ -1,0 +1,42 @@
+// root is an array
+[
+	// of objects describing each decoration
+	{
+		// name of the decoration eg Pep Jewel - DON'T INCLUDE SLOT COUNT
+		"name" : translation
+
+		// slots required
+		"slots" : int
+
+		// array of skills
+		"skills" : [
+			// object for each skill
+			{
+				// index into skills.json
+				"id" : int
+				"points" : int
+			}
+			...
+		]
+
+		// price to create
+		"price" : int
+
+		// array of materials to create
+		"create" : [
+			// object for each material
+			{
+				// index into items.json
+				"id" : int
+				"count" : int
+			}
+			...
+		]
+
+		// icon color eg red
+		"color" : string
+
+		"rarity" : int
+	}
+	...
+]
