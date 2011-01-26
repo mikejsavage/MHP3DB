@@ -213,10 +213,6 @@ footer {
 }
 
 /* equipment tables */
-
-.data.eq td {
-	border-top: 0;
-}
 .data.eq tbody tr:nth-child( 2n ) {
 	background: #1d1d1d;
 }
@@ -231,6 +227,18 @@ footer {
 
 .create {
 	font-weight: bold;
+}
+
+/* weapons tables */
+
+.data.eq.weapons td {
+	border-top: 0;
+}
+
+/* armor tables */
+
+.data.eq.armor tbody td:last-child {
+	text-align: left;
 }
 
 /* colour spans */
