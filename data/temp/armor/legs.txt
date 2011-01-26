@@ -99,7 +99,7 @@ Bone Greaves
 B
 R1
 O--
-Med Monster Bone 2
+Med Mnster Bone 2
 Bone 2
 Mystery Bone 4
 650z
@@ -116,7 +116,7 @@ Bone Leggings
 G
 R1
 O--
-Med Monster Bone 2
+Med Mnster Bone 2
 Bone 2
 Mystery Bone 4
 650z

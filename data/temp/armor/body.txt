@@ -4,7 +4,7 @@ Yukumo Shirt
 BG
 R1
 O--
-Yukomo Wood 2
+Yukumo Wood 2
 Ivy 2
 50z
 Expert 1

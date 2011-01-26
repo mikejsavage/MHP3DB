@@ -1,10 +1,10 @@
-Yukomo Hat
+Yukumo Hat
 1
 0 0 3 0 0
 BG
 R1
 ---
-Yukomo Wood 1
+Yukumo Wood 1
 Gagua Feather 1
 50z
 Expert 2
@@ -218,7 +218,7 @@ BG
 R3
 ---
 Gagua Feather 7
-Yukomo Wood 5
+Yukumo Wood 5
 850z
 Combo Rate 10
 Desc
