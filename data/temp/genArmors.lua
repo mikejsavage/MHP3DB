@@ -71,7 +71,7 @@ local function parseItem( line )
 end
 
 local function parseSkill( line )
-	local success, _, name, points = line:find( "^([%a ]+) %-?(%d+)$" )
+	local success, _, name, points = line:find( "^([%a ]+) (%-?%d+)$" )
 
 	if not success then
 		return
