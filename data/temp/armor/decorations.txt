@@ -26,7 +26,7 @@ Suiko Jewel 1
 Baggi Hide 2
 
 Antidote Jwl
-purple 1
+purple 4
 1
 Poison 1
 Stun -1
