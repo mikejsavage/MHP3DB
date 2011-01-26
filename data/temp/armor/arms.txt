@@ -144,6 +144,40 @@ Gathering -2
 Desc
 Ore Scraps 2
 
+Rhenoplos Vambraces
+10
+2 -2 -2 -2 1
+B
+R2
+O--
+Rhenoplos Shell 2
+Med Mnster Bone 4
+Ice Crystal 2
+850z
+Defense 4
+Ice Res -1
+Gunnery 3
+Will Recov 1
+Desc
+Rhnoplos Scraps 2
+
+Rhenoplos Guards
+5
+3 -1 -1 -1 2
+G
+R2
+O--
+Rhenoplos Shell 2
+Med Mnster Bone 4
+Ice Crystal 2
+850z
+Defense 4
+Ice Res -2
+Gunnery 2
+Will Recov 1
+Desc
+Rhnoplos Scraps 2
+
 Jaggi Vambraces
 12
 -4 -2 -2 -2 1

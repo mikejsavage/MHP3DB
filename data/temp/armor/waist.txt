@@ -162,6 +162,40 @@ Gathering -3
 Desc
 Ore Scraps 2
 
+Rhenoplos Coil
+10
+2 -2 -2 -2 1
+B
+R2
+O--
+Rhenoplos Shell 2
+Rhnplos Skl Shl 1
+Earth Crystal 2
+850z
+Mud/Snow 2
+Ice Res -1
+Gunnery 3
+Will Recov 3
+Desc
+Rhnoplos Scraps 2
+
+Rhenoplos Coat
+5
+3 -1 -1 -1 2
+G
+R2
+O--
+Rhenoplos Shell 2
+Rhnplos Skl Shl 1
+Earth Crystal 2
+850z
+Ice Res -2
+Precision 1
+Gunnery 4
+Will Recov 2
+Desc
+Rhnoplos Scraps 2
+
 Jaggi Tasset
 12
 -4 -2 -2 -2 1

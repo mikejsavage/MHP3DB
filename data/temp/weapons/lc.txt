@@ -41,3 +41,16 @@ Sm Monster Bone 2
 Bone 5
 Desc
 Bone Scraps 2
+
+Gouging Hasta
+100
+R2
+0%
+---
+2850z
+Rhenoplos Shell 3
+Sm Monster Bone 5
+Grt Jaggi Claw 2
+Warm Pelt 2
+Desc
+Rhnoplos Scraps 2

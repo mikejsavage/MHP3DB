@@ -51,6 +51,15 @@ Anti-Theft 2
 Suiko Jewel 1
 Felvine 3
 
+Reflon JEwel
+white 4
+1
+Mud/Snow 1
+Sleep -1
+200z
+Suiko Jewel 1
+Rhenoplos Shell 2
+
 Cooling Jwl
 cyan 4
 1
