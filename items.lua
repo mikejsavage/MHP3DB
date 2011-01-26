@@ -6,6 +6,13 @@ require( "cgi" )
 
 Items = data( "items" )
 
+-- templates
+
+local itemInfo = loadTemplate( "items/itemInfo" )
+
+itemName    = loadTemplate( "itemName" )
+itemNameURL = loadTemplate( "itemNameURL" )
+
 
 
 local function itemFromName( name )
@@ -24,16 +31,22 @@ if Get.name then
 	local item = itemFromName( Get.name )
 
 	if item then
-		print( T( item.name ) )
+		header( T( item.name ) )
+
+		print( itemInfo( { item = item } ) )
 
 		state = "item"
 	end
 end
 
 if state == "none" then
+	header( "Items" )
+
 	for _, item in ipairs( Items ) do
-		print( T( item.name ) )
+		print( itemNameURL( { item = item } ) .. "<br>" )
 	end
 
 	print( table.getn( Items ) )
 end
+
+footer()

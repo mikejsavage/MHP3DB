@@ -1,7 +1,6 @@
-// TODO: strip out "No Bottle" item?
-
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 char *contents( char *filename, int *len )
 {
@@ -48,13 +47,23 @@ int main()
 	// get rid of the damn \n vim insists on adding...
 	data[ len - 1 ] = '\0';
 
+	int id = 0;
 	char *currName = data;
 
 	printf( "[" );
 
 	while( 1 )
 	{
-		printf( "\n\t{\n\t\t\"name\" : {\n\t\t\t\"hgg\" : \"%s\"\n\t\t}\n\t}", currName );
+		// this is cheating
+		if( strcmp( currName, "No Bottle" ) == 0 )
+		{
+			id++;
+			currName = memnchr( currName, '\0', len );
+
+			continue;
+		}
+
+		printf( "\n\t{\n\t\t\"id\" : %d,\n\t\t\"name\" : {\n\t\t\t\"hgg\" : \"%s\"\n\t\t}\n\t}", id, currName );
 
 		char *nextName = memnchr( currName, '\0', len );
 
@@ -65,6 +74,7 @@ int main()
 
 		printf( "," );
 
+		id++;
 		currName = nextName;
 	}
 

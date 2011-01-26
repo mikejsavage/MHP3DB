@@ -72,7 +72,7 @@ end
 
 headerTemplate = loadTemplate( "header" )
 header = function( title )
-	print( headerTemplate( title ) )
+	print( headerTemplate( { title = title } ) )
 end
 
 footerTemplate = loadTemplate( "footer" )

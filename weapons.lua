@@ -19,8 +19,8 @@ local meleeInfo = loadTemplate( "weapons/meleeInfo" )
 weaponNameURL = loadTemplate( "weapons/weaponNameURL" )
 weaponName    = loadTemplate( "weapons/weaponName" )
 
-itemCounts = loadTemplate( "itemCounts" )
-itemName   = loadTemplate( "itemName" )
+itemCounts  = loadTemplate( "itemCounts" )
+itemNameURL = loadTemplate( "itemNameURL" )
 
 grid     = loadTemplate( "weapons/grid" )
 gridCell = loadTemplate( "weapons/gridCell" )
@@ -62,7 +62,7 @@ if Get.class then
 			local weapon = weaponFromName( class, Get.name )
 
 			if weapon then
-				header( { title = T( weapon.name ) } )
+				header( T( weapon.name ) )
 
 				print( meleeInfo( { weapon = weapon, class = class } ) )
 
@@ -71,7 +71,7 @@ if Get.class then
 		end
 
 		if state == "class" then
-			header( { title = T( class.name ) } )
+			header( T( class.name ) )
 
 			print( meleeTree( { class = class } ) )
 		end
@@ -79,7 +79,7 @@ if Get.class then
 end
 
 if state == "nothing" then
-	header( { title = "Weapons" } )
+	header( "Weapons" )
 
 	print( "<h1>Real weapons</h1>" )
 
