@@ -50,6 +50,8 @@ local function weaponFromName( class, name )
 	return nil
 end
 
+
+
 local state = "nothing"
 
 if Get.class then
@@ -83,7 +85,7 @@ if state == "nothing" then
 
 	print( "<h1>Real weapons</h1>" )
 
-	print( grid( { weapons = Weapons } ) )
+	print( grid( { weapons = Weapons, cols = 3 } ) )
 
 	print( "<h1>Sissy weapons</h1>" ) -- :)
 

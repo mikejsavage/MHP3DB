@@ -44,7 +44,7 @@ function itemID( name )
 		end
 	end
 	
-	assert( nil, "itemID failed to find item: " .. name )
+	return nil
 end
 
 function skillID( name )
@@ -53,28 +53,31 @@ function skillID( name )
 			return id
 		end
 	end
-	
-	assert( nil, "skillID failed to find skill: " .. name )
+
+	return nil
 end
 
 local function parseItem( line )
 	local success, _, name, count = line:find( "^([%a ]+) (%d+)$" )
 
 	if not success then
+		-- don't throw anything since this usually marks
+		-- the start of another block
+
 		return
 	end
 
-	return itemID( name ), count
+	return itemID( name ), tonumber( count )
 end
 
 local function parseSkill( line )
-	local success, _, name, points = line:find( "^([%a ]+) (%d+)$" )
+	local success, _, name, points = line:find( "^([%a ]+) %-?(%d+)$" )
 
 	if not success then
 		return
 	end
 
-	return skillId( name ), points
+	return skillID( name ), tonumber( points )
 end
 
 -- perhaps a gigantic FSM was not
@@ -89,32 +92,32 @@ local Actions =
 	end,
 
 	defense = function( line, piece )
-		local success, _, defense = line:find( "%d+" )
+		local success, _, defense = line:find( "(%d+)" )
 
 		if not success then
-			print( "bad defense " .. piece.name.hgg .. ": " .. line )
+			assert( nil, "bad defense " .. piece.name.hgg .. ": " .. line )
 		end
 
-		piece.defense = defense
+		piece.defense = tonumber( defense )
 
 		return "elemdef"
 	end,
 
 	elemdef = function( line, piece )
 		-- TODO: correct order?
-		local success, _, fire, water, thunder, ice, dragon = line:find( "%-?%d+ %-?%d+ %-?%d+ %-?%d+ %-?%d+" )
+		local success, _, fire, water, thunder, ice, dragon = line:find( "(%-?%d+) (%-?%d+) (%-?%d+) (%-?%d+) (%-?%d+)" )
 
 		if not success then
-			print( "bad elemdef " .. piece.name.hgg .. ": " .. line )
+			assert( nil, "bad elemdef " .. piece.name.hgg .. ": " .. line )
 
 			return
 		end
 
-		piece.fireRes    = fire
-		piece.waterRes   = water
-		piece.thunderRes = thunder
-		piece.iceRes     = ice
-		piece.dragonRes  = dragon
+		piece.fireRes    = tonumber( fire )
+		piece.waterRes   = tonumber( water )
+		piece.thunderRes = tonumber( thunder )
+		piece.iceRes     = tonumber( ice )
+		piece.dragonRes  = tonumber( dragon )
 
 		return "bladegun"
 	end,
@@ -127,15 +130,13 @@ local Actions =
 	end,
 
 	rarity = function( line, piece )
-		local success, _, rarity = line:find( "R%d+" )
+		local success, _, rarity = line:find( "R(%d+)" )
 
 		if not success then
-			print( "bad rarity " .. piece.name.hgg .. ": " .. line )
-
-			return
+			assert( nil, "bad rarity " .. piece.name.hgg .. ": " .. line )
 		end
 
-		piece.rarity = rarity
+		piece.rarity = tonumber( rarity )
 
 		return "slots"
 	end,
@@ -144,9 +145,7 @@ local Actions =
 		local success = line:find( "O*%-*" )
 
 		if not success then
-			print( "bad slots in " .. piece.name.hgg .. ": " .. line )
-			
-			return
+			assert( nil, "bad slots in " .. piece.name.hgg .. ": " .. line )
 		end
 
 		local slots = 0
@@ -174,9 +173,7 @@ local Actions =
 		local id, count = parseItem( line )
 
 		if not id then
-			print( "bad material in " .. piece.name.hgg .. ": " .. line )
-
-			return
+			assert( nil, "bad material in " .. piece.name.hgg .. ": " .. line )
 		end
 
 		if not piece.create then
@@ -208,6 +205,10 @@ local Actions =
 
 	scraps = function( line, piece )
 		local id, count = parseItem( line )
+
+		if not id then
+			assert( nil, "bad scrap in " .. piece.name.hgg .. ": " .. line )
+		end
 
 		if not piece.scraps then
 			piece.scraps = { }
@@ -254,7 +255,7 @@ for _, short in pairs( Types ) do
 			table.insert( class.pieces, piece )
 
 			state = "init"
-			weapon = { }
+			piece = { }
 
 			currentIdx = currentIdx + 1
 		else
@@ -270,5 +271,5 @@ local encoded = json.encode( Armor )
 
 print( encoded )
 
---io.output( "../armor.json" )
---io.write( encoded )
+io.output( "../armors.json" )
+io.write( encoded )

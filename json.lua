@@ -6,7 +6,7 @@ string.at = function( self, idx )
 	return self:sub( idx, idx )
 end
 
-string.startsWith = function( self, str, from )
+string.startsWithFrom = function( self, str, from )
 	from = from or 1
 
 	return self:sub( from, str:len() + from - 1 ) == str
@@ -88,6 +88,7 @@ local function decodeObject( str, pos )
 		end
 
 		if str:at( pos ) ~= "," then
+			print( str:sub( pos ) )
 			print( "FUCK THERE SHOULD BE A COMMA HERE" )
 		end
 
@@ -170,11 +171,11 @@ function decodeValue( str, pos )
 		return decodeArray( str, pos + 1 )
 	elseif next == "\"" then
 		return decodeString( str, pos + 1 )
-	elseif str:startsWith( "true", pos ) then
+	elseif str:startsWithFrom( "true", pos ) then
 		return true, pos + ( "true" ):len()
-	elseif str:startsWith( "false", pos ) then
+	elseif str:startsWithFrom( "false", pos ) then
 		return false, pos + ( "false" ):len()
-	elseif str:startsWith( "null", pos ) then
+	elseif str:startsWithFrom( "null", pos ) then
 		return null, pos + ( "null" ):len()
 	else
 		return decodeNumber( str, pos )

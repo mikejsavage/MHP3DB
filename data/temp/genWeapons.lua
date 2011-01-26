@@ -91,7 +91,7 @@ local function parseItem( line )
 		return
 	end
 
-	return itemID( name ), count
+	return itemID( name ), tonumber( count )
 end
 
 -- perhaps a gigantic FSM was not

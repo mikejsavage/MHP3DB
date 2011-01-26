@@ -158,7 +158,7 @@ Bullfango Pelt 3
 Health 5
 Water Res 6
 Desc
-Zuwaro Scraps 3
+Zuwaru Scraps 3
 
 Zuwaro Cap
 6
@@ -173,7 +173,7 @@ Bullfango Pelt 3
 Health 5
 Water Res 6
 Desc
-Zuwaro Scraps 3
+Zuwaru Scraps 3
 
 Aoashira Helm
 12
