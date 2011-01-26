@@ -57,6 +57,18 @@ Desc
 			Desc
 			Ore Scraps 2
 
+				Assassin's Dagger
+				140
+				R2
+				0%
+				---
+				Isisium Ore 2
+				Machalite Ore 3
+				Iron Ore 8
+				2940z
+				Desc
+				Ore Scraps 2
+
 		Soldier's Dagger
 		90
 		R1

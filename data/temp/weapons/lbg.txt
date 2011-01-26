@@ -168,3 +168,39 @@ Ore Scraps 1
 0
 0
 0
+
+Jaggi Fire
+100
+R2
+0%
+O--
+Normal
+None
+Moderate
+3300z
+Regal Frill 1
+Grt Jaggi Claw 5
+Iron Ore 4
+Bone 4
+Desc
+GrtJaggi Scraps 2
+4 3 0
+3!3M 3 0
+0 0 0
+1 0 0
+0 0 0
+2 0
+2 1
+0 0
+1 0
+0 0
+0
+0
+0
+0
+0
+2
+2
+0
+0
+2

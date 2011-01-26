@@ -162,6 +162,42 @@ Gathering -3
 Desc
 Ore Scraps 2
 
+Jaggi Tasset
+12
+-4 -2 -2 -2 1
+B
+R2
+O--
+Grt Jaggi Hide 2
+Regal Frill 1
+Jaggi Hide 3
+Earth Crystal 1
+1150z
+Rec Speed 4
+Attack 3
+LastingPwr -1
+Perception 1
+Desc
+GrtJaggi Scraps 2
+
+Jaggi Coat
+6
+-2 -1 -1 -1 2
+G
+R2
+O--
+Grt Jaggi Hide 2
+Regal Frill 1
+Jaggi Hide 3
+Earth Crystal 1
+1150z
+Rec Speed 2
+Attack 2
+LastingPwr -2
+Perception 3
+Desc
+GrtJaggi Scraps 2
+
 Aoashira Tasset
 12
 -3 1 -1 -2 1

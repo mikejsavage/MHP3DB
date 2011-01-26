@@ -189,6 +189,42 @@ Water Res 4
 Desc
 Zuwaru Scraps 3
 
+Jaggi Mail
+12
+-4 -2 -2 -2 1
+B
+R2
+O--
+Regal Frill 1
+Grt Jaggi Claw 2
+Jaggi Hide 3
+Iron Ore 3
+1150z
+Rec Speed 1
+Attack 2
+LastingPwr -2
+Perception 2
+Desc
+GrtJaggi Scraps 2
+
+Jaggi Vest
+6
+-2 -1 -1 -1 2
+G
+R2
+O--
+Regal Frill 1
+Grt Jaggi Claw 2
+Jaggi Hide 3
+Iron Ore 3
+1150z
+Rec Speed 1
+Attack 2
+LastingPwr -2
+Perception 2
+Desc
+GrtJaggi Scraps 2
+
 Aoashira Mail
 12
 -3 1 -1 -2 1
