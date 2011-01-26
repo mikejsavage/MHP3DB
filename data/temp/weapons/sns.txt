@@ -91,6 +91,20 @@ Sm Monster Bone 2
 Desc
 Bone Scraps 2
 
+Ludroth Claw
+100
+Water 8
+R1
+0%
+---
+2250z
+Juvenile Sponge 4
+Ludroth Hide 3
+Grt Jaggi Claw 1
+Sm Monster Bone 3
+Desc
+Bone Scraps 2
+
 Hydra Knife
 100
 R2

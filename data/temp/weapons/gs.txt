@@ -52,3 +52,15 @@ Grt Jaggi Hide 3
 Machalite Ore 2
 Desc
 GrtJaggi Scraps 2
+
+Ludroth Bone Sword
+110
+R1
+0%
+O--
+3750z
+Juvenile Sponge 6
+Med Mnster Bone 6
+Killer Beetle 5
+Desc
+Bone Scraps 2

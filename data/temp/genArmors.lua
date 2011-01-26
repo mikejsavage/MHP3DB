@@ -264,9 +264,7 @@ for _, short in pairs( Types ) do
 	table.insert( Armor, class )
 end
 
-local encoded = json.encode( Armor )
-
-print( encoded )
+print( "genArmors: ok!" )
 
 io.output( "../armors.json" )
-io.write( encoded )
+io.write( json.encode( Armor ) )

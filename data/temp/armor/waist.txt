@@ -267,3 +267,39 @@ Gluttony 2
 Defense 1
 Desc
 Aoashira Scraps 2
+
+Ludroth Tasset
+14
+-4 2 -2 -2 1
+B
+R2
+O--
+Ludroth Hide 3
+Juvenile Sponge 5
+Sm Monster Bone 4
+Killer Beetle 2
+1350z
+Hunger 2
+ThunderRes -1
+Stamina 3
+Water Atk 3
+Desc
+Bone Scraps 2
+
+Ludroth Coat
+7
+-2 4 -1 -1 2
+G
+R2
+O--
+Ludroth Hide 3
+Juvenile Sponge 5
+Sm Monster Bone 4
+Killer Beetle 2
+1350z
+Hunger 2
+ThunderRes -2
+Stamina 1
+Water Atk 4
+Desc
+Bone Scraps 2

@@ -175,9 +175,7 @@ end
 
 table.insert( Decorations, decoration )
 
-local encoded = json.encode( Decorations )
-
-print( encoded )
+print( "genDecorations: ok!" )
 
 io.output( "../decorations.json" )
-io.write( encoded )
+io.write( json.encode( Decorations ) )
