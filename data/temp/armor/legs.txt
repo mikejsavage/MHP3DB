@@ -208,7 +208,7 @@ Aoashira Pelt 2
 Bnahabra Shell 2
 Killer Beetle 2
 1150z
-Torso Up 1
+Torso Up 0
 Desc
 Aoashira Scraps 2
 
@@ -223,6 +223,6 @@ Aoashira Pelt 2
 Bnahabra Shell 2
 Killer Beetle 2
 1150z
-Torso Up 1
+Torso Up 0
 Desc
 Aoashira Scraps 2

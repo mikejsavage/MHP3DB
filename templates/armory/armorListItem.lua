@@ -17,8 +17,10 @@
 			local form =
 				skill.points > 0 and
 					( alt and ", %-10s %3d\n" or "%-10s %3d" )
-				or
+				or skill.points < 0 and
 					( alt and ", <span class=\"neg\">%-10s %3d</span>\n" or "<span class=\"neg\">%-10s %3d</span>" )
+				or 
+					( alt and ", %-10s    \n" or "%-10s    " )
 
 			print( form:format( T( Skills[ skill.id ].name ), skill.points ) )
 
