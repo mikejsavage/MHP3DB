@@ -1,0 +1,502 @@
+[
+	{
+		"name" : {
+			"hgg" : "Torso Up"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Poison"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Paralysis"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Sleep"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Stun"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Mud/Snow"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Sense"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Health"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Rec Speed"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Sharpness"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Artisan"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Fencing"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Expert"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Sharpener"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Guard"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Guard Up"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Auto-Guard"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Reload Spd"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Recoil"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "NormalS Up"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "PierceS Up"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "PelletS Up"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "NormalSAdd"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "PierceSAdd"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "PelletSAdd"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Crag S Add"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "ClustS Add"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Status"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Elemental"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "BombStrUp"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Hunger"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Gluttony"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Attack"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Defense"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Protection"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "HearProtct"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Anti-Theft"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Wide Area"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Backpackng"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Fire Res"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Water Res"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "ThunderRes"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Ice Res"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Dragon Res"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Heat Res"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Cold Res"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "WindPress"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Gathering"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "HiSpdGathr"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Whim"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Fate"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Psychic"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Rec Level"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Combo Rate"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Shot Mix"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Evasion"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Potential"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "LastingPwr"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Stamina"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Loading"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Precision"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Eating"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Carving"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Quake Res"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Evade Dist"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Crit Draw"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "SpeedSetup"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Constitutn"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Rewards"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Perception"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "FastCharge"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "PunishDraw"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Blight Res"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Adversity"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Rapid Fire"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Dungmaster"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Antiseptic"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "PoisonCAdd"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "ParalyCAdd"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "SleepCAdd"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "PowerCAdd"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "RazorCAdd"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Horn"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Gunnery"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Awaken"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Huntsman"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Fortitude"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Fire Atk"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Water Atk"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Thundr Atk"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Ice Attack"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Dragon Atk"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "CutterSAdd"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "FatigeCAdd"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Debilitate"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Slam"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "KO"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "FatigueAtk"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Sheathe"
+		}
+	},
+	{
+		"name" : {
+			"hgg" : "Will Recov"
+		}
+	}
+]

@@ -1,0 +1,64 @@
+// root is an array
+[
+	// containing objects describing each armor type
+	{
+		// name eg Helmets
+		"name" : translation
+		// shorted form of name eg hlm
+		"short" : string
+
+		// array containing pieces
+		"pieces" : [
+			// object describing each piece
+			// TODO: armor upgrades
+			{
+				// name of piece eg Guild Bard Lobos
+				"name" : translation
+				"description" : translation
+
+				"defense" : int
+				"fireRes" : int
+				"waterRes" : int
+				"thunderRes" : int
+				"iceRes" : int
+				"dragonRes" : int
+
+				// can be used as blademaster/gunner?
+				"blade" : bool
+				"gunner" : bool
+
+				"slots" : int
+
+				"rarity" : int
+
+				// array containing skill info
+				"skills" : [
+					// object per skill
+					{
+						// indices into skills.json
+						"id" : int
+
+						// positive or negative
+						"points" : int
+					}
+					...
+				] (conditional)
+
+				"price" : int
+				"buyable" : bool (conditional)
+
+				// materials needed to create
+				"create" : [
+					// object per material
+					{
+						"id" : int
+						"count" : int
+					}
+					...
+				] (conditional)
+			}
+			...
+		]
+	}
+	...
+]

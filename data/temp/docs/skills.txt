@@ -1,0 +1,26 @@
+// should this have descriptions of each skill?
+
+// root is an array
+[
+	// containing objects describing each skill
+	{
+		// name eg Sharpness
+		"name" : translation
+		// https://docs.google.com/document/d/1HXUp_T95Dte2GZxxtB7aFyR54ExB1kMF9nPZIKgew7E/edit?hl=en&authkey=CO7iodwK#
+		// 0 = A, 1 = B etc
+		"group" : int
+
+		// array of active skills and their points required
+		"bounds" : [
+			{
+				// points required to activate skill
+				"points" : int
+
+				// name eg Razor Sharp
+				"name" : translation
+			}
+			...
+		]
+	}
+	...
+]

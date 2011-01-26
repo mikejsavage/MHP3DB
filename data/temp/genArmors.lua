@@ -22,6 +22,8 @@ local Bases =
 	legs = { name = { hgg = "Greaves" }, short = "leg" },
 }
 
+local MaxSlots = 3
+
 function readFile( path )
 	local file = assert( io.open( path, "r" ) )
 
@@ -33,6 +35,7 @@ function readFile( path )
 end
 
 local Items = json.decode( readFile( "../items.json" ) )
+local Skills = json.decode( readFile( "../skills.json" ) )
 
 function itemID( name )
 	for id, item in ipairs( Items ) do
@@ -44,7 +47,15 @@ function itemID( name )
 	assert( nil, "itemID failed to find item: " .. name )
 end
 
-local MaxSlots = 3
+function skillID( name )
+	for id, skill in ipairs( Skills ) do
+		if skill.name.hgg == name then
+			return id
+		end
+	end
+	
+	assert( nil, "skillID failed to find skill: " .. name )
+end
 
 local function parseItem( line )
 	local success, _, name, count = line:find( "^([%a ]+) (%d+)$" )
@@ -54,6 +65,16 @@ local function parseItem( line )
 	end
 
 	return itemID( name ), count
+end
+
+local function parseSkill( line )
+	local success, _, name, points = line:find( "^([%a ]+) (%d+)$" )
+
+	if not success then
+		return
+	end
+
+	return skillId( name ), points
 end
 
 -- perhaps a gigantic FSM was not
@@ -168,9 +189,21 @@ local Actions =
 	end,
 
 	skills = function( line, piece )
-		-- TODO: this
+		local id, points = parseSkill( line )
 
-		return "null"
+		if not id then
+			piece.description = line
+
+			return "scraps"
+		end
+
+		if not piece.skills then
+			piece.skills = { }
+		end
+
+		table.insert( piece.skills, { id = id, points = points } )
+
+		return "skills"
 	end,
 
 	scraps = function( line, piece )
