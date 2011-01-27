@@ -87,6 +87,6 @@ footer = function()
 end
 
 iconTemplate = loadTemplate( "icon" )
-icon = function( icon )
-	return iconTemplate( { icon = icon } )
+icon = function( icon, color )
+	return iconTemplate( { icon = icon, color = color } )
 end
