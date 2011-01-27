@@ -226,7 +226,7 @@ int main()
 		}
 	}
 
-	// 7 so it doesn't go on forever or look like a proper string
+	// 7 so it doesn't look like a proper string
 	// if somebody tries to gank my server
 	if( strnlen( color, 7 ) != 6 )
 	{
