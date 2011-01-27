@@ -296,3 +296,75 @@ Eating -2
 Horn 5
 Desc
 Qurupeco Scraps 2
+
+Viking Greaves
+14
+0 3 -2 -2 0
+B
+R3
+O--
+Armord Beakfish 2
+Pelagicite Ore 1
+Rumblefish 20
+Large Fin 3
+2850z
+Rec Speed 4
+Sharpness 2
+Sharpener -1
+Water Res 2
+Desc
+Ore Scraps 1
+
+Viking Leggings
+7
+0 5 -1 -4 0
+G
+R3
+O--
+Armord Beakfish 2
+Pelagicite Ore 1
+Rumblefish 20
+Large Fin 3
+2850z
+Rec Speed 3
+Reload Spd -1
+NormalS Up 3
+Water Res 2
+Desc
+Ore Scraps 1
+
+Baggi Greaves
+16
+-4 -1 -1 2 1
+B
+R2
+O--
+Baggi Hide 4
+Baggi Scale 3
+Sm Monster Bone 6
+Lightcrystal 1
+1650z
+Rec Speed 4
+Attack 3
+Fire Res -1
+Ice Attack 1
+Desc
+Ore Scraps 2
+
+Baggi Leggings
+8
+-2 0 0 4 2
+G
+R2
+O--
+Baggi Hide 4
+Baggi Scale 3
+Sm Monster Bone 6
+Lightcrystal 1
+1650z
+Rec Speed 3
+Attack 3
+Fire Res -2
+Ice Attack 1
+Desc
+Ore Scraps 2

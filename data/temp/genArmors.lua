@@ -58,7 +58,7 @@ function skillID( name )
 end
 
 local function parseItem( line )
-	local success, _, name, count = line:find( "^([%a%d%- ]+) (%d+)$" )
+	local success, _, name, count = line:find( "^([%a%d%-%+ ]+) (%d+)$" )
 
 	if not success then
 		-- don't throw anything since this usually marks

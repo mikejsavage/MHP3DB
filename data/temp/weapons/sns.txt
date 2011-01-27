@@ -69,6 +69,32 @@ Desc
 				Desc
 				Ore Scraps 2
 
+					Icy Bite
+					130
+					Ice 22
+					R2
+					20%
+					O--
+					Barioth Spike 1
+					Barioth Shell 3
+					Ice Crystal 10
+					3540z
+					Desc
+					Barioth Scraps 2
+
+					Shadow Saber
+					130
+					Poison 19
+					R2
+					0%
+					---
+					Gigginox Hide 5
+					Poison Sac 3
+					Isisium Ore 4
+					3540z
+					Desc
+					Gigginox Scraps 2
+
 		Soldier's Dagger
 		90
 		R1

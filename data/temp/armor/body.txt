@@ -159,6 +159,40 @@ Gathering -2
 Desc
 Ore Scraps 2
 
+Rhenoplos Mail
+10
+2 -2 -2 -2 1
+B
+R2
+O--
+Rhnplos Skl Shl 1
+Rhenoplos Shell 2
+Earth Crystal 2
+850z
+Mud/Snow 2
+Ice Res -2
+Gunnery 1
+Will Recov 2
+Desc
+Rhnoplos Scraps 2
+
+Rhenoplos Vest
+5
+3 -1 -1 -1 2
+G
+R2
+O--
+Rhnplos Skl Shl 1
+Rhenoplos Shell 2
+Earth Crystal 2
+850z
+Ice Res -2
+Precision 2
+Gunnery 1
+Will Recov 2
+Desc
+Rhnoplos Scraps 2
+
 Zuwaro Mantle
 12
 -2 2 0 -1 1
@@ -296,3 +330,56 @@ Rec Level 2
 Eating -1
 Desc
 Qurupeco Scraps 2
+
+Steel Mail
+14
+2 0 -2 2 0
+B
+R2
+O--
+Isisium Ore 2
+Lightcrystal 1
+Bealite Ore 3
+Iron Ore 10
+1350z
+Sharpener 2
+Defense 4
+Antiseptic 1
+Desc
+Ore Scraps 2
+
+Viking Mail
+14
+0 3 -2 -2 0
+B
+R3
+O--
+Armord Beakfish 3
+Shellfish 4
+Bealite Ore 3
+Bomb Arrowana 5
+2850z
+Rec Speed 1
+Sharpness 2
+Sharpener -3
+Water Res 1
+Desc
+Ore Scraps 1
+
+Viking Vest
+7
+0 5 -1 -4 0
+G
+R3
+O--
+Armord Beakfish 3
+Shellfish 4
+Bealite Ore 3
+Bomb Arrowana 5
+2850z
+Rec Speed 1
+Reload Spd -3
+NormalS Up 2
+Water Res 1
+Desc
+Ore Scraps 1

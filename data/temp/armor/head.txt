@@ -145,6 +145,40 @@ Gathering -2
 Desc
 Ore Scraps 2
 
+Rhenoplos Helm
+10
+2 -2 -2 -2 1
+BG
+R2
+O--
+Rhnplos Skl Shl 1
+Rhenoplos Shell 2
+Ice Crystal 2
+850z
+Mud/Snow 3
+Ice Res -3
+Gunnery 1
+Will Recov 2
+Desc
+Rhnoplos Scraps 2
+
+Rhenoplos Cap
+5
+3 -1 -1 -1 2
+BG
+R2
+O--
+Rhnplos Skl Shl 1
+Rhenoplos Shell 2
+Ice Crystal 2
+850z
+Ice Res -1
+Precision 4
+Gunnery 2
+Will Recov 4
+Desc
+Rhnoplos Scraps 2
+
 Zuwaro Helm
 12
 -2 2 0 -1 1
@@ -283,6 +317,42 @@ Horn 2
 Desc
 Qurupeco Scraps 2
 
+Viking Helm
+14
+0 3 -2 -2 0
+BG
+R3
+O--
+Armord Beakfish 4
+Cutlassfish 4
+Pelagicite Ore 2
+Burst Arrowana 10
+2850z
+Rec Speed 1
+Sharpness 2
+Sharpener -2
+Water Res 4
+Desc
+Ore Scraps 1
+
+Viking Cap
+7
+0 5 -1 -4 0
+BG
+R3
+O--
+Armord Beakfish 4
+Cutlassfish 4
+Pelagicite Ore 2
+Burst Arrowana 10
+2850z
+Rec Speed 3
+Reload Spd -2
+NormalS Up 2
+Water Res 4
+Desc
+Ore Scraps 1
+
 Gagua Mask
 8
 -4 -2 -1 2 1
@@ -295,3 +365,18 @@ Yukumo Wood 5
 Combo Rate 10
 Desc
 Pelt Scraps 4
+
+Bullfango Mask
+9
+-2 -1 -4 1 2
+BG
+R3
+---
+Bullfango Head 1
+Bulldrome Hide 3
+Bulldrome Tusk 6
+Lg Monster Bone 2
+850z
+Hunger 10
+Desc
+Bulldrme Scraps 4

@@ -377,3 +377,56 @@ Stamina 1
 Water Atk 4
 Desc
 Bone Scraps 2
+
+Steel Belt
+14
+2 0 -2 2 0
+B
+R2
+---
+Isisium Ore 4
+Bealite Ore 2
+Pelagicite Ore 1
+Iron Ore 5
+1350z
+Sharpener 4
+Defense 2
+Antiseptic 5
+Desc
+Ore Scraps 2
+
+Viking Tasset
+14
+0 3 -2 -2 0
+B
+R3
+O--
+Armord Beakfish 3
+Isisium Ore 2
+Sm Goldenfish 4
+Sleepyfish 5
+2850z
+Rec Speed 3
+Sharpness 3
+Sharpener -2
+Water Res 1
+Desc
+Ore Scraps 1
+
+Viking Coat
+7
+0 5 -1 -4 0
+G
+R3
+O--
+Armord Beakfish 3
+Isisium Ore 2
+Sm Goldenfish 4
+Sleepyfish 5
+2850z
+Rec Speed 3
+Reload Spd -2
+NormalS Up 3
+Water Res 1
+Desc
+Ore Scraps 1

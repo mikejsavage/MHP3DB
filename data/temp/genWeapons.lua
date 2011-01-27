@@ -95,7 +95,7 @@ end
 local MaxSlots = 3
 
 local function parseItem( line )
-	local success, _, name, count = line:find( "^([%a ]+) (%d+)$" )
+	local success, _, name, count = line:find( "^([%a%d%-%+ ]+) (%d+)$" )
 
 	if not success then
 		return

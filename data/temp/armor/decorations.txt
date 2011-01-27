@@ -7,6 +7,15 @@ Paralysis -1
 Suiko Jewel 1
 Brd Wyvern Fang 3
 
+VigilanceJwl
+blue 4
+1
+Stun 2
+300z
+Akito Jewel 1
+Regal Frill 1
+Aoashira Pelt 2
+
 ParalysisJwl
 yellow 4
 1
@@ -77,6 +86,14 @@ Heat Res 2
 Suiko Jewel 1
 Ice Crystal 3
 
+Warming Jwl
+orange 4
+1
+Cold Res 2
+200z
+Suiko Jewel 1
+Baggi Scale 2
+
 Attack Jewel
 red 4
 1
@@ -96,6 +113,33 @@ Dragon Res -1
 Suiko Jewel 1
 Sharp Fang 2
 Iron Ore 1
+
+BombrdierJwl
+red 4
+1
+BombStrUp 2
+200z
+Akito Jewel 1
+Flintstone 1
+Grt Jaggi Hide 1
+
+Fife Jewel
+pink 4
+1
+Horn 2
+200z
+Akito Jewel 1
+Queer Beak 1
+Flute 1
+
+Howitzer Jwl
+gray 4
+1
+Gunnery 2
+200z
+Akito Jewel 1
+Isisium Ore 1
+Lg Barrel-Bomb+ 2
 
 Defense Jwl
 blue 4
@@ -168,6 +212,16 @@ Eating -1
 200z
 Suiko Jewel 1
 Jaggi Hide 2
+
+Cure Jewel
+green 4
+1
+Rec Level 1
+Rec Speed -1
+200z
+Akito Jewel 1
+Qurupeco Scale 1
+Kelbi Horn 2
 
 PickyEatrJwl
 white 4
@@ -295,6 +349,16 @@ Sharpener 2
 Suiko Jewel 1
 Grt Jaggi Claw 1
 Machalite Ore 1
+
+Pellet Jewel
+white 4
+1
+PelletS Up 1
+Recoil -1
+200z
+Akito Jewel 1
+Isisium Ore 2
+Wyvern Fang 5
 
 ShotBonusJwl
 orange 4

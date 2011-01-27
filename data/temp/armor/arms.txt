@@ -285,3 +285,56 @@ Rec Level 2
 Eating -2
 Desc
 Qurupeco Scraps 2
+
+Steel Vambraces
+14
+2 0 -2 2 0
+B
+R2
+---
+Isisium Ore 4
+Lightcrystal 1
+Pelagicite Ore 2
+Iron Ore 5
+1350z
+Sharpener 4
+Defense 5
+Antiseptic 2
+Desc
+Ore Scraps 2
+
+Viking Vambraces
+14
+0 3 -2 -2 0
+B
+R3
+OO-
+Armord Beakfish 2
+Isisium Ore 2
+Scatterfish 2
+Large Fin 6
+2850z
+Rec Speed 3
+Sharpness 1
+Sharpener -2
+Water Res 1
+Desc
+Ore Scraps 1
+
+Viking Guards
+7
+0 5 -1 -4 0
+G
+R3
+OO-
+Armord Beakfish 2
+Isisium Ore 2
+Scatterfish 2
+Large Fin 6
+2850z
+Rec Speed 2
+Reload Spd -2
+NormalS Up 2
+Water Res 1
+Desc
+Ore Scraps 1
