@@ -8,6 +8,7 @@ Items = data( "items" )
 
 -- templates
 
+local itemSearch = loadTemplate( "items/search" )
 local itemInfo = loadTemplate( "items/itemInfo" )
 
 itemName    = loadTemplate( "itemName" )
@@ -40,13 +41,9 @@ if Get.name then
 end
 
 if state == "none" then
-	header( "Items" )
+	header( "Item Search" )
 
-	for _, item in ipairs( Items ) do
-		print( itemNameURL( { item = item } ) .. "<br>" )
-	end
-
-	print( table.getn( Items ) )
+	print( itemSearch() )
 end
 
 footer()
