@@ -145,6 +145,42 @@ Gathering -2
 Desc
 Ore Scraps 2
 
+Bnahabra Helm
+10
+-5 -2 2 -2 4
+BG
+R2
+O--
+Bnahabra Shell 2
+Bnahabra Wing 3
+Killer Beetle 1
+Carpenterbug 2
+850z
+Sense 4
+Status 1
+Attack -3
+Sheathe 1
+Desc
+Bnahabra Scraps 2
+
+Bnahabra Cap
+5
+-3 -1 3 -1 5
+BG
+R2
+O--
+Bnahabra Shell 2
+Bnahabra Wing 3
+Killer Beetle 1
+Carpenterbug 2
+850z
+Sense 4
+Status 3
+Attack -1
+Sheathe 3
+Desc
+Bnahabra Scraps 2
+
 Rhenoplos Helm
 10
 2 -2 -2 -2 1
@@ -316,6 +352,42 @@ Eating -1
 Horn 2
 Desc
 Qurupeco Scraps 2
+
+Ludroth Helm
+14
+-4 2 -2 -2 1
+BG
+R2
+O--
+RyalLudrthCrest 2
+RoyalLudrthTail 1
+RoyalLudrothScl 2
+Carpenterbug 3
+1350z
+Hunger 3
+ThunderRes -3
+Stamina 2
+Water Atk 1
+Desc
+Ludroth Scraps 2
+
+Ludroth Cap
+7
+-2 4 -1 -1 2
+BG
+R2
+O--
+RyalLudrthCrest 2
+RoyalLudrthTail 1
+RoyalLudrothScl 2
+Carpenterbug 3
+1350z
+Hunger 3
+ThunderRes -1
+Stamina 4
+Water Atk 3
+Desc
+Ludroth Scraps 2
 
 Viking Helm
 14

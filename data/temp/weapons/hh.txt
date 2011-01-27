@@ -46,6 +46,19 @@ Bealite Ore 5
 Desc
 Aoashira Scraps 2
 
+Cello Ve Cero
+80
+WGY
+R1
+0%
+---
+1500z
+Bnahabra Shell 4
+Bnahabra Wing 2
+Yukumo Wood 3
+Desc
+Bnahabra Scraps 2
+
 Qurupeco Cornet
 130
 WCG

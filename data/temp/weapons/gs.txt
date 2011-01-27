@@ -64,3 +64,17 @@ Med Mnster Bone 6
 Killer Beetle 5
 Desc
 Bone Scraps 2
+
+Ruinous Mushroom
+100
+Poison 30
+R2
+0%
+---
+3750z
+Poison Sac 2
+Yukumo Wood 3
+Toadstool 8
+Mega Parashroom 1
+Desc
+Wood Scraps 2

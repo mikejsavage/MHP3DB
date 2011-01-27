@@ -204,3 +204,39 @@ GrtJaggi Scraps 2
 0
 0
 2
+
+Roaring Stream
+140
+R2
+0%
+---
+Normal
+None
+Moderate
+4950z
+Spongy Hide 4
+RoyalLudrothClw 5
+RyalLudrthCrest 1
+Machalite Ore 4
+Desc
+Ludroth Scraps 2
+4 4 5
+0 0 0
+4 5 0
+0 0 0
+1 0 0
+3 0
+2 0
+0 0
+0 0
+0 0
+0
+3!3W
+0
+0
+0
+2
+2
+0
+0
+0

@@ -54,6 +54,20 @@ Carpenterbug 2
 Desc
 Pelt Scraps 2
 
+Ludroth Bore Hammer
+120
+Water 21
+R2
+0%
+---
+7350z
+RyalLudrthCrest 3
+Spongy Hide 5
+Ludroth Hide 8
+Lg Monster Bone 3
+Desc
+Ludroth Scraps
+
 Flint Warclub
 110
 Fire 25

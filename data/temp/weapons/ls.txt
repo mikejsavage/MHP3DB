@@ -43,3 +43,17 @@ Jaggi Scale 5
 Desc
 Bone Scraps 1
 Ore Scraps 1
+
+Downpour
+130
+Water 14
+R2
+0%
+O--
+7350z
+RyalLudrthCrest 3
+RoyalLudrthTail 1
+Spongy Hide 4
+Lg Monster Bone 1
+Desc
+Ludroth Scraps 2

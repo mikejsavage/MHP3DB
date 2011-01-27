@@ -131,6 +131,19 @@ Sm Monster Bone 3
 Desc
 Bone Scraps 2
 
+Sector Cero
+70
+R1
+0%
+---
+900z
+Bnahabra Wing 2
+Bnahabra Shell 3
+Monster Fluid 1
+Altaroth Jaw 1
+Desc
+Bnahabra Scraps 2
+
 Hydra Knife
 100
 R2

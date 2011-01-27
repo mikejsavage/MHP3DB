@@ -43,6 +43,16 @@ Stun -1
 Suiko Jewel 1
 Froggi Hide 2
 
+Antidote Jwl
+purple 5
+2
+Poison 3
+Stun -1
+375z
+Akito Jewel 1
+Grt Frggi Arm 2
+Screamer 2
+
 FortitudeJwl
 purple 4
 1
@@ -77,6 +87,15 @@ Sense -1
 200z
 Suiko Jewel 1
 Ludroth Hide 2
+
+AntiviralJwl
+green 4
+1
+Antiseptic 2
+300z
+Akito Jewel 1
+Spongy Hide 1
+Earth Crystal 2
 
 Cooling Jwl
 cyan 4
@@ -113,6 +132,25 @@ Dragon Res -1
 Suiko Jewel 1
 Sharp Fang 2
 Iron Ore 1
+
+SpecialAtkJwl
+pink 4
+1
+Status 1
+Elemental -1
+200z
+Akito Jewel 1
+Bnahabra Wing 3
+Bnahabra Stingr 2
+
+WaterAtk Jwl
+cyan 4
+1
+Water Atk 1
+Thundr Atk -1
+200z
+Akito Jewel 1
+RyalLudrthCrest 1
 
 BombrdierJwl
 red 4
@@ -169,6 +207,15 @@ ThunderRes -1
 Suiko Jewel 1
 Knife Mackerel 5
 
+Torrent Jwl
+cyan 4
+1
+Water Res 2
+300z
+Akito Jewel 1
+Aqua Sac 2
+Lg Monster Bone 3
+
 Thunder Jwl
 yellow 4
 1
@@ -222,6 +269,16 @@ Rec Speed -1
 Akito Jewel 1
 Qurupeco Scale 1
 Kelbi Horn 2
+
+Marathon Jwl
+yellow 4
+1
+Stamina 1
+Hunger -1
+200z
+Akito Jewel 1
+RoyalLudrothClw 1
+Mega Juice 2
 
 PickyEatrJwl
 white 4
@@ -376,3 +433,20 @@ Precision 2
 200z
 Suiko Jewel 1
 Unknown Skull 2
+
+PoisonCt Jwl
+purple 4
+1
+PoisonCAdd 2
+200z
+Akito Jewel 1
+Poison Sac 1
+
+ClsRngCt Jwl
+white 4
+1
+RazorCAdd 2
+200z
+Akito Jewel 1
+RoyalLudrothScl 1
+Juvenile Sponge 1

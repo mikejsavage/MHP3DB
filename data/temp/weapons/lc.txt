@@ -54,3 +54,16 @@ Grt Jaggi Claw 2
 Warm Pelt 2
 Desc
 Rhnoplos Scraps 2
+
+Spiral Lance
+120
+Water 11
+R2
+0%
+O--
+6000z
+Spongy Hide 5
+Aqua Sac 4
+Lg Monster Bone 2
+Desc
+Ludroth Scraps 2

@@ -27,6 +27,23 @@ YYNNNYN
 	R2
 	YYNNNYN
 
+Arc Cero
+90
+Focused
+R1
+5%
+O--
+1455z
+Bnahabra Wing 4
+Bnahabra Shell 6
+Iron Ore 5
+Desc
+Bnahabra Scraps 2
+S2
+S2
+P2
+YNYNYYN
+
 Hunter's Bow I
 80
 Spread
@@ -83,3 +100,98 @@ S1
 S2
 S2
 NNYYYYN
+
+Sponge Gear II
+120
+Spread
+Water 18
+R2
+0%
+---
+5220z
+Spongy Hide 6
+RyalLudrthCrest 2
+RoyalLudrothScl 5
+Med Mnster Bone 4
+Desc
+Ludroth Scraps 2
+S2
+P2
+P3
+YNNNYYY
+
+Arc Cero Rouge
+120
+Focused
+Fire 12
+R2
+5%
+O--
+4350z
+Bnahabra Wing 6
+Bnahabra Shell 8
+Altarth Abdomen 5
+Flintstone 5
+Desc
+Bnahabra Scraps 2
+P1
+R2
+P3
+YNYNYYN
+
+Arc Cero Blanc
+120
+Focused
+Ice 10
+R2
+5%
+O--
+4350z
+Bnahabra Wing 6
+Bnahabra Shell 8
+Altarth Abdomen 5
+Isisium Ore 6
+Desc
+Bnahabra Scraps 2
+S2
+P2
+P3
+YNYNYYN
+
+Arc Cero Dorado
+120
+Focused
+Thunder 8
+R2
+5%
+O--
+4350z
+Bnahabra Wing 6
+Bnahabra Shell 8
+Altarth Abdomen 5
+Lightcrystal 3
+Desc
+Bnahabra Scraps 2
+S2
+S2
+R3
+YNYNYYN
+
+Froggi Revolver III
+150
+Blast
+R3
+0%
+---
+7350z
+Grt Froggi Hide 6
+Regal Crest 2
+Poison Gland 3
+Dragonite Ore 5
+Desc
+GrtFroggiScraps
+R2
+P3
+R3
+YYNYNYN
+Poison Sleep
