@@ -35,5 +35,16 @@
 
 <h2>Crafting</h2>
 
+	<h3>Create</h3>
+
 	{{ itemCounts( { materials = piece.create } ) }}
 	Price: {{ piece.price }}z
+
+	{%
+	-- glass earrings don't have any scraps...
+	if piece.scraps then
+		print( "<h3>Scraps</h3>" )
+
+		print( itemCounts( { materials = piece.scraps } ) )
+	end
+	%}
