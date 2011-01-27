@@ -234,6 +234,15 @@ Fire Res -1
 Suiko Jewel 1
 Ice Crystal 5
 
+Glacier Jwl
+blue 4
+1
+Ice Res 2
+300z
+Akito Jewel 1
+Urukusu Claw 2
+Lg Monster Bone 3
+
 Slayer Jewel
 purple 4
 1
@@ -269,6 +278,25 @@ Rec Speed -1
 Akito Jewel 1
 Qurupeco Scale 1
 Kelbi Horn 2
+
+Evade Jewel
+cyan 4
+1
+Evasion 1
+Health -1
+200z
+Akito Jewel 1
+Urukusu Belly 2
+Killer Beetle 2
+
+TrapMastrJwl
+cyan 4
+1
+SpeedSetup 2
+200z
+Akito Jewel 1
+Glossy Hide 1
+Shock Trap 1
 
 Marathon Jwl
 yellow 4
@@ -398,6 +426,14 @@ Suiko Jewel 1
 Sushifish 1
 Raw Meat 2
 
+Ninja Jewel
+purple 4
+1
+Sense 2
+200z
+Suiko Jewel 1
+Anteka Antlers 2
+
 Grinder Jwl
 yellow 4
 1
@@ -425,6 +461,14 @@ Reload Spd -1
 200z
 Suiko Jewel 1
 Med Mnster Bone 2
+
+CuttrBnusJwl
+orange 4
+1
+CutterSAdd 2
+200z
+Suiko Jewel 1
+Urukusu Pelt 2
 
 Sniper Jewel
 white 4

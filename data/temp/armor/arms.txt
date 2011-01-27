@@ -358,6 +358,42 @@ Perception 2
 Desc
 GrtFroggiScraps 2
 
+Urukusu Vambraces
+14
+-4 2 -2 2 1
+B
+R2
+O--
+Urukusu Claw 2
+Urukusu Pelt 2
+Urukusu Belly 1
+Glossy Hide 4
+1350z
+Heat Res -2
+Cold Res 4
+Evasion 1
+Sheathe 2
+Desc
+Urukusu Scraps 2
+
+Urukusu Guards
+7
+-2 3 -1 4 3
+G
+R2
+O--
+Urukusu Claw 2
+Urukusu Pelt 2
+Urukusu Belly 1
+Glossy Hide 4
+1350z
+Heat Res -2
+Cold Res 3
+Evasion 2
+Sheathe 2
+Desc
+Urukusu Scraps 2
+
 Ludroth Vambraces
 14
 -4 2 -2 -2 1

@@ -62,3 +62,16 @@ Flintstone 3
 Lg Monster Bone 2
 Desc
 Qurupeco Scraps 2
+
+Dei Edge
+130
+Dragon
+R2
+0%
+O--
+9999z
+Lightcrystal 2
+Pelagicite Ore 10
+Monster Fluid 5
+Desc
+Ore Scraps 2

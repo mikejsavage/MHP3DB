@@ -438,6 +438,17 @@ Combo Rate 10
 Desc
 Pelt Scraps 4
 
+Glass Earrings
+9
+0 0 0 0 2
+BG
+R3
+OO-
+Lightcrystal 1
+850z
+Desc
+
+
 Bullfango Mask
 9
 -2 -1 -4 1 2

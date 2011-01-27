@@ -378,6 +378,42 @@ Desc
 Bone Scraps 1
 Altaroth Scraps 1
 
+Urukusu Tasset
+14
+-4 2 -2 2 1
+B
+R2
+O--
+Urukusu Pelt 3
+Urukusu Claw 1
+Giant Bone 2
+Killer Beetle 3
+1350z
+Ice Res 3
+Heat Res -1
+Cold Res 2
+Evasion 3
+Desc
+Urukusu Scraps 2
+
+Urukusu Coat
+7
+-2 3 -1 4 3
+G
+R2
+O--
+Urukusu Pelt 3
+Urukusu Claw 1
+Giant Bone 2
+Killer Beetle 3
+1350z
+Ice Res 4
+Heat Res -2
+Cold Res 2
+Evasion 1
+Desc
+Urukusu Scraps 2
+
 Ludroth Tasset
 14
 -4 2 -2 -2 1

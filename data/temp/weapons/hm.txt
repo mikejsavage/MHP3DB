@@ -80,3 +80,15 @@ Flintstone 2
 Med Mnster Bone 5
 Desc
 Qurupeco Scraps 2
+
+Gaia Spoo
+130
+R2
+0%
+O--
+9999z
+Lightcrystal 2
+Pelagicite Ore 10
+Monster Fluid 5
+Desc
+Ore Scraps 2

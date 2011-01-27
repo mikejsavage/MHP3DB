@@ -173,6 +173,42 @@ Aoashira Scraps 2
 0
 0
 
+Pengi Slayer
+140
+R2
+0%
+---
+Normal
+None
+Moderate
+5940z
+Urukusu Belly 4
+Urukusu Ear 4
+Urukusu Pelt 6
+Baggi Scale 3
+Desc
+Urukusu Scraps 2
+4 3 0
+3 3 0
+0 0 0
+0 0 0
+0 0 0
+2 0
+0 0
+0 0
+2 0
+0 0
+0
+2
+0
+3!
+0
+2
+2
+0
+0
+0
+
 Peco Gun
 130
 R2
@@ -208,3 +244,38 @@ Qurupeco Scraps 2
 1
 1
 0
+
+Blue Muster
+120
+R2
+0%
+O--
+Slow
+None
+Moderate
+4695z
+Lightcrystal 2
+Pelagicite Ore 10
+Monster Fluid 5
+Desc
+Ore Scraps 2
+4 5 0
+3 3 0
+0 0 0
+2 2 0
+0 0 0
+0 0
+0 0
+2 0
+0 0
+2 0
+0
+0
+3
+0
+2
+2
+2
+0
+0
+3!

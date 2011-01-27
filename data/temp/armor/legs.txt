@@ -369,6 +369,42 @@ Perception 1
 Desc
 GrtFroggiScraps 2
 
+Urukusu Greaves
+14
+-4 2 -2 2 1
+B
+R2
+O--
+Urukusu Pelt 2
+Urukusu Belly 2
+Urukusu Claw 1
+Carpenterbug 8
+1350z
+Heat Res -2
+Cold Res 1
+Evasion 2
+Sheathe 4
+Desc
+Urukusu Scraps 2
+
+Urukusu Leggings
+7
+-2 3 -1 4 3
+G
+R2
+O--
+Urukusu Pelt 2
+Urukusu Belly 2
+Urukusu Claw 1
+Carpenterbug 8
+1350z
+Heat Res -2
+Cold Res 2
+Evasion 1
+Sheathe 4
+Desc
+Urukusu Scraps 2
+
 Ludroth Greaves
 14
 -4 2 -2 -2 1

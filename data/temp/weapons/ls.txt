@@ -57,3 +57,28 @@ Spongy Hide 4
 Lg Monster Bone 1
 Desc
 Ludroth Scraps 2
+
+Chain Blade
+120
+Thunder 10
+R2
+0%
+O--
+6000z
+Lightcrystal 2
+Machalite Ore 7
+Thunderbug 15
+Desc
+Ore Scraps 2
+
+Wind Eater
+130
+R2
+0%
+O--
+9999z
+Lightcrystal 2
+Pelagicite Ore 10
+Monster Fluid 5
+Desc
+Ore Scraps 2

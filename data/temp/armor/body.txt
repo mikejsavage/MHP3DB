@@ -403,6 +403,42 @@ Perception 1
 Desc
 GrtFroggiScraps 2
 
+Urukusu Mail
+14
+-4 2 -2 2 1
+B
+R2
+O--
+Urukusu Belly 2
+Urukusu Pelt 2
+Baggi Scale 4
+Killer Beetle 3
+1350z
+Ice Res 2
+Heat Res -1
+Cold Res 1
+Evasion 3
+Desc
+Urukusu Scraps 2
+
+Urukusu Vest
+7
+-2 3 -1 4 3
+G
+R2
+O--
+Urukusu Belly 2
+Urukusu Pelt 2
+Baggi Scale 4
+Killer Beetle 3
+1350z
+Ice Res 1
+Heat Res -2
+Cold Res 1
+Evasion 3
+Desc
+Urukusu Scraps 2
+
 Ludroth Mail
 14
 -4 2 -2 -2 1

@@ -67,3 +67,15 @@ Aqua Sac 4
 Lg Monster Bone 2
 Desc
 Ludroth Scraps 2
+
+Blue Crater
+130
+R2
+0%
+O--
+9999z
+Lightcrystal 2
+Pelagicite Ore 10
+Monster Fluid 5
+Desc
+Ore Scraps 2

@@ -62,3 +62,18 @@ Machalite Ore 5
 Sharp Fang 4
 Desc
 Qurupeco Scraps 2
+
+Urukusu Ski
+110
+Ice 25
+S1
+R2
+0%
+---
+6000z
+Urukusu Belly 3
+Urukusu Ear 2
+Urukusu Claw 4
+Bealite Ore 7
+Desc
+Urukusu Scraps 2
