@@ -224,16 +224,12 @@ local Actions =
 	end,
 }
 
-function string.detab( self )
-	return self:gsub( "^\t+", "" )
-end
-
 function doLine( line, piece, state )
 	if not Actions[ state ] then
 		print( state )
 	end
 
-	return Actions[ state ]( line:detab(), piece )
+	return Actions[ state ]( line, piece )
 end
 
 local Armor = { }

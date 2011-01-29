@@ -94,5 +94,9 @@ end
 
 iconTemplate = loadTemplate( "icon" )
 icon = function( icon, color )
+	if NamedColors[ color ] then
+		color = NamedColors[ color ]
+	end
+
 	return iconTemplate( { icon = icon, color = color } )
 end

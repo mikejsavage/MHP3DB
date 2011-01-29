@@ -13,8 +13,10 @@
 6 BackPacker Guide
 
 7 Potion
+potion green
 
 8 Mega Potion
+potion green
 
 9 Nutrients
 
@@ -45,8 +47,10 @@
 22 Armor Pill
 
 23 Cool Drink
+potion white
 
 24 Hot Drink
+potion red
 
 25 Cleanser
 
@@ -453,6 +457,7 @@ R2
 216 Stone
 
 217 Iron Ore
+ore gray
 
 218 Earth Crystal
 
