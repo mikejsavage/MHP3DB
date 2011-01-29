@@ -65,6 +65,19 @@ Killer Beetle 5
 Desc
 Bone Scraps 2
 
+Ravager Blade
+140
+Def 12
+R2
+5%
+O--
+7350z
+Dragonite Ore 8
+Isisium Ore 10
+Bealite Ore 20
+Desc
+Ore Scraps 2
+
 Valkyrie Blade
 140
 Poison 24

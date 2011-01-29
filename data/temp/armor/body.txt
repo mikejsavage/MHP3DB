@@ -563,3 +563,39 @@ Protection 2
 Fire Atk 1
 Desc
 Rathian Scraps 2
+
+Ingot Mail
+20
+-2 -2 1 -2 0
+B
+R2
+O--
+Dragonite Ore 4
+Fire Stone 1
+Pelagicite Ore 1
+Bealite Ore 3
+2850z
+WindPress 3
+Whim -1
+Quake Res 2
+Thundr Atk 1
+Desc
+Ore Scraps 2
+
+Ingot Vest
+10
+-1 -1 2 -1 0
+G
+R2
+O--
+Dragonite Ore 4
+Fire Stone 1
+Pelagicite Ore 1
+Bealite Ore 3
+2850z
+PelletS Up 2
+PierceSAdd 2
+Whim -2
+Thundr Atk 1
+Desc
+Ore Scraps 2

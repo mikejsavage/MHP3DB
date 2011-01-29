@@ -482,3 +482,75 @@ NormalS Up 2
 Water Res 1
 Desc
 Ore Scraps 1
+
+Ingot Vambraces
+20
+-2 -2 1 -2 0
+B
+R2
+O--
+Dragonite Ore 2
+Lightcrystal 2
+Bealite Ore 2
+Machalite Ore 5
+2850z
+WindPress 1
+Whim -1
+Quake Res 3
+Thundr Atk 4
+Desc
+Ore Scraps 2
+
+Ingot Guards
+10
+-1 -1 2 -1 0
+G
+R2
+O--
+Dragonite Ore 2
+Lightcrystal 2
+Bealite Ore 2
+Machalite Ore 5
+2850z
+PelletS Up 1
+PierceSAdd 3
+Whim -1
+Thundr Atk 4
+Desc
+Ore Scraps 2
+
+Agnaktor Vambraces
+24
+4 -4 0 -2 -4
+B
+R3
+OO-
+Uroktor Scale 8
+Med Mnster Bone 4
+Magma Shard 8
+Fire Stone 1
+4150z
+Sharpness 1
+Expert 1
+Guard 2
+Potential -3
+Desc
+Agnaktor Scraps 2
+
+Agnaktor Guards
+12
+5 -2 0 -1 -2
+G
+R3
+OO-
+Uroktor Scale 8
+Med Mnster Bone 4
+Magma Shard 8
+Fire Stone 1
+4150z
+NormalS Up 1
+PierceSAdd 1
+Potential -3
+Precision 2
+Desc
+Agnaktor Scraps 2

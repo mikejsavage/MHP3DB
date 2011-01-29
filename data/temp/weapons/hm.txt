@@ -54,6 +54,18 @@ Carpenterbug 2
 Desc
 Pelt Scraps 2
 
+Iron Striker
+150
+R2
+0%
+O--
+8850z
+Dragonite Ore 6
+Machalite Ore 6
+Iron Ore 20
+Desc
+Ore Scraps 2
+
 Ludroth Bore Hammer
 120
 Water 21

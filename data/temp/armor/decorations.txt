@@ -122,6 +122,16 @@ Cold Res 2
 Suiko Jewel 1
 Baggi Scale 2
 
+Earplug Jwl
+gray 4
+1
+HearProtct 1
+Protection -1
+200z
+Akito Jewel 1
+Rathian Webbing 1
+Urukusu Ear 2
+
 Attack Jewel
 red 4
 1
@@ -207,6 +217,15 @@ Water Res -1
 Suiko Jewel 1
 Fire Herb 5
 
+Crimson Jwl
+red 4
+1
+Fire Res 2
+300z
+Akito Jewel 1
+Flame Sac 2
+Lg Monster Bone 3
+
 Stream Jewel
 cyan 4
 1
@@ -260,6 +279,14 @@ Poison -1
 200z
 Suiko Jewel 1
 Dragon Seed 2
+
+Protectn Jwl
+yellow 4
+1
+Protection 1
+200z
+Akito Jewel 1
+Rathian Shell 2
 
 Health Jewel
 red 4
@@ -452,6 +479,15 @@ Constitutn -1
 Akito Jewel 1
 Barroth Shell 2
 
+HardWall Jwl
+gray 4
+1
+Guard Up 1
+Stamina -1
+200z
+Akito Jewel 1
+Fire Stone 2
+
 Grinder Jwl
 yellow 4
 1
@@ -480,6 +516,14 @@ Reload Spd -1
 Suiko Jewel 1
 Med Mnster Bone 2
 
+PrceBonusJwl
+orange 4
+1
+PierceSAdd 2
+200z
+Akito Jewel 1
+Dragonite Ore 2
+
 CuttrBnusJwl
 orange 4
 1
@@ -503,6 +547,16 @@ PoisonCAdd 2
 200z
 Akito Jewel 1
 Poison Sac 1
+
+Power Ct Jwl
+red 4
+1
+PowerCAdd 1
+Expert -1
+200z
+Akito Jewel 1
+Uroktor Scale 2
+Nitroshroom 5
 
 ClsRngCt Jwl
 white 4

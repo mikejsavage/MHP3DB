@@ -55,6 +55,20 @@ Warm Pelt 2
 Desc
 Rhnoplos Scraps 2
 
+Rampart
+140
+Def 8
+R2
+0%
+---
+7350z
+Dragonite Ore 5
+Lightcrystal 3
+Bealite Ore 10
+Earth Crystal 12
+Desc
+Ore Scraps 2
+
 Spiral Lance
 120
 Water 11

@@ -574,3 +574,39 @@ Protection 2
 Fire Atk 1
 Desc
 Rathian Scraps 2
+
+Ingot Coil
+20
+-2 -2 1 -2 0
+B
+R2
+---
+Dragonite Ore 4
+Fire Stone 1
+Isisium Ore 3
+Machalite Ore 5
+2850z
+Sharpener 5
+WindPress 3
+Whim -2
+Thundr Atk 1
+Desc
+Ore Scraps 2
+
+Ingot Coat
+10
+-1 -1 2 -1 0
+G
+R2
+---
+Dragonite Ore 4
+Fire Stone 1
+Isisium Ore 3
+Machalite Ore 5
+2850z
+Reload Spd 4
+PelletS Up 4
+Whim -2
+Thundr Atk 1
+Desc
+Ore Scraps 2

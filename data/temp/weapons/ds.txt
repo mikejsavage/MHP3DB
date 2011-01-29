@@ -53,3 +53,15 @@ Sap Plant 2
 Honey 1
 Desc
 Wood Scraps 1
+
+Dual Tomahawks
+150
+R2
+0%
+---
+7080z
+Dragonite Ore 5
+Iron Ore 10
+Killer Beetle 6
+Desc
+Ore Scraps 2

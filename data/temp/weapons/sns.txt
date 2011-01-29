@@ -239,3 +239,16 @@ Pelagicite Ore 10
 Monster Fluid 5
 Desc
 Ore Scraps 2
+
+Whirlwind
+150
+R2
+5%
+---
+18000z
+SecretSwordBook 1
+Pelagicite Ore 6
+Lightcrystal 3
+Large Fin 6
+Desc
+Ore Scraps 1

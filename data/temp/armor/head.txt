@@ -534,3 +534,55 @@ Lg Monster Bone 2
 Hunger 10
 Desc
 Bulldrme Scraps 4
+
+Ingot Helm
+20
+-2 -2 1 -2 0
+BG
+R2
+O--
+Dragonite Ore 2
+Isisium Ore 2
+Pelagicite Ore 1
+Bealite Ore 3
+2850z
+Sharpener 2
+WindPress 2
+Whim -3
+Thundr Atk 2
+Desc
+Ore Scraps 2
+
+Ingot Cap
+10
+-1 -1 2 -1 0
+BG
+R2
+O--
+Dragonite Ore 2
+Isisium Ore 2
+Pelagicite Ore 1
+Bealite Ore 3
+2850z
+Reload Spd 4
+PelletS Up 3
+Whim -2
+Thundr Atk 2
+Desc
+Ore Scraps 2
+
+Skull Face
+10
+2 -2 -2 -2 1
+BG
+R3
+---
+Fire Stone 3
+Unknown Skull 5
+Mystery Bone 10
+Commendation 1
+850z
+Torso Up 0
+Desc
+Bone Scraps 2
+Courage Scraps 1

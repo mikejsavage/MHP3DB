@@ -119,6 +119,10 @@ R2
 49 Burnt Fish
 
 50 Hotspring Egg
+egg white
+edible
+R2
+1z
 
 51 Boomerang
 
@@ -618,6 +622,8 @@ R1
 
 217 Iron Ore
 ore gray
+R4
+60z
 
 218 Earth Crystal
 ore white
@@ -647,10 +653,16 @@ R4
 1150z
 
 224 Dragonite Ore
+ore green
+R4
+480z
 
 225 Magma Shard
 
 226 Fire Stone
+ore red
+R4
+860z
 
 227 Carbalite Ore
 
@@ -1431,6 +1443,9 @@ R4
 525 MajesticBlkHorn
 
 526 Uroktor Scale
+scale red
+R4
+230z
 
 527 Uroktor Scale+
 
@@ -1611,6 +1626,9 @@ R4
 615 VegElderTcktGld
 
 616 SecretSwordBook
+book cyan
+R5
+0z
 
 617 SecretBowgunBk
 
@@ -1740,6 +1758,9 @@ supply
 R1
 
 674 Paw Pass Ticket
+ticket white
+supply
+R5
 
 675 Prtbl Shock Trap
 
@@ -1821,6 +1842,9 @@ bone purple
 708 Dark Bloodstone
 
 709 Coal
+ore gray
+R3
+150pts
 
 710 Saturated Coal
 
@@ -1837,6 +1861,8 @@ bone purple
 716 Sootstone Ore
 
 717 Powderstone
+ore red
+R5
 
 718 Gagua Dung
 
@@ -2038,6 +2064,8 @@ R5
 806 Hvy Enhance Sph
 
 807 Mystery Charm
+charm white
+R4
 
 808 Radiant Charm
 
