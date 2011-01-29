@@ -109,8 +109,10 @@ function activatedSkill( skill, points )
 
 	if( points > 0 )
 	{
-		bounds.map( function( bound )
+		for( var i = 0, m = bounds.length; i < m; i++ )
 		{
+			var bound = bounds[ i ];
+
 			if( bound.points < 0 )
 			{
 				return NoSkill;
@@ -120,12 +122,14 @@ function activatedSkill( skill, points )
 			{
 				return bound.name.T();
 			}
-		} );
+		}
 	}
 	else
 	{
-		bounds.rmap( function( bound )
+		for( var i = bounds.length - 1; i >= 0; i++ )
 		{
+			var bound = bounds[ i ];
+
 			if( bound.points > 0 )
 			{
 				return NoSkill;
@@ -135,7 +139,7 @@ function activatedSkill( skill, points )
 			{
 				return bound.name.T();
 			}
-		} );
+		}
 	}
 }
 
