@@ -1195,7 +1195,7 @@ R4
 404 Rathian Scale+
 
 405 Rathian Shell
-nshell 4
+nshell green
 R4
 650z
 
