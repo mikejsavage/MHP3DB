@@ -1684,12 +1684,22 @@ R4
 669 Map
 
 670 First-Aid Med
+drink green
+supply
+R1
 
 671 Ration
+meat orange
+edible
+supply
+R1
 
 672 Portable Spit
 
 673 Mini Whetstone
+whetstone yellow
+supply
+R1
 
 674 Paw Pass Ticket
 
@@ -1714,12 +1724,20 @@ R4
 684 Binder S
 
 685 Royal Honey
+webbing red
+R3
+120pts
 
 686 Special Mushroom
+mushroom white
+R2
+50pts
 
 687 Select Mushroom
 
 688 Ripe Mushroom
+mushroom green
+R3
 
 689 Great Mushroom
 

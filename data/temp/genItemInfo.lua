@@ -36,6 +36,12 @@ local Actions =
 			return "main"
 		end
 
+		if line == "supply" then
+			item.supply = true
+
+			return "main"
+		end
+
 		local success, _, icon, color = line:find( "^(%l+) (%l+)$" )
 
 		if success then
