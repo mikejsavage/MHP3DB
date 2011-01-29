@@ -21,13 +21,13 @@ HeaderLinks =
 		},
 		url = "armory"
 	},
-	--[[{
+	{
 		text =
 		{
 			hgg = "sets",
 		},
 		url = "sets"
-	},]]
+	},
 	{
 		text =
 		{

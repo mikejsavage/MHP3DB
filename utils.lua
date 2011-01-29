@@ -16,6 +16,12 @@ function data( file )
 	return json.decode( readFile( ( "data/%s.json" ):format( file ) ) )
 end
 
+function dataJSON( file )
+	local contents = readFile( ( "data/%s.json" ):format( file ) )
+
+	return json.decode( contents ), contents
+end
+
 function string.startsWith( self, needle )
 	return self:sub( 1, needle:len() ) == needle
 end

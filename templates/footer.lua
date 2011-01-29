@@ -1,7 +1,7 @@
 			</div>
 
 			<footer>
-				All data is property of Capcom / Mike Savage (not <a href="http://en.wikipedia.org/wiki/Michael_Savage_(commentator)">this guy</a>)
+				All data is property of Capcom / Leave feedback / <a href="https://github.com/mikejsavage/MHP3DB">Mike Savage</a>
 			</footer>
 		</div>
 	</body>
