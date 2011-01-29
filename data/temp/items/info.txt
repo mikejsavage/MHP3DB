@@ -163,6 +163,9 @@ R2
 60z
 
 66 Farcaster
+smoke green
+R3
+30z
 
 67 Tranq Bomb
 ball red
@@ -205,6 +208,9 @@ R1
 83 Old Pickaxe
 
 84 Iron Pickaxe
+pickaxe white
+R1
+16z
 
 85 Mega Pickaxe
 
