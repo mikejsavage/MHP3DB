@@ -353,6 +353,42 @@ Horn 2
 Desc
 Qurupeco Scraps 2
 
+Urukusu Helm
+14
+-4 2 -2 2 1
+BG
+R2
+---
+Urukusu Ear 2
+Giant Bone 2
+Baggi Hide 4
+Isisium Ore 2
+1350z
+Ice Res 4
+Heat Res -3
+Cold Res 2
+Evasion 2
+Desc
+Urukusu Scraps 2
+
+Urukusu Cap
+7
+-2 3 -1 4 3
+BG
+R2
+---
+Urukusu Ear 2
+Giant Bone 2
+Baggi Hide 4
+Isisium Ore 2
+1350z
+Ice Res 4
+Heat Res -1
+Cold Res 4
+Evasion 4
+Desc
+Urukusu Scraps 2
+
 Ludroth Helm
 14
 -4 2 -2 -2 1
