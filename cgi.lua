@@ -5,6 +5,13 @@ require( "template" )
 
 require( "utils" )
 
+
+-- seed RNG
+math.randomseed( os.time() )
+
+
+
+-- GET/POST parsing
 local function parse( str )
 	local tokens = { }
 
