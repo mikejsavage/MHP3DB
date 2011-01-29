@@ -49,8 +49,6 @@ onLoad( function()
 
 
 
-	AutoCalc = getCookie( "setAutoCalc" );
-	alert( AutoCalc );
 	$( "autoCalc" ).checked = AutoCalc == "1" || AutoCalc === null; // default to on
 
 	autoCalcChanged();
