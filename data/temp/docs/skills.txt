@@ -14,6 +14,8 @@
 		"copy" : string (conditional)
 
 		// array of active skills and their points required
+		// must be sorted by points high to low to allow for fast
+		// active skill lookup
 		"bounds" : [
 			{
 				// points required to activate skill

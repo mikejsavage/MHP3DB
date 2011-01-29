@@ -9,6 +9,7 @@
 		"slots" : int
 
 		// array of skills
+		// first skill should always be "main" skill eg Sharpener on Grinder Jewel
 		"skills" : [
 			// object for each skill
 			{

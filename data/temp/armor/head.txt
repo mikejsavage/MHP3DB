@@ -448,7 +448,6 @@ Lightcrystal 1
 850z
 Desc
 
-
 Bullfango Mask
 9
 -2 -1 -4 1 2
