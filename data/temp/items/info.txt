@@ -13,16 +13,19 @@
 6 BackPacker Guide
 
 7 Potion
-potion green
+drink green
 
 8 Mega Potion
-potion green
+drink green
 
 9 Nutrients
 
 10 Mega Nutrients
 
 11 Antidote
+drink blue
+R1
+6z
 
 12 Herbal Medicine
 
@@ -47,10 +50,14 @@ potion green
 22 Armor Pill
 
 23 Cool Drink
-potion white
+drink white
+R1
+30z
 
 24 Hot Drink
-potion red
+drink red
+R1
+25z
 
 25 Cleanser
 
@@ -79,10 +86,16 @@ potion red
 37 Armortalon
 
 38 Raw Meat
+meat red
+R1
+5z
 
 39 Poisoned Meat
 
 40 Tainted Meat
+meat yellow
+R2
+30z
 
 41 Drugged Meat
 
@@ -119,26 +132,47 @@ potion red
 57 Bomb Material
 
 58 Paintball
+ball pink
+R1
+10z
 
 59 Flash Bomb
 
 60 Sonic Bomb
 
 61 Dung
+dung yellow
+R1
+1z
 
 62 Wyvern Droppings
+dung orange
+R4
+2z
 
 63 Dung Bomb
+dung yellow
+R2
+80z
 
 64 Smoke Bomb
 
 65 Poison Bomb
+smoke purple
+R2
+60z
 
 66 Farcaster
 
 67 Tranq Bomb
+ball red
+R4
+35z
 
 68 Spiderweb
+net white
+R1
+6z
 
 69 Net
 
@@ -183,8 +217,14 @@ potion red
 89 BBQ Spit
 
 90 Whetstone
+whetstone yellow
+R1
+8z
 
 91 Huskberry
+husk gray
+R1
+1z
 
 92 Bone Husk
 husk white
@@ -278,8 +318,14 @@ R2
 136 Paint Coating
 
 137 Worm
+bait gray
+R1
+2z
 
 138 MegaFishing Fly
+bait pink
+R3
+3z
 
 139 Goldenfish Bait
 
@@ -302,20 +348,40 @@ R2
 148 Armor Flute
 
 149 Honey
+webbing orange
+R2
+45z
 
 150 Herb
+herb green
+edible
+R1
+2z
 
 151 Antidote Herb
+herb blue
+edible
+R1
+2z
 
 152 Fire Herb
 
 153 Snow Herb
+herb blue
+R2
+6z
 
 154 Ivy
+herb green
+R1
+8z
 
 155 Sleep Herb
 
 156 Sap Plant
+herb white
+R1
+2z
 
 157 Felvine
 
@@ -325,10 +391,16 @@ R2
 10z
 
 159 Hot Pepper
+herb red
+R2
+4z
 
 160 Hypnotic Pollen
 
 161 Blue Mushroom
+mushroom blue
+R2
+2z
 
 162 Nitroshroom
 mushroom red
@@ -336,12 +408,18 @@ R2
 6z
 
 163 Parashroom
+mushroom yellow
+R3
+15z
 
 164 Toadstool
 
 165 Exciteshroom
 
 166 Wearyshroom
+mushroom cyan
+R2
+9z
 
 167 Dragn Toadstool
 
@@ -350,44 +428,82 @@ R2
 169 Pickaxe Shroom
 
 170 Paintberry
+berry pink
+R1
+6z
 
 171 Power Seed
 
 172 Armor Seed
 
 173 Cure Seed
+seed blue
+edible
+R2
+120z
 
 174 Dragon Seed
 
 175 Scatternut
 
 176 Needleberry
+seed gray
+R1
+1z
 
 177 Spikeberry
+seed cyan
+R1
+4z
 
 178 Bomberry
 
 179 Red seed
+seed red
+R2
+1z
 
 180 Green seed
+seed green
+R2
+1z
 
 181 Pepipo Pumpkin
 
 182 Yukumo Wood
+wood yellow
+R4
+50z
 
 183 Yukumo Wood+
 
 184 High Qualty Ash
 
 185 Knife Mackerel
+fish yellow
+R1
+45z
 
 186 Sushifish
+fish orange
+edible
+R1
+45z
 
 187 Sleepyfish
+fish cyan
+R2
+45z
 
 188 Pin Tuna
+fish gray
+R1
+50z
 
 189 Rumblefish
+fish gray
+R2
+15z
 
 190 Scatterfish
 
@@ -396,23 +512,35 @@ R2
 192 Bomb Arrowana
 
 193 Sm Goldenfish
+fish yellow
+R4
+500z
 
 194 Deepsea Sardine
 
 195 Ancient Fish
 
 196 Cutlassfish
+fish cyan
+R4
+100z
 
 197 Shellfish
 
 198 Armord Beakfish
+fish white
+R4
+60z
 
 199 Ancnt Sharkskin
 
 200 Insect Husk
+bug gray
+R1
+1z
 
 201 Hawkmoth Larva
-mushroom blue
+bug blue
 R2
 2z
 
@@ -422,8 +550,14 @@ R1
 6z
 
 203 Snakebee Larva
+bug orange
+R1
+30z
 
 204 Godbug
+bug white
+R4
+210z
 
 205 Bitterbug
 bug blue
@@ -437,10 +571,16 @@ R2
 48z
 
 207 Thunderbug
+bug yellow
+R4
+150z
 
 208 Carpenterbug
 
 209 Killer Beetle
+bug green
+R4
+200z
 
 210 Hercudrome
 
@@ -455,11 +595,17 @@ R2
 215 Swallowtail
 
 216 Stone
+ore gray
+R1
+1z
 
 217 Iron Ore
 ore gray
 
 218 Earth Crystal
+ore white
+R4
+80z
 
 219 Machalite Ore
 ore blue
@@ -469,10 +615,19 @@ R4
 220 Pelagicite Ore
 
 221 Bealite Ore
+ore cyan
+R4
+140z
 
 222 Isisium Ore
+ore white
+R4
+320z
 
 223 Lightcrystal
+ore gray
+R4
+1150z
 
 224 Dragonite Ore
 
@@ -491,18 +646,33 @@ R4
 231 Firecell Stone
 
 232 Ice Crystal
+ore cyan
+R4
+60z
 
 233 Rainbow Crystal
 
 234 Mystery Bone
+bone yellow
+R1
+1z
 
 235 Unknown Skull
 
 236 Bone
+bone white
+R1
+15z
 
 237 Sm Monster Bone
+bone yellow
+R3
+10z
 
 238 Med Mnster Bone
+bone yellow
+R4
+210z
 
 239 Lg Monster Bone
 
@@ -531,8 +701,14 @@ R4
 251 EldrDragonBlood
 
 252 Screamer
+sac gray
+R4
+15z
 
 253 Poison Sac
+sac purple
+R4
+96z
 
 254 Toxin Sac
 
@@ -549,6 +725,9 @@ R4
 260 Inferno Sac
 
 261 Aqua Sac
+sac cyan
+R4
+170z
 
 262 Hydro Sac
 
@@ -559,30 +738,57 @@ R4
 265 Glacial Sac
 
 266 Power Extract
+drink yellow
+R3
+56z
 
 267 Pale Extract
 
 268 Monster Fluid
+drink cyan
+R4
+500z
 
 269 Monster Broth
 
 270 Gagua Feather
+webbing cyan
+R4
+280z
 
 271 Kelbi Horn
+claw blue
+R4
+52z
 
 272 Warm Pelt
+pelt green
+R4
+40z
 
 273 High Qualty Plt
 
 274 Anteka Antlers
+claw orange
+R4
+58z
 
 275 Rhenoplos Shell
+nshell gray
+R4
+70z
 
 276 Rhenoplos Crpce
 
 277 Rhnplos Skl Shl
+shell gray
+R4
+120z
 
 278 Zuwaroposu Hide
+hide green
+R4
+60z
 
 279 Zuwaropsu Hide+
 
@@ -593,14 +799,26 @@ R4
 282 Sharp Fang
 
 283 Glossy Hide
+hide white
+R4
+65z
 
 284 Bnahabra Shell
+nshell yellow
+R4
+120z
 
 285 Bnahabra Carpce
 
 286 Bnahabra Wing
+webbing yellow
+R4
+75z
 
 287 Bnahabra Stingr
+claw yellow
+R4
+35z
 
 288 Altaroth Jaw
 
@@ -609,58 +827,109 @@ R4
 290 Quality Abdomen
 
 291 Bullfango Pelt
+hide orange
+R1
+40z
 
 292 Bullfango Head
+shell orange
+R4
+130z
 
 293 Bulldrome Hide
+hide white
+R4
+230z
 
 294 Bulldrome Hide+
 
 295 Bulldrome Tusk
+claw white
+R4
+260z
 
 296 Jaggi Scale
+scale purple
+R4
+38z
 
 297 Jaggi Scale+
 
 298 Jaggi Hide
+hide purple
+R4
+25z
 
 299 Brd Wyvern Fang
+claw purple
+R4
+14z
 
 300 Grt Jaggi Hide
+hide purple
+R4
+200z
 
 301 Grt Jaggi Hide+
 
 302 Grt Jaggi Claw
+claw purple
+R4
+180z
 
 303 Grt Jaggi Claw+
 
 304 Regal Frill
+webbing purple
+R4
+580z
 
 305 Grt Jaggi Head
 
 306 Froggi Scale
+scale orange
+R4
+45z
 
 307 Froggi Scale+
 
 308 Froggi Hide
+hide orange
+R4
+40z
 
 309 Froggi Fang
+claw orange
+R4
+25z
 
 310 Grt Froggi Hide
+hide orange
+R4
+280z
 
 311 Grt Frggi Hide+
 
 312 Grt Frggi Arm
+shell orange
+R4
+210z
 
 313 Grt Frggi Arm+
 
 314 Regal Snout
 
 315 Baggi Scale
+scale cyan
+R4
+60z
 
 316 Baggi Scale+
 
 317 Baggi Hide
+hide cyan
+R4
+55z
 
 318 Grt Baggi Hide
 
@@ -673,30 +942,51 @@ R4
 322 Regal Crest
 
 323 Aoashira Pelt
+hide blue
+R4
+220z
 
 324 Aoashira Pelt+
 
 325 Aoashira Shell
+nshell blue
+R4
+270z
 
 326 Aoashira Carpce
 
 327 Aoashira Arm
+shell blue
+R4
+360z
 
 328 Aoashira Arm+
 
 329 Urukusu Pelt
+hide white
+R4
+280z
 
 330 Urukusu Pelt+
 
 331 Urukusu Ear
+shell white
+R4
+420z
 
 332 Urukusu Lng Ear
 
 333 Urukusu Belly
+shell white
+R4
+320z
 
 334 Urksu Hrd Belly
 
 335 Urukusu Claw
+claw white
+R4
+210z
 
 336 Urukusu Claw+
 
@@ -725,6 +1015,9 @@ R4
 348 Splendid Beak
 
 349 Flintstone
+ore red
+R4
+560z
 
 350 Red Qurpeco Scl
 
@@ -737,24 +1030,42 @@ R4
 354 Ludroth Hide+
 
 355 Juvenile Sponge
+shell yellow
+R4
+200z
 
 356 Spongy Hide
+hide yellow
+R4
+320z
 
 357 Spongy Hide+
 
 358 RoyalLudrothScl
+scale yellow
+R4
+220z
 
 359 RoyalLudrthScl+
 
 360 RoyalLudrothClw
+claw yellow
+R4
+580z
 
 361 RoyalLudrthClw+
 
 362 RyalLudrthCrest
+hide yellow
+R4
+1020z
 
 363 Exquisite Crest
 
 364 RoyalLudrthTail
+shell yellow
+R4
+720z
 
 365 SpongyPurplHide
 
@@ -1493,16 +1804,25 @@ bone purple
 731 Pelagus Sobs
 
 732 Wood Scraps
+scraps yellow
+R4
+10z
 
 733 Wood Scraps+
 
 734 Pumpkin Scraps
 
 735 Ore Scraps
+scraps gray
+R4
+10z
 
 736 Ore Scraps+
 
 737 Bone Scraps
+scraps yellow
+R4
+10z
 
 738 Bone Scraps+
 
@@ -1633,8 +1953,14 @@ bone purple
 801 Courage Scraps+
 
 802 Enhance Stone
+sphere white
+R4
+150z
 
 803 Enhance Sphere
+sphere blue
+R4
+80z
 
 804 Enhance Sphere+
 
@@ -1649,8 +1975,14 @@ bone purple
 809 Ancient Charm
 
 810 Suiko Jewel
+jewel cyan
+R4
+50z
 
 811 Akito Jewel
+jewel white
+R4
+350z
 
 812 Battlefield Jwl
 
