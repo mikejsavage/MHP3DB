@@ -3,7 +3,7 @@
 	<td>{{ weapon.attack }}</td>
 	<td>?</td>
 	<td>{{ weapon.element and weapon.elemAttack .. " " .. weapon.element or "-" }}</td>
-	<td>{{ weapon.affinity }}%</td>
+	<td{{ weapon.affinity ~= 0 and ( ( " class=\"%s\"" ):format( weapon.affinity > 0 and "pos" or "neg" ) ) or ""}}>{{ weapon.affinity }}%</td>
 	<td>?</td>
 	<td>{{ weapon.slots == 0 and "-" or ( "O" ):rep( weapon.slots ) }}</td>
 </tr>
