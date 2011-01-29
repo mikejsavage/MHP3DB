@@ -164,7 +164,7 @@ function decorationInfo( decoration )
 	// TODO: are there decorations with multiple +ve skills?
 	var skill = decoration.skills[ 0 ];
 
-	return Skills[ skill.id ].name.T() + " +" + skill.points +
+	return Skills[ skill.id - 1 ].name.T() + " +" + skill.points +
 		( decoration.slots == 0 ? "" : " " + "O".repeat( decoration.slots ) );
 
 }
