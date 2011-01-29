@@ -97,12 +97,15 @@ function sortByPoints( a, b )
 
 function activatedSkill( skill, points )
 {
-	var bounds = skill[ "bounds" ];
+	var bounds = Skills[ skill.id - 1 ];
 
 	if( bounds == null )
 	{
 		return NoSkill;
 	}
+
+	// :)
+	bounds = bounds.bounds;
 
 	if( points > 0 )
 	{
@@ -157,7 +160,7 @@ function decorationInfo( decoration )
 	// TODO: are there decorations with multiple +ve skills?
 	var skill = decoration.skills[ 0 ];
 
-	return Skills[ skill.id ].name.T() + " +" + skill.points +
+	return Skills[ skill.id - 1 ].name.T() + " +" + skill.points +
 		( decoration.slots == 0 ? "" : " " + "O".repeat( decoration.slots ) );
 
 }
@@ -518,7 +521,7 @@ function calc( force )
 				name.className = "neg";
 			}
 
-			row.insertCell( 1 ).innerHTML = Skills[ skill.id ].name.T();
+			row.insertCell( 1 ).innerHTML = Skills[ skill.id - 1 ].name.T();
 
 			Classes.map( function( short, j )
 			{
