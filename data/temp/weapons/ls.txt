@@ -82,3 +82,17 @@ Pelagicite Ore 10
 Monster Fluid 5
 Desc
 Ore Scraps 2
+
+Scabbardfish Blade
+70
+Water 22
+R2
+0%
+---
+2100z
+Cutlassfish 3
+Yukumo Wood 3
+Knife Mackerel 5
+Juvenile Sponge 5
+Desc
+Wood Scraps 1
