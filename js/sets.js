@@ -97,7 +97,7 @@ function sortByPoints( a, b )
 
 function activatedSkill( skill, points )
 {
-	var bounds = Skills[ skill.id - 1 ];
+	var bounds = Skills[ skill.id ];
 
 	if( bounds == null )
 	{
@@ -160,7 +160,7 @@ function decorationInfo( decoration )
 	// TODO: are there decorations with multiple +ve skills?
 	var skill = decoration.skills[ 0 ];
 
-	return Skills[ skill.id - 1 ].name.T() + " +" + skill.points +
+	return Skills[ skill.id ].name.T() + " +" + skill.points +
 		( decoration.slots == 0 ? "" : " " + "O".repeat( decoration.slots ) );
 
 }
@@ -370,7 +370,10 @@ function calc( force )
 
 		skills.map( function( skill )
 		{
-			var copy = Skills[ skill.id ].copy;
+			// corrects lua arrays being 0 based
+			var id = skill.id - 1;
+
+			var copy = Skills[ id ].copy;
 
 			if( copy != null )
 			{
@@ -379,11 +382,11 @@ function calc( force )
 				return;
 			}
 
-			var skillIdx = pieces[ short ].objIdxOf( "id", skill.id );
+			var skillIdx = pieces[ short ].objIdxOf( "id", id );
 
 			if( skillIdx == null )
 			{
-				pieces[ short ].push( { "id" : skill.id, "points" : skill.points } );
+				pieces[ short ].push( { "id" : id, "points" : skill.points } );
 			}
 			else
 			{
@@ -521,7 +524,7 @@ function calc( force )
 				name.className = "neg";
 			}
 
-			row.insertCell( 1 ).innerHTML = Skills[ skill.id - 1 ].name.T();
+			row.insertCell( 1 ).innerHTML = Skills[ skill.id ].name.T();
 
 			Classes.map( function( short, j )
 			{
