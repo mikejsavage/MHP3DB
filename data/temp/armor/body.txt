@@ -528,6 +528,42 @@ Water Res 1
 Desc
 Ore Scraps 1
 
+Baggi Mail
+16
+-4 -1 -1 2 1
+B
+R2
+O--
+Regal Crest 1
+Grt Baggi Claw 1
+Baggi Hide 2
+Pelagicite Ore 2
+1650z
+Rec Speed 1
+Attack 3
+Fire Res -2
+Ice Attack 1
+Desc
+GrtBaggiScraps 2
+
+Baggi Vest
+8
+-2 0 0 4 2
+G
+R2
+O--
+Regal Crest 1
+Grt Baggi Claw 1
+Baggi Hide 2
+Pelagicite Ore 2
+1650z
+Rec Speed 1
+Attack 3
+Fire Res -2
+Ice Attack 1
+Desc
+GrtBaggiScraps 2
+
 Rathian Mail
 18
 2 0 -2 0 -4

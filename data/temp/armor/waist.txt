@@ -539,6 +539,42 @@ Constitutn -3
 Desc
 Barroth Scraps 2
 
+Baggi Coil
+16
+-4 -1 -1 2 1
+B
+R2
+O--
+Grt Baggi Hide 2
+Regal Crest 1
+Sleep Sac 3
+Pelagicite Ore 2
+1650z
+Rec Speed 2
+Attack 2
+Fire Res -1
+Ice Attack 4
+Desc
+GrtBaggiScraps 2
+
+Baggi Coat
+8
+-2 0 0 4 2
+G
+R2
+O--
+Grt Baggi Hide 2
+Regal Crest 1
+Sleep Sac 3
+Pelagicite Ore 2
+1650z
+Rec Speed 4
+Attack 2
+Fire Res -2
+Ice Attack 1
+Desc
+GrtBaggiScraps 2
+
 Rathian Tasset
 18
 2 0 -2 0 -4

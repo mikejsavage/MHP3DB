@@ -497,6 +497,42 @@ Constitutn -2
 Desc
 Barroth Scraps 2
 
+Baggi Helm
+16
+-4 -1 -1 2 1
+BG
+R2
+O--
+Grt Baggi Hide 3
+Grt Baggi Claw 2
+Baggi Scale 3
+Isisium Ore 2
+1650z
+Rec Speed 3
+Attack 1
+Fire Res -3
+Ice Attack 2
+Desc
+GrtBaggiScraps 2
+
+Baggi Cap
+8
+-2 0 0 4 2
+BG
+R2
+O--
+Grt Baggi Hide 3
+Grt Baggi Claw 2
+Baggi Scale 3
+Isisium Ore 2
+1650z
+Rec Speed 4
+Attack 4
+Fire Res -1
+Ice Attack 2
+Desc
+GrtBaggiScraps 2
+
 Gagua Mask
 8
 -4 -2 -1 2 1

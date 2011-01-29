@@ -171,6 +171,15 @@ Thundr Atk -1
 Akito Jewel 1
 RyalLudrthCrest 1
 
+Ice Atk Jwl
+blue 4
+1
+Ice Attack 1
+Fire Atk -1
+200z
+Akito Jewel 1
+Grt Baggi Hide 2
+
 BombrdierJwl
 red 4
 1

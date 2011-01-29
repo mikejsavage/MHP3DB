@@ -32,6 +32,9 @@ R1
 13 Immunizer
 
 14 Energy Drink
+drink yellow
+R2
+6z
 
 15 Power Juice
 
@@ -967,6 +970,9 @@ R4
 55z
 
 318 Grt Baggi Hide
+hide cyan
+R4
+300z
 
 319 Grt Baggi Hide+
 
@@ -975,6 +981,9 @@ R4
 321 Grt Baggi Claw+
 
 322 Regal Crest
+hide cyan
+R4
+680z
 
 323 Aoashira Pelt
 hide blue
