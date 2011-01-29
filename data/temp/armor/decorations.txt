@@ -97,6 +97,15 @@ Akito Jewel 1
 Spongy Hide 1
 Earth Crystal 2
 
+Anchor Jewel
+purple 4
+1
+Quake Res 1
+Sleep -1
+200z
+Suiko Jewel 1
+Fertile Mud 1
+
 Cooling Jwl
 cyan 4
 1
@@ -433,6 +442,15 @@ Sense 2
 200z
 Suiko Jewel 1
 Anteka Antlers 2
+
+IronWall Jwl
+gray 4
+1
+Guard 1
+Constitutn -1
+200z
+Akito Jewel 1
+Barroth Shell 2
 
 Grinder Jwl
 yellow 4

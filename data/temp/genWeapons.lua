@@ -177,7 +177,7 @@ local Actions =
 	end,
 
 	affinity = function( line, weapon )
-		local success, _, affinity = line:find( "^(%d+)%%$" )
+		local success, _, affinity = line:find( "^(-?%d+)%%$" )
 
 		if not success then
 			assert( nil, "bad affinity in " .. weapon.name.hgg .. ": " .. line )

@@ -77,3 +77,18 @@ Urukusu Claw 4
 Bealite Ore 7
 Desc
 Urukusu Scraps 2
+
+Princess Buster
+130
+L1
+Poison 18
+R2
+0%
+O--
+7350z
+Rathian Shell 5
+Rathian Spike 4
+Flame Sac 3
+Machalite Ore 5
+Desc
+Rathian Scraps 2

@@ -477,6 +477,42 @@ Water Res 2
 Desc
 Ore Scraps 1
 
+Barroth Greaves
+16
+4 -4 2 -3 0
+B
+R2
+OO-
+Barroth Shell 2
+Barroth Tail 1
+Lg Monster Bone 2
+Rhenoplos Shell 3
+1650z
+Guard 2
+Attack 2
+Constitutn -2
+KO 2
+Desc
+Barroth Scraps 2
+
+Barroth Leggings
+8
+4 -4 4 -1 0
+G
+R2
+OO-
+Barroth Shell 2
+Barroth Tail 1
+Lg Monster Bone 2
+Rhenoplos Shell 3
+1650z
+NormalS Up 1
+Attack 2
+Precision 2
+Constitutn -2
+Desc
+Barroth Scraps 2
+
 Baggi Greaves
 16
 -4 -1 -1 2 1
@@ -512,3 +548,39 @@ Fire Res -2
 Ice Attack 1
 Desc
 Ore Scraps 2
+
+Rathian Greaves
+18
+2 0 -2 0 -4
+B
+R2
+OO-
+Rathian Shell 3
+Rathian Scale 4
+Lg Monster Bone 3
+Fire Stone 1
+2350z
+Health 3
+Rec Speed -1
+Protection 2
+Fire Atk 1
+Desc
+Rathian Scraps 2
+
+Rathian Leggings
+9
+4 0 -1 1 -3
+G
+R2
+OO-
+Rathian Shell 3
+Rathian Scale 4
+Lg Monster Bone 3
+Fire Stone 1
+2350z
+Health 1
+Rec Speed -2
+Protection 3
+Fire Atk 1
+Desc
+Rathian Scraps 2

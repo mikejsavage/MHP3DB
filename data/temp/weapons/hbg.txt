@@ -279,3 +279,39 @@ Ore Scraps 2
 0
 0
 3!
+
+Queen Cannon
+150
+R2
+0%
+---
+Slow
+None
+Moderate
+9000z
+Rathian Shell 5
+Rathian Webbing 3
+Bealite Ore 10
+Poison Gland 3
+Desc
+Rathian Scraps 2
+6 7 8
+2 0 0
+2 0 0
+0 0 0
+1 1 0
+2 0
+3! 2
+0 0
+0 0
+2 0
+3!
+0
+0
+0
+0
+2
+2
+1
+0
+2

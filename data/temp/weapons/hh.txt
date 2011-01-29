@@ -73,3 +73,18 @@ Qurupeco Scale 8
 Lg Monster Bone 2
 Desc
 Qurupeco Scraps 2
+
+Valkyrie Recorder
+120
+WBY
+Fire 25
+R2
+0%
+---
+7350z
+Rathian Scale 6
+Rathian Shell 4
+Zuwaroposu Hide 4
+Killer Beetle 6
+Desc
+Rathian Scraps 2

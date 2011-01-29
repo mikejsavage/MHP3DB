@@ -63,6 +63,21 @@ Lg Monster Bone 2
 Desc
 Qurupeco Scraps 2
 
+Dragon Princess
+130
+???
+Poison 10
+R2
+0%
+---
+8850z
+Rathian Shell 5
+Rathian Scale 5
+Rathian Spike 4
+Poison Gland 1
+Desc
+Rathian Scraps 2
+
 Dei Edge
 130
 Dragon

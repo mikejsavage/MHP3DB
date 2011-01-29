@@ -461,6 +461,42 @@ Water Res 4
 Desc
 Ore Scraps 1
 
+Barroth Helm
+16
+0 0 2 -3 0
+BG
+R2
+O--
+Barroth Spine 2
+Barroth Shell 1
+Barroth Skl Shl 1
+Rhnplos Skl Shl 2
+1650z
+Guard 3
+Defense 1
+Constitutn -3
+KO 2
+Desc
+Barroth Scraps 2
+
+Barroth Cap
+6
+2 2 4 -1 0
+BG
+R2
+O--
+Barroth Spine 2
+Barroth Shell 1
+Barroth Skl Shl 1
+Rhnplos Skl Shl 2
+1650z
+NormalS Up 3
+Defense 3
+Precision 3
+Constitutn -2
+Desc
+Barroth Scraps 2
+
 Gagua Mask
 8
 -4 -2 -1 2 1

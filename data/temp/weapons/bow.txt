@@ -207,9 +207,28 @@ Regal Crest 2
 Poison Gland 3
 Dragonite Ore 5
 Desc
-GrtFroggiScraps
+GrtFroggiScraps 2
 R2
 P3
 R3
 YYNYNYN
 Poison Sleep
+
+Queen Blaster I
+160
+Focused
+R2
+0%
+O--
+7275z
+Rathian Shell 4
+Lg Monster Bone 1
+Rathian Scale 5
+Machalite Ore 8
+Desc
+Rathian Scraps 2
+P2
+S2
+S3
+YYYNYYN
+Poison

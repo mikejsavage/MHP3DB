@@ -65,6 +65,20 @@ Killer Beetle 5
 Desc
 Bone Scraps 2
 
+Valkyrie Blade
+140
+Poison 24
+R2
+0%
+---
+8850z
+Rathian Scale 8
+Rathian Shell 8
+Lg Monster Bone 5
+Mega Demondrug 2
+Desc
+Rathian Scraps 2
+
 Volgabell
 130
 R2

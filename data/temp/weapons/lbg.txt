@@ -240,3 +240,40 @@ Ludroth Scraps 2
 0
 0
 0
+
+Valkyrie Fire
+10
+R3
+0%
+---
+Normal
+None
+Moderate
+6600z
+Rathian Scale 5
+Rathian Shell 3
+Lg Monster Bone 2
+Flintstone 3
+Desc
+Rathian Scraps 2
+4 4 5
+2 0 0
+4!3M 5!2M 0
+2 0 0
+1 0 0
+2 0
+2 1
+2 0
+0 0
+0 0
+0 0
+4
+0
+0
+0
+0
+2
+2
+0
+0
+0

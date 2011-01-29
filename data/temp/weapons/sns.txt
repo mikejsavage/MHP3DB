@@ -215,6 +215,19 @@ Iron Ore 5
 Desc
 GrtJaggi Scraps 2
 
+Dragger Mace
+140
+R2
+-30%
+O--
+4410z
+Barroth Shell 6
+Barroth Tail 1
+Barroth Claw 5
+Machalite Ore 3
+Desc
+Barroth Scraps 2
+
 Tusk Gear
 130
 R2

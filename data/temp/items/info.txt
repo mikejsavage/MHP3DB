@@ -60,6 +60,9 @@ R1
 25z
 
 25 Cleanser
+drink cyan
+R2
+14z
 
 26 Deodorant
 
@@ -238,6 +241,8 @@ R2
 9z
 
 93 Normal S Lv1
+shot white
+R1
 
 94 Normal S Lv2
 
@@ -252,6 +257,8 @@ R2
 99 Pellet S Lv1
 
 100 Pellet S Lv2
+shot white
+R2
 
 101 Pellet S Lv3
 
@@ -308,12 +315,16 @@ R2
 127 Paint S
 
 129 Empty Bottle
+bottle white
+R1
 
 130 Power Coating
 
 131 Razor Coating
 
 132 Poison Coating
+coating purple
+R3
 
 133 ParalysisCoatng
 
@@ -681,6 +692,9 @@ R4
 210z
 
 239 Lg Monster Bone
+bone yellow
+R4
+440z
 
 240 Monster Bone+
 
@@ -727,6 +741,9 @@ R4
 258 Coma Sac
 
 259 Flame Sac
+sac red
+R4
+240z
 
 260 Inferno Sac
 
@@ -1080,10 +1097,16 @@ R4
 367 PurpRylLdrthClw
 
 368 Barroth Shell
+nshell orange
+R4
+390z
 
 369 Barroth Carapce
 
 370 Barroth Spine
+shell orange
+R4
+480z
 
 371 Barroth Thracic
 
@@ -1096,6 +1119,9 @@ R4
 375 Barroth Tail
 
 376 Fertile Mud
+dung orange
+R4
+200z
 
 377 Ice Barroth Shl
 
@@ -1150,14 +1176,23 @@ R4
 402 ThndrGiggnoxClw
 
 403 Rathian Scale
+scale green
+R4
+490z
 
 404 Rathian Scale+
 
 405 Rathian Shell
+nshell 4
+R4
+650z
 
 406 Rathian Carapce
 
 407 Rathian Webbing
+webbing green
+R4
+780z
 
 408 Rathian Spike
 
@@ -1682,6 +1717,9 @@ R4
 668 Alatreon Info
 
 669 Map
+map white
+supply
+R1
 
 670 First-Aid Med
 drink green
@@ -1738,6 +1776,7 @@ R2
 688 Ripe Mushroom
 mushroom green
 R3
+100pts
 
 689 Great Mushroom
 
@@ -1820,6 +1859,9 @@ bone purple
 727 Monster Liver
 
 728 Wyvern Tears
+shell blue
+R3
+500pts
 
 729 Wyvern Sobs
 
@@ -1987,6 +2029,9 @@ R4
 80z
 
 804 Enhance Sphere+
+sphere green
+R5
+300z
 
 805 Hrd Enhance Sph
 
