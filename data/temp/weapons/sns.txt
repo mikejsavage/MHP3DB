@@ -117,19 +117,77 @@ Sm Monster Bone 2
 Desc
 Bone Scraps 2
 
-Ludroth Claw
-100
-Water 8
-R1
-0%
----
-2250z
-Juvenile Sponge 4
-Ludroth Hide 3
-Grt Jaggi Claw 1
-Sm Monster Bone 3
-Desc
-Bone Scraps 2
+	Bone Kukri+
+	120
+	R1
+	0%
+	---
+	Sm Monster Bone 2
+	Bealite Ore 1
+	1920z
+	Desc
+	Bone Scraps 2
+
+		Bone Handaxe
+		120
+		Fire 15
+		R2
+		0%
+		---
+		Med Mnster Bone 3
+		Qurupeco Feathr 2
+		Queer Beak 1
+		2940z
+		Vibrant Down 1
+		Qurupeco Scale 5
+		Flintstone 1
+		Lg Monster Bone 1
+		Desc
+		Qurupeco Scraps 2
+
+			Bone Handaxe+
+			140
+			Fire 18
+			R2
+			0%
+			---
+			Flintstone 3
+			Vibrant Down 2
+			Mega Demondrug 1
+			3540z
+			Desc
+			Qurupeco Scraps 2
+
+			Djinn
+			150
+			Fire 30
+			R3
+			0%
+			---
+			Rathalos Shell 5
+			Rathalos Scale 4
+			Flame Sac 3
+			15000z
+			Desc
+			Rathalos Scraps 2
+
+	Ludroth Claw
+	100
+	Water 8
+	R1
+	0%
+	---
+	Juvenile Sponge 2
+	Ludroth Hide 2
+	Brd Wyvern Fang 5
+	Bone 1
+	1500z
+	Juvenile Sponge 4
+	Ludroth Hide 3
+	Grt Jaggi Claw 1
+	Sm Monster Bone 3
+	Desc
+	Bone Scraps 2
 
 Sector Cero
 70
@@ -156,20 +214,6 @@ Jaggi Hide 5
 Iron Ore 5
 Desc
 GrtJaggi Scraps 2
-
-Bone Handaxe
-120
-Fire 15
-R2
-0%
----
-4410z
-Vibrant Down 1
-Qurupeco Scale 5
-Flintstone 1
-Lg Monster Bone 1
-Desc
-Qurupeco Scraps 2
 
 Tusk Gear
 130
