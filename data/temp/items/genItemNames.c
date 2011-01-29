@@ -50,7 +50,7 @@ int main()
 	int id = 0;
 	char *currName = data;
 
-	printf( "[" );
+	//printf( "[" );
 
 	while( 1 )
 	{
@@ -63,7 +63,8 @@ int main()
 			continue;
 		}
 
-		printf( "\n\t{\n\t\t\"id\" : %d,\n\t\t\"name\" : {\n\t\t\t\"hgg\" : \"%s\"\n\t\t}\n\t}", id, currName );
+		//printf( "\n\t{\n\t\t\"id\" : %d,\n\t\t\"name\" : {\n\t\t\t\"hgg\" : \"%s\"\n\t\t}\n\t}", id, currName );
+		printf( "%d %s", id, currName );
 
 		char *nextName = memnchr( currName, '\0', len );
 
@@ -72,13 +73,13 @@ int main()
 			break;
 		}
 
-		printf( "," );
+		printf( "\n\n" );
 
 		id++;
 		currName = nextName;
 	}
 
-	printf( "\n]\n" );
+	//printf( "\n]\n" );
 
 	return EXIT_SUCCESS;
 }
