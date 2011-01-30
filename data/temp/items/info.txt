@@ -643,6 +643,9 @@ R4
 200z
 
 210 Hercudrome
+bug red
+R4
+540z
 
 211 Mega Thunderbug
 
@@ -675,6 +678,9 @@ R4
 160z
 
 220 Pelagicite Ore
+ore orange
+R4
+420z
 
 221 Bealite Ore
 ore cyan
@@ -1921,6 +1927,9 @@ R3
 696 Ryl Brocadefish
 
 697 Royal Rhino
+bug cyan
+R2
+170pts
 
 698 Divine Rhino
 
@@ -1929,6 +1938,9 @@ R3
 700 Golden Cricket
 
 701 Goldstone Piece
+ore yellow
+R3
+200pts
 
 702 Goldstone Hunk
 
@@ -2081,6 +2093,9 @@ R4
 760 Urukusu Scraps+
 
 761 Ranguro Scraps
+scraps red
+R4
+50z
 
 762 Ranguro Scraps+
 

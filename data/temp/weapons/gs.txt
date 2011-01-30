@@ -78,6 +78,19 @@ Bealite Ore 20
 Desc
 Ore Scraps 2
 
+Golem Blade
+150
+R2
+0%
+O--
+8850z
+Hercudrome 5
+Lg Monster Bone 4
+Med Mnster Bone 5
+Rhenoplos Shell 5
+Desc
+Bone Scraps 2
+
 Valkyrie Blade
 140
 Poison 24
