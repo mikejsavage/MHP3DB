@@ -68,6 +68,9 @@ R2
 14z
 
 26 Deodorant
+smoke cyan
+R2
+8z
 
 27 Psychoserum
 
@@ -427,6 +430,7 @@ R1
 157 Felvine
 herb yellow
 R1
+1z
 
 158 Cactus Flower
 herb pink
@@ -780,6 +784,9 @@ R4
 254 Toxin Sac
 
 255 Paralysis Sac
+sac yellow
+R4
+120z
 
 256 Torpor Sac
 
@@ -1079,14 +1086,23 @@ R4
 336 Urukusu Claw+
 
 337 Rangurotora Shl
+nshell red
+R4
+350z
 
 338 Rangurotora Cpc
 
 339 Rangurotora Clw
+claw red
+R4
+420z
 
 340 Rangurtora Clw+
 
 341 Rangrtora Belly
+shell red
+R4
+750z
 
 342 Qurupeco Scale
 
@@ -1951,6 +1967,8 @@ R3
 715 Gagua GoldenEgg
 
 716 Sootstone Ore
+ore gray
+R5
 
 717 Powderstone
 ore red
@@ -1989,6 +2007,9 @@ R3
 729 Wyvern Sobs
 
 730 Pelagus Tears
+shell cyan
+R3
+400pts
 
 731 Pelagus Sobs
 

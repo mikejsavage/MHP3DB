@@ -549,6 +549,36 @@ Ice Attack 1
 Desc
 Ore Scraps 2
 
+Ranguro Greaves
+16
+2 -4 -1 -2 2
+B
+R2
+---
+Rangurotora Clw 2
+Rangurotora Shl 2
+Rangrtora Belly 1
+Bealite Ore 4
+1650z
+Torso Up 0
+Desc
+Ranguro Scraps 2
+
+Ranguro Leggings
+8
+4 -2 0 -1 4
+G
+R2
+---
+Rangurotora Clw 2
+Rangurotora Shl 2
+Rangrtora Belly 1
+Bealite Ore 4
+1650z
+Torso Up 0
+Desc
+Ranguro Scraps 2
+
 Nightmare Rais
 16
 -4 1 0 2 0

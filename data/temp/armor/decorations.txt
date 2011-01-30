@@ -25,6 +25,16 @@ Stun -1
 Suiko Jewel 1
 Bnahabra Shell 2
 
+ParalysisJwl
+yellow 5
+2
+Paralysis 3
+Poison -1
+375z
+Akito Jewel 1
+Rangurotora Clw 2
+Monster Fluid 2
+
 Pep Jewel
 cyan 4
 1
@@ -33,6 +43,16 @@ Mud/Snow -1
 200z
 Suiko Jewel 1
 Baggi Hide 2
+
+Pep Jewel
+cyan 5
+2
+Sleep 3
+Mud/Snow -1
+375z
+Akito Jewel 1
+Regal Crest 1
+Warm Pelt 2
 
 Antidote Jwl
 purple 4
@@ -78,6 +98,15 @@ Sleep -1
 200z
 Suiko Jewel 1
 Rhenoplos Shell 2
+
+LubricantJwl
+white 4
+1
+Mud/Snow 2
+300z
+Akito Jewel 1
+Rangrtora Belly 1
+Bealite Ore 2
 
 RetrovirlJwl
 green 4
@@ -605,6 +634,15 @@ Precision 2
 200z
 Suiko Jewel 1
 Unknown Skull 2
+
+Para Ct Jwl
+yellow 4
+1
+ParalyCAdd 1
+Attack -1
+200z
+Akito Jewel 1
+Paralysis Sac 1
 
 PoisonCt Jwl
 purple 4

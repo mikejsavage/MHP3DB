@@ -575,6 +575,42 @@ Ice Attack 1
 Desc
 GrtBaggiScraps 2
 
+Ranguro Tasset
+16
+2 -4 -1 -2 2
+B
+R2
+O--
+Rangurotora Shl 3
+Paralysis Sac 4
+Monster Fluid 1
+Fire Stone 1
+1650z
+Heat Res 2
+Cold Res -1
+Evasion 4
+Quake Res 2
+Desc
+Ranguro Scraps 2
+
+Ranguro Coat
+8
+4 -2 0 -1 4
+G
+R2
+O--
+Rangurotora Shl 3
+Paralysis Sac 4
+Monster Fluid 1
+Fire Stone 1
+1650z
+Heat Res 2
+Cold Res -3
+Shot Mix 2
+Evasion 2
+Desc
+Ranguro Scraps 2
+
 Nightmare Oha
 16
 -4 1 0 2 0

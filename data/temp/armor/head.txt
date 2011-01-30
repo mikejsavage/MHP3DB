@@ -569,6 +569,42 @@ Ice Attack 2
 Desc
 GrtBaggiScraps 2
 
+Ranguro Helm
+16
+2 -4 -1 -2 2
+BG
+R2
+O--
+Rangurotora Clw 2
+Rangurotora Shl 2
+Monster Fluid 2
+Dragonite Ore 4
+1650z
+Fire Res 1
+Heat Res 2
+Cold Res -3
+Evasion 3
+Desc
+Ranguro Scraps 2
+
+Ranguro Cap
+8
+4 -2 0 -1 4
+BG
+R2
+O--
+Rangurotora Clw 2
+Rangurotora Shl 2
+Monster Fluid 2
+Dragonite Ore 4
+1650z
+Fire Res 2
+Heat Res 3
+Cold Res -1
+Evasion 5
+Desc
+Ranguro Scraps 2
+
 Gagua Mask
 8
 -4 -2 -1 2 1

@@ -58,6 +58,20 @@ Lg Monster Bone 1
 Desc
 Ludroth Scraps 2
 
+Infinite Katana
+110
+Paralyze 15
+R2
+0%
+---
+6000z
+Paralysis Sac 2
+Grt Baggi Hide 5
+Brd Wyvern Fang 10
+Machalite Ore 8
+Desc
+GrtBaggiScraps 2
+
 Chain Blade
 120
 Thunder 10

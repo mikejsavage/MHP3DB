@@ -2,7 +2,8 @@
 	{
 		"name" : {
 			"hgg" : "Torso Up"
-		}
+		},
+		"copy" : "plt"
 	},
 	{
 		"name" : {

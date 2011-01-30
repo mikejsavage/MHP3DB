@@ -564,6 +564,42 @@ Ice Attack 1
 Desc
 GrtBaggiScraps 2
 
+Ranguro Mail
+16
+2 -4 -1 -2 2
+B
+R2
+---
+Rangurotora Shl 3
+Rangrtora Belly 1
+Giant Bone 2
+Uroktor Scale 4
+1650z
+Fire Res 3
+Heat Res 3
+Cold Res -2
+Evasion 1
+Desc
+Ranguro Scraps 2
+
+Ranguro Vest
+8
+4 -2 0 -1 4
+G
+R2
+---
+Rangurotora Shl 3
+Rangrtora Belly 1
+Giant Bone 2
+Uroktor Scale 4
+1650z
+Fire Res 2
+Heat Res 3
+Cold Res -2
+Evasion 2
+Desc
+Ranguro Scraps 2
+
 Nightmare Toronko
 16
 -4 1 0 2 0

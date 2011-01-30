@@ -483,6 +483,42 @@ Water Res 1
 Desc
 Ore Scraps 1
 
+Ranguro Vambraces
+16
+2 -4 -1 -2 2
+B
+R2
+---
+Rangurotora Clw 2
+Rangrtora Belly 2
+Giant Bone 2
+Uroktor Scale 4
+1650z
+Fire Res 2
+Cold Res -1
+Evasion 4
+Quake Res 4
+Desc
+Ranguro Scraps 2
+
+Ranguro Guards
+8
+4 -2 0 -1 4
+G
+R2
+---
+Rangurotora Clw 2
+Rangrtora Belly 2
+Giant Bone 2
+Uroktor Scale 4
+1650z
+Fire Res 4
+Cold Res -1
+Shot Mix 4
+Evasion 2
+Desc
+Ranguro Scraps 2
+
 Nightmare Lurama
 16
 -4 1 0 2 0
