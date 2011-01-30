@@ -381,7 +381,7 @@ function calc( force )
 
 			if( copy != null )
 			{
-				pieces[ type ] = pieces[ copy ];
+				pieces[ short ] = pieces[ copy ];
 
 				return;
 			}
