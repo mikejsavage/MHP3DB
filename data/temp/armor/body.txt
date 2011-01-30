@@ -564,6 +564,42 @@ Ice Attack 1
 Desc
 GrtBaggiScraps 2
 
+Nightmare Toronko
+16
+-4 1 0 2 0
+B
+R3
+OO-
+Pepipo Pumpkin 3
+Pale Extract 2
+Bomberry 10
+Cactus Flower 10
+2850z
+Guard -2
+LastingPwr 1
+SpeedSetup 1
+FastCharge 1
+Desc
+Pumpkin Scraps 2
+
+Nightmare Shtam
+8
+-2 2 0 4 0
+G
+R3
+OO-
+Pepipo Pumpkin 3
+Pale Extract 2
+Bomberry 10
+Cactus Flower 10
+2850z
+LastingPwr 1
+Precision -2
+SpeedSetup 1
+FastCharge 1
+Desc
+Pumpkin Scraps 2
+
 Rathian Mail
 18
 2 0 -2 0 -4
@@ -599,6 +635,42 @@ Protection 2
 Fire Atk 1
 Desc
 Rathian Scraps 2
+
+Hapuru Mail
+18
+2 -1 -2 -3 0
+B
+R2
+O--
+Hapurbokka Hide 4
+Hapurubokka Clw 1
+Hapurubokka Shl 3
+Brilliant Fluid 4
+2350z
+Hunger -2
+Gluttony 1
+Eating 3
+Water Atk 1
+Desc
+Haprbkka Scraps 2
+
+Hapuru Vest
+9
+4 0 -1 -2 0
+G
+R2
+O--
+Hapurbokka Hide 4
+Hapurubokka Clw 1
+Hapurubokka Shl 3
+Brilliant Fluid 4
+2350z
+Hunger -2
+Gluttony 1
+Eating 3
+Water Atk 1
+Desc
+Haprbkka Scraps 2
 
 Ingot Mail
 20

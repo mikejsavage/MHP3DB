@@ -214,6 +214,25 @@ R3
 YYNYNYN
 Poison Sleep
 
+64th Div Bow I
+140
+Spread
+Water 16
+R2
+0%
+---
+7950z
+Hapurubokka Shl 6
+Hapurbokka Hide 4
+Hprbkka Skl Shl 1
+Med Mnster Bone 4
+Desc
+Haprbkka Scraps 2
+R2
+R2
+R3
+YNNYYYY
+
 Queen Blaster I
 160
 Focused

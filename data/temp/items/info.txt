@@ -130,6 +130,9 @@ R2
 51 Boomerang
 
 52 Throwing Knife
+knife white
+supply
+R1
 
 53 Poison Thrw Knf
 
@@ -198,16 +201,26 @@ R1
 73 Gunpowder
 
 74 Small Barrel
+barrel yellow
+R1
 
 75 Large Barrel
+barrel red
+R2
 
 76 Sm Barrel-Bomb
+bomb yellow
+R2
+16z
 
 77 Lg Barrel-Bomb
 
 78 Lg Barrel-Bomb+
 
 79 Bounce Bomb
+bomb blue
+R2
+18z
 
 80 Catnip Bomb
 
@@ -389,6 +402,8 @@ R1
 2z
 
 152 Fire Herb
+herb red
+R2
 
 153 Snow Herb
 herb blue
@@ -401,6 +416,8 @@ R1
 8z
 
 155 Sleep Herb
+herb cyan
+R1
 
 156 Sap Plant
 herb white
@@ -408,6 +425,8 @@ R1
 2z
 
 157 Felvine
+herb yellow
+R1
 
 158 Cactus Flower
 herb pink
@@ -420,6 +439,9 @@ R2
 4z
 
 160 Hypnotic Pollen
+herb pink
+R1
+4z
 
 161 Blue Mushroom
 mushroom blue
@@ -469,6 +491,8 @@ R2
 174 Dragon Seed
 
 175 Scatternut
+seed gray
+R1
 
 176 Needleberry
 seed gray
@@ -481,6 +505,8 @@ R1
 4z
 
 178 Bomberry
+seed gray
+R2
 
 179 Red seed
 seed red
@@ -493,6 +519,9 @@ R2
 1z
 
 181 Pepipo Pumpkin
+seed orange
+R4
+20z
 
 182 Yukumo Wood
 wood yellow
@@ -530,6 +559,9 @@ R2
 15z
 
 190 Scatterfish
+fish gray
+R4
+150z
 
 191 Burst Arrowana
 
@@ -781,6 +813,9 @@ R3
 56z
 
 267 Pale Extract
+drink white
+R3
+122z
 
 268 Monster Fluid
 drink cyan
@@ -831,10 +866,16 @@ R4
 279 Zuwaropsu Hide+
 
 280 Large Fin
+shell orange
+R4
+200z
 
 281 Quality Fin
 
 282 Sharp Fang
+claw orange
+R4
+170z
 
 283 Glossy Hide
 hide white
@@ -956,6 +997,9 @@ R4
 313 Grt Frggi Arm+
 
 314 Regal Snout
+bone orange
+R4
+630z
 
 315 Baggi Scale
 scale cyan
@@ -1157,28 +1201,49 @@ R4
 382 Frozen Mucus
 
 383 Hapurubokka Shl
+nshell dyellow
+R4
+480z
 
 384 Hapurubokka Cpc
 
 385 Hapurbokka Hide
+hide dyellow
+R4
+600z
 
 386 Haprbokka Hide+
 
 387 Hapurubokka Clw
+claw dyellow
+R4
+820z
 
 388 Hapurbokka Clw+
 
 389 Hprbkka Skl Shl
+shell dyellow
+R4
+1380z
 
 390 Brilliant Fluid
+drink cyan
+R4
+350z
 
 391 Chromatic Fluid
 
 392 Gigginox Hide
+hide red
+R4
+540z
 
 393 Gigginox Hide+
 
 394 Uncanny Hide
+hide white
+R4
+980z
 
 395 Uncanny Hide+
 
@@ -1189,6 +1254,9 @@ R4
 398 Horrific Maw
 
 399 Poison Gland
+shell purple
+R4
+320z
 
 400 Venom Gland
 
@@ -1216,6 +1284,9 @@ R4
 780z
 
 408 Rathian Spike
+shell green
+R4
+2000z
 
 409 Rathian Spike+
 
@@ -1254,6 +1325,9 @@ R4
 426 Fire Wyvern Clw
 
 427 FireWyvrnMarrow
+shell red
+R5
+2100z
 
 428 FireWyvrnBrnStm
 
@@ -1772,8 +1846,14 @@ supply
 R5
 
 675 Prtbl Shock Trap
+trap purple
+supply
+R3
 
 676 Supply Flash Bmb
+bomb blue
+supply
+R2
 
 677 Supply Sonic Bmb
 
@@ -1847,6 +1927,9 @@ bone purple
 706 Golden Bone
 
 707 Bloodstone
+ore red
+R3
+90pts
 
 708 Dark Bloodstone
 
@@ -1882,6 +1965,8 @@ R5
 721 Popo Tongue
 
 722 Secret Pouch
+seed green
+100pts
 
 723 Perfect Acorn
 
@@ -1892,6 +1977,9 @@ R5
 726 Giggi Essence
 
 727 Monster Liver
+shell yellow
+R3
+300pts
 
 728 Wyvern Tears
 shell blue
@@ -1980,6 +2068,9 @@ R4
 764 Qurupco Scraps+
 
 765 Ludroth Scraps
+scraps yellow
+R4
+100z
 
 766 Ludroth Scraps+
 

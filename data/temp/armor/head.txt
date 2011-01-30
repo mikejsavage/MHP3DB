@@ -317,6 +317,42 @@ Defense 3
 Desc
 Aoashira Scraps 2
 
+Froggi Helm
+14
+2 -2 1 -4 0
+BG
+R2
+O--
+Regal Snout 1
+Grt Froggi Hide 2
+Froggi Scale 2
+Killer Beetle 2
+1350z
+Poison 2
+Stun -3
+Constitutn 2
+Perception 2
+Desc
+GrtFroggiScraps 2
+
+Froggi Cap
+7
+4 -1 2 -2 0
+BG
+R2
+O--
+Regal Snout 1
+Grt Froggi Hide 2
+Froggi Scale 2
+Killer Beetle 2
+1350z
+Poison 2
+Stun -1
+Constitutn 4
+Perception 4
+Desc
+GrtFroggiScraps 2
+
 Qurupeco Helm
 12
 2 -2 -1 -4 2
@@ -545,6 +581,150 @@ Yukumo Wood 5
 Combo Rate 10
 Desc
 Pelt Scraps 4
+
+Nightmare Furore
+16
+-4 1 0 2 0
+BG
+R3
+OO-
+Pepipo Pumpkin 1
+Hercudrome 2
+Dragon Seed 3
+Felvine 10
+2850z
+Guard -3
+LastingPwr 2
+SpeedSetup 1
+FastCharge 1
+Desc
+Pumpkin Scraps 2
+
+Nightmare Brume
+8
+-2 2 0 4 0
+BG
+R3
+OO-
+Pepipo Pumpkin 1
+Hercudrome 2
+Dragon Seed 3
+Felvine 10
+2850z
+LastingPwr 2
+Precision -1
+SpeedSetup 3
+FastCharge 3
+Desc
+Pumpkin Scraps 2
+
+Rathian Helm
+18
+2 0 -2 0 -4
+BG
+R2
+O--
+Rathian Spike 1
+Rathian Scale 4
+Rathian Shell 3
+Dragonite Ore 3
+2350z
+Health 4
+Rec Speed -3
+Protection 1
+Fire Atk 1
+Desc
+Rathian Scraps 2
+
+Rathian Cap
+9
+4 0 -1 1 -3
+BG
+R2
+O--
+Rathian Spike 1
+Rathian Scale 4
+Rathian Shell 3
+Dragonite Ore 3
+2350z
+Health 5
+Rec Speed -1
+Protection 3
+Fire Atk 2
+Desc
+Rathian Scraps 2
+
+Hapuru Helm
+18
+2 -1 -2 -3 0
+BG
+R2
+---
+Hprbkka Skl Shl 1
+Hapurubokka Shl 2
+Med Mnster Bone 5
+Grt Jaggi Hide 2
+2350z
+Hunger -3
+Gluttony 2
+Eating 2
+Water Atk 4
+Desc
+Haprbkka Scraps 2
+
+Hapuru Cap
+9
+4 0 -1 -2 0
+BG
+R2
+---
+Hprbkka Skl Shl 1
+Hapurubokka Shl 2
+Med Mnster Bone 5
+Grt Jaggi Hide 2
+2350z
+Hunger -2
+Gluttony 4
+Eating 4
+Water Atk 3
+Desc
+Haprbkka Scraps 2
+
+Nebula Helm
+17
+-4 0 3 3 -2
+BG
+R2
+O--
+Uncanny Hide 2
+Gigginox Hide 3
+Poison Sac 2
+Grt Baggi Hide 3
+2350z
+Stun 1
+Health -3
+Status 3
+ThunderRes 2
+Desc
+Gigginox Scraps 2
+
+Nebula Cap
+9
+-2 0 4 4 -1
+BG
+R2
+O--
+Uncanny Hide 2
+Gigginox Hide 3
+Poison Sac 2
+Grt Baggi Hide 3
+2350z
+Stun 4
+Health -1
+Status 4
+ThunderRes 2
+Desc
+Gigginox Scraps 2
 
 Glass Earrings
 9

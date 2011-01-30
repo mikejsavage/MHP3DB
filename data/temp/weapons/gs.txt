@@ -117,3 +117,22 @@ Toadstool 8
 Mega Parashroom 1
 Desc
 Wood Scraps 2
+
+Rusted Greatsword
+100
+R1
+-70%
+---
+0z
+Ruststone 1
+
+	Tarnished Greatsword
+	100
+	R1
+	-70%
+	---
+	Earth Crystal 20
+	Monster Fluid 5
+	1000z
+	Desc
+	Ore Scraps 2

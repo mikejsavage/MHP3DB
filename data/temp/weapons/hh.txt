@@ -88,3 +88,18 @@ Zuwaroposu Hide 4
 Killer Beetle 6
 Desc
 Rathian Scraps 2
+
+Black Coffin
+130
+WCR
+Poison 25
+R3
+0%
+O--
+10500z
+Poison Gland 4
+Uncanny Hide 6
+Med Mnster Bone 4
+Poison Sac 8
+Desc
+Gigginox Scraps 2

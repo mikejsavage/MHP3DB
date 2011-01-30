@@ -106,6 +106,15 @@ Sleep -1
 Suiko Jewel 1
 Fertile Mud 1
 
+Tectonic Jwl
+purple 4
+1
+Quake Res 2
+300z
+Akito Jewel 1
+Hprbkka Skl Shl 1
+Carpenterbug 2
+
 Cooling Jwl
 cyan 4
 1
@@ -179,6 +188,16 @@ Fire Atk -1
 200z
 Akito Jewel 1
 Grt Baggi Hide 2
+
+FastChargJwl
+orange 4
+1
+FastCharge 1
+Constitutn -1
+200z
+Akito Jewel 1
+Hapurubokka Clw 1
+Barroth Spine 2
 
 BombrdierJwl
 red 4
@@ -314,6 +333,16 @@ Eating -1
 Suiko Jewel 1
 Jaggi Hide 2
 
+FeelGood Jwl
+green 5
+2
+Rec Speed 3
+Eating -1
+375z
+Akito Jewel 1
+Gigginox Hide 1
+Pale Extract 2
+
 Cure Jewel
 green 4
 1
@@ -343,6 +372,16 @@ Akito Jewel 1
 Glossy Hide 1
 Shock Trap 1
 
+FastEaterJwl
+yellow 4
+1
+Eating 1
+Rec Level -1
+200z
+Akito Jewel 1
+Hapurbokka Hide 1
+Aoashira Arm 2
+
 Marathon Jwl
 yellow 4
 1
@@ -352,6 +391,16 @@ Hunger -1
 Akito Jewel 1
 RoyalLudrothClw 1
 Mega Juice 2
+
+Constutn Jwl
+white 4
+1
+Constitutn 1
+Stamina -1
+200z
+Akito Jewel 1
+Regal Snout 1
+Froggi Scale 2
 
 PickyEatrJwl
 white 4
@@ -532,6 +581,14 @@ PierceSAdd 2
 200z
 Akito Jewel 1
 Dragonite Ore 2
+
+PlltBonusJwl
+orange 4
+1
+PelletSAdd 2
+200z
+Akito Jewel 1
+Hapurubokka Shl 2
 
 CuttrBnusJwl
 orange 4

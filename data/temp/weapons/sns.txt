@@ -189,6 +189,71 @@ Bone Scraps 2
 	Desc
 	Bone Scraps 2
 
+		Royal Claw
+		120
+		Water 12
+		R2
+		0%
+		---
+		Spongy Hide 3
+		RoyalLudrothClw 2
+		RoyalLudrthTail 1
+		2400z
+		Desc
+		Ludroth Scraps 2
+
+			Royal Claw+
+			160
+			Water 21
+			R3
+			0%
+			---
+			Spongy Hide 5
+			RoyalLudrothScl 8
+			Doboru Tail 3
+			4920z
+			Desc
+			Ludroth Scraps 2
+
+			Hidden Edge
+			130
+			R3
+			40%
+			---
+			Narga Scale 4
+			Narga TailSpike 4
+			Black Narga Plt 6
+			15000z
+			Desc
+			Narga Scraps 2
+
+			Rex Talon
+			170
+			R3
+			-20%
+			---
+			Tigrex Claw 4
+			Tigrex Fang 4
+			Tigrex Shell 3
+			20000z
+			Tigrex Scraps 2
+
+		Dragger Mace
+		140
+		R2
+		-30%
+		O--
+		Barroth Shell 5
+		Barroth Claw 3
+		Lightcrystal 1
+		2940z
+		Barroth Shell 6
+		Barroth Tail 1
+		Barroth Claw 5
+		Machalite Ore 3
+		Desc
+		Barroth Scraps 2
+
 Sector Cero
 70
 R1
@@ -214,19 +279,6 @@ Jaggi Hide 5
 Iron Ore 5
 Desc
 GrtJaggi Scraps 2
-
-Dragger Mace
-140
-R2
--30%
-O--
-4410z
-Barroth Shell 6
-Barroth Tail 1
-Barroth Claw 5
-Machalite Ore 3
-Desc
-Barroth Scraps 2
 
 Tusk Gear
 130

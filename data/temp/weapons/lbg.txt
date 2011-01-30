@@ -241,6 +241,42 @@ Ludroth Scraps 2
 0
 0
 
+Poisonous Gift
+160
+R2
+-10%
+O--
+Fast
+???
+Light
+6990z
+Gigginox Hide 6
+Uncanny Hide 3
+Gigginox Claw 4
+Med Mnster Bone 4
+Desc
+Gigginox Scraps 2
+6 6 7
+3 0 0
+2 0 0
+0 0 0
+0 0 0
+3 1
+3!3S 2
+2 0
+0 0
+2 0
+0
+0
+0
+3
+0
+2
+2
+0
+1
+0
+
 Valkyrie Fire
 10
 R3

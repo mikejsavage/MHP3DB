@@ -549,6 +549,42 @@ Ice Attack 1
 Desc
 Ore Scraps 2
 
+Nightmare Rais
+16
+-4 1 0 2 0
+B
+R3
+O--
+Pepipo Pumpkin 2
+Pale Extract 1
+Scatternut 10
+Carpenterbug 5
+2850z
+Guard -1
+LastingPwr 3
+SpeedSetup 2
+FastCharge 3
+Desc
+Pumpkin Scraps 2
+
+Nightmare Voulzer
+8
+-2 2 0 4 0
+G
+R3
+O--
+Pepipo Pumpkin 2
+Pale Extract 1
+Scatternut 10
+Carpenterbug 5
+2850z
+LastingPwr 2
+Precision -2
+SpeedSetup 3
+FastCharge 2
+Desc
+Pumpkin Scraps 2
+
 Rathian Greaves
 18
 2 0 -2 0 -4
@@ -584,6 +620,42 @@ Protection 3
 Fire Atk 1
 Desc
 Rathian Scraps 2
+
+Hapuru Greaves
+18
+2 -1 -2 -3 0
+B
+R2
+---
+Hapurubokka Shl 3
+Hapurubokka Clw 1
+Hapurbokka Hide 3
+Altaroth Jaw 3
+2350z
+Hunger -3
+Gluttony 2
+Eating 4
+Water Atk 2
+Desc
+Haprbkka Scraps 2
+
+Hapuru Leggings
+9
+4 0 -1 -2 0
+G
+R2
+---
+Hapurubokka Shl 3
+Hapurubokka Clw 1
+Hapurbokka Hide 3
+Altaroth Jaw 3
+2350z
+Hunger -3
+Gluttony 3
+Eating 2
+Water Atk 3
+Desc
+Haprbkka Scraps 2
 
 Ingot Greaves
 20

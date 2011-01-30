@@ -21,32 +21,106 @@ Desc
 	Wood Scraps 1
 	Ore Scraps 1
 
-Special Ops Gunlance
-110
-N1
-R1
-0%
----
-3750z
-Bealite Ore 5
-Machalite Ore 5
-Fire Herb 10
-Desc
-Ore Scraps 2
+		Yukumo Gunlance+
+		90
+		N1
+		R1
+		0%
+		---
+		Machalite Ore 5
+		Yukumo Wood 5
+		Nitroshroom 5
+		1000z
+		Desc
+		Wood Scraps 1
+		Ore Scraps 1
 
-Bone Gunlance
-100
-N1
-R1
-0%
----
-2850z
-Bone 4
-Iron Ore 5
-Rumblefish 5
-Desc
-Bone Scraps 1
-Ore Scraps 1
+		Special Ops Gunlance
+		110
+		N1
+		R1
+		0%
+		---
+		Machalite Ore 3
+		Bealite Ore 3
+		Gunpowder 5
+		2500z
+		Bealite Ore 5
+		Machalite Ore 5
+		Fire Herb 10
+		Desc
+		Ore Scraps 2
+
+		Jaggi Gunlance
+		80
+		L1
+		R1
+		0%
+		O--
+		Jaggi Hide 5
+		Iron Ore 7
+		Nitroshroom 5
+		1000z
+		Ore Scraps 2
+
+		Bone Gunlance
+		100
+		N1
+		R1
+		0%
+		---
+		Bone 2
+		Rumblefish 1
+		1900z
+		Bone 4
+		Iron Ore 5
+		Rumblefish 5
+		Desc
+		Bone Scraps 1
+		Ore Scraps 1
+
+			Great Bone Gunlance
+			120
+			N1
+			R1
+			0%
+			---
+			Giant Bone 2
+			Fire Herb 5
+			3200z
+			Desc
+			Bone Scraps 2
+
+				Wyvern Bone Gunlance
+				140
+				N2
+				R2
+				0%
+				---
+				Lg Monster Bone 3
+				Bealite Ore 5
+				Burst Arrowana 5
+				4900z
+				Desc
+				Bone Scraps 2
+
+				Urukusu Ski
+				110
+				Ice 25
+				S1
+				R2
+				0%
+				---
+				Urukusu Pelt 4
+				Urukusu Belly 2
+				Iron Ore 5
+				4000z
+				Urukusu Belly 3
+				Urukusu Ear 2
+				Urukusu Claw 4
+				Bealite Ore 7
+				Desc
+				Urukusu Scraps 2
 
 Qurupeco Tipi
 120
@@ -62,21 +136,6 @@ Machalite Ore 5
 Sharp Fang 4
 Desc
 Qurupeco Scraps 2
-
-Urukusu Ski
-110
-Ice 25
-S1
-R2
-0%
----
-6000z
-Urukusu Belly 3
-Urukusu Ear 2
-Urukusu Claw 4
-Bealite Ore 7
-Desc
-Urukusu Scraps 2
 
 Princess Buster
 130

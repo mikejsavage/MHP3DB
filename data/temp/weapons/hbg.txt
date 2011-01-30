@@ -315,3 +315,38 @@ Rathian Scraps 2
 1
 0
 2
+
+46th Div Minigun I
+140
+Def 8
+R2
+0%
+Slow
+None
+Moderate
+8100z
+Hapurubokka Shl 4
+Hapurbokka Hide 4
+Dragonite Ore 3
+Lg Monster Bone 2
+Desc
+5 4 6!
+2 3 0
+2 0 0
+0 0 0
+0 0 0
+0 0
+2 0
+2 0
+0 0
+2 1
+0
+4!
+0
+0
+0
+2
+2
+0
+0
+2

@@ -104,3 +104,16 @@ Pelagicite Ore 10
 Monster Fluid 5
 Desc
 Ore Scraps 2
+
+Pumpkin Hammer
+90
+Fire 6
+R2
+0%
+OO-
+2100z
+Pepipo Pumpkin 2
+Ivy 5
+Killer Beetle 3
+Desc
+Pumpkin Scraps 2

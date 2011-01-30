@@ -483,6 +483,114 @@ Water Res 1
 Desc
 Ore Scraps 1
 
+Nightmare Lurama
+16
+-4 1 0 2 0
+B
+R3
+O--
+Pepipo Pumpkin 2
+Killer Beetle 2
+Spikeberry 10
+Hot Pepper 10
+2850z
+Guard -1
+LastingPwr 2
+SpeedSetup 3
+FastCharge 3
+Desc
+Pumpkin Scraps 2
+
+Nightmare Luast
+8
+-2 2 0 4 0
+G
+R3
+O--
+Pepipo Pumpkin 2
+Killer Beetle 2
+Spikeberry 10
+Hot Pepper 10
+2850z
+LastingPwr 3
+Precision -2
+SpeedSetup 2
+FastCharge 2
+Desc
+Pumpkin Scraps 2
+
+Hapuru Vambraces
+18
+2 -1 -2 -3 0
+B
+R2
+O--
+Hapurubokka Clw 2
+Hapurubokka Shl 2
+Brilliant Fluid 4
+Altaroth Jaw 3
+2350z
+Hunger -1
+Gluttony 3
+Eating 4
+Water Atk 1
+Desc
+Haprbkka Scraps 2
+
+Hapuru Guards
+9
+4 0 -1 -2 0
+G
+R2
+O--
+Hapurubokka Clw 2
+Hapurubokka Shl 2
+Brilliant Fluid 4
+Altaroth Jaw 3
+2350z
+Hunger -1
+Gluttony 3
+Eating 4
+Water Atk 1
+Desc
+Haprbkka Scraps 2
+
+Nebula Vambraces
+18
+-4 0 3 3 -2
+B
+R2
+O--
+Gigginox Hide 4
+Gigginox Claw 1
+Poison Gland 3
+Lg Monster Bone 3
+2350z
+Stun 3
+Health -2
+Status 1
+ThunderRes 3
+Desc
+Gigginox Scraps 2
+
+Nebula Guards
+9
+-2 0 4 4 -1
+G
+R2
+O--
+Gigginox Hide 4
+Gigginox Claw 1
+Poison Gland 3
+Lg Monster Bone 3
+2350z
+Stun 3
+Health -3
+Status 1
+ThunderRes 2
+Desc
+Gigginox Scraps 2
+
 Ingot Vambraces
 20
 -2 -2 1 -2 0

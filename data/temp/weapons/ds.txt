@@ -65,3 +65,17 @@ Iron Ore 10
 Killer Beetle 6
 Desc
 Ore Scraps 2
+
+51st Division Clubs
+140
+Def 20
+R2
+0%
+---
+5880z
+Hapurubokka Clw 2
+Hapurubokka Shl 4
+Hapurbokka Hide 4
+Sm Monster Bone 6
+Desc
+Haprbkka Scraps 2

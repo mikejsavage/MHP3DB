@@ -575,6 +575,42 @@ Ice Attack 1
 Desc
 GrtBaggiScraps 2
 
+Nightmare Oha
+16
+-4 1 0 2 0
+B
+R3
+O--
+Pepipo Pumpkin 3
+Killer Beetle 3
+Needleberry 10
+Snow Herb 10
+2850z
+Guard -2
+LastingPwr 2
+SpeedSetup 3
+FastCharge 2
+Desc
+Pumpkin Scraps 2
+
+Nightmare Buratto
+8
+-2 2 0 4 0
+G
+R3
+O--
+Pepipo Pumpkin 3
+Killer Beetle 3
+Needleberry 10
+Snow Herb 10
+2850z
+LastingPwr 3
+Precision -2
+SpeedSetup 2
+FastCharge 2
+Desc
+Pumpkin Scraps 2
+
 Rathian Tasset
 18
 2 0 -2 0 -4
@@ -610,6 +646,78 @@ Protection 2
 Fire Atk 1
 Desc
 Rathian Scraps 2
+
+Hapuru Tasset
+18
+2 -1 -2 -3 0
+B
+R2
+OO-
+Hapurbokka Hide 3
+Hprbkka Skl Shl 1
+Lg Monster Bone 3
+Altarth Abdomen 4
+2350z
+Hunger -1
+Gluttony 3
+Eating 2
+Water Atk 1
+Desc
+Haprbkka Scraps 2
+
+Hapuru Coat
+9
+4 0 -1 -2 0
+G
+R2
+OO-
+Hapurbokka Hide 3
+Hprbkka Skl Shl 1
+Lg Monster Bone 3
+Altarth Abdomen 4
+2350z
+Hunger -2
+Gluttony 1
+Eating 3
+Water Atk 1
+Desc
+Haprbkka Scraps 2
+
+Nebula Tasset
+18
+-4 0 3 3 -2
+B
+R2
+O--
+Gigginox Hide 4
+Uncanny Hide 1
+Glossy Hide 4
+Grt Baggi Hide 2
+2350z
+Stun 3
+Health -1
+Status 4
+ThunderRes 1
+Desc
+Gigginox Scraps 2
+
+Nebula Coat
+9
+-2 0 4 4 -1
+G
+R2
+O--
+Gigginox Hide 4
+Uncanny Hide 1
+Glossy Hide 4
+Grt Baggi Hide 2
+2350z
+Stun 2
+Health -2
+Status 4
+ThunderRes 1
+Desc
+Gigginox Scraps 2
 
 Ingot Coil
 20
