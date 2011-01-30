@@ -208,6 +208,10 @@ local Actions =
 		if line:sub( -1 ) == "z" then
 			weapon.price = tonumber( line:sub( 1, -2 ) )
 
+			if not weapon.improve then
+				weapon.price = weapon.price / 1.5
+			end
+
 			return "create"
 		end
 
