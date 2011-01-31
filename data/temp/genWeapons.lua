@@ -77,6 +77,8 @@ local SharpColors =
 	imlib2.color.new( 240, 200,  48 ),
 	-- 58d000
 	imlib2.color.new(  88, 208,   0 ),
+
+	imlib2.color.new(  48, 104, 232 ),
 }
 
 -- so we can tell if it's actually the end or just
@@ -338,8 +340,6 @@ function readSharpness( weapon )
 		local idx = sharpIdx( color )
 
 		if idx ~= lastColor then
-			print( currSharp )
-
 			table.insert( weapon.sharpness, currSharp --[[/ SharpOOMult]] )
 			
 			lastColor = idx
