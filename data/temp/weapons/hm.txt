@@ -78,7 +78,7 @@ Spongy Hide 5
 Ludroth Hide 8
 Lg Monster Bone 3
 Desc
-Ludroth Scraps
+Ludroth Scraps 2
 
 Flint Warclub
 110

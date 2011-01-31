@@ -296,6 +296,10 @@ local Actions =
 	scraps = function( line, weapon )
 		local id, count = parseItem( line )
 
+		if not id then
+			assert( nil, "bad scrap in " .. weapon.name.hgg .. ": " .. line )
+		end
+
 		if not weapon.scraps then
 			weapon.scraps = { }
 		end
