@@ -303,6 +303,8 @@ footer {
 	color: #f12222;
 }
 
+/* rarities */
+
 .rare1 {
 	color: #fff;
 }
@@ -324,6 +326,8 @@ footer {
 .rare7 {
 	color: #f12222;
 }
+
+/* sharpness */
 
 .sharp1 {
 	background: red;
@@ -380,4 +384,25 @@ footer {
 .elemsleep:after {
 	color: #cacaca;
 	content: " SL";
+}
+
+/* notes */
+
+.notewhite {
+	color: white;
+}
+.noteyellow {
+	color: yellow;
+}
+.notered {
+	color: red;
+}
+.notecyan {
+	color: cyan;
+}
+.notegreen {
+	color: lime;
+}
+.noteblue {
+	color: #3581e1;
 }

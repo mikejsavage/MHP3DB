@@ -7,6 +7,18 @@
 	TATP: ?<br>
 
 	{%
+	if weapon.notes then
+		print( "Notes: " )
+
+		for _, note in ipairs( weapon.notes ) do
+			print( ( "<span class='note%s'>%s</span> " ):format( note, Special.note ) )
+		end
+
+		print( "<br>" )
+	end
+	%}
+
+	{%
 	if weapon.element then
 		print( ( "Element: <span class='elem%s'>%d</span><br>" ):format( weapon.element, weapon.elemAttack ) )
 	end
