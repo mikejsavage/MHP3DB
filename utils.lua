@@ -26,6 +26,9 @@ function string.startsWith( self, needle )
 	return self:sub( 1, needle:len() ) == needle
 end
 
+-- this is used in recursive weapon paths
+-- TODO: and is currently NOT CORRECT as it needs to itself be recursive
+--       as path structs contain their own arrays
 function table.copy( arr )
 	local new = { }
 
