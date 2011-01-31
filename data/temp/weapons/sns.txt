@@ -249,6 +249,7 @@ Bone Scraps 2
 			Tigrex Fang 4
 			Tigrex Shell 3
 			20000z
+			Desc
 			Tigrex Scraps 2
 
 		Dragger Mace

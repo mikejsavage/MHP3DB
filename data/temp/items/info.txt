@@ -919,8 +919,14 @@ R4
 35z
 
 288 Altaroth Jaw
+claw lime
+R4
+185z
 
 289 Altarth Abdomen
+sac lime
+R6
+112z
 
 290 Quality Abdomen
 
@@ -1117,17 +1123,28 @@ R4
 750z
 
 342 Qurupeco Scale
-scale lgreen
+scale lime
+R4
+280z
 
 343 Qurupeco Scale+
 
 344 Qurupeco Feathr
+shell lime
+R4
+490z
 
 345 Qurupeco Wing
 
 346 Vibrant Down
+shell lime
+R4
+720z
 
 347 Queer Beak
+bone lime
+R4
+1300z
 
 348 Splendid Beak
 
@@ -1143,6 +1160,9 @@ R4
 352 Piezo Crystal
 
 353 Ludroth Hide
+hide lime
+R4
+180z
 
 354 Ludroth Hide+
 
@@ -2125,6 +2145,9 @@ R4
 762 Ranguro Scraps+
 
 763 Qurupeco Scraps
+scraps lime
+R4
+100z
 
 764 Qurupco Scraps+
 
