@@ -26,6 +26,16 @@ function string.startsWith( self, needle )
 	return self:sub( 1, needle:len() ) == needle
 end
 
+function table.copy( arr )
+	local new = { }
+
+	for key, val in pairs( arr ) do
+		new[ key ] = val
+	end
+
+	return new
+end
+
 -- color functions
 
 function colorFromName( color )
