@@ -5,7 +5,14 @@
 
 	Attack: {{ weapon.attack }}<br>
 	TATP: ?<br>
-	Sharpness: ?<br>
+
+	{%
+	if weapon.element then
+		print( ( "Element: <span class='elem%s'>%d</span><br>" ):format( weapon.element, weapon.elemAttack ) )
+	end
+	%}
+
+	Sharpness: {{ weapon.sharpness and sharpness( { sharpness = weapon.sharpness } ) or "?" }}<br>
 
 	Affinity:
 	{%

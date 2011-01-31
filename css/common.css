@@ -294,7 +294,7 @@ footer {
 	display: block;
 }
 
-/* colour spans */
+/* game colours */
 
 .pos {
 	color: #3581e1;
@@ -345,4 +345,39 @@ footer {
 }
 .sharp7 {
 	background: magenta;
+}
+
+/* elements */
+
+.elemfire:after {
+	color: #ca4433;
+	content: " FI";
+}
+.elemwater:after {
+	color: #3581e1;
+	content: " WA";
+}
+.elemthunder:after {
+	color: #fafc4f;
+	content: " TH";
+}
+.elemdragon:after {
+	color: #875fff;
+	content: " DR";
+}
+.elemice:after {
+	color: #1ad9eb;
+	content: " IC";
+}
+.elempoison:after {
+	color: #e115f4;
+	content: " PO";
+}
+.elemparalyze:after {
+	color: #dc7c2a;
+	content: " PA";
+}
+.elemsleep:after {
+	color: #cacaca;
+	content: " SL";
 }
