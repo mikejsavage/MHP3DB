@@ -636,6 +636,9 @@ R4
 150z
 
 208 Carpenterbug
+bug gray
+R4
+120z
 
 209 Killer Beetle
 bug green
@@ -768,6 +771,9 @@ R4
 246 Ancnt Drgn Bone
 
 247 Wyvern Fang
+claw white
+R3
+6z
 
 248 Wyvern Claw 
 
@@ -1111,6 +1117,7 @@ R4
 750z
 
 342 Qurupeco Scale
+scale lgreen
 
 343 Qurupeco Scale+
 
@@ -1223,28 +1230,28 @@ R4
 382 Frozen Mucus
 
 383 Hapurubokka Shl
-nshell dyellow
+nshell brown
 R4
 480z
 
 384 Hapurubokka Cpc
 
 385 Hapurbokka Hide
-hide dyellow
+hide brown
 R4
 600z
 
 386 Haprbokka Hide+
 
 387 Hapurubokka Clw
-claw dyellow
+claw brown
 R4
 820z
 
 388 Hapurbokka Clw+
 
 389 Hprbkka Skl Shl
-shell dyellow
+shell brown
 R4
 1380z
 
@@ -1270,6 +1277,9 @@ R4
 395 Uncanny Hide+
 
 396 Gigginox Claw
+claw red
+R4
+750z
 
 397 Gigginox Claw+
 
@@ -1372,12 +1382,18 @@ R5
 437 Jinouga Claw+
 
 438 Jinouga Tail
+shell cyan
+R4
+1200z
 
 439 Static Carapace
 
 440 LightningCarpce
 
 441 Jinouga Plate
+scale cyan
+R5
+4850z
 
 442 Jinouga Jewel
 
@@ -1934,6 +1950,9 @@ R2
 698 Divine Rhino
 
 699 Silver Cricket
+bug white
+R2
+210pts
 
 700 Golden Cricket
 
@@ -1993,6 +2012,9 @@ R5
 720 Zuwaru Blubber
 
 721 Popo Tongue
+meat red
+R3
+120pts
 
 722 Secret Pouch
 seed green
@@ -2089,6 +2111,9 @@ R4
 758 AoashiraScraps+
 
 759 Urukusu Scraps
+scraps white
+R4
+50z
 
 760 Urukusu Scraps+
 
@@ -2119,6 +2144,9 @@ R4
 770 Hapbkka Scraps+
 
 771 Gigginox Scraps
+scraps red
+R4
+100z
 
 772 Giggnox Scraps+
 

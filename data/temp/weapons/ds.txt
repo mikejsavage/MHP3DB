@@ -79,3 +79,17 @@ Hapurbokka Hide 4
 Sm Monster Bone 6
 Desc
 Haprbkka Scraps 2
+
+Blood Wings
+130
+Poison 12
+R3
+0%
+---
+7080z
+Gigginox Claw 2
+Gigginox Hide 4
+Uncanny Hide 4
+Poison Sac 8
+Desc
+Gigginox Scraps 2

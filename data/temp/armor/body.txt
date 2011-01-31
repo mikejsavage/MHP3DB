@@ -708,6 +708,42 @@ Water Atk 1
 Desc
 Haprbkka Scraps 2
 
+Nebula Mail
+18
+-4 0 3 3 -2
+B
+R2
+OO-
+Gigginox Claw 2
+Gigginox Hide 3
+Poison Gland 3
+Isisium Ore 4
+2350z
+Stun 1
+Health -2
+Status 1
+ThunderRes 1
+Desc
+Gigginox Scraps 2
+
+Nebula Vest
+9
+-2 0 4 4 -1
+G
+R2
+OO-
+Gigginox Claw 2
+Gigginox Hide 3
+Poison Gland 3
+Isisium Ore 4
+2350z
+Stun 1
+Health -2
+Status 1
+ThunderRes 1
+Desc
+Gigginox Scraps 2
+
 Ingot Mail
 20
 -2 -2 1 -2 0

@@ -19,6 +19,8 @@ local meleeInfo = loadTemplate( "weapons/meleeInfo" )
 weaponNameURL = loadTemplate( "weapons/weaponNameURL" )
 weaponName    = loadTemplate( "weapons/weaponName" )
 
+sharpness = loadTemplate( "weapons/sharpness" )
+
 itemCounts  = loadTemplate( "itemCounts" )
 itemNameURL = loadTemplate( "itemNameURL" )
 

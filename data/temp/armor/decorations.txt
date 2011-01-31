@@ -209,6 +209,16 @@ Thundr Atk -1
 Akito Jewel 1
 RyalLudrthCrest 1
 
+ThndrAtk Jwl
+yellow 4
+1
+Thundr Atk 1
+Ice Attack -1
+200z
+Akito Jewel 1
+Gigginox Claw 1
+Thunderbug 2
+
 Ice Atk Jwl
 blue 4
 1

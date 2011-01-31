@@ -200,6 +200,24 @@ footer {
 	width: 33px;
 }
 
+/* sharpness bars */
+
+.sharpness {
+	background: #333;
+	border: 1px #666 solid;
+	display: inline-block;
+	height: 0.75em;
+	margin: 1px;
+	padding: 1px;
+	vertical-align: bottom;
+	width: 92px;
+}
+.sharpness div {
+	float: left;
+	font-size: 0;
+	height: inherit;
+}
+
 /* generic data tables */
 
 .data {
@@ -307,24 +325,24 @@ footer {
 	color: #f12222;
 }
 
-.sharp0 {
-	background: red;
-}
 .sharp1 {
-	background: orange;
+	background: #c00c38;
 }
 .sharp2 {
-	background: yellow;
+	background: #e85018;
 }
 .sharp3 {
-	background: lime;
+	background: #f0c830;
 }
 .sharp4 {
-	background: #3581E1;
+	background: #58d000;
 }
 .sharp5 {
-	background: white;
+	background: #3581E1;
 }
 .sharp6 {
+	background: white;
+}
+.sharp7 {
 	background: magenta;
 }

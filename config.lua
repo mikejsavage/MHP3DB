@@ -5,6 +5,8 @@ TranslationsDir = "translations"
 BaseUrl = ""
 CurrentUrl = os.getenv( "REQUEST_URI" ):sub( BaseUrl:len() + 2 )
 
+SharpWidth = 1
+
 HeaderLinks =
 {
 	{
@@ -61,8 +63,10 @@ NamedColors =
 	white  = "ffffff",
 	gray   = "aaaaaa",
 	green  = "6bf36e",
+	lgreen = "a8d468",
 	yellow = "f7f56b",
 	orange = "f49e62",
+	brown  = "c09428",
 	red    = "ff2954",
 	pink   = "f599f0",
 	purple = "aa70e0",

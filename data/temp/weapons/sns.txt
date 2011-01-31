@@ -95,6 +95,19 @@ Desc
 					Desc
 					Gigginox Scraps 2
 
+						Shadow Saber+
+						150
+						Poison 27
+						R3
+						0%
+						O--
+						Uncanny Hide 3
+						Poison Gland 3
+						Diablos Marrow 1
+						15000z
+						Desc
+						Gigginox Scraps 2
+
 		Soldier's Dagger
 		90
 		R1

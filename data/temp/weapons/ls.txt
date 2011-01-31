@@ -44,6 +44,20 @@ Desc
 Bone Scraps 1
 Ore Scraps 1
 
+Blood Cross
+120
+Poison 30
+R2
+0%
+---
+7350z
+Gigginox Claw 5
+Poison Gland 2
+Gigginox Hide 4
+Machalite Ore 8
+Desc
+Gigginox Scraps 2
+
 Downpour
 130
 Water 14

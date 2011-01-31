@@ -1,8 +1,10 @@
 #! /usr/bin/lua
 
 require( "json" )
+require( "imlib2" )
 
 local Dir = "weapons"
+local SharpDir = "sharp"
 
 local Types =
 {
@@ -59,6 +61,45 @@ local Notes =
 	W = "white",
 	Y = "yellow",
 }
+
+local SharpX = 101
+local SharpY = 60
+
+local SharpOOMult = 3
+
+local SharpColors =
+{
+	-- c00c38
+	imlib2.color.new( 192,  12,  56 ),
+	-- e85018
+	imlib2.color.new( 232,  80,  24 ),
+	-- f0c830
+	imlib2.color.new( 240, 200,  48 ),
+	-- 58d000
+	imlib2.color.new(  88, 208,   0 ),
+}
+
+-- so we can tell if it's actually the end or just
+-- a color i've not added yet
+local SharpEnd = imlib2.color.new( 0, 0, 0 )
+
+function sharpIdx( color )
+	if color.red == SharpEnd.red and
+	   color.green == SharpEnd.green and
+	   color.blue == SharpEnd.blue then
+		return -1
+	end
+
+	for i, col in ipairs( SharpColors ) do
+		if col.red == color.red and
+		   col.green == color.green and
+		   col.blue == color.blue then
+			return i
+		end
+	end
+
+	return 0
+end
 
 function readFile( path )
 	local file = assert( io.open( path, "r" ) )
@@ -279,6 +320,50 @@ function doLine( line, weapon, state )
 	return Actions[ state ]( line:detab(), weapon )
 end
 
+function readSharpness( weapon )
+	local img = imlib2.image.load( ( "%s/%s/%s.png" ):format( Dir, SharpDir, weapon.name.hgg ) )
+
+	if not img then
+		return
+	end
+
+	weapon.sharpness = { }
+
+	local x = SharpX
+	local lastColor = 1
+	local currSharp = 1
+
+	while true do
+		local color = img:get_pixel( x, SharpY )
+		local idx = sharpIdx( color )
+
+		if idx ~= lastColor then
+			print( currSharp )
+
+			table.insert( weapon.sharpness, currSharp --[[/ SharpOOMult]] )
+			
+			lastColor = idx
+			currSharp = 1
+		else
+			currSharp = currSharp + 1
+		end
+
+		-- unrecognised color
+		if idx == 0 then
+			assert( nil, "unrecognised sharpness color in " .. weapon.name.hgg .. ": " .. color.red .. ", " .. color.green .. ", " .. color.blue .. " (idx " .. idx .. ")" )
+		end
+
+		-- end of sharpness bar
+		if idx == -1 then
+			break
+		end
+
+		x = x + 1
+	end
+
+	img:free()
+end
+
 local Weapons = { }
 
 for _, short in pairs( Types ) do
@@ -296,6 +381,8 @@ for _, short in pairs( Types ) do
 
 	for line in io.lines() do
 		if line == "" then
+			readSharpness( weapon )
+
 			table.insert( class.weapons, weapon )
 
 			state = "init"
@@ -328,6 +415,8 @@ for _, short in pairs( Types ) do
 			state = doLine( line, weapon, state )
 		end
 	end
+
+	readSharpness( weapon )
 
 	table.insert( class.weapons, weapon )
 	table.insert( Weapons, class )
