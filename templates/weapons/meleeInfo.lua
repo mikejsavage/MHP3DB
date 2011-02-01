@@ -8,7 +8,6 @@ local pathItemCounts = loadTemplate( "weapons/pathItemCounts" )
 <h2>Stats</h2>
 
 	Attack: {{ weapon.attack }}<br>
-	TATP: ?<br>
 
 	{%
 	if weapon.notes then
@@ -183,7 +182,7 @@ local pathItemCounts = loadTemplate( "weapons/pathItemCounts" )
 			-- doing anything with it
 
 			-- making sure this is correct
-			assert( currWeapon == pathStart and not currWeapon.improve, "not handling some case in upgradePaths: " .. currWeapon.name.hgg .. " (started from " .. class.weapons[ pathStart ].name.hgg .. ")" )
+			assert( currWeapon == pathStart and not currWeapon.improve, "not handling some case in upgradePaths: " .. currWeapon.name.hgg .. " (started from " .. pathStart.name.hgg .. ")" )
 		end
 
 		return paths
