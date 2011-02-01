@@ -36,6 +36,19 @@ function table.copy( arr )
 	return new
 end
 
+-- function commANNIHILATE( num )
+function commas( num )
+	local out = ""
+
+	while num > 1000 do
+		out = ( ",%03d%s" ):format( num % 1000, out )
+
+		num = math.floor( num / 1000 )
+	end
+
+	return ( "%s%s" ):format( num, out )
+end
+
 -- color functions
 
 function colorFromName( color )

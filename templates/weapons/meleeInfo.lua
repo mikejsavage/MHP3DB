@@ -4,7 +4,6 @@ local pathItemCounts = loadTemplate( "weapons/pathItemCounts" )
 
 <h1>{{ weaponName( { class = class, weapon = weapon } ) }}</h1>
 
-
 <h2>Stats</h2>
 
 	Attack: {{ weapon.attack }}<br>
@@ -50,10 +49,10 @@ local pathItemCounts = loadTemplate( "weapons/pathItemCounts" )
 
 		print( itemCounts( { materials = weapon.create } ) )
 
-		print( ( "Price: %dz" ):format( weapon.price * 1.5 ) )
+		print( ( "Price: %sz" ):format( commas( weapon.price * 1.5 ) ) )
 
 		if weapon.buyable then
-			print( ( " (buyable for %dz)" ):format( weapon.price * 2 ) )
+			print( ( " (buyable for %sz)" ):format( commas( weapon.price * 2 ) ) )
 		end
 	end
 
@@ -62,7 +61,7 @@ local pathItemCounts = loadTemplate( "weapons/pathItemCounts" )
 
 		print( itemCounts( { materials = weapon.improve.materials } ) )
 
-		print( ( "Price: %dz" ):format( weapon.price ) )
+		print( ( "Price: %sz" ):format( commas( weapon.price ) ) )
 	end
 
 	if weapon.scraps then
@@ -214,6 +213,6 @@ local pathItemCounts = loadTemplate( "weapons/pathItemCounts" )
 
 		print( pathItemCounts( { materials = path.materials } ) )
 
-		print( ( "Price: %dz" ):format( path.price ) )
+		print( ( "Price: %sz" ):format( commas( path.price ) ) )
 	end
 	%}
