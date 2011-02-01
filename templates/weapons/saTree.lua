@@ -11,7 +11,6 @@ local treeItem = loadTemplate( "weapons/saTreeItem" )
 		<tr>
 			<th>Name</th>
 			<th>Atk</th>
-			<th>TATP</th>
 			<th>Phial</th>
 			<th>Element</th>
 			<th>Affn</th>
