@@ -189,10 +189,15 @@ end
 -- ENCODING
 
 local function isArray( table )
+	-- arrays have to be sequential
+	local expectedIdx = 1
+
 	for key, _ in pairs( table ) do
-		if type( key ) ~= "number" or key <= 0 or math.floor( key ) ~= key then
+		if type( key ) ~= "number" or key <= 0 or key ~= expectedIdx then
 			return false
 		end
+
+		expectedIdx = expectedIdx + 1
 	end
 
 	return true
