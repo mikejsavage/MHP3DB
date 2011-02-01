@@ -43,6 +43,7 @@ Special =
 {
 	star = "&#9833;",
 	note = "&#9834;",
+	arrow = "&rarr;",
 }
 
 -- these are done by eye. I don't really care

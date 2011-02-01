@@ -1,3 +1,7 @@
+{%
+local pathItemCounts = loadTemplate( "weapons/pathItemCounts" )
+%}
+
 <h1>{{ weaponName( { class = class, weapon = weapon } ) }}</h1>
 
 
@@ -78,6 +82,7 @@
 
 
 	-- the following code is not simple
+	-- and i guess it would be a better idea to put this in genWeapons
 	
 	local function newPath()
 		return { path = { }, price = 0, materials = { } }
@@ -87,16 +92,16 @@
 		return table.copy( oldPath )
 	end
 
-	local function pathAddWeapon( path, currId )
-		table.insert( path.path, currId, 0 )
+	local function pathAddWeapon( path, currWeapon )
+		table.insert( path.path, 1, currWeapon )
 	end
 
-	local function pathAddPrice( path, currWeapon )
-		path.price = path.price + currWeapon.price
+	local function pathAddPrice( path, price )
+		path.price = path.price + price
 	end
 
 	local function pathAddMaterials( path, materials )
-		for _, material in materials do
+		for _, material in ipairs( materials ) do
 			if path.materials[ material.id ] then
 				path.materials[ material.id ] = path.materials[ material.id ] + material.count
 			else
@@ -105,39 +110,35 @@
 		end
 	end
 
-	local function upgradePaths( currId, paths, currPath, pathStart )
+	local function upgradePaths( currWeapon, paths, currPath, pathStart )
 		-- init paths array
 		if not paths then
 			currPath = newPath()
 
-			paths = { currPath }
-		end
+			paths = { }
 
-		if not pathStart then
-			pathStart = currId
+			pathStart = currWeapon
 		end
-
-		local currWeapon = class.weapons[ currId ]
 
 		-- note to future self:
 		-- can't group the id ~= start ifs into one
 		-- if you don't believe me then think about it
 		-- think harder if you still don't
 
-		if id ~= start and weapon.create then
+		if currWeapon ~= pathStart and currWeapon.create then
 			local new = nil
 
 			-- should we keep going in a separate path?
-			if weapon.improve then
+			if currWeapon.improve then
 				-- fork before ending old path as we don't want it
 				new = forkPath( currPath )
 			end
 
 			-- end current path
-			currPath.from = currId
+			currPath.from = currWeapon
 
-			pathAddWeapon( currPath, currId )
-			pathAddPrice( currPath, currWeapon.price )
+			pathAddWeapon( currPath, currWeapon )
+			pathAddPrice( currPath, currWeapon.price * 1.5 )
 			pathAddMaterials( currPath, currWeapon.create )
 			
 			table.insert( paths, currPath )
@@ -147,16 +148,18 @@
 				-- this set of parameters is basically jumping it
 				-- to the "elseif weapon.improve" block
 
-				upgradePaths( currId, paths, currId, currId )
+				upgradePaths( currWeapon, paths, new, currWeapon )
 			end
-		elseif id ~= start and not weapon.improve then
+		elseif currWeapon ~= pathStart and not currWeapon.improve then
 			-- this happens with free weapons like barbarian blade in tri
 			-- simply set path.from = currId
 			-- and end it here because this isn't an upgrade
-		elseif weapon.improve then
+			--
+			-- not sure this is needed for p3
+		elseif currWeapon.improve then
 			-- continue current path
 
-			pathAddWeapon( currPath, currId )
+			pathAddWeapon( currPath, currWeapon )
 			pathAddPrice( currPath, currWeapon.price )
 			pathAddMaterials( currPath, currWeapon.improve.materials )
 
@@ -165,18 +168,53 @@
 			-- this was added for the lightcrystal weapons in tri
 			-- i've not got far enough to know if this is still needed
 
-			for _, from in ipairs( weapon.improve.from ) do
-				-- TODO: cba, do tomorrow
-			end
-		elseif currId == pathStart and not weapon.improve then
+			-- unroll for first path
+			upgradePaths( class.weapons[ currWeapon.improve.from[ 1 ] ], paths, currPath, pathStart )
+
+			-- TODO: some special handling for paths > 1 but i forget what
+			--[[for i = 2, table.getn( currWeapon.improve.from ) do
+				local new = forkPath( currPath )
+
+				upgradePaths( class.weapons[ currWeapon.improve.from[ i ] ], paths, new, pathStart )
+			end]]
+		else
 			-- or the current weapon is the one we started with and
 			-- we can't go anywhere with it - so there's no point
 			-- doing anything with it
-		else
+
 			-- making sure this is correct
-			assert( nil, "not handling some case in upgradePaths: " .. currWeapon.name.hgg .. " (started from " .. class.weapons[ pathStart ].name.hgg .. ")" )
+			assert( currWeapon == pathStart and not currWeapon.improve, "not handling some case in upgradePaths: " .. currWeapon.name.hgg .. " (started from " .. class.weapons[ pathStart ].name.hgg .. ")" )
 		end
 
 		return paths
+	end
+
+	local paths = upgradePaths( weapon )
+
+	for _, path in ipairs( paths ) do
+		print( ( "<h3>Create from %s</h3>" ):format( weaponNameURL( { class = class, weapon = path.from } ) ) )
+
+		print( "Path: " )
+
+		local len = table.getn( path.path )
+		local lastUpgrades = 0
+
+		for i = 1, len do
+			if i == 1 or lastUpgrades > 1 or i == len then
+				print( weaponNameURL( { class = class, weapon = path.path[ i ] } ) )
+
+				if i ~= len then
+					print( ( " %s " ):format( Special.arrow ) )
+				end
+			end
+
+			lastUpgrades = path.path[ i ].upgrades and table.getn( path.path[ i ].upgrades ) or 0
+		end
+
+		print( "<br>" )
+
+		print( pathItemCounts( { materials = path.materials } ) )
+
+		print( ( "Price: %dz" ):format( path.price ) )
 	end
 	%}

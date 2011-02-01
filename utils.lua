@@ -26,14 +26,11 @@ function string.startsWith( self, needle )
 	return self:sub( 1, needle:len() ) == needle
 end
 
--- this is used in recursive weapon paths
--- TODO: and is currently NOT CORRECT as it needs to itself be recursive
---       as path structs contain their own arrays
 function table.copy( arr )
 	local new = { }
 
 	for key, val in pairs( arr ) do
-		new[ key ] = val
+		new[ key ] = type( val ) == "table" and table.copy( val ) or val
 	end
 
 	return new
