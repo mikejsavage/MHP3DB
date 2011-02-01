@@ -193,7 +193,7 @@ local function isArray( table )
 	local expectedIdx = 1
 
 	for key, _ in pairs( table ) do
-		if type( key ) ~= "number" or key <= 0 or key ~= expectedIdx then
+		if type( key ) ~= "number" or key ~= expectedIdx then
 			return false
 		end
 
