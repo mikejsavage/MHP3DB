@@ -31,7 +31,7 @@ var Skills = {{ SkillsJSON }};
 <h3>Equipment</h3>
 
 
-{{ icon( U( "equipment/" .. weaponIcon ) ) }}
+{{ icon( "equipment/" .. weaponIcon ) }}
 <select id="wpn" onchange="weaponChanged()">
 	<option value="0">No slots</option>
 	<option value="1">1 slot</option>
