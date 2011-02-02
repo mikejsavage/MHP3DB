@@ -663,6 +663,42 @@ Thundr Atk 4
 Desc
 Ore Scraps 2
 
+Jinouga Vambraces
+22
+-1 -2 3 -3 0
+B
+R3
+O--
+Jinouga Claw 3
+Jinouga Plate 1
+Jinouga Pelt 2
+Mega Thunderbug 2
+3350z
+Sense -1
+Sharpness 3
+Awaken 2
+Thundr Atk 3
+Desc
+Jinouga Scraps 2
+
+Jinouga Guards
+11
+0 -1 5 -1 0
+G
+R3
+O--
+Jinouga Claw 3
+Jinouga Plate 1
+Jinouga Pelt 2
+Mega Thunderbug 2
+3350z
+Sense -1
+NormalS Up 3
+Awaken 2
+Thundr Atk 3
+Desc
+Jinouga Scraps 2
+
 Agnaktor Vambraces
 24
 4 -4 0 -2 -4

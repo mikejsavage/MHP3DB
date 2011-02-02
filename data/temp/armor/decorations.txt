@@ -170,6 +170,16 @@ Akito Jewel 1
 Rathian Webbing 1
 Urukusu Ear 2
 
+WindpressJwl
+gray 4
+1
+WindPress 1
+Fate -1
+200z
+Akito Jewel 1
+Jinouga Claw 1
+Dragonite Ore 2
+
 Attack Jewel
 red 4
 1
@@ -237,6 +247,16 @@ Constitutn -1
 Akito Jewel 1
 Hapurubokka Clw 1
 Barroth Spine 2
+
+KO Jewel
+orange 4
+1
+KO 1
+FastCharge -1
+200z
+Akito Jewel 1
+Monster Bone+ 2
+Rhnplos Skl Shl 1
 
 BombrdierJwl
 red 4
@@ -319,6 +339,15 @@ Ice Res -1
 200z
 Suiko Jewel 1
 Thunderbug 3
+
+LightningJwl
+yellow 4
+1
+ThunderRes 2
+300z
+Akito Jewel 1
+Static Carapace 1
+Lg Monster Bone 1
 
 Freeze Jewel
 blue 4
@@ -594,6 +623,16 @@ Suiko Jewel 1
 Grt Jaggi Claw 1
 Machalite Ore 1
 
+StrngShotJwl
+white 4
+1
+NormalS Up 1
+Recoil -1
+200z
+Akito Jewel 1
+Monster Bone+ 2
+Rumblefish 5
+
 Pellet Jewel
 white 4
 1
@@ -612,6 +651,16 @@ Reload Spd -1
 200z
 Suiko Jewel 1
 Med Mnster Bone 2
+
+ShotBonusJwl
+orange 5
+2
+NormalSAdd 3
+Reload Spd -1
+375z
+Akito Jewel 1
+Monster Bone+ 2
+Cutlassfish 2
 
 PrceBonusJwl
 orange 4

@@ -89,6 +89,20 @@ Killer Beetle 6
 Desc
 Rathian Scraps 2
 
+Yukumo Fife
+150
+WBR
+R3
+0%
+---
+15000z
+Yukumo Ticket 1
+Yukumo Wood 10
+Dragonite Ore 10
+Desc
+Wood Scraps 2
+Ore Scraps 1
+
 Black Coffin
 130
 WCR

@@ -251,3 +251,40 @@ S2
 S3
 YYYNYYN
 Poison
+
+Yukumo Longbow
+170
+Spread
+R3
+0%
+OO-
+12000z
+Yukumo Ticket 1
+Yukumo Wood 10
+Dragonite Ore 10
+Desc
+Wood Scraps 1
+Ore Scraps 2
+R1
+P2
+R3
+YYYYYYY
+
+Distant Thunder I
+150
+Thunder 23
+Spread
+R3
+0%
+O--
+16200z
+Static Carapace 4
+Jinouga Shell 3
+Jinouga Pelt 5
+Hercudrome 4
+Desc
+Jinouga Scraps 2
+R2
+R3
+P3
+YNYNYYN

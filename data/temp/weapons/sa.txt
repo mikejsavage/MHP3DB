@@ -90,3 +90,32 @@ Pelagicite Ore 10
 Monster Fluid 5
 Desc
 Ore Scraps 2
+
+Yukumo Halberd
+160
+Dragon
+R3
+0%
+---
+15000z
+Yukumo Ticket 1
+Yukumo Wood 10
+Dragonite Ore 10
+Desc
+Wood Scraps 2
+Ore Scraps 1
+
+Thunder Axe
+160
+Thunder 22
+Power
+R3
+0%
+O--
+24000z
+Static Carapace 4
+Jinouga Tail 1
+Jinouga Shell 4
+Jinouga Pelt 3
+Desc
+Jinouga Scraps 2

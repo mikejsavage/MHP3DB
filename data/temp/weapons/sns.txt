@@ -318,3 +318,30 @@ Lightcrystal 3
 Large Fin 6
 Desc
 Ore Scraps 1
+
+Yukumo Cleaver
+160
+R3
+0%
+---
+15000z
+Yukumo Ticket 1
+Yukumo Wood 10
+Dragonite Ore 10
+Desc
+Wood Scraps 2
+Ore Scraps 1
+
+Violent Thunder
+160
+Thunder 25
+R3
+0%
+O--
+24000z
+Static Carapace 3
+Jinouga Horn 2
+Jinouga Shell 3
+Jinouga Pelt 2
+Desc
+Jinouga Scraps 2

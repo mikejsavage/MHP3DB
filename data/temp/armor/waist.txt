@@ -790,3 +790,39 @@ Whim -2
 Thundr Atk 1
 Desc
 Ore Scraps 2
+
+Jinouga Tasset
+22
+-1 -2 3 -3 0
+B
+R3
+O--
+Jinouga Shell 3
+Jinouga Pelt 2
+Jinouga Tail 1
+Bulldrome Hide 3
+3350z
+Sense -3
+Sharpness 1
+Awaken 3
+Thundr Atk 2
+Desc
+Jinouga Scraps 2
+
+Jinouga Coat
+11
+0 -1 5 -1 0
+G
+R3
+O--
+Jinouga Shell 3
+Jinouga Pelt 2
+Jinouga Tail 1
+Bulldrome Hide 3
+3350z
+Sense -2
+NormalS Up 3
+Awaken 2
+Thundr Atk 2
+Desc
+Jinouga Scraps 2

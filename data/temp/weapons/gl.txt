@@ -151,3 +151,47 @@ Flame Sac 3
 Machalite Ore 5
 Desc
 Rathian Scraps 2
+
+Yukumo Blaster
+160
+L1
+R3
+0%
+---
+15000z
+Yukumo Ticket 1
+Yukumo Wood 10
+Dragonite Ore 10
+Desc
+Wood Scraps 2
+Ore Scraps 1
+
+Felyne Babushka
+100
+N2
+Paralyze 24
+R3
+0%
+OO-
+3750z
+Yukumo Ticket 1
+Pawprint Stamp 2
+Yukumo Wood 5
+Parashroom 10
+Desc
+Wood Scraps 1
+
+Roaring Thunder
+160
+Thunder 28
+N2
+R3
+0%
+O--
+24000z
+Jinouga Shell 6
+Static Carapace 4
+Jinouga Claw 2
+Fire Stone 4
+Desc
+Jinouga Scraps 2

@@ -131,6 +131,33 @@ Mega Parashroom 1
 Desc
 Wood Scraps 2
 
+Yukumo Claymore
+160
+R3
+0%
+---
+15000z
+Yukumo Ticket 1
+Yukumo Wood 10
+Dragonite Ore 10
+Desc
+Wood Scraps 2
+Ore Scraps 1
+
+Storm Lightning
+160
+Thunder 30
+R3
+0%
+O--
+24000z
+Jinouga Shell 3
+Jinouga Horn 2
+Static Carapace 4
+Jinouga Pelt 1
+Desc
+Jinouga Scraps 2
+
 Rusted Greatsword
 100
 R1

@@ -722,3 +722,39 @@ Whim -2
 Thundr Atk 1
 Desc
 Ore Scraps 2
+
+Jinouga Greaves
+22
+-1 -2 3 -3 0
+B
+R3
+OO-
+Static Carapace 3
+Jinouga Shell 3
+Jinouga Claw 3
+Mega Thunderbug 3
+3350z
+Sense -1
+Sharpness 1
+Awaken 1
+Thundr Atk 4
+Desc
+Jinouga Scraps 2
+
+Jinouga Leggings
+11
+0 -1 5 -1 0
+G
+R3
+OO-
+Static Carapace 3
+Jinouga Shell 3
+Jinouga Claw 3
+Mega Thunderbug 3
+3350z
+Sense -3
+NormalS Up 1
+Awaken 1
+Thundr Atk 2
+Desc
+Jinouga Scraps 2

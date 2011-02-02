@@ -330,6 +330,7 @@ Hapurbokka Hide 4
 Dragonite Ore 3
 Lg Monster Bone 2
 Desc
+Haprbkka Scraps 2
 5 4 6!
 2 3 0
 2 0 0
@@ -350,3 +351,76 @@ Desc
 0
 0
 2
+
+Yukumo Heavy Cannon
+160
+Def 10
+R3
+0%
+OO-
+Slow
+None
+Moderate
+11700z
+Yukumo Ticket 1
+Yukumo Wood 10
+Dragonite Ore 10
+Desc
+Wood Scraps 1
+Ore Scraps 2
+5 6 8!
+2 0 0
+3! 0 0
+2 0 0
+1 1 0
+2 0
+2 1
+2 1
+0 0
+2 0
+3
+3
+0
+0
+0
+2
+2
+0
+0
+0
+
+King's Ride
+160
+R3
+10%
+---
+Normal
+None
+Moderate
+15840z
+Jinouga Shell 6
+Static Carapace 4
+Mega Thunderbug 6
+Dragonite Ore 5
+Desc
+Jinouga Scraps 2
+5 6 0
+3 3 0
+2 3 0
+0 0 0
+0 0 0
+0 0
+0 0
+2! 1
+0 0
+0 0
+0
+0
+4!
+0
+0
+2
+2
+0
+1
+3!

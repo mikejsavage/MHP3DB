@@ -80,6 +80,19 @@ Sm Monster Bone 6
 Desc
 Haprbkka Scraps 2
 
+Yukumo Duals
+160
+R3
+0%
+---
+15000z
+Yukumo Ticket 1
+Yukumo Wood 10
+Dragonite Ore 10
+Desc
+Wood Scraps 2
+Ore Scraps 1
+
 Blood Wings
 130
 Poison 12

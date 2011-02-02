@@ -117,3 +117,28 @@ Ivy 5
 Killer Beetle 3
 Desc
 Pumpkin Scraps 2
+
+Yukumo Maul
+160
+R3
+0%
+---
+15000z
+Yukumo Ticket 1
+Yukumo Wood 10
+Dragonite Ore 10
+Desc
+Wood Scraps 2
+Ore Scraps 1
+
+Egg Hammer
+180
+R3
+-40%
+O--
+14250z
+Yukumo Ticket 1
+Gagua Feather 5
+Monster Bone+ 3
+Desc
+Pelt Scraps 2

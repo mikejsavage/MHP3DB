@@ -1,4 +1,7 @@
 0 Book of Combos 1
+book gray
+R4
+100z
 
 1 Book of Combos 2
 
@@ -14,9 +17,13 @@
 
 7 Potion
 drink green
+R1
+7z
 
 8 Mega Potion
 drink green
+R2
+16z
 
 9 Nutrients
 
@@ -243,6 +250,9 @@ R1
 86 Old Bugnet
 
 87 Bugnet
+bugnet white
+R1
+8z
 
 88 Mega Bugnet
 
@@ -651,6 +661,9 @@ R4
 540z
 
 211 Mega Thunderbug
+bug blue
+R4
+350z
 
 212 King Scarab
 
@@ -757,6 +770,9 @@ R4
 440z
 
 240 Monster Bone+
+bone orange
+R4
+560z
 
 241 Shrp Mnster Bne
 
@@ -1386,6 +1402,9 @@ R5
 429 FireWyvernFluid
 
 430 Jinouga Shell
+nshell teal
+R4
+650z
 
 431 Jinouga Carapce
 
@@ -1398,20 +1417,26 @@ R5
 435 Jinouga Horn+
 
 436 Jinouga Claw
+claw teal
+R4
+700z
 
 437 Jinouga Claw+
 
 438 Jinouga Tail
-shell cyan
+shell teal
 R4
 1200z
 
 439 Static Carapace
+shell teal
+R4
+800z
 
 440 LightningCarpce
 
 441 Jinouga Plate
-scale cyan
+scale teal
 R5
 4850z
 
@@ -1749,6 +1774,9 @@ R4
 606 Pawprint Stamp
 
 607 Yukumo Ticket
+ticket red
+R5
+0z
 
 608 Drink Ticket
 
