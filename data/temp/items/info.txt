@@ -90,6 +90,9 @@ R2
 31 Lifepowder
 
 32 Catalyst
+sac gray
+R2
+48z
 
 33 Tranquilizer
 
@@ -386,6 +389,9 @@ R3
 142 Binoculars
 
 143 Garbage
+garbage gray
+R1
+1z
 
 144 Flute
 
@@ -819,6 +825,9 @@ R4
 256 Torpor Sac
 
 257 Sleep Sac
+sac blue
+R4
+230z
 
 258 Coma Sac
 
@@ -1062,6 +1071,9 @@ R4
 319 Grt Baggi Hide+
 
 320 Grt Baggi Claw
+claw cyan
+R4
+230z
 
 321 Grt Baggi Claw+
 

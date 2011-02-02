@@ -483,6 +483,42 @@ Water Res 1
 Desc
 Ore Scraps 1
 
+Baggi Vambraces
+16
+-4 -1 -1 2 1
+B
+R2
+O--
+Grt Baggi Claw 2
+Grt Baggi Hide 3
+Baggi Hide 2
+Isisium Ore 2
+1650z
+Rec Speed 4
+Attack 3
+Fire Res -1
+Ice Attack 1
+Desc
+GrtBaggiScraps 2
+
+Baggi Guards
+8
+-2 0 0 4 2
+G
+R2
+O--
+Grt Baggi Claw 2
+Grt Baggi Hide 3
+Baggi Hide 2
+Isisium Ore 2
+1650z
+Rec Speed 2
+Attack 1
+Fire Res -2
+Ice Attack 4
+Desc
+GrtBaggiScraps 2
+
 Ranguro Vambraces
 16
 2 -4 -1 -2 2

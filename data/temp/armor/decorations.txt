@@ -703,6 +703,14 @@ Attack -1
 Akito Jewel 1
 Paralysis Sac 1
 
+Sleep Ct Jwl
+cyan 4
+1
+SleepCAdd 2
+200z
+Akito Jewel 1
+Sleep Sac 1
+
 PoisonCt Jwl
 purple 4
 1
