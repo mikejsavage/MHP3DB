@@ -693,7 +693,10 @@ function calc( force )
 
 
 
-	$( "setUrl" ).href = $( "setUrlSpan" ).innerHTML = getSetUrl();
+	var setUrl = getSetUrl();
+
+	$( "setUrl" ).href = "/" + BaseUrl + "sets/" + setUrl;
+	$( "setUrlSpan" ).innerHTML = getSetUrl();
 }
 
 

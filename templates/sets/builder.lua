@@ -27,7 +27,8 @@ var Armors = {{ ArmorsJSON }};
 var Decorations = {{ DecorationsJSON }};
 var Skills = {{ SkillsJSON }};
 
-var SetUrl = {{ ( "%q" ):format( Get.set ) or "false" }};
+var SetUrl = {{ Get.set and ( "%q" ):format( Get.set ) or "false" }};
+var BaseUrl = "{{ BaseUrl }}";
 </script>
 
 <h3>Equipment</h3>
