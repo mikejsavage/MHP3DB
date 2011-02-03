@@ -203,8 +203,7 @@ function showSlots( short )
 {
 	var slots = numSlots( short );
 
-	//var decorInfo = $( "decorInfo" ).checked;
-	var decorInfo = !false;
+	var decorInfo = $( "decorInfo" ).checked;
 
 	var shortSlot = short + "slot"; // save some concats
 
@@ -219,7 +218,7 @@ function showSlots( short )
 
 		selSlot.options[ 0 ] = new Option( "No decoration" );
 
-		Decorations.map( function( decoration, j )
+		Decorations.map( function( decoration, id )
 		{
 			if( decoration.slots <= slots )
 			{
@@ -227,7 +226,7 @@ function showSlots( short )
 					decorInfo ?
 						decorationInfo( decoration ) :
 						decoration.name.T(),
-					j
+					id
 				) );
 			}
 		} );
@@ -296,8 +295,145 @@ function freeSlots( short, parent )
 	EatenSlots[ short ][ parent ] = [ ];
 }
 
-function refreshSlots( short )
+function refreshPieces()
 {
+	// save current state
+	var oldBlade  = Blade;
+	var oldGunner = Gunner;
+
+	//var numBlade  = 0;
+	//var numGunner = 0;
+
+	//var lastSelBlade;
+	//var lastSelGunner;
+
+	// reset state
+	Blade = Gunner = true;
+
+	for( var i = 0, m = Armors.length; i < m; i++ )
+	{
+		var class = Armors[ i ];
+
+		var sel = $( class.short );
+		var idx = sel.value;
+
+		if( idx <= 0 )
+		{
+			// wildcard piece
+			
+			continue;
+		}
+
+		var piece = class.pieces[ idx ];
+
+		// :)
+		Blade  &= piece.blade;
+		Gunner &= piece.gunner;
+
+		//numBlade  += !piece.gunner;
+		//numGunner += !piece.blade;
+	}
+
+	if( Blade != oldBlade || Gunner != oldGunner )
+	{
+		doRefreshPieces();
+	}
+}
+
+function doRefreshPieces()
+{
+	Armors.map( function( class )
+	{
+		var sel = $( class.short );
+		var curr = sel.value;
+
+		// don't remove wildcards
+		clearSelect( sel, 4 );
+
+		class.pieces.map( function( piece, id )
+		{
+			if( piece.blade & Blade || piece.gunner & Gunner )
+			{
+				var selected = curr == id;
+
+				pushSelect( sel, new Option(
+					piece.name.T(),
+					id,
+					selected, selected
+				) );
+			}
+		} );
+	} );
+}
+
+function refreshSlots( short, refreshUsed )
+{
+	var decorInfo = $( "decorInfo" ).checked;
+	var shortSlot = short + "slot";
+
+	// calculate free slots so we can hide slots
+	// that are too big
+
+	// start with total slots
+	var free = numSlots( short );
+
+	// subtract slots in use
+	for( var i = 0; i < MaxSlots; i++ )
+	{
+		var selSlot = $( shortSlot + i )
+
+		if( !selSlot.disabled && selSlot.selectedIndex != 0 )
+		{
+			free -= Decorations[ selSlot.value ].slots;
+		}
+	}
+
+	// and start tweaking
+	for( var i = 0; i < MaxSlots; i++ )
+	{
+		var selSlot = $( shortSlot + i );
+
+		// save current selected index so we can set it back later
+		var curr = selSlot.value;
+
+		if( !selSlot.disabled )
+		{
+			var freeSlots = selSlot.selectedIndex == 0
+				? free
+				: free + Decorations[ curr ].slots;
+
+			clearSelect( selSlot, 1 );
+
+			Decorations.map( function( decoration, id )
+			{
+				var slots = decoration.slots;
+
+				if( slots <= freeSlots )
+				{
+					var sel = id == curr;
+
+					pushSelect( selSlot, new Option(
+						decorInfo ?
+							decorationInfo( decoration ) :
+							decoration.name.T(),
+						id,
+						sel, sel
+					) );
+				}
+			} );
+		}
+		else if( refreshUsed && isVisible( selSlot ) )
+		{
+			var decoration = Decorations[ curr ];
+
+			selSlot.options[ 0 ] = new Option(
+				decorInfo ?
+					decorationInfo( decoration ) :
+					decoration.name.T(),
+				curr
+			);
+		}
+	}
 }
 
 // onChange callbacks
@@ -306,7 +442,7 @@ function decorInfoChanged()
 {
 	Classes.map( function( short )
 	{
-		refreshSlots( short );
+		refreshSlots( short, true );
 	} );
 }
 
@@ -326,6 +462,8 @@ function autoCalcChanged()
 
 function pieceChanged( short )
 {
+	refreshPieces();
+
 	showSlots( short );
 
 	calc();
@@ -357,6 +495,8 @@ function slotChanged( short, slot )
 			eatASlot( short, slot, decorIdx );
 		}
 	}
+
+	refreshSlots( short );
 
 	calc();
 }

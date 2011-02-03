@@ -83,6 +83,11 @@ end
 %}
 
 
+<label for="decorInfo">
+	<input type="checkbox" id="decorInfo" onchange="decorInfoChanged()">
+	Informative decoration names
+</label>
+<br>
 <label for="autoCalc">
 	<input type="checkbox" id="autoCalc" onchange="autoCalcChanged()" checked>
 	Auto-calculate (uncheck if it's too slow)

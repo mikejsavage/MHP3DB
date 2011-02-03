@@ -32,6 +32,10 @@ function setVis( elem, visible )
 {
 	elem.style.display = visible ? "" : "none";
 }
+function isVisible( elem )
+{
+	return elem.style.display != "none";
+}
 
 function clearTable( table )
 {
