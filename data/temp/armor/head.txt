@@ -787,6 +787,42 @@ Hunger 10
 Desc
 Bulldrme Scraps 4
 
+Guild Bard Tricorne
+20
+0 0 0 0 0
+BG
+R3
+OO-
+Commendation 1
+HotSpringTicket 3
+Mega Thunderbug 3
+Static Carapace 3
+2850z
+Wide Area 1
+Fate -3
+Rewards 1
+Perception 2
+Desc
+Courage Scraps 1
+
+Guild Bard Hat
+10
+0 0 0 0 0
+BG
+R3
+OO-
+Commendation 1
+HotSpringTicket 3
+Mega Thunderbug 3
+Static Carapace 3
+2850z
+Wide Area 2
+Fate -2
+Rewards 4
+Perception 1
+Desc
+Courage Scraps 1
+
 Ingot Helm
 20
 -2 -2 1 -2 0
@@ -838,3 +874,39 @@ Torso Up 0
 Desc
 Bone Scraps 2
 Courage Scraps 1
+
+Uragaan Helm
+22
+2 -5 1 -2 -3 
+BG
+R3
+O--
+Uragaan Shell 3
+Uragaan Marrow 1
+Uragaan Scale 4
+Dragonite Ore 3
+3350z
+Defense 1
+Fire Res 3
+Water Res -2
+PunishDraw 3
+Desc
+Uragaan Scraps 2
+
+Uragaan Cap
+11
+4 -4 2 -1 -1
+BG
+R3
+O--
+Uragaan Shell 3
+Uragaan Marrow 1
+Uragaan Scale 4
+Dragonite Ore 3
+3350z
+PierceS Up 4
+Defense 5
+Fire Res 1
+Water Res -1
+Desc
+Uragaan Scraps 2

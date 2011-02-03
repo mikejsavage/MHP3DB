@@ -687,6 +687,78 @@ Water Atk 3
 Desc
 Haprbkka Scraps 2
 
+Guild Bard Boots
+20
+0 0 0 0 0
+B
+R3
+OO-
+Commendation 1
+HotSpringTicket 3
+Fire Stone 2
+Brilliant Fluid 4
+2850z
+Wide Area 1
+Fate -1
+Rewards 3
+Perception 2
+Desc
+Courage Scraps 1
+
+Guild Bard Shoes
+10
+0 0 0 0 0
+G
+R3
+OO-
+Commendation 1
+HotSpringTicket 3
+Fire Stone 2
+Brilliant Fluid 4
+2850z
+Wide Area 2
+Fate -2
+Rewards 2
+Perception 1
+Desc
+Courage Scraps 1
+
+Barioth Greaves
+20
+-4 1 -3 2 -1
+B
+R3
+OO-
+Barioth Pelt 4
+Barioth Shell 2
+Barioth Claw 1
+Urukusu Pelt 6
+2850z
+Stamina 2
+Constitutn 2
+Ice Attack 1
+Will Recov -2
+Desc
+Barioth Scraps 2
+
+Barioth Leggings
+10
+-2 2 -1 4 0
+G
+R3
+OO-
+Barioth Pelt 4
+Barioth Shell 2
+Barioth Claw 1
+Urukusu Pelt 6
+2850z
+Stamina 1
+Constitutn 2
+Ice Attack 1
+Will Recov -3
+Desc
+Barioth Scraps 2
+
 Ingot Greaves
 20
 -2 -2 1 -2 0
@@ -722,6 +794,42 @@ Whim -2
 Thundr Atk 1
 Desc
 Ore Scraps 2
+
+Uragaan Greaves
+22
+2 -5 1 -2 -3
+B
+R3
+OO-
+Uragaan Shell 4
+Uragaan Scale 4
+Magma Shard 3
+Rangrtora Belly 3
+3350z
+Defense 3
+Fire Res 1
+Water Res -2
+PunishDraw 1
+Desc
+Uragaan Scraps 2
+
+Uragaan Leggings
+11
+4 -4 2 -1 -2
+G
+R3
+OO-
+Uragaan Shell 4
+Uragaan Scale 4
+Magma Shard 3
+Rangrtora Belly 3
+3350z
+PierceS Up 1
+Defense 2
+Fire Res 1
+Water Res -3
+Desc
+Uragaan Scraps 2
 
 Jinouga Greaves
 22

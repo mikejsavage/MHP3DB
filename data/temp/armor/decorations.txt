@@ -295,6 +295,16 @@ Suiko Jewel 1
 Aoashira Shell 1
 Armor Seed 2
 
+Defense Jwl
+blue 5
+2
+Defense 3
+Attack -1
+375z
+Akito Jewel 1
+Uragaan Shell 2
+Armorskin 2
+
 Inferno Jwl
 red 4
 1
@@ -596,6 +606,16 @@ Sense 2
 Suiko Jewel 1
 Anteka Antlers 2
 
+PunshDrw Jwl
+orange 4
+1
+PunishDraw 1
+Sharpness -1
+200z
+Akito Jewel 1
+Uragaan Shield 1
+Monster Bone+ 2
+
 IronWall Jwl
 gray 4
 1
@@ -677,6 +697,15 @@ PelletSAdd 2
 200z
 Akito Jewel 1
 Hapurubokka Shl 2
+
+ScttrBnusJwl
+orange 4
+1
+ClustS Add 1
+Reload Spd -1
+200z
+Akito Jewel 1
+Uragaan Scale 2
 
 CuttrBnusJwl
 orange 4

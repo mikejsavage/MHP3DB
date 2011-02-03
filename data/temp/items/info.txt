@@ -80,6 +80,9 @@ R2
 8z
 
 27 Psychoserum
+drink orange
+R3
+30z
 
 28 Max Potion
 
@@ -227,6 +230,9 @@ R2
 16z
 
 77 Lg Barrel-Bomb
+bomb red
+R4
+52z
 
 78 Lg Barrel-Bomb+
 
@@ -848,6 +854,9 @@ R4
 263 Thunder Sac
 
 264 Frost Sac
+sac white
+R4
+290z
 
 265 Glacial Sac
 
@@ -1487,14 +1496,23 @@ R5
 458 Grn Narga Fang
 
 459 Barioth Shell
+nshell white
+R4
+410z
 
 460 Barioth Carapce
 
 461 Barioth Pelt
+pelt white
+R4
+740z
 
 462 Barioth Pelt+
 
 463 Barioth Claw
+claw white
+R4
+830z
 
 464 Barioth Claw+
 
@@ -1519,16 +1537,25 @@ R5
 474 Hard Pleura
 
 475 Uragaan Scale
+scale yellow
+R4
+550z
 
 476 Uragaan Scale+
 
 477 Uragaan Shell
+nshell yellow
+R4
+900z
 
 478 Uragaan Carapce
 
 479 Uragaan Jaw
 
 480 Uragaan Shield
+shell yellow
+R4
+1450z
 
 481 Uragaan Marrow
 
@@ -1780,6 +1807,9 @@ R4
 603 Golden Egg
 
 604 Commendation
+ticket orange
+R5
+0z
 
 605 Commendation G
 

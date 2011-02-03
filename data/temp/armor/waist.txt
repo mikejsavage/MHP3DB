@@ -755,6 +755,42 @@ ThunderRes 1
 Desc
 Gigginox Scraps 2
 
+Guild Bard Coil
+20
+0 0 0 0 0
+B
+R3
+O--
+Commendation 1
+Drink Ticket 1
+Magma Shard 1
+Fertile Mud 3
+2850z
+Wide Area 4
+Fate -1
+Rewards 2
+Perception 2
+Desc
+Courage Scraps 1
+
+Guild Bard Coat
+10
+0 0 0 0 0
+G
+R3
+O--
+Commendation 1
+Drink Ticket 1
+Magma Shard 1
+Fertile Mud 3
+2850z
+Wide Area 4
+Fate -1
+Rewards 1
+Perception 3
+Desc
+Courage Scraps 1
+
 Ingot Coil
 20
 -2 -2 1 -2 0
@@ -790,6 +826,42 @@ Whim -2
 Thundr Atk 1
 Desc
 Ore Scraps 2
+
+Uragaan Tasset
+22
+2 -5 1 -2 -3
+B
+R3
+---
+Uragaan Shield 2
+Uragaan Scale 3
+Monster Bone+ 2
+Rangurotora Shl 3
+3350z
+Defense 5
+Fire Res 2
+Water Res -3
+PunishDraw 1
+Desc
+Uragaan Scraps 2
+
+Uragaan Coat
+11
+4 -4 2 -1 -2
+G
+R3
+---
+Uragaan Shield 2
+Uragaan Scale 3
+Monster Bone+ 2
+Rangurotora Shl 3
+3350z
+PierceS Up 1
+Defense 4
+Fire Res 4
+Water Res -2
+Desc
+Uragaan Scraps 2
 
 Jinouga Tasset
 22

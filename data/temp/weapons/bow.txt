@@ -288,3 +288,60 @@ R2
 R3
 P3
 YNYNYYN
+
+Ice Crest I
+140
+Ice 24
+Spread
+R3
+20%
+O--
+14400z
+Barioth Shell 4
+Amber Fang 2
+Barioth Spike 6
+Frost Sac 2
+Desc
+Barioth Scraps 2
+R2
+P2
+R3
+YNNYYYN
+
+Brass Corda I
+170
+Fire 10
+Def 10
+Blast
+R3
+0%
+---
+12120z
+Uragaan Shield 6
+Uragaan Scale 4
+Uragaan Jaw 1
+Monster Bone+ 4
+Desc
+Uragaan Scraps 2
+P1
+R1
+R2
+YNNYNYY
+Sleep
+
+Deer Horn Bow
+170
+Blast
+R3
+0%
+OO-
+15000z
+Commendation 1
+Kelbi Horn 4
+Doburo Horn 4
+Desc
+Courage Scraps 1
+S2
+S3
+R3
+YYYYYYY
