@@ -26,6 +26,8 @@ local weaponIcon = WeaponIcons[ math.random( table.getn( WeaponIcons ) ) ]
 var Armors = {{ ArmorsJSON }};
 var Decorations = {{ DecorationsJSON }};
 var Skills = {{ SkillsJSON }};
+
+var SetUrl = {{ ( "%q" ):format( Get.set ) or "false" }};
 </script>
 
 <h3>Equipment</h3>
@@ -99,7 +101,7 @@ end
 <hr>
 
 
-Share your set: <a id="setUrl">asdf</a>
+Share your set: <a id="setUrl">http://{{ os.getenv( "SERVER_NAME" ) .. U( "sets" ) }}/<span id="setUrlSpan"></span></a>
 
 
 <h3>Skills</h3>

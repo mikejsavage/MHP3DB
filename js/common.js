@@ -151,6 +151,8 @@ Array.prototype.rmap = function( func )
 	}
 };
 
+
+
 // cookies
 
 function setCookie( name, value, expireDays )
@@ -179,4 +181,96 @@ function getCookie( name )
 	}
 
 	return null;
+}
+
+
+
+// my wonderful overengineered base61 en/decoding
+// with 2 digits i can represent values from 0 to ( 61 ^ 2 ) + 61 - 1 = 3781
+
+var ShortLetters = "0123456789ABCDEFHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+var ShortLettersNum = ShortLetters.length;
+
+function numFromShort( short )
+{
+	if( short == "" )
+	{
+                return 0;
+        }
+
+        var total = 0;
+
+        var len = short.length;
+        var max = len;
+        var neg = false;
+
+	if( short[0] == '-' )
+	{
+                neg = true;
+
+                max--;
+        }
+
+	for( var i = 1; i <= max; i++ )
+	{
+                var idx = ShortLetters.indexOf( short[ len - i ] );
+
+		if( idx == -1 )
+		{
+                        return 0;
+                }
+
+                total += idx * intExp( ShortLettersNum, i - 1 );
+        }
+
+	if( neg )
+	{
+                return -total;
+        }
+
+        return total;
+}
+
+function numToShort( n )
+{
+        var short = "";
+
+        var neg = false;
+
+	if( n < 0 )
+	{
+                neg = true;
+
+                n = -n;
+        }
+
+	do
+	{
+                short = ShortLetters[ n % ShortLettersNum ] + short;
+
+                n = Math.floor( n / ShortLettersNum );
+	}
+	while( n > 0 );
+
+	if( neg )
+	{
+                return "-" + short;
+        }
+
+        return short;
+}
+
+// pow will be <= 2 (except with malformed input) so exponention
+// by squaring is a waste of time
+// yes, this comment goes in every project i make
+function intExp( n, pow )
+{
+        var total = 1;
+
+	for( var i = 0; i < pow; i++ )
+	{
+                total *= n;
+        }
+
+        return total;
 }

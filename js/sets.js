@@ -54,12 +54,21 @@ onLoad( function()
 	autoCalcChanged();
 
 
+
+	if( SetUrl === false )
+	{
+		Ready = true;
+
+		calc( true );
+	}
+	else
+	{
+		loadSet( SetUrl );
+	}
+
+
 	// we are done loading
 	hide( $( "loading" ) );
-
-	Ready = true;
-
-	calc( true );
 } );
 
 // skill sorting func
@@ -681,4 +690,145 @@ function calc( force )
 			row.insertCell( 8 ).innerHTML = skill.points;
 		}
 	}
+
+
+
+	$( "setUrl" ).href = $( "setUrlSpan" ).innerHTML = getSetUrl();
+}
+
+
+// set URL loading/generating
+
+function getSetUrl()
+{
+	function addDecorations( short )
+	{
+		var shortSlot = short + "slot";
+
+		for( var i = 0, m = numSlots( short ); i < m; i++ )
+		{
+			var selSlot = $( shortSlot + i );
+
+			if( !selSlot.disabled && selSlot.selectedIndex != 0 )
+			{
+				out += "." + numToShort( selSlot.value );
+			}
+		}
+	}
+
+
+
+	var out = numToShort( $( "wpn" ).selectedIndex );
+
+	addDecorations( "wpn" );
+
+	Armors.map( function( class )
+	{
+		out += "_" + numToShort( $( class.short ).value );
+
+		addDecorations( class.short );
+	} );
+
+	// TODO: talisman
+
+	return out;
+}
+
+function loadSet( url )
+{
+	// this will die if you pass it a fudged string
+	// but i really don't care - why waste cpu cycles
+	// on people trying to make duff sets
+
+	function loadDecorations( short, decorations )
+	{
+		var shortSlot = short + "slot";
+
+		// start from 1 as the first "decoration"
+		// is really the piece id
+		for( var i = 1, m = decorations.length; i < m; i++ )
+		{
+			var decoration = decorations[ i ];
+			var slot = freeSlot[ short ];
+
+			var id = numFromShort( decoration );
+
+			selectWithValue( $( shortSlot + slot ), id );
+
+			slotChanged( short, slot );
+
+			freeSlot[ short ] += Decorations[ id ].slots;
+		}
+	}
+
+
+	// stop calc happening while we load the set
+	// if this isn't done then it's EXTREMELY slot
+	Ready = false;
+
+	// set up freeSlot array
+	var freeSlot = { "wpn" : 0 };
+
+	Armors.map( function( class )
+	{
+		freeSlot[ class.short ] = 0;
+	} );
+
+	// reset builder
+
+	// free all slots
+	for( var i = 0; i < MaxSlots; i++ )
+	{
+		freeSlots( "wpn", i );
+
+		Armors.map( function( class )
+		{
+			freeSlots( class.short, i );
+		} );
+	}
+
+	// reset selects
+	Armors.map( function( class )
+	{
+		$( class.short ).selectedIndex = 0;
+	} );
+
+	// refresh pieces - skip BG checks
+	Blade = Gunner = true;
+	doRefreshPieces();
+
+	var parts = url.split( "_" );
+
+	// load wpn
+	{
+		var decorations = parts[ 0 ].split( "." );
+
+		// can only use this shortcut with wpn
+		$( "wpn" ).selectedIndex = numFromShort( decorations[ 0 ] );
+
+		showSlots( "wpn" )
+
+		loadDecorations( "wpn", decorations );
+	}
+
+	// load pieces
+	Armors.map( function( class, classIdx )
+	{
+		var decorations = parts[ classIdx + 1 ].split( "." );
+
+		selectWithValue( $( class.short ), numFromShort( decorations[ 0 ] ) );
+
+		showSlots( class.short );
+
+		loadDecorations( class.short, decorations );
+	} );
+
+	// refresh pieces
+	refreshPieces();
+
+	// we're done
+	Ready = true;
+
+	// calc even if they have autocalc disabled
+	calc( true );
 }
