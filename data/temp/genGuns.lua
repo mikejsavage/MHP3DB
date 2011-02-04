@@ -188,7 +188,28 @@ local Actions =
 
 			assert( success, "bad scrap in " .. weapon.name.hgg .. ": " .. line )
 
-			weapon.shots = { { l1, l2, l3 } }
+			local success, _, clip, l1RapidNum, l1RapidStr = l1:find( "^(%d+)!(%d)(%u)$" )
+			if success then
+				l1 = clip
+			end
+
+			local success, _, clip, l2RapidNum, l2RapidStr = l2:find( "^(%d+)!(%d)(%u)$" )
+			if success then
+				l2 = clip
+			end
+
+			local success, _, clip, l3RapidNum, l3RapidStr = l3:find( "^(%d+)!(%d)(%u)$" )
+			if success then
+				l3 = clip
+			end
+
+			-- lua automatically drops nils from tables so the rapid*s
+			-- aren't there if they're not needed
+			weapon.shots = { {
+				{ clip = tonumber( l1 ), rapidClip = tonumber( l1RapidNum ), rapidStrength = l1RapidStrength },
+				{ clip = tonumber( l2 ), rapidClip = tonumber( l2RapidNum ), rapidStrength = l2RapidStrength },
+				{ clip = tonumber( l3 ), rapidClip = tonumber( l3RapidNum ), rapidStrength = l3RapidStrength },
+			} }
 
 			return "shots"
 		end
@@ -211,7 +232,30 @@ local Actions =
 
 		assert( success, "bad shot in " .. weapon.name.hgg .. ": " .. line .. " (" .. Shots[ LastShot ].name .. ")" )
 
-		table.insert( weapon.shots, { l1, l2, l3 } ) -- nils are removed automatically
+		local success, _, clip, l1RapidNum, l1RapidStr = l1:find( "^(%d+)!(%d)(%u)$" )
+		if success then
+			l1 = clip
+		end
+
+		table.insert( weapon.shots, { { clip = tonumber( l1 ), rapidClip = tonumber( l1RapidNum ), rapidStrength = l1RapidStrength } } )
+
+		if l2 then
+			local success, _, clip, l2RapidNum, l2RapidStr = l2:find( "^(%d+)!(%d)(%u)$" )
+			if success then
+				l2 = clip
+			end
+
+			table.insert( weapon.shots[ LastShot ], { clip = tonumber( l2 ), rapidClip = tonumber( l2RapidNum ), rapidStrength = l2RapidStrength } )
+
+			if l3 then
+				local success, _, clip, l3RapidNum, l3RapidStr = l3:find( "^(%d+)!(%d)(%u)$" )
+				if success then
+					l3 = clip
+				end
+
+				table.insert( weapon.shots[ LastShot ], { clip = tonumber( l3 ), rapidClip = tonumber( l3RapidNum ), rapidStrength = l3RapidStrength } )
+			end
+		end
 
 		return "shots"
 	end,

@@ -1,3 +1,5 @@
+#! /usr/bin/lua
+
 require( "cgi" )
 
 print( "Content-type: text/html\n" )
