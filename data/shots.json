@@ -1,0 +1,22 @@
+[
+	{ "name" : "Normal",  "levels" : 3 },
+	{ "name" : "Pierce",  "levels" : 3 },
+	{ "name" : "Pellet",  "levels" : 3 },
+	{ "name" : "Crag",    "levels" : 3 },
+	{ "name" : "Clust",   "levels" : 3 },
+	{ "name" : "Recov",   "levels" : 2 },
+	{ "name" : "Poisn",   "levels" : 2 },
+	{ "name" : "Para",    "levels" : 2 },
+	{ "name" : "Sleep",   "levels" : 2 },
+	{ "name" : "Fatigue", "levels" : 2 },
+	{ "name" : "Flame",   "levels" : 1 },
+	{ "name" : "Water",   "levels" : 1 },
+	{ "name" : "Thundr",  "levels" : 1 },
+	{ "name" : "Freeze",  "levels" : 1 },
+	{ "name" : "Dragon",  "levels" : 1 },
+	{ "name" : "Tranq",   "levels" : 1 },
+	{ "name" : "Paint",   "levels" : 1 },
+	{ "name" : "Demon",   "levels" : 1 },
+	{ "name" : "Armor",   "levels" : 1 },
+	{ "name" : "Cutter",  "levels" : 1 }
+]

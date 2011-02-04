@@ -190,6 +190,16 @@ Suiko Jewel 1
 Jaggi Scale 2
 Power Seed 1
 
+Attack Jewel
+red 5
+2
+Attack 3
+Defense -1
+375z
+Akito Jewel 1
+Fire Wyvern Clw 2
+Demondrug 1
+
 Expert Jewel
 blue 4
 1

@@ -591,6 +591,42 @@ FastCharge 2
 Desc
 Pumpkin Scraps 2
 
+Rathian Vambraces
+18
+2 0 -2 0 -4
+B
+R2
+---
+Fire Wyvern Clw 2
+Rathian Shell 2
+Rathian Spike 1
+Dragonite Ore 3
+2350z
+Health 2
+Rec Speed -2
+Protection 3
+Fire Atk 4
+Desc
+Rathian Scraps 2
+
+Rathian Guards
+9
+4 0 -1 1 -3
+G
+R2
+---
+Fire Wyvern Clw 2
+Rathian Shell 2
+Rathian Spike 1
+Dragonite Ore 3
+2350z
+Health 3
+Rec Speed -2
+Protection 2
+Fire Atk 4
+Desc
+Rathian Scraps 2
+
 Hapuru Vambraces
 18
 2 -1 -2 -3 0

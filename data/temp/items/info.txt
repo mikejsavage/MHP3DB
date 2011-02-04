@@ -804,6 +804,9 @@ R3
 6z
 
 248 Wyvern Claw 
+claw white
+R4
+18z
 
 249 BrdWyvern Stone
 
@@ -1380,6 +1383,9 @@ R4
 409 Rathian Spike+
 
 410 Rathian Plate
+scale green
+R5
+4850z
 
 411 Rathian Ruby
 
@@ -1412,6 +1418,9 @@ R4
 425 Slvr RthlosTail
 
 426 Fire Wyvern Clw
+claw red
+R4
+600z
 
 427 FireWyvrnMarrow
 shell red

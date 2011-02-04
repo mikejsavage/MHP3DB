@@ -321,6 +321,7 @@ Rathian Scraps 2
 Def 8
 R2
 0%
+---
 Slow
 None
 Moderate
