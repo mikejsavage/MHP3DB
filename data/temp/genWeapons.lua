@@ -1,7 +1,10 @@
 #! /usr/bin/lua
 
-require( "json" )
+require( "common" )
+
 require( "imlib2" )
+
+Items = json.decode( readFile( "../items.json" ) )
 
 local Dir = "weapons"
 local SharpDir = "sharp"
@@ -103,28 +106,6 @@ function sharpIdx( color )
 	return 0
 end
 
-function readFile( path )
-	local file = assert( io.open( path, "r" ) )
-
-	local content = file:read( "*all" )
-
-	file:close()
-
-	return content
-end
-
-local Items = json.decode( readFile( "../items.json" ) )
-
-function itemID( name )
-	for id, item in ipairs( Items ) do
-		if item.name.hgg == name then
-			return id
-		end
-	end
-	
-	assert( nil, "itemID failed to find item: " .. name )
-end
-
 function isElement( element )
 	for _, elem in ipairs( Elements ) do
 		if elem == element then
@@ -136,16 +117,6 @@ function isElement( element )
 end
 
 local MaxSlots = 3
-
-local function parseItem( line )
-	local success, _, name, count = line:find( "^([%a%d%-%+ ]+) (%d+)$" )
-
-	if not success then
-		return
-	end
-
-	return itemID( name ), tonumber( count )
-end
 
 -- perhaps a gigantic FSM was not
 -- the best way of doing this
@@ -164,7 +135,6 @@ local Actions =
 		return "special"
 	end,
 
-	-- TODO: phials
 	special = function( line, weapon )
 		if line:find( "%u%d" ) then
 			local u = line:sub( 1, 1 )
@@ -204,9 +174,7 @@ local Actions =
 
 			element = element:lower()
 
-			if not isElement( element ) then
-				assert( nil, "bad element in " .. weapon.name.hgg .. ": " .. line )
-			end
+			assert( isElement( element ), "bad element in " .. weapon.name.hgg .. ": " .. line )
 
 			weapon.element = element
 			weapon.elemAttack = elemAttack
@@ -222,9 +190,7 @@ local Actions =
 	affinity = function( line, weapon )
 		local success, _, affinity = line:find( "^(-?%d+)%%$" )
 
-		if not success then
-			assert( nil, "bad affinity in " .. weapon.name.hgg .. ": " .. line )
-		end
+		assert( success, "bad affinity in " .. weapon.name.hgg .. ": " .. line )
 
 		weapon.affinity = tonumber( affinity )
 
@@ -266,9 +232,7 @@ local Actions =
 			return "scraps"
 		end
 
-		if not weapon.improve then
-			assert( nil, "bad improve in " .. weapon.name.hgg .. ": " .. line )
-		end
+		assert( weapon.improve, "bad improve in " .. weapon.name.hgg .. ": " .. line )
 
 		table.insert( weapon.improve.materials, { id = id, count = count } )
 
@@ -296,9 +260,7 @@ local Actions =
 	scraps = function( line, weapon )
 		local id, count = parseItem( line )
 
-		if not id then
-			assert( nil, "bad scrap in " .. weapon.name.hgg .. ": " .. line )
-		end
+		assert( id, "bad scrap in " .. weapon.name.hgg .. ": " .. line )
 
 		if not weapon.scraps then
 			weapon.scraps = { }
@@ -307,10 +269,6 @@ local Actions =
 		table.insert( weapon.scraps, { id = id, count = count } )
 
 		return "scraps"
-	end,
-
-	null = function( line, weapon )
-		return "null"
 	end,
 }
 

@@ -1,6 +1,6 @@
 #! /usr/bin/lua
 
-require( "json" )
+require( "common" )
 
 local Dir = "armor"
 
@@ -34,51 +34,8 @@ function readFile( path )
 	return content
 end
 
-local Items = json.decode( readFile( "../items.json" ) )
-local Skills = json.decode( readFile( "../skills.json" ) )
-
-function itemID( name )
-	for id, item in ipairs( Items ) do
-		if item.name.hgg == name then
-			return id
-		end
-	end
-	
-	return nil
-end
-
-function skillID( name )
-	for id, skill in ipairs( Skills ) do
-		if skill.name.hgg == name then
-			return id
-		end
-	end
-
-	return nil
-end
-
-local function parseItem( line )
-	local success, _, name, count = line:find( "^([%a%d%-%+ ]+) (%d+)$" )
-
-	if not success then
-		-- don't throw anything since this usually marks
-		-- the start of another block
-
-		return
-	end
-
-	return itemID( name ), tonumber( count )
-end
-
-local function parseSkill( line )
-	local success, _, name, points = line:find( "^([%a%-/ ]+) (%-?%d+)$" )
-
-	if not success then
-		return
-	end
-
-	return skillID( name ), tonumber( points )
-end
+Items = json.decode( readFile( "../items.json" ) )
+Skills = json.decode( readFile( "../skills.json" ) )
 
 -- perhaps a gigantic FSM was not
 -- the best way of doing this
@@ -94,9 +51,7 @@ local Actions =
 	defense = function( line, piece )
 		local success, _, defense = line:find( "(%d+)" )
 
-		if not success then
-			assert( nil, "bad defense in " .. piece.name.hgg .. ": " .. line )
-		end
+		assert( defense, "bad defense in " .. piece.name.hgg .. ": " .. line )
 
 		piece.defense = tonumber( defense )
 
@@ -107,11 +62,7 @@ local Actions =
 		-- TODO: correct order?
 		local success, _, fire, water, thunder, ice, dragon = line:find( "(%-?%d+) (%-?%d+) (%-?%d+) (%-?%d+) (%-?%d+)" )
 
-		if not success then
-			assert( nil, "bad elemdef in " .. piece.name.hgg .. ": " .. line )
-
-			return
-		end
+		assert( success, "bad elemdef in " .. piece.name.hgg .. ": " .. line )
 
 		piece.fireRes    = tonumber( fire )
 		piece.waterRes   = tonumber( water )
@@ -132,9 +83,7 @@ local Actions =
 	rarity = function( line, piece )
 		local success, _, rarity = line:find( "R(%d+)" )
 
-		if not success then
-			assert( nil, "bad rarity in " .. piece.name.hgg .. ": " .. line )
-		end
+		assert( success, "bad rarity in " .. piece.name.hgg .. ": " .. line )
 
 		piece.rarity = tonumber( rarity )
 
@@ -144,9 +93,7 @@ local Actions =
 	slots = function( line, piece )
 		local success = line:find( "O*%-*" )
 
-		if not success then
-			assert( nil, "bad slots in " .. piece.name.hgg .. ": " .. line )
-		end
+		assert( success, "bad slots in " .. piece.name.hgg .. ": " .. line )
 
 		local slots = 0
 
@@ -172,9 +119,7 @@ local Actions =
 
 		local id, count = parseItem( line )
 
-		if not id then
-			assert( nil, "bad material in " .. piece.name.hgg .. ": " .. line )
-		end
+		assert( id, "bad material in " .. piece.name.hgg .. ": " .. line )
 
 		if not piece.create then
 			piece.create = { }
@@ -206,9 +151,7 @@ local Actions =
 	scraps = function( line, piece )
 		local id, count = parseItem( line )
 
-		if not id then
-			assert( nil, "bad scrap in " .. piece.name.hgg .. ": " .. line )
-		end
+		assert( id, "bad scrap in " .. piece.name.hgg .. ": " .. line )
 
 		if not piece.scraps then
 			piece.scraps = { }
@@ -217,10 +160,6 @@ local Actions =
 		table.insert( piece.scraps, { id = id, count = count } )
 
 		return "scraps"
-	end,
-
-	null = function( line, piece )
-		return "null"
 	end,
 }
 
