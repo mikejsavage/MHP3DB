@@ -17,6 +17,10 @@ local pathItemCounts = loadTemplate( "weapons/pathItemCounts" )
 		end
 
 		print( "<br>" )
+	elseif weapon.shellingType then
+		print( ( "Shelling: %s L%d<br>" ):format( weapon.shellingType, weapon.shellingLevel ) )
+	elseif weapon.phial then
+		print( ( "Phial: %s<br>" ):format( weapon.phial ) )
 	end
 	%}
 
