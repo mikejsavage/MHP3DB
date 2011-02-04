@@ -103,6 +103,7 @@ end
 
 
 Share your set: <a id="setUrl">http://{{ os.getenv( "SERVER_NAME" ) .. U( "sets" ) }}/<span id="setUrlSpan"></span></a>
+<br><small>(I wouldn't actually share it because the link may point to a different set later)</small>
 
 
 <h3>Skills</h3>
