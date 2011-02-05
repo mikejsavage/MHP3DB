@@ -80,8 +80,6 @@ for _, class in ipairs( Armors ) do
 	end
 
 	print( "</div>" )
-
-	print( "</select>" )
 end
 %}
 
