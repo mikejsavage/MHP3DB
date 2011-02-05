@@ -1,5 +1,8 @@
 {%
 local pathItemCounts = loadTemplate( "weapons/pathItemCounts" )
+
+local Shots = data( "shots" )
+local ShotMaxLevel = 3
 %}
 
 <h1>{{ weaponName( { class = class, weapon = weapon } ) }}</h1>
@@ -7,30 +10,9 @@ local pathItemCounts = loadTemplate( "weapons/pathItemCounts" )
 <h2>Stats</h2>
 
 	Attack: {{ weapon.attack }}<br>
-
-	{%
-	if weapon.notes then
-		print( "Notes: " )
-
-		for _, note in ipairs( weapon.notes ) do
-			print( ( "<span class='note%s'>%s</span> " ):format( note, Special.note ) )
-		end
-
-		print( "<br>" )
-	elseif weapon.shellingType then
-		print( ( "Shelling: %s L%d<br>" ):format( weapon.shellingType, weapon.shellingLevel ) )
-	elseif weapon.phial then
-		print( ( "Phial: %s<br>" ):format( weapon.phial ) )
-	end
-	%}
-
-	{%
-	if weapon.element then
-		print( ( "Element: <span class='elem%s'>%d</span><br>" ):format( weapon.element, weapon.elemAttack ) )
-	end
-	%}
-
-	Sharpness: {{ weapon.sharpness and sharpness( { sharpness = weapon.sharpness } ) or "?" }}<br>
+	Reload: {{ weapon.reload }}<br>
+	Drift: {{ weapon.drift }}<br>
+	Recoil: {{ weapon.recoil }}<br>
 
 	Affinity:
 	{%
@@ -43,6 +25,38 @@ local pathItemCounts = loadTemplate( "weapons/pathItemCounts" )
 
 	Slots: {{ weapon.slots == 0 and "none" or ( "O" ):rep( weapon.slots ) }}<br>
 	Rarity: <span class="rare{{ weapon.rarity }}">{{ weapon.rarity }}</span>
+
+
+<h2>Shots</h2>
+
+	<table class="data shots">
+		<thead>
+			<tr>
+				<th>Shot</th>
+				<th>Lv1</th>
+				<th>Lv2</th>
+				<th>Lv3</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			{%
+			for i, shot in ipairs( Shots ) do
+				print( ( "<tr><td>%s</td>" ):format( T( shot.name ) ) )
+
+				for _, level in ipairs( weapon.shots[ i ] ) do
+					print( ( "<td>%s</td>" ):format( level.clip == 0 and "-" or level.clip ) )
+				end
+
+				for j = shot.levels, ShotMaxLevel - 1 do
+					print( "<td>&nbsp;</td>" )
+				end
+
+				print( "</tr>" )
+			end
+			%}
+		</tbody>
+	</table>
 
 
 <h2>Crafting</h2>
@@ -84,7 +98,7 @@ local pathItemCounts = loadTemplate( "weapons/pathItemCounts" )
 
 
 	-- the following code is not simple
-	-- and i guess it would be a better idea to put this in genWeapons
+	-- and i guess it would be a better idea to put this in genGuns
 	
 	local function newPath()
 		return { path = { }, price = 0, materials = { } }
