@@ -191,24 +191,45 @@ local Actions =
 			local success, _, clip, l1RapidNum, l1RapidStr = l1:find( "^(%d+)!(%d)(%u)$" )
 			if success then
 				l1 = clip
+			else
+				local success, _, clip = l1:find( "^(%d+)!$" )
+
+				if success then
+					l1 = clip
+					l1inf = true
+				end
 			end
 
 			local success, _, clip, l2RapidNum, l2RapidStr = l2:find( "^(%d+)!(%d)(%u)$" )
 			if success then
 				l2 = clip
+			else
+				local success, _, clip = l2:find( "^(%d+)!$" )
+
+				if success then
+					l2 = clip
+					l2inf = true
+				end
 			end
 
 			local success, _, clip, l3RapidNum, l3RapidStr = l3:find( "^(%d+)!(%d)(%u)$" )
 			if success then
 				l3 = clip
+			else
+				local success, _, clip = l3:find( "^(%d+)!$" )
+
+				if success then
+					l3 = clip
+					l3inf = true
+				end
 			end
 
 			-- lua automatically drops nils from tables so the rapid*s
 			-- aren't there if they're not needed
 			weapon.shots = { {
-				{ clip = tonumber( l1 ), rapidClip = tonumber( l1RapidNum ), rapidStrength = l1RapidStrength },
-				{ clip = tonumber( l2 ), rapidClip = tonumber( l2RapidNum ), rapidStrength = l2RapidStrength },
-				{ clip = tonumber( l3 ), rapidClip = tonumber( l3RapidNum ), rapidStrength = l3RapidStrength },
+				{ clip = tonumber( l1 ), rapidClip = tonumber( l1RapidNum ), rapidStrength = l1RapidStrength, infinite = l1inf },
+				{ clip = tonumber( l2 ), rapidClip = tonumber( l2RapidNum ), rapidStrength = l2RapidStrength, infinite = l2inf },
+				{ clip = tonumber( l3 ), rapidClip = tonumber( l3RapidNum ), rapidStrength = l3RapidStrength, infinite = l3inf },
 			} }
 
 			return "shots"
@@ -223,6 +244,7 @@ local Actions =
 		return "scraps"
 	end,
 
+	-- i hate guns
 	shots = function( line, weapon )
 		LastShot = LastShot + 1
 
@@ -230,30 +252,51 @@ local Actions =
 
 		local success, _, l1, l2, l3 = line:find( ( "([%d!WMS]+) " ):rep( Shots[ LastShot ].levels ):sub( 1, -2 ) )
 
-		assert( success, "bad shot in " .. weapon.name.hgg .. ": " .. line .. " (" .. Shots[ LastShot ].name .. ")" )
+		assert( success, "bad shot in " .. weapon.name.hgg .. ": " .. line .. " (" .. Shots[ LastShot ].name.hgg .. ")" )
 
 		local success, _, clip, l1RapidNum, l1RapidStr = l1:find( "^(%d+)!(%d)(%u)$" )
 		if success then
 			l1 = clip
+		else
+			local success, _, clip = l1:find( "^(%d+)!$" )
+
+			if success then
+				l1 = clip
+				l1inf = true
+			end
 		end
 
-		table.insert( weapon.shots, { { clip = tonumber( l1 ), rapidClip = tonumber( l1RapidNum ), rapidStrength = l1RapidStrength } } )
+		table.insert( weapon.shots, { { clip = tonumber( l1 ), rapidClip = tonumber( l1RapidNum ), rapidStrength = l1RapidStrength, infinite = l1inf } } )
 
 		if l2 then
 			local success, _, clip, l2RapidNum, l2RapidStr = l2:find( "^(%d+)!(%d)(%u)$" )
 			if success then
 				l2 = clip
+			else
+				local success, _, clip = l2:find( "^(%d+)!$" )
+
+				if success then
+					l2 = clip
+					l2inf = true
+				end
 			end
 
-			table.insert( weapon.shots[ LastShot ], { clip = tonumber( l2 ), rapidClip = tonumber( l2RapidNum ), rapidStrength = l2RapidStrength } )
+			table.insert( weapon.shots[ LastShot ], { clip = tonumber( l2 ), rapidClip = tonumber( l2RapidNum ), rapidStrength = l2RapidStrength, infinite = l2inf } )
 
 			if l3 then
 				local success, _, clip, l3RapidNum, l3RapidStr = l3:find( "^(%d+)!(%d)(%u)$" )
 				if success then
 					l3 = clip
+				else
+					local success, _, clip = l3:find( "^(%d+)!$" )
+
+					if success then
+						l3 = clip
+						l3inf = true
+					end
 				end
 
-				table.insert( weapon.shots[ LastShot ], { clip = tonumber( l3 ), rapidClip = tonumber( l3RapidNum ), rapidStrength = l3RapidStrength } )
+				table.insert( weapon.shots[ LastShot ], { clip = tonumber( l3 ), rapidClip = tonumber( l3RapidNum ), rapidStrength = l3RapidStrength, infinite = l3inf } )
 			end
 		end
 
