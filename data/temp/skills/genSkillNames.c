@@ -42,18 +42,16 @@ char *memnchr( char *haystack, char needle, int len )
 int main()
 {
 	int len;
-	char *data = contents( "./skills/skills.bin", &len );
+	char *data = contents( "./skills.bin", &len );
 
 	// get rid of the damn \n vim insists on adding...
 	data[ len - 1 ] = '\0';
 
 	char *currName = data;
 
-	printf( "[" );
-
 	while( 1 )
 	{
-		printf( "\n\t{\n\t\t\"name\" : {\n\t\t\t\"hgg\" : \"%s\"\n\t\t}\n\t}", currName );
+		printf( "%s", currName );
 
 		char *nextName = memnchr( currName, '\0', len );
 
@@ -62,12 +60,10 @@ int main()
 			break;
 		}
 
-		printf( "," );
+		printf( "\n\n" );
 
 		currName = nextName;
 	}
-
-	printf( "\n]\n" );
 
 	return EXIT_SUCCESS;
 }

@@ -1,0 +1,229 @@
+Torso Up
+copy plt
+
+Poison
+
+Paralysis
+
+Sleep
+
+Stun
+15 Stun Negated
+10 Stun Halved
+-10 Stun [x2]
+
+Mud/Snow
+
+Sense
+
+Health
+15 Health +50
+10 Health +20
+-10 Health -10
+-15 Health -30
+
+Rec Speed
+
+Sharpness
+
+Artisan
+
+Fencing
+
+Expert
+
+Sharpener
+10 Spd Sharpening
+-10 Slow Sharpening
+
+Guard
+
+Guard Up
+
+Auto-Guard
+
+Reload Spd
+
+Recoil
+
+NormalS Up
+
+PierceS Up
+
+PelletS Up
+
+NormalSAdd
+
+PierceSAdd
+
+PelletSAdd
+
+Crag S Add
+
+ClustS Add
+
+Status
+15 AbnrmlStsAtk +2
+10 AbnrmlStsAtk +1
+-10 AbnrmlStAtkDown
+
+Elemental
+
+BombStrUp
+
+Hunger
+
+Gluttony
+
+Attack
+
+Defense
+
+Protection
+
+HearProtct
+
+Anti-Theft
+
+Wide Area
+
+Backpackng
+
+Fire Res
+15 Fire Res (L)
+10 Fire Res (S)
+-10 Fire Res Weaknd
+
+Water Res
+
+ThunderRes
+15 Thndr Res (L)
+10 Thndr Res (S)
+-10 Thdr Res Weaknd
+
+Ice Res
+15 Ice Res (L)
+10 Ice Res (S)
+-10 Ice Res Weaknd
+
+Dragon Res
+
+Heat Res
+10 Heat Cancel
+-10 Heat Inc
+
+Cold Res
+10 Cold Eliminate
+-10 Cold Increase
+
+WindPress
+
+Gathering
+
+HiSpdGathr
+
+Whim
+
+Fate
+
+Psychic
+
+Rec Level
+
+Combo Rate
+
+Shot Mix
+
+Evasion
+15 Evade +2
+10 Evade +1
+-10 Evade Down
+
+Potential
+
+LastingPwr
+
+Stamina
+
+Loading
+
+Precision
+
+Eating
+
+Carving
+
+Quake Res
+10 Quake Resist
+
+Evade Dist
+
+Crit Draw
+
+SpeedSetup
+
+Constitutn
+
+Rewards
+
+Perception
+
+FastCharge
+
+PunishDraw
+
+Blight Res
+
+Adversity
+
+Rapid Fire
+
+Dungmaster
+
+Antiseptic
+
+PoisonCAdd
+
+ParalyCAdd
+
+SleepCAdd
+
+PowerCAdd
+
+RazorCAdd
+
+Horn
+
+Gunnery
+
+Awaken
+
+Huntsman
+
+Fortitude
+
+Fire Atk
+
+Water Atk
+
+Thundr Atk
+
+Ice Attack
+
+Dragon Atk
+
+CutterSAdd
+
+FatigeCAdd
+
+Debilitate
+
+Slam
+
+KO
+
+FatigueAtk
+
+Sheathe
+
+Will Recov

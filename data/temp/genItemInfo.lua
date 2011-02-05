@@ -1,27 +1,15 @@
 #! /usr/bin/lua
 
-require( "json" )
+require( "common" )
 
 local DataPath = "items/info.txt"
-
-function readFile( path )
-	local file = assert( io.open( path, "r" ) )
-
-	local content = file:read( "*all" )
-
-	file:close()
-
-	return content
-end
 
 local Actions =
 {
 	init = function( line, item )
 		local success, _, id, name = line:find( "^(%d+) (.+)$" )
 
-		if not success then
-			assert( nil, "bad id/name: " .. line )
-		end
+		assert( success, "bad id/name: " .. line )
 
 		item.id = tonumber( id )
 		item.name = { hgg = name }
