@@ -104,17 +104,15 @@ function sortByPoints( a, b )
 	// this is unreachable
 }
 
-function activatedSkill( skill, points )
+// this relies on Skill[].bounds being sorted desc by points
+function activatedSkill( id, points )
 {
-	var bounds = Skills[ skill.id ];
+	var bounds = Skills[ id ].bounds;
 
 	if( bounds == null )
 	{
 		return NoSkill;
 	}
-
-	// :)
-	bounds = bounds.bounds;
 
 	if( points > 0 )
 	{
@@ -135,7 +133,7 @@ function activatedSkill( skill, points )
 	}
 	else
 	{
-		for( var i = bounds.length - 1; i >= 0; i++ )
+		for( var i = bounds.length - 2; i >= 0; i++ )
 		{
 			var bound = bounds[ i ];
 
@@ -150,6 +148,8 @@ function activatedSkill( skill, points )
 			}
 		}
 	}
+
+	return NoSkill;
 }
 
 function typeFromShort( short )
