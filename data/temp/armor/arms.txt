@@ -735,6 +735,42 @@ Perception 4
 Desc
 Courage Scraps 1
 
+Narga Vambraces
+20
+-3 1 -4 0 -1
+B
+R3
+OO-
+Nargacuga Wing 3
+Narga Scale 3
+Narga Marrow 1
+Aoashira Pelt 6
+2850z
+Sense 2
+Attack -1
+Evade Dist 2
+Will Recov 2
+Desc
+Narga Scraps 2
+
+Narga Guards
+10
+-1 3 -2 1 0
+G
+R3
+OO-
+Nargacuga Wing 3
+Narga Scale 3
+Narga Marrow 1
+Aoashira Pelt 6
+2850z
+Sense 3
+Attack -1
+Evade Dist 2
+Will Recov 1
+Desc
+Narga Scraps 2
+
 Barioth Vambraces
 20
 -4 1 -3 2 -1
@@ -806,6 +842,42 @@ Whim -1
 Thundr Atk 4
 Desc
 Ore Scraps 2
+
+Rathalos Vambraces
+22
+2 -1 -2 -1 -4
+B
+R3
+OO-
+Rathalos Tail 1
+Fire Wyvern Clw 1
+FireWyvrnMarrow 2
+Dragonite Ore 3
+3350z
+Attack 2
+Rec Level -2
+Fire Atk 1
+Debilitate 2
+Desc
+Rathalos Scraps 2
+
+Rathalos Guards
+11
+4 0 -1 0 -2
+G
+R3
+OO-
+Rathalos Tail 1
+Fire Wyvern Clw 1
+FireWyvrnMarrow 2
+Dragonite Ore 3
+3350z
+Attack 1
+Rec Level -2
+Fire Atk 2
+Debilitate 2
+Desc
+Rathalos Scraps 2
 
 Uragaan Vambraces
 22

@@ -386,6 +386,77 @@ Barioth Scraps 2
 0
 2
 
+Hidden Glare
+130
+R3
+40%
+O--
+Fast
+None
+Moderate
+11475z
+Narga Scale 6
+Black Narga Plt 4
+Nargacuga Fang 8
+Desc
+Narga Scraps 2
+4 4 0
+5 3!3M 6
+0 0 0
+0 0 0
+0 0 0
+0 0
+0 0
+2 0
+0 0
+2 1
+0
+0
+0
+0
+0
+2
+2
+1
+0
+3
+
+Rathalos Cannon
+150
+R3
+0%
+---
+Normal
+None
+Moderate
+13200z
+Rathalos Scale 5
+Rathalos Shell 3
+Rangurotora Shl 3
+Bealite Ore 4
+Desc
+Rathalos Scraps 2
+5 5 6
+3 3 0
+2 0 0
+1 1 0
+1 1 0
+0 0
+2 1
+0 0
+0 0
+0 0
+3!3W
+0
+0
+0
+0
+2
+2
+0
+0
+0
+
 Jinouga Detonator
 160
 R3

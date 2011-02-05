@@ -144,6 +144,19 @@ Desc
 Wood Scraps 2
 Ore Scraps 1
 
+Hidden Blaze
+150
+R3
+30%
+---
+22500z
+Nargacuga Wing 7
+Black Narga Plt 10
+Narga Marrow 1
+Monster Bone+ 5
+Desc
+Narga Scraps 2
+
 Storm Lightning
 160
 Thunder 30

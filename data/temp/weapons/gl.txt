@@ -166,6 +166,35 @@ Desc
 Wood Scraps 2
 Ore Scraps 1
 
+Hidden Gunlance
+140
+N2
+R3
+40%
+---
+22500z
+Nargacuga Wing 4
+Nargacuga Tail 3
+Narga Marrow 1
+Monster Bone+ 5
+Desc
+Narga Scraps 2
+
+Red Rook
+160
+Fire 25
+L2
+R3
+0%
+O--
+30000z
+Rathalos Tail 3
+Rathalos Shell 5
+Flame Sac 3
+Rathalos Plate 1
+Desc
+Rathalos Scraps 2
+
 Felyne Babushka
 100
 N2

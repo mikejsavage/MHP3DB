@@ -723,6 +723,42 @@ Perception 1
 Desc
 Courage Scraps 1
 
+Narga Greaves
+20
+-3 1 -4 0 -1
+B
+R3
+O--
+Nargacuga Fang 6
+Narga Scale 3
+Narga TailSpike 2
+Hercudrome 3
+2850z
+Sense 2
+Attack -2
+Evade Dist 4
+Will Recov 1
+Desc
+Narga Scraps 2
+
+Narga Leggings
+10
+-1 3 -2 1 0
+G
+R3
+O--
+Nargacuga Fang 6
+Narga Scale 3
+Narga TailSpike 2
+Hercudrome 3
+2850z
+Sense 2
+Attack -2
+Evade Dist 4
+Will Recov 1
+Desc
+Narga Scraps 2
+
 Barioth Greaves
 20
 -4 1 -3 2 -1
@@ -794,6 +830,42 @@ Whim -2
 Thundr Atk 1
 Desc
 Ore Scraps 2
+
+Rathalos Greaves
+22
+2 -1 -2 -1 -4
+B
+R3
+O--
+Rathalos Shell 3
+Rathalos Scale 4
+Flame Sac 2
+Bealite Ore 5
+3350z
+Attack 1
+Rec Level -1
+Fire Atk 5
+Debilitate 2
+Desc
+Rathalos Scraps 2
+
+Rathalos Leggings
+11
+4 0 -1 0 -2
+G
+R3
+O--
+Rathalos Shell 3
+Rathalos Scale 4
+Flame Sac 2
+Bealite Ore 5
+3350z
+Attack 4
+Rec Level -3
+Fire Atk 1
+Debilitate 1
+Desc
+Rathalos Scraps 2
 
 Uragaan Greaves
 22

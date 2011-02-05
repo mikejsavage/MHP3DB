@@ -329,6 +329,23 @@ R2
 YNNYNYY
 Sleep
 
+Hidden Bow I
+150
+Spread
+R3
+40%
+O--
+12825z
+Black Narga Plt 6
+Nargacuga Wing 4
+Monster Bone+ 5
+Desc
+Narga Scraps 2
+R3
+P2
+P3
+YYYNYYN
+
 Deer Horn Bow
 170
 Blast

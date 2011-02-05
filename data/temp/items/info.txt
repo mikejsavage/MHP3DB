@@ -1396,16 +1396,28 @@ R5
 414 GldRathianSpike
 
 415 Rathalos Scale
+scale red
+R4
+490z
 
 416 Rathalos Scale+
 
 417 Rathalos Shell
+nshell red
+R4
+650z
 
 418 Rathalos Carpce
 
 419 Rathalos Webbng
+webbing red
+R4
+880z
 
 420 Rathalos Tail
+shell red
+R4
+1200z
 
 421 Rathalos Plate
 
@@ -1473,22 +1485,40 @@ R5
 442 Jinouga Jewel
 
 443 Narga Scale
+scale gray
+R4
+466z
 
 444 Narga Scale+
 
 445 Black Narga Plt
+hide gray
+R4
+600z
 
 446 BlackNargaPelt+
 
 447 Nargacuga Tail
+shell gray
+R4
+1150z
 
 448 Narga TailSpike
+shell gray
+R4
+500z
 
 449 Nargacuga Wing
+shell gray
+R4
+850z
 
 450 Nargacuga Wing+
 
 451 Nargacuga Fang
+claw gray
+R4
+440z
 
 452 Nargacuga Fang+
 

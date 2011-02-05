@@ -210,6 +210,16 @@ Suiko Jewel 1
 Sharp Fang 2
 Iron Ore 1
 
+Expert Jewel
+blue 5
+2
+Expert 3
+Dragon Res -1
+375z
+Akito Jewel 1
+Nargacuga Wing 1
+Grt Baggi Claw 2
+
 SpecialAtkJwl
 pink 4
 1
@@ -248,6 +258,16 @@ Fire Atk -1
 Akito Jewel 1
 Grt Baggi Hide 2
 
+DebilitateJwl
+red 4
+1
+Debilitate 1
+Health -1
+200z
+Akito Jewel 1
+Rathalos Webbng 1
+Rathian Spike 1
+
 FastChargJwl
 orange 4
 1
@@ -267,6 +287,16 @@ FastCharge -1
 Akito Jewel 1
 Monster Bone+ 2
 Rhnplos Skl Shl 1
+
+FatigeAtkJwl
+yellow 5
+2
+FatigueAtk 3
+Stamina -1
+375z
+Akito Jewel 1
+Narga TailSpike 2
+HotSpringTicket 1
 
 BombrdierJwl
 red 4
@@ -451,6 +481,16 @@ Akito Jewel 1
 Urukusu Belly 2
 Killer Beetle 2
 
+Jump Jewel
+blue 4
+1
+Evade Dist 1
+Health -1
+200z
+Akito Jewel 1
+Black Narga Plt 2
+Bnahabra Wing 2
+
 TrapMastrJwl
 cyan 4
 1
@@ -489,6 +529,16 @@ Stamina -1
 Akito Jewel 1
 Regal Snout 1
 Froggi Scale 2
+
+WillRecovJwl
+white 4
+1
+Will Recov 1
+Evasion -1
+200z
+Akito Jewel 1
+Narga Scale 1
+Med Mnster Bone 2
 
 PickyEatrJwl
 white 4
@@ -708,6 +758,14 @@ PelletSAdd 2
 Akito Jewel 1
 Hapurubokka Shl 2
 
+BombBonusJwl
+orange 4
+1
+Crag S Add 2
+200z
+Akito Jewel 1
+Rathalos Shell 2
+
 ScttrBnusJwl
 orange 4
 1
@@ -724,6 +782,25 @@ CutterSAdd 2
 200z
 Suiko Jewel 1
 Urukusu Pelt 2
+
+HighSpeedJwl
+cyan 4
+1
+Reload Spd 1
+Recoil -1
+200z
+Akito Jewel 1
+Pelagicite Ore 3
+
+HighSpeedJwl
+cyan 5
+2
+Reload Spd 3
+Recoil -1
+375z
+Akito Jewel 1
+Nargacuga Fang 2
+Lightcrystal 2
 
 Sniper Jewel
 white 4

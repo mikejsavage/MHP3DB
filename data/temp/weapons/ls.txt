@@ -137,3 +137,31 @@ Dragonite Ore 10
 Desc
 Wood Scraps 2
 Ore Scraps 1
+
+Hidden Saber
+140
+R3
+40%
+---
+22500z
+Nargacuga Wing 5
+Black Narga Plt 5
+Narga Marrow 1
+Machalite Ore 5
+Desc
+Narga Scraps 2
+
+Twin Fire Wyvern
+160
+Fire 18
+R3
+0%
+O--
+30000z
+Rathalos Shell 5
+Rathian Shell 5
+Fire Wyvern Clw 4
+FireWyvrnMarrow 1
+Desc
+Rathalos Scraps 1
+Rathian Scraps 1

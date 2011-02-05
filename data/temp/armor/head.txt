@@ -823,6 +823,42 @@ Perception 1
 Desc
 Courage Scraps 1
 
+Narga Helm
+20
+-3 1 -4 0 -1
+BG
+R3
+O--
+Narga TailSpike 2
+Black Narga Plt 3
+Nargacuga Wing 2
+Aoashira Shell 4
+2850z
+Sense 2
+Attack -3
+Evade Dist 2
+Will Recov 2
+Desc
+Narga Scraps 2
+
+Narga Cap
+10
+-1 3 -2 1 0
+BG
+R3
+O--
+Narga TailSpike 2
+Black Narga Plt 3
+Nargacuga Wing 2
+Aoashira Shell 4
+2850z
+Sense 2
+Attack -2
+Evade Dist 4
+Will Recov 3
+Desc
+Narga Scraps 2
+
 Ingot Helm
 20
 -2 -2 1 -2 0
@@ -874,6 +910,42 @@ Torso Up 0
 Desc
 Bone Scraps 2
 Courage Scraps 1
+
+Rathalos Helm
+22
+2 -1 -2 -1 -4
+BG
+R3
+O--
+Rathalos Scale 3
+Rathalos Shell 3
+Fire Wyvern Clw 1
+Dragonite Ore 3
+3350z
+Attack 4
+Rec Level -3
+Fire Atk 1
+Debilitate 1
+Desc
+Rathalos Scraps 2
+
+Rathalos Cap
+11
+4 0 -1 0 -2
+BG
+R3
+O--
+Rathalos Scale 3
+Rathalos Shell 3
+Fire Wyvern Clw 1
+Dragonite Ore 3
+3350z
+Attack 2
+Rec Level -1
+Fire Atk 5
+Debilitate 3
+Desc
+Rathalos Scraps 2
 
 Uragaan Helm
 22

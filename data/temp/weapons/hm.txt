@@ -131,6 +131,19 @@ Desc
 Wood Scraps 2
 Ore Scraps 1
 
+Hidden Breaker
+140
+R3
+40%
+---
+22500z
+Black Narga Plt 8
+Narga Scale 5
+Narga Marrow 1
+Lg Monster Bone 6
+Desc
+Narga Scraps 2
+
 Egg Hammer
 180
 R3

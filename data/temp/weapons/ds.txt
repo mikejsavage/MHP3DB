@@ -106,3 +106,16 @@ Uncanny Hide 4
 Poison Sac 8
 Desc
 Gigginox Scraps 2
+
+Hidden Daggers
+140
+R3
+40%
+O--
+22500z
+Nargacuga Wing 8
+Narga Scale 4
+Narga Marrow 1
+Monster Bone+ 4
+Desc
+Narga Scraps 2
