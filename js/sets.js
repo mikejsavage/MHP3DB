@@ -1,6 +1,6 @@
 // constants
 
-var Classes = [ "wpn", "hlm", "plt", "arm", "wst", "leg"/*, "tln"*/ ];
+var Types = [ "wpn", "hlm", "plt", "arm", "wst", "leg"/*, "tln"*/ ];
 var MaxSlots = 3;
 var MaxTalismanSkills = 2;
 var Elements =
@@ -28,7 +28,7 @@ var Gunner = true;
 onLoad( function()
 {
 	// initialize EatenSlots array and setup UI
-	Classes.map( function( type )
+	Types.map( function( type )
 	{
 		EatenSlots[ type ] = [ ];
 
@@ -152,19 +152,19 @@ function activatedSkill( skill, points )
 	}
 }
 
-function classFromShort( short )
+function typeFromShort( short )
 {
 	for( var i = 0, m = Armors.length; i < m; i++ )
 	{
-		var class = Armors[ i ];
+		var type = Armors[ i ];
 
-		if( class.short == short )
+		if( type.short == short )
 		{
-			return class;
+			return type;
 		}
 	}
 
-	alert( "classFromShort: " + short );
+	alert( "typeFromShort: " + short );
 }
 
 function decorationInfo( decoration )
@@ -203,9 +203,9 @@ function numSlots( short )
 		return -( parseInt( idx ) + 1 )
 	}
 
-	var class = classFromShort( short );
+	var type = typeFromShort( short );
 
-	return class.pieces[ idx ].slots;
+	return type.pieces[ idx ].slots;
 }
 
 function showSlots( short )
@@ -321,9 +321,9 @@ function refreshPieces()
 
 	for( var i = 0, m = Armors.length; i < m; i++ )
 	{
-		var class = Armors[ i ];
+		var type = Armors[ i ];
 
-		var sel = $( class.short );
+		var sel = $( type.short );
 		var idx = sel.value;
 
 		if( idx <= 0 )
@@ -333,7 +333,7 @@ function refreshPieces()
 			continue;
 		}
 
-		var piece = class.pieces[ idx ];
+		var piece = type.pieces[ idx ];
 
 		// :)
 		Blade  &= piece.blade;
@@ -351,15 +351,15 @@ function refreshPieces()
 
 function doRefreshPieces()
 {
-	Armors.map( function( class )
+	Armors.map( function( type )
 	{
-		var sel = $( class.short );
+		var sel = $( type.short );
 		var curr = sel.value;
 
 		// don't remove wildcards
 		clearSelect( sel, 4 );
 
-		class.pieces.map( function( piece, id )
+		type.pieces.map( function( piece, id )
 		{
 			if( piece.blade & Blade || piece.gunner & Gunner )
 			{
@@ -449,7 +449,7 @@ function refreshSlots( short, refreshUsed )
 
 function decorInfoChanged()
 {
-	Classes.map( function( short )
+	Types.map( function( short )
 	{
 		refreshSlots( short, true );
 	} );
@@ -577,7 +577,7 @@ function calc( force )
 					{
 						"id" : skill.id,
 						"points" : skill.points,
-						"classes" : { }
+						"types" : { }
 					} ) - 1;
 				}
 				else
@@ -585,7 +585,7 @@ function calc( force )
 					result[ idx ].points += skill.points;
 				}
 
-				result[ idx ].classes[ short ] = skill.points;
+				result[ idx ].types[ short ] = skill.points;
 			} );
 		} );
 
@@ -621,23 +621,23 @@ function calc( force )
 	} );
 
 	// init types and add decoration info
-	Classes.map( function( short )
+	Types.map( function( short )
 	{
 		pieces[ short ] = [ ];
 
 		addDecorationSkills( short );
 	} );
 
-	Armors.map( function( class )
+	Armors.map( function( type )
 	{
-		var idx = $( class.short ).value;
+		var idx = $( type.short ).value;
 
 		// values < 0 are for "no x" or "y slotted x"
 		if( idx >= 0 )
 		{
-			var piece = class.pieces[ idx ];
+			var piece = type.pieces[ idx ];
 
-			addSkills( class.short, piece.skills );
+			addSkills( type.short, piece.skills );
 		}
 	} );
 
@@ -674,17 +674,17 @@ function calc( force )
 
 			if( skill.points < 0 && skill.name != NoSkill )
 			{
-				name.className = "neg";
+				name.typeName = "neg";
 			}
 
 			row.insertCell( 1 ).innerHTML = Skills[ skill.id ].name.T();
 
-			Classes.map( function( short, j )
+			Types.map( function( short, j )
 			{
-				var classPoints = skill.classes[ short ];
+				var typePoints = skill.types[ short ];
 
 				row.insertCell( j + 2 ).innerHTML =
-					classPoints == 0 || classPoints == null ? "" : classPoints;
+					typePoints == 0 || typePoints == null ? "" : typePoints;
 			} );
 
 			row.insertCell( 8 ).innerHTML = skill.points;
@@ -725,11 +725,11 @@ function getSetUrl()
 
 	addDecorations( "wpn" );
 
-	Armors.map( function( class )
+	Armors.map( function( type )
 	{
-		out += "_" + numToShort( $( class.short ).value );
+		out += "_" + numToShort( $( type.short ).value );
 
-		addDecorations( class.short );
+		addDecorations( type.short );
 	} );
 
 	// TODO: talisman
@@ -772,9 +772,9 @@ function loadSet( url )
 	// set up freeSlot array
 	var freeSlot = { "wpn" : 0 };
 
-	Armors.map( function( class )
+	Armors.map( function( type )
 	{
-		freeSlot[ class.short ] = 0;
+		freeSlot[ type.short ] = 0;
 	} );
 
 	// reset builder
@@ -784,16 +784,16 @@ function loadSet( url )
 	{
 		freeSlots( "wpn", i );
 
-		Armors.map( function( class )
+		Armors.map( function( type )
 		{
-			freeSlots( class.short, i );
+			freeSlots( type.short, i );
 		} );
 	}
 
 	// reset selects
-	Armors.map( function( class )
+	Armors.map( function( type )
 	{
-		$( class.short ).selectedIndex = 0;
+		$( type.short ).selectedIndex = 0;
 	} );
 
 	// refresh pieces - skip BG checks
@@ -815,15 +815,15 @@ function loadSet( url )
 	}
 
 	// load pieces
-	Armors.map( function( class, classIdx )
+	Armors.map( function( type, typeIdx )
 	{
-		var decorations = parts[ classIdx + 1 ].split( "." );
+		var decorations = parts[ typeIdx + 1 ].split( "." );
 
-		selectWithValue( $( class.short ), numFromShort( decorations[ 0 ] ) );
+		selectWithValue( $( type.short ), numFromShort( decorations[ 0 ] ) );
 
-		showSlots( class.short );
+		showSlots( type.short );
 
-		loadDecorations( class.short, decorations );
+		loadDecorations( type.short, decorations );
 	} );
 
 	// refresh pieces
