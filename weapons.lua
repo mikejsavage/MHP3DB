@@ -33,6 +33,20 @@ itemNameURL = loadTemplate( "itemNameURL" )
 
 
 
+local SharpMults = { 0.5, 0.75, 1, 1.05, 1.2, 1.32 }
+
+local function sharpMult( weapon )
+	if not weapon.sharpness then
+		return 1
+	end
+
+	return SharpMults[ table.getn( weapon.sharpness ) ]
+end
+
+function getTATP( weapon )
+	return math.round( weapon.attack * ( 1 + 0.0025 * weapon.affinity ) * sharpMult( weapon ) )
+end
+
 local function classFromShort( short )
 	for _, class in ipairs( Weapons ) do
 		if class.short == short then

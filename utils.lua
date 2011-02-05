@@ -36,6 +36,10 @@ function table.copy( arr )
 	return new
 end
 
+function math.round( num )
+	return math.floor( num + 0.5 )
+end
+
 -- function commANNIHILATE( num )
 function commas( num )
 	local out = ""

@@ -11,6 +11,7 @@ local treeItem = loadTemplate( "weapons/meleeTreeItem" )
 		<tr>
 			<th>Name</th>
 			<th>Atk</th>
+			<th>TATP</th>
 			<th>Element</th>
 			<th>Affn</th>
 			<th>Sharpness</th>

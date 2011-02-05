@@ -7,6 +7,7 @@ local pathItemCounts = loadTemplate( "weapons/pathItemCounts" )
 <h2>Stats</h2>
 
 	Attack: {{ weapon.attack }}<br>
+	TATP: {{ getTATP( weapon ) }}<br>
 
 	{%
 	if weapon.notes then

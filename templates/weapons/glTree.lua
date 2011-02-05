@@ -10,6 +10,7 @@ local treeItem = loadTemplate( "weapons/glTreeItem" )
 	<thead>
 		<tr>
 			<th>Name</th>
+			<th>TATP</th>
 			<th>Atk</th>
 			<th>Shell</th>
 			<th>Element</th>
