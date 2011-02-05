@@ -62,7 +62,7 @@ end
 -- name/url conversion
 
 function string.urlEscape( self )
-	return self:gsub( "'", "" ):gsub( " ", "_" )
+	return self:gsub( "['\"]", "" ):gsub( " ", "_" )
 end
 
 function urlFromName( name )
