@@ -17,11 +17,11 @@ local ShotMaxLevel = 3
 	Affinity:
 	{%
 	if weapon.affinity ~= 0 then
-		print( E( "span", weapon.affinity > 0 and "pos" or "neg", weapon.affinity ) )
+		print( E( "span", weapon.affinity > 0 and "pos" or "neg", weapon.affinity .. "%" ) )
 	else
-		print( weapon.affinity )
+		print( ( "%s%%" ):format( weapon.affinity ) )
 	end
-	%}%<br>
+	%}<br>
 
 	Slots: {{ weapon.slots == 0 and "none" or ( "O" ):rep( weapon.slots ) }}<br>
 	Rarity: <span class="rare{{ weapon.rarity }}">{{ weapon.rarity }}</span>

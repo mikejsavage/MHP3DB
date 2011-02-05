@@ -193,6 +193,10 @@ footer {
 	background: #666;
 }
 
+.grid + h1 {
+	margin-top: 24px;
+}
+
 /* smaller images for equipment grids
  * so they don't get stretched */
 
