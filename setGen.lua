@@ -106,8 +106,8 @@ function goodSet( skills, wantedSkills )
 	return true
 end
 
-if Get.request then
-	local req = json.decode( Get.request:gsub( "%%22", "\"" ) )
+if Post.request then
+	local req = json.decode( Post.request:gsub( "%%22", "\"" ) )
 
 	if not req.skills or table.getn( req.skills ) > MaxSkills then
 		return
@@ -177,8 +177,7 @@ if Get.request then
 			if first then
 				first = false
 			else
-				--io.write( "," )
-				print( "" )
+				io.write( "," )
 			end
 
 			io.write( [[{"pieces":[]] )
@@ -201,5 +200,5 @@ if Get.request then
 
 	io.write( "]" )
 else
-	print( "" )
+	print( "no" )
 end

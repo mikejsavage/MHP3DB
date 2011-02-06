@@ -1,8 +1,8 @@
-function ajaxPost( url, data, callback )
+function post( url, data, callback )
 {
 	var dataStr = "";
 
-	data.map( function( key, val )
+	data.map( function( val, key )
 	{
 		dataStr += "&" + key;
 
