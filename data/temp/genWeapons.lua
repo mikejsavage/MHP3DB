@@ -7,7 +7,9 @@ require( "imlib2" )
 Items = json.decode( readFile( "../items.json" ) )
 
 local Dir = "weapons"
+
 local SharpDir = "sharp"
+local CacheDir = "cache"
 
 local Types =
 {
@@ -285,6 +287,18 @@ function doLine( line, weapon, state )
 end
 
 function readSharpness( weapon )
+	local cachePath = ( "%s/%s/%s/%s.lua" ):format( Dir, SharpDir, CacheDir, weapon.name.hgg )
+
+	local cached = io.open( cachePath, "r" )
+
+	if cached then
+		weapon.sharpness = loadstring( cached:read( "*all" ) )()
+
+		cached:close()
+		
+		return
+	end
+
 	local img = imlib2.image.load( ( "%s/%s/%s.png" ):format( Dir, SharpDir, weapon.name.hgg ) )
 
 	if not img then
@@ -324,6 +338,13 @@ function readSharpness( weapon )
 	end
 
 	img:free()
+
+	-- save the result for future gens
+	local writeCache = assert( io.open( cachePath, "w" ) )
+
+	writeCache:write( "return { " .. table.concat( weapon.sharpness, ", " ) .. " }" )
+
+	writeCache:close()
 end
 
 local Weapons = { }
