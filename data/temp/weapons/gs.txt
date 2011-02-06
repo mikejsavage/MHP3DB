@@ -19,16 +19,70 @@ Desc
 	Wood Scraps 1
 	Ore Scraps 1
 
-Buster Sword
-80
-R1
-0%
----
-1500z
-Machalite Ore 4
-Earth Crystal 5
-Desc
-Ore Scraps 2
+		Yukumo Greatsword+
+		90
+		R1
+		0%
+		---
+		Machalite Ore 5
+		Yukumo Wood 5
+		Knife Mackerel 3
+		1000z
+		Desc
+		Wood Scraps 1
+		Ore Scraps 1
+
+		Buster Sword
+		80
+		R1
+		0%
+		---
+		Machalite Ore 1
+		Iron Ore 8
+		1000z
+		Machalite Ore 4
+		Earth Crystal 5
+		Desc
+		Ore Scraps 2
+
+			Buster Sword+
+			110
+			R1
+			0%
+			---
+			Bealite Ore 3
+			Machalite Ore 2
+			Iron Ore 5
+			2500z
+			Desc
+			Ore Scraps 2
+
+				Buster Blade
+				130
+				R2
+				0%
+				O--
+				Isisium Ore 5
+				Bealite Ore 5
+				Earth Crystal 10
+				4000z
+				Desc
+				Ore Scraps 2
+
+		Wild Greatsword
+		100
+		R1
+		0%
+		O--
+		Grt Jaggi Claw 4
+		Jaggi Hide 8
+		Machalite Ore 3
+		1900z
+		Grt Jaggi Claw 6
+		Grt Jaggi Hide 3
+		Machalite Ore 2
+		Desc
+		GrtJaggi Scraps 2
 
 Bone Blade
 90
@@ -40,18 +94,6 @@ Sm Monster Bone 3
 Jaggi Hide 2
 Desc
 Bone Scraps 2
-
-Wild Greatsword
-100
-R1
-0%
-O--
-2850z
-Grt Jaggi Claw 6
-Grt Jaggi Hide 3
-Machalite Ore 2
-Desc
-GrtJaggi Scraps 2
 
 Ludroth Bone Sword
 110

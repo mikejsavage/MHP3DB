@@ -922,6 +922,42 @@ Debilitate 3
 Desc
 Rathalos Scraps 2
 
+Uragaan Mail
+22
+2 -5 1 -2 -3
+B
+R3
+O--
+Uragaan Jaw 1
+Uragaan Shield 1
+Uragaan Shell 3
+Rangurotora Shl 2
+3350z
+Defense 1
+Fire Res 1
+Water Res -2
+PunishDraw 3
+Desc
+Uragaan Scraps 2
+
+Uragaan Vest
+11
+4 -4 2 -1 -2
+G
+R3
+O--
+Uragaan Jaw 1
+Uragaan Shield 1
+Uragaan Shell 3
+Rangurotora Shl 2
+3350z
+PierceS Up 3
+Defense 1
+Fire Res 1
+Water Res -2
+Desc
+Uragaan Scraps 2
+
 Agnaktor Mail
 24
 4 -4 0 -2 -4

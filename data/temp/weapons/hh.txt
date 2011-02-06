@@ -132,3 +132,18 @@ Med Mnster Bone 4
 Poison Sac 8
 Desc
 Gigginox Scraps 2
+
+Black Ghenia
+170
+Def 30
+WRB
+R3
+0%
+---
+8850z
+Uragaan Jaw 2
+Uragaan Shield 8
+Uragaan Shell 5
+Magma Shard 6
+Desc
+Uragaan Scraps 2

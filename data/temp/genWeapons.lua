@@ -283,7 +283,7 @@ function doLine( line, weapon, state )
 		print( state )
 	end
 
-	return Actions[ state ]( line:detab(), weapon )
+	return Actions[ state ]( line, weapon )
 end
 
 function readSharpness( weapon )
@@ -363,7 +363,9 @@ for _, short in pairs( Types ) do
 	local currentIdx = 1
 
 	for line in io.lines() do
-		if line == "" then
+		local trimmed = line:detab()
+
+		if trimmed == "" then
 			readSharpness( weapon )
 
 			table.insert( class.weapons, weapon )
@@ -395,7 +397,7 @@ for _, short in pairs( Types ) do
 				end
 			end
 
-			state = doLine( line, weapon, state )
+			state = doLine( trimmed, weapon, state )
 		end
 	end
 

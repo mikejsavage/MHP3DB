@@ -752,6 +752,16 @@ Akito Jewel 1
 Monster Bone+ 2
 Rumblefish 5
 
+Pierce Jewel
+white 4
+1
+PierceS Up 1
+Recoil -1
+200z
+Akito Jewel 1
+Uragaan Jaw 1
+Hercudrome 2
+
 Pellet Jewel
 white 4
 1
