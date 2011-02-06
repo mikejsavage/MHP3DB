@@ -515,6 +515,9 @@ R2
 120z
 
 174 Dragon Seed
+seed red
+R4
+78z
 
 175 Scatternut
 seed gray
@@ -1609,20 +1612,32 @@ R4
 486 SteelUrgnShield
 
 487 Doboru Shell
+nshell green
+R4
+830z
 
 488 Doboru Carapace
 
 489 Mossy Carapace
+hide green
+R4
+880z
 
 490 Mossy Carapace+
 
 491 Doboru Kelp
 
 492 Doboru Tail
+shell green
+R4
+1320z
 
 493 Doboru Tail+
 
 494 Doboru Horn
+claw green
+R4
+1250z
 
 495 Doboru Horn+
 
@@ -1881,6 +1896,9 @@ R5
 0z
 
 617 SecretBowgunBk
+book green
+R5
+0z
 
 618 Secret LS Book
 

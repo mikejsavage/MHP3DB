@@ -493,6 +493,42 @@ Jinouga Scraps 2
 1
 3!2M
 
+Doburu Bowgun
+180
+R3
+0%
+O--
+Slow
+None
+Light
+14700z
+Doboru Horn 2
+Mossy Carapace 5
+Doboru Kelp 1
+Dragonite Ore 5
+Desc
+Doboru Scraps 2
+4 4 5
+2 2 0
+3 4 5
+1 1 1
+1 0 0
+2 1
+0 0
+2 0
+2 1
+3!3M 1
+0
+0
+0
+0
+0
+2
+2
+0
+0
+0
+
 Puffing Teapot
 130
 R3

@@ -982,3 +982,39 @@ Fire Res 1
 Water Res -1
 Desc
 Uragaan Scraps 2
+
+Doboru Helm
+24
+-3 1 -2 -2 0
+BG
+R3
+O--
+Doboru Horn 2
+Doboru Shell 4
+Monster Bone+ 3
+Bulldrome Hide 3
+4150z
+Expert -3
+Attack 3
+Potential 2
+Slam 1
+Desc
+Doboru Scraps 2
+
+Doboru Cap
+12
+-2 3 -1 -1 0
+BG
+R3
+O--
+Doboru Horn 2
+Doboru Shell 4
+Monster Bone+ 3
+Bulldrome Hide 3
+4150z
+Expert -2
+Recoil 4
+Potential 2
+Slam 3
+Desc
+Doboru Scraps 2

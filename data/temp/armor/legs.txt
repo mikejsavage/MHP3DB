@@ -938,3 +938,39 @@ Awaken 1
 Thundr Atk 2
 Desc
 Jinouga Scraps 2
+
+Doboru Greaves
+24
+-3 1 -2 -2 0
+B
+R3
+O--
+Doboru Tail 2
+Mossy Carapace 4
+Doboru Kelp 2
+Bullfango Pelt 4
+4150z
+Expert -1
+Attack 2
+Potential 3
+Slam 3
+Desc
+Doboru Scraps 2
+
+Doboru Leggings
+12
+-2 3 -1 -1 0
+G
+R3
+O--
+Doboru Tail 2
+Mossy Carapace 4
+Doboru Kelp 2
+Bullfango Pelt 4
+4150z
+Expert -1
+Recoil 4
+Potential 2
+Slam 2
+Desc
+Doboru Scraps 2

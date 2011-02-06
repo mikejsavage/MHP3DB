@@ -105,6 +105,20 @@ Desc
 Wood Scraps 2
 Ore Scraps 1
 
+Heavy Divider
+180
+Fatigue
+R3
+0%
+O--
+30000z
+Doboru Tail 4
+Doboru Horn 2
+Doboru Shell 5
+Machalite Ore 8
+Desc
+Doboru Scraps 2
+
 Thunder Axe
 160
 Thunder 22

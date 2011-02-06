@@ -986,3 +986,39 @@ Potential -3
 Precision 2
 Desc
 Agnaktor Scraps 2
+
+Doboru Vambraces
+24
+-3 1 -2 -2 0
+B
+R3
+O--
+Doboru Shell 4
+Doboru Tail 2
+Mossy Carapace 4
+Bulldrome Hide 3
+4150z
+Expert -1
+Attack 4
+Potential 1
+Slam 3
+Desc
+Doboru Scraps 2
+
+Doboru Guards
+12
+-2 3 -1 -1 0
+G
+R3
+O--
+Doboru Shell 4
+Doboru Tail 2
+Mossy Carapace 4
+Bulldrome Hide 3
+4150z
+Expert -2
+Recoil 1
+Potential 3
+Slam 3
+Desc
+Doboru Scraps 2

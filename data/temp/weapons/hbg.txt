@@ -461,3 +461,39 @@ Narga Scraps 2
 1
 0
 3!
+
+Marine Cannon
+160
+R3
+15%
+---
+Slow
+None
+Light
+11550z
+SecretBowgunBk 1
+Dragonite Ore 10
+Lightcrystal 2
+Gunpowder 10
+Desc
+Ore Scraps 2
+5 5 0
+0 3 0
+2 2 0
+1! 1! 1
+3 3 3
+0 0
+0 0
+0 0
+0 0
+0 0
+0
+0
+3
+0
+0
+2
+2
+0
+1
+2

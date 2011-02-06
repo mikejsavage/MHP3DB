@@ -103,6 +103,21 @@ Desc
 Wood Scraps 2
 Ore Scraps 1
 
+Heavy Bagpipe
+170
+WCR
+Def 20
+R3
+-5%
+O--
+22500z
+Doboru Tail 3
+Magma Shard 6
+Machalite Ore 10
+Screamer 8
+Desc
+Doboru Scraps 2
+
 Black Coffin
 130
 WCR

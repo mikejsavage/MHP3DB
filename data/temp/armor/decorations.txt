@@ -298,6 +298,15 @@ Akito Jewel 1
 Narga TailSpike 2
 HotSpringTicket 1
 
+PotentialJwl
+red 4
+1
+Potential 1
+Protection -1
+200z
+Akito Jewel 1
+Mossy Carapace 2
+
 BombrdierJwl
 red 4
 1
