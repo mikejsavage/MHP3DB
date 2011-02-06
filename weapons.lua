@@ -2,8 +2,6 @@
 
 require( "cgi" )
 
-print( "Content-type: text/html\n" )
-
 -- data
 
 Weapons = data( "weapons" )

@@ -2,14 +2,13 @@
 
 require( "cgi" )
 
-print( "Content-type: text/html\n" )
-
 -- data
 
-Armors, ArmorsJSON = dataJSON( "armors" )
+Armors,      ArmorsJSON      = dataJSON( "armors" )
 Decorations, DecorationsJSON = dataJSON( "decorations" )
-Skills, SkillsJSON = dataJSON( "skills" )
-Items  = data( "items" )
+Skills,      SkillsJSON      = dataJSON( "skills" )
+
+Items = data( "items" )
 
 -- templates
 
