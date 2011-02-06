@@ -1,9 +1,9 @@
-require( "config" )
+require( "inc.config" )
 
-require( "json" )
-require( "template" )
+require( "inc.json" )
+require( "inc.template" )
 
-require( "utils" )
+require( "inc.utils" )
 
 
 -- seed RNG
