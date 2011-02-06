@@ -32,6 +32,34 @@ Desc
 		Wood Scraps 1
 		Ore Scraps 1
 
+			Yukumo Hatchet
+			130
+			R2
+			0%
+			---
+			Lightcrystal 1
+			Machalite Ore 10
+			Yukumo Wood 10
+			Regal Snout 2
+			1200z
+			Desc
+			Wood Scraps 1
+			Ore Scraps 2
+
+			Dirty Baron
+			90
+			Poison 24
+			R1
+			0%
+			---
+			Froggi Hide 3
+			Sm Monster Bone 1
+			Iron Ore 2
+			1500z
+			Desc
+			Ore Scraps 1
+			Bone Scraps 1
+
 		Hunter's Dagger
 		80
 		R1
@@ -120,6 +148,59 @@ Desc
 		Desc
 		Ore Scraps 2
 
+			Hydra Knife
+			100
+			R2
+			0%
+			O--
+			Grt Jaggi Claw 2
+			Grt Jaggi Hide 3
+			Machalite Ore 3
+			1140z
+			Grt Jaggi Claw 3
+			Regal Frill 1
+			Jaggi Hide 5
+			Iron Ore 5
+			Desc
+			GrtJaggi Scraps 2
+
+				Hydra Knife+
+				140
+				R2
+				0%
+				O--
+				Regal Frill 3
+				Barroth Shell 2
+				Dragonite Ore 5
+				2940z
+				Desc
+				GrtJaggi Scraps 2
+
+					Deadly Blade
+					170
+					R3
+					0%
+					OO-
+					Regal Crest 3
+					Grt Jaggi Hide 10
+					Blos Fang 2
+					4920z
+					Desc
+					GrtJaggi Scraps 2
+
+				Slumber Knife
+				110
+				Sleep 19
+				R2
+				0%
+				O--
+				Grt Baggi Claw 4
+				Sleep Sac 3
+				Isisium Ore 5
+				2400z
+				Desc
+				GrtBaggiScraps 2
+
 Bone Kukri
 90
 R1
@@ -184,6 +265,19 @@ Bone Scraps 2
 			Desc
 			Rathalos Scraps 2
 
+				Blazing Falchion
+				180
+				Fire 36
+				R6
+				0%
+				---
+				Rathalos Carpce 5
+				Rathalos Scale+ 4
+				FireWyvrnBrnStm 2
+				65000z
+				Desc
+				Rthalos Scraps+ 2
+
 	Ludroth Claw
 	100
 	Water 8
@@ -227,6 +321,33 @@ Bone Scraps 2
 			4920z
 			Desc
 			Ludroth Scraps 2
+
+				Royal Talon
+				190
+				Water 32
+				R5
+				0%
+				OO-
+				Spongy Hide+ 3
+				RoyalLudrthScl+ 5
+				RoyalLudrthClw+ 3
+				Exquisite Crest 2
+				55000z
+				Desc
+				Ludroth Scraps+ 2
+
+				Majestic Talon
+				170
+				Water 38
+				R5
+				0%
+				---
+				SpongyPurplHide 5
+				PurpRylLdrthClw 3
+				Hydro Sac 5
+				35000z
+				Desc
+				Ludroth Scraps+ 2
 
 			Hidden Edge
 			130
@@ -280,19 +401,6 @@ Monster Fluid 1
 Altaroth Jaw 1
 Desc
 Bnahabra Scraps 2
-
-Hydra Knife
-100
-R2
-0%
-O--
-1710z
-Grt Jaggi Claw 3
-Regal Frill 1
-Jaggi Hide 5
-Iron Ore 5
-Desc
-GrtJaggi Scraps 2
 
 Tusk Gear
 130

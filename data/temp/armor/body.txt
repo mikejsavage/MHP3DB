@@ -921,3 +921,75 @@ Fire Atk 1
 Debilitate 3
 Desc
 Rathalos Scraps 2
+
+Agnaktor Mail
+24
+4 -4 0 -2 -4
+B
+R3
+O--
+Agnaktor Hide 4
+Agnaktor Fin 2
+Agnaktor Shell 5
+Grt Froggi Hide 5
+4150z
+Sharpness 2
+Expert 2
+Guard 1
+Potential -2
+Desc
+Agnaktor Scraps 2
+
+Agnaktor Vest
+12
+5 -2 0 -1 -2
+G
+R3
+O--
+Agnaktor Hide 4
+Agnaktor Fin 2
+Agnaktor Shell 5
+Grt Froggi Hide 5
+4150z
+NormalS Up 2
+PierceSAdd 2
+Potential -2
+Precision 1
+Desc
+Agnaktor Scraps 2
+
+Doboru Mail
+24
+-3 1 -2 -2 0
+B
+R3
+O--
+Doboru Kelp 3
+Doboru Horn 2
+Doboru Shell 4
+Bullfango Pelt 4
+4150z
+Expert -3
+Attack 1
+Potential 1
+Slam 2
+Desc
+Doboru Scraps 2
+
+Doboru Vest
+12
+-2 3 -1 -1 0
+G
+R3
+O--
+Doboru Kelp 3
+Doboru Horn 2
+Doboru Shell 4
+Bullfango Pelt 4
+4150z
+Expert -2
+Recoil 3
+Potential 1
+Slam 1
+Desc
+Doboru Scraps 2

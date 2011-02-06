@@ -153,6 +153,9 @@ R1
 53 Poison Thrw Knf
 
 54 SleepingThrwKnf
+knife cyan
+supply
+R1
 
 55 ParalyzeThrwKnf
 
@@ -248,6 +251,9 @@ R2
 82 Polytan Bomb
 
 83 Old Pickaxe
+pickaxe gray
+R1
+6z
 
 84 Iron Pickaxe
 pickaxe white
@@ -1626,6 +1632,9 @@ R4
 490 Mossy Carapace+
 
 491 Doboru Kelp
+shell green
+R4
+1400z
 
 492 Doboru Tail
 shell green
@@ -1709,12 +1718,21 @@ R4
 527 Uroktor Scale+
 
 528 Agnaktor Scale
+scale red
+R4
+380z
 
 529 Agnaktor Shell
+nshell red
+R4
+560z
 
 530 Agnaktor Carpce
 
 531 Agnaktor Hide
+hide red
+R4
+700z
 
 532 Agnaktor Hide+
 
@@ -1723,14 +1741,26 @@ R4
 534 Agnaktor Claw+
 
 535 Agnaktor Fin
+shell red
+R4
+780z
 
 536 Agnaktor Fin+
 
 537 Agnaktor Snout
+bone red
+R4
+1380z
 
 538 Agnaktor Tail
+shell red
+R4
+1250z
 
 539 Igneous Thorax
+shell red
+R4
+720z
 
 540 Igneous Thorax+
 
@@ -2242,6 +2272,9 @@ R4
 750 Bulldrm Scraps+
 
 751 GrtJaggi Scraps
+scraps purple
+R4
+50z
 
 752 GrtJaggiScraps+
 
@@ -2305,6 +2338,9 @@ R4
 774 Rathian Scraps+
 
 775 Rathalos Scraps
+scraps red
+R4
+150z
 
 776 Rthalos Scraps+
 

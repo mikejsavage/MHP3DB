@@ -21,9 +21,10 @@ local Bases =
 
 local Reloads =
 {
-	Slow   = "slow",
-	Normal = "normal",
-	Fast   = "fast",
+	VerySlow = "vslow",
+	Slow     = "slow",
+	Normal   = "normal",
+	Fast     = "fast",
 }
 
 local Drifts =

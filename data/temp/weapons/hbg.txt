@@ -462,6 +462,43 @@ Narga Scraps 2
 0
 3!
 
+Agnaktor Striker
+160
+Def 12
+R3
+0%
+---
+VerySlow
+None
+Moderate
+16500z
+Agnaktor Shell 6
+Agnaktor Fin 4
+Fire Stone 4
+Monster Bone+ 2
+Desc
+Agnaktor Scraps 2
+5 6 7
+3 3 0
+0 2 0
+0 1 0
+0 1 0
+2 1
+2 0
+1 0
+0 0
+0 0
+5!
+0
+0
+0
+0
+2
+2
+0
+1
+0
+
 Marine Cannon
 160
 R3

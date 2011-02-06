@@ -107,6 +107,20 @@ Desc
 Wood Scraps 2
 Ore Scraps 2
 
+Spiral Heat
+140
+Fire 23
+R3
+15%
+---
+30000z
+Agnaktor Snout 2
+Agnaktor Fin 5
+Agnaktor Scale 8
+Uroktor Scale 4
+Desc
+Agnaktor Scraps 2
+
 Divine Thunder
 160
 Thunder 18

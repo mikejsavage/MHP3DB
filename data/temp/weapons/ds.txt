@@ -119,3 +119,17 @@ Narga Marrow 1
 Monster Bone+ 4
 Desc
 Narga Scraps 2
+
+Flamestorm
+140
+Fire 25
+R3
+30%
+---
+30000z
+Agnaktor Shell 6
+Agnaktor Hide 4
+Igneous Thorax 2
+Uroktor Scale 8
+Desc
+Agnaktor Scraps 2

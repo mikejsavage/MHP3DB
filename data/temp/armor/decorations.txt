@@ -268,6 +268,16 @@ Akito Jewel 1
 Rathalos Webbng 1
 Rathian Spike 1
 
+Slam Jewel
+purple 4
+1
+Slam 1
+Expert -1
+200z
+Akito Jewel 1
+Doboru Kelp 1
+Doboru Shell 2
+
 FastChargJwl
 orange 4
 1
@@ -675,6 +685,16 @@ Sense 2
 Suiko Jewel 1
 Anteka Antlers 2
 
+Razor Jewel
+gray 4
+1
+Sharpness 1
+Artisan -1
+200z
+Akito Jewel 1
+Agnaktor Fin 1
+Jinouga Shell 1
+
 PunshDrw Jwl
 orange 4
 1
@@ -693,6 +713,16 @@ Constitutn -1
 200z
 Akito Jewel 1
 Barroth Shell 2
+
+IronWall Jwl
+gray 5
+2
+Guard 3
+Constitutn -1
+375z
+Akito Jewel 1
+Agnaktor Snout 1
+Agnaktor Shell 3
 
 HardWall Jwl
 gray 4

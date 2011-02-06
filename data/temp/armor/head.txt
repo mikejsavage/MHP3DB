@@ -983,6 +983,42 @@ Water Res -1
 Desc
 Uragaan Scraps 2
 
+Agnaktor Helm
+24
+4 -4 0 -2 -4
+BG
+R3
+O--
+Agnaktor Shell 5
+Agnaktor Snout 1
+Agnaktor Hide 3
+Dragonite Ore 5
+4150z
+Sharpness 3
+Expert 2
+Guard 2
+Potential -2
+Desc
+Agnaktor Scraps 2
+
+Agnaktor Cap
+12
+5 -2 0 -1 -2
+BG
+R3
+O--
+Agnaktor Shell 5
+Agnaktor Snout 1
+Agnaktor Hide 3
+Dragonite Ore 5
+4150z
+NormalS Up 2
+PierceSAdd 4
+Potential -2
+Precision 3
+Desc
+Agnaktor Scraps 2
+
 Doboru Helm
 24
 -3 1 -2 -2 0

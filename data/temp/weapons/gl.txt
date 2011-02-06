@@ -195,6 +195,21 @@ Rathalos Plate 1
 Desc
 Rathalos Scraps 2
 
+Flamethrower
+150
+L2
+Fire 28
+R3
+15%
+---
+30000z
+Agnaktor Tail 2
+Agnaktor Scale 5
+Igneous Thorax 3
+Uroktor Scale 10
+Desc
+Agnaktor Scraps 2
+
 Felyne Babushka
 100
 N2

@@ -105,6 +105,21 @@ Desc
 Wood Scraps 2
 Ore Scraps 1
 
+Fire Tempest
+150
+Power
+Fire 23
+R3
+10%
+O--
+30000z
+Agnaktor Snout 3
+Agnaktor Tail 3
+Agnaktor Fin 4
+Fire Stone 5
+Desc
+Agnaktor Scraps 2
+
 Heavy Divider
 180
 Fatigue
