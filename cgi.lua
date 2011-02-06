@@ -43,3 +43,5 @@ if postLength then
 		Post = parse( io.read( tonumber( postLength ) ) )
 	end
 end
+
+print( "Content-type: text/html" )
