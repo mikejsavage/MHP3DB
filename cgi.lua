@@ -23,8 +23,7 @@ local function parse( str )
 		else
 			tokens[ token ] = ""
 		end
-	end
-	)
+	end )
 
 	return tokens
 end
@@ -38,9 +37,9 @@ end
 Post = { }
 local postLength = os.getenv( "CONTENT_LENGTH" )
 
-if postLength then
-	if os.getenv( "CONTENT_TYPE" ) == "application/x-www-form-urlencoded" then
-		Post = parse( io.read( tonumber( postLength ) ) )
+if postLength and postLength ~= "0" then
+	if os.getenv( "CONTENT_TYPE" ):startsWith( "application/x-www-form-urlencoded" ) then
+		Post = parse( io.stdin:read( tonumber( postLength ) ) )
 	end
 end
 
