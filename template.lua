@@ -44,7 +44,7 @@ function compileTemplate( template, name )
 		if action then
 			table.insert( code, action( block:sub( 3, -3 ):gsub( "%f[%a]print%(", "table.insert%( output," ) ) )
 		elseif block ~= "{}" then
-			table.insert( code, ( "table.insert( output, [[ <h3>Bad block: %s</h3> ]] )" ):format( block ) )
+			table.insert( code, ( "table.insert( output, [[<h3>Bad block: %s</h3>]] )" ):format( block ) )
 		end
 	end
 

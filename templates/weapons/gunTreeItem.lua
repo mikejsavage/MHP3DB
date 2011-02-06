@@ -5,5 +5,5 @@
 	<td>{{ weapon.drift }}</td>
 	<td>{{ weapon.recoil }}</td>
 	<td{{ weapon.affinity ~= 0 and ( ( " class='%s'" ):format( weapon.affinity > 0 and "pos" or "neg" ) ) or ""}}>{{ weapon.affinity }}%</td>
-	<td>{{ weapon.slots == 0 and "-" or ( "O" ):rep( weapon.slots ) }}</td>
+	<td{{ weapon.slots == 0 and " class='none'>-" or ">" .. ( "O" ):rep( weapon.slots ) }}</td>
 </tr>

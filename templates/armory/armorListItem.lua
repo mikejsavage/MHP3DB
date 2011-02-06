@@ -9,8 +9,10 @@
 	<td>{{ piece.iceRes }}</td>
 	<td>{{ piece.dragonRes }}</td>
 	<td>{{ piece.slots == 0 and "-" or ( "O" ):rep( piece.slots ) }}</td>
-	<td>{%
+	<td{%
 		if piece.skills then
+			print( ">" )
+
 			local alt = false
 
 			for _, skill in ipairs( piece.skills ) do
@@ -28,7 +30,7 @@
 				alt = not alt
 			end
 		else
-			print( "-" )
+			print( " class='none'>-" )
 		end
 	%}</td>
 </tr>

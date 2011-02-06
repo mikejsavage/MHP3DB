@@ -229,6 +229,10 @@ footer {
 	white-space: pre;
 }
 
+.data .none {
+	color: #666;
+}
+
 .data th {
 	border-bottom: 2px solid #333;
 	color: #fff;
@@ -273,6 +277,11 @@ footer {
 
 .data.eq.armor td:last-child, .data.eq.decorations td:last-child {
 	text-align: left;
+}
+
+.data.eq.armor td:last-child.none {
+	color: #666;
+	text-align: center;
 }
 
 /* decorations tables */
