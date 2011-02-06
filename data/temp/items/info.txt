@@ -740,6 +740,9 @@ R4
 480z
 
 225 Magma Shard
+ore orange
+R4
+530z
 
 226 Fire Stone
 ore red
@@ -1599,6 +1602,9 @@ R4
 478 Uragaan Carapce
 
 479 Uragaan Jaw
+shell yellow
+R4
+1260z
 
 480 Uragaan Shield
 shell yellow
@@ -1606,6 +1612,9 @@ R4
 1450z
 
 481 Uragaan Marrow
+shell yellow
+R5
+1800z
 
 482 Uragaan Ruby
 
