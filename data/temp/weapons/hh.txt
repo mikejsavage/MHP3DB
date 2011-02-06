@@ -133,7 +133,7 @@ Poison Sac 8
 Desc
 Gigginox Scraps 2
 
-Black Ghenia
+Brass Ghenia
 170
 Def 30
 WRB
