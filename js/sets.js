@@ -654,7 +654,7 @@ function calc( force )
 		var cell = row.insertCell( 0 );
 
 		cell.colSpan = "10";
-		cell.innerHTML = "You have no skills. Are you a gunner?";
+		cell.innerHTML = "You have no skills. Are you a gunner?"; // :)
 	}
 	else
 	{
