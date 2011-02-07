@@ -107,6 +107,10 @@ Desc
 					Barioth Shell 3
 					Ice Crystal 10
 					3540z
+					Barioth Spike 3
+					Barioth Pelt 3
+					Barioth Tail 1
+					Urukusu Claw 3
 					Desc
 					Barioth Scraps 2
 

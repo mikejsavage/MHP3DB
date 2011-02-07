@@ -1568,10 +1568,16 @@ R4
 464 Barioth Claw+
 
 465 Barioth Spike
+shell white
+R4
+1080z
 
 466 Barioth Tail
 
 467 Amber Fang
+claw orange
+R4
+1420z
 
 468 Amber Fang+
 

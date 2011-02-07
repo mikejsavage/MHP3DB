@@ -2,6 +2,8 @@ Torso Up
 copy plt
 
 Poison
+10 Poison Negated
+-10 Poison [x2]
 
 Paralysis
 
@@ -13,8 +15,11 @@ Stun
 -10 Stun [x2]
 
 Mud/Snow
+10 Mud/Snow Res
 
 Sense
+10 Sneak
+-10 Taunt
 
 Health
 15 Health +50
@@ -23,20 +28,35 @@ Health
 -15 Health -30
 
 Rec Speed
+15 Recovery Spd +2
+10 Recovery Spd +1
+-10 Recovery Spd -1
+-15 Recovery Spd -2
 
 Sharpness
+10 Sharp Sword
+-10 Blunt
 
 Artisan
 
 Fencing
 
 Expert
+20 Rcklss Abndn +3
+15 Rcklss Abndn +2
+10 Rcklss Abndn +1
+-10 Rcklss Abndn -1
+-15 Rcklss Abndn -2
+-20 Rcklss Abndn -3
 
 Sharpener
 10 Spd Sharpening
 -10 Slow Sharpening
 
 Guard
+15 Guard +2
+10 Guard +1
+-10 Guard -1
 
 Guard Up
 
@@ -72,22 +92,45 @@ Elemental
 BombStrUp
 
 Hunger
+15 Hunger Negated
+10 Hunger Halved
+-10 Hunger Inc [Lo]
+-15 Hunger Inc [Hi]
 
 Gluttony
+15 Picky Eater
+10 Filled Up
 
 Attack
+20 Atk Up (L)
+15 Atk Up (M)
+10 Atk Up (S)
+-10 Atk Down (S)
+-15 Atk Down (M)
+-20 Atk Down (L)
 
 Defense
+20 Def Up (L)
+15 Def Up (M)
+10 Def Up (S)
+-10 Def Down (S)
+-15 Def Down (M)
+-20 Def Down (L)
 
 Protection
+10 Divine Protectn
+-10 Demonic Protctn
 
 HearProtct
 
 Anti-Theft
 
 Wide Area
+20 Wide Area +2
+10 wide Area +1
 
 Backpackng
+10 Backpckng Exprt
 
 Fire Res
 15 Fire Res (L)
@@ -95,6 +138,9 @@ Fire Res
 -10 Fire Res Weaknd
 
 Water Res
+15 Water Res (L)
+10 Water Res (S)
+-10 Watr Res Weaknd
 
 ThunderRes
 15 Thndr Res (L)
@@ -117,22 +163,39 @@ Cold Res
 -10 Cold Increase
 
 WindPress
+15 Wind Anchor
+10 Wind Breaker
 
 Gathering
+15 Gathering +2
+10 Gathering +1
+-10 Gathering -1
 
 HiSpdGathr
+10 Hi-SpdGathering
 
 Whim
+15 Divine Whim
+10 Spirit's Whim
+-10 Spectre's Whim
+-15 Devil's Whim
 
 Fate
 
 Psychic
+15 Autotracker
+10 Detect
 
 Rec Level
 
 Combo Rate
+15 Combne Suc +45%
+10 Combne Suc +20%
+-10 Combne Suc -10%
+-15 Combne Suc -20%
 
 Shot Mix
+10 Bullet Limit
 
 Evasion
 15 Evade +2
@@ -140,16 +203,26 @@ Evasion
 -10 Evade Down
 
 Potential
+15 Adrenaline +2
+10 Adrenaline +1
+-10 Worry
 
 LastingPwr
+10 Item Use Up
+-10 Item Use Down
 
 Stamina
+10 Runner
+-10 Flat Footed
 
 Loading
 
 Precision
 
 Eating
+15 Quick Eating +2
+10 Quick Eating +1
+-10 Slow Life
 
 Carving
 
@@ -157,20 +230,32 @@ Quake Res
 10 Quake Resist
 
 Evade Dist
+10 Evasion Up
 
 Crit Draw
 
 SpeedSetup
+10 Trap Master
 
 Constitutn
+15 Constitution +2
+10 Constitution +1
+-10 Constitution -1
+-15 Constitution -2
 
 Rewards
+15 Rewards Celeb
+10 Rewards Expert
 
 Perception
+10 Trnquilizr Guru
 
 FastCharge
+10 Concentration
+-10 Distraction
 
 PunishDraw
+10 Unsheathe Stun
 
 Blight Res
 
@@ -193,22 +278,40 @@ PowerCAdd
 RazorCAdd
 
 Horn
+10 Flute Expert
 
 Gunnery
+15 Gunnery King
+10 Gunnery Master
 
 Awaken
+15 Unleashed +2
+10 Unleashed +1
 
 Huntsman
+10 Huntsman's Life
 
 Fortitude
 
 Fire Atk
+15 Fire Element +2
+10 Fire Element +1
+-10 Fire Elmnt Down
 
 Water Atk
+15 Water Elemnt +2
+10 Water Elemnt +1
+-10 WaterElmnt Down
 
 Thundr Atk
+15 Thndr Elemnt +2
+10 Thndr Elemnt +1
+-10 ThndrElmnt Down
 
 Ice Attack
+15 Ice Element +2
+10 Ice Element +1
+-10 Ice Elemnt Down
 
 Dragon Atk
 
@@ -217,13 +320,19 @@ CutterSAdd
 FatigeCAdd
 
 Debilitate
+10 Exploiter
 
 Slam
+10 Ruiner
 
 KO
+10 Improved KO
 
 FatigueAtk
 
 Sheathe
+10 Fast Sheathe
 
 Will Recov
+10 StaminaRecov Up
+-10 StmnaRecov Down

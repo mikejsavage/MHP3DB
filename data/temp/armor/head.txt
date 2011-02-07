@@ -859,6 +859,42 @@ Will Recov 3
 Desc
 Narga Scraps 2
 
+Barioth Helm
+20
+-4 1 -3 2 -1
+BG
+R3
+O--
+Amber Fang 2
+Barioth Pelt 3
+Barioth Shell 2
+Killer Beetle 6
+2850z
+Stamina 2
+Constitutn 1
+Ice Attack 3
+Will Recov -3
+Desc
+Barioth Scraps 2
+
+Barioth Cap
+10
+-2 2 -1 4 0
+BG
+R3
+O--
+Amber Fang 2
+Barioth Pelt 3
+Barioth Shell 2
+Killer Beetle 6
+2850z
+Stamina 4
+Constitutn 5
+Ice Attack 1
+Will Recov -1
+Desc
+Barioth Scraps 5
+
 Ingot Helm
 20
 -2 -2 1 -2 0

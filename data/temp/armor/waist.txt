@@ -827,6 +827,42 @@ Will Recov 2
 Desc
 Narga Scraps 2
 
+Barioth Tasset
+20
+-4 1 -3 2 -1
+B
+R3
+OO-
+Amber Fang 1
+Barioth Spike 1
+Monster Bone+ 2
+Urukusu Belly 4
+2850z
+Stamina 1
+Constitutn 4
+Ice Attack 1
+Will Recov -1
+Desc
+Barioth Scraps 2
+
+Barioth Coat
+10
+-2 2 -1 4 0
+G
+R3
+OO-
+Amber Fang 1
+Barioth Spike 1
+Monster Bone+ 2
+Urukusu Belly 4
+2850z
+Stamina 3
+Constitutn 1
+Ice Attack 1
+Will Recov -2
+Desc
+Barioth Scraps 2
+
 Ingot Coil
 20
 -2 -2 1 -2 0
