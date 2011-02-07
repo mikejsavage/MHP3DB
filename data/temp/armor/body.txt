@@ -958,6 +958,42 @@ Water Res -2
 Desc
 Uragaan Scraps 2
 
+Jinouga Mail
+22
+-1 -2 3 -3 0
+B
+R3
+---
+Jinouga Pelt 1
+Jinouga Shell 2
+Static Carapace 2
+Thunderbug 10
+3350z
+Sense -3
+Sharpness 2
+Awaken 3
+Thundr Atk 1
+Desc
+Jinouga Scraps 2
+
+Jinouga Vest
+11
+0 -1 5 -1 0
+G
+R3
+---
+Jinouga Pelt 1
+Jinouga Shell 2
+Static Carapace 2
+Thunderbug 10
+3350z
+Sense -3
+NormalS Up 1
+Awaken 3
+Thundr Atk 2
+Desc
+Jinouga Scraps 2
+
 Agnaktor Mail
 24
 4 -4 0 -2 -4

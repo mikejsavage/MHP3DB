@@ -1463,10 +1463,16 @@ R4
 431 Jinouga Carapce
 
 432 Jinouga Pelt
+hide white
+R4
+490z
 
 433 Jinouga Pelt+
 
 434 Jinouga Horn
+claw teal
+R4
+840z
 
 435 Jinouga Horn+
 
@@ -2368,6 +2374,9 @@ R4
 780 Narga Scraps+
 
 781 Barioth Scraps
+scraps white
+R4
+150z
 
 782 Barioth Scraps+
 

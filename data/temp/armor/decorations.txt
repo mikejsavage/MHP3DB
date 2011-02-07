@@ -288,6 +288,16 @@ Akito Jewel 1
 Hapurubokka Clw 1
 Barroth Spine 2
 
+Unlock Jewel
+red 4
+1
+Awaken 1
+Sense -1
+200z
+Akito Jewel 1
+Jinouga Horn 1
+Barioth Spike 2
+
 KO Jewel
 orange 4
 1

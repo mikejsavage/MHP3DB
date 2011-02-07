@@ -147,3 +147,18 @@ Uragaan Shell 5
 Magma Shard 6
 Desc
 Uragaan Scraps 2
+
+Roaring Zither
+150
+WRB
+Thunder 28
+R3
+0%
+O--
+24000z
+Jinouga Horn 1
+Jinouga Shell 4
+Jinouga Pelt 3
+Jinouga Claw 2
+Desc
+Jinouga Scraps 2

@@ -1019,6 +1019,42 @@ Water Res -1
 Desc
 Uragaan Scraps 2
 
+Jinouga Helm
+22
+-1 -2 3 -3 0
+BG
+R3
+OO-
+Jinouga Horn 1
+Jinouga Pelt 2
+Jinouga Shell 3
+Bulldrome Hide 3
+3350z
+Sense -2
+Sharpness 3
+Awaken 1
+Thundr Atk 1
+Desc
+Jinouga Scraps 2
+
+Jinouga Cap
+11
+0 -1 5 -1 0
+BG
+R3
+OO-
+Jinouga Horn 1
+Jinouga Pelt 2
+Jinouga Shell 3
+Bulldrome Hide 3
+3350z
+Sense -2
+NormalS Up 3
+Awaken 2
+Thundr Atk 2
+Desc
+Jinouga Scraps 2
+
 Agnaktor Helm
 24
 4 -4 0 -2 -4

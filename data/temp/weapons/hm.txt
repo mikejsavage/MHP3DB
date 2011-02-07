@@ -169,3 +169,17 @@ Gagua Feather 5
 Monster Bone+ 3
 Desc
 Pelt Scraps 2
+
+Clashing Thunder
+160
+Thunder 26
+R3
+0%
+O--
+24000z
+Jinouga Horn 2
+Jinouga Shell 5
+Jinouga Pelt 4
+Jinouga Plate 1
+Desc
+Jinouga Scraps 2

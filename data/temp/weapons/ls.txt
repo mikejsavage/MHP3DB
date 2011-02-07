@@ -165,3 +165,17 @@ FireWyvrnMarrow 1
 Desc
 Rathalos Scraps 1
 Rathian Scraps 1
+
+Lightning Splitter
+160
+Thunder 20
+R3
+0%
+O--
+24000z
+Jinouga Horn 1
+Jinouga Shell 4
+Jinouga Claw 6
+Jinouga Pelt 3
+Desc
+Jinouga Scraps 2

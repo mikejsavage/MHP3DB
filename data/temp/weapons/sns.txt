@@ -114,6 +114,19 @@ Desc
 					Desc
 					Barioth Scraps 2
 
+						Icy Bite+
+						150
+						Ice 28
+						R3
+						25%
+						O--
+						Barioth Claw 2
+						Frost Sac 3
+						Tigrex Claw 4
+						20000z
+						Desc
+						Barioth Scraps 2
+
 					Shadow Saber
 					130
 					Poison 19
