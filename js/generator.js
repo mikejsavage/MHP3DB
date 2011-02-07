@@ -29,7 +29,7 @@ function printSets( response )
 
 	if( len == 0 )
 	{
-		$( "result" ).innerHTML = "No sets have the skills you requsted, sorry!";
+		$( "result" ).innerHTML = "No sets have the skills you requested, sorry!";
 	}
 	else
 	{
@@ -67,6 +67,8 @@ function requestSet()
 
 		skills.push( { "id" : id, "points" : points } );
 	}
+
+	$( "result" ).innerHTML = "";
 
 	post(
 		"setGen.lua",
