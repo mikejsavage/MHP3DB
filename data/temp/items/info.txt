@@ -1554,7 +1554,7 @@ R4
 460 Barioth Carapce
 
 461 Barioth Pelt
-pelt white
+hide white
 R4
 740z
 
