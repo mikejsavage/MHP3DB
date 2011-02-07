@@ -6,7 +6,7 @@ body {
 }
 
 a {
-	color: #ccc;
+	color: #ddd;
 }
 
 hr {
@@ -118,6 +118,7 @@ header {
 	font-weight: bold;
 	height: 2em;
 	line-height: 2em;
+	min-width: 880px;
 }
 header a {
 	color: #666;
@@ -135,8 +136,13 @@ header a.home {
 
 nav {
 	margin: 0 auto;
-	text-align: right;
 	width: 800px;
+}
+nav div {
+	display: inline-block;
+}
+nav div.calcs {
+	float: right;
 }
 
 /* main content container */
@@ -220,6 +226,21 @@ footer {
 	float: left;
 	font-size: 0;
 	height: inherit;
+}
+
+/* set generator output */
+
+#skills {
+	margin: 8px 16px 8px;
+}
+
+.set {
+	background-color: #1d1d1d;
+	border: 1px solid #ccc;
+	-moz-border-radius: 8px;
+	display: inline-block;
+	padding: 8px;
+	margin: 8px;
 }
 
 /* generic data tables */

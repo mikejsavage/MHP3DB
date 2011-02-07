@@ -1,3 +1,7 @@
+{%
+local headerLink = loadTemplate( "headerLink" )
+%}
+
 <!DOCTYPE HTML>
 
 <html>
@@ -15,12 +19,18 @@
 
 			<nav>
 				{%
-				local headerLink = loadTemplate( "headerLink" )
-
 				for _, link in ipairs( HeaderLinks ) do
 					print( headerLink( { text = link.text.hgg, url = link.url } ) )
 				end
 				%}
+
+				<div class="calcs">
+					{%
+					for _, link in ipairs( HeaderCalcs ) do
+						print( headerLink( { text = link.text.hgg, url = link.url } ) )
+					end
+					%}
+				</div>
 			</nav>
 		</header>
 

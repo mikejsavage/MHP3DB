@@ -28,16 +28,27 @@ HeaderLinks =
 	{
 		text =
 		{
-			hgg = "sets",
+			hgg = "items",
+		},
+		url = "items"
+	},
+}
+
+HeaderCalcs =
+{
+	{
+		text =
+		{
+			hgg = "builder",
 		},
 		url = "sets"
 	},
 	{
 		text =
 		{
-			hgg = "items",
+			hgg = "generator",
 		},
-		url = "items"
+		url = "generator.lua"
 	},
 }
 
@@ -46,6 +57,8 @@ Special =
 	star = "&#9833;",
 	note = "&#9834;",
 	arrow = "&rarr;",
+	cross = "<b>&times;</b>",
+	plus = "<b>+</b>",
 }
 
 -- these are done by eye. I don't really care
