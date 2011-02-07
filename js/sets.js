@@ -695,8 +695,21 @@ function calc( force )
 
 	var setUrl = getSetUrl();
 
-	$( "setUrl" ).href = "/" + BaseUrl + "sets/" + setUrl;
-	$( "setUrlSpan" ).innerHTML = getSetUrl();
+	if( setUrl == "0_-1_-1_-1_-1_-1" )
+	{
+		hide( $( "setUrl" ) );
+		show( $( "setEmpty" ) );
+	}
+	else
+	{
+		var link = $( "setUrl" );
+
+		show( link );
+		hide( $( "setEmpty" ) );
+
+		link.href = "/" + BaseUrl + "sets/" + setUrl;
+		$( "setUrlSpan" ).innerHTML = setUrl;
+	}
 }
 
 

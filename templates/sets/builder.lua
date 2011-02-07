@@ -100,7 +100,10 @@ end
 <hr>
 
 
-Share your set: <a id="setUrl">http://{{ os.getenv( "SERVER_NAME" ) .. U( "sets" ) }}/<span id="setUrlSpan"></span></a>
+Share your set:
+<a id="setUrl">http://{{ os.getenv( "SERVER_NAME" ) .. U( "sets" ) }}/<span id="setUrlSpan"></span></a>
+<span id="setEmpty">but not quite yet...</span>
+
 <br><small>(I wouldn't actually share it because the link may point to a different set when this page is updated)</small>
 
 
