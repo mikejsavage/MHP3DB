@@ -25,7 +25,7 @@ local Actions =
 			return "main"
 		end
 
-		local success, _, points, name = line:find( "^([%d-]+) ([%a%d %+%-%[%]%(%)]+)$" )
+		local success, _, points, name = line:find( "^([%d-]+) ([%a%d '/%+%-%%%%[%]%(%)]+)$" )
 
 		assert( success, "bad skill in " .. skill.name.hgg .. ": " .. line )
 
