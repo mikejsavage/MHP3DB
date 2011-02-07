@@ -15,26 +15,27 @@ var BaseUrl = "{{ BaseUrl }}";
 
 <h3>I want...</h3>
 
-A <select id="bg"><option>blademaster</option><option>gunner</option></select> set with
+A <select id="bg"><option>blademaster</option><option>gunner</option></select> set with:
 
-<div id="skills">
-	<select id="skill0">
-		{%
-		for skillId, skill in ipairs( Skills ) do
-			if skill.bounds then
-				for _, bound in ipairs( skill.bounds ) do
-					print( ( "<option value='%d %d'>%s</option>" ):format( skillId, bound.points, T( bound.name ) ) )
+<div class="wanted">
+	<div id="selects">
+		<select id="skill0">
+			{%
+			for skillId, skill in ipairs( Skills ) do
+				if skill.bounds then
+					for _, bound in ipairs( skill.bounds ) do
+						print( ( "<option value='%d %d'>%s</option>" ):format( skillId, bound.points, T( bound.name ) ) )
+					end
 				end
 			end
-		end
-		%}
-	</select>
-
-	<br>
-	<a href="JavaScript: addSkill()">Add another</a>
+			%}
+		</select>
+	</div>
+	
+	<div class="button" onclick="addSkill()">{{ Special.plus }} Add another</div>
 </div>
 
-<a href="JavaScript: requestSet()">{{ math.random( 2 ) == 1 and "and I want it now" or "Do you have one in stock?" }}</a>
+<input type="button" onclick="requestSet()" value="cheers">
 
 
 <div id="result"></div>

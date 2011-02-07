@@ -1,19 +1,6 @@
 function post( url, data, callback )
 {
-	var dataStr = "";
-
-	data.map( function( val, key )
-	{
-		dataStr += "&" + key;
-
-		if( val != null )
-		{
-			dataStr += "=" + val;
-		}
-	} );
-
-	dataStr = dataStr.substr( 1 );
-
+	var dataStr = "request=" + JSON.stringify( data );
 
         var request = new XMLHttpRequest();
 

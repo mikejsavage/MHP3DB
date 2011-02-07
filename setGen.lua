@@ -44,7 +44,7 @@ function hasSkills( piece, wantedSkills )
 
 	for _, skill in ipairs( piece.skills ) do
 		for _, wanted in ipairs( wantedSkills ) do
-			if skill.id == wanted.id then
+			if skill.id == wanted.id and skill.points > 0 then
 				return true
 			end
 		end
@@ -106,19 +106,29 @@ function goodSet( skills, wantedSkills )
 	return true
 end
 
-if Post.request then
-	local req = json.decode( Post.request:gsub( "%%22", "\"" ) )
+local request = Post.request and Post.request or ( Get.request and Get.request or nil )
+
+if request then
+	local req = json.decode( request:gsub( "%%22", "\"" ) )
+
+	if not req then -- gg
+		return
+	end
 
 	if not req.skills or table.getn( req.skills ) > MaxSkills then
+		print( "no/too many skills" )
+
 		return
 	end
 
-	if not ( req.blade or req.gunner ) or
-	   ( req.blade and req.gunner ) then
-		-- if they don't want a set then that's fine
-		-- if they're trying to overload this then they can get bent
+	if not req.type then
+		print( "no type" )
+
 		return
 	end
+
+	local blade = req.type == "blade"
+	local gunner = not blade
 
 	local toCheck = { }
 
@@ -145,8 +155,8 @@ if Post.request then
 
 			-- i think it's worth preprocessing this
 			for id, piece in pairs( class.pieces ) do
-				if req.blade  and piece.blade  or
-				   req.gunner and piece.gunner then
+				if blade  and piece.blade  or
+				   gunner and piece.gunner then
 					if hasSkills( piece, req.skills ) then
 						table.insert( pieces, { piece = piece, id = id } )
 					end
@@ -184,12 +194,14 @@ if Post.request then
 
 			local firstPiece = true
 
-			for _, piece in pairs( set.pieces ) do
+			for _, short in ipairs( Shorts ) do
 				if firstPiece then
 					firstPiece = false
 				else
 					io.write( "," )
 				end
+
+				local piece = set.pieces[ short ]
 
 				io.write( piece.id )
 			end
@@ -200,5 +212,5 @@ if Post.request then
 
 	io.write( "]" )
 else
-	print( "no" )
+	print( "no request" )
 end

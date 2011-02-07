@@ -230,8 +230,14 @@ footer {
 
 /* set generator output */
 
-#skills {
+.wanted {
 	margin: 8px 16px 8px;
+}
+.wanted #selects {
+	margin-bottom: 8px;
+}
+.wanted #selects select {
+	display: block;
 }
 
 .set {
@@ -239,6 +245,7 @@ footer {
 	border: 1px solid #ccc;
 	-moz-border-radius: 8px;
 	display: inline-block;
+	font-family: monospace;
 	padding: 8px;
 	margin: 8px;
 }

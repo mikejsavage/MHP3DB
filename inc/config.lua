@@ -41,14 +41,14 @@ HeaderCalcs =
 		{
 			hgg = "builder",
 		},
-		url = "sets"
+		url = "builder"
 	},
 	{
 		text =
 		{
 			hgg = "generator",
 		},
-		url = "generator.lua"
+		url = "generator"
 	},
 }
 

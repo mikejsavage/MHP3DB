@@ -58,11 +58,20 @@ end
 
 local function decodeObject( str, pos )
 	local object = { }
+	local first = true
 
 	local len = str:len()
 
 	while pos <= len do
 		pos = skip( str, pos )
+
+		if first then
+			if str:at( pos ) == "}" then
+				return object, pos + 1
+			end
+
+			first = false
+		end
 
 		if str:at( pos ) ~= "\"" then
 			print( "FUCK THIS SHOULD BE A STRING" )
@@ -106,6 +115,10 @@ local function decodeArray( str, pos )
 
 	while pos <= len do
 		pos = skip( str, pos )
+
+		if idx == 1 and str:at( pos ) == "]" then
+			return array, pos + 1
+		end
 
 		array[ idx ], pos = decodeValue( str, pos )
 
