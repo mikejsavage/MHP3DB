@@ -177,6 +177,9 @@ if request then
 	--
 	-- (actually O( n^5 ) at the moment - will be even worse once
 	-- decorations and talismans are in)
+	--
+	-- TODO: just kidding it runs like crap when you ask for more than
+	--       like 2 skills. i need to do some srs optimization here
 
 	local sets = check( toCheck )
 
