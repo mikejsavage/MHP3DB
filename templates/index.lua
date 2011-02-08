@@ -82,10 +82,10 @@ local function neatDate( ts, now )
 
 	return ( "%s at %d:%02d" ):format(
 		actualTime.day == now.day
-			and "today"
+			and "Today"
 			or ( actualTime.day == now.day - 1
-				and "yesterday"
-				or ( "on %d%s %s" ):format( actualTime.day, dateSuffix( actualTime.day ), Months[ actualTime.day ] )
+				and "Yesterday"
+				or ( "On %d%s %s" ):format( actualTime.day, dateSuffix( actualTime.day ), Months[ actualTime.day ] )
 			),
 
 		actualTime.hour,
@@ -94,12 +94,12 @@ local function neatDate( ts, now )
 end
 
 for i, commit in ipairs( commits.commits ) do
-	print( ( [[<h4><a href="http://github.com%s">%s %s</a></h4>]] ):format(
+	print( ( [[<h4><a href="http://github.com%s">%s</a></h4>]] ):format(
 		commit.url,
-		commit.author.name,
 		neatDate( commit.committed_date, os.date( "*t" ) )
 	) )
 
+	-- lol
 	print( ( commit.message:gsub( "\n", "<br>" ):gsub( "\\<br>", "\\n" ):gsub( "<", "&lt;" ):gsub( ">", "&gt;" ) ) )
 
 	print( "<br><br>" )
