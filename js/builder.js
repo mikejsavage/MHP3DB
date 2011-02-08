@@ -753,6 +753,9 @@ function calc( force )
 	}
 	else
 	{
+		// i can't do icons here because browser vendors have
+		// literally outdone moore's law with shittiness
+
 		var materialsOut = "";
 
 		setMaterials.map( function( count, id )
@@ -782,7 +785,7 @@ function calc( force )
 		show( link );
 		hide( $( "setEmpty" ) );
 
-		link.href = "/" + BaseUrl + "sets/" + setUrl;
+		link.href = "/" + BaseUrl + "builder/" + setUrl;
 		$( "setUrlSpan" ).innerHTML = setUrl;
 	}
 }
