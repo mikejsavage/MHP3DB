@@ -20,12 +20,13 @@ local weaponIcon = WeaponIcons[ math.random( table.getn( WeaponIcons ) ) ]
 {( "slow" )}
 
 <script type="text/javascript" src="{{ U( "js/common.js" ) }}"></script>
-<script type="text/javascript" src="{{ U( "js/sets.js" ) }}"></script>
+<script type="text/javascript" src="{{ U( "js/builder.js" ) }}"></script>
 
 <script type="text/javascript">
 var Armors = {{ ArmorsJSON }};
 var Decorations = {{ DecorationsJSON }};
 var Skills = {{ SkillsJSON }};
+var Items = {{ ItemsJSON }};
 
 var SetUrl = {{ Get.set and ( "%q" ):format( Get.set ) or "false" }};
 var BaseUrl = "{{ BaseUrl }}";
@@ -134,3 +135,18 @@ Share your set:
 	<tbody id="skills">
 	</tbody>
 </table>
+
+
+<h3>Stats</h3>
+
+Defense: <span id="defense"></span><br>
+Fire Res: <span id="fireRes"></span><br>
+Water Res: <span id="waterRes"></span><br>
+Thunder Res: <span id="thunderRes"></span><br>
+Ice Res: <span id="iceRes"></span><br>
+Dragon Res: <span id="dragonRes"></span>
+
+
+<h3>Materials</h3>
+
+<div id="materials"></div>

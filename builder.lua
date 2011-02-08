@@ -7,8 +7,7 @@ require( "cgi" )
 Armors,      ArmorsJSON      = dataJSON( "armors" )
 Decorations, DecorationsJSON = dataJSON( "decorations" )
 Skills,      SkillsJSON      = dataJSON( "skills" )
-
-Items = data( "items" )
+Items,       ItemsJSON       = dataJSON( "items" )
 
 -- templates
 

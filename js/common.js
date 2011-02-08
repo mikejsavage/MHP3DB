@@ -105,6 +105,33 @@ String.prototype.repeat = function( num )
 	return new Array( num + 1 ).join( this );
 };
 
+// have to do this a kind of ugly way because
+// javascript doesn't have format
+Number.prototype.insertCommas = function()
+{
+	var num = "" + this;
+	var pos = num.length - 3;
+
+	// early out if this < 1000
+	if( pos <= 0 )
+	{
+		return num;
+	}
+
+	// instead of using pos > 0, use > 3 and unroll
+	// saves a subtraction and an addition
+	// :D
+
+	var str = "";
+
+	for( ; pos > 3; pos -= 3 )
+	{
+		str = "," + num.substr( pos, 3 ) + str;
+	}
+
+	return num.substr( 0, pos ) + "," + num.substr( pos, 3 ) + str;
+};
+
 // yes i know this isn't really "map" but map is a short word
 // word of warning: this function causes HORRIBLE
 // FUCKING STUPID problems if you try to return

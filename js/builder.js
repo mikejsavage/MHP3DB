@@ -133,7 +133,7 @@ function activatedSkill( id, points )
 	}
 	else
 	{
-		for( var i = bounds.length - 2; i >= 0; i++ )
+		for( var i = bounds.length - 1; i >= 0; i-- )
 		{
 			var bound = bounds[ i ];
 
@@ -548,7 +548,35 @@ function calc( force )
 		} );
 	}
 
-	function addDecorationSkills( short )
+	function addStats( piece )
+	{
+		defense += piece.defense;
+
+		// eh why not
+		Elements.map( function( elem, short )
+		{
+			resistances[ elem ] += piece[ short + "Res" ];
+		} );
+	}
+
+	function addMaterials( materials, price )
+	{
+		materials.map( function( material )
+		{
+			if( setMaterials[ material.id ] != undefined )
+			{
+				setMaterials[ material.id ] += material.count;
+			}
+			else
+			{
+				setMaterials[ material.id ] = material.count;
+			}
+		} );
+
+		setPrice += price;
+	}
+
+	function addDecorations( short )
 	{
 		for( var i = 0, m = numSlots( short ); i < m; i++ )
 		{
@@ -556,7 +584,11 @@ function calc( force )
 
 			if( !selSlot.disabled && selSlot.selectedIndex != 0 )
 			{
-				addSkills( short, Decorations[ selSlot.value ].skills );
+				var decoration = Decorations[ selSlot.value ];
+
+				addSkills( short, decoration.skills );
+
+				addMaterials( decoration.create, decoration.price );
 			}
 		}
 	}
@@ -606,10 +638,13 @@ function calc( force )
 		return;
 	}
 
+	var setUrl = getSetUrl();
+	var emptySet = setUrl == "0_-1_-1_-1_-1_-1";
+
 	var pieces = { };
 
-	var materials = [ ];
-	var price = 0;
+	var setMaterials = { };
+	var setPrice = 0;
 
 	var defense = 0;
 	var resistances = { };
@@ -625,7 +660,7 @@ function calc( force )
 	{
 		pieces[ short ] = [ ];
 
-		addDecorationSkills( short );
+		addDecorations( short );
 	} );
 
 	Armors.map( function( type )
@@ -638,10 +673,17 @@ function calc( force )
 			var piece = type.pieces[ idx ];
 
 			addSkills( type.short, piece.skills );
+
+			addStats( piece );
+			addMaterials( piece.create, piece.price );
 		}
 	} );
 
 	var result = skillTotals().sort( sortByPoints );
+
+
+	// let's fill the skills table
+	// YESSIR I KILL, CHILL, CAUSE THE NIGHT IS YOUNG
 
 	var skillTable = $( "skills" );
 	clearTable( skillTable );
@@ -674,7 +716,7 @@ function calc( force )
 
 			if( skill.points < 0 && skill.name != NoSkill )
 			{
-				name.typeName = "neg";
+				name.className = "neg";
 			}
 
 			row.insertCell( 1 ).innerHTML = Skills[ skill.id ].name.T();
@@ -692,10 +734,43 @@ function calc( force )
 	}
 
 
+	// defense/resistances
 
-	var setUrl = getSetUrl();
+	$( "defense" ).innerHTML = defense;
 
-	if( setUrl == "0_-1_-1_-1_-1_-1" )
+	// and again
+	Elements.map( function( elem, short )
+	{
+		$( short + "Res" ).innerHTML = resistances[ elem ];
+	} );
+
+
+	// materials
+
+	if( emptySet )
+	{
+		$( "materials" ).innerHTML = "That'll be one nothing, if you so please...";
+	}
+	else
+	{
+		var materialsOut = "";
+
+		setMaterials.map( function( count, id )
+		{
+			// lua gg
+			var item = Items[ id - 1 ];
+
+			materialsOut += "<a href='/" + BaseUrl + "items/" + item.name.hgg.urlEscape() + "'>" + item.name.T() + "</a> <strong>x" + count + "</strong><br>";
+		} );
+
+		materialsOut += "Price: " + setPrice.insertCommas() + "z";
+
+		$( "materials" ).innerHTML = materialsOut;
+	}
+
+
+
+	if( emptySet )
 	{
 		hide( $( "setUrl" ) );
 		show( $( "setEmpty" ) );
