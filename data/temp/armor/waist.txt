@@ -1007,6 +1007,42 @@ Thundr Atk 2
 Desc
 Jinouga Scraps 2
 
+Diablos Coil
+24
+2 -1 -1 -3 -1
+B
+R3
+O--
+Diablos Shell 4
+Blos Fang 4
+Majestic Horn 1
+Rhnplos Skl Shl 4
+4150z
+Status -1
+Quake Res 3
+Crit Draw 2
+FatigueAtk 3
+Desc
+Diablos Scraps 2
+
+Diablos Coat
+12
+4 0 0 -2 0
+G
+R3
+O--
+Diablos Shell 4
+Blos Fang 4
+Majestic Horn 1
+Rhnplos Skl Shl 4
+4150z
+PierceS Up 3
+NormalSAdd 2
+Status -3
+FatigueAtk 1
+Desc
+Diablos Scraps 2
+
 Agnaktor Tasset
 24
 4 -4 0 -2 -4

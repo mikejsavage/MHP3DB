@@ -308,6 +308,16 @@ Akito Jewel 1
 Monster Bone+ 2
 Rhnplos Skl Shl 1
 
+KO Jewel
+orange 5
+2
+KO 3
+FastCharge -1
+375z
+Akito Jewel 1
+Diablos Spine 2
+Swallowtail 2
+
 FatigeAtkJwl
 yellow 5
 2
@@ -704,6 +714,16 @@ Artisan -1
 Akito Jewel 1
 Agnaktor Fin 1
 Jinouga Shell 1
+
+CritDraw Jwl
+red 4
+1
+Crit Draw 1
+Expert -1
+200z
+Akito Jewel 1
+Twisted Horn 1
+Diablos Shell 2
 
 PunshDrw Jwl
 orange 4

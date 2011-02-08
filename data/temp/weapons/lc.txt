@@ -121,6 +121,19 @@ Uroktor Scale 4
 Desc
 Agnaktor Scraps 2
 
+Diablos Horn
+180
+R3
+-5%
+---
+30000z
+Twisted Horn 2
+Diablos Spine 3
+Blos Fang 5
+Machalite Ore 5
+Desc
+Diablos Scraps 2
+
 Divine Thunder
 160
 Thunder 18

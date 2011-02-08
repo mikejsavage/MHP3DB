@@ -346,6 +346,26 @@ P2
 P3
 YYYNYYN
 
+Diablos Horn Bow I
+190
+Focused
+Def 6
+R3
+-5%
+---
+16850z
+Diablos Shell 4
+Twisted Horn 2
+Diablos Spine 3
+Diablos Marrow 1
+Desc
+Diablos Scraps 2
+P1
+P1
+P3
+P4
+NNNNNYY
+
 Deer Horn Bow
 170
 Blast

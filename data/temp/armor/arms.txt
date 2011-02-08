@@ -951,6 +951,42 @@ Thundr Atk 3
 Desc
 Jinouga Scraps 2
 
+Diablos Vambraces
+24
+2 -1 -1 3 -1
+B
+R3
+O--
+Blos Fang 3
+Diablos Marrow 1
+Twisted Horn 2
+Rhenoplos Shell 3
+4150z
+Status -3
+Quake Res 1
+Crit Draw 2
+FatigueAtk 1
+Desc
+Diablos Scraps 2
+
+Diablos Guards
+12
+4 0 0 -2 0
+G
+R3
+O--
+Blos Fang 3
+Diablos Marrow 1
+Twisted Horn 2
+Rhenoplos Shell 3
+4150z
+PierceS Up 1
+NormalSAdd 1
+Status -1
+FatigueAtk 4
+Desc
+Diablos Scraps 2
+
 Agnaktor Vambraces
 24
 4 -4 0 -2 -4

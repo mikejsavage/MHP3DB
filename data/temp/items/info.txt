@@ -1672,6 +1672,9 @@ R4
 495 Doboru Horn+
 
 496 Doboru Tailbone
+bone green
+R5
+2500z
 
 497 Doboru Sacrum
 
@@ -1706,22 +1709,37 @@ R4
 512 Blk Tigrex Fang
 
 513 Diablos Shell
+nshell brown
+R4
+850z
 
 514 Diablos Carapce
 
 515 Diablos Spine
+shell brown
+R4
+1340z
 
 516 Diablos Thorcic
 
 517 DiablosTailbone
 
 518 Blos Fang
+claw brown
+R4
+650z
 
 519 Twisted Horn
+claw brown
+R4
+1200z
 
 520 Majestic Horn
 
 521 Diablos Marrow
+shell brown
+R5
+2100z
 
 522 Diablos Brnstm
 
@@ -2092,6 +2110,9 @@ supply
 R2
 
 677 Supply Sonic Bmb
+bomb darkgreen
+supply
+R2
 
 678 Sply Max Potion
 

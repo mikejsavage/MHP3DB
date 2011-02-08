@@ -134,6 +134,20 @@ Machalite Ore 8
 Desc
 Doboru Scraps 2
 
+Tyrant's Axe
+190
+Fatigue
+R3
+-20%
+---
+30000z
+Diablos Shell 4
+Diablos Spine 4
+Diablos Marrow 1
+Iron Ore 15
+Desc
+Diablos Scraps 2
+
 Thunder Axe
 160
 Thunder 22

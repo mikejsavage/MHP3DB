@@ -197,7 +197,7 @@ local Actions =
 
 				if success then
 					l1 = clip
-					l1inf = true
+					l1siege = true
 				end
 			end
 
@@ -209,7 +209,7 @@ local Actions =
 
 				if success then
 					l2 = clip
-					l2inf = true
+					l2siege = true
 				end
 			end
 
@@ -221,16 +221,15 @@ local Actions =
 
 				if success then
 					l3 = clip
-					l3inf = true
+					l3siege = true
 				end
 			end
 
-			-- lua automatically drops nils from tables so the rapid*s
-			-- aren't there if they're not needed
+			-- lua automatically drops nils from tables so the result is clean
 			weapon.shots = { {
-				{ clip = tonumber( l1 ), rapidClip = tonumber( l1RapidNum ), rapidStrength = l1RapidStrength, infinite = l1inf },
-				{ clip = tonumber( l2 ), rapidClip = tonumber( l2RapidNum ), rapidStrength = l2RapidStrength, infinite = l2inf },
-				{ clip = tonumber( l3 ), rapidClip = tonumber( l3RapidNum ), rapidStrength = l3RapidStrength, infinite = l3inf },
+				{ clip = tonumber( l1 ), rapidClip = tonumber( l1RapidNum ), rapidStrength = l1RapidStrength, siege = l1siege },
+				{ clip = tonumber( l2 ), rapidClip = tonumber( l2RapidNum ), rapidStrength = l2RapidStrength, siege = l2siege },
+				{ clip = tonumber( l3 ), rapidClip = tonumber( l3RapidNum ), rapidStrength = l3RapidStrength, siege = l3siege },
 			} }
 
 			return "shots"
@@ -263,11 +262,11 @@ local Actions =
 
 			if success then
 				l1 = clip
-				l1inf = true
+				l1siege = true
 			end
 		end
 
-		table.insert( weapon.shots, { { clip = tonumber( l1 ), rapidClip = tonumber( l1RapidNum ), rapidStrength = l1RapidStrength, infinite = l1inf } } )
+		table.insert( weapon.shots, { { clip = tonumber( l1 ), rapidClip = tonumber( l1RapidNum ), rapidStrength = l1RapidStrength, siege = l1siege } } )
 
 		if l2 then
 			local success, _, clip, l2RapidNum, l2RapidStr = l2:find( "^(%d+)!(%d)(%u)$" )
@@ -278,11 +277,11 @@ local Actions =
 
 				if success then
 					l2 = clip
-					l2inf = true
+					l2siege = true
 				end
 			end
 
-			table.insert( weapon.shots[ LastShot ], { clip = tonumber( l2 ), rapidClip = tonumber( l2RapidNum ), rapidStrength = l2RapidStrength, infinite = l2inf } )
+			table.insert( weapon.shots[ LastShot ], { clip = tonumber( l2 ), rapidClip = tonumber( l2RapidNum ), rapidStrength = l2RapidStrength, siege = l2siege } )
 
 			if l3 then
 				local success, _, clip, l3RapidNum, l3RapidStr = l3:find( "^(%d+)!(%d)(%u)$" )
@@ -293,11 +292,11 @@ local Actions =
 
 					if success then
 						l3 = clip
-						l3inf = true
+						l3siege = true
 					end
 				end
 
-				table.insert( weapon.shots[ LastShot ], { clip = tonumber( l3 ), rapidClip = tonumber( l3RapidNum ), rapidStrength = l3RapidStrength, infinite = l3inf } )
+				table.insert( weapon.shots[ LastShot ], { clip = tonumber( l3 ), rapidClip = tonumber( l3RapidNum ), rapidStrength = l3RapidStrength, siege = l3siege } )
 			end
 		end
 

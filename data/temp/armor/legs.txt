@@ -939,6 +939,42 @@ Thundr Atk 2
 Desc
 Jinouga Scraps 2
 
+Diablos Greaves
+24
+2 -1 -1 -3 -1
+B
+R3
+O--
+Diablos Spine 3
+Diablos Shell 3
+Blos Fang 3
+Rhenoplos Shell 3
+4150z
+Status -1
+Quake Res 4
+Crit Draw 1
+FatigueAtk 3
+Desc
+Diablos Scraps 2
+
+Diablos Leggings
+12
+4 0 0 -2 0
+G
+R3
+O--
+Diablos Spine 3
+Diablos Shell 3
+Blos Fang 3
+Rhenoplos Shell 3
+4150z
+PierceS Up 2
+NormalSAdd 3
+Status -1
+FatigueAtk 3
+Desc
+Diablos Scraps 2
+
 Doboru Greaves
 24
 -3 1 -2 -2 0

@@ -994,6 +994,42 @@ Thundr Atk 2
 Desc
 Jinouga Scraps 2
 
+Diablos Mail
+24
+2 -1 -1 3 -1
+B
+R3
+O--
+Twisted Horn 2
+Diablos Spine 3
+Diablos Shell 3
+Grt Frggi Arm 3
+4150z
+Status -2
+Quake Res 2
+Crit Draw 2
+FatigueAtk 1
+Desc
+Diablos Scraps 2
+
+Diablos Vest
+12
+4 0 0 -2 0
+G
+R3
+O--
+Twisted Horn 2
+Diablos Spine 3
+Diablos Shell 3
+Grt Frggi Arm 3
+4150z
+PierceS Up 2
+NormalSAdd 1
+Status -3
+FatigueAtk 1
+Desc
+Diablos Scraps 2
+
 Agnaktor Mail
 24
 4 -4 0 -2 -4

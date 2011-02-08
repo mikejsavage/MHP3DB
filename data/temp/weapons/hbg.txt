@@ -462,6 +462,42 @@ Narga Scraps 2
 0
 3!
 
+Dual Stab
+180
+R3
+-15%
+---
+Fast
+???
+Light
+15000z
+Diablos Spine 4
+Diablos Shell 6
+Twisted Horn 2
+Machalite Ore 8
+Desc
+Diablos Scraps 2
+3 3! 3!
+2! 3 3
+0 0 0
+0 0 0
+0 0 0
+0 0
+0 0
+0 0
+0 0
+2 1
+0
+0
+0
+0
+0
+2
+2
+0
+0
+0
+
 Agnaktor Striker
 160
 Def 12
