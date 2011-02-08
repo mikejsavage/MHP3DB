@@ -3,6 +3,11 @@
 An English (based on Team HGG's translation) info site for Monster Hunter Portable 3rd.
 
 
+<h2>Can you add my translation?</h2>
+
+Send it to me in a non-stupid format and sure.
+
+
 <h2>Can I use your data in my own projects?</h2>
 
 Sure, and to make things easier I've got it all in <a href="http://www.json.org">JSON format</a> <a href="https://github.com/mikejsavage/MHP3DB/tree/master/data">on GitHub</a>.
