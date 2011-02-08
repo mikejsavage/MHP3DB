@@ -1,6 +1,8 @@
 -- pretty much Zed Shaw's template code from Tir
 -- http://tir.mongrel2.org/home
 -- http://zedshaw.com
+--
+-- so i guess this is BSD licensed? i'm not very good at this
 
 local Actions =
 {
