@@ -615,6 +615,23 @@ FastCharge 2
 Desc
 Pumpkin Scraps 2
 
+Bath Sandals
+8
+-2 2 -2 -2 0
+BG
+R3
+O--
+HotSpringTicket 4
+Drink Ticket 2
+Yukumo Ticket 1
+Commendation 1
+850z
+Attack -3
+Fate 3
+LastingPwr 3
+Desc
+Courage Scraps 1
+
 Rathian Greaves
 18
 2 0 -2 0 -4

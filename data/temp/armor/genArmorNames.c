@@ -42,7 +42,8 @@ char *memnchr( char *haystack, char needle, int len )
 int main()
 {
 	int len;
-	char *data = contents( "./armors.bin", &len );
+	// so tab completion doesn't clash with arms
+	char *data = contents( "./dumpArmors.bin", &len );
 
 	// get rid of the damn \n vim insists on adding...
 	data[ len - 1 ] = '\0';

@@ -639,7 +639,7 @@ function calc( force )
 	}
 
 	var setUrl = getSetUrl();
-	var emptySet = setUrl == "0_-1_-1_-1_-1_-1";
+	var emptySet = setUrl == "0_-1_-1_-1_-1_-1"; // too lazy to do this properly
 
 	var pieces = { };
 
@@ -736,7 +736,8 @@ function calc( force )
 
 	// defense/resistances
 
-	$( "defense" ).innerHTML = defense;
+	// mirror mirror on the wall, who's the smuggest of them all?
+	$( "defense" ).innerHTML = emptySet ? "e<sup>&pi;i</sup> + 1" : defense;
 
 	// and again
 	Elements.map( function( elem, short )
