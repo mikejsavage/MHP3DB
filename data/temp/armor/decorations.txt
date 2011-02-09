@@ -1,4 +1,4 @@
-Steadfast Jwl
+SteadfastJwl
 blue 4
 1
 Stun 1
@@ -220,7 +220,7 @@ Akito Jewel 1
 Nargacuga Wing 1
 Grt Baggi Claw 2
 
-SpecialAtkJwl
+SpcialAtkJwl
 pink 4
 1
 Status 1
@@ -267,7 +267,7 @@ Status -1
 Akito Jewel 1
 Jhen Mohran Scl 2
 
-DebilitateJwl
+DeblitateJwl
 red 4
 1
 Debilitate 1
@@ -615,7 +615,7 @@ Gluttony 2
 Suiko Jewel 1
 Giant Bone 1
 
-Backpckng Jewel
+BackpckngJwl
 cyan 4
 1
 Backpackng 2
