@@ -1030,6 +1030,42 @@ FatigueAtk 1
 Desc
 Diablos Scraps 2
 
+Tigrex Mail
+24
+2 -1 -4 0 -2
+B
+R3
+OO-
+Tigrex Claw 5
+Tigrex Shell 3
+Tigrex Tail 1
+Ludroth Hide 6
+4150z
+Gluttony 1
+Protection -1
+HearProtct 2
+Psychic 1
+Desc
+Tigrex Scraps 2
+
+Tigrex Vest
+12
+3 0 -2 0 -1
+G
+R3
+OO-
+Tigrex Claw 5
+Tigrex Shell 3
+Tigrex Tail 1
+Ludroth Hide 6
+4150z
+Gluttony 1
+Protection -2
+HearProtct 1
+Psychic 1
+Desc
+Tigrex Scraps 2
+
 Agnaktor Mail
 24
 4 -4 0 -2 -4
@@ -1101,3 +1137,39 @@ Potential 1
 Slam 1
 Desc
 Doboru Scraps 2
+
+Yamato Plate
+26
+3 0 0 -3 -3
+B
+R3
+OO-
+Jhen Mohran Shl 5
+Jhen Mohran Scl 5
+Jhen Mhran Fang 3
+Tigrex Fang 3
+4900z
+Sharpness -2
+Artisan 1
+Expert 1
+FastCharge 1
+Desc
+JhenMhranScraps 2
+
+Courtier Plate
+13
+5 1 1 -2 -2
+G
+R3
+OO-
+Jhen Mohran Shl 5
+Jhen Mohran Scl 5
+Jhen Mhran Fang 3
+Tigrex Fang 3
+4900z
+Expert 1
+Recoil -2
+Loading 1
+FastCharge 1
+Desc
+JhenMhranScraps 2

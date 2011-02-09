@@ -359,6 +359,9 @@ R2
 125 Armor S
 
 126 Tranq S
+shot red
+R3
+4z
 
 127 Paint S
 
@@ -825,6 +828,9 @@ R4
 250 Wyvern Stone
 
 251 EldrDragonBlood
+drink red
+R5
+1500z
 
 252 Screamer
 sac gray
@@ -1579,6 +1585,9 @@ R4
 1080z
 
 466 Barioth Tail
+shell white
+R4
+1200z
 
 467 Amber Fang
 claw orange
@@ -1679,20 +1688,35 @@ R5
 497 Doboru Sacrum
 
 498 Tigrex Scale
+scale yellow
+R4
+520z
 
 499 Tigrex Scale+
 
 500 Tigrex Shell
+nshell yellow
+R4
+750z
 
 501 Tigrex Carapace
 
 502 Tigrex Tail
+shell yellow
+R4
+1250z
 
 503 Tigrex Claw
+claw yellow
+R4
+700z
 
 504 Tigrex Claw+
 
 505 Tigrex Fang
+claw yellow
+R4
+600z
 
 506 Tigrex Fang+
 
@@ -1818,18 +1842,30 @@ R4
 547 Clammy Thorax
 
 548 Jhen Mohran Shl
+nshell blue
+R4
+850z
 
 549 Jhen Mohran Cpc
 
 550 Jhen Mohran Scl
+scale blue
+R4
+680z
 
 551 Jhen Mhran Scl+
 
 552 Jhen Mohran Arm
+shell blue
+R4
+1000z
 
 553 Jhen Mhran Arm+
 
 554 Jhen Mhran Fang
+claw blue
+R4
+1500z
 
 555 Jhen Mhrn Fang+
 
@@ -1937,6 +1973,9 @@ R5
 605 Commendation G
 
 606 Pawprint Stamp
+ticket white
+R5
+0z
 
 607 Yukumo Ticket
 ticket red
@@ -1970,6 +2009,9 @@ R5
 0z
 
 618 Secret LS Book
+book blue
+R5
+0z
 
 619 Call to Arms
 
@@ -2119,12 +2161,24 @@ R2
 679 Sply Pitfall Trp
 
 680 Sply Lg Brrl Bmb
+bomb blue
+supply
+R3
 
 681 Anti-Dragon Bomb
+bomb yellow
+supply
+R3
 
 682 Ballista S
+shot gray
+supply
+R5
 
 683 Harpoon S
+shot yellow
+supply
+R6
 
 684 Binder S
 

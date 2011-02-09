@@ -210,6 +210,22 @@ Uroktor Scale 10
 Desc
 Agnaktor Scraps 2
 
+Fang Crusher
+160
+N1
+Dragon 15
+Def 8
+R3
+0%
+O--
+30000z
+Jhen Mhran Fang 1
+Jhen Mohran Shl 3
+Dragonite Ore 8
+Fire Stone 5
+Desc
+JhenMhranScraps 2
+
 Felyne Babushka
 100
 N2

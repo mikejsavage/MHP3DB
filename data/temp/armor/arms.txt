@@ -987,6 +987,42 @@ FatigueAtk 4
 Desc
 Diablos Scraps 2
 
+Tigrex Vambraces
+24
+2 -1 -4 0 -2
+B
+R3
+---
+Tigrex Fang 4
+Tigrex Scale 3
+Tigrex Claw 4
+Grt Jaggi Hide 2
+4150z
+Gluttony 1
+Protection -3
+HearProtct 3
+Psychic 4
+Desc
+Tigrex Scraps 2
+
+Tigrex Guards
+12
+3 0 -2 0 -1
+G
+R3
+---
+Tigrex Fang 4
+Tigrex Scale 3
+Tigrex Claw 4
+Grt Jaggi Hide 2
+4150z
+Gluttony 2
+Protection -3
+HearProtct 3
+Psychic 3
+Desc
+Tigrex Scraps 2
+
 Agnaktor Vambraces
 24
 4 -4 0 -2 -4
@@ -1058,3 +1094,39 @@ Potential 3
 Slam 3
 Desc
 Doboru Scraps 2
+
+Yamato Bracers
+26
+3 0 0 -3 -3
+B
+R3
+---
+Jhen Mohran Scl 6
+Jhen Mhran Fang 3
+Jhen Mohran Arm 2
+Twisted Horn 1
+4900z
+Sharpness -2
+Artisan 3
+Expert 3
+FastCharge 3
+Desc
+JhenMhranScraps 2
+
+Courtier Bracers
+13
+5 1 1 -2 -2
+G
+R3
+---
+Jhen Mohran Scl 6
+Jhen Mhran Fang 3
+Jhen Mohran Arm 2
+Twisted Horn 1
+4900z
+Expert 2
+Recoil -2
+Loading 3
+FastCharge 4
+Desc
+JhenMhranScraps 2

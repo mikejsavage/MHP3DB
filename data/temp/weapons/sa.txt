@@ -148,6 +148,21 @@ Iron Ore 15
 Desc
 Diablos Scraps 2
 
+Devilish Chain
+150
+???
+Water 20
+Def 8
+R3
+5%
+---
+30000z
+Jhen Mhran Fang 3
+Jhen Mohran Shl 6
+Jhen Mohran Scl 5
+Desc
+JhenMhranScraps 2
+
 Thunder Axe
 160
 Thunder 22

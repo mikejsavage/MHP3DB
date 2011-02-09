@@ -258,6 +258,15 @@ Fire Atk -1
 Akito Jewel 1
 Grt Baggi Hide 2
 
+DragnAtk Jwl
+purple 4
+1
+Dragon Atk 1
+Status -1
+200z
+Akito Jewel 1
+Jhen Mohran Scl 2
+
 DebilitateJwl
 red 4
 1
@@ -277,6 +286,16 @@ Expert -1
 Akito Jewel 1
 Doboru Kelp 1
 Doboru Shell 2
+
+Ammo Box Jwl
+gray 4
+1
+Loading 1
+Reload Spd -1
+200z
+Akito Jewel 1
+Jhen Mohran Arm 1
+Tigrex Claw 2
 
 FastChargJwl
 orange 4
@@ -705,6 +724,25 @@ Sense 2
 Suiko Jewel 1
 Anteka Antlers 2
 
+Artisan Jwl
+purple 4
+1
+Artisan 1
+Sharpness -1
+200z
+Akito Jewel 1
+Jhen Mhran Fang 1
+Agnaktor Claw 2
+
+Fencing Jwl
+cyan 4
+1
+Fencing 1
+Artisan -1
+200z
+Akito Jewel 1
+EldrDragonBlood 1
+
 Razor Jewel
 gray 4
 1
@@ -861,6 +899,16 @@ CutterSAdd 2
 200z
 Suiko Jewel 1
 Urukusu Pelt 2
+
+RapidFireJwl
+cyan 4
+1
+Rapid Fire 1
+Reload Spd -1
+200z
+Akito Jewel 1
+Tigrex Fang 2
+Barioth Claw 2
 
 HighSpeedJwl
 cyan 4

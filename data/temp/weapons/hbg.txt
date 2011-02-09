@@ -570,3 +570,40 @@ Ore Scraps 2
 0
 1
 2
+
+Mountain Cannon
+170
+Def 16
+R3
+0%
+O--
+Slow
+None
+Moderate
+26250z
+Jhen Mohran Scl 4
+Jhen Mhran Fang 2
+Jhen Mohran Shl 4
+Pelagicite Ore 6
+Desc
+JhenMhranScraps 2
+5 6 7
+0 3 4
+0 3 4
+0 2 0
+0 0 0
+2 1
+0 0
+0 0
+0 0
+2! 2
+2
+3!
+2
+0
+0
+2
+2
+0
+0
+0

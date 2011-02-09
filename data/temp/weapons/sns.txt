@@ -387,6 +387,10 @@ Bone Scraps 2
 			Tigrex Fang 4
 			Tigrex Shell 3
 			20000z
+			Tigrex Claw 5
+			Tigrex Scale 5
+			Tigrex Tail 1
+			Lg Monster Bone 1
 			Desc
 			Tigrex Scraps 2
 
@@ -457,6 +461,19 @@ Desc
 Wood Scraps 2
 Ore Scraps 1
 
+Jhen Shortsword
+150
+Dragon 15
+R3
+10%
+O--
+30000z
+Jhen Mohran Scl 8
+Jhen Mhran Fang 2
+Jhen Mohran Arm 2
+Desc
+JhenMhranScraps 2
+
 Violent Thunder
 160
 Thunder 25
@@ -470,3 +487,17 @@ Jinouga Shell 3
 Jinouga Pelt 2
 Desc
 Jinouga Scraps 2
+
+	Raging Thunder
+	210
+	Thunder 30
+	R6
+	0%
+	O--
+	LightningCarpce 3
+	Jinouga Horn+ 2
+	Jinouga Carapce 3
+	Jinouga Jewel 1
+	80000z
+	Desc
+	Jinouga Scraps+ 2

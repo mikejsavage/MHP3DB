@@ -199,6 +199,19 @@ Monster Bone+ 5
 Desc
 Narga Scraps 2
 
+Tiger Agito
+170
+R3
+-25%
+---
+30000z
+Tigrex Fang 7
+Tigrex Scale 5
+Tigrex Claw 3
+Tigrex Skl Shl 1
+Desc
+Tigrex Scraps 2
+
 Storm Lightning
 160
 Thunder 30

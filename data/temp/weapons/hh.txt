@@ -148,6 +148,20 @@ Magma Shard 6
 Desc
 Uragaan Scraps 2
 
+Striped Gong
+160
+WRC
+R3
+-20%
+---
+30000z
+Tigrex Scale 6
+Tigrex Fang 10
+Tigrex Tail 1
+Isisium Ore 8
+Desc
+Tigrex Scraps 2
+
 Roaring Zither
 150
 WRB

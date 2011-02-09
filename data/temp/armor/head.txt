@@ -1126,3 +1126,39 @@ Potential 2
 Slam 3
 Desc
 Doboru Scraps 2
+
+Yamato Helm
+26
+3 0 0 -3 -3
+BG
+R3
+---
+Jhen Mhran Fang 2
+Jhen Mohran Scl 5
+Jhen Mohran Shl 5
+Pelagicite Ore 10
+4900z
+Sharpness -3
+Artisan 4
+Expert 3
+FastCharge 1
+Desc
+JhenMhranScraps 2
+
+Courtier Hat
+13
+5 1 1 -2 -2
+BG
+R3
+---
+Jhen Mhran Fang 2
+Jhen Mohran Scl 5
+Jhen Mohran Shl 5
+Pelagicite Ore 10
+4900z
+Expert 4
+Recoil -3
+Loading 4
+FastCharge 2
+Desc
+JhenMhranScraps 2

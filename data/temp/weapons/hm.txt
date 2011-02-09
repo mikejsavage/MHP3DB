@@ -158,6 +158,20 @@ Lg Monster Bone 6
 Desc
 Narga Scraps 2
 
+Divine Resonance
+160
+Water 25
+R3
+0%
+O--
+30000z
+Jhen Mhran Fang 1
+Jhen Mohran Shl 5
+Monster Bone+ 3
+Pelagicite Ore 10
+Desc
+JhenMhranScraps 2
+
 Egg Hammer
 180
 R3

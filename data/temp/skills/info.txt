@@ -38,6 +38,7 @@ Sharpness
 -10 Blunt
 
 Artisan
+15 Sharpness +1
 
 Fencing
 
@@ -122,6 +123,8 @@ Protection
 -10 Demonic Protctn
 
 HearProtct
+15 HighGrdeEarplug
+10 Earplug
 
 Anti-Theft
 

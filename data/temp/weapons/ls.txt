@@ -166,6 +166,46 @@ Desc
 Rathalos Scraps 1
 Rathian Scraps 1
 
+Rex Katana
+170
+R3
+-20%
+---
+30000z
+Tigrex Fang 10
+Tigrex Shell 5
+Tigrex Claw 2
+Machalite Ore 8
+Desc
+Tigrex Scraps 2
+
+Fang Breaker
+160
+Dragon 10
+Def 8
+R3
+0%
+O--
+30000z
+Jhen Mhran Fang 3
+Jhen Mohran Shl 5
+EldrDragonBlood 1
+Desc
+JhenMhranScraps 2
+
+South Sea Blade
+160
+Water 18
+R3
+10%
+---
+24000z
+Secret LS Book 1
+Ancnt Sharkskin 3
+Lightcrystal 2
+Desc
+Ore Scraps 2
+
 Lightning Splitter
 160
 Thunder 20

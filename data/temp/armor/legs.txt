@@ -975,6 +975,42 @@ FatigueAtk 3
 Desc
 Diablos Scraps 2
 
+Tigrex Greaves
+24
+2 -1 -4 0 -2
+B
+R3
+OO-
+Tigrex Scale 4
+Tigrex Claw 5
+Tigrex Shell 3
+Grt Jaggi Hide 3
+4150z
+Gluttony 1
+Protection -1
+HearProtct 2
+Psychic 3
+Desc
+Tigrex Scraps 2
+
+Tigrex Leggings
+12
+3 0 -2 0 -1
+G
+R3
+OO-
+Tigrex Scale 4
+Tigrex Claw 5
+Tigrex Shell 3
+Grt Jaggi Hide 3
+4150z
+Gluttony 1
+Protection -2
+HearProtct 2
+Psychic 3
+Desc
+Tigrex Scraps 2
+
 Doboru Greaves
 24
 -3 1 -2 -2 0
@@ -1010,3 +1046,39 @@ Potential 2
 Slam 2
 Desc
 Doboru Scraps 2
+
+Yamato Greaves
+26
+3 0 0 -3 -3
+B
+R3
+O--
+Jhen Mohran Scl 6
+Jhen Mohran Shl 4
+Jhen Mohran Jwl 1
+Agnaktor Claw 1
+4900z
+Sharpness -1
+Artisan 3
+Expert 2
+FastCharge 3
+Desc
+JhenMhranScraps 2
+
+Courtier Greaves
+13
+5 1 1 -2 -2
+G
+R3
+O--
+Jhen Mohran Scl 6
+Jhen Mohran Shl 4
+Jhen Mohran Jwl 1
+Agnaktor Claw 1
+4900z
+Expert 1
+Recoil -3
+Loading 4
+FastCharge 1
+Desc
+JhenMhranScraps 2

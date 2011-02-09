@@ -121,6 +121,19 @@ Uroktor Scale 4
 Desc
 Agnaktor Scraps 2
 
+Tiger Stinger
+170
+R3
+-25%
+---
+30000z
+Tigrex Tail 2
+Tigrex Shell 5
+Tigrex Scale 2
+Tigrex Fang 5
+Desc
+Tigrex Scraps 2
+
 Diablos Horn
 180
 R3

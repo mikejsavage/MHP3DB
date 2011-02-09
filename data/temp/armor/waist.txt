@@ -1043,6 +1043,42 @@ FatigueAtk 1
 Desc
 Diablos Scraps 2
 
+Tigrex Tasset
+24
+2 -1 -4 0 -2
+B
+R3
+---
+Tigrex Shell 4
+Tigrex Scale 4
+Monster Bone+ 2
+Grt Jaggi Claw 3
+4150z
+Gluttony 1
+Protection -2
+HearProtct 3
+Psychic 5
+Desc
+Tigrex Scraps 2
+
+Tigrex Coat
+12
+3 0 -2 0 -1
+G
+R3
+---
+Tigrex Shell 4
+Tigrex Scale 4
+Monster Bone+ 2
+Grt Jaggi Claw 3
+4150z
+Gluttony 3
+Protection -1
+HearProtct 2
+Psychic 5
+Desc
+Tigrex Scraps 2
+
 Agnaktor Tasset
 24
 4 -4 0 -2 -4
@@ -1114,3 +1150,39 @@ Potential 2
 Slam 1
 Desc
 Doboru Scraps 2
+
+Yamato Waistcoat
+26
+3 0 0 -3 -3
+B
+R3
+---
+Jhen Mohran Arm 3
+Jhen Mohran Shl 5
+EldrDragonBlood 3
+Doboru Horn 1
+4900z
+Sharpness -3
+Artisan 4
+Expert 2
+FastCharge 2
+Desc
+JhenMhranScraps 2
+
+Courtier Waistcoat
+13
+5 1 1 -2 -2
+G
+R3
+---
+Jhen Mohran Arm 3
+Jhen Mohran Shl 5
+EldrDragonBlood 3
+Doboru Horn 1
+4900z
+Expert 4
+Recoil -1
+Loading 3
+FastCharge 3
+Desc
+JhenMhranScraps 2
