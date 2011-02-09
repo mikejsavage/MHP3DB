@@ -2,12 +2,26 @@
 
 require( "common" )
 
-local DataPath = "armor/decorations.txt"
+function loadDecorNames( path )
+	local contents = readFile( path )
 
-local MaxSlots = 3
+	local names = { }
+
+	contents:gsub( "(.-)%s+%[%d%][\n]", function( name )
+		names[ name ] = true
+	end )
+	
+	return names
+end
 
 Items = json.decode( readFile( "../items.json" ) )
 Skills = json.decode( readFile( "../skills.json" ) )
+
+local DataPath = "armor/decorations.txt"
+
+local Names = loadDecorNames( "armor/namesDecorations.txt" )
+
+local MaxSlots = 3
 
 -- perhaps a gigantic FSM was not
 -- the best way of doing this
@@ -15,6 +29,8 @@ Skills = json.decode( readFile( "../skills.json" ) )
 local Actions =
 {
 	init = function( line, decor )
+		assert( Names[ line ], "bad name: " .. line )
+
 		decor.name = { hgg = line }
 
 		return "colorRarity"

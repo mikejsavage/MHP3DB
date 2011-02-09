@@ -2,7 +2,12 @@
 
 require( "common" )
 
+Items = json.decode( readFile( "../items.json" ) )
+Skills = json.decode( readFile( "../skills.json" ) )
+
 local Dir = "armor"
+
+local Names = loadNames( Dir .. "/names.txt" )
 
 local Types =
 {
@@ -34,15 +39,14 @@ function readFile( path )
 	return content
 end
 
-Items = json.decode( readFile( "../items.json" ) )
-Skills = json.decode( readFile( "../skills.json" ) )
-
 -- perhaps a gigantic FSM was not
 -- the best way of doing this
 
 local Actions =
 {
 	init = function( line, piece )
+		assert( Names[ line ], "bad name: " .. line )
+
 		piece.name = { hgg = line }
 
 		return "defense"

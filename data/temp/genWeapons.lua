@@ -11,6 +11,8 @@ local Dir = "weapons"
 local SharpDir = "sharp"
 local CacheDir = "cache"
 
+local Names = loadNames( Dir .. "/names.txt" )
+
 local Types =
 {
 	"gs",
@@ -126,6 +128,8 @@ local MaxSlots = 3
 local Actions =
 {
 	init = function( line, weapon )
+		assert( Names[ line ], "bad name: " .. line )
+
 		weapon.name = { hgg = line }
 
 		return "attack"

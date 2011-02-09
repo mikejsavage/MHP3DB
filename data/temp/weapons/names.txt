@@ -1,0 +1,987 @@
+Old Yukumo Greatsword
+Yukumo Greatsword
+Yukumo Greatsword+
+Yukumo Greatblade
+41st Div Greatsword
+41st Div Greatsword+
+Division Reaper
+Buster Sword
+Buster Sword+
+Buster Blade
+Ravager Blade
+Ravager Blade+
+Carbalite Sword
+Carbalite Sword+
+Brass Wall
+Brass Wall+
+Grand Wall
+Hidden Blaze
+Shadow Blaze "Dusk"
+Wild Greatsword
+Patriarch Blade
+Monarch Blade
+Draggersword
+Draggerblade
+Valve Pressure
+Aurora Blade
+Northern Light
+Tiger Agito
+Tiger Agito+
+Tigrex Greatsword
+Black Rex Blade
+Black Rex Greatsword
+Bone Blade
+Bone Blade+
+Bone Slasher
+Golem Blade
+Golem Blade+
+Talos Blade
+Agito
+Great Agito
+Skull Agito
+Valkyrie Blade
+Sieglinde
+Heijiklinde
+Siegmund
+Heigikmund
+Red Wing
+Rathalos Firesword
+Rathalos Blazesword
+Rathalos Brilliance
+Ludroth Bone Sword
+Cataract Sword
+Cataract Sword+
+Cataract Blade
+Splintered Horn
+Splintered Horn+
+Diablos Horn Blade
+Icy Fangblade
+Icy Fangblade+
+Glacier Barrier
+Gale Spine
+Searing Simoon
+Beserk Blade
+Anguish
+Volgabell
+Volgash
+Volgantzar
+Rusted Greatsword
+Tarnished Greatsword
+Ancient Blade
+Monumental Blade
+Worn Greatsword
+Weathered Greatsword
+Epitaph Blade
+Ruinous Mushroom
+Insidious Mushroom
+Fall Parasol
+Rain Cutter
+Yukumo Claymore
+Yukumo Claymore+
+Yukumo Cloudcleaver
+Storm Lightning
+Dark Lightning
+Amassing Cloud
+Akantor Doomgiver
+Ukanlos Divide
+Obsidian Greatsword
+Gleaming Obsidian
+Roaring Lacerator
+Demon Greatsword
+Arch Demon Greatsword
+Old Yukumo Machete
+Yukumo Machete
+Yukumo Machete+
+Yukumo Hatchet
+Dirty Baron
+Dirty Baron+
+Dirty Duke
+Hunter's Dagger
+Hunter's Dagger+
+Assassin's Dagger
+Icy Bite
+Icy Bite+
+Nordic Butcher
+Saber Bite
+Saber Bite+
+Warrior's Sword
+Odyssey
+Shadow Saber
+Shadow Saber+
+Silent Death
+Soldier's Dagger
+Hydra Knife
+Hydra Knife+
+Deadly Blade
+Slumber Knife
+Slumber Knife+
+Deep Sleep
+Bone Kukri
+Bone Kukri+
+Bone Handaxe
+Bone Handaxe+
+Qurupeco Tomahawk
+Blood Axe
+Plague Axe
+Baumschnitt
+Brullenberg
+Djinn
+Blazing Falchion
+Golden Falchion
+Ludroth Claw
+Royal Claw
+Royal Claw+
+Royal Talon
+Majestic Talon
+Majestic Rage
+Hidden Edge
+Shadow Sword "Eve"
+Rex Talon
+Rex Blade
+Black Talon
+Black Blade
+Dragger Mace
+Dragger Mace+
+Barroth Smasher
+Cursed Spirit
+Gigas Club
+Gigas Club+
+Gigas Crusher
+Sector Cero
+Sector Uno
+Sector Cero Blanc
+Sector Uno Blanc
+Sector Cero Dorado
+Sector Uno Dorado
+Sector Cero Verde
+Sector Uno Verde
+Sector Dos Verde
+Jhen Shortsword
+Desert's Calm
+Whirlwind
+Whirlwind+
+Tornado
+Tusk Gear
+Fossil Gear
+Cranium Rush
+Rusted Sword
+Tarnished Sword
+Eternal Strife
+Eternal Suffering
+Worn Sword
+Weathered Sword
+Eternal Sacrifice
+Catspaw
+Catspaw+
+Catburgler
+Yukumo Cleaver
+Yukumo Cleaver+
+Yukumo Chopper
+Violent Thunder
+Raging Thunder
+Engulfing Tempest
+Ukanlos Claw
+Obsidian Sword
+Shining Obsidian
+Old Yukumo Mallet
+Yukumo Mallet
+Yukumo Mallet+
+Yukumo Impact
+Bound Binder
+Bound Binder+
+Goguma Hammer
+War Hammer
+War Hammer+
+War Mace
+Iron Striker
+Iron Striker+
+Iron Impact
+Iron Fiend
+Iron Devil
+Gunhammer
+Gunhammer+
+Dead Revolver
+Striped Striker
+Tigrex Hammer
+Frozen Core
+Frozen Core+
+Cocytos
+Flint Warclub
+Flint Warclub+
+Qurupeco Flint
+Electro Peco
+Lightning Peco
+Red Beater
+Huracan Crusher
+Prometheus Crusher
+Bud Hammer
+Pua Kala
+Pharmakon
+Bone Hammer
+Bone Hammer+
+Dragger Hammer
+Dragger Hammer+
+Barroth Concussion
+Ice Crusher
+Ice Concussion
+Hard Bone Hammer
+Hard Bone Hammer+
+Brass Knuckle
+Grand Knuckle
+Gigas Quake
+Molten Knuckle
+Gigan Eruption
+Ludroth Bone Mace
+Ludroth Bore Hammer
+Ludroth Bore Hammer+
+Vodyanoi
+Jupiter's Globe
+Jupiter's Globe+
+Doboru Maul
+Bull Hammer
+Bull Head Hammer
+Bull Tusk Hammer
+Hidden Breaker
+Hidden Breaker+
+Blitz Breaker
+Ghillie Hammer
+Shadow Blitz Breaker
+Divine Resonance
+Divine Demolisher
+Mohran's Ridge
+Chaos Hammer
+Chaos Rush
+Gaia Spoo
+Gaia Rook
+Great Rook
+Rusted Hammer
+Tarnished Hammer
+Breath Core Hammer
+Molten Core
+Worn Hammer
+Weathered Hammer
+Pulsating Core
+Pumpkin Hammer
+Jack-O'-Hammer
+Smashing Pumpkin
+Egg Hammer
+Gagua Hammer
+Yukumo Maul
+Yukumo Maul+
+Yukumo Spirit Hammer
+Clashing Thunder
+Thunderclap
+Ominous Cloud
+Ukanlos Crusher
+Obsidian Hammer
+Radiant Obsidian
+Demon's Construct
+Old Yukumo Spear
+Yukumo Spear
+Yukumo Spear+
+Yukumo Stinger
+Battle Banner
+Warcry Banner
+Saint Lance
+Saint Lance+
+Knight Lance
+Rampart
+Rampart+
+Champion's Lance
+Millennium Lance
+Babel Spear
+Babel Spear+
+Elder Babel Spear
+Fang Lance
+Fang Lance+
+Sabertooth
+Hidden Stinger
+Black Rain
+Tiger Stinger
+Tiger Stinger+
+Tigrex Lance
+Black Tiger Stinger
+Black Tigrex Lance
+Drill Lance
+Mega Drill Lance
+Giga Drill Lance
+Longhorn
+Longhorn+
+Long Tusk
+Diablos Horn
+Diablos Horn+
+Diablos Spear
+Black Tempest
+Hard Bone Lance
+Hard Bone Lance+
+Doboru Spear
+Mountain's Point
+Red Tail
+Hellfire
+Spear of Prominence
+Gouging Hasta
+Rheno Hasta
+Ragged Lance
+Ragged Lance+
+Barroth Scraper
+Spiral Heat
+Spiral Heat+
+Agnaktor Blaze
+Spiral Aqua
+Ice Agnaktor Wave
+Azure Crest
+Azure Crest+
+Great Azure
+Ludroth Bone Spear
+Spiral Lance
+Spiral Lance+
+Spiral Bore
+Varuna's Tears
+Varuna's Burden
+Shadow Javelin
+Shadow Javelin+
+Toxic Javelin
+Wild Bone Lance
+Wild Bone Lance+
+Bulldrome Spear
+Spear of Sorrow
+Tower of Atrocity
+Blue Crater
+Smalto Crater
+Crown of Doom
+Rusted Lance
+Tarnished Lance
+Undertaker
+High Undertaker
+Worn Lance
+Weathered Lance
+Matenro
+Parashroom Needle
+Parashroom Needle+
+Mighty Parashroom
+Prince Shark
+King Shark
+Yukumo Lance
+Yukumo Lance+
+Yukumo Deific Spear
+Divine Thunder
+Thunderbolt
+Skyscraper
+Ukanlos Frostshaft
+Obsidian Lance
+Brilliant Obsidian
+Brain Fox
+Special Ops Fox
+Old Yukumo Cannon
+Yukumo Cannon
+Bone Shooter
+Yukumo Cannon+
+Aoashira Gun
+Bone Shooter+
+Bone Buster
+Pengi Slayer
+Peco Gun
+Zucca Carrozza
+Blue Muster
+Queen Cannon
+Aoashira Gun+
+46th Div Minigun I
+Vibrant Peco Gun
+Meteor Cannon
+Yukumo Heavy Cannon
+Queen Mortar
+Pengiga Slayer
+Peco Kiss
+King's Ride
+Hidden Sniper
+Queen Carrozza
+46th Div Minigun II
+Duel Stab
+Tigrex Howl
+Agnaktor Striker
+Marine Cannon
+Mountain Cannon
+Yukumo Artillery
+Aoashira Rumbler
+46th Div Minigun III
+Duel Stab+
+Carbalite Cannon
+Marine Blaster
+Queen Howitzer
+Penguin Slayer
+Penguin Kaiser
+Aoashira Boomer
+Hapuru Gatling Gun
+Peco Thunder Kiss
+Enhanced Pecker
+Darkwind Cannon
+Ghillie Sniper
+Agnaktor Blaster
+Jhen Mohran Mortar
+Meteor Buster
+Giga Shot
+Cendrillon
+Meteor Rain
+Thunder King's Ride
+Night Gale Cannon
+Duel Bazooka
+Nero Bazooka
+Tigrex Howl+
+Tigrex Skull
+Agna Blaze Hell
+Ice Agna Averse Hell
+Marine Disintegrator
+Empress Artillery
+Jhen Mohran Bombard
+Giga Barrel
+Akantor Destroyer
+Ukanlos Roar
+Chaos Wing
+Fierce Shower
+Old Yukumo Bowgun
+Yukumo Bowgun
+Crossbowgun
+Yukumo Bowgun+
+Jaggi Fire
+Roaring Sling
+Crossbowgun+
+Gourd Gun
+Barroth Barrett
+Jaggi Fire+
+Roaring Stream
+Cross Blitz
+Bandit Fire
+Roaring Fall
+Poisonous Gift
+Valkyrie Fire
+Demonlock
+Century Gourd
+Yukumo Rifle
+Barroth Barrett+
+Blizzard Cannon
+Hidden Glare
+Rathalos Cannon
+Jinouga Detonator
+Poisonous Gift+
+Rathalos Cannon+
+Tigrex Tank
+Doboru Bowgun
+Puffing Teapot
+Doboru Bowgun+
+Yukumo Bullet Rain
+Barroth Bazooka
+Bandit Rage
+Roaring Flood
+Hunter's Rifle
+Valkyrie Flame
+Island of the Gods
+Great Demonlock
+Millenium Gourd
+Aurora Furia
+Roaring Noah
+Sniper's Shooter
+Poison Legacy
+Bloody Bind
+Blizzard Hail
+Blizzard Tabula
+Valkyrie Blaze
+Hidden Glare+
+Shadow Gazer
+Hellfire Cannon
+Avalanche
+Immortal Band
+Crimson Seeker
+Phoenix Fire Cannon
+Jinouga Vaporizer
+Tigrex Wargun
+Tigrex Panzer
+Doboru Taurus
+Evil Machine
+Island of the Titans
+Teapot Gunman
+Profusion
+Tigrex Battle Cannon
+Doboru Aldebaran
+Griefing Maddness
+Ukanlos Growl
+Flash Flood
+Old Yukumo LS
+Yukumo Longsword
+Yukumo Longsword+
+Yukumo Warblade
+Blood Cross
+Blood Cross+
+La Cantarella
+Crimson Cross
+Lost Sanctuary
+Iron Katana
+Iron Katana "Grace"
+Iron Katana "Gospel"
+Hidden Saber
+Hidden Saber+
+Shadow Saber "Moon"
+Ghillie Saber
+Gale Saber "Umbra"
+Rex Katana
+Rex Katana "Hunger"
+Voracious Rex
+Chain Blade
+Chain Blade+
+Lumber Ruin
+Frost Razor
+Petal Frost Razor
+Snowdrop Ice Blade
+Aoashira Naginata
+Aoashira Naginata+
+Reaching Slasher
+Fang Breaker
+Fang Splitter
+Mountain Sickle
+Mountain Scythe
+Wild Mountain Scythe
+Downpour
+Downpour+
+Bubbling Deluge
+Poison Grave
+Venom Grave
+Bone Katana "Fang"
+Bone Katana "Canine"
+Infinite Katana
+Infinite Katana+
+Bonded Shade
+Strike Katana
+Broken Shade
+Flamedancer
+Hellish Flamedancer
+Twin Fire Wyvern
+Twin Blaze Wyvern
+Twin Crimson Wyvern
+Silver Wyvern
+Diapason
+Diapason+
+Grand Fork
+Chrome Might
+Chrome Barrette
+Froggi Katana
+Froggi Katana+
+Poison Heqet
+South Sea Blade
+South Sea Blade+
+Shark Decapitator
+Cruel Agony
+Calamitous Agony
+Wind Eater
+Sonic Eater
+Zephyr
+Scabbardfish Blade
+Scabbardfish Blade+
+Calm Sea Blade
+Yukumo Katana
+Yukumo Katana+
+Yukumo Soulblade
+Lightning Splitter
+Lightning Striker
+Blossoming Rain
+Akantor Widowmaker
+Ukanlos Chasm
+Jet Black Claw
+Jet Black Demise
+Tetsusaiba
+Demon Tetsusaiba
+Lightningworks
+Tyrant's Blade
+Old Yukumo Axe
+Yukumo Axe
+Yukumo Axe+
+Yukumo Greataxe
+Dragon Princess
+Dragon Princess+
+Randgrid
+High Randgrid
+Heavy Divider
+Heavy Divider+
+Grun Polygonum
+Aoashira Switch Axe
+Aoashira Switch Axe+
+Aoashira Great Axe
+Amber Slasher
+Amber Slasher+
+Amber Hoarfrost
+Azurite Slasher
+Azurite Gale
+Peco Spanda
+Peco Spanda+
+Dynamic Qurupeco
+Qurupeco Spark
+Qurupeco Bolt
+Bone Axe
+Bone Axe+
+Assault Axe
+Assault Axe+
+Bunker Buster
+Bastion Buster
+Bone Hacker
+Bone Hacker+
+Daedalus
+Hidden Axe
+Hidden Axe+
+Dark Crescent
+Wild Axe
+Wild Axe+
+Grand Dasher
+Tyrant's Axe
+Tyrant's Axe+
+Grand Chaos
+Thanatos Axe
+The Demon
+Fire Tempest
+Fire Tempest+
+Flame Tempest
+Liquid Storm
+Aqua Tempest
+Bound Roller
+Bound Roller+
+Vermilingua
+Devilish Chain
+Devilish Chain+
+Great Demon Chain
+Dei Edge
+Dei Break
+Soulbreaker
+Grim Cat
+Grim Cat+
+Schlam Catze
+Yukumo Halberd
+Yukumo Halberd
+Yukumo Sacred Axe
+Thunder Axe
+Cleaving Thunder
+Ivory Rain
+Akantor Subjugator
+Black Switch Axe
+Black Harvest
+Jolly Roger Axe
+Old Yukumo Gunlance
+Yukumo Gunlance
+Yukumo Gunlance+
+Yukumo Blaster
+Hidden Gunlance
+Hidden Gunlance+
+Shadow GLance "Luna"
+Ghillie Gunlance
+Waning Luna
+Special Ops Gunlance
+Imperial Gunlance
+Imperial Guardian
+Eisenritter
+Eisenritter+
+Solbite Buster
+Ancient Revolver
+Ancient Exterminator
+Red Rook
+Red Rook+
+Silver Rook
+Gun Chariot
+62nd Div Assault
+62nd Div Assault+
+Soldier Assault
+Jaggi Gunlance
+Jaggi Gunlance+
+Princess Buster
+Princess Buster+
+Aurto Rind
+Queen Buster
+Radiant Ishtar
+Qurupeco Tipi
+Qurupeco Tipi+
+Dream Tipi
+Thunder Feather
+Thunderbird
+Bone Gunlance
+Great Bone Gunlance
+Wyvern Bone Gunlance
+Rex Blast
+Rex Blast+
+Tigrex Gunlance
+Flamethrower
+Flamethrower+
+Agna Magma
+Liquidthrower
+Agna Aqua
+Urukusu Ski
+Urukusu Ski+
+Urukusu Sleigh
+Brake Shot
+Brake Ace
+Brake Runner
+Fang Crusher
+Fang Demolisher
+Fang Devastator
+Worn Gunlance
+Weathered Gunlance
+Obelisk
+Felyne Babushka
+Fortune Babushka
+Bamboo Scarecrow
+Bamboo Avianward
+Bamboo Dragonsbane
+Yukumo Blaster
+Yukumo Blaster+
+Yukumo Divine Cannon
+Roaring Thunder
+Flaming Thunder
+Auspicious Rain
+Akantor Decimator
+Ukanlos Hail
+Silver Crown
+Silver Crown+
+Gold Crown
+Gold Crown+
+Platinum Crown
+Old Yukumo Bow
+Yukumo Bow
+Arc Cero
+Hunter's Bow I
+Yukumo Bow+
+Froggi Revolver I
+Sponge Gear I
+Arc Uno
+Hunter's Bow II
+Bamboo Bow
+Heart Peco Bow I
+Froggi Revolver II
+Sponge Gear II
+Arc Cero Rouge
+Arc Cero Blanc
+Arc Cero Dorado
+Hunter's Bow III
+Arca Petra
+Froggi Revolver III
+Arc Uno Rouge
+Arc Uno Blanc
+Arc Uno Dorado
+64th Div Bow I
+Queen Blaster I
+Arca Onda
+Elder Bamboo Bow
+Yukumo Longbow
+Heart Peco Bow II
+Sponge Gear III
+Queen Blaster II
+Distant Thunder I
+Ice Crest I
+Brass Corda I
+Hidden Bow I
+64th Div Bow II
+Brass Corda II
+Tiger Arrow
+Diablos Horn Bow I
+Deer Horn Bow
+Dune Bow
+Arca Mahareda
+Yukumo Soulbow
+Heart Peco Bow III
+Dirty Revolver
+Amethyst Gear I
+Arc Dos Rouge
+Arc Dos Blanc
+Arc Dos Dorado
+Hunters Power Bow I
+Hidden Bow II
+Heartbreaker
+Amethyst Gear II
+Hunters Power Bow II
+64th Div Bow III
+Queen Blaster III
+Distant Thunder II
+Ice Crest II
+Agile Saber
+Brass Corda III
+Shadow Silhouette
+Ghillie bow
+Amnis Massa
+Deer Antler Bow
+Bamboo Nightguard
+Amir Bhar
+Scorpio Dart
+Vibrant Thunder
+Edelweiss
+Faran Furied
+Gigas Hera
+Shadow Gale
+Tigrex Whisker
+Diablos Horn Bow II
+Ebony King Bow
+Sand Crest Bow
+Selene's Sting
+Endless Desert
+Akantor Wrathmaker
+Ukanlos Frostbreath
+Night Tempest
+Old Yukumo Blades
+Yukumo Blades
+Yukumo Blades+
+Yukumo Slicers
+Insectors
+Humming Insectors
+Twin Daggers
+Twin Daggers+
+Twin Duel Daggers
+Dual Tomahawks
+Dual Tomahawks+
+Hurricane
+Cyclone
+Order Rapiers
+Holy Sabers
+Rex Slicers
+Bloody Rex Slicers
+Saw Slicers
+Saw Slicers+
+Guillotines
+51st Division Clubs
+51st Division Clubs+
+Hapurubokka Strikers
+Bone Scythes
+Bone Scythes+
+Ludroth Twins
+Ludroth Twins+
+Dual Ludroth
+Twin Flames
+Hi Twin Flames
+Gradios Ultimus
+Corpse Blades
+Dual Diablos
+Dual Diablos+
+Twin Diablos Cudgels
+Jaggi Shotel
+Jaggi Shotel+
+Leader Shotel
+Flamestorm
+Salamander
+Aquastorm
+Undine
+Hidden Daggers
+Hidden Daggers+
+Black Wing Edge
+Ghillie Daggers
+Shadow Wing Edge
+Blood Wings
+Blood Wings+
+Venom Wings
+Voltergeist
+Giggabolt
+Snow Twins
+Snow Twins+
+Snow Gemini
+Blades of Rage
+Las Depredadores
+Worn Blades
+Weathered Blades
+Eternal Schisms
+Hunter Dumplings
+White Dumplings
+Pearl Dumplings
+Green Dumplings
+Jade Dumplings
+Pink Dumplings
+Garnet Dumplings
+Yellow Dumplings
+Beryl Dumplings
+Purple Dumplings
+Charoite Dumplings
+Yukumo Duals
+Yukumo Duals+
+Yukumo Ritualdancers
+Lords of Thunder
+Gods of Thunder
+Monsoon Fans
+Akantor Furyblades
+Ukanlos Rippers
+Jolly Roger Duals
+Jolly Roger Cutters
+Insectors+
+Old Yukumo Flute
+Yukumo Flute
+Yukumo Flute+
+Yukumo Horn
+Valkyrie Recorder
+Valkyrie Recorder+
+Queen Recorder
+Gold Recorder
+Metal Bagpipe
+Metal Bagpipe+
+Great Bagpipe
+Heavy Bagpipe
+Heavy Bagpipe+
+Fortissimo
+Hard Bone Horn
+Hard Bone Horn+
+Heavy Bone Horn
+Hidden Tone
+Shadow Horn
+Qurupeco Cornet
+Qurupeco Flugelhorn
+Qurupeco Trumpet
+63rd Div Harmonica
+63rd Div Harmonica+
+Hapuru Harmonics
+Battle Sho
+Brutal Sho
+Relentless Sho
+Ice Khene
+Frost Hulusi
+Agna Accordion
+Agna Accordion+
+Flame Accordion
+Grizzly Shoko MK I
+Grizzly Shoko MK II
+Grizzly Shoko MK III
+Striped Gong
+Striped Dragonga
+Tigrex Gong
+Black Dragonga
+Black Tigrex Gong
+Barioth Guiro
+Barioth Guiro+
+Tesker Guiro
+Brass Ghenia
+Brass Ghenia+
+Giga Ghenia
+Dvondva
+Dzhulvondva
+Ludroth Voice
+Ludroth Voice+
+Screaming Ludroth
+Black Coffin
+Shadow Coffin
+Dark Coffin
+Blood Coffin
+Blood Scream
+Cello Ve Cero
+Cello Ve Uno
+Cello Ve Cero Blanc
+Cello Ve Uno Blanc
+Cello Ve Cero Dorado
+Cello Ve Uno Dorado
+Cello Ve Cero Verde
+Cello Ve Uno Verde 
+Cello Ve Dos Verde
+Worn Hunting Horn
+Weathered Horn
+Avenir Orgel
+Magical Charm
+Magical Bell Charm
+Wave Shell
+Wave Shell+
+Vortex Shell
+Yukumo Fife
+Yukumo Fife+
+Yukumo Songbird
+Roaring Zither
+Thundering Zither
+Autumn Typhoon
+Akantor Deathknell
+Ukanlos Howler
+Blitzworks
+Giga Blitzworks
+Magical Charm+

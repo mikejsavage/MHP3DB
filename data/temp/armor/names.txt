@@ -1,0 +1,1131 @@
+Yukumo Hat
+Leather Helm
+Chain Helm
+Hunter's Helm
+Hunter's Cap
+Bone Helm
+Bone Cap
+Alloy Helm
+Alloy Cap
+Bnahabra Helm
+Bnahabra Cap
+Rhenoplos Helm
+Rhenoplos Cap
+Jaggi Helm
+Jaggi Cap
+Aoashira Helm
+Aoashira Cap
+Froggi Helm
+Froggi Cap
+Urukusu Helm
+Urukusu Cap
+Qurupeco Helm
+Qurupeco Cap
+Ludroth Helm
+Ludroth Cap
+Barroth Helm
+Barroth Cap
+Ingot Helm
+Ingot Cap
+Baggi Helm
+Baggi Cap
+Ranguro Helm
+Ranguro Cap
+Rathian Helm
+Rathian Cap
+Hapuru Helm
+Hapuru Cap
+Nebula Helm
+Nebula Cap
+Narga Helm
+Narga Cap
+Barioth Helm
+Barioth Cap
+Rathalos Helm
+Rathalos Cap
+Uragaan Helm
+Uragaan Cap
+Jinouga Helm
+Jinouga Cap
+Diablos Helm
+Diablos Cap
+Tigrex Helm
+Tigrex Cap
+Agnaktor Helm
+Agnaktor Cap
+Doboru Helm
+Doboru Cap
+Guild Bard Tricorne
+Guild Bard Hat
+Scholar Hood
+Scholar Beret
+Nightmare Furore
+Nightmare Furore
+Nightmare Brume
+Nightmare Brume
+Viking Helm
+Viking Cap
+Rouage Testa
+Rouage Caput
+Falmer Testa
+Falmer Caput
+Yamato Helm
+Courtier Hat
+Solar Headband
+Divine Headband
+Gagua Mask
+Zuwaro Helm
+Zuwaro Cap
+Jaggi Mask
+Bullfango Mask
+Skull Face
+Head Towel
+Acorn Helm
+Glass Earrings
+Yukumo Hat [Ten]
+Yukumo Hat [Chi]
+Leather Helm S
+Leather Cap S
+Chain Helm S
+Chain Cap S
+Hunter Helm S
+Hunter Cap S
+Bone Helm S
+Bone Cap S
+Alloy Helm S
+Alloy Cap S
+Bnahabra Helm S
+Bnahabra Cap S
+Rhenoplos Helm S
+Rhenoplos Cap S
+Jaggi Helm S
+Jaggi Cap S
+Grove Helm S
+Grove Cap S
+Froggi Helm S
+Froggi Cap S
+Urukusu Helm S
+Urukusu Cap S
+Qurupeco Helm S
+Qurupeco Cap S
+Ludroth Helm S
+Ludroth Cap S
+Barroth Helm S
+Barroth Cap S
+Ingot Helm S
+Ingot Cap S
+Baggi Helm S
+Baggi Cap S
+Ranguro Helm S
+Ranguro Cap S
+Rathian Helm S
+Rathian Cap S
+Hapuru Helm S
+Hapuru Cap S
+Nebula Helm S
+Nebula Cap S
+Narga Helm S
+Narga Cap S
+Barioth Helm S
+Barioth Cap S
+Rathalos Helm S
+Rathalos Cap S
+Uragaan Helm S
+Uragaan Cap S
+Dober Helm
+Dober Cap
+Jinouga Helm S
+Jinouga Cap S
+Diablos Helm S
+Diablos Cap S
+Tigrex Helm S
+Tigrex Cap S
+Agnaktor Helm S
+Agnaktor Cap S
+Doboru Helm S
+Doboru Cap S
+Qurupeco Helm U
+Qurupeco Cap U
+Ludroth Helm U
+Ludroth Cap U
+Barroth Helm U
+Barroth Cap U
+Nebula Helm U
+Nebula Cap U
+Narga Helm U
+Narga Cap U
+Barioth Helm U
+Barioth Cap U
+Uragaan Helm U
+Uragaan Cap U
+Diablos Helm U
+Diablos Cap U
+Tigrex Helm U
+Tigrex Cap U
+Agnaktor Helm U
+Agnaktor Cap U
+Golden Moon Helm
+Golden Moon Cap
+Silver Sol Helm
+Silver Sol Cap
+Vangis Helm
+Vangis Cap
+Ranger Hat
+Scout Veil
+Guild Bard Tricorne S
+Guild Bard Hat S
+Scholar Hood S
+Scholar Beret S
+Nightmare Furore S
+Nightmare Furore S
+Nightmare Brume S
+Nightmare Brume S
+Viking Helm S
+Viking Cap S
+Rouage Testa S
+Rouage Caput S
+Falmer Testa S
+Falmer Caput S
+Dianthus Hat
+Bellflower Hat
+Damascus Helm
+Damascus Cap
+Hi Yamato Helm
+Hi Courtier Hat
+Hi Solar Headband
+Hi Divine Headband
+Dark Akantor Mask
+Dark Akantor Fangs
+Ukanlos Mask
+Ukanlos Fangs
+Escadora Wisdom
+Escadora Sagesse
+Storm Crown
+Sky Circlet
+Gagua Mask S
+Gagua Head S
+Zuwaro Hood S
+Zuwaro Head S
+Jaggi Mask S
+Jaggi Head S
+Bullfango Mask S
+Bullfango Head S
+Skull Face S
+Skull Head S
+Wyvern's Eye Patch
+Luxury Head Towel
+Acorn Helm S
+Acorn Cap S
+Crystal Earrings
+Oakley Shades
+Jolly Roger Hat
+Jolly Roger Cap
+Snake Face
+Snake Mask
+The Boss Face
+The Boss Mask
+Uniqlo Knit Hat
+Uniqlo Headphones
+Sword Saint Piercing
+Barrage Piercing
+Blast Piercing
+Grace Piercing
+Draw Piercing
+Silence Piercing
+Jump Piercing
+Charge Piercing
+Sprint Piercing
+Demon Piercing
+Debilitate Piercing
+Slam Piercing
+KO Piercing
+Awaken Piercing
+True Sword Piercing
+Will Recov Piercing
+Early Bird Piercing
+High Speed Piercing
+Sheathe Piercing
+Fatigue Piercing
+Small Arms Piercing
+Cannon Piercing
+Search Piercing
+Rage Piercing
+Voracious Piercing
+Wyvern Piercing
+Fate Piercing
+Yukumo Shirt
+Leather Armor
+Chain Mail
+Hunter's Mail
+Hunter's Vest
+Loc Lac Suit
+Bone Mail
+Bone Vest
+Alloy Mail
+Alloy Vest
+Bnahabra Suit
+Bnahabra Vest
+Rhenoplos Mail
+Rhenoplos Vest
+Jaggi Mail
+Jaggi Vest
+Aoashira Mail
+Aoashira Vest
+Steel Mail
+Froggi Mail
+Froggi Vest
+Urukusu Mail
+Urukusu Vest
+Qurupeco Mail
+Qurupeco Vest
+Ludroth Mail
+Ludroth Vest
+Barroth Mail
+Barroth Vest
+Ingot Mail
+Ingot Vest
+Baggi Mail
+Baggi Vest
+Ranguro Mail
+Ranguro Vest
+Rathian Mail
+Rathian Vest
+Hapuru Mail
+Hapuru Vest
+Nebula Mail
+Nebula Vest
+Narga Mail
+Narga Vest
+Barioth Mail
+Barioth Vest
+Rathalos Mail
+Rathalos Vest
+Uragaan Mail
+Uragaan Vest
+Jinouga Mail
+Jinouga Vest
+Diablos Mail
+Diablos Vest
+Tigrex Mail
+Tigrex Vest
+Agnaktor Mail
+Agnaktor Vest
+Doboru Mail
+Doboru Vest
+Guild Bard Suit
+Guild Bard Vest
+Scholar Suit
+Scholar Vest
+Nightmare Toronko
+Nightmare Toronko
+Nightmare Shtam
+Nightmare Shtam
+Viking Mail
+Viking Vest
+Rouage Petto
+Pouage Pectus
+Falmer Petto
+Falmer Pectus
+Atea Mail
+Atea Vest
+Yamato Plate
+Courtier Plate
+Solar Plate
+Divine Plate
+Zuwaro Mantle
+Zuwaro Cape
+Bath Towel
+Acorn Mail
+Yukumo Shirt [Ten]
+Yukumo Shirt [Chi]
+Leather Mail S
+Leather Vest S
+Chain Mail S
+Chain Vest S
+Hunter's Mail S
+Hunter's Vest S
+Loc Lac Suit S
+Loc Lac Vest S
+Bone Mail S
+Bone Vest S
+Alloy Mail S
+Alloy Vest S
+Bnahabra Suit S
+Bnahabra Vest S
+Rhenoplos Mail S
+Rhenoplos Vest S
+Jaggi Mail S
+Jaggi Vest S
+Grove Mail S
+Grove Vest S
+Steel Mail S
+Froggi Mail S
+Froggi Vest S
+Urukusu Mail S
+Urukusu Vest S
+Qurupeco Mail S
+Qurupeco Vest S
+Ludroth Mail S
+Ludroth Vest S
+Barroth Mail S
+Barroth Vest S
+Ingot Mail S
+Ingot Vest S
+Baggi Mail S
+Baggi Vest S
+Ranguro Mail S
+Ranguro Vest S
+Rathian Mail S
+Rathian Vest S
+Hapuru Mail S
+Hapuru Vest S
+Nebula Mail S
+Nebula Vest S
+Narga Mail S
+Narga Vest S
+Barioth Mail S
+Barioth Vest S
+Rathalos Mail S
+Rathalos Vest S
+Uragaan Mail S
+Uragaan Vest S
+Dober Mail
+Dober Vest
+Jinouga Mail S
+Jinouga Vest S
+Diablos Mail S
+Diablos Vest S
+Tigrex Mail S
+Tigrex Vest S
+Agnaktor Mail S
+Agnaktor Vest S
+Doboru Mail S
+Doboru Vest S
+Qurupeco Mail U
+Qurupeco Vest U
+Ludroth Mail U
+Ludroth Vest U
+Barroth Mail U
+Barroth Vest U
+Nebula Mail U
+Nebula Vest U
+Narga Mail U
+Narga Vest U
+Barioth Mail U
+Barioth Vest U
+Uragaan Mail U
+Uragaan Vest U
+Diablos Mail U
+Diablos Vest U
+Tigrex Mail U
+Tigrex Vest U
+Agnaktor Mail U
+Agnaktor Vest U
+Golden Moon Mail
+Golden Moon Vest
+Silver Sol Mail
+Silver Sol Vest
+Vangis Mail
+Vangis Vest
+Ranger Belt
+Scout Belt
+Guild Bard Suit S
+Guild Bard Vest S
+Scholar Suit S
+Scholar Vest S
+Nightmare Toronko S
+Nightmare Toronko S
+Nightmare Shtam S
+Nightmare Shtam S
+Viking Mail S
+Viking Vest S
+Rouage Petto S
+Pouage Pectus S
+Falmer Petto S
+Falmer Pectus S
+Atea Mail S
+Atea Vest S
+Dianthus Blouse
+Bellflower Blouse
+Damascus Mail
+Damascus Vest
+Hi Yamato Plate
+Hi Courtier Plate
+Hi Solar Plate
+Hi Divine Plate
+Dark Akantor Aegis
+Dark Akantor Plate
+Ukanlos Aegis
+Ukanlos Plate
+Escadora Soul
+Escadora Seele
+Storm Wrap
+Sky Cover
+Zuwaro Cloak S
+Zuwaro Cape S
+Luxury Bath Towel
+Acorn Mail S
+Acorn Vest S
+Crystal Necklace
+Warfront Jacket
+Warfront Rider
+Hunter Jacket
+Hunter Rider
+Jolly Roger Suit
+Jolly Roger Jacket
+Snake Suit
+Snake Body
+The Boss Suit
+The Boss Body
+Uniqlo Blazer
+Uniqlo Jacket
+Street Jacket
+Street Jumper
+Street Jacket
+Street Jumper
+MH Jacket
+MH Jersey
+Yukumo Armband
+Leather Vambraces
+Chain Vambraces
+Hunter's Vambraces
+Hunter's Guards
+Bone Vambraces
+Bone Guards
+Alloy Vambraces
+Alloy Guards
+Bnahabra Gloves
+Bnahabra Cuffs
+Rhenoplos Vambraces
+Rhenoplos Guards
+Jaggi Vambraces
+Jaggi Guards
+Aoashira Vambraces
+Aoashira Guards
+Steel Vambraces
+Froggi Vambraces
+Froggi Guards
+Urukusu Vambraces
+Urukusu Guards
+Qurupeco Vambraces
+Qurupeco Guards
+Ludroth Vambraces
+Ludroth Guards
+Barroth Vambraces
+Barroth Guards
+Ingot Vambraces
+Ingot Guards
+Baggi Vambraces
+Baggi Guards
+Ranguro Vambraces
+Ranguro Guards
+Rathian Vambraces
+Rathian Guards
+Hapuru Vambraces
+Hapuru Guards
+Nebula Vambraces
+Nebula Guards
+Narga Vambraces
+Narga Guards
+Barioth Vambraces
+Barioth Guards
+Rathalos Vambraces
+Rathalos Guards
+Uragaan Vambraces
+Uragaan Guards
+Jinouga Vambraces
+Jinouga Guards
+Diablos Vambraces
+Diablos Guards
+Tigrex Vambraces
+Tigrex Guards
+Agnaktor Vambraces
+Agnaktor Guards
+Doboru Vambraces
+Doboru Guards
+Guild Bard Vambraces
+Guild Bard Guards
+Scholar Gloves
+Scholar Cuffs
+Nightmare Lurama
+Nightmare Lurama
+Nightmare Luast
+Nightmare Luast
+Viking Vambraces
+Viking Guards
+Rouage Mano
+Rouage Brasso
+Falmer Mano
+Falmer Brasso
+Atea Vambraces
+Atea Guards
+Yamato Bracers
+Courtier Bracers
+Solar Bracers
+Divine Bracers
+Sweatbands
+Yukumo Armband [Ten]
+Yukumo Armband [Chi]
+Leather Vambraces S
+Leather Guards S
+Chain Vambraces S
+Chain Guards S
+Hunter's Vambraces S
+Hunter's Guards S
+Bone Vambraces S
+Bone Guards S
+Alloy Vambraces S
+Alloy Guards S
+Bnahabra Gloves S
+Bnahabra Cuffs S
+Rhenoplos Vambraces S
+Rhenoplos Guards S
+Jaggi Vambraces S
+Jaggi Guards S
+Grove Vambraces S
+Grove Guards S
+Steel Vambraces S
+Froggi Vambraces S
+Froggi Guards S
+Urukusu Vambraces S
+Urukusu Guards S
+Qurupeco Vambraces S
+Qurupeco Guards S
+Ludroth Vambraces S
+Ludroth Guards S
+Barroth Vambraces S
+Barroth Guards S
+Ingot Vambraces S
+Ingot Guards S
+Baggi Vambraces S
+Baggi Guards S
+Ranguro Vambraces S
+Ranguro Guards S
+Rathian Vambraces S
+Rathian Guards S
+Hapuru Vambraces S
+Hapuru Guards S
+Nebula Vambraces S
+Nebula Guards S
+Narga Vambraces S
+Narga Guards S
+Barioth Vambraces S
+Barioth Guards S
+Rathalos Vambraces S
+Rathalos Guards S
+Uragaan Vambraces S
+Uragaan Guards S
+Dober Vambraces
+Dober Guards
+Jinouga Vambraces S
+Jinouga Guards S
+Diablos Vambraces S
+Diablos Guards S
+Tigrex Vambraces S
+Tigrex Guards S
+Agnaktor Vambraces S
+Agnaktor Guards S
+Doboru Vambraces S
+Doboru Guards S
+Qurupeco Vambraces U
+Qurupeco Guards U
+Ludroth Vambraces U
+Ludroth Guards U
+Barroth Vambraces U
+Barroth Guards U
+Nebula Vambraces U
+Nebula Guards U
+Narga Vambraces U
+Narga Guards U
+Barioth Vambraces U
+Barioth Guards U
+Uragaan Vambraces U
+Uragaan Guards U
+Diablos Vambraces U
+Diablos Guards U
+Tigrex Vambraces U
+Tigrex Guards U
+Agnaktor Vambraces U
+Agnaktor Guards U
+Golden Moon Braces
+Golden Moon Guards
+Silver Sol Vambraces
+Silver Sol Guards
+Vangis Vambraces
+Vangis Guards
+Ranger Handguards
+Scout Handguards
+Guild Bard Braces S
+Guild Bard Guards S
+Scholar Gloves S
+Scholar Cuffs S
+Nightmare Lurama S
+Nightmare Lurama S
+Nightmare Luast S
+Nightmare Luast S
+Viking Vambraces S
+Viking Guards S
+Rouage Mano S
+Rouage Brasso S
+Falmer Mano S
+Falmer Brasso S
+Atea Vambraces S
+Atea Guards S
+Dianthus Sleeves
+Bellflower Sleeves
+Damascus Vambraces
+Damascus Guards
+Hi Yamato Bracers
+Hi Courtier Bracers
+Hi Solar Bracers
+Hi Divine Bracers
+Dark Akantor Claw
+Dark Akantor Gauntlet
+Ukanlos Claw
+Ukanlos Gauntlet
+Escadora Arms
+Escadora Arma
+Storm Sleeves
+Sky Sleeves
+Luxury Sweatbands
+Crystal Bracelets
+Jolly Roger Gloves
+Jolly Roger Cuffs
+Snake Gloves
+Snake Arms
+The Boss Gloves
+The Boss Arms
+Uniqlo Gloves
+Uniqlo Cuffs
+Yukumo Sash
+Leather Belt
+Chain Belt
+Hunter's Tasset
+Hunter's Coat
+Loc Lac Coil
+Bone Tasset
+Bone Coat
+Alloy Coil
+Alloy Coat
+Bnahabra Coil
+Bnahabra Coat
+Rhenoplos Coil
+Rhenoplos Coat
+Jaggi Tasset
+Jaggi Coat
+Aoashira Tasset
+Aoashira Coat
+Steel Belt
+Froggi Tasset
+Froggi Coat
+Urukusu Tasset
+Urukusu Coat
+Qurupeco Coil
+Qurupeco Coat
+Ludroth Tasset
+Ludroth Coat
+Barroth Tasset
+Barroth Coat
+Ingot Coil
+Ingot Coat
+Baggi Coil
+Baggi Coat
+Ranguro Tasset
+Ranguro Coat
+Rathian Tasset
+Rathian Coat
+Hapuru Tasset
+Hapuru Coat
+Nebula Tasset
+Nebula Coat
+Narga Tasset
+Narga Coat
+Barioth Tasset
+Barioth Coat
+Rathalos Tasset
+Rathalos Coat
+Uragaan Tasset
+Uragaan Coat
+Jinouga Tasset
+Jinouga Coat
+Diablos Coil
+Diablos Coat
+Tigrex Tasset
+Tigrex Coat
+Agnaktor Tasset
+Agnaktor Coat
+Doboru Tasset
+Doboru Coat
+Guild Bard Coil
+Guild Bard Coat
+Scholar Skirt
+Scholar Frills
+Nightmare Oha
+Nightmare Oha
+Nightmare Buratto
+Nightmare Buratto
+Viking Tasset
+Viking Coat
+Rouage Anca
+Rouage Cocusa
+Falmer Anca
+Falmer Cocusa
+Yamato Waistcoat
+Courtier Waistcoat
+Solar Waistcoat
+Divine Waistcoat
+Yukumo Sash [Ten]
+Yukumo Sash [Chi]
+Leather Tasset S
+Leather Coat S
+Chain Tasset S
+Chain Coat S
+Hunter's Tasset S
+Hunter's Coat S
+Loc Lac Coil S
+Loc Lac Coat S
+Bone Tasset S
+Bone Coat S
+Alloy Coil S
+Alloy Coat S
+Bnahabra Coil S
+Bnahabra Coat S
+Rhenoplos Coil S
+Rhenoplos Coat S
+Jaggi Tasset S
+Jaggi Coat S
+Grove Tasset S
+Grove Coat S
+Steel Belt S
+Froggi Tasset S
+Froggi Coat S
+Urukusu Tasset S
+Urukusu Coat S
+Qurupeco Coil S
+Qurupeco Coat S
+Ludroth Tasset S
+Ludroth Coat S
+Barroth Tasset S
+Barroth Coat S
+Ingot Coil S
+Ingot Coat S
+Baggi Coil S
+Baggi Coat S
+Ranguro Tasset S
+Rangura Coat S
+Rathian Tasset S
+Rathian Coat S
+Hapuru Tasset S
+Hapuru Coat S
+Nebula Tasset S
+Nebula Coat S
+Narga Tasset S
+Narga Coat S
+Barioth Tasset S
+Barioth Coat S
+Rathalos Tasset S
+Rathalos Coat S
+Uragaan Tasset S
+Uragaan Coat S
+Dober Coil
+Dober Coat
+Jinouga Tasset S
+Jinouga Coat S
+Diablos Coil S
+Diablos Coat S
+Tigrex  Tasset S
+Tigrex Coat S
+Agnaktor Tasset S
+Agnaktor Coat S
+Doboru Tasset S
+Doburu Coat S
+Qurupeco Coil U
+Qurupeco Coat U
+Ludroth Tasset U
+Ludroth Coat U
+Barroth Tasset U
+Barroth Coat U
+Nebula Tasset U
+Nebula Coat U
+Narga Tasset U
+Narga Coat U
+Barioth Tasset U
+Barioth Coat U
+Uragaan Tasset U
+Uragaan Coat U
+Diablos Coil U
+Diablos Coat U
+Tigrex Tasset U
+Tigrex Coat U
+Agnaktor Tasset U
+Agnaktor Coat U
+Golden Moon Tasset
+Golden Moon Coat
+Silver Sol Tasset
+Silver Sol Coat
+Vangis Tasset
+Vangis Coat
+Ranger Belt
+Scout Belt
+Guild Bard Coil S
+Guild Bard Coat S
+Scholar Skirt S
+Scholar Frills S
+Nightmare Oha S
+Nightmare Oha S
+Nightmare Buratto S
+Nightmare Buratto S
+Viking Tasset S
+Viking Coat S
+Rouage Anca S
+Rouage Cocusa S
+Falmer Anca S
+Falmer Cocusa S
+Dianthus Skirt
+Bellflower Skirt
+Damascus Coil
+Damascus Coat
+Hi Yamato Waistcoat
+Hi Courtier Waistcoat
+Hi Solar Waistcoat
+Hi Divine Waistcoat
+DarkAkantor Cincture
+Dark Akantor Sash
+Ukanlos Cincture
+Ukanlos Sash
+Escadora Might
+Escadora Force
+Storm Waist
+Sky Sash
+Crystal Sash
+Jolly Roger Coil
+Jolly Roger Skirt
+Snake Belt
+Snake Band
+The Boss Belt
+The Boss Band
+Uniqlo Belt
+Uniqlo Pouch
+Street Belt
+Street Buckle
+Street Belt
+Street Buckle
+Yukumo Skirt
+Leather Pants
+Chain Pants
+Hunter's Greaves
+Hunter's Leggings
+Loc Lac Boots
+Bone Greaves
+Bone Leggings
+Alloy Greaves
+Alloy Leggings
+Bnahabra Boots
+Bnahabra Shoes
+Rhenoplos Greaves
+Rhenoplos Leggings
+Jaggi Greaves
+Jaggi Leggings
+Aoashira Greaves
+Aoashira Leggings
+Froggi Greaves
+Froggi Leggings
+Urukusu Greaves
+Urukusu Leggings
+Qurupeco Greaves
+Qurupeco Leggings
+Ludroth Greaves
+Ludroth Leggings
+Barroth Greaves
+Barroth Leggings
+Ingot Greaves
+Ingot Leggings
+Baggi Greaves
+Baggi Leggings
+Ranguro Greaves
+Ranguro Leggings
+Rathian Greaves
+Rathian Leggings
+Hapuru Greaves
+Hapuru Leggings
+Nebula Greaves
+Nebula Leggings
+Narga Greaves
+Narga Leggings
+Barioth Greaves
+Barioth Leggings
+Rathalos Greaves
+Rathalos Leggings
+Uragaan Greaves
+Uragaan Leggings
+Jinouga Greaves
+Jinouga Leggings
+Diablos Greaves
+Diablos Leggings
+Tigrex Greaves
+Tigrex Leggings
+Agnaktor Greaves
+Agnaktor Leggings
+Doboru Greaves
+Doboru Leggings
+Guild Bard Boots
+Guild Bard Shoes
+Scholar Socks
+Scholar Sandals
+Nightmare Rais
+Nightmare Rais
+Nightmare Voulzer
+Nightmare Voulzer
+Viking Greaves
+Viking Leggings
+Rouage Gamba
+Rouage Femur
+Falmer Gamba
+Falmer Femur
+Atea Greaves
+Atea Leggings
+Yamato Greaves
+Courtier Greaves
+Solar Pants
+Divine Pants
+Bath Sandals
+Yukumo Skirt [Ten]
+Yukumo Skirt [Chi]
+Leather Greaves S
+Leather Leggings S
+Chain Greaves S
+Chain Leggings S
+Hunter's Greaves S
+Hunter's Leggings S
+Loc Lac Boots S
+Loc Lac Shoes S
+Bone Greaves S
+Bone Leggings S
+Alloy Greaves S
+Alloy Leggings S
+Bnahabra Boots S
+Bnahabra Shoes S
+Rhenoplos Greaves S
+Rhenoplos Leggings S
+Jaggi Greaves S
+Jaggi Leggings S
+Grove Greaves S
+Grove Leggings S
+Froggi Greaves S
+Froggi Leggings S
+Urukusu Greaves S
+Urukuru Leggings S
+Qurupeco Greaves S
+Qurupeco Leggings S
+Ludroth Greaves S
+Ludroth Leggings S
+Barroth Greaves S
+Barroth Leggings S
+Ingot Greaves S
+Ingot Leggings S
+Baggi Greaves S
+Baggi Leggings S
+Ranguro Greaves S
+Rangura Leggings S
+Rathian Greaves S
+Rathian Leggings S
+Hapuru Greaves S
+Hapuru Leggings S
+Nebula Greaves S
+Nebula Leggings S
+Narga Greaves S
+Narga Leggings S
+Barioth Greaves S
+Barioth Leggings S
+Rathalos Greaves S
+Rathalos Leggings S
+Uragaan Greaves S
+Uragaan Leggings S
+Dober Greaves
+Dober Legings
+Jinouga  Greaves S
+Jinouga Leggings S
+Diablos Greaves S
+Diablos Leggings S
+Tigrex Greaves S
+Tigrex Leggings S
+Agnaktor Greaves S
+Agnaktor Leggings S
+Doboru Greaves S
+Doburu Leggings S
+Qurupeco Greaves U
+Qurupeco Leggings U
+Ludroth Greaves U
+Ludroth Leggings U
+Barroth Greaves U
+Barroth Leggings U
+Nebula Greaves U
+Nebula Leggings U
+Narga Greaves U
+Narga Leggings U
+Barioth Greaves U
+Barioth Leggings U
+Uragaan Greaves U
+Uragaan Leggings U
+Diablos Greaves U
+Diablos Leggings U
+Tigrex Greaves U
+Tigrex Leggings U
+Agnaktor Greaves U
+Agnaktor Leggings U
+Golden Moon Greaves
+Golden Moon Leggings
+Silver Sol Greaves
+Silver Sol Leggings
+Vangis Greaves
+Vangis Leggings
+Ranger Socks
+Scout Socks
+Guild Bard Boots S
+Guild Bard Shoes S
+Scholar Socks S
+Scholar Sandals S
+Nightmare Rais S
+Nightmare Rais S
+Nightmare Voulzer S
+Nightmare Voulzer S
+Viking Greaves S
+Viking Leggings S
+Rouage Gamba S
+Rouage Femur S
+Falmer Gamba S
+Falmer Femur S
+Atea Greaves S
+Atea Leggings S
+Dianthus Shoes
+Bellflower Shoes
+Damascus Greaves
+Damascus Leggings
+Hi Yamato Greaves
+Hi Courtier Greaves
+Hi Solar Pants
+Hi Divine Pants
+Dark Akantor Hessian
+Dark Akantor Boots
+Ukanlos Hessian
+Ukanlos Boots
+Escadora Scale
+Escadora Scala
+Storm Pants
+Sky Leggings
+Luxury Bath Sandals
+Crystals Anklets
+Black Leather Pants
+Black Leather Leggings
+Jolly Roger Pants
+Jolly Roger Skirt
+Snake Boots
+Snake Shoes
+The Boss Boots
+The Boss Shoes
+Uniqlo Cargo Pants
+Uniqlo Cut Pants
+Street Jeans
+Street Denims
+Street Jeans
+Street Denims

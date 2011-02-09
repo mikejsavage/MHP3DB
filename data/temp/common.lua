@@ -10,6 +10,18 @@ function readFile( path )
 	return content
 end
 
+function loadNames( path )
+	local contents = readFile( path )
+
+	local names = { }
+
+	contents:gsub( "(.-)[\n]", function( name )
+		names[ name ] = true
+	end )
+	
+	return names
+end
+
 function itemID( name )
 	for id, item in ipairs( Items ) do
 		if item.name.hgg == name then
