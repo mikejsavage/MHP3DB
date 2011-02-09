@@ -222,6 +222,9 @@ footer {
 	vertical-align: bottom;
 	width: 92px;
 }
+.sharpness.wide {
+	width: 180px;
+}
 .sharpness div {
 	float: left;
 	font-size: 0;

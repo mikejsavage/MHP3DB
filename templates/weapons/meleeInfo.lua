@@ -31,7 +31,7 @@ local pathItemCounts = loadTemplate( "weapons/pathItemCounts" )
 	end
 	%}
 
-	Sharpness: {{ weapon.sharpness and sharpness( { sharpness = weapon.sharpness } ) or "?" }}<br>
+	Sharpness: {{ weapon.sharpness and sharpness( { sharpness = weapon.sharpness, wide = true } ) or "?" }}<br>
 
 	Affinity:
 	{%
