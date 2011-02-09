@@ -10,8 +10,8 @@ local treeItem = loadTemplate( "weapons/saTreeItem" )
 	<thead>
 		<tr>
 			<th>Name</th>
-			<th>TATP</th>
 			<th>Atk</th>
+			<th>TATP</th>
 			<th>Phial</th>
 			<th>Element</th>
 			<th>Affn</th>
