@@ -23,6 +23,17 @@ header, nav, footer {
 	display: block;
 }
 
+/* inputs */
+
+select, input {
+	margin: 2px 4px;
+}
+
+input[ type="text" ], textarea {
+	border: 1px solid #ccc;
+	padding: 2px;
+}
+
 /* generic table style */
 
 table {
@@ -320,6 +331,12 @@ footer {
 .data.eq.decorations .name {
 	border-left: 0;
 	text-align: left;
+}
+
+/* items page results div */
+
+#items {
+	margin-top: 8px;
 }
 
 /* set builder skills tables */
