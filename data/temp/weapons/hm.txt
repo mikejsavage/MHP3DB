@@ -93,6 +93,20 @@ Med Mnster Bone 5
 Desc
 Qurupeco Scraps 2
 
+Dragger Hammer
+140
+Def 8
+R2
+-10%
+---
+7350z
+Barroth Skl Shl 3
+Barroth Spine 3
+Barroth Tail 1
+Rhenoplos Shell 5
+Desc
+Barroth Scraps 2
+
 Brass Knuckle
 170
 Def 5

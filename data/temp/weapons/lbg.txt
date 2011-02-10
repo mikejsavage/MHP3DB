@@ -206,6 +206,41 @@ GrtJaggi Scraps 2
 0
 2
 
+Barroth Barrett
+160
+R2
+0%
+O--
+Normal
+???
+Strong
+5850z
+Barroth Skl Shl 3
+Barroth Shell 4
+Machalite Ore 6
+Desc
+Barroth Scraps 2
+5 6 8
+2 0 0
+2 0 0
+0 0 0
+0 0 0
+0 0
+0 0
+2 0
+0 0
+2 1
+0
+3
+0
+0
+0
+2
+2
+0
+1
+0
+
 Roaring Stream
 140
 R2

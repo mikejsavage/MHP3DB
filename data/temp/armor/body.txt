@@ -528,6 +528,42 @@ Water Res 1
 Desc
 Ore Scraps 1
 
+Barroth Mail
+16
+-4 4 2 -3 0
+B
+R2
+---
+Barroth Skl Shl 1
+Barroth Spine 2
+Fertile Mud 2
+Bulldrome Hide 4
+1650z
+Guard 2
+Defense 4
+Constitutn -2
+KO 1
+Desc
+Barroth Scraps 2
+
+Barroth Vest
+8
+-4 4 4 -1 0
+G
+R2
+---
+Barroth Skl Shl 1
+Barroth Spine 2
+Fertile Mud 2
+Bulldrome Hide 4
+1650z
+NormalS Up 3
+Defense 3
+Precision 1
+Constitutn -2
+Desc
+Barroth Scraps 2
+
 Baggi Mail
 16
 -4 -1 -1 2 1

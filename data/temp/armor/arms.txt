@@ -483,6 +483,42 @@ Water Res 1
 Desc
 Ore Scraps 1
 
+Barroth Vambraces
+16
+-4 4 2 -3 0
+B
+R2
+O--
+Barroth Claw 2
+Barroth Shell 2
+Fertile Mud 2
+Rhenoplos Shell 3
+1650z
+Guard 1
+Attack 3
+Constitutn -1
+KO 4
+Desc
+Barroth Scraps 2
+
+Barroth Guards
+8
+-4 4 4 -1 0
+G
+R2
+O--
+Barroth Claw 2
+Barroth Shell 2
+Fertile Mud 2
+Rhenoplos Shell 3
+1650z
+NormalS Up 3
+Attack 3
+Precision 2
+Constitutn -1
+Desc
+Barroth Scraps 2
+
 Baggi Vambraces
 16
 -4 -1 -1 2 1

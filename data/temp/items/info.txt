@@ -1283,10 +1283,16 @@ R4
 371 Barroth Thracic
 
 372 Barroth Claw
+claw orange
+R4
+520z
 
 373 Barroth Claw+
 
 374 Barroth Skl Shl
+shell orange
+R4
+1200z
 
 375 Barroth Tail
 

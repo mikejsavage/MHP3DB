@@ -338,6 +338,16 @@ Diablos Spine 2
 Swallowtail 2
 
 FatigeAtkJwl
+yellow 4
+1
+FatigueAtk 1
+Stamina -1
+200z
+Akito Jewel 1
+Barroth Claw 1
+Med Mnster Bone 1
+
+FatigeAtkJwl
 yellow 5
 2
 FatigueAtk 3

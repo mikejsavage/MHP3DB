@@ -14,12 +14,15 @@ function loadNames( path )
 	local contents = readFile( path )
 
 	local names = { }
+	local count = 0
 
 	contents:gsub( "(.-)[\n]", function( name )
 		names[ name ] = true
+
+		count = count + 1
 	end )
 	
-	return names
+	return names, count
 end
 
 function itemID( name )

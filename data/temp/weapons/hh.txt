@@ -74,6 +74,20 @@ Lg Monster Bone 2
 Desc
 Qurupeco Scraps 2
 
+Battle Sho
+140
+WRG
+R2
+-5%
+---
+7350z
+Barroth Skl Shl 2
+Barroth Tail 1
+Barroth Shell 5
+Machalite Ore 5
+Desc
+Barroth Scraps 2
+
 Valkyrie Recorder
 120
 WBY
