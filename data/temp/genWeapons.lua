@@ -11,7 +11,7 @@ local Dir = "weapons"
 local SharpDir = "sharp"
 local CacheDir = "cache"
 
-local Names = loadNames( Dir .. "/names.txt" )
+local Names, NamesCount = loadNames( Dir .. "/names.txt" )
 
 local Types =
 {
@@ -352,6 +352,7 @@ function readSharpness( weapon )
 end
 
 local Weapons = { }
+local WeaponsCount = 0
 
 for _, short in pairs( Types ) do
 	io.input( Dir .. "/" .. short .. ".txt" )
@@ -373,6 +374,8 @@ for _, short in pairs( Types ) do
 			readSharpness( weapon )
 
 			table.insert( class.weapons, weapon )
+
+			WeaponsCount = WeaponsCount + 1
 
 			state = "init"
 			weapon = { }
@@ -408,10 +411,17 @@ for _, short in pairs( Types ) do
 	readSharpness( weapon )
 
 	table.insert( class.weapons, weapon )
+
+	WeaponsCount = WeaponsCount + 1
+
 	table.insert( Weapons, class )
 end
 
-print( "genWeapons: ok!" )
+print( ( "genWeapons: ok, %.1f%% complete! (%d/%d)" ):format(
+	100 * ( WeaponsCount / NamesCount ),
+	WeaponsCount,
+	NamesCount
+) )
 
 io.output( "../weapons.json" )
 io.write( json.encode( Weapons ) )

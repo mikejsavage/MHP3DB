@@ -2,16 +2,20 @@
 
 require( "common" )
 
+-- get rid of the [n] crap
 function loadDecorNames( path )
 	local contents = readFile( path )
 
 	local names = { }
+	local count = 0
 
 	contents:gsub( "(.-)%s+%[%d%][\n]", function( name )
 		names[ name ] = true
+
+		count = count + 1
 	end )
 	
-	return names
+	return names, count
 end
 
 Items = json.decode( readFile( "../items.json" ) )
@@ -19,7 +23,7 @@ Skills = json.decode( readFile( "../skills.json" ) )
 
 local DataPath = "armor/decorations.txt"
 
-local Names = loadDecorNames( "armor/namesDecorations.txt" )
+local Names, NamesCount = loadDecorNames( "armor/namesDecorations.txt" )
 
 local MaxSlots = 3
 
@@ -103,6 +107,7 @@ function doLine( line, piece, state )
 end
 
 local Decorations = { }
+local DecorationsCount = 0
 
 io.input( DataPath )
 
@@ -113,6 +118,8 @@ for line in io.lines() do
 	if line == "" then
 		table.insert( Decorations, decoration )
 
+		DecorationsCount = DecorationsCount + 1
+
 		state = "init"
 		decoration = { }
 	else
@@ -122,7 +129,13 @@ end
 
 table.insert( Decorations, decoration )
 
-print( "genDecorations: ok!" )
+DecorationsCount = DecorationsCount + 1
+
+print( ( "genDecorations: ok, %.1f%% complete! (%d/%d)" ):format(
+	100 * ( DecorationsCount / NamesCount ),
+	DecorationsCount,
+	NamesCount
+) )
 
 io.output( "../decorations.json" )
 io.write( json.encode( Decorations ) )

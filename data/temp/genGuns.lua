@@ -38,6 +38,7 @@ local Recoils =
 	Heavy    = "heavy",
 	Moderate = "moderate",
 	Light    = "light",
+	Strong   = "strong",
 }
 
 local MaxSlots = 3

@@ -7,7 +7,7 @@ Skills = json.decode( readFile( "../skills.json" ) )
 
 local Dir = "armor"
 
-local Names = loadNames( Dir .. "/names.txt" )
+local Names, NamesCount = loadNames( Dir .. "/names.txt" )
 
 local Types =
 {
@@ -176,6 +176,7 @@ function doLine( line, piece, state )
 end
 
 local Armor = { }
+local ArmorCount = 0
 
 for _, short in pairs( Types ) do
 	io.input( Dir .. "/" .. short .. ".txt" )
@@ -192,6 +193,8 @@ for _, short in pairs( Types ) do
 		if line == "" then
 			table.insert( class.pieces, piece )
 
+			ArmorCount = ArmorCount + 1
+
 			state = "init"
 			piece = { }
 		else
@@ -200,10 +203,17 @@ for _, short in pairs( Types ) do
 	end
 
 	table.insert( class.pieces, piece )
+
+	ArmorCount = ArmorCount + 1
+
 	table.insert( Armor, class )
 end
 
-print( "genArmors: ok!" )
+print( ( "genArmors: ok, %.1f%% complete! (%d/%d)" ):format(
+	100 * ( ArmorCount / NamesCount ),
+	ArmorCount,
+	NamesCount
+) )
 
 io.output( "../armors.json" )
 io.write( json.encode( Armor ) )
