@@ -2246,6 +2246,8 @@ R3
 702 Goldstone Hunk
 
 703 FlowrstonePiece
+ore pink
+R3
 
 704 Flowrstone Hunk
 
