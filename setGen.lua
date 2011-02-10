@@ -1,9 +1,15 @@
 #! /usr/bin/lua
 
 require( "cgi" )
+require( "profiler" )
 
 local Armors = data( "armors" )
 local Skills = data( "skills" )
+
+-- if you uncomment the next line then it bumps the
+-- computation time up to quite a long time (30s+)
+-- you have been warned
+--profiler:start( "profiled.lua" )
 
 -- prevent ugly kids from ruining my shit
 local MaxSkills = 6
@@ -36,6 +42,26 @@ print( "" )
 
 
 local Shorts = { "hlm", "plt", "arm", "wst", "leg" }
+local NumShortsPP = table.getn( Shorts ) + 1 -- NumShorts(Plus Plus); we use this a lot later
+
+
+-- not generics but these run quick
+
+function copySet( set )
+	return { hlm = set.hlm, plt = set.plt, arm = set.arm, wst = set.wst, leg = set.leg }
+end
+
+-- TODO: this is the current bottleneck
+function copySkills( skills )
+	local new = { }
+
+	for skill, points in pairs( skills ) do
+		new[ skill ] = points
+	end
+
+	return new
+end
+
 
 function hasSkills( piece, wantedSkills )
 	if not piece.skills then
@@ -53,8 +79,12 @@ function hasSkills( piece, wantedSkills )
 	return false
 end
 
+-- TODO: rewrite this so it subtracts points rather than adding them
+--       so then checking if a set is good is as simple as checking
+--       if they're all below 0
+
 function addSkills( skills, piece )
-	local new = table.copy( skills )
+	local new = copySkills( skills )
 
 	for _, skill in ipairs( piece.skills ) do
 		new[ skill.id ] =
@@ -67,33 +97,42 @@ function addSkills( skills, piece )
 end
 
 function check( pieces, sets, currSet, classIdx, currSkills )
-	if not currSet then
-		sets = { }
-		currSet = { }
-		classIdx = 1
-		currSkills = { }
-	end
+	-- if goodSet( ... ) then
+	-- 	table.insert( ... )
+	-- else if classIdx ~= NumShortsPP then
+	-- 	...
+	-- end
+	--
+	-- TODO: implement above structure as it allows for early outs
+	--  XXX: is that such a good thing?
 
-	if classIdx == table.getn( Shorts ) + 1 then
-		table.insert( sets, { pieces = table.copy( currSet ), skills = currSkills } )
+	-- TODO: the mass copies are the bottleneck so if
+	--       they can be sped up at all then it should make
+	--       things quite a bit faster
+
+	if classIdx == NumShortsPP then
+		table.insert( sets, { pieces = copySet( currSet ), skills = currSkills } )
 	else
-		local short = Shorts[ classIdx ]
+		local class = Armors[ classIdx ]
+		local short = class.short
 
-		-- it's faster to put the table.copy here and in
-		-- the table.insert above than it is in the next
-		-- block
-		local new = table.copy( currSet )
+		-- it's faster to do the copy here and above than
+		-- it is to do it for every iteration
+		local new = copySet( currSet )
 
 		for _, piece in ipairs( pieces[ short ] ) do
-			--local new = table.copy( currSet )
+			new[ short ] = piece
 
-			new[ short ] = { piece = piece.piece, id = piece.id }
-
-			check( pieces, sets, new, classIdx + 1, addSkills( currSkills, piece.piece ) )
+			check( pieces, sets, new, classIdx + 1, addSkills( currSkills, class.pieces[ piece ] ) )
 		end
 	end
 
 	return sets
+end
+
+function startCheck( pieces )
+	-- faster than checking args in check every iteration
+	return check( pieces, { }, { }, 1, { } )
 end
 
 function goodSet( skills, wantedSkills )
@@ -149,7 +188,7 @@ if request then
 				return
 			end
 
-			pieces = { { piece = piece, id = fixed } }
+			pieces = { fixed }
 		else
 			pieces = { }
 
@@ -158,7 +197,7 @@ if request then
 				if blade  and piece.blade  or
 				   gunner and piece.gunner then
 					if hasSkills( piece, req.skills ) then
-						table.insert( pieces, { piece = piece, id = id } )
+						table.insert( pieces, id )
 					end
 				end
 			end
@@ -181,7 +220,7 @@ if request then
 	-- TODO: just kidding it runs like crap when you ask for more than
 	--       like 2 skills. i need to do some srs optimization here
 
-	local sets = check( toCheck )
+	local sets = startCheck( toCheck )
 
 	local first = true
 
@@ -197,16 +236,16 @@ if request then
 
 			local firstPiece = true
 
-			for _, short in ipairs( Shorts ) do
+			for _, class in ipairs( Armors ) do
 				if firstPiece then
 					firstPiece = false
 				else
 					io.write( "," )
 				end
 
-				local piece = set.pieces[ short ]
+				local piece = set.pieces[ class.short ]
 
-				io.write( piece.id )
+				io.write( piece )
 			end
 
 			io.write( [[],"skills":]] .. json.encode( set.skills ) .. [[}]] )
@@ -217,3 +256,5 @@ if request then
 else
 	print( "no request" )
 end
+
+profiler:stop()
