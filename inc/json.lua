@@ -1,4 +1,4 @@
-json = { }
+module( ..., package.seeall )
 
 -- DECODING
 
@@ -169,11 +169,11 @@ local function decodeNumber( str, pos )
 	return tonumber( number ), pos
 end
 
-function json.null()
+function null()
 	return null
 end
 
-function decodeValue( str, pos )
+local function decodeValue( str, pos )
 	pos = skip( str, pos )
 
 	local next = str:at( pos )
@@ -195,7 +195,7 @@ function decodeValue( str, pos )
 	end
 end
 
-function json.decode( str )
+function decode( str )
 	return ( decodeValue( str, 1 ) )
 end
 
@@ -216,7 +216,7 @@ local function isArray( table )
 	return true
 end
 
-function json.encode( object )
+function encode( object )
 	if object == null then
 		return "null"
 	end

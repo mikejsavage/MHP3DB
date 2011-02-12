@@ -1,13 +1,5 @@
 #! /usr/bin/lua
 
-require( "cgi" )
-
--- data
-
-Weapons = data( "weapons" )
-Guns    = data( "guns" )
-Items   = data( "items" )
-
 -- translations
 
 Translations = translations( "weapons" )

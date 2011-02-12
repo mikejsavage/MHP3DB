@@ -13,10 +13,6 @@ function translations( translations )
 end
 
 function data( file )
-	return json.decode( readFile( ( "data/%s.json" ):format( file ) ) )
-end
-
-function dataJSON( file )
 	local contents = readFile( ( "data/%s.json" ):format( file ) )
 
 	return json.decode( contents ), contents

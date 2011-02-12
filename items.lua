@@ -1,11 +1,5 @@
 #! /usr/bin/lua
 
-require( "cgi" )
-
--- data
-
-Items = data( "items" )
-
 -- templates
 
 local itemSearch = loadTemplate( "items/search" )

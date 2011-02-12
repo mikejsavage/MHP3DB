@@ -1,10 +1,8 @@
 #! /usr/bin/lua
 
-require( "cgi" )
-require( "profiler" )
+-- TODO: rewrite this in C
 
-local Armors = data( "armors" )
-local Skills = data( "skills" )
+require( "profiler" )
 
 -- if you uncomment the next line then it bumps the
 -- computation time up to quite a long time (30s+)
@@ -42,7 +40,7 @@ print( "" )
 
 
 local Shorts = { "hlm", "plt", "arm", "wst", "leg" }
-local NumShortsPP = table.getn( Shorts ) + 1 -- NumShorts(Plus Plus); we use this a lot later
+local NumShortsPP = table.getn( Shorts ) + 1 -- NumShortsPlusPlus; we use this a lot later
 
 
 -- not generics but these run quick
@@ -104,7 +102,6 @@ function check( pieces, sets, currSet, classIdx, currSkills )
 	-- end
 	--
 	-- TODO: implement above structure as it allows for early outs
-	--  XXX: is that such a good thing?
 
 	-- TODO: the mass copies are the bottleneck so if
 	--       they can be sped up at all then it should make
@@ -208,7 +205,7 @@ if request then
 
 	local skills = { }
 
-	io.write( "[" )
+	print( "[" )
 
 	-- this innocuous looking line actually hides an O( fuck )
 	-- algorithm, but thanks to the (massive) reduction in pieces
@@ -229,10 +226,10 @@ if request then
 			if first then
 				first = false
 			else
-				io.write( "," )
+				print( "," )
 			end
 
-			io.write( [[{"pieces":[]] )
+			print( [[{"pieces":[]] )
 
 			local firstPiece = true
 
@@ -240,19 +237,19 @@ if request then
 				if firstPiece then
 					firstPiece = false
 				else
-					io.write( "," )
+					print( "," )
 				end
 
 				local piece = set.pieces[ class.short ]
 
-				io.write( piece )
+				print( piece )
 			end
 
-			io.write( [[],"skills":]] .. json.encode( set.skills ) .. [[}]] )
+			print( [[],"skills":]] .. json.encode( set.skills ) .. [[}]] )
 		end
 	end
 
-	io.write( "]" )
+	print( "]" )
 else
 	print( "no request" )
 end

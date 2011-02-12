@@ -4,9 +4,6 @@ TranslationsDir = "translations"
 
 BaseUrl = ""
 
-IsLocalHost = os.getenv( "SERVER_NAME" ) == "localhost"
-CurrentUrl = os.getenv( "REQUEST_URI" ):sub( BaseUrl:len() + 2 )
-
 SharpWidth = 1
 
 HeaderLinks =
