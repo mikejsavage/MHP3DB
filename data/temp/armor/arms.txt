@@ -1183,3 +1183,227 @@ Loading 3
 FastCharge 4
 Desc
 JhenMhranScraps 2
+
+Chain Vambraces S
+28
+2 1 -2 1 0
+B
+R4
+OO-
+Carbalite Ore 2
+Isisium Ore 2
+Earth Crystal 2
+3350z
+Health 4
+Combo Rate 4
+Shot Mix 1
+Desc
+Ore Scraps+ 1
+Ore Scraps 1
+
+Chain Guards S
+14
+3 2 -1 2 0
+G
+R4
+OO-
+Carbalite Ore 2
+Isisium Ore 2
+Earth Crystal 2
+3350z
+Health 3
+NormalSAdd 2
+Combo Rate 4
+Desc
+Ore Scraps+ 1
+Ore Scraps 1
+
+Hunter's Vambraces S
+30
+0 1 -4 0 0
+B
+R4
+O--
+Depthlite Ore 2
+Jaggi Scale+ 2
+Earth Crystal 2
+Lg Monster Bone 2
+5350z
+Poison -1
+SpeedSetup 4
+Perception 4
+Huntsman 2
+Desc
+Ore Scraps+ 1
+Ore Scraps 1
+
+Hunter's Guards S
+15
+1 2 -2 0 1
+G
+R4
+O--
+Depthlite Ore 2
+Jaggi Scale+ 2
+Earth Crystal 1
+Lg Monster Bone 2
+5350z
+Poison -2
+SpeedSetup 4
+Perception 4
+Huntsman 1
+Desc
+Ore Scraps+ 1
+Ore Scraps 1
+
+Bone Vambraces S
+30
+2 0 -1 -2 0
+B
+R4
+OO-
+Bird Wyvrn Bone 2
+Lg Monster Bone 1
+Sharp Fang 5
+5350z
+Sleep -3
+Rec Level 2
+Horn 3
+KO 1
+Desc
+Bone Scraps+ 2
+
+Bone Guards S
+15
+4 0 0 -1 0
+G
+R4
+OO-
+Bird Wyvrn Bone 2
+Lg Monster Bone 1
+Sharp Fang 5
+5350z
+Sleep -1
+Rec Level 2
+Horn 3
+KO 3
+Desc
+Bone Scraps+ 2
+
+Alloy Vambraces S
+30
+-1 1 -2 -2 -1
+B
+R4
+O--
+Depthlite Ore 2
+Carbalite Ore 3
+Machalite Ore 7
+Earth Crystal 7
+6900z
+Expert 5
+Sharpener 2
+WindPress 3
+Gathering -1
+Desc
+Ore Scraps+ 2
+
+Alloy Guards S
+15
+0 2 -1 -1 0
+G
+R4
+O--
+Depthlite Ore 2
+Carbalite Ore 3
+Machalite Ore 7
+Earth Crystal 7
+6900z
+Expert 5
+PelletS Up 1
+PelletSAdd 2
+Gathering -3
+Desc
+Ore Scraps+ 2
+
+Jaggi Vambraces S
+35
+-4 -2 -2 -2 1
+B
+R4
+OO-
+Grt Jaggi Claw 4
+Regal Frill 1
+BrdWyvern Stone 1
+Pelagicite Ore 2
+7200z
+Rec Speed 2
+Expert 1
+Attack 4
+LastingPwr -2
+Desc
+GrtJaggiScraps+ 2
+
+Jaggi Guards S
+18
+-2 -1 -1 -1 2
+G
+R4
+OO-
+Grt Jaggi Claw 4
+Regal Frill 1
+BrdWyvern Stone 1
+Pelagicite Ore 2
+7200z
+Rec Speed 1
+Expert 1
+Attack 4
+LastingPwr -3
+Desc
+GrtJaggiScraps+ 2
+
+Viking Vambraces S
+38
+0 3 -2 -2 0
+B
+R5
+O--
+Depthlite Ore 3
+Armord Beakfish 4
+Ancient Fish 3
+Quality Fin 4
+8800z
+Sharpness 3
+Sharpener -1
+Water Atk 4
+Sheathe 3
+Desc
+Ore Scraps+ 1
+
+Viking Guards S
+20
+0 5 -1 -4 0
+G
+R5
+O--
+Depthlite Ore 3
+Armord Beakfish 4
+Ancient Fish 3
+Quality Fin 4
+8800z
+Reload Spd -2
+NormalS Up 4
+Water Atk 4
+Sheathe 1
+Desc
+Ore Scraps+ 1
+
+Crystal Bracelets
+14
+0 3 -3 0 0
+BG
+R5
+OOO
+Carbalite Ore 3
+Lightcrystal 2
+8800z

@@ -753,8 +753,14 @@ R4
 860z
 
 227 Carbalite Ore
+ore purple
+R6
+680z
 
 228 Depthlite Ore
+ore pink
+R6
+720z
 
 229 Union Ore
 
@@ -806,10 +812,16 @@ R4
 242 Hrd Mnster Bone
 
 243 Bird Wyvrn Bone
+bone blue
+R6
+210z
 
 244 Giant Bone
 
 245 Stout Bone
+bone white
+R6
+600z
 
 246 Ancnt Drgn Bone
 
@@ -1001,6 +1013,9 @@ R4
 230z
 
 294 Bulldrome Hide+
+hide white
+R6
+690z
 
 295 Bulldrome Tusk
 claw white
@@ -1013,6 +1028,9 @@ R4
 38z
 
 297 Jaggi Scale+
+scale purple
+R6
+114z
 
 298 Jaggi Hide
 hide purple
@@ -1030,6 +1048,9 @@ R4
 200z
 
 301 Grt Jaggi Hide+
+hide purple
+R6
+780z
 
 302 Grt Jaggi Claw
 claw purple
@@ -1037,6 +1058,9 @@ R4
 180z
 
 303 Grt Jaggi Claw+
+claw purple
+R6
+540z
 
 304 Regal Frill
 webbing purple
@@ -1051,6 +1075,9 @@ R4
 45z
 
 307 Froggi Scale+
+scale orange
+R6
+135z
 
 308 Froggi Hide
 hide orange
@@ -1223,6 +1250,9 @@ R4
 180z
 
 354 Ludroth Hide+
+hide lime
+R6
+540z
 
 355 Juvenile Sponge
 shell yellow
@@ -1753,6 +1783,9 @@ R4
 516 Diablos Thorcic
 
 517 DiablosTailbone
+shell brown
+R4
+1280z
 
 518 Blos Fang
 claw brown
@@ -1806,6 +1839,9 @@ R4
 532 Agnaktor Hide+
 
 533 Agnaktor Claw
+claw red
+R4
+810z
 
 534 Agnaktor Claw+
 
@@ -2520,6 +2556,9 @@ R5
 300z
 
 805 Hrd Enhance Sph
+sphere purple
+R6
+400z
 
 806 Hvy Enhance Sph
 
@@ -2542,5 +2581,8 @@ R4
 350z
 
 812 Battlefield Jwl
+jewel purple
+R5
+530z
 
 813 LapisLazuli Jwl

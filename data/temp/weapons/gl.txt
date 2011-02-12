@@ -255,3 +255,16 @@ Jinouga Claw 2
 Fire Stone 4
 Desc
 Jinouga Scraps 2
+
+Eisenritter
+200
+N2
+R4
+0%
+O--
+30000z
+Carbalite Ore 3
+FireWyvrnMarrow 2
+Iron Ore 30
+Desc
+Ore Scraps+ 2

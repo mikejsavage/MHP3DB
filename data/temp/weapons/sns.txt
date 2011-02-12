@@ -126,6 +126,47 @@ Desc
 						20000z
 						Desc
 						Barioth Scraps 2
+						
+							Nordic Butcher
+							180
+							Ice 35
+							R6
+							30%
+							O--
+							Barioth Claw+ 4
+							Barioth Carapce 5
+							Glacial Sac 3
+							65000z
+							Desc
+							Barioth Scraps+ 2
+							
+							Saber Bite
+							180
+							R5
+							0%
+							---
+							SandBariothClw 4
+							SandBariothShl 5
+							Hard Pleura 3
+							45000z
+							Desc
+							Barioth Scraps+ 2
+							
+							Warrior's Sword
+							180
+							R5
+							0%
+							OO-
+							Carbalite Ore 2
+							Dragonite Ore 5
+							Machalite Ore 10
+							20000z
+							Carbalite Ore 4
+							Iron Ore 40
+							Bealite Ore 20
+							Desc
+							Ore Scraps+ 1
+							Ore Scraps 1
 
 					Shadow Saber
 					130

@@ -177,3 +177,17 @@ Jinouga Shell 4
 Jinouga Pelt 3
 Desc
 Jinouga Scraps 2
+
+Bone Hacker
+180
+Power
+R4
+0%
+OO-
+30000z
+Carbalite Ore 5
+Earth Crystal 30
+Monster Bone+ 5
+Desc
+Ore Scraps+ 1
+Ore Scraps 1

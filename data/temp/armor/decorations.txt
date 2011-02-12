@@ -16,6 +16,14 @@ Akito Jewel 1
 Regal Frill 1
 Aoashira Pelt 2
 
+VigilanceJwl
+blue 4
+1
+Stun 2
+300z
+Battlefield Jwl 1
+Grt Jaggi Hide+ 2
+
 ParalysisJwl
 yellow 4
 1
@@ -337,6 +345,15 @@ Akito Jewel 1
 Diablos Spine 2
 Swallowtail 2
 
+KO Jewel
+orange 5
+2
+KO 3
+FastCharge -1
+375z
+Battlefield Jwl 1
+Stout Bone 2
+
 FatigeAtkJwl
 yellow 4
 1
@@ -559,6 +576,16 @@ Akito Jewel 1
 Black Narga Plt 2
 Bnahabra Wing 2
 
+Sheathe Jwl
+cyan 4
+1
+Sheathe 1
+Sharpener -1
+200z
+Battlefield Jwl 1
+Jaggi Scale+ 1
+Drink Ticket 1
+
 TrapMastrJwl
 cyan 4
 1
@@ -624,6 +651,16 @@ Gluttony 2
 200z
 Suiko Jewel 1
 Giant Bone 1
+
+Rewards Jwl
+green 4
+1
+Rewards 1
+Fate -1
+200z
+Battlefield Jwl 1
+Commendation 1
+Jinouga Pelt 1
 
 BackpckngJwl
 cyan 4
@@ -762,6 +799,15 @@ Artisan -1
 Akito Jewel 1
 Agnaktor Fin 1
 Jinouga Shell 1
+
+Razor Jewel
+gray 4
+1
+Sharpness 1
+Artisan -1
+200z
+Battlefield Jwl 1
+Rathian Plate 1
 
 CritDraw Jwl
 red 4

@@ -226,6 +226,30 @@ Jinouga Pelt 1
 Desc
 Jinouga Scraps 2
 
+Carbalite Sword
+180
+R4
+0%
+O--
+30000z
+Carbalite Ore 5
+Iron Ore 30
+Machalite Ore 20
+Desc
+Ore Scraps+ 2
+
+Agito
+190
+R5
+0%
+O--
+30000z
+Stout Bone 5
+Med Mnster Bone 20
+Rhenoplos Crpce 10
+Desc
+Bone Scraps+ 2
+
 Rusted Greatsword
 100
 R1

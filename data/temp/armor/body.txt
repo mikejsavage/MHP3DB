@@ -1226,3 +1226,261 @@ Loading 1
 FastCharge 1
 Desc
 JhenMhranScraps 2
+
+Chain Mail S
+28
+2 1 -2 1 0
+B
+R4
+O--
+Carbalite Ore 2
+Pelagicite Ore 1
+Earth Crystal 2
+Yukumo Wood+ 2
+3350z
+Health 2
+Shot Mix 5
+FatigueAtk 2
+Desc
+Ore Scraps+ 1
+Ore Scraps 1
+
+Chain Vest S
+14
+3 2 -1 2 0
+G
+R4
+O--
+Carbalite Ore 2
+Pelagicite Ore 1
+Earth Crystal 2
+Yukumo Wood+ 2
+3350z
+Health 3
+NormalSAdd 5
+Shot Mix 1
+Desc
+Ore Scraps+ 1
+Ore Scraps 1
+
+Hunter's Mail S
+30
+0 1 -4 0 0
+B
+R4
+O--
+Carbalite Ore 1
+Jaggi Scale+ 3
+Isisium Ore 3
+Iron Ore 5
+5350z
+Poison -3
+Psychic 2
+Perception 3
+Huntsman 1
+Desc
+Ore Scraps+ 1
+Ore Scraps 1
+
+Hunter's Vest S
+15
+1 2 -2 0 1
+G
+R4
+O--
+Carbalite Ore 1
+Jaggi Scale+ 3
+Isisium Ore 3
+Iron Ore 5
+5350z
+Poison -3
+Psychic 2
+Perception 3
+Huntsman 1
+Desc
+Ore Scraps+ 1
+Ore Scraps 1
+
+Bone Mail S
+30
+2 0 -1 -2 0
+B
+R4
+O--
+Stout Bone 1
+Sm Monster Bone 5
+Sharp Fang 5
+5350z
+Sleep -1
+Gathering 1
+Horn 3
+KO 4
+Desc
+Bone Scraps+ 2
+
+Bone Vest S
+15
+4 0 0 -1 0
+G
+R4
+O--
+Stout Bone 1
+Sm Monster Bone 5
+Sharp Fang 5
+5350z
+Sleep -2
+Gathering 1
+Horn 3
+KO 3
+Desc
+Bone Scraps+ 2
+
+Alloy Mail S
+30
+-1 1 -2 -2 -1
+B
+R4
+OO-
+Depthlite Ore 2
+Carbalite Ore 2
+Machalite Ore 7
+Iron Ore 10
+6900z
+Expert 1
+Sharpener 2
+WindPress 2
+Gathering -2
+Desc
+Ore Scraps+ 2
+
+Alloy Vest S
+15
+0 2 -1 -1 0
+G
+R4
+OO-
+Depthlite Ore 2
+Carbalite Ore 2
+Machalite Ore 7
+Iron Ore 10
+6900z
+Expert 1
+PelletS Up 2
+PelletSAdd 2
+Gathering -2
+Desc
+Ore Scraps+ 2
+
+Jaggi Mail S
+35
+-4 -2 -2 -2 1
+B
+R4
+O--
+Grt Jaggi Claw+ 4
+Grt Jaggi Hide+ 4
+Jaggi Hide 3
+Carbalite Ore 2
+7200z
+Rec Speed 2
+Expert 3
+Attack 2
+LastingPwr -2
+Desc
+GrtJaggiScraps+ 2
+
+Jaggi Vest S
+18
+-2 -1 -1 -1 2
+G
+R4
+O--
+Grt Jaggi Claw+ 4
+Grt Jaggi Hide+ 4
+Jaggi Hide 3
+Carbalite Ore 2
+7200z
+Rec Speed 2
+Expert 3
+Attack 2
+LastingPwr -2
+Desc
+GrtJaggiScraps+ 2
+
+Viking Mail S
+38
+0 3 -2 -2 0
+B
+R5
+OO-
+Depthlite Ore 2
+Armord Beakfish 5
+Shellfish 5
+Bomb Arrowana 10
+8800z
+Sharpness 1
+Sharpener -1
+Water Atk 4
+Sheathe 1
+Desc
+Ore Scraps+ 1
+
+Viking Vest S
+20
+0 5 -1 -4 0
+G
+R5
+O--
+Depthlite Ore 2
+Armord Beakfish 5
+Shellfish 5
+Bomb Arrowana 10
+8800z
+Reload Spd -2
+NormalS Up 1
+Water Atk 3
+Sheathe 1
+Desc
+Ore Scraps+ 1
+
+Acorn Mail S
+44
+2 2 0 -2 0
+B
+R5
+O--
+Depthlite Ore 3
+Comrade Ticket 8
+Firecell Stone 3
+SteelUrgnShield 4
+8800z
+BombStrUp 2
+Gunnery 7
+Desc
+Ore Scraps+ 2
+
+Acorn Vest S
+24
+2 2 0 -2 0
+G
+R5
+O--
+Depthlite Ore 3
+Comrade Ticket 8
+Firecell Stone 3
+SteelUrgnShield 4
+8800z
+BombStrUp 2
+Gunnery 7
+Desc
+Ore Scraps+ 2
+
+Crystal Necklace
+14
+3 -3 0 0 0
+BG
+R5
+OOO
+Carbalite Ore 3
+Lightcrystal 2
+8800z

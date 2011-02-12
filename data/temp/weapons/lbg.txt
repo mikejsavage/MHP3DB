@@ -636,3 +636,75 @@ Ore Scraps 1
 1
 1
 0
+
+Bandit Rage
+170
+R4
+10%
+OO-
+Normal
+None
+Moderate
+57000z
+Grt Jaggi Claw+ 5
+Grt Jaggi Hide+ 8
+Jaggi Scale+ 12
+BrdWyvern Stone 5
+Desc
+GrtJaggiScraps+ 2
+4 3 0
+3!3M 5 5
+0 0 0
+2 0 0
+0 0 0
+2 0
+4 3
+0 0
+1!2S 0
+0 0
+0
+0
+0
+0
+0
+2
+2
+0
+0
+3
+
+Hunter's Rifle
+190
+R4
+0%
+OO-
+Normal
+None
+Moderate
+30000z
+Carbalite Ore 5
+Stout Bone 4
+Hercudrome 5
+Desc
+Bone Scraps+ 1
+Ore Scraps+ 1
+4 5 6
+2 2 0
+4!3M 5 0
+0 0 0
+1 0 0
+2 1
+0 0
+2 1
+0 0
+0 0
+4
+0
+0
+3
+0
+2
+2
+0
+0
+0

@@ -190,3 +190,17 @@ Jinouga Pelt 3
 Jinouga Claw 2
 Desc
 Jinouga Scraps 2
+
+Hard Bone Horn
+200
+PYB
+R4
+0%
+OO-
+30000z
+Stout Bone 5
+Bird Wyvrn Bone 10
+Monster Broth 8
+Blue Mushroom 8
+Desc
+Bone Scraps+ 2

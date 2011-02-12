@@ -211,3 +211,15 @@ Jinouga Pelt 4
 Jinouga Plate 1
 Desc
 Jinouga Scraps 2
+
+Iron Fiend
+190
+R4
+0%
+OO-
+30000z
+Carbalite Ore 8
+Bealite Ore 20
+Iron Ore 50
+Desc
+Ore Scraps+ 2

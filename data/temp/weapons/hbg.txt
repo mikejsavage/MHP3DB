@@ -607,3 +607,40 @@ JhenMhranScraps 2
 0
 0
 0
+
+Carbalite Cannon
+180
+R4
+0%
+OO-
+Slow
+None
+Moderate
+30000z
+Carbalite Ore 5
+Depthlite Ore 5
+Dragonite Ore 15
+Fire Stone 3
+Desc
+Ore Scraps+ 1
+Ore Scraps 1
+4 4 5
+2 3! 0
+4 4 0
+3 3 3
+0 0 0
+0 1
+0 1
+0 1
+0 1
+0 1
+0
+0
+0
+3
+2
+2
+2
+1
+1
+2!

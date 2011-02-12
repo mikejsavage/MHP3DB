@@ -147,3 +147,15 @@ Jinouga Pelt 1
 Jinouga Shell 4
 Desc
 Jinouga Scraps 2
+
+Hurricane
+190
+R5
+0%
+OO-
+30000z
+Carbalite Ore 5
+Earth Crystal 30
+Iron Ore 50
+Desc
+Ore Scraps+ 2

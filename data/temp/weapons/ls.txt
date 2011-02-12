@@ -219,3 +219,16 @@ Jinouga Claw 6
 Jinouga Pelt 3
 Desc
 Jinouga Scraps 2
+
+Strike Katana
+190
+R5
+0%
+O--
+30000z
+Stout Bone 5
+Grt Jaggi Hide+ 3
+Dragonite Ore 8
+Bird Wyvrn Bone 10
+Desc
+GrtJaggiScraps+ 2

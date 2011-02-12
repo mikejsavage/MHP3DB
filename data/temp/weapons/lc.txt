@@ -160,3 +160,28 @@ Jinouga Pelt 2
 Jinouga Tail 1
 Desc
 Jinouga Scraps 2
+
+Champion's Lance
+180
+R4
+0%
+OO-
+30000z
+Carbalite Ore 5
+Fire Stone 5
+Bealite Ore 20
+King Scarab 5
+Desc
+Ore Scraps+ 1
+
+Hard Bone Lance
+200
+R4
+0%
+O--
+30000z
+Stout Bone 5
+Monster Bone+ 5
+Machalite Ore 10
+Desc
+Bone Scraps+ 2

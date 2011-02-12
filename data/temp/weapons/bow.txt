@@ -419,3 +419,19 @@ R2
 P3
 S4
 NYYYYYN
+
+Hunters Power Bow I
+210
+Spread
+Def 16
+R4
+0%
+OO-
+30000z
+Carbalite Ore 5
+Dragonite Ore 10
+Machalite Ore 20
+Grt Jaggi Claw+ 3
+Desc
+Ore Scraps+ 1
+Ore Scraps 1
