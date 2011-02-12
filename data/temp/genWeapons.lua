@@ -86,23 +86,31 @@ local SharpColors =
 	imlib2.color.new(  88, 208,   0 ),
 
 	imlib2.color.new(  48, 104, 232 ),
+
+	imlib2.color.new( 240, 240, 240 ),
 }
 
 -- so we can tell if it's actually the end or just
 -- a color i've not added yet
-local SharpEnd = imlib2.color.new( 0, 0, 0 )
+local SharpEnds =
+{
+	imlib2.color.new(   0,   0  , 0 ),
+	imlib2.color.new(  48,  44,  32 ), -- for a full sharpness bar
+}
 
 function sharpIdx( color )
-	if color.red == SharpEnd.red and
-	   color.green == SharpEnd.green and
-	   color.blue == SharpEnd.blue then
-		return -1
+	for _, endSharp in ipairs( SharpEnds ) do
+		if color.red   == endSharp.red   and
+		   color.green == endSharp.green and
+		   color.blue  == endSharp.blue  then
+			return -1
+		end
 	end
 
 	for i, col in ipairs( SharpColors ) do
-		if col.red == color.red and
+		if col.red   == color.red   and
 		   col.green == color.green and
-		   col.blue == color.blue then
+		   col.blue  == color.blue  then
 			return i
 		end
 	end
