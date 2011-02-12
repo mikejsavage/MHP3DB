@@ -33,21 +33,15 @@ Items,       ItemsJSON       = data( "items" )
 Skills,      SkillsJSON      = data( "skills" )
 
 
-function FCGI_Accept()
+function FCGI_Accept( postString )
 	Get = { }
 
 	if os.getenv( "QUERY_STRING" ) then
 		Get = parse( os.getenv( "QUERY_STRING" ) )
 	end
 
-	Post = { }
-	local postLength = os.getenv( "CONTENT_LENGTH" )
+	Post = parse( postString )
 
-	if postLength and postLength ~= "0" then
-		if os.getenv( "CONTENT_TYPE" ):startsWith( "application/x-www-form-urlencoded" ) then
-			Post = parse( io.stdin:read( tonumber( postLength ) ) )
-		end
-	end
 
 	IsLocalHost = os.getenv( "SERVER_NAME" ) == "localhost"
 	CurrentUrl = os.getenv( "REQUEST_URI" ):sub( BaseUrl:len() + 2 )

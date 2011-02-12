@@ -1,11 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
 #include <assert.h>
+
 #include <fcgi_stdio.h>
 
 #include <lua.h>
 #include <lualib.h>
 #include <lauxlib.h>
+
+#define POST_CONTENT_TYPE "application/x-www-form-urlencoded"
 
 // i don't know why this is necessary but it is
 static int fcgiPrint( lua_State *L )
@@ -28,20 +33,55 @@ int main( int argc, char *argv[] )
 
 	while( FCGI_Accept() >= 0 )
 	{
+		// it literally does not work without this line
+		// not even if it gets put in fcgi.lua
+		// TODO: this makes redirects/cookies a little awkward
 		printf( "Content-type: text/html\r\n\r\n" );
+
+
+		// POST parsing
+
+		char *postString = "";
+		char *contentLength = getenv( "CONTENT_LENGTH" );
+
+		if( contentLength )
+		{
+			size_t postLength = atoi( contentLength );
+
+			if( postLength != 0 )
+			{
+				char *contentType = getenv( "CONTENT_TYPE" );
+
+				if( contentType != NULL && strncmp( contentType, POST_CONTENT_TYPE, sizeof( POST_CONTENT_TYPE ) - 1 ) == 0 )
+				{
+					postString = malloc( postLength + 1 );
+
+					fread( postString, 1, postLength, stdin );
+
+					postString[ postLength ] = 0;
+				}
+			}
+		}
+
+
+		// call FCGI_Accept( postString ) in fcgi.lua
 
 		lua_getglobal( L, "FCGI_Accept" );
 
-		if( lua_pcall( L, 0, 0, 0 ) )
+		lua_pushstring( L, postString );
+
+		if( lua_pcall( L, 1, 0, 0 ) )
 		{
 			printf( "ERR: %s\n", lua_tostring( L, -1 ) );
 
 			lua_pop( L, 1 );
 		}
 
-		//assert( lua_gettop( L ) == 0 );
+		assert( lua_gettop( L ) == 0 );
 	}
 
+	// this fails if the file doesn't exist
+	// but who cares?
 	( void ) luaL_dofile( L, "fcgi_shutdown.lua" );
 
 	lua_close( L );
