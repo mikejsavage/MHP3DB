@@ -30,6 +30,8 @@ local MaxSlots = 3
 -- perhaps a gigantic FSM was not
 -- the best way of doing this
 
+local createIdx = 1
+
 local Actions =
 {
 	init = function( line, decor )
@@ -84,6 +86,12 @@ local Actions =
 	end,
 
 	create = function( line, piece )
+		if line == "or" then
+			createIdx = createIdx + 1
+
+			return "create"
+		end
+
 		local id, count = parseItem( line )
 
 		assert( id, "bad material in " .. piece.name.hgg .. ": " .. line )
@@ -92,7 +100,11 @@ local Actions =
 			piece.create = { }
 		end
 
-		table.insert( piece.create, { id = id, count = count } )
+		if not piece.create[ createIdx ] then
+			piece.create[ createIdx ] = { }
+		end
+
+		table.insert( piece.create[ createIdx ], { id = id, count = count } )
 
 		return "create"
 	end,
@@ -122,6 +134,7 @@ for line in io.lines() do
 
 		state = "init"
 		decoration = { }
+		createIdx = 1
 	else
 		state = doLine( line, decoration, state )
 	end

@@ -25,12 +25,17 @@
 
 		// array of materials to create
 		"create" : [
-			// object for each material
-			{
-				// index into items.json
-				"id" : int
-				"count" : int
-			}
+			// there are multiple ways of creating some decorations
+			// so use an array for each method
+			[
+				// object for each material
+				{
+					// index into items.json
+					"id" : int
+					"count" : int
+				}
+				...
+			]
 			...
 		]
 

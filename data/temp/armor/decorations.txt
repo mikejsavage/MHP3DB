@@ -15,12 +15,7 @@ Stun 2
 Akito Jewel 1
 Regal Frill 1
 Aoashira Pelt 2
-
-VigilanceJwl
-blue 4
-1
-Stun 2
-300z
+or
 Battlefield Jwl 1
 Grt Jaggi Hide+ 2
 
