@@ -1,4 +1,4 @@
-module( ..., package.seeall )
+module( "json", package.seeall )
 
 -- DECODING
 
@@ -173,7 +173,8 @@ function null()
 	return null
 end
 
-local function decodeValue( str, pos )
+-- why does this need to be global...
+function decodeValue( str, pos )
 	pos = skip( str, pos )
 
 	local next = str:at( pos )
