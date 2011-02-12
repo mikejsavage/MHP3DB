@@ -26,7 +26,7 @@
 		// array of materials to create
 		"create" : [
 			// there are multiple ways of creating some decorations
-			// so use an array for each method
+			// so use an array for each set
 			[
 				// object for each material
 				{
