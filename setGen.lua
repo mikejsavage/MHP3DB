@@ -148,6 +148,8 @@ if request then
 	local req = json.decode( request:gsub( "%%22", "\"" ) )
 
 	if not req then -- gg
+		print( "no request" )
+
 		return
 	end
 
