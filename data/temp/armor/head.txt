@@ -948,6 +948,21 @@ Thundr Atk 2
 Desc
 Ore Scraps 2
 
+Jaggi Mask
+10
+0 0 0 0 0
+BG
+R3
+---
+Grt Jaggi Head 1
+Grt Jaggi Hide 3
+Regal Frill 1
+Fire Stone 2
+850z
+HiSpdGathr 10
+Desc
+GrtJaggi Scraps 4
+
 Skull Face
 10
 2 -2 -2 -2 1
