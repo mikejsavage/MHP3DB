@@ -345,13 +345,7 @@ FastCharge -1
 Akito Jewel 1
 Diablos Spine 2
 Swallowtail 2
-
-KO Jewel
-orange 5
-2
-KO 3
-FastCharge -1
-375z
+or
 Battlefield Jwl 1
 Stout Bone 2
 
