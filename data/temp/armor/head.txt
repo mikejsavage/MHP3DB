@@ -1180,6 +1180,42 @@ FastCharge 2
 Desc
 JhenMhranScraps 2
 
+Yukumo Hat [Ten]
+28
+0 0 3 0 0
+BG
+R4
+OO-
+Yukumo Wood+ 1
+Yukumo Wood 5
+Gagua Feather 5
+2700z
+Sharpener 3
+Protection 1
+Whim 4
+Rec Level 1
+Desc
+Wood Scraps+ 1
+Wood Scraps 1
+
+Yukumo Hat [Chi]
+14
+0 0 4 0 0
+BG
+R4
+OO-
+Yukumo Wood+ 1
+Yukumo Wood 5
+Gagua Feather 5
+2700z
+Protection 2
+Whim 4
+Rec Level 2
+Precision 3
+Desc
+Wood Scraps+ 1
+Wood Scraps 1
+
 Leather Helm S
 28
 -1 0 0 0 1
@@ -1358,6 +1394,72 @@ Gathering -1
 Desc
 Ore Scraps+ 2
 
+Nightmare Furore S
+32
+-4 1 0 2 0
+BG
+R5
+OO-
+King Scarab 3
+Pepipo Pumpkin 4
+Ancient Potion 1
+Felvine 15
+8800z
+Guard -3
+Evasion 2
+SpeedSetup 3
+FastCharge 1
+Desc
+Altarth Scraps+ 2
+Pumpkin Scraps 1
+
+Nightmare Brume S
+16
+-2 2 0 4 0
+BG
+R5
+OO-
+King Scarab 3
+Pepipo Pumpkin 4
+Ancient Potion 1
+Felvine 15
+8800z
+Evasion 4
+Precision -1
+SpeedSetup 3
+FastCharge 3
+Desc
+Altarth Scraps+ 2
+Pumpkin Scraps 1
+
+Gagua Mask S
+32
+-4 -2 -1 2 1
+BG
+R5
+---
+Yukumo Wood+ 2
+High Qualty Plt 3
+Gagua Feather 10
+8800z
+Combo Rate 15
+Desc
+Pelt Scraps+ 4
+
+Gagua Head S
+18
+-2 -1 0 4 2
+BG
+R5
+---
+Yukumo Wood+ 2
+High Qualty Plt 3
+Gagua Feather 10
+8800z
+Combo Rate 15
+Desc
+Pelt Scraps+ 4
+
 Jaggi Helm S
 35
 -4 -2 -2 -2 1
@@ -1393,6 +1495,114 @@ Attack 5
 LastingPwr -1
 Desc
 GrtJaggiScraps+ 2
+
+Grove Helm S
+35
+-3 1 -1 -2 1
+BG
+R4
+O--
+Aoashira Carpce 3
+Stout Bone 2
+Aoashira Pelt 3
+Hercudrome 3
+7200z
+Paralysis -3
+Stun 3
+Defense 3
+Protection 2
+Desc
+AoashiraScraps+ 2
+
+Grove Cap S
+18
+-2 2 0 -1 3
+BG
+R4
+O--
+Aoashira Carpce 3
+Stout Bone 2
+Aoashira Pelt 3
+Hercudrome 3
+7200z
+Paralysis -1
+Stun 4
+Defense 4
+Protection 4
+Desc
+AoashiraScraps+ 2
+
+Froggi Helm S
+38
+2 -2 1 -4 0
+BG
+R4
+OO-
+Grt Frggi Hide+ 3
+Regal Snout 2
+BrdWyvern Stone 1
+Hercudrome 6
+7500z
+Poison 2
+Defense -3
+Eating 2
+Constitutn 2
+Desc
+GrtFrggiScraps+ 2
+
+Froggi Cap S
+20
+4 -1 2 -2 0
+BG
+R4
+OO-
+Grt Frggi Hide+ 3
+Regal Snout 2
+BrdWyvern Stone 1
+Hercudrome 6
+7500z
+Poison 2
+Defense -1
+Eating 4
+Constitutn 4
+Desc
+GrtFrggiScraps+ 2
+
+Qurupeco Helm S
+35
+2 -2 -1 -4 2
+BG
+R5
+OO-
+Splendid Beak 2
+Qurupeco Wing 2
+Monster Bone+ 1
+Hercudrome 3
+7200z
+Wide Area 3
+Ice Res -3
+Psychic 2
+Fire Atk 1
+Desc
+Qurupco Scraps+ 2
+
+Qurupeco Cap S
+18
+4 -1 0 -3 4
+BG
+R5
+OO-
+Splendid Beak 2
+Qurupeco Wing 2
+Monster Bone+ 1
+Hercudrome 3
+7200z
+Wide Area 5
+Ice Res -1
+Psychic 4
+Fire Atk 1
+Desc
+Qurupco Scraps+ 2
 
 Viking Helm S
 38
@@ -1460,6 +1670,42 @@ Hunger 15
 Desc
 Bulldrm Scraps+ 4
 
+Ludroth Helm S
+38
+-4 2 -2 -2 1
+BG
+R5
+OO-
+Exquisite Crest 2
+RoyalLudrthScl+ 3
+RoyalLudrthTail 1
+Hydro Sac 2
+7500z
+Stun 2
+Stamina 2
+Water Atk 2
+Thundr Atk -3
+Desc
+Ludroth Scraps+ 2
+
+Ludroth Cap S
+20
+-2 4 -1 -1 2
+BG
+R5
+OO-
+Exquisite Crest 2
+RoyalLudrthScl+ 3
+RoyalLudrthTail 1
+Hydro Sac 2
+7500z
+Stun 5
+Stamina 4
+Water Atk 1
+Thundr Atk -1
+Desc
+Ludroth Scraps+ 2
+
 Jaggi Mask S
 41
 0 0 0 0 0
@@ -1489,6 +1735,40 @@ Firecell Stone 3
 HiSpdGathr 10
 Desc
 GrtJaggiScraps+ 4
+
+Barroth Helm S
+41
+0 0 2 -3 0
+BG
+R5
+---
+Barroth Thracic 4
+Barroth Carapce 2
+Fertile Mud 5
+Jaggi Scale 4
+8300z
+Guard 3
+Hunger -3
+Potential 4
+Constitutn 3
+Desc
+Barroth Scraps+ 2
+
+Barroth Cap S
+22
+2 2 4 -1 0
+BG
+R5
+---
+Barroth Thracic 4
+Barroth Carapce 2
+Fertile Mud 5
+Jaggi Scale 4
+8300z
+Recoil 4
+NormalS Up 3
+Hunger -2
+Potential 6
 
 Acorn Helm S
 44

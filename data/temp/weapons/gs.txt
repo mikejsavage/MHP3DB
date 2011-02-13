@@ -250,6 +250,21 @@ Rhenoplos Crpce 10
 Desc
 Bone Scraps+ 2
 
+Brass Wall
+200
+Def 30
+R4
+0%
+---
+52500z
+Shrp Mnster Bne 5
+Uragaan Shield 8
+Uragaan Jaw 2
+Uragaan Marrow 1
+Desc
+Bone Scraps+ 1
+Uragaan Scraps 1
+
 Rusted Greatsword
 100
 R1

@@ -608,6 +608,43 @@ JhenMhranScraps 2
 0
 0
 
+Aoashira Rumbler
+200
+Def 20
+R4
+0%
+---
+Slow
+???
+Moderate
+45000z
+Aoashira Pelt+ 5
+Aoashira Arm+ 3
+Aoashira Carpce 4
+Carbalite Ore 5
+Desc
+AoashiraScraps+ 2
+5 6 8
+2 0 0
+3! 4 0
+2 0 0
+0 0 0
+2 0
+0 0
+2! 1
+0 0
+3 2!
+3
+0
+0
+0
+0
+2
+2
+1
+0
+0
+
 Carbalite Cannon
 180
 R4

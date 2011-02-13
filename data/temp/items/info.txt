@@ -567,6 +567,9 @@ R4
 50z
 
 183 Yukumo Wood+
+wood orange
+R6
+350z
 
 184 High Qualty Ash
 
@@ -690,6 +693,9 @@ R4
 350z
 
 212 King Scarab
+bug purple
+R6
+800z
 
 213 Rare Scarab
 
@@ -808,6 +814,9 @@ R4
 560z
 
 241 Shrp Mnster Bne
+bone pink
+R6
+660z
 
 242 Hrd Mnster Bone
 
@@ -836,6 +845,9 @@ R4
 18z
 
 249 BrdWyvern Stone
+ball blue
+R7
+4850z
 
 250 Wyvern Stone
 
@@ -855,6 +867,9 @@ R4
 96z
 
 254 Toxin Sac
+sac purple
+R6
+288z
 
 255 Paralysis Sac
 sac yellow
@@ -883,6 +898,9 @@ R4
 170z
 
 262 Hydro Sac
+sac cyan
+R6
+510z
 
 263 Thunder Sac
 
@@ -1068,6 +1086,9 @@ R4
 580z
 
 305 Grt Jaggi Head
+shell purple
+R4
+720z
 
 306 Froggi Scale
 scale orange
@@ -1095,6 +1116,9 @@ R4
 280z
 
 311 Grt Frggi Hide+
+hide orange
+R6
+840z
 
 312 Grt Frggi Arm
 shell orange
@@ -1102,6 +1126,9 @@ R4
 210z
 
 313 Grt Frggi Arm+
+shell orange
+R6
+630z
 
 314 Regal Snout
 bone orange
@@ -1145,6 +1172,9 @@ R4
 220z
 
 324 Aoashira Pelt+
+hide blue
+R6
+660z
 
 325 Aoashira Shell
 nshell blue
@@ -1152,6 +1182,9 @@ R4
 270z
 
 326 Aoashira Carpce
+nshell blue
+R6
+810z
 
 327 Aoashira Arm
 shell blue
@@ -1159,6 +1192,9 @@ R4
 360z
 
 328 Aoashira Arm+
+shell blue
+R6
+1080z
 
 329 Urukusu Pelt
 hide white
@@ -1213,6 +1249,9 @@ R4
 280z
 
 343 Qurupeco Scale+
+scale lime
+R6
+840z
 
 344 Qurupeco Feathr
 shell lime
@@ -1220,6 +1259,9 @@ R4
 490z
 
 345 Qurupeco Wing
+shell lime
+R6
+1470z
 
 346 Vibrant Down
 shell lime
@@ -1232,6 +1274,9 @@ R4
 1300z
 
 348 Splendid Beak
+bone lime
+R6
+2600z
 
 349 Flintstone
 ore red
@@ -1265,6 +1310,9 @@ R4
 320z
 
 357 Spongy Hide+
+hide yellow
+R6
+960z
 
 358 RoyalLudrothScl
 scale yellow
@@ -1272,6 +1320,9 @@ R4
 220z
 
 359 RoyalLudrthScl+
+scale yellow
+R6
+660z
 
 360 RoyalLudrothClw
 claw yellow
@@ -1279,6 +1330,9 @@ R4
 580z
 
 361 RoyalLudrthClw+
+claw yellow
+R6
+1740z
 
 362 RyalLudrthCrest
 hide yellow
@@ -1286,6 +1340,9 @@ R4
 1020z
 
 363 Exquisite Crest
+hide yellow
+R6
+3060z
 
 364 RoyalLudrthTail
 shell yellow
@@ -1311,6 +1368,9 @@ R4
 480z
 
 371 Barroth Thracic
+shell orange
+R6
+1440z
 
 372 Barroth Claw
 claw orange
@@ -1318,6 +1378,9 @@ R4
 520z
 
 373 Barroth Claw+
+claw orange
+R6
+1560z
 
 374 Barroth Skl Shl
 shell orange
@@ -2292,6 +2355,9 @@ bone purple
 60pts
 
 706 Golden Bone
+bone yellow
+R3
+350pts
 
 707 Bloodstone
 ore red
@@ -2567,6 +2633,8 @@ charm white
 R4
 
 808 Radiant Charm
+charm yellow
+R5
 
 809 Ancient Charm
 

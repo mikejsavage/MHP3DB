@@ -75,6 +75,9 @@ Stun -1
 Akito Jewel 1
 Grt Frggi Arm 2
 Screamer 2
+or
+Battlefield Jwl 1
+Toxin Sac 1
 
 FortitudeJwl
 purple 4
@@ -222,6 +225,9 @@ Dragon Res -1
 Akito Jewel 1
 Nargacuga Wing 1
 Grt Baggi Claw 2
+or
+Battlefield Jwl 1
+RoyalLudrthScl+ 2
 
 SpcialAtkJwl
 pink 4
@@ -368,6 +374,9 @@ Stamina -1
 Akito Jewel 1
 Narga TailSpike 2
 HotSpringTicket 1
+or
+Battlefield Jwl 1
+Barroth Claw+ 1
 
 PotentialJwl
 red 4
@@ -424,6 +433,10 @@ Attack -1
 Akito Jewel 1
 Uragaan Shell 2
 Armorskin 2
+or
+Battlefield Jwl 1
+Aoashira Arm+ 1
+Mega Armorskin 2
 
 Inferno Jwl
 red 4
@@ -551,6 +564,16 @@ Akito Jewel 1
 Qurupeco Scale 1
 Kelbi Horn 2
 
+Cure Jewel
+green 5
+2
+Rec Level 3
+Rec Speed -1
+375z
+Battlefield Jwl 1
+Qurupeco Scale+ 1
+Ancient Potion 1
+
 Evade Jewel
 cyan 4
 1
@@ -646,6 +669,16 @@ Gluttony 2
 200z
 Suiko Jewel 1
 Giant Bone 1
+
+Fate Jewel
+red 4
+1
+Fate 1
+Whim -1
+200z
+Battlefield Jwl 1
+BrdWyvern Stone 1
+Silver Egg 2
 
 Rewards Jwl
 green 4
@@ -794,13 +827,7 @@ Artisan -1
 Akito Jewel 1
 Agnaktor Fin 1
 Jinouga Shell 1
-
-Razor Jewel
-gray 4
-1
-Sharpness 1
-Artisan -1
-200z
+or
 Battlefield Jwl 1
 Rathian Plate 1
 
@@ -870,6 +897,9 @@ Recoil -1
 Akito Jewel 1
 Monster Bone+ 2
 Rumblefish 5
+or
+Battlefield Jwl 1
+Barroth Thracic 2
 
 Pierce Jewel
 white 4

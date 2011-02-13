@@ -420,6 +420,21 @@ P3
 S4
 NYYYYYN
 
+Heart Peco Bow III
+150
+Spread
+Fire 27
+R4
+0%
+O--
+45000z
+Splendid Beak 2
+Qurupeco Wing 6
+Flintstone 10
+Carbalite Ore 5
+Desc
+Qurupeco Scraps+ 2
+
 Hunters Power Bow I
 210
 Spread
