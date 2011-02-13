@@ -683,7 +683,7 @@ function calc( force )
 
 
 	// let's fill the skills table
-	// YESSIR I KILL, CHILL, CAUSE THE NIGHT IS YOUNG
+	// STILL FEELING ILL DANCE FLOOR ON IT YESSIR I KILL, CHILL
 
 	var skillTable = $( "skills" );
 	clearTable( skillTable );
