@@ -90,15 +90,11 @@ end
 
 {{ icon( "equipment/tln" ) }}
 
-<select id="tlnskill0" onchange="tlnSkillChanged( 0 )">
-	<option>No primary skill</option>
-</select>
-<input type="text" class="small" id="tlnskill0pts" value="0">
+<select id="tlnskill0" onchange="tlnSkillChanged( 0 )"></select>
+<input type="text" id="tlnskill0pts" onblur="tlnPointsChanged( 0 )" class="small" value="0">
 
-<select id="tlnskill1" onchange="tlnSkillChanged( 1 )">
-	<option>No secondary skill</option>
-</select>
-<input type="text" class="small" id="tlnskill1pts" value="0">
+<select id="tlnskill1" onchange="tlnSkillChanged( 1 )"></select>
+<input type="text" id="tlnskill1pts" onblur="tlnPointsChanged( 1 )" class="small" value="0">
 
 <div class="slots">
 	<select id="tlnslot0" onchange="slotChanged( 'tln', 0 )"></select>
@@ -106,7 +102,7 @@ end
 	<select id="tlnslot2" onchange="slotChanged( 'tln', 2 )"></select>
 </div>
 
-<small>No guarantees that this charm is legit as of yet</small>
+<small>(No guarantees as of yet that this charm is legit... watch this space!)</small>
 <br><br>
 
 
@@ -145,6 +141,7 @@ Share your set:
 		<tr>
 			<th>Active Skill</th>
 			<th>Skill Tree</th>
+
 			<th>{{ icon( "equipment/" .. weaponIcon ) }}</th>
 
 			{%
@@ -152,6 +149,8 @@ Share your set:
 				print( ( "<th>%s</th>" ):format( icon( "equipment/" .. class.short ) ) )
 			end
 			%}
+
+			<th>{{ icon( "equipment/tln" ) }}</th>
 
 			<th>Total</th>
 		</tr>

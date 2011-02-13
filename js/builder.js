@@ -1,8 +1,14 @@
 // constants
 
-var Types = [ "wpn", "hlm", "plt", "arm", "wst", "leg"/*, "tln"*/ ];
+var Types = [ "wpn", "hlm", "plt", "arm", "wst", "leg", "tln" ];
 var MaxSlots = 3;
 var MaxTalismanSkills = 2;
+
+// TODO: these are not translation friendly
+
+// lol stupid name
+var NArys = [ "primary", "secondary" ];
+
 var Elements =
 {
 	"fire" : "Fire",
@@ -11,6 +17,7 @@ var Elements =
 	"ice" : "Ice",
 	"dragon" : "Dragon"
 };
+
 var NoSkill = "--"; // = "gunners";
 
 // globals
@@ -27,6 +34,11 @@ var Gunner = true;
 
 onLoad( function()
 {
+	// TODO: it would be a million times better if this
+	//       sorted things alphabetically
+	//       possibly create an array of indices which is
+	//       sorted to point to the correct pieces?
+
 	// initialize EatenSlots array and setup UI
 	Types.map( function( type )
 	{
@@ -37,15 +49,13 @@ onLoad( function()
 			EatenSlots[ type ][ slot ] = [ ];
 		}
 
-		if( type == "tln" )
-		{
-			talismanChanged();
-		}
-		else
+		if( type != "tln" )
 		{
 			pieceChanged( type );
 		}
 	} );
+
+	initTalisman();
 
 
 
@@ -70,6 +80,42 @@ onLoad( function()
 	// we are done loading
 	hide( $( "loading" ) );
 } );
+
+function initTalisman()
+{
+	// TODO: should we reset the points inputs to 0 in this due to them
+	//       sticking (and the actual skills not) over refreshes?
+
+	for( var i = 0; i < MaxTalismanSkills; i++ )
+	{
+		var sel = $( "tlnskill" + i );
+
+		sel.options[ 0 ] = new Option( "No " + NArys[ i ] + " skill", -1 );
+
+		var idx = 1;
+
+		Skills.map( function( skill, skillId )
+		{
+			// don't include torso up...
+			if( skill.copy == null )
+			{
+				// correct skillId the wrong way as it gets corrected
+				// back in calc...
+				// potential optimization!
+				sel.options[ idx ] = new Option(
+					skill.name.T(),
+					skillId + 1
+				);
+
+				idx++;
+			}
+		} );
+
+		tlnSkillChanged( i );
+	}
+
+	showSlots( "tln" );
+}
 
 // skill sorting func
 function sortByPoints( a, b )
@@ -173,6 +219,7 @@ function decorationInfo( decoration )
 	// TODO: are there decorations with multiple +ve skills?
 	var skill = decoration.skills[ 0 ];
 
+	// id - 1 for lua -> js correction
 	return Skills[ skill.id - 1 ].name.T() + " +" + skill.points +
 		( decoration.slots == 0 ? "" : " " + "O".repeat( decoration.slots ) );
 
@@ -182,18 +229,18 @@ function decorationInfo( decoration )
 
 function numSlots( short )
 {
+	if( short == "tln" )
+	{
+		return MaxSlots;
+	}
+
 	// get value of select
 	var idx = parseInt( $( short ).value );
 
-
+	// for weapons, value = slots
+	if( short == "wpn" )
 	{
 		return parseInt( idx );
-	}
-
-	if( short == "tln" )
-	{
-		// TODO
-		return 0;
 	}
 
 	// for "x slotted y", value = -( slots + 1 )
@@ -488,16 +535,14 @@ function slotChanged( short, slot )
 {
 	freeSlots( short, slot );
 
-	var shortSlot = short + "slot";
-
-	var selSlot = $( shortSlot + slot );
+	var selSlot = $( short + "slot" + slot );
 
 	if( selSlot.selectedIndex != 0 )
 	{
-		var decorIdx = selSlot.value;
+		var decorIdx   = selSlot.value;
 		var decoration = Decorations[ decorIdx ];
 
-		// do nothing if it's a 1 slot decoration
+		// i = 1 so we do nothing if it's a 1 slot decoration
 		for( var i = 1; i < decoration.slots; i++ )
 		{
 			eatASlot( short, slot, decorIdx );
@@ -505,6 +550,44 @@ function slotChanged( short, slot )
 	}
 
 	refreshSlots( short );
+
+	calc();
+}
+
+// TODO: check whether the entered charm is possible
+//       it doesn't have to be an exact match, charms
+//       can provide more than what is specified but
+//       it should be made clear to the user when this
+//       is the case
+
+// TODO: actually do these...
+function tlnSkillChanged( skill )
+{
+	// TODO: don't allow the same skill twice
+
+	var selId = "tlnskill" + skill;
+
+	var sel = $( selId );
+
+	// yes this block can be replaced with 1 line
+	// but this section will be expanded
+	if( sel.selectedIndex == 0 )
+	{
+		// i think disabling could make it a pain to use...
+		$( selId + "pts" ).disabled = true;
+	}
+	else
+	{
+		$( selId + "pts" ).disabled = false;
+	}
+
+	calc();
+}
+
+// TODO: right now this is called onBlur - improve?
+function tlnPointsChanged( skill )
+{
+	// TODO: make sure they actually entered a number
 
 	calc();
 }
@@ -522,9 +605,10 @@ function calc( force )
 
 		skills.map( function( skill )
 		{
-			// corrects lua arrays being 0 based
+			// corrects lua arrays being 1-based
 			var id = skill.id - 1;
 
+			// handles [type] up (overkill as only torso up exists...)
 			var copy = Skills[ id ].copy;
 
 			if( copy != null )
@@ -562,7 +646,7 @@ function calc( force )
 	{
 		materials.map( function( material )
 		{
-			if( setMaterials[ material.id ] != undefined )
+			if( setMaterials[ material.id ] != null )
 			{
 				setMaterials[ material.id ] += material.count;
 			}
@@ -587,7 +671,9 @@ function calc( force )
 
 				addSkills( short, decoration.skills );
 
-				addMaterials( decoration.create, decoration.price );
+				// TODO: how can I nicely support decorations
+				//       with multiple creation methods?
+				addMaterials( decoration.create[ 0 ], decoration.price );
 			}
 		}
 	}
@@ -678,6 +764,25 @@ function calc( force )
 		}
 	} );
 
+	var tlnSkills = [ ];
+
+	for( var i = 0; i < MaxTalismanSkills; i++ )
+	{
+		var selId = "tlnskill" + i;
+
+		var sel = $( selId );
+
+		if( sel.selectedIndex != 0 )
+		{
+			tlnSkills.push(	{
+				"id" : sel.value,
+				"points" : parseInt( $( selId + "pts" ).value, 10 )
+			} );
+		}
+	}
+
+	addSkills( "tln", tlnSkills );
+
 	var result = skillTotals().sort( sortByPoints );
 
 
@@ -687,49 +792,51 @@ function calc( force )
 	var skillTable = $( "skills" );
 	clearTable( skillTable );
 
-	var numSkills = result.length;
+	var printedSkills = 0;
 
-	if( numSkills == 0 )
+	for( var i = 0, m = result.length; i < m; i++ )
+	{
+		var skill = result[ i ];
+
+		if( skill.points == 0 )
+		{
+			continue;
+		}
+
+		var row = skillTable.insertRow( skillTable.rows.length );
+
+		var name = row.insertCell( 0 );
+		name.innerHTML = skill.name;
+
+		if( skill.points < 0 && skill.name != NoSkill )
+		{
+			name.className = "neg";
+		}
+
+		row.insertCell( 1 ).innerHTML = Skills[ skill.id ].name.T();
+
+		Types.map( function( short, j )
+		{
+			var typePoints = skill.types[ short ];
+
+			row.insertCell( j + 2 ).innerHTML =
+				typePoints == 0 || typePoints == null ? "" : typePoints;
+		} );
+
+		row.insertCell( 9 ).innerHTML = skill.points;
+
+		printedSkills++;
+	}
+
+	// this happens when result.length == 0 or the
+	// skill points clash perfectly (super rare but still...)
+	if( printedSkills == 0 )
 	{
 		var row  = skillTable.insertRow( 0 );
 		var cell = row.insertCell( 0 );
 
 		cell.colSpan = "10";
 		cell.innerHTML = "You have no skills. Are you a gunner?"; // :)
-	}
-	else
-	{
-		for( var i = 0; i < numSkills; i++ )
-		{
-			var skill = result[ i ];
-
-			if( skill.points == 0 )
-			{
-				continue;
-			}
-
-			var row = skillTable.insertRow( skillTable.rows.length );
-
-			var name = row.insertCell( 0 );
-			name.innerHTML = skill.name;
-
-			if( skill.points < 0 && skill.name != NoSkill )
-			{
-				name.className = "neg";
-			}
-
-			row.insertCell( 1 ).innerHTML = Skills[ skill.id ].name.T();
-
-			Types.map( function( short, j )
-			{
-				var typePoints = skill.types[ short ];
-
-				row.insertCell( j + 2 ).innerHTML =
-					typePoints == 0 || typePoints == null ? "" : typePoints;
-			} );
-
-			row.insertCell( 8 ).innerHTML = skill.points;
-		}
 	}
 
 
@@ -831,12 +938,11 @@ function getSetUrl()
 	return out;
 }
 
+// this will die if you pass it a fudged string
+// but i really don't care - why waste cpu cycles
+// on people trying to make duff sets
 function loadSet( url )
 {
-	// this will die if you pass it a fudged string
-	// but i really don't care - why waste cpu cycles
-	// on people trying to make duff sets
-
 	function loadDecorations( short, decorations )
 	{
 		var shortSlot = short + "slot";
@@ -857,6 +963,7 @@ function loadSet( url )
 			freeSlot[ short ] += Decorations[ id ].slots;
 		}
 	}
+
 
 
 	// stop calc happening while we load the set
