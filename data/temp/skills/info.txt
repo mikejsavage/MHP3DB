@@ -6,8 +6,12 @@ Poison
 -10 Poison [x2]
 
 Paralysis
+10 Parlysis Negatd
+-10 Paralysis [x2]
 
 Sleep
+10 Sleep Negated
+-10 Sleep [x2]
 
 Stun
 15 Stun Negated
@@ -64,20 +68,40 @@ Guard Up
 Auto-Guard
 
 Reload Spd
+20 Reload Spd +3
+15 Reload Spd +2
+10 Reload Spd +1
+-10 Reload Spd -1
+-15 Reload Spd -2
+-20 Reload Spd -3
 
 Recoil
+20 RecoilReductn+3
+15 RecoilReductn+2
+10 RecoilReductn+1
+-10 RecoilReductn-1
+-15 RecoilReductn-2
+-20 RecoilReductn-3
 
 NormalS Up
+10 NrmlS/RapdBowUp
 
 PierceS Up
+10 PrceS/PrceBowUp
 
 PelletS Up
+10 PlltS/SctrBowUp
 
 NormalSAdd
+10 Norml S All Add
 
 PierceSAdd
+15 Prce S All Add
+10 Prce S LV1 Add
 
 PelletSAdd
+15 Pllt S All Add
+10 Pllt S LV1 Add
 
 Crag S Add
 
@@ -91,6 +115,7 @@ Status
 Elemental
 
 BombStrUp
+10 Bombardier
 
 Hunger
 15 Hunger Negated
@@ -184,12 +209,18 @@ Whim
 -15 Devil's Whim
 
 Fate
+15 Luck Booster
+10 Good Luck
+-10 Bad Luck
+-15 Calamity
 
 Psychic
 15 Autotracker
 10 Detect
 
 Rec Level
+10 Recovery Up
+-10 Recovery Down
 
 Combo Rate
 15 Combne Suc +45%
@@ -219,8 +250,13 @@ Stamina
 -10 Flat Footed
 
 Loading
+15 Load Up
 
 Precision
+15 Accuracy +2
+10 Accuracy +1
+-10 Accuracy -1
+-15 Accuracy -2
 
 Eating
 15 Quick Eating +2
@@ -269,6 +305,7 @@ Rapid Fire
 Dungmaster
 
 Antiseptic
+10 Antiseptic
 
 PoisonCAdd
 
@@ -332,6 +369,7 @@ KO
 10 Improved KO
 
 FatigueAtk
+10 Enfeebler
 
 Sheathe
 10 Fast Sheathe
