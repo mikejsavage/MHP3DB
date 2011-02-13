@@ -345,14 +345,17 @@ footer {
 	text-align: center;
 }
 
-/* set builder slot indentation */
+/* set builder stuff */
 
 .slots {
 	padding-left: 2.5em;
 }
-
 .slots select {
 	display: block;
+}
+
+input.small {
+	width: 2.5em;
 }
 
 /* game colours */

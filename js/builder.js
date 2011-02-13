@@ -164,7 +164,7 @@ function typeFromShort( short )
 		}
 	}
 
-	alert( "typeFromShort: " + short );
+	alert( "typeFromShort failed: " + short );
 }
 
 function decorationInfo( decoration )
@@ -185,8 +185,7 @@ function numSlots( short )
 	// get value of select
 	var idx = parseInt( $( short ).value );
 
-	// for weapons, value = slots
-	if( short == "wpn" )
+
 	{
 		return parseInt( idx );
 	}
@@ -794,6 +793,9 @@ function calc( force )
 
 // set URL loading/generating
 
+// TODO: this could be a fair bit faster by simply
+//       merging it with calc as the loops are pretty
+//       much identical
 function getSetUrl()
 {
 	function addDecorations( short )
@@ -858,8 +860,9 @@ function loadSet( url )
 
 
 	// stop calc happening while we load the set
-	// if this isn't done then it's EXTREMELY slot
+	// if this isn't done then it's EXTREMELY slow
 	Ready = false;
+
 
 	// set up freeSlot array
 	var freeSlot = { "wpn" : 0 };
@@ -920,6 +923,7 @@ function loadSet( url )
 
 	// refresh pieces
 	refreshPieces();
+
 
 	// we're done
 	Ready = true;

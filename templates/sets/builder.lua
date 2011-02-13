@@ -15,6 +15,8 @@ local WeaponIcons =
 }
 
 local weaponIcon = WeaponIcons[ math.random( table.getn( WeaponIcons ) ) ]
+
+local MaxSlots = 3
 %}
 
 {( "slow" )}
@@ -36,6 +38,7 @@ var BaseUrl = "{{ BaseUrl }}";
 
 
 {{ icon( "equipment/" .. weaponIcon ) }}
+
 <select id="wpn" onchange="weaponChanged()">
 	<option value="0">No slots</option>
 	<option value="1">1 slot</option>
@@ -63,26 +66,48 @@ local Singular =
 for _, class in ipairs( Armors ) do
 	print( icon( "equipment/" .. class.short ) )
 
-	print( ( "<select id=\"%s\" onchange=\"pieceChanged( '%s' )\">" ):format( class.short, class.short ) )
+	print( ( [[<select id="%s" onchange="pieceChanged( '%s' )">]] ):format( class.short, class.short ) )
 
-	print( ( "<option value=\"-1\">Any %s</option>" ):format( Singular[ class.short ] ) )
-	print( ( "<option value=\"-2\">Any 1 slotted %s</option>" ):format( Singular[ class.short ] ) )
-	print( ( "<option value=\"-3\">Any 2 slotted %s</option>" ):format( Singular[ class.short ] ) )
-	print( ( "<option value=\"-4\">Any 3 slotted %s</option>" ):format( Singular[ class.short ] ) )
+	print( ( [[<option value="-1">Any %s</option>]] ):format( Singular[ class.short ] ) )
+	print( ( [[<option value="-2">Any 1 slotted %s</option>]] ):format( Singular[ class.short ] ) )
+	print( ( [[<option value="-3">Any 2 slotted %s</option>]] ):format( Singular[ class.short ] ) )
+	print( ( [[<option value="-4">Any 3 slotted %s</option>]] ):format( Singular[ class.short ] ) )
 
 	for i, piece in ipairs( class.pieces ) do
-		print( ( "<option value=\"%d\">%s</option>" ):format( i - 1, T( piece.name ) ) )
+		print( ( [[<option value="%d">%s</option>]] ):format( i - 1, T( piece.name ) ) )
 	end
 
-	print( "</select><div class=\"slots\">" )
+	print( [[</select><div class="slots">]] )
 
 	for i = 0, 2 do
-		print( ( "<select id=\"%sslot%d\" onchange=\"slotChanged( '%s', %d )\"></select>" ):format( class.short, i, class.short, i ) )
+		print( ( [[<select id="%sslot%d" onchange="slotChanged( '%s', %d )"></select>]] ):format( class.short, i, class.short, i ) )
 	end
 
 	print( "</div>" )
 end
 %}
+
+
+{{ icon( "equipment/tln" ) }}
+
+<select id="tlnskill0" onchange="tlnSkillChanged( 0 )">
+	<option>No primary skill</option>
+</select>
+<input type="text" class="small" id="tlnskill0pts" value="0">
+
+<select id="tlnskill1" onchange="tlnSkillChanged( 1 )">
+	<option>No secondary skill</option>
+</select>
+<input type="text" class="small" id="tlnskill1pts" value="0">
+
+<div class="slots">
+	<select id="tlnslot0" onchange="slotChanged( 'tln', 0 )"></select>
+	<select id="tlnslot1" onchange="slotChanged( 'tln', 1 )"></select>
+	<select id="tlnslot2" onchange="slotChanged( 'tln', 2 )"></select>
+</div>
+
+<small>No guarantees that this charm is legit as of yet</small>
+<br><br>
 
 
 <label for="decorInfo">
