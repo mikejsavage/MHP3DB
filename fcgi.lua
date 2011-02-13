@@ -40,7 +40,7 @@ function FCGI_Accept( postString )
 		Get = parse( os.getenv( "QUERY_STRING" ) )
 	end
 
-	Post = parse( postString )
+	Post = postString and parse( postString ) or { }
 
 
 	IsLocalHost = os.getenv( "SERVER_NAME" ) == "localhost"

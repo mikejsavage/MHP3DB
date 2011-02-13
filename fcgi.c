@@ -41,7 +41,7 @@ int main( int argc, char *argv[] )
 
 		// POST parsing
 
-		char *postString = "";
+		char *postString = NULL;
 		char *contentLength = getenv( "CONTENT_LENGTH" );
 
 		if( contentLength )
@@ -75,6 +75,11 @@ int main( int argc, char *argv[] )
 			printf( "ERR: %s\n", lua_tostring( L, -1 ) );
 
 			lua_pop( L, 1 );
+		}
+
+		if( postString != NULL )
+		{
+			free( postString );
 		}
 
 		assert( lua_gettop( L ) == 0 );
