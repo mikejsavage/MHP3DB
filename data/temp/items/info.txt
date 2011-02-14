@@ -977,7 +977,7 @@ R4
 52z
 
 272 Warm Pelt
-pelt green
+hide green
 R4
 40z
 
