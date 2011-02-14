@@ -1441,6 +1441,40 @@ Desc
 Altarth Scraps+ 2
 Pumpkin Scraps 1
 
+Rhenoplos Coil S
+32
+2 -2 -2 -2 1
+B
+R4
+O--
+Rhenoplos Crpce 1
+Rhnplos Skl Shl 1
+Ice Crystal 3
+6900z
+Stun -2
+Defense 4
+Gunnery 4
+Will Recov 1
+Desc
+Rhnplos Scraps+ 2
+
+Rhenoplos Coat S
+16
+3 -1 -1 -1 2
+G
+R4
+O--
+Rhenoplos Crpce 1
+Rhnplos Skl Shl 1
+Ice Crystal 3
+6900z
+Stun -2
+Defense 4
+Precision 4
+Will Recov 1
+Desc
+Rhnplos Scraps+ 2
+
 Jaggi Tasset S
 35
 -4 -2 -2 -2 1
@@ -1693,6 +1727,186 @@ ThunderRes -2
 Stamina 2
 Desc
 Ludroth Scraps+ 2
+
+Ranguro Tasset S
+41
+2 -4 -1 -2 2
+B
+R5
+OO-
+Rangurotora Cpc 3
+Rangrtora Belly 4
+Monster Broth 3
+Fire Stone 2
+8450z
+Defense 4
+Fire Res 1
+Water Res -2
+Evasion 2
+Desc
+Ranguro Scraps+ 2
+
+Rangura Coat S
+22
+4 -2 0 -1 4
+G
+R5
+OO-
+Rangurotora Cpc 3
+Rangrtora Belly 4
+Monster Broth 3
+Fire Stone 2
+8450z
+Defense 4
+Fire Res 1
+Water Res -3
+Evasion 1
+Desc
+Ranguro Scraps+ 2
+
+Barroth Tasset S
+41
+4 -4 2 -3 0
+B
+R5
+OO-
+Barroth Carapce 2
+Barroth Thracic 3
+Monster Bone+ 2
+Bulldrome Hide 5
+8300z
+Guard 2
+Hunger -3
+Attack 3
+Constitutn 1
+Desc
+Barroth Scraps+ 2
+
+Barroth Coat S
+22
+4 -4 4 -1 0
+G
+R5
+OO-
+Barroth Carapce 2
+Barroth Thracic 3
+Monster Bone+ 2
+Bulldrome Hide 5
+8300z
+Recoil 1
+NormalS Up 2
+Hunger -3
+Attack 3
+Desc
+Barroth Scraps+ 2
+
+Rathian Tasset S
+44
+2 0 -2 0 -4
+B
+R5
+O--
+Rathian Scale+ 3
+Rathian Webbing 4
+Rathian Ruby 1
+Fire Stone 2
+8800z
+Health 4
+Rec Speed 2
+Protection 3
+Water Atk -2
+Desc
+Rathian Scraps+ 2
+
+Rathian Coat S
+24
+4 0 -1 1 -3
+G
+R5
+O--
+Rathian Scale+ 3
+Rathian Webbing 4
+Rathian Ruby 1
+Fire Stone 2
+8800z
+Health 2
+Rec Speed 3
+Precision 3
+Water Atk -3
+Desc
+Rathian Scraps+ 2
+
+Ingot Coil S
+47
+-2 -2 1 -2 0
+B
+R5
+O--
+Union Ore 2
+Firecell Stone 2
+Carbalite Ore 5
+Magma Shard 2
+8800z
+Expert 3
+WindPress 2
+Whim -2
+Quake Res 4
+Desc
+Ore Scraps+ 2
+
+Ingot Coat S
+26
+-1 -1 2 -1 0
+G
+R5
+O--
+Union Ore 2
+Firecell Stone 2
+Carbalite Ore 5
+Magma Shard 2
+8800z
+PelletS Up 2
+PierceSAdd 4
+PelletSAdd 3
+Whim -2
+Desc
+Ore Scraps+ 2
+
+Narga Tasset S
+47
+-3 1 -4 0 -1
+B
+R5
+OO-
+BlackNargaPelt+ 5
+Nargacuga Tail 1
+Nargacuga Wing+ 3
+Aoashira Carpce 4
+9000z
+Sense 1
+Stamina -2
+Evade Dist 3
+SpeedSetup 3
+Desc
+Narga Scraps+ 2
+
+Narga Coat S
+26
+-1 3 -2 1 0
+G
+R5
+OO-
+BlackNargaPelt+ 5
+Nargacuga Tail 1
+Nargacuga Wing+ 3
+Aoashira Carpce 4
+9000z
+Sense 2
+Stamina -3
+Evade Dist 1
+SpeedSetup 3
+Desc
+Narga Scraps+ 2
 
 Crystal Sash
 14

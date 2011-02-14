@@ -681,3 +681,39 @@ Ore Scraps 1
 1
 1
 2!
+
+Queen Howitzer
+200
+R5
+0%
+OO-
+Slow
+None
+Moderate
+67500z
+Rathian Carapce 5
+Venom Gland 3
+Carbalite Ore 10
+Rathian Plate 1
+Desc
+Rathian Scraps+ 2
+7 8 9
+3 0 0
+2 0 0
+0 0 0
+1 1 0
+2 0
+4 2!
+0 0
+0 0
+2 0
+4!
+0
+0
+0
+0
+2
+2
+1
+0
+2

@@ -1400,6 +1400,40 @@ Desc
 Altarth Scraps+ 2
 Pumpkin Scraps 1
 
+Rhenoplos Vambraces S
+32
+2 -2 -2 -2 1
+B
+R4
+O--
+Rhenoplos Crpce 3
+Med Mnster Bone 4
+Ice Crystal 3
+6900z
+Stun -2
+Mud/Snow 2
+Gunnery 4
+Will Recov 3
+Desc
+Rhnplos Scraps+ 2
+
+Rhenoplos Guards S
+16
+3 -1 -1 -1 2
+G
+R4
+O--
+Rhenoplos Crpce 3
+Med Mnster Bone 4
+Ice Crystal 3
+6900z
+Stun -3
+Precision 1
+Gunnery 4
+Will Recov 3
+Desc
+Rhnplos Scraps+ 2
+
 Jaggi Vambraces S
 35
 -4 -2 -2 -2 1
@@ -1652,6 +1686,42 @@ Stamina 2
 Desc
 Ludroth Scraps+ 2
 
+Ranguro Vambraces S
+41
+2 -4 -1 -2 2
+B
+R5
+OO-
+Rangurtora Clw+ 3
+Torpor Sac 6
+Stout Bone 3
+Dragonite Ore 5
+8450z
+Defense 3
+Water Res -1
+Evasion 4
+Quake Res 1
+Desc
+Ranguro Scraps+ 2
+
+Ranguro Guards S
+22
+4 -2 0 -1 4
+G
+R5
+OO-
+Rangurtora Clw+ 3
+Torpor Sac 6
+Stout Bone 3
+Dragonite Ore 5
+8450z
+NormalSAdd 1
+Defense 3
+Water Res -2
+Evasion 3
+Desc
+Ranguro Scraps+ 2
+
 Barroth Vambraces S
 41
 -4 4 2 -3 0
@@ -1687,6 +1757,114 @@ Hunger -3
 Attack 3
 Desc
 Barroth Scraps+ 2
+
+Rathian Vambraces S
+44
+2 0 -2 0 -4
+B
+R5
+O--
+Rathian Carapce 4
+Fire Wyvern Clw 3
+Rathian Spike 2
+Firecell Stone 2
+8800z
+Health 3
+Rec Speed 1
+Fire Atk 6
+Water Atk -1
+Desc
+Rathian Scraps+ 2
+
+Rathian Guards S
+24
+4 0 -1 1 -3
+G
+R5
+O--
+Rathian Carapce 4
+Fire Wyvern Clw 3
+Rathian Spike 2
+Firecell Stone 2
+8800z
+Health 3
+Rec Speed 1
+Fire Atk 6
+Water Atk -1
+Desc
+Rathian Scraps+ 2
+
+Ingot Vambraces S
+47
+-2 -2 1 -2 0
+B
+R5
+OO-
+Union Ore 2
+Gracium Ore 3
+Depthlite Ore 2
+Magma Shard 2
+8800z
+Expert 2
+Sharpener 4
+WindPress 1
+Whim -2
+Desc
+Ore Scraps+ 2
+
+Ingot Guards S
+26
+-1 -1 2 -1 0
+G
+R5
+OO-
+Union Ore 2
+Gracium Ore 3
+Depthlite Ore 2
+Magma Shard 2
+8800z
+Reload Spd 3
+PelletS Up 2
+PelletSAdd 2
+Whim -2
+Desc
+Ore Scraps+ 2
+
+Narga Vambraces S
+47
+-3 1 -4 0 -1
+B
+R5
+O--
+Nargacuga Wing+ 3
+Narga Scale+ 5
+Narga TailSpike 5
+Zuwaropsu Hide+ 5
+9000z
+Sense 3
+Evasion 3
+Stamina -2
+Evade Dist 3
+Desc
+Narga Scraps+ 2
+
+Narga Guards S
+26
+-1 3 -2 1 0
+G
+R5
+O--
+Nargacuga Wing+ 3
+Narga Scale+ 5
+Narga TailSpike 5
+Zuwaropsu Hide+ 5
+9000z
+Sense 4
+Evasion 1
+Stamina -2
+Evade Dist 4
+Desc
+Narga Scraps+ 2
 
 Crystal Bracelets
 14

@@ -37,6 +37,9 @@ Poison -1
 Akito Jewel 1
 Rangurotora Clw 2
 Monster Fluid 2
+or
+Battlefield Jwl 1
+Torpor Sac 1
 
 Pep Jewel
 cyan 4
@@ -577,6 +580,9 @@ Health -1
 Akito Jewel 1
 Urukusu Belly 2
 Killer Beetle 2
+or
+Battlefield Jwl 1
+Nargacuga Wing+ 1
 
 Jump Jewel
 blue 4
@@ -649,6 +655,20 @@ Evasion -1
 Akito Jewel 1
 Narga Scale 1
 Med Mnster Bone 2
+or
+Battlefield Jwl 1
+Rhenoplos Crpce 2
+HotSpringTicket 1
+
+WillRecovJwl
+white 5
+2
+Will Recov 3
+Evasion -1
+375z
+Battlefield Jwl 1
+Nargacuga Fang+ 1
+Shrp Mnster Bne 2
 
 PickyEatrJwl
 white 4
@@ -936,6 +956,10 @@ Reload Spd -1
 Akito Jewel 1
 Monster Bone+ 2
 Cutlassfish 2
+or
+Battlefield Jwl 1
+Rangurtora Clw+ 1
+Stout Bone 1
 
 PrceBonusJwl
 orange 4
@@ -1058,3 +1082,12 @@ RazorCAdd 2
 Akito Jewel 1
 RoyalLudrothScl 1
 Juvenile Sponge 1
+
+FatigeCt Jwl
+yellow 4
+1
+FatigeCAdd 2
+200z
+Akito Jewel 1
+Deepsea Sardine 2
+Lg Monster Bone 1

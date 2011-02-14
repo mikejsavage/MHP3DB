@@ -1350,6 +1350,40 @@ Desc
 Altarth Scraps+ 2
 Pumpkin Scraps 1
 
+Rhenoplos Greaves S
+32
+2 -2 -2 -2 1
+B
+R4
+OO-
+Rhenoplos Crpce 3
+Sm Monster Bone 6
+Carbalite Ore 2
+6900z
+Stun -1
+Mud/Snow 4
+Gunnery 1
+Will Recov 3
+Desc
+Rhnplos Scraps+ 2
+
+Rhenoplos Leggings S
+16
+3 -1 -1 -1 2
+G
+R4
+OO-
+Rhenoplos Crpce 3
+Sm Monster Bone 6
+Carbalite Ore 2
+6900z
+Stun -2
+Precision 3
+Gunnery 3
+Will Recov 1
+Desc
+Rhnplos Scraps+ 2
+
 Jaggi Greaves S
 35
 -4 -2 -2 -2 1
@@ -1597,6 +1631,180 @@ Stamina 3
 FatigueAtk 2
 Desc
 Ludroth Scraps+ 2
+
+Ranguro Greaves S
+41
+2 -4 -1 -2 2
+B
+R5
+---
+Rangurtora Clw+ 3
+Rangurotora Cpc 3
+Rangrtora Belly 1
+Union Ore 2
+8450z
+Torso Up 0
+Desc
+Ranguro Scraps+ 2
+
+Rangura Leggings S
+22
+4 -2 0 -1 4
+G
+R5
+---
+Rangurtora Clw+ 3
+Rangurotora Cpc 3
+Rangrtora Belly 1
+Union Ore 2
+8450z
+Torso Up 0
+Desc
+Ranguro Scraps+ 2
+
+Barroth Greaves S
+41
+4 -4 2 -3 0
+B
+R5
+---
+Barroth Carapce 3
+Barroth Tail 1
+Shrp Mnster Bne 3
+Jaggi Scale+ 4
+8300z
+Guard 3
+Hunger -1
+Potential 5
+Constitutn 4
+Desc
+Barroth Scraps+ 2
+
+Barroth Leggings S
+22
+4 -4 4 -1 0
+G
+R5
+---
+Barroth Carapce 3
+Barroth Tail 1
+Shrp Mnster Bne 3
+Jaggi Scale+ 4
+8300z
+Recoil 4
+NormalS Up 2
+Hunger -2
+Potential 5
+Desc
+Barroth Scraps+ 2
+
+Rathian Greaves S
+44
+2 0 -2 0 -4
+B
+R5
+OO-
+Rathian Carapce 4
+Rathian Scale+ 4
+Shrp Mnster Bne 3
+Union Ore 4
+8800z
+Health 5
+Rec Speed 1
+Fire Atk 1
+Water Atk -2
+Desc
+Rathian Scraps+ 2
+
+Rathian Leggings S
+24
+4 0 -1 1 -3
+G
+R5
+OO-
+Rathian Carapce 4
+Rathian Scale+ 4
+Shrp Mnster Bne 3
+Union Ore 4
+8800z
+Health 5
+Rec Speed 1
+Fire Atk 1
+Water Atk -2
+Desc
+Rathian Scraps+ 2
+
+Ingot Greaves S
+47
+-2 -2 1 -2 0
+B
+R5
+OO-
+Union Ore 3
+Gracium Ore 3
+Depthlite Ore 1
+Carbalite Ore 5
+8800z
+Expert 3
+WindPress 2
+Whim -2
+Quake Res 2
+Desc
+Ore Scraps+ 2
+
+Ingot Leggings S
+26
+-1 -1 2 -1 0
+G
+R5
+OO-
+Union Ore 3
+Gracium Ore 3
+Depthlite Ore 1
+Carbalite Ore 5
+8800z
+PelletS Up 2
+PierceSAdd 2
+PelletSAdd 3
+Whim -2
+Desc
+Ore Scraps+ 2
+
+Narga Greaves S
+47
+-3 1 -4 0 -1
+B
+R5
+OO-
+Nargacuga Fang+ 5
+Narga Scale+ 5
+Narga Marrow 2
+Rare Scarab 3
+9000z
+Sense 2
+Stamina -1
+Evade Dist 4
+SpeedSetup 2
+Desc
+Narga Scraps+ 2
+
+Narga Leggings S
+26
+-1 3 -2 1 0
+G
+R5
+OO-
+Nargacuga Fang+ 5
+Narga Scale+ 5
+Narga Marrow 2
+Rare Scarab 3
+9000z
+Sense 1
+Stamina -2
+Evade Dist 4
+SpeedSetup 2
+Desc
+Narga Scraps+ 2
 
 Crystals Anklets
 14

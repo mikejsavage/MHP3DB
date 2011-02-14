@@ -1447,6 +1447,70 @@ Desc
 Altarth Scraps+ 2
 Pumpkin Scraps 1
 
+Rhenoplos Helm S
+32
+2 -2 -2 -2 1
+BG
+R4
+OO-
+Rhenoplos Crpce 3
+Rhnplos Skl Shl 1
+Ice Crystal 3
+6900z
+Stun -3
+Mud/Snow 2
+Gunnery 2
+Will Recov 2
+Desc
+Rhnplos Scraps+ 2
+
+Rhenoplos Cap S
+16
+3 -1 -1 -1 2
+BG
+R4
+OO-
+Rhenoplos Crpce 3
+Rhnplos Skl Shl 1
+Ice Crystal 3
+6900z
+Stun -1
+Precision 4
+Gunnery 3
+Will Recov 3
+Desc
+Rhnplos Scraps+ 2
+
+Zuwaro Hood S
+32
+-2 2 0 -1 1
+BG
+R4
+O--
+Zuwaropsu Hide+ 2
+Bulldrome Hide+ 2
+Bullfango Pelt 3
+8800z
+Health 7
+Water Res 4
+Desc
+Zuwaru Scraps+ 4
+
+Zuwaro Head S
+18
+-1 4 0 0 2
+BG
+R4
+O--
+Zuwaropsu Hide+ 2
+Bulldrome Hide+ 2
+Bullfango Pelt 3
+8800z
+Health 7
+Water Res 6
+Desc
+Zuwaru Scraps+ 4
+
 Gagua Mask S
 32
 -4 -2 -1 2 1
@@ -1757,6 +1821,42 @@ FatigueAtk 3
 Desc
 Ludroth Scraps+ 2
 
+Ranguro Helm S
+41
+2 -4 -1 -2 2
+BG
+R5
+O--
+Rangurtora Clw+ 3
+Rangurotora Cpc 3
+Monster Broth 3
+Fire Stone 2
+8450z
+Fire Res 4
+Water Res -3
+Evasion 3
+Quake Res 1
+Desc
+Ranguro Scraps+ 2
+
+Ranguro Cap S
+22
+4 -2 0 -1 4
+BG
+R5
+O--
+Rangurtora Clw+ 3
+Rangurotora Cpc 3
+Monster Broth 3
+Fire Stone 2
+8450z
+NormalSAdd 1
+Fire Res 6
+Water Res -1
+Evasion 5
+Desc
+Ranguro Scraps+ 2
+
 Jaggi Mask S
 41
 0 0 0 0 0
@@ -1852,6 +1952,78 @@ BombStrUp 9
 Gunnery 4
 Desc
 Ore Scraps+ 2
+
+Ingot Helm S
+47
+-2 -2 1 -2 0
+BG
+R5
+O--
+Union Ore 2
+Gracium Ore 3
+Depthlite Ore 2
+Carbalite Ore 5
+8800z
+Expert 3
+Sharpener 3
+WindPress 2
+Whim -3
+Desc
+Ore Scraps+ 2
+
+Ingot Cap S
+26
+-1 -1 2 -1 0
+BG
+R5
+O--
+Union Ore 2
+Gracium Ore 3
+Depthlite Ore 2
+Carbalite Ore 5
+8800z
+Reload Spd 3
+PelletS Up 3
+PelletSAdd 4
+Whim -2
+Desc
+Ore Scraps+ 2
+
+Narga Helm S
+47
+-3 1 -4 0 -1
+BG
+R5
+OO-
+BlackNargaPelt+ 5
+Narga TailSpike 5
+Wyvern Stone 1
+Aoashira Pelt+ 6
+9000z
+Sense 3
+Evasion 1
+Stamina -3
+Evade Dist 2
+Desc
+Narga Scraps+ 2
+
+Narga Cap S
+26
+-1 3 -2 1 0
+BG
+R5
+OO-
+BlackNargaPelt+ 5
+Narga TailSpike 5
+Wyvern Stone 1
+Aoashira Pelt+ 6
+9000z
+Sense 3
+Evasion 3
+Stamina -1
+Evade Dist 4
+Desc
+Narga Scraps+ 2
 
 Crystal Earrings
 14
