@@ -1721,6 +1721,42 @@ Thundr Atk -1
 Desc
 Ludroth Scraps+ 2
 
+Ludroth Helm U
+41
+-4 2 -1 0 1
+BG
+R6
+O--
+PurpRylLdrthScl 3
+Exquisite Crest 3
+RoyalLudrthTail 1
+Hercudrome 5
+7500z
+Water Res 4
+ThunderRes -3
+Stamina 1
+FatigueAtk 3
+Desc
+Ludroth Scraps+ 2
+
+Ludroth Cap U
+22
+-2 4 -1 1 2
+BG
+R6
+O--
+PurpRylLdrthScl 3
+Exquisite Crest 3
+RoyalLudrthTail 1
+Hercudrome 5
+7500z
+Status 5
+ThunderRes -2
+Stamina 3
+FatigueAtk 3
+Desc
+Ludroth Scraps+ 2
+
 Jaggi Mask S
 41
 0 0 0 0 0

@@ -434,6 +434,29 @@ Flintstone 10
 Carbalite Ore 5
 Desc
 Qurupeco Scraps+ 2
+S2
+S3
+S4
+NNYYYYN
+
+Amethyst Gear I
+170
+Spread
+Water 26
+R4
+0%
+O--
+45000z
+SpongyPurplHide 6
+Exquisite Crest 2
+PurpRylLdrthScl 5
+Shrp Mnster Bne 4
+Desc
+Ludroth Scraps+ 2
+S1
+P2
+P3
+YYNNYYY
 
 Hunters Power Bow I
 210

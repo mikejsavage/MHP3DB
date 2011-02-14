@@ -1616,6 +1616,42 @@ Thundr Atk -3
 Desc
 Ludroth Scraps+ 2
 
+Ludroth Vambraces U
+41
+-4 2 -2 0 1
+B
+R6
+O--
+PurpRylLdrthClw 4
+SpongyPurplHide 2
+PurpRylLdrthScl 2
+Hydro Sac 2
+7500z
+Status 5
+Water Res 2
+ThunderRes -1
+Stamina 3
+Desc
+Ludroth Scraps+ 2
+
+Ludroth Guards U
+22
+-2 4 -1 1 2
+G
+R6
+O--
+PurpRylLdrthClw 4
+SpongyPurplHide 2
+PurpRylLdrthScl 2
+Hydro Sac 2
+7500z
+Status 5
+Water Res 1
+ThunderRes -3
+Stamina 2
+Desc
+Ludroth Scraps+ 2
+
 Barroth Vambraces S
 41
 -4 4 2 -3 0

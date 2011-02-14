@@ -1350,10 +1350,19 @@ R4
 720z
 
 365 SpongyPurplHide
+hide purple
+R6
+1440z
 
 366 PurpRylLdrthScl
+scale purple
+R6
+990z
 
 367 PurpRylLdrthClw
+claw purple
+R6
+2610z
 
 368 Barroth Shell
 nshell orange

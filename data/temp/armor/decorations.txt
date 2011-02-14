@@ -626,6 +626,9 @@ Hunger -1
 Akito Jewel 1
 RoyalLudrothClw 1
 Mega Juice 2
+or
+Battlefield Jwl 1
+SpongyPurplHide 2
 
 Constutn Jwl
 white 4

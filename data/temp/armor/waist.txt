@@ -1659,6 +1659,41 @@ Thundr Atk -2
 Desc
 Bone Scraps+ 2
 
+Ludroth Tasset U
+41
+-4 2 -2 0 1
+B
+R6
+OOO
+SpongyPurplHide 3
+Juvenile Sponge 6
+Shrp Mnster Bne 2
+King Scarab 2
+7500z
+Status 1
+Water Res 1
+ThunderRes -3
+Stamina 2
+Ludroth Scraps+ 2
+
+Ludroth Coat U
+22
+-2 4 -1 1 2
+G
+R6
+OOO
+SpongyPurplHide 3
+Juvenile Sponge 6
+Shrp Mnster Bne 2
+King Scarab 2
+7500z
+Status 2
+Water Res 1
+ThunderRes -2
+Stamina 2
+Desc
+Ludroth Scraps+ 2
+
 Crystal Sash
 14
 0 0 3 -3 0
