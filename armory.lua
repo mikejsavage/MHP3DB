@@ -46,7 +46,9 @@ end
 
 local function decorFromName( name )
 	for _, decor in ipairs( Decorations ) do
-		if urlFromName( decor.name ) == name then
+		local urlName = urlFromName( decor.name )
+
+		if urlName == name or urlName .. "_" .. decor.slots == name then
 			return decor
 		end
 	end

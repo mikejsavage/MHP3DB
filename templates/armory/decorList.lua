@@ -1,5 +1,7 @@
 {%
 local listItem = loadTemplate( "armory/decorListItem" )
+
+UsedNames = { }
 %}
 
 <h1>{{ icon( "items/jewel" ) }} Decorations</h1>
