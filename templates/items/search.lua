@@ -20,6 +20,8 @@ while true do
 end
 %}];
 var ItemsCount = {{ table.getn( Items ) }};
+
+var BaseUrl = "{{ BaseUrl }}";
 </script>
 
 <script type="text/javascript" src="{{ U( "js/common.js" ) }}"></script>

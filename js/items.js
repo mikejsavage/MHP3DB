@@ -61,8 +61,7 @@ function filterItems()
 
 		var name = Items[ match.id ];
 
-		var BASE_DIR = "";
-		out += "<a href='/" + BASE_DIR + "items/" + name.urlEscape() + "'>"
+		out += "<a href='/" + BaseUrl + "items/" + name.urlEscape() + "'>"
 			+ name.substring( 0, match.pos )
 			+ "<strong>" + name.substring( match.pos, match.pos + filterLen ) + "</strong>"
 			+ name.substr( match.pos + filterLen )
