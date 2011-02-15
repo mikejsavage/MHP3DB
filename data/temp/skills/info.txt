@@ -155,7 +155,7 @@ Anti-Theft
 
 Wide Area
 20 Wide Area +2
-10 wide Area +1
+10 Wide Area +1
 
 Backpackng
 10 Backpckng Exprt
