@@ -25,6 +25,7 @@ local Reloads =
 	Slow     = "slow",
 	Normal   = "normal",
 	Fast     = "fast",
+	VeryFast = "vfast",
 }
 
 local Drifts =
