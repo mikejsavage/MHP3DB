@@ -1821,6 +1821,42 @@ FatigueAtk 3
 Desc
 Ludroth Scraps+ 2
 
+Baggi Helm S
+41
+-4 -1 -1 2 1
+BG
+R5
+O--
+Grt Baggi Hide+ 4
+Grt Baggi Claw 2
+Grt Baggi Hide 2
+Gracium Ore 3
+8450z
+Rec Speed 3
+Attack 3
+Fire Res -3
+Rec Level 2
+Desc
+GrtBaggiScraps+ 2
+
+Baggi Cap S
+22
+-2 0 0 4 2
+BG
+R5
+O--
+Grt Baggi Hide+ 4
+Grt Baggi Claw 2
+Grt Baggi Hide 2
+Gracium Ore 3
+8450z
+Rec Speed 5
+Attack 5
+Fire Res -1
+Rec Level 2
+Desc
+GrtBaggiScraps+ 2
+
 Ranguro Helm S
 41
 2 -4 -1 -2 2

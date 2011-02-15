@@ -1458,6 +1458,42 @@ Constitutn 1
 Desc
 GrtFrggiScraps+ 2
 
+Urukusu Greaves S
+38
+-4 2 -2 2 1
+B
+R4
+O--
+Urukusu Pelt+ 3
+Urksu Hrd Belly 3
+Urukusu Claw+ 1
+Glossy Hide 8
+7500z
+Attack 3
+Fire Res -1
+Ice Res 4
+Evasion 3
+Desc
+Urukusu Scraps+ 2
+
+Urukuru Leggings S
+20
+-2 3 -1 4 3
+G
+R4
+O--
+Urukusu Pelt+ 3
+Urksu Hrd Belly 3
+Urukusu Claw+ 1
+Glossy Hide 8
+7500z
+Attack 2
+Fire Res -2
+Ice Res 5
+Evasion 2
+Desc
+Urukusu Scraps+ 2
+
 Qurupeco Greaves S
 35
 2 -2 -1 -4 2
@@ -1631,6 +1667,42 @@ Stamina 3
 FatigueAtk 2
 Desc
 Ludroth Scraps+ 2
+
+Baggi Greaves S
+41
+-4 -1 -1 2 1
+B
+R5
+OO-
+Baggi Scale+ 2
+Baggi Hide 6
+Bird Wyvrn Bone 7
+Gracium Ore 3
+8450z
+Rec Speed 2
+Attack 4
+Fire Res -2
+Rec Level 1
+Desc
+Ore Scraps+ 2
+
+Baggi Leggings S
+22
+-2 0 0 4 2
+G
+R5
+OO-
+Baggi Scale+ 2
+Baggi Hide 6
+Bird Wyvrn Bone 7
+Gracium Ore 3
+8450z
+Rec Speed 2
+Attack 3
+Fire Res -3
+Rec Level 1
+Desc
+Ore Scraps+ 2
 
 Ranguro Greaves S
 41

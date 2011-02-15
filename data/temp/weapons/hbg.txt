@@ -717,3 +717,39 @@ Rathian Scraps+ 2
 1
 0
 2
+
+Penguin Slayer
+170
+R4
+10%
+---
+Normal
+None
+Moderate
+45000z
+Urksu Hrd Belly 4
+Urukusu Lng Ear 4
+Urukusu Pelt+ 6
+Frozen Mucus 5
+Desc
+Urukusu Scraps+ 2
+5 5 0
+4 4! 5!
+0 0 0
+0 0 0
+0 0 0
+2 0
+0 0
+0 0
+2 1
+0 0
+0
+3
+0
+4!
+0
+2
+2
+0
+0
+0

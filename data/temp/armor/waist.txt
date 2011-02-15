@@ -1547,6 +1547,23 @@ Protection 3
 Desc
 AoashiraScraps+ 2
 
+Steel Belt S
+41
+2 0 -2 2 0
+B
+R4
+OO-
+Gracium Ore 4
+Carbalite Ore 7
+Dragonite Ore 5
+Machalite Ore 8
+7500z
+Sharpener 4
+Guard 2
+Antiseptic 3
+Desc
+Ore Scraps+ 2
+
 Froggi Tasset S
 38
 2 -2 1 -4 0
@@ -1584,6 +1601,42 @@ Constitutn 2
 Desc
 Ore Scraps+ 1
 Bone Scraps+ 1
+
+Urukusu Tasset S
+38
+-4 2 -2 2 1
+B
+R4
+---
+Urukusu Pelt+ 3
+Urukusu Claw+ 2
+Stout Bone 3
+Hercudrome 8
+7500z
+Attack 3
+Fire Res -2
+Evasion 4
+Ice Attack 4
+Desc
+Urukusu Scraps+ 2
+
+Urukusu Coat S
+20
+-2 3 -1 4 3
+G
+R4
+---
+Urukusu Pelt+ 3
+Urukusu Claw+ 2
+Stout Bone 3
+Hercudrome 8
+7500z
+Attack 2
+Fire Res -3
+Evasion 4
+Ice Attack 4
+Desc
+Urukusu Scraps+ 2
 
 Qurupeco Coil S
 35
@@ -1727,6 +1780,42 @@ ThunderRes -2
 Stamina 2
 Desc
 Ludroth Scraps+ 2
+
+Baggi Coil S
+41
+-4 -1 -1 2 1
+B
+R5
+---
+Grt Baggi Hide+ 3
+Regal Crest 1
+Baggi Scale+ 6
+Lightcrystal 2
+8450z
+Rec Speed 4
+Fire Res -2
+Ice Res 4
+Rec Level 3
+Desc
+GrtBaggiScraps+ 2
+
+Baggi Coat S
+22
+-2 0 0 4 2
+G
+R5
+---
+Grt Baggi Hide+ 3
+Regal Crest 1
+Baggi Scale+ 6
+Lightcrystal 2
+8450z
+Rec Speed 2
+Fire Res -3
+Ice Res 4
+Rec Level 2
+Desc
+GrtBaggiScraps+ 2
 
 Ranguro Tasset S
 41

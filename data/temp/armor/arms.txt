@@ -1506,6 +1506,23 @@ Protection 3
 Desc
 AoashiraScraps+ 2
 
+Steel Vambraces S
+41
+2 0 -2 2 0
+B
+R4
+OO-
+Gracium Ore 1
+Depthlite Ore 3
+Dragonite Ore 5
+Earth Crystal 10
+7500z
+Sharpener 2
+Guard 6
+Antiseptic 1
+Desc
+Ore Scraps+ 2
+
 Froggi Vambraces S
 38
 2 -2 1 -4 0
@@ -1541,6 +1558,42 @@ Eating 2
 Constitutn 2
 Desc
 GrtFrggiScraps+ 2
+
+Urukusu Vambraces S
+38
+-4 2 -2 2 1
+B
+R4
+O--
+Urukusu Claw+ 2
+Urukusu Pelt 3
+Urksu Hrd Belly 3
+King Scarab 2
+7500z
+Attack 2
+Fire Res -2
+Evasion 4
+Ice Attack 3
+Desc
+Urukusu Scraps+ 2
+
+Urukusu Guards S
+20
+-2 3 -1 4 3
+G
+R4
+O--
+Urukusu Claw+ 2
+Urukusu Pelt 3
+Urksu Hrd Belly 3
+King Scarab 2
+7500z
+Attack 2
+Fire Res -3
+Evasion 3
+Ice Attack 3
+Desc
+Urukusu Scraps+ 2
 
 Qurupeco Vambraces S
 35

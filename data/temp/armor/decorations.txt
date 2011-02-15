@@ -59,6 +59,9 @@ Mud/Snow -1
 Akito Jewel 1
 Regal Crest 1
 Warm Pelt 2
+or
+Battlefield Jwl 1
+Coma Sac 1
 
 Antidote Jwl
 purple 4
@@ -550,6 +553,9 @@ Eating -1
 Akito Jewel 1
 Gigginox Hide 1
 Pale Extract 2
+or
+Battlefield Jwl 1
+Grt Baggi Hide+ 2
 
 Cure Jewel
 green 4

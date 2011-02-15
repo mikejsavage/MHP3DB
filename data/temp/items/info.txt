@@ -806,6 +806,9 @@ R6
 1020z
 
 230 Gracium Ore
+ore cyan
+R6
+640z
 
 231 Firecell Stone
 
@@ -922,6 +925,9 @@ R4
 230z
 
 258 Coma Sac
+sac blue
+R6
+690z
 
 259 Flame Sac
 sac red
@@ -1185,6 +1191,9 @@ R4
 60z
 
 316 Baggi Scale+
+scale cyan
+R6
+180z
 
 317 Baggi Hide
 hide cyan
@@ -1197,6 +1206,9 @@ R4
 300z
 
 319 Grt Baggi Hide+
+hide cyan
+R6
+900z
 
 320 Grt Baggi Claw
 claw cyan
@@ -1246,6 +1258,9 @@ R4
 280z
 
 330 Urukusu Pelt+
+hide white
+R6
+840z
 
 331 Urukusu Ear
 shell white
@@ -1260,6 +1275,9 @@ R4
 320z
 
 334 Urksu Hrd Belly
+shell white
+R6
+960z
 
 335 Urukusu Claw
 claw white
@@ -1267,6 +1285,9 @@ R4
 210z
 
 336 Urukusu Claw+
+claw white
+R6
+630z
 
 337 Rangurotora Shl
 nshell red
@@ -2139,6 +2160,8 @@ R4
 594 Amatsu Jewel
 
 595 Ruststone
+garbage gray
+R5
 
 596 Ancient Stone
 
@@ -2451,6 +2474,8 @@ R3
 90pts
 
 708 Dark Bloodstone
+ore red
+R4
 
 709 Coal
 ore gray

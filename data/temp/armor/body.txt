@@ -1581,6 +1581,23 @@ Protection 1
 Desc
 AoashiraScraps+ 2
 
+Steel Mail S
+41
+2 0 -2 2 0
+B
+R4
+O--
+Gracium Ore 3
+Lightcrystal 4
+Fire Stone 4
+Iron Ore 15
+7500z
+Sharpener 4
+Guard 3
+Antiseptic 2
+Desc
+Ore Scraps+ 2
+
 Froggi Mail S
 38
 2 -2 1 -4 0
@@ -1616,6 +1633,42 @@ Eating 3
 Constitutn 4
 Desc
 GrtFrggiScraps+ 2
+
+Urukusu Mail S
+38
+-4 2 -2 2 1
+B
+R4
+OO-
+Urksu Hrd Belly 3
+Urukusu Pelt+ 3
+Baggi Scale+ 6
+King Scarab 2
+7500z
+Attack 1
+Fire Res -2
+Ice Res 3
+Evasion 1
+Desc
+Urukusu Scraps+ 2
+
+Urukusu Vest S
+20
+-2 3 -1 4 3
+G
+R4
+OO-
+Urksu Hrd Belly 3
+Urukusu Pelt+ 3
+Baggi Scale+ 6
+King Scarab 2
+7500z
+Attack 1
+Fire Res -2
+Ice Res 3
+Evasion 1
+Desc
+Urukusu Scraps+ 2
 
 Qurupeco Mail S
 35
