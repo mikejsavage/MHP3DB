@@ -473,3 +473,26 @@ Grt Jaggi Claw+ 3
 Desc
 Ore Scraps+ 1
 Ore Scraps 1
+R2
+R3
+R3
+YNNYYYY
+
+Ice Crest II
+170
+Spread
+Ice 23
+R5
+20%
+O--
+67500z
+Barioth Carapce 4
+Amber Fang+ 2
+Barioth Spike 10
+Glacial Sac 2
+Desc
+Barioth Scraps+ 2
+R2
+P3
+R3
+YNNYYYN

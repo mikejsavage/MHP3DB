@@ -1925,6 +1925,78 @@ Water Atk -3
 Desc
 Rathian Scraps+ 2
 
+Rouage Anca S
+44
+-5 0 3 -1 1
+B
+R5
+O--
+Rare Scarab 2
+Swallowtail 3
+Flashbug 10
+Bombhopper 10
+8800z
+Stun 4
+Protection -1
+HearProtct 3
+ThunderRes 3
+Desc
+Altarth Scraps+ 2
+
+Rouage Cocusa S
+24
+-4 0 5 0 3
+G
+R5
+O--
+Rare Scarab 2
+Swallowtail 3
+Flashbug 10
+Bombhopper 10
+8800z
+Stun 4
+Protection -1
+HearProtct 2
+ThunderRes 4
+Desc
+Altarth Scraps+ 2
+
+Nebula Tasset S
+44
+-4 0 3 3 -2
+B
+R5
+O--
+Gigginox Hide+ 5
+Venom Gland 3
+Uncanny Hide 2
+Isisium Ore 6
+8800z
+Sharpness 2
+Status 3
+Hunger 4
+Combo Rate -2
+Desc
+Giggnox Scraps+ 2
+
+Nebula Coat S
+24
+-2 0 4 4 -1
+G
+R5
+O--
+Gigginox Hide+ 5
+Venom Gland 3
+Uncanny Hide 2
+Isisium Ore 6
+8800z
+PierceSAdd 3
+Status 2
+Hunger 4
+Combo Rate -2
+Desc
+Giggnox Scraps+ 2
+
 Ingot Coil S
 47
 -2 -2 1 -2 0
@@ -1996,6 +2068,42 @@ Evade Dist 1
 SpeedSetup 3
 Desc
 Narga Scraps+ 2
+
+Rathalos Tasset S
+50
+2 -1 -2 -1 -4
+B
+R5
+OO-
+Rathalos Carpce 6
+Rathalos Webbng 4
+Rathalos Plate 1
+Union Ore 2
+9000z
+Sharpener 3
+Rec Level -2
+Fire Atk 3
+Debilitate 1
+Desc
+Rthalos Scraps+ 2
+
+Rathalos Coat S
+28
+4 0 -1 0 -2
+G
+R5
+OO-
+Rathalos Carpce 6
+Rathalos Webbng 4
+Rathalos Plate 1
+Union Ore 2
+9000z
+Rec Level -3
+Rapid Fire 2
+Fire Atk 3
+Debilitate 1
+Desc
+Rthalos Scraps+ 2
 
 Crystal Sash
 14

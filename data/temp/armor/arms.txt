@@ -1220,6 +1220,40 @@ Desc
 Wood Scraps+ 1
 Wood Scraps 1
 
+Leather Vambraces S
+28
+-1 0 0 0 1
+B
+R4
+O--
+High Qualty Plt 2
+Warm Pelt 2
+Glossy Hide 4
+2850z
+Hunger 2
+Gathering 1
+HiSpdGathr 4
+Whim 4
+Desc
+Pelt Scraps+ 2
+
+Leather Guards S
+14
+0 0 0 0 2
+G
+R4
+O--
+High Qualty Plt 2
+Warm Pelt 2
+Glossy Hide 4
+2850z
+Hunger 3
+Gathering 3
+HiSpdGathr 1
+Whim 4
+Desc
+Pelt Scraps+ 2
+
 Chain Vambraces S
 28
 2 1 -2 1 0
@@ -1847,6 +1881,78 @@ Water Atk -1
 Desc
 Rathian Scraps+ 2
 
+Rouage Mano S
+44
+-5 0 3 -1 1
+B
+R5
+O--
+Rare Scarab 3
+Swallowtail 2
+Pale Extract 5
+Bitterbug 10
+8800z
+Expert 2
+Protection -3
+HearProtct 3
+ThunderRes 3
+Desc
+Altarth Scraps+ 2
+
+Rouage Brasso S
+24
+-4 0 5 0 3
+G
+R5
+O--
+Rare Scarab 3
+Swallowtail 2
+Pale Extract 5
+Bitterbug 10
+8800z
+Expert 2
+Protection -3
+HearProtct 2
+ThunderRes 4
+Desc
+Altarth Scraps+ 2
+
+Nebula Vambraces S
+44
+-4 0 3 3 -2
+B
+R5
+---
+Gigginox Hide+ 5
+Gigginox Claw+ 2
+Gigginox Claw 2
+Gracium Ore 4
+8800z
+Sharpness 2
+Status 5
+ThunderRes 5
+Combo Rate -1
+Desc
+Giggnox Scraps+ 2
+
+Nebula Guards S
+24
+-2 0 4 4 -1
+G
+R5
+---
+Gigginox Hide+ 5
+Gigginox Claw+ 2
+Gigginox Claw 2
+Gracium Ore 4
+8800z
+PierceSAdd 1
+Status 5
+ThunderRes 5
+Combo Rate -2
+Desc
+Giggnox Scraps+ 2
+
 Ingot Vambraces S
 47
 -2 -2 1 -2 0
@@ -1918,6 +2024,42 @@ Stamina -2
 Evade Dist 4
 Desc
 Narga Scraps+ 2
+
+Rathalos Vambraces S
+50
+2 -1 -2 -1 -4
+B
+R5
+O--
+Rathalos Scale+ 4
+Fire Wyvern Clw 2
+Rathalos Tail 1
+Firecell Stone 2
+9000z
+Sharpener 2
+Rec Level -2
+Fire Atk 4
+Debilitate 3
+Desc
+Rthalos Scraps+ 2
+
+Rathalos Guards S
+28
+4 0 -1 0 -2
+G
+R5
+O--
+Rathalos Scale+ 4
+Fire Wyvern Clw 2
+Rathalos Tail 1
+Firecell Stone 2
+9000z
+Rec Level -3
+Rapid Fire 1
+Fire Atk 4
+Debilitate 3
+Desc
+Rthalos Scraps+ 2
 
 Crystal Bracelets
 14

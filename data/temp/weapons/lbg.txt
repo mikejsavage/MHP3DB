@@ -708,3 +708,111 @@ Ore Scraps+ 1
 0
 0
 0
+
+Poison Legacy
+210
+R5
+-10%
+O--
+VeryFast
+???
+Light
+67500z
+Gigginox Hide+ 6
+Uncanny Hide+ 3
+Gigginox Claw+ 4
+Horrific Maw 2
+Desc
+Giggnox Scraps+ 2
+6 8 10
+3 0 0
+2 3 0
+0 0 0
+0 0 0
+3 1
+3!3S 2!2S
+2 0
+0 0
+3 2
+0
+0
+0
+4
+0
+2
+2
+0
+1
+0
+
+Blizzard Hail
+190
+R5
+20%
+---
+Fast
+None
+Moderate
+67500z
+Barioth Carapce 6
+Barioth Spike 8
+Urukusu Claw+ 6
+Monster Broth 6
+Desc
+Barioth Scraps+ 2
+4 5 0
+4 5 5
+0 2 0
+0 0 0
+0 0 0
+0 2
+0 0
+0 0
+3 0
+0 0
+0
+0
+0
+3!3W
+0
+2
+2
+1
+0
+3
+
+Hellfire Cannon
+190
+R5
+0%
+---
+Normal
+None
+Moderate
+75000z
+Rathalos Scale+ 5
+Rathalos Carpce 3
+Rangurotora Cpc 5
+Rathalos Plate 3
+Desc
+Rthalos Scraps+ 2
+5 6 7
+3 4 0
+2 0 0
+1 2 0
+1 1 0
+0 0
+3 1
+0 0
+0 0
+0 0
+4!3W
+0
+0
+0
+0
+2
+2
+0
+0
+0

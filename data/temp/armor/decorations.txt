@@ -245,6 +245,35 @@ Akito Jewel 1
 Bnahabra Wing 3
 Bnahabra Stingr 2
 
+SpcialAtkJwl
+pink 5
+2
+Status 3
+Elemental -1
+375z
+Battlefield Jwl 1
+Gigginox Claw+ 1
+Monster Broth 2
+
+Fire Atk Jwl
+red 4
+1
+Fire Atk 1
+Water Atk -1
+200z
+Akito Jewel 1
+Rathian Scale 2
+
+Fire Atk Jwl
+red 5
+2
+Fire Atk 3
+Water Atk -1
+375z
+Battlefield Jwl 1
+Inferno Sac 1
+Rangurotora Cpc 2
+
 WaterAtk Jwl
 cyan 4
 1
@@ -291,6 +320,9 @@ Health -1
 Akito Jewel 1
 Rathalos Webbng 1
 Rathian Spike 1
+or
+Battlefield Jwl 1
+Rathalos Scale+ 2
 
 Slam Jewel
 purple 4
@@ -599,6 +631,9 @@ Health -1
 Akito Jewel 1
 Black Narga Plt 2
 Bnahabra Wing 2
+or
+Battlefield Jwl 1
+Barioth Carapce 2
 
 Sheathe Jwl
 cyan 4
@@ -651,6 +686,9 @@ Stamina -1
 Akito Jewel 1
 Regal Snout 1
 Froggi Scale 2
+or
+Battlefield Jwl 1
+Barioth Pelt+ 2
 
 WillRecovJwl
 white 4
@@ -1079,6 +1117,16 @@ Expert -1
 Akito Jewel 1
 Uroktor Scale 2
 Nitroshroom 5
+
+Power Ct Jwl
+red 5
+2
+PowerCAdd 3
+Expert -1
+375z
+Battlefield Jwl 1
+Uroktor Scale+ 1
+Magma Shard 1
 
 ClsRngCt Jwl
 white 4
