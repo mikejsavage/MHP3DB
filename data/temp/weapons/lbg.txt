@@ -745,6 +745,42 @@ Ore Scraps+ 1
 0
 0
 
+Aurora Furia
+240
+R5
+0%
+O--
+Normal
+???
+Strong
+67500z
+IceBarrthSklShl 3
+Ice Barroth Shl 4
+Gracium Ore 6
+Uragaan Carapce 5
+Desc
+Barroth Scraps+ 2
+6 9 10
+3 2 0
+2 0 0
+0 0 0
+0 0 0
+0 0
+0 0
+2 0
+0 0
+3 2
+0
+4
+0
+3
+0
+2
+2
+0
+1
+0
+
 Poison Legacy
 210
 R5

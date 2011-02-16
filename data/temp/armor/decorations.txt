@@ -312,6 +312,16 @@ Fire Atk -1
 Akito Jewel 1
 Grt Baggi Hide 2
 
+Ice Atk Jwl
+blue 5
+2
+Ice Attack 3
+Fire Atk -1
+375z
+Battlefield Jwl 1
+Frozen Mucus 1
+Urksu Hrd Belly 2
+
 DragnAtk Jwl
 purple 4
 1
@@ -428,6 +438,16 @@ Protection -1
 200z
 Akito Jewel 1
 Mossy Carapace 2
+
+PotentialJwl
+red 5
+2
+Potential 3
+Protection -1
+375z
+Battlefield Jwl 1
+IceBarrothSpine 2
+Urukusu Lng Ear 2
 
 BombrdierJwl
 red 4
@@ -645,6 +665,16 @@ or
 Battlefield Jwl 1
 Barioth Carapce 2
 
+Jump Jewel
+blue 6
+3
+Evade Dist 4
+Health -2
+450z
+LapisLazuli Jwl 1
+Grn Narga Wing 2
+Qurupeco Wing 2
+
 Sheathe Jwl
 cyan 4
 1
@@ -686,6 +716,16 @@ Mega Juice 2
 or
 Battlefield Jwl 1
 SpongyPurplHide 2
+
+Marathon Jwl
+yellow 6
+3
+Stamina 4
+Hunger -2
+450z
+LapisLazuli Jwl 1
+Green Narga Scl 1
+Spongy Hide+ 2
 
 Constutn Jwl
 white 4
@@ -1065,6 +1105,9 @@ Reload Spd -1
 Akito Jewel 1
 Tigrex Fang 2
 Barioth Claw 2
+or
+Battlefield Jwl 1
+FireWyvrnBrnStm 2
 
 HighSpeedJwl
 cyan 4

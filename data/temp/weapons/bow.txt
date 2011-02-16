@@ -496,3 +496,22 @@ R2
 P3
 R3
 YNNYYYN
+
+Ghillie bow
+210
+Focused
+R5
+20%
+OO-
+67500z
+Green Narga Scl 1
+Grn Narga Wing 6
+Grn Narga Fang 8
+Narga Marrow 3
+Desc
+Narga Scraps+ 2
+S2
+S2
+P2
+P3
+YNYYYYY

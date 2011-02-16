@@ -753,3 +753,39 @@ Urukusu Scraps+ 2
 0
 0
 0
+
+Ghillie Sniper
+180
+R5
+40%
+O--
+Normal
+None
+Light
+67500z
+Green Narga Scl 8
+Grn Narga Pelt 5
+Narga Marrow 3
+Shrp Mnster Bne 6
+Desc
+Narga Scraps+ 2
+4 4 0
+4 4! 4!
+0 0 0
+2 0 0
+0 0 0
+0 1
+0 0
+0 0
+0 0
+3! 2
+0
+0
+0
+0
+0
+2
+2
+1
+0
+3!

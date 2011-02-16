@@ -835,6 +835,9 @@ R1
 1z
 
 235 Unknown Skull
+bone yellow
+R4
+120z
 
 236 Bone
 bone white
@@ -1509,16 +1512,31 @@ R4
 200z
 
 377 Ice Barroth Shl
+nshell cyan
+R6
+1755z
 
 378 IceBarrothSpine
+shell cyan
+R6
+2160z
 
 379 Ice Barroth Clw
+claw cyan
+R6
+2340z
 
 380 IceBarrthSklShl
+shell cyan
+R6
+3000z
 
 381 IceBarrothTail
 
 382 Frozen Mucus
+ore cyan
+R6
+900z
 
 383 Hapurubokka Shl
 nshell brown
@@ -1701,6 +1719,9 @@ R5
 2100z
 
 428 FireWyvrnBrnStm
+shell red
+R7
+6300z
 
 429 FireWyvernFluid
 
@@ -1809,12 +1830,24 @@ R5
 454 Narga Brain Stm
 
 455 Green Narga Scl
+scale green
+R6
+1960z
 
 456 Grn Narga Pelt
+hide green
+R6
+2520z
 
 457 Grn Narga Wing
+shell green
+R6
+3570z
 
 458 Grn Narga Fang
+claw green
+R6
+1820z
 
 459 Barioth Shell
 nshell white
@@ -2270,6 +2303,9 @@ R5
 610 Comrade Ticket
 
 611 VeggieElderTckt
+ticket green
+R4
+0z
 
 612 VeggieEldrTckt+
 
@@ -2502,6 +2538,8 @@ R2
 170pts
 
 698 Divine Rhino
+bug cyan
+R4
 
 699 Silver Cricket
 bug white
@@ -2847,3 +2885,6 @@ R5
 530z
 
 813 LapisLazuli Jwl
+jewel yellow
+R5
+880z

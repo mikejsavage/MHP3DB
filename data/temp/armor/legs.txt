@@ -1804,6 +1804,42 @@ Potential 5
 Desc
 Barroth Scraps+ 2
 
+Barroth Greaves U
+44
+-5 2 -2 3 0
+B
+R6
+OOO
+Ice Barroth Shl 3
+IceBarrothTail 1
+Ice Barroth Clw 3
+Urksu Hrd Belly 3
+8300z
+Defense 3
+Fire Atk -2
+KO 1
+FatigueAtk 1
+Desc
+Barroth Scraps+ 2
+
+Barroth Leggings U
+24
+-4 3 -1 5 0
+G
+R6
+OOO
+Ice Barroth Shl 3
+IceBarrothTail 1
+Ice Barroth Clw 3
+Urksu Hrd Belly 3
+8300z
+PierceS Up 1
+Defense 3
+Fire Atk -2
+Ice Attack 1
+Desc
+Barroth Scraps+ 2
+
 Rathian Greaves S
 44
 2 0 -2 0 -4
@@ -1981,6 +2017,42 @@ Sense 1
 Stamina -2
 Evade Dist 4
 SpeedSetup 2
+Desc
+Narga Scraps+ 2
+
+Narga Greaves U
+50
+-3 1 -4 0 -1
+B
+R6
+O--
+Grn Narga Fang 5
+Green Narga Scl 5
+Narga Marrow 2
+Zuwaropsu Hide+ 6
+9000z
+Stamina 5
+Constitutn -2
+Perception 2
+Will Recov 2
+Desc
+Narga Scraps+ 2
+
+Narga Leggings U
+28
+-1 3 -2 1 0
+G
+R6
+O--
+Grn Narga Fang 5
+Green Narga Scl 5
+Narga Marrow 2
+Zuwaropsu Hide+ 6
+9000z
+Stamina 5
+Constitutn -2
+Perception 3
+Will Recov 3
 Desc
 Narga Scraps+ 2
 

@@ -1922,6 +1922,42 @@ Potential 1
 Desc
 Barroth Scraps+ 2
 
+Barroth Mail U
+44
+-5 2 -2 3 0
+B
+R6
+O--
+IceBarrthSklShl 3
+IceBarrothSpine 4
+Frozen Mucus 5
+Urukusu Belly 4
+8300z
+Fire Atk -2
+Ice Attack 3
+KO 3
+FatigueAtk 1
+Desc
+Barroth Scraps+ 2
+
+Barroth Vest U
+24
+-4 3 -1 5 0
+G
+R6
+O--
+IceBarrthSklShl 3
+IceBarrothSpine 4
+Frozen Mucus 5
+Urukusu Belly 4
+8300z
+PierceS Up 3
+Fire Atk -2
+Ice Attack 1
+KO 3
+Desc
+Barroth Scraps+ 2
+
 Rathian Mail S
 44
 2 0 -2 0 -4
@@ -2167,6 +2203,42 @@ Sense 2
 Evasion 5
 Stamina -2
 Evade Dist 2
+Desc
+Narga Scraps+ 2
+
+Narga Mail U
+50
+-3 1 -4 0 -1
+B
+R6
+OOO
+Green Narga Scl 5
+Grn Narga Fang 5
+Narga Brain Stm 1
+Rare Scarab 3
+9000z
+Stamina 1
+Constitutn -2
+Perception 1
+Will Recov 1
+Desc
+Narga Scraps+ 2
+
+Narga Vest U
+28
+-1 3 -2 1 0
+G
+R6
+OOO
+Green Narga Scl 5
+Grn Narga Fang 5
+Narga Brain Stm 1
+Rare Scarab 3
+9000z
+Stamina 1
+Constitutn -2
+Perception 1
+Will Recov 1
 Desc
 Narga Scraps+ 2
 
