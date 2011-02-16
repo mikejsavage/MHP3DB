@@ -1,5 +1,5 @@
 <tr>
-	<td>{{ icon( "items/jewel", colorFromName( decor.color ) ) }}</td>
+	<td>{{ icon( "items/jewel", decor.color ) }}</td>
 	<td class="name"><a href="{%
 		-- this is stupid slow - perhaps we could preprocess this?
 
