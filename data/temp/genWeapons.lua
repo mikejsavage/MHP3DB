@@ -94,7 +94,7 @@ local SharpColors =
 -- a color i've not added yet
 local SharpEnds =
 {
-	imlib2.color.new(   0,   0  , 0 ),
+	imlib2.color.new(   0,   0,   0 ),
 	imlib2.color.new(  48,  44,  32 ), -- for a full sharpness bar
 }
 
