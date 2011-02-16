@@ -1997,6 +1997,42 @@ Combo Rate -2
 Desc
 Giggnox Scraps+ 2
 
+Nebula Tasset U
+47
+0 -4 4 3 -2
+B
+R6
+OO-
+ThdrGiggnoxHide 4
+ThndrGiggnoxClw 1
+Thunder Sac 4
+Isisium Ore 6
+8800z
+Stamina 4
+FastCharge 1
+Ice Attack -2
+FatigueAtk 2
+Desc
+Giggnox Scraps+ 2
+
+Nebula Coat U
+26
+0 -2 5 4 -1
+G
+R6
+OO-
+ThdrGiggnoxHide 4
+ThndrGiggnoxClw 1
+Thunder Sac 4
+Isisium Ore 6
+8800z
+Stamina 4
+FastCharge 1
+Ice Attack -2
+FatigueAtk 2
+Desc
+Giggnox Scraps+ 2
+
 Ingot Coil S
 47
 -2 -2 1 -2 0

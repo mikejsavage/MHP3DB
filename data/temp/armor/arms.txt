@@ -1953,6 +1953,42 @@ Combo Rate -2
 Desc
 Giggnox Scraps+ 2
 
+Nebula Vambraces U
+47
+0 -4 4 3 -2
+B
+R6
+OOO
+ThndrGiggnoxClw 1
+Horrific Maw 2
+Shrp Mnster Bne 2
+Gracium Ore 4
+8800z
+Stamina 2
+FastCharge 1
+Ice Attack -3
+FatigueAtk 1
+Desc
+Giggnox Scraps+ 2
+
+Nebula Guards U
+26
+0 -2 5 4 -1
+G
+R6
+OOO
+ThndrGiggnoxClw 1
+Horrific Maw 2
+Shrp Mnster Bne 2
+Gracium Ore 4
+8800z
+Stamina 2
+FastCharge 2
+Ice Attack -2
+FatigueAtk 1
+Desc
+Giggnox Scraps+ 2
+
 Ingot Vambraces S
 47
 -2 -2 1 -2 0

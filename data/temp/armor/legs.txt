@@ -1876,6 +1876,42 @@ HearProtct 1
 Desc
 Altarth Scraps+ 2
 
+Nebula Greaves U
+47
+0 -4 4 3 -2
+B
+R6
+O--
+ThdrGiggnoxHide 4
+Uncanny Hide+ 2
+Shrp Mnster Bne 2
+Lightcrystal 2
+8800z
+FastCharge 5
+Thundr Atk 2
+Ice Attack -1
+FatigueAtk 2
+Desc
+Giggnox Scraps+ 2
+
+Nebula Leggings U
+26
+0 -2 5 4 -1
+G
+R6
+O--
+ThdrGiggnoxHide 4
+Uncanny Hide+ 2
+Shrp Mnster Bne 2
+Lightcrystal 2
+8800z
+FastCharge 2
+Thundr Atk 4
+Ice Attack -2
+FatigueAtk 3
+Desc
+Giggnox Scraps+ 2
+
 Ingot Greaves S
 47
 -2 -2 1 -2 0

@@ -2062,6 +2062,42 @@ Combo Rate -2
 Desc
 Giggnox Scraps+ 2
 
+Nebula Mail U
+47
+0 -4 4 3 -2
+B
+R6
+OOO
+ThndrGiggnoxClw 2
+ThdrGiggnoxHide 4
+Wyvern Stone 1
+Grt Baggi Hide 5
+8800z
+FastCharge 1
+Thundr Atk 1
+Ice Attack -2
+FatigueAtk 1
+Desc
+Giggnox Scraps+ 2
+
+Nebula Vest U
+26
+0 -2 5 4 -1
+G
+R6
+OOO
+ThndrGiggnoxClw 2
+ThdrGiggnoxHide 4
+Wyvern Stone 1
+Grt Baggi Hide 5
+8800z
+FastCharge 1
+Thundr Atk 1
+Ice Attack -2
+FatigueAtk 1
+Desc
+Giggnox Scraps+ 2
+
 Ingot Mail S
 47
 -2 -2 1 -2 0

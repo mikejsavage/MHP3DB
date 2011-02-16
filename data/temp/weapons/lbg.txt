@@ -385,6 +385,42 @@ Ore Scraps 2
 1
 0
 
+Bloody Bind
+190
+R5
+-10%
+O--
+Fast
+???
+Moderate
+67500z
+ThdrGiggnoxHide 6
+Uncanny Hide+ 3
+ThndrGiggnoxClw 4
+Horrific Maw 2
+Desc
+Giggnox Scraps+ 2
+6 7 9
+2 2 0
+2 0 0
+0 0 0
+0 0 0
+3 2
+2 0
+4!2S 3
+0 0
+2 1
+0
+0
+5
+0
+0
+2
+2
+1
+0
+0
+
 Blizzard Cannon
 150
 R3

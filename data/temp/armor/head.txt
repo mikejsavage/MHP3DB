@@ -2091,6 +2091,42 @@ Combo Rate -2
 Desc
 Giggnox Scraps+ 2
 
+Nebula Helm U
+47
+0 -4 4 3 -2
+BG
+R6
+---
+ThdrGiggnoxHide 4
+Uncanny Hide+ 2
+Pale Extract 5
+Grt Baggi Hide+ 4
+8800z
+FastCharge 2
+Thundr Atk 5
+Ice Attack 4
+FatigueAtk 4
+Desc
+Giggnox Scraps+ 2
+
+Nebula Cap U
+26
+0 -2 5 4 -1
+BG
+R6
+---
+ThdrGiggnoxHide 4
+Uncanny Hide+ 2
+Pale Extract 5
+Grt Baggi Hide+ 4
+8800z
+FastCharge 5
+Thundr Atk 4
+Ice Attack -2
+FatigueAtk 4
+Desc
+Giggnox Scraps+ 2
+
 Ingot Helm S
 47
 -2 -2 1 -2 0

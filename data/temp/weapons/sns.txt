@@ -407,6 +407,20 @@ Bone Scraps 2
 				Desc
 				Ludroth Scraps+ 2
 
+					Majestic Rage
+					200
+					Water 40
+					R6
+					0%
+					---
+					SpongyPurplHide 5
+					PurpRylLdrthScl 8
+					Ludroth Hide+ 5
+					Clammy Thorax 2
+					55000z
+					Desc
+					Ludroth Scraps+ 2
+
 			Hidden Edge
 			130
 			R3

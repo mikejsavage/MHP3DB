@@ -293,6 +293,16 @@ Akito Jewel 1
 Gigginox Claw 1
 Thunderbug 2
 
+ThndrAtk Jwl
+yellow 5
+2
+Thundr Atk 3
+Ice Attack -1
+375z
+Battlefield Jwl 1
+Thunder Sac 1
+Red Qurpeco Scl 2
+
 Ice Atk Jwl
 blue 4
 1
@@ -1074,6 +1084,9 @@ Recoil -1
 Akito Jewel 1
 Nargacuga Fang 2
 Lightcrystal 2
+or
+Battlefield Jwl 1
+ThndrGiggnoxClw 2
 
 Sniper Jewel
 white 4
@@ -1091,6 +1104,16 @@ Attack -1
 200z
 Akito Jewel 1
 Paralysis Sac 1
+
+Para Ct Jwl
+yellow 5
+2
+ParalyCAdd 3
+Attack -1
+375z
+Battlefield Jwl 1
+ThdrGiggnoxHide 1
+Torpor Sac 1
 
 Sleep Ct Jwl
 cyan 4

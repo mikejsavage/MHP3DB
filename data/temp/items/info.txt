@@ -124,6 +124,10 @@ R2
 42 Rare Steak
 
 43 Well-Done Steak
+meat orange
+edible
+R2
+48z
 
 44 Burnt Meat
 
@@ -959,6 +963,9 @@ R6
 510z
 
 263 Thunder Sac
+sac yellow
+R6
+960z
 
 264 Frost Sac
 sac white
@@ -1589,8 +1596,14 @@ R4
 400 Venom Gland
 
 401 ThdrGiggnoxHide
+hide blue
+R6
+2430z
 
 402 ThndrGiggnoxClw
+claw blue
+R6
+3375z
 
 403 Rathian Scale
 scale green
@@ -2222,6 +2235,9 @@ R5
 600 Lng Ancnt Shard
 
 601 Steel Egg
+egg gray
+R4
+1000z
 
 602 Silver Egg
 
@@ -2527,6 +2543,7 @@ R3
 708 Dark Bloodstone
 ore red
 R4
+900pts
 
 709 Coal
 ore gray
@@ -2595,6 +2612,9 @@ R3
 500pts
 
 729 Wyvern Sobs
+shell blue
+R5
+2500pts
 
 730 Pelagus Tears
 shell cyan
@@ -2696,6 +2716,9 @@ R4
 100z
 
 766 Ludroth Scraps+
+scraps yellow
+R6
+300z
 
 767 Barroth Scraps
 
