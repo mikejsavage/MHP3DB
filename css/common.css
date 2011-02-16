@@ -11,10 +11,9 @@ a {
 
 hr {
 	border: 0;
-	background-color: #333;
-	height: 1px;
-	margin: 8px auto;
-	width: 98%;
+	background-color: #222;
+	height: 4px;
+	margin: 1em;
 }
 
 /* html5 element styles */
