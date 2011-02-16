@@ -1,4 +1,4 @@
-<h1>{{ icon( "items/jewel", colorFromName( decor.color ) ) }} {{ T( decor.name ) }}</h1>
+<h1>{{ icon( "items/jewel", decor.color ) }} {{ T( decor.name ) }}</h1>
 
 
 <h2>Stats</h2>
