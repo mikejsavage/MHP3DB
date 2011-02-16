@@ -3,7 +3,7 @@
 		<td>
 			<a href="{{ U( "armory/jwl" ) }}">
 				<div>
-					{{ icon( "equipment/drn" ) }}
+					{{ icon( "equipment/jwl" ) }}
 					Decorations
 				</div>
 			</a>
