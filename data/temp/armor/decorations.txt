@@ -95,7 +95,7 @@ Armor Seed 2
 Catalyst 2
 
 Alarm Jewel
-grey 4
+gray 4
 1
 Anti-Theft 2
 200z
