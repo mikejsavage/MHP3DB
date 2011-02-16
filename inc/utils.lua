@@ -49,16 +49,6 @@ function commas( num )
 	return ( "%s%s" ):format( num, out )
 end
 
--- color functions
-
-function colorFromName( color )
-	return NamedColors[ color ]
-end
-
-function rareColor( rarity )
-	return RareColors[ rarity ]
-end
-
 -- name/url conversion
 
 function string.urlEscape( self )
@@ -117,8 +107,12 @@ end
 
 iconTemplate = loadTemplate( "icon" )
 icon = function( icon, color )
-	if NamedColors[ color ] then
-		color = NamedColors[ color ]
+	if color then
+		if type( color ) == "number" then
+			color = "rare" .. color
+		end
+	else
+		color = "rare1"
 	end
 
 	return iconTemplate( { icon = icon, color = color } )

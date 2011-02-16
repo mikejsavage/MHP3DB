@@ -1,4 +1,4 @@
-<h1>{{ icon( "equipment/" .. class.short, rareColor( piece.rarity ) ) }} {{ T( piece.name ) }}</h1>
+<h1>{{ icon( "equipment/" .. class.short, piece.rarity ) }} {{ T( piece.name ) }}</h1>
 
 
 <h2>Stats</h2>
