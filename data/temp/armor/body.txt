@@ -1850,6 +1850,42 @@ Stamina 1
 Desc
 Ludroth Scraps+ 2
 
+Baggi Mail S
+41
+-4 -1 -1 2 1
+B
+R5
+OO-
+Grt Baggi Claw+ 4
+Regal Crest 1
+BrdWyvern Stone 3
+Isisium Ore 4
+8450z
+Rec Speed 1
+Attack 3
+Fire Res -2
+Rec Level 1
+Desc
+GrtBaggiScraps+ 2
+
+Baggi Vest S
+22
+-2 0 0 4 2
+G
+R5
+OO-
+Grt Baggi Claw+ 4
+Regal Crest 1
+BrdWyvern Stone 3
+Isisium Ore 4
+8450z
+Rec Speed 1
+Attack 1
+Fire Res -2
+Rec Level 3
+Desc
+GrtBaggiScraps+ 2
+
 Ranguro Mail S
 41
 2 -4 -1 -2 2

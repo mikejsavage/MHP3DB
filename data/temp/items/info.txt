@@ -1247,6 +1247,9 @@ R4
 230z
 
 321 Grt Baggi Claw+
+claw cyan
+R6
+690z
 
 322 Regal Crest
 hide cyan
@@ -1299,6 +1302,9 @@ R4
 420z
 
 332 Urukusu Lng Ear
+shell white
+R6
+1260z
 
 333 Urukusu Belly
 shell white
@@ -2608,6 +2614,7 @@ R5
 716 Sootstone Ore
 ore gray
 R5
+1000pts
 
 717 Powderstone
 ore red
@@ -2660,6 +2667,8 @@ R3
 400pts
 
 731 Pelagus Sobs
+shell cyan
+R5
 
 732 Wood Scraps
 scraps yellow
@@ -2733,6 +2742,9 @@ R4
 50z
 
 760 Urukusu Scraps+
+scraps white
+R6
+150z
 
 761 Ranguro Scraps
 scraps red
@@ -2740,6 +2752,9 @@ R4
 50z
 
 762 Ranguro Scraps+
+scraps red
+R6
+150z
 
 763 Qurupeco Scraps
 scraps lime

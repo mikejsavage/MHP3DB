@@ -1647,6 +1647,42 @@ Constitutn 4
 Desc
 GrtFrggiScraps+ 2
 
+Urukusu Helm S
+38
+-4 2 -2 2 1
+BG
+R4
+OO-
+Urukusu Lng Ear 2
+Stout Bone 2
+Baggi Hide 5
+Gracium Ore 3
+7500z
+Attack 1
+Fire Res -3
+Ice Res 3
+Evasion 2
+Desc
+Urukusu Scraps+ 2
+
+Urukusu Cap S
+20
+-2 3 -1 4 3
+BG
+R4
+OO-
+Urukusu Lng Ear 2
+Stout Bone 2
+Baggi Hide 5
+Gracium Ore 3
+7500z
+Attack 4
+Fire Res -1
+Ice Res 2
+Evasion 4
+Desc
+Urukusu Scraps+ 2
+
 Qurupeco Helm S
 35
 2 -2 -1 -4 2
