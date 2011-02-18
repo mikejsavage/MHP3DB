@@ -2,8 +2,8 @@
 
 require( "common" )
 
-Items = json.decode( readFile( "../items.json" ) )
-Skills = json.decode( readFile( "../skills.json" ) )
+Items  = data( "items" )
+Skills = data( "skills" )
 
 local Dir = "armor"
 
@@ -28,16 +28,6 @@ local Bases =
 }
 
 local MaxSlots = 3
-
-function readFile( path )
-	local file = assert( io.open( path, "r" ) )
-
-	local content = file:read( "*all" )
-
-	file:close()
-
-	return content
-end
 
 -- perhaps a gigantic FSM was not
 -- the best way of doing this

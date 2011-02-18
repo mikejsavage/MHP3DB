@@ -10,6 +10,10 @@ function readFile( path )
 	return content
 end
 
+function data( file )
+	return json.decode( readFile( ( "../%s.json" ):format( file ) ) )
+end
+
 function loadNames( path )
 	local contents = readFile( path )
 

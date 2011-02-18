@@ -4,7 +4,7 @@ require( "common" )
 
 require( "imlib2" )
 
-Items = json.decode( readFile( "../items.json" ) )
+Items = data( "items" )
 
 local Dir = "weapons"
 

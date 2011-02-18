@@ -18,8 +18,8 @@ function loadDecorNames( path )
 	return names, count
 end
 
-Items = json.decode( readFile( "../items.json" ) )
-Skills = json.decode( readFile( "../skills.json" ) )
+Items  = data( "items" )
+Skills = data( "skills" )
 
 local DataPath = "armor/decorations.txt"
 

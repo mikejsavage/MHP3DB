@@ -2,8 +2,8 @@
 
 require( "common" )
 
-Items = json.decode( readFile( "../items.json" ) )
-Shots = json.decode( readFile( "../shots.json" ) )
+Items = data( "items" )
+Shots = data( "shots" )
 
 local Dir = "weapons"
 
