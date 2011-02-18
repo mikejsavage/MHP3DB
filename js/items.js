@@ -1,5 +1,7 @@
 onLoad( function()
 {
+	Items.sort( sortByName );
+
 	filterItems();
 
 	$( "name" ).focus();
@@ -9,7 +11,7 @@ onLoad( function()
 
 function sortByName( a, b )
 {
-	return Items[ a.id ].localeCompare( Items[ b.id ] );
+	return a.localeCompare( b );
 }
 
 function filterItems()
@@ -47,9 +49,6 @@ function filterItems()
 
 		return;
 	}
-
-	// sort on load to save doing this?
-	matches.sort( sortByName );
 
 	var filterLen = filter.length;
 
