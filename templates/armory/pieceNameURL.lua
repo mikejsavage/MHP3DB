@@ -1,0 +1,1 @@
+{{ icon( "equipment/" .. class.short, piece.rarity ) }} <a href="{{ U( ( "armory/%s/%s" ):format( class.short, urlFromName( piece.name ) ) ) }}">{{ T( piece.name ) }}</a>

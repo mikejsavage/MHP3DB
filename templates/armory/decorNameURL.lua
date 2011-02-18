@@ -1,0 +1,1 @@
+{{ icon( "items/jewel", decor.color ) }} <a href="{{ U( ( "armory/jwl/%s" ):format( urlFromName( decor.name ) ) ) }}">{{ T( decor.name ) }}</a>
