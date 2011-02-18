@@ -338,12 +338,6 @@ footer {
 	margin-top: 8px;
 }
 
-/* set builder skills tables */
-
-.data.skills td, .data.skills th {
-	text-align: center;
-}
-
 /* set builder stuff */
 
 .slots {
@@ -356,6 +350,16 @@ footer {
 input.small {
 	width: 2.5em;
 }
+
+#calcButton {
+	display: block;
+}
+
+.data.skills td, .data.skills th {
+	text-align: center;
+}
+
+
 
 /* game colours */
 
