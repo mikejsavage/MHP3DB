@@ -192,6 +192,16 @@ Akito Jewel 1
 Jinouga Claw 1
 Dragonite Ore 2
 
+WindpressJwl
+gray 5
+2
+WindPress 3
+Fate -1
+375z
+Battlefield Jwl 1
+Sapphire Fang 1
+Carbalite Ore 3
+
 Attack Jewel
 red 4
 1
@@ -211,6 +221,16 @@ Defense -1
 Akito Jewel 1
 Fire Wyvern Clw 2
 Demondrug 1
+
+Attack Jewel
+red 6
+3
+Attack 5
+Defense -1
+450z
+Battlefield Jwl 1
+Barioth Claw+ 1
+Mega Demondrug 2
 
 Expert Jewel
 blue 4
@@ -244,6 +264,10 @@ Elemental -1
 Akito Jewel 1
 Bnahabra Wing 3
 Bnahabra Stingr 2
+or
+Battlefield Jwl 1
+Bnahabra Carpce 2
+Quality Fin 2
 
 SpcialAtkJwl
 pink 5
@@ -282,6 +306,16 @@ Thundr Atk -1
 200z
 Akito Jewel 1
 RyalLudrthCrest 1
+
+WaterAtk Jwl
+cyan 5
+2
+Water Atk 3
+Thundr Atk -1
+375z
+Battlefield Jwl 1
+Chromatic Fluid 1
+PurpRylLdrthScl 2
 
 ThndrAtk Jwl
 yellow 4
@@ -330,6 +364,16 @@ Status -1
 200z
 Akito Jewel 1
 Jhen Mohran Scl 2
+
+DragnAtk Jwl
+purple 5
+2
+Dragon Atk 3
+Status -1
+375z
+Battlefield Jwl 1
+Ancnt Drgn Bone 2
+Rathalos Carpce 2
 
 DeblitateJwl
 red 4
@@ -581,6 +625,15 @@ Poison -1
 Suiko Jewel 1
 Dragon Seed 2
 
+ExtnctionJwl
+purple 4
+1
+Dragon Res 2
+300z
+Battlefield Jwl 1
+Ancnt Drgn Bone 1
+Shrp Mnster Bne 2
+
 Protectn Jwl
 yellow 4
 1
@@ -652,6 +705,16 @@ or
 Battlefield Jwl 1
 Nargacuga Wing+ 1
 
+Evade Jewel
+cyan 5
+2
+Evasion 3
+Health -1
+375z
+LapisLazuli Jwl 1
+SandBariothPlt 2
+Urukusu Pelt+ 2
+
 Jump Jewel
 blue 4
 1
@@ -703,6 +766,9 @@ Rec Level -1
 Akito Jewel 1
 Hapurbokka Hide 1
 Aoashira Arm 2
+or
+Battlefield Jwl 1
+Haprbokka Hide+ 2
 
 Marathon Jwl
 yellow 4
@@ -951,6 +1017,9 @@ Expert -1
 Akito Jewel 1
 Twisted Horn 1
 Diablos Shell 2
+or
+Battlefield Jwl 1
+Uragaan Carapce 2
 
 PunshDrw Jwl
 orange 4
@@ -961,6 +1030,9 @@ Sharpness -1
 Akito Jewel 1
 Uragaan Shield 1
 Monster Bone+ 2
+or
+Battlefield Jwl 1
+Uragaan Scale+ 2
 
 IronWall Jwl
 gray 4

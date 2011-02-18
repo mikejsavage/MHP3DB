@@ -1481,6 +1481,42 @@ Desc
 Altarth Scraps+ 2
 Pumpkin Scraps 1
 
+Bnahabra Suit S
+32
+-5 -2 2 -2 4
+B
+R4
+O--
+Bnahabra Carpce 2
+Bnahabra Shell 3
+Monster Broth 2
+King Scarab 2
+6900z
+Fencing 1
+Status 2
+Attack -2
+Dragon Res 4
+Desc
+Bnahbra Scraps+ 2
+
+Bnahabra Vest S
+16
+-3 -1 3 -1 5
+G
+R4
+O--
+Bnahabra Carpce 2
+Bnahabra Shell 3
+Monster Broth 2
+King Scarab 2
+6900z
+Paralysis 2
+Status 1
+Attack -2
+Dragon Res 4
+Desc
+Bnahbra Scraps+ 2
+
 Rhenoplos Mail S
 32
 2 -2 -2 -2 1
@@ -2030,6 +2066,42 @@ Water Atk -2
 Desc
 Rathian Scraps+ 2
 
+Hapuru Mail S
+44
+2 -1 -2 -3 0
+B
+R5
+---
+Haprbokka Hide+ 4
+Hapurubokka Cpc 4
+Chromatic Fluid 4
+Froggi Hide 5
+8800z
+Eating 5
+Water Atk 3
+Thundr Atk -2
+Sheathe 1
+Desc
+Hapbkka Scraps+ 2
+
+Hapuru Vest S
+24
+4 0 -1 -2 0
+G
+R5
+---
+Haprbokka Hide+ 4
+Hapurubokka Cpc 4
+Chromatic Fluid 4
+Froggi Hide 5
+8800z
+Eating 5
+Water Atk 3
+Thundr Atk -2
+Sheathe 1
+Desc
+Hapbkka Scraps+ 2
+
 Rouage Petto S
 44
 -5 0 3 -1 1
@@ -2314,6 +2386,42 @@ Will Recov -2
 Desc
 Barioth Scraps+ 2
 
+Barioth Mail U
+50
+2 1 -3 -4 0
+B
+R6
+---
+SandBariothShl 3
+SandBariothTail 1
+Shrp Mnster Bne 5
+Rare Scarab 2
+9000z
+Sense 2
+Evasion -2
+Evade Dist 5
+Constitutn 2
+Desc
+Barioth Scraps+ 2
+
+Barioth Vest U
+28
+4 2 -1 -2 0
+G
+R6
+---
+SandBariothShl 3
+SandBariothTail 1
+Shrp Mnster Bne 5
+Rare Scarab 2
+9000z
+Sense 2
+Evasion -2
+Evade Dist 5
+Constitutn 2
+Desc
+Barioth Scraps+ 2
+
 Rathalos Mail S
 50
 2 -1 -2 -1 -4
@@ -2350,6 +2458,42 @@ Debilitate 3
 Desc
 Rthalos Scraps+ 2
 
+Dober Mail
+50
+-2 0 0 0 4
+B
+R6
+OO-
+Ancnt Drgn Bone 3
+Blk Blos Spine 4
+Hrd Mnster Bone 3
+Sm Monster Bone 20
+9100z
+Hunger -2
+Evasion 2
+Dragon Atk 1
+Will Recov 2
+Desc
+Bone Scraps+ 2
+
+Dober Vest
+28
+-1 0 0 0 5
+G
+R6
+OO-
+Ancnt Drgn Bone 3
+Blk Blos Spine 4
+Hrd Mnster Bone 3
+Sm Monster Bone 20
+9100z
+Hunger -3
+Evasion 1
+Dragon Atk 1
+Will Recov 2
+Desc
+Bone Scraps+ 2
+
 Crystal Necklace
 14
 3 -3 0 0 0
@@ -2359,3 +2503,39 @@ OOO
 Carbalite Ore 3
 Lightcrystal 2
 8800z
+
+Uragaan Mail S
+50
+2 -5 -1 -2 -3
+B
+R5
+OO-
+Uragaan Carapce 5
+Uragaan Jaw 3
+Uragaan Scale 6
+Firecell Stone 1
+9100z
+Fire Res 3
+Water Res -2
+Crit Draw 1
+PunishDraw 1
+Desc
+Uragaan Scraps+ 2
+
+Uragaan Vest S
+28
+4 -4 2 -1 -2
+G
+R5
+OO-
+Uragaan Carapce 5
+Uragaan Jaw 3
+Uragaan Scale 6
+Firecell Stone 1
+9100z
+Recoil 1
+PierceS Up 1
+Fire Res 3
+Water Res -2
+Desc
+Uragaan Scraps+ 2

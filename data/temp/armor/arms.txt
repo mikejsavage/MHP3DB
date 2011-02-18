@@ -1434,6 +1434,42 @@ Desc
 Altarth Scraps+ 2
 Pumpkin Scraps 1
 
+Bnahabra Gloves S
+32
+-5 -2 2 -2 4
+B
+R4
+O--
+Bnahabra Carpce 2
+Bnahabra Wing 4
+Quality Abdomen 2
+Monster Fluid 3
+6900z
+Paralysis 2
+Fencing 2
+Status 3
+Attack -4
+Desc
+Bnahbra Scraps+ 2
+
+Bnahabra Cuffs S
+16
+-3 -1 3 -1 5
+G
+R4
+O--
+Bnahabra Carpce 2
+Bnahabra Wing 4
+Quality Abdomen 2
+Monster Fluid 3
+6900z
+Paralysis 1
+Reload Spd 5
+Status 1
+Attack -4
+Desc
+Bnahbra Scraps+ 2
+
 Rhenoplos Vambraces S
 32
 2 -2 -2 -2 1
@@ -1773,6 +1809,42 @@ Stamina 2
 Desc
 Ludroth Scraps+ 2
 
+Baggi Vambraces S
+41
+-4 -1 -1 2 1
+B
+R5
+O--
+Grt Baggi Claw+ 3
+Grt Baggi Hide+ 3
+Coma Sac 4
+Isisium Ore 4
+8450z
+Attack 2
+Fire Res -1
+Ice Res 5
+Rec Level 3
+Desc
+GrtBaggiScraps+ 2
+
+Baggi Guards S
+22
+-2 0 0 4 2
+G
+R5
+O--
+Grt Baggi Claw+ 3
+Grt Baggi Hide+ 3
+Coma Sac 4
+Isisium Ore 4
+8450z
+Attack 1
+Fire Res -2
+Ice Res 5
+Rec Level 3
+Desc
+GrtBaggiScraps+ 2
+
 Ranguro Vambraces S
 41
 2 -4 -1 -2 2
@@ -1916,6 +1988,42 @@ Fire Atk 6
 Water Atk -1
 Desc
 Rathian Scraps+ 2
+
+Hapuru Vambraces S
+44
+2 -1 -2 -3 0
+B
+R5
+OO-
+Hapurbokka Clw+ 3
+Hapurubokka Cpc 3
+Chromatic Fluid 4
+Grt Froggi Hide 5
+8800z
+Eating 4
+Water Atk 1
+Thundr Atk -1
+Sheathe 3
+Desc
+Hapbkka Scraps+ 2
+
+Hapuru Guards S
+24
+4 0 -1 -2 0
+G
+R5
+OO-
+Hapurbokka Clw+ 3
+Hapurubokka Cpc 3
+Chromatic Fluid 4
+Grt Froggi Hide 5
+8800z
+Eating 5
+Water Atk 1
+Thundr Atk -2
+Sheathe 1
+Desc
+Hapbkka Scraps+ 2
 
 Rouage Mano S
 44
@@ -2133,6 +2241,78 @@ Will Recov 4
 Desc
 Narga Scraps+ 2
 
+Barioth Vambraces S
+47
+-4 1 -3 2 -1
+B
+R5
+O--
+Barioth Claw+ 2
+Barioth Carapce 3
+Barioth Pelt 4
+Urksu Hrd Belly 3
+9000z
+Evasion 1
+Constitutn 4
+Ice Attack 5
+Will Recov -1
+Desc
+Barioth Scraps+ 2
+
+Barioth Guards S
+26
+-2 2 -1 4 0
+G
+R5
+O--
+Barioth Claw+ 2
+Barioth Carapce 3
+Barioth Pelt 4
+Urksu Hrd Belly 3
+9000z
+Evasion 1
+Constitutn 4
+Ice Attack 4
+Will Recov -2
+Desc
+Barioth Scraps+ 2
+
+Barioth Vambraces U
+50
+2 1 -3 -4 0
+B
+R6
+O--
+SandBariothClw 1
+SandBariothShl 3
+SandBariothPlt 4
+Aoashira Pelt+ 6
+9000z
+Sense 2
+Evasion -1
+Evade Dist 5
+Constitutn 3
+Desc
+Barioth Scraps+ 2
+
+Barioth Guards U
+28
+4 2 -1 -2 0
+G
+R6
+O--
+SandBariothClw 1
+SandBariothShl 3
+SandBariothPlt 4
+Aoashira Pelt+ 6
+9000z
+Sense 3
+Evasion -2
+Evade Dist 3
+Constitutn 3
+Desc
+Barioth Scraps+ 2
+
 Rathalos Vambraces S
 50
 2 -1 -2 -1 -4
@@ -2169,6 +2349,42 @@ Debilitate 3
 Desc
 Rthalos Scraps+ 2
 
+Dober Vambraces
+50
+-2 0 0 0 4
+B
+R6
+OOO
+Ancnt Drgn Bone 3
+Blk Tigrex Claw 3
+EldrDragonBlood 2
+Lg Monster Bone 5
+9100z
+Hunger -1
+Dragon Res 1
+Evasion 1
+Dragon Atk 4
+Desc
+Bone Scraps+ 2
+
+Dober Guards
+28
+-1 0 0 0 5
+G
+R6
+OOO
+Ancnt Drgn Bone 3
+Blk Tigrex Claw 3
+EldrDragonBlood 2
+Lg Monster Bone 5
+9100z
+Hunger -2
+Dragon Res 1
+Evasion 2
+Dragon Atk 2
+Desc
+Bone Scraps+ 2
+
 Crystal Bracelets
 14
 0 3 -3 0 0
@@ -2178,3 +2394,75 @@ OOO
 Carbalite Ore 3
 Lightcrystal 2
 8800z
+
+Uragaan Vambraces S
+50
+2 -5 1 -2 -3
+B
+R5
+---
+Uragaan Scale+ 5
+Uragaan Shield 5
+Shrp Mnster Bne 3
+Union Ore 3
+9100z
+Defense 6
+Water Res -1
+Crit Draw 3
+PunishDraw 3
+Desc
+Uragaan Scraps+ 2
+
+Uragaan Guards S
+28
+4 -4 2 -1 -2
+G
+R5
+---
+Uragaan Scale+ 5
+Uragaan Shield 5
+Shrp Mnster Bne 3
+Union Ore 3
+9100z
+Recoil 3
+PierceS Up 2
+Defense 5
+Water Res -3
+Desc
+Uragaan Scraps+ 2
+
+Uragaan Vambraces U
+53
+3 -5 1 -2 -3
+B
+R6
+OO-
+SteelUragaanScl 4
+Uragaan Ruby 1
+Magma Shard 5
+Rangurtora Clw+ 3
+9100z
+Guard 5
+BombStrUp 1
+Dragon Res -2
+Will Recov 1
+Desc
+Uragaan Scraps+ 2
+
+Uragaan Guards S
+30
+5 -4 2 -1 -2
+G
+R6
+OO-
+SteelUragaanScl 4
+Uragaan Ruby 1
+Magma Shard 5
+Rangurtora Clw+ 3
+9100z
+Reload Spd 4
+PelletS Up 1
+BombStrUp 1
+Dragon Res -3
+Desc
+Uragaan Scraps+ 2

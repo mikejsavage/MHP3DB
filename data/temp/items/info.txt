@@ -884,6 +884,9 @@ R6
 600z
 
 246 Ancnt Drgn Bone
+bone white
+R6
+500z
 
 247 Wyvern Fang
 claw white
@@ -1073,6 +1076,9 @@ R4
 120z
 
 285 Bnahabra Carpce
+nshell yellow
+R6
+360z
 
 286 Bnahabra Wing
 webbing yellow
@@ -1538,6 +1544,9 @@ R6
 3000z
 
 381 IceBarrothTail
+shell cyan
+R6
+2520z
 
 382 Frozen Mucus
 ore cyan
@@ -1550,6 +1559,9 @@ R4
 480z
 
 384 Hapurubokka Cpc
+nshell brown
+R6
+1440z
 
 385 Hapurbokka Hide
 hide brown
@@ -1557,6 +1569,9 @@ R4
 600z
 
 386 Haprbokka Hide+
+hide brown
+R6
+1800z
 
 387 Hapurubokka Clw
 claw brown
@@ -1564,6 +1579,9 @@ R4
 820z
 
 388 Hapurbokka Clw+
+claw brown
+R6
+2460z
 
 389 Hprbkka Skl Shl
 shell brown
@@ -1576,6 +1594,9 @@ R4
 350z
 
 391 Chromatic Fluid
+drink cyan
+R6
+1050z
 
 392 Gigginox Hide
 hide red
@@ -1707,6 +1728,9 @@ R4
 421 Rathalos Plate
 
 422 Rathalos Ruby
+ball red
+R7
+9700z
 
 423 Slvr Rthlos Scl
 
@@ -1881,6 +1905,9 @@ R4
 830z
 
 464 Barioth Claw+
+claw white
+R6
+2490z
 
 465 Barioth Spike
 shell white
@@ -1898,18 +1925,39 @@ R4
 1420z
 
 468 Amber Fang+
+claw orange
+R6
+3550z
 
 469 SandBariothShl
+nshell orange
+R6
+1665z
 
 470 SandBariothPlt
+hide orange
+R6
+3330z
 
 471 SandBariothClw
+claw orange
+R6
+3735z
 
 472 SandBariothTail
+shell orange
+R6
+4800z
 
 473 Sapphire Fang
+claw blue
+R6
+4970z
 
 474 Hard Pleura
+webbing orange
+R6
+1500z
 
 475 Uragaan Scale
 scale yellow
@@ -1917,6 +1965,9 @@ R4
 550z
 
 476 Uragaan Scale+
+scale yellow
+R6
+1650z
 
 477 Uragaan Shell
 nshell yellow
@@ -1924,6 +1975,9 @@ R4
 900z
 
 478 Uragaan Carapce
+nshell yellow
+R6
+2700z
 
 479 Uragaan Jaw
 shell yellow
@@ -1943,8 +1997,14 @@ R5
 482 Uragaan Ruby
 
 483 SteelUragaanScl
+scale blue
+R6
+2475z
 
 484 SteelUragaanCpc
+nshell blue
+R6
+4050z
 
 485 SteelUragaanJaw
 
@@ -2264,6 +2324,8 @@ garbage gray
 R5
 
 596 Ancient Stone
+garbage gray
+R7
 
 597 Rustshard
 

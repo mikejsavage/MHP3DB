@@ -181,6 +181,9 @@ Ice Res
 -10 Ice Res Weaknd
 
 Dragon Res
+15 Dragon Res (L)
+10 Dragon Res (S)
+-10 Drgn Res Weaknd
 
 Heat Res
 10 Heat Cancel
@@ -354,6 +357,9 @@ Ice Attack
 -10 Ice Elemnt Down
 
 Dragon Atk
+15 Dragn Elemnt +2
+10 Dragn Elemnt +1
+-10 Drgn Elmnt Down
 
 CutterSAdd
 

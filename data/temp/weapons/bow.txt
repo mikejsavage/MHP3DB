@@ -458,6 +458,66 @@ P2
 P3
 YYNNYYY
 
+Arc Dos Rouge
+170
+Focused
+Fire 35
+R4
+5%
+OO-
+52500z
+Bnahabra Carpce 8
+Monster Broth 4
+Quality Abdomen 6
+Flame Sac 8
+Desc
+Bnahabra Scraps+ 2
+P2
+R3
+P3
+YNYNYYN
+Paralysis
+
+Arc Dos Blanc
+170
+Focused
+Ice 29
+R4
+5%
+OO-
+52500z
+Bnahabra Carpce 8
+Monster Broth 4
+Quality Abdomen 6
+Urukusu Claw 6
+Desc
+Bnahabra Scraps+ 2
+S2
+P3
+P3
+YNYNYYN
+Paralysis
+
+Arc Dos Dorado
+170
+Focused
+Thunder 24
+R4
+5%
+OO-
+52500z
+Bnahabra Carpce 8
+Monster Broth 4
+Quality Abdomen 6
+Mega Thunderbug 10
+Desc
+Bnahabra Scraps+ 2
+S2
+S3
+R3
+YNYNYYN
+Paralysis
+
 Hunters Power Bow I
 210
 Spread
@@ -473,6 +533,25 @@ Grt Jaggi Claw+ 3
 Desc
 Ore Scraps+ 1
 Ore Scraps 1
+R2
+R3
+R3
+YNNYYYY
+
+64th Div Bow III
+180
+Spread
+Water 24
+R5
+0%
+---
+67500z
+Hapurubokka Cpc 6
+Haprbokka Hide+ 4
+Hapurbokka Clw+ 6
+Shrp Mnster Bne 4
+Desc
+Hapbkka Scraps+ 2
 R2
 R3
 R3
@@ -496,6 +575,45 @@ R2
 P3
 R3
 YNNYYYN
+
+Agile Saber
+210
+Focused
+R5
+10%
+O--
+67500z
+SandBariothShl 4
+Sapphire Fang 2
+SandBariothClw 4
+Hand Pleura 2
+Desc
+Barioth Scraps+ 2
+P2
+P3
+R3
+R4
+YYYNNYY
+
+Brass Corda III
+220
+Blast
+Def 16
+Fire 22
+R5
+0%
+---
+67500z
+Uragaan Carapce 6
+Uragaan Shield 10
+Uragaan Marrow 2
+SteelUragaanScl 4
+Desc
+Uragaan Scraps+ 2
+P1
+R1
+R2
+YNNYNYY
 
 Ghillie bow
 210
