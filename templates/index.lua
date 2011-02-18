@@ -90,7 +90,7 @@ local function neatDate( ts, now )
 			and "Today"
 			or  ( actualTime.day == now.day - 1
 				and "Yesterday"
-				or  ( "On %d%s %s" ):format( actualTime.day, dateSuffix( actualTime.day ), Months[ actualTime.day ] )
+				or  ( "On %d%s %s" ):format( actualTime.day, dateSuffix( actualTime.day ), Months[ actualTime.month ] )
 			),
 
 		actualTime.hour,
