@@ -66,7 +66,7 @@ local Singular =
 for _, class in ipairs( Armors ) do
 	print( icon( "equipment/" .. class.short ) )
 
-	print( ( [[<select id="%s" onchange="pieceChanged( '%s' )">]] ):format( class.short, class.short ) )
+	print( ( [[ <select id="%s" onchange="pieceChanged( '%s' )">]] ):format( class.short, class.short ) )
 
 	print( ( [[<option value="-1">Any %s</option>]] ):format( Singular[ class.short ] ) )
 	print( ( [[<option value="-2">Any 1 slotted %s</option>]] ):format( Singular[ class.short ] ) )
