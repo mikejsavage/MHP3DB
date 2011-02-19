@@ -2539,3 +2539,183 @@ Fire Res 3
 Water Res -2
 Desc
 Uragaan Scraps+ 2
+
+Jinouga Mail S
+53
+-1 -2 4 -3 0
+B
+R5
+OOO
+Jinouga Pelt+ 4
+Jinouga Carapce 5
+Jinouga Jewel 1
+Thunderbug 20
+9500z
+Sense -2
+Evade Dist 1
+Awaken 1
+Thundr Atk 1
+Desc
+Jinouga Scraps+ 2
+
+Jinouga Vest S
+30
+0 -1 5 -1 0
+G
+R5
+OOO
+Jinouga Pelt+ 4
+Jinouga Carapce 5
+Jinouga Jewel 1
+Thunderbug 20
+9500z
+Sense -2
+Evade Dist 1
+Awaken 1
+Thundr Atk 1
+Desc
+Jinouga Scraps+ 2
+
+Agnaktor Mail S
+53
+4 -4 0 -2 -4
+B
+R5
+OO-
+Agnaktor Hide+ 4
+Agnaktor Fin+ 2
+Agnaktor Carpce 5
+Firecell Stone 2
+9500z
+Sharpness 1
+Fire Res 2
+Constitutn 2
+Water Atk -2
+Desc
+Agnktor Scraps+ 2
+
+Agnaktor Vest S
+30
+5 -2 0 -1 -2
+G
+R5
+OO-
+Agnaktor Hide+ 4
+Agnaktor Fin+ 2
+Agnaktor Carpce 5
+Firecell Stone 2
+9500z
+NormalS Up 1
+Fire Res 2
+Precision 2
+Water Atk -2
+Desc
+Agnktor Scraps+ 2
+
+Agnaktor Mail U
+56
+-4 2 -2 3 -4
+B
+R6
+O--
+Ice Agnktr Hide 4
+Ice Agnktor Fin 3
+Ice Agnktor Shl 5
+Grt Baggi Hide 4
+9500z
+Guard 2
+Guard Up 1
+Fire Atk -2
+Ice Attack 4
+Desc
+Agnktor Scraps+ 2
+
+Agnaktor Vest U
+32
+-2 4 -1 5 -2
+G
+R6
+O--
+Ice Agnktr Hide 4
+Ice Agnktor Fin 3
+Ice Agnktor Shl 5
+Grt Baggi Hide 4
+9500z
+Reload Spd 2
+PierceSAdd 1
+Fire Atk -2
+Ice Attack 4
+Desc
+Agnktor Scraps+ 2
+
+Doboru Mail S
+53
+-3 1 -2 -2 0
+B
+R5
+O--
+Doboru Horn+ 2
+Doboru Kelp 4
+Wyvern Stone 1
+Bullfango Pelt 6
+9500z
+Expert -2
+Attack 4
+Potential 1
+Slam 2
+Desc
+Doboru Scraps+ 2
+
+Doboru Vest S
+30
+-2 3 -1 -1 0
+G
+R5
+O--
+Doboru Horn+ 2
+Doboru Kelp 4
+Wyvern Stone 1
+Bullfango Pelt 6
+9500z
+Expert -3
+Recoil 2
+Potential 2
+Slam 2
+Desc
+Doboru Scraps+ 2
+
+Golden Moon Mail
+56
+2 -2 -4 0 3
+B
+R7
+OOO
+Gld Rathian Scl 5
+FireWyvrnBrnStm 1
+Rathian Plate 2
+Union Ore 4
+9900z
+Protection 1
+ThunderRes -2
+Fate 1
+Slam 1
+Desc
+Rathian Scraps+ 2
+
+Golden Moon Vest
+32
+4 -1 -3 0 4
+G
+R7
+OOO
+Gld Rathian Scl 5
+FireWyvrnBrnStm 1
+Rathian Plate 2
+Union Ore 4
+9900z
+Protection 1
+ThunderRes -2
+Fate 1
+Slam 1
+Desc
+Rathian Scraps+ 2

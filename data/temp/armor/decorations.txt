@@ -397,6 +397,9 @@ Expert -1
 Akito Jewel 1
 Doboru Kelp 1
 Doboru Shell 2
+or
+Battlefield Jwl 1
+Mossy Carapace+ 2
 
 Ammo Box Jwl
 gray 4
@@ -427,6 +430,9 @@ Sense -1
 Akito Jewel 1
 Jinouga Horn 1
 Barioth Spike 2
+or
+Battlefield Jwl 1
+Jinouga Horn+ 1
 
 KO Jewel
 orange 4
@@ -642,6 +648,15 @@ Protection 1
 Akito Jewel 1
 Rathian Shell 2
 
+DvnePrtctJwl
+yellow 4
+1
+Protection 2
+300z
+LapisLazuli Jwl 1
+Gld Rathian Cpc 2
+Yukumo Ticket 1
+
 Health Jewel
 red 4
 1
@@ -744,6 +759,10 @@ cyan 4
 Sheathe 1
 Sharpener -1
 200z
+Akito Jewel 1
+Shellfish 1
+Altarth Abdomen 1
+or
 Battlefield Jwl 1
 Jaggi Scale+ 1
 Drink Ticket 1
@@ -805,6 +824,16 @@ Froggi Scale 2
 or
 Battlefield Jwl 1
 Barioth Pelt+ 2
+
+Constutn Jwl
+white 5
+2
+Constitutn 3
+Stamina -1
+375z
+LapisLazuli Jwl 1
+Agnaktor Fin+ 1
+Grt Frggi Hide+ 2
 
 WillRecovJwl
 white 4
@@ -1008,6 +1037,16 @@ or
 Battlefield Jwl 1
 Rathian Plate 1
 
+Razor Jewel
+gray 6
+3
+Sharpness 4
+Artisan -2
+450z
+LapisLazuli Jwl 1
+Agnaktor Fin+ 1
+Horrific Maw 2
+
 CritDraw Jwl
 red 4
 1
@@ -1052,6 +1091,9 @@ Constitutn -1
 Akito Jewel 1
 Agnaktor Snout 1
 Agnaktor Shell 3
+or
+Battlefield Jwl 1
+Ice Agnktor Fin 2
 
 HardWall Jwl
 gray 4
@@ -1061,6 +1103,16 @@ Stamina -1
 200z
 Akito Jewel 1
 Fire Stone 2
+
+HardWall Jwl
+gray 5
+2
+Guard Up 3
+Stamina -1
+375z
+Battlefield Jwl 1
+Ice Agnktor Shl 1
+Firecell Stone 3
 
 Grinder Jwl
 yellow 4
@@ -1080,9 +1132,16 @@ Recoil -1
 Akito Jewel 1
 Monster Bone+ 2
 Rumblefish 5
-or
-Battlefield Jwl 1
-Barroth Thracic 2
+
+StrngShotJwl
+white 6
+3
+NormalS Up 4
+Recoil -2
+450z
+LapisLazuli Jwl 1
+Agnaktor Carpce 2
+Shrp Mnster Bne 2
 
 Pierce Jewel
 white 4
@@ -1202,6 +1261,29 @@ Lightcrystal 2
 or
 Battlefield Jwl 1
 ThndrGiggnoxClw 2
+
+Recoil Jewel
+gray 4
+1
+Recoil 1
+Reload Spd -1
+200z
+Akito Jewel 1
+Barroth Skl Shl 1
+RyalLudrthCrest 1
+or
+Battlefield Jwl 1
+Barroth Thracic 2
+
+Recoil Jewel
+gray 6
+3
+Recoil 4
+Reload Spd -2
+450z
+LapisLazuli Jwl 1
+Doboru Tail+ 2
+Blk Blos Spine 2
 
 Sniper Jewel
 white 4

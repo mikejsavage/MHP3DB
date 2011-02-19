@@ -19,44 +19,148 @@ Desc
 	Wood Scraps 1
 	Ore Scraps 1
 
-Iron Katana
-80
-R1
-0%
----
-1500z
-Iron Ore 5
-Machalite Ore 3
-Desc
-Ore Scraps 2
+		Yukumo Longsword+
+		90
+		R1
+		0%
+		---
+		Machalite Ore 5
+		Yukumo Wood 5
+		Brd Wyvern Fang 5
+		1000z
+		Desc
+		Wood Scraps 1
+		Ore Scraps 1
 
-Bone Katana "Fang"
-90
-R1
-0%
----
-2100z
-Sm Monster Bone 4
-Iron Ore 4
-Jaggi Hide 5
-Jaggi Scale 5
-Desc
-Bone Scraps 1
-Ore Scraps 1
+			Yukumo Warblade
+			130
+			R2
+			0%
+			---
+			Lightcrystal 1
+			Machalite Ore 10
+			Yukumo Wood 10
+			Barroth Claw 2
+			2000z
+			Desc
+			Wood Scraps 1
+			Ore Scraps 2
 
-Blood Cross
-120
-Poison 30
-R2
-0%
----
-7350z
-Gigginox Claw 5
-Poison Gland 2
-Gigginox Hide 4
-Machalite Ore 8
-Desc
-Gigginox Scraps 2
+			Blood Cross
+			120
+			Poison 30
+			R2
+			0%
+			---
+			Uncanny Hide 3
+			Gigginox Claw 4
+			Poison Sac 5
+			Iron Ore 8
+			4900z
+			Gigginox Claw 5
+			Poison Gland 2
+			Gigginox Hide 4
+			Machalite Ore 8
+			Desc
+			Gigginox Scraps 2
+
+				Blood Cross+
+				150
+				Poison 25
+				R3
+				0%
+				---
+				Gigginox Hide 3
+				Horrific Maw 1
+				Poison Gland 3
+				Tigrex Fang 4
+				15000z
+				Desc
+				Gigginox Scraps 2
+
+					La Cantarella
+					170
+					Poison 40
+					R6
+					0%
+					---
+					Uncanny Hide+ 3
+					Venom Gland 3
+					Carbalite Ore 5
+					60000z
+					Desc
+					Giggnox Scraps+ 1
+					Ore Scraps+ 1
+
+					Crimson Cross
+					170
+					Thunder 26
+					R5
+					10%
+					---
+					ThdrGiggnoxHide 3
+					Thunder Sac 3
+					Gracium Ore 5
+					40000z
+					Desc
+					Giggnox Scraps+ 1
+					Ore Scraps+ 1
+					
+						Lost Sanctuary
+						190
+						Thunder 30
+						R6
+						15%
+						---
+						ThndrGiggnoxClw 3
+						Horrific Maw 2
+						LightningCarpce 5
+						60000z
+						Desc
+						Giggnox Scraps+ 2
+
+		Iron Katana
+		80
+		R1
+		0%
+		---
+		Iron Ore 3
+		Machalite Ore 1
+		Carpenterbug 2
+		1000z
+		Iron Ore 5
+		Machalite Ore 3
+		Desc
+		Ore Scraps 2
+
+		Aoashira Naginata
+		110
+		R1
+		0%
+		---
+		Aoashira Pelt 4
+		Aoashira Arm 1
+		Bealite Ore 3
+		2500z
+		Desc
+		Aoashira Scraps 2
+
+		Bone Katana "Fang"
+		90
+		R1
+		0%
+		---
+		Sm Monster Bone 2
+		Iron Ore 2
+		Jaggi Hide 3
+		1400z
+		Sm Monster Bone 4
+		Iron Ore 4
+		Jaggi Hide 5
+		Jaggi Scale 5
+		Desc
+		Bone Scraps 1
+		Ore Scraps 1
 
 Downpour
 130

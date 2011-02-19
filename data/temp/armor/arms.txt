@@ -2466,3 +2466,183 @@ BombStrUp 1
 Dragon Res -3
 Desc
 Uragaan Scraps+ 2
+
+Jinouga Vambraces S
+53
+-1 -2 4 -3 0
+B
+R5
+---
+Jinouga Claw+ 5
+LightningCarpce 4
+Jinouga Pelt 3
+Bulldrome Hide+ 6
+9500z
+Sense 1
+Evade Dist 5
+Awaken 5
+Thundr Atk 2
+Desc
+Jinouga Scraps+ 2
+
+Jinouga Guards S
+30
+0 -1 5 -1 0
+G
+R5
+---
+Jinouga Claw+ 5
+LightningCarpce 4
+Jinouga Pelt 3
+Bulldrome Hide+ 6
+9500z
+Sense -2
+Evade Dist 4
+Awaken 2
+Thundr Atk 5
+Desc
+Jinouga Scraps+ 2
+
+Agnaktor Vambraces S
+53
+4 -4 0 -2 -4
+B
+R5
+O--
+Agnaktor Claw+ 5
+Agnaktor Carpce 5
+Agnaktor Tail 1
+Magma Shard 6
+9500z
+Sharpness 2
+Constitutn 2
+Fire Atk 6
+Water Atk -1
+Desc
+Agnktor Scraps+ 2
+
+Agnaktor Guards S
+30
+5 -2 0 -1 -2
+G
+R5
+O--
+Agnaktor Claw+ 5
+Agnaktor Carpce 5
+Agnaktor Tail 1
+Magma Shard 6
+9500z
+NormalS Up 2
+Precision 1
+Fire Atk 5
+Water Atk -3
+Desc
+Agnktor Scraps+ 2
+
+Agnaktor Vambraces U
+56
+-4 2 -2 3 -4
+B
+R6
+OOO
+Ice Agnktor Clw 3
+Ice Agnktor Shl 5
+Wyvern Stone 1
+Grt Baggi Claw+ 3
+9500z
+Guard 1
+Guard Up 1
+Water Res 2
+Fire Atk -3
+Desc
+Agnktor Scraps+ 2
+
+Agnaktor Guards U
+32
+-2 4 -1 5 -2
+G
+R6
+OOO
+Ice Agnktor Clw 3
+Ice Agnktor Shl 5
+Wyvern Stone 1
+Grt Baggi Claw+ 3
+9500z
+Reload Spd 1
+PierceSAdd 1
+Water Res 2
+Fire Atk -3
+Desc
+Agnktor Scraps+ 2
+
+Doboru Vambraces S
+53
+-3 1 -2 -2 0
+B
+R5
+OO-
+Doboru Carapace 6
+Doboru Tail+ 2
+Mossy Carapace+ 5
+Zuwaropsu Hide+ 6
+9500z
+Health 2
+Expert -2
+Attack 2
+Slam 3
+Desc
+Doboru Scraps+ 2
+
+Doboru Guards S
+30
+-2 3 -1 -1 0
+G
+R5
+OO-
+Doboru Carapace 6
+Doboru Tail+ 2
+Mossy Carapace+ 5
+Zuwaropsu Hide+ 6
+9500z
+Health 3
+Expert -1
+Recoil 2
+Slam 3
+Desc
+Doboru Scraps+ 2
+
+Golden Moon Braces
+56
+2 -2 -4 0 3
+B
+R7
+---
+Gld Rathian Cpc 5
+Fire Wyvern Clw 3
+Rathian Ruby 1
+Union Ore 4
+9900z
+Protection 2
+ThunderRes -2
+Fate 5
+Slam 4
+Desc
+Rathian Scraps+ 2
+
+Golden Moon Guards
+32
+4 -1 -3 0 4
+G
+R7
+---
+Gld Rathian Cpc 5
+Fire Wyvern Clw 3
+Rathian Ruby 1
+Union Ore 4
+9900z
+Protection 3
+ThunderRes -3
+Fate 4
+Slam 3
+Desc
+Rathian Scraps+ 2

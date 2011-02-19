@@ -888,3 +888,39 @@ Rthalos Scraps+ 2
 0
 0
 0
+
+Jinouga Vaporizer
+220
+R6
+10%
+O--
+Normal
+None
+Moderate
+120000z
+Jinouga Carapce 8
+LightningCarpce 4
+Jinouga Horn+ 4
+Jinouga Jewel 1
+Desc
+Jinouga Scraps+ 2
+6 9 12
+0 3 4
+0 2!2M 0
+0 0 0
+0 1 0
+2 0
+0 0
+2 2
+0 0
+2 2
+0
+0
+5!3W
+0
+0
+2
+2
+1
+1
+4!2M

@@ -26,6 +26,9 @@ R2
 16z
 
 9 Nutrients
+drink cyan
+R2
+25z
 
 10 Mega Nutrients
 
@@ -35,6 +38,9 @@ R1
 6z
 
 12 Herbal Medicine
+sac white
+R2
+25z
 
 13 Immunizer
 
@@ -113,6 +119,9 @@ R1
 5z
 
 39 Poisoned Meat
+meat purple
+R1
+19z
 
 40 Tainted Meat
 meat yellow
@@ -120,8 +129,15 @@ R2
 30z
 
 41 Drugged Meat
+meat cyan
+R1
+32z
 
 42 Rare Steak
+meat orange
+edible
+R1
+3z
 
 43 Well-Done Steak
 meat orange
@@ -166,6 +182,9 @@ R1
 56 Tranq Thrw Knf
 
 57 Bomb Material
+ball white
+R1
+15z
 
 58 Paintball
 ball pink
@@ -599,6 +618,9 @@ R6
 350z
 
 184 High Qualty Ash
+sac gray
+R1
+1z
 
 185 Knife Mackerel
 fish yellow
@@ -659,6 +681,9 @@ R4
 100z
 
 197 Shellfish
+scale white
+R4
+100z
 
 198 Armord Beakfish
 fish white
@@ -828,6 +853,9 @@ R4
 60z
 
 233 Rainbow Crystal
+ore blue
+R4
+200z
 
 234 Mystery Bone
 bone yellow
@@ -870,6 +898,9 @@ R6
 660z
 
 242 Hrd Mnster Bone
+bone red
+R6
+840z
 
 243 Bird Wyvrn Bone
 bone blue
@@ -1690,8 +1721,14 @@ R5
 411 Rathian Ruby
 
 412 Gld Rathian Scl
+scale yellow
+R6
+2200z
 
 413 Gld Rathian Cpc
+nshell yellow
+R6
+3900z
 
 414 GldRathianSpike
 
@@ -1726,6 +1763,9 @@ R4
 1200z
 
 421 Rathalos Plate
+scale red
+R5
+4850z
 
 422 Rathalos Ruby
 ball red
@@ -1754,6 +1794,9 @@ R7
 6300z
 
 429 FireWyvernFluid
+drink yellow
+R6
+2500z
 
 430 Jinouga Shell
 nshell teal
@@ -1761,6 +1804,9 @@ R4
 650z
 
 431 Jinouga Carapce
+nshell teal
+R6
+1950z
 
 432 Jinouga Pelt
 hide white
@@ -1768,6 +1814,9 @@ R4
 490z
 
 433 Jinouga Pelt+
+hide white
+R6
+1470z
 
 434 Jinouga Horn
 claw teal
@@ -1775,6 +1824,9 @@ R4
 840z
 
 435 Jinouga Horn+
+claw teal
+R6
+2520z
 
 436 Jinouga Claw
 claw teal
@@ -1782,6 +1834,9 @@ R4
 700z
 
 437 Jinouga Claw+
+claw teal
+R6
+2100z
 
 438 Jinouga Tail
 shell teal
@@ -1794,6 +1849,9 @@ R4
 800z
 
 440 LightningCarpce
+shell teal
+R6
+2400z
 
 441 Jinouga Plate
 scale teal
@@ -2016,6 +2074,9 @@ R4
 830z
 
 488 Doboru Carapace
+nshell green
+R6
+2490z
 
 489 Mossy Carapace
 hide green
@@ -2023,6 +2084,9 @@ R4
 880z
 
 490 Mossy Carapace+
+hide green
+R6
+2640z
 
 491 Doboru Kelp
 shell green
@@ -2035,6 +2099,9 @@ R4
 1320z
 
 493 Doboru Tail+
+shell green
+R6
+3960z
 
 494 Doboru Horn
 claw green
@@ -2042,6 +2109,9 @@ R4
 1250z
 
 495 Doboru Horn+
+claw green
+R6
+3750z
 
 496 Doboru Tailbone
 bone green
@@ -2160,6 +2230,9 @@ R4
 560z
 
 530 Agnaktor Carpce
+nshell red
+R6
+1680z
 
 531 Agnaktor Hide
 hide red
@@ -2167,6 +2240,9 @@ R4
 700z
 
 532 Agnaktor Hide+
+hide red
+R6
+2100z
 
 533 Agnaktor Claw
 claw red
@@ -2174,6 +2250,9 @@ R4
 810z
 
 534 Agnaktor Claw+
+claw red
+R6
+2430z
 
 535 Agnaktor Fin
 shell red
@@ -2181,6 +2260,9 @@ R4
 780z
 
 536 Agnaktor Fin+
+shell red
+R6
+2340z
 
 537 Agnaktor Snout
 bone red
@@ -2198,20 +2280,44 @@ R4
 720z
 
 540 Igneous Thorax+
+shell red
+R6
+2160z
 
 541 Ice Agnktor Shl
+nshell cyan
+R6
+2070z
 
 542 Ice Agnktr Hide
+hide cyan
+R6
+2610z
 
 543 Ice Agnktor Clw
+claw cyan
+R6
+3375z
 
 544 Ice Agnktor Fin
+shell cyan
+R6
+3510z
 
 545 IceAgnktorSnout
+bone cyan
+R6
+2070z
 
 546 Ice Agnktr Tail
+shell cyan
+R6
+1875z
 
 547 Clammy Thorax
+shell cyyan
+R6
+3240z
 
 548 Jhen Mohran Shl
 nshell blue
@@ -2378,6 +2484,9 @@ R4
 612 VeggieEldrTckt+
 
 613 VegElderTcktBrz
+ticket gray
+R4
+0z
 
 614 VegElderTcktSlv
 
@@ -2631,6 +2740,9 @@ ore pink
 R3
 
 704 Flowrstone Hunk
+ore red
+R4
+900z
 
 705 Wyvern Crystal
 bone purple
@@ -2747,6 +2859,9 @@ R4
 10z
 
 736 Ore Scraps+
+scraps gray
+R6
+30z
 
 737 Bone Scraps
 scraps yellow
@@ -2849,6 +2964,9 @@ R4
 100z
 
 772 Giggnox Scraps+
+scraps red
+R6
+300z
 
 773 Rathian Scraps
 
@@ -2860,8 +2978,14 @@ R4
 150z
 
 776 Rthalos Scraps+
+scraps red
+R6
+450z
 
 777 Jinouga Scraps
+scraps teal
+R4
+150z
 
 778 Jinouga Scraps+
 
@@ -2875,6 +2999,9 @@ R4
 150z
 
 782 Barioth Scraps+
+scraps white
+R6
+450z
 
 783 Uragaan Scraps
 
@@ -2935,6 +3062,9 @@ R6
 400z
 
 806 Hvy Enhance Sph
+sphere red
+R7
+600z
 
 807 Mystery Charm
 charm white

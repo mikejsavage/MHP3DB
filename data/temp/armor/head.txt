@@ -2604,3 +2604,147 @@ Dragon Res -2
 Will Recov 4
 Desc
 Uragaan Scraps+ 2
+
+Jinouga Helm S
+53
+-1 -2 4 -3 0
+BG
+R5
+OO-
+Jinouga Horn+ 2
+Jinouga Pelt+ 4
+Jinouga Shell 3
+Wyvern Stone 1
+9500z
+Sense -3
+Evade Dist 3
+Awaken 2
+Thundr Atk 1
+Desc
+Jinouga Scraps+ 2
+
+Jinouga Cap S
+30
+0 -1 5 -1 0
+BG
+R5
+OO-
+Jinouga Horn+ 2
+Jinouga Pelt+ 4
+Jinouga Shell 3
+Wyvern Stone 1
+9500z
+Sense -2
+Evade Dist 4
+Awaken 4
+Thundr Atk 1
+Desc
+Jinouga Scraps+ 2
+
+Agnaktor Helm S
+53
+4 -4 0 -2 -4
+BG
+R5
+O--
+Agnaktor Carpce 5
+Agnaktor Snout 2
+Agnaktor Hide+ 4
+Grt Frggi Hide+ 4
+9500z
+Sharpness 4
+Constitutn 1
+Fire Atk 4
+Water Atk -2
+Desc
+Agnktor Scraps+ 2
+
+Agnaktor Cap S
+30
+5 -2 0 -1 -2
+BG
+R5
+O--
+Agnaktor Carpce 5
+Agnaktor Snout 2
+Agnaktor Hide+ 4
+Grt Frggi Hide+ 4
+9500z
+NormalS Up 4
+Precision 2
+Fire Atk 5
+Water Atk -2
+Desc
+Agnktor Scraps+ 2
+
+Agnaktor Helm U
+56
+-4 2 -2 3 -4
+BG
+R6
+O--
+Ice Agnktor Shl 5
+IceAgnktorSnout 2
+Ice Agnktr Hide 3
+Glossy Hide 8
+9500z
+Guard 3
+Guard Up 5
+Fire Atk -1
+Ice Attack 2
+Desc
+Agnktor Scraps+ 2
+
+Agnaktor Cap U
+32
+-2 4 -1 5 -2
+BG
+R6
+O--
+Ice Agnktor Shl 5
+IceAgnktorSnout 2
+Ice Agnktr Hide 3
+Glossy Hide 8
+9500z
+Reload Spd 4
+PierceSAdd 6
+Fire Atk -1
+Ice Attack 2
+Desc
+Agnktor Scraps+ 2
+
+Doboru Helm S
+53
+-3 1 -2 -2 0
+BG
+R5
+O--
+Doboru Horn+ 2
+Doboru Carapace 6
+Doboru Tailbone 1
+Bulldrome Hide+ 6
+9500z
+Expert -3
+Attack 3
+Potential 4
+Slam 1
+Desc
+Doboru Scraps+ 2
+
+Doboru Cap S
+30
+-2 3 -1 -1 0
+BG
+R5
+O--
+Doboru Horn+ 2
+Doboru Carapace 6
+Doboru Tailbone 1
+Bulldrome Hide+ 6
+9500z
+Expert -2
+Recoil 5
+Potential 3
+Slam 3
+Desc
+Doboru Scraps+ 2

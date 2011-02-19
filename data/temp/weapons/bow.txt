@@ -633,3 +633,22 @@ S2
 P2
 P3
 YNYYYYY
+
+Vibrant Thunder
+200
+Spread
+Thunder 31
+R6
+0%
+O--
+120000z
+LightningCarpce 4
+Jinouga Carapce 5
+Jinouga Pelt+ 8
+Jinouga Jewel 1
+Desc
+Jinouga Scraps+ 2
+R2
+R3
+P4
+YNYNYYN

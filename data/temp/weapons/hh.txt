@@ -103,6 +103,19 @@ Killer Beetle 6
 Desc
 Rathian Scraps 2
 
+Wave Shell
+80
+WGB
+R2
+20%
+OO-
+1500z
+Shellfish 2
+Pelagicite Ore 3
+Earth Crystal 5
+Desc
+Ore Scraps 2
+
 Yukumo Fife
 150
 WBR

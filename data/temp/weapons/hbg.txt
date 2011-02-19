@@ -825,3 +825,39 @@ Uragaan Scraps+ 2
 0
 1
 0
+
+Thunder King's Ride
+220
+R6
+10%
+---
+Normal
+None
+Moderate
+120000z
+Jinouga Carapce 6
+LightningCarpce 4
+Gracium Ore 8
+Jinouga Jewel 1
+Desc
+Jinouga Scraps+ 2
+5 7 0
+3 3 0
+2 3 0
+0 0 0
+0 0 0
+0 0
+0 0
+2! 1
+0 0
+0 0
+0
+0
+5!
+0
+0
+2
+2
+0
+1
+4!
