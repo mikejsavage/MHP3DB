@@ -939,6 +939,40 @@ Thundr Atk 1
 Desc
 Ore Scraps 2
 
+Atea Mail
+20
+0 -4 -4 2 3
+B
+R3
+O--
+Rustshard 3
+Dragonite Ore 4
+Ice Crystal 12
+Whetstone 18
+2850z
+Fencing 1
+Sharpener -2
+Guard Up 4
+Desc
+Ore Scraps 2
+
+Atea Vest
+10
+0 -2 -2 4 5
+G
+R3
+O--
+Rustshard 3
+Dragonite Ore 4
+Ice Crystal 12
+Whetstone 18
+2850z
+Reload Spd -2
+Recoil 4
+Rapid Fire 1
+Desc
+Ore Scraps 2
+
 Rathalos Mail
 22
 2 -1 -2 -1 -4
@@ -1778,6 +1812,42 @@ Fire Atk 1
 Desc
 Qurupco Scraps+ 2
 
+Qurupeco Mail U
+38
+-3 -1 4 -5 2
+B
+R6
+---
+Red Qurpeco Scl 3
+Vibrant Down 2
+Shrp Mnster Bne 1
+King Scarab 2
+7200z
+Wide Area 5
+Eating 3
+Thundr Atk 1
+Ice Attack -2
+Desc
+Qurupco Scraps+ 2
+
+Qurupeco Vest U
+20
+-2 0 5 -3 3
+G
+R6
+---
+Red Qurpeco Scl 3
+Vibrant Down 2
+Shrp Mnster Bne 1
+King Scarab 2
+7200z
+Wide Area 5
+Eating 3
+Thundr Atk 1
+Ice Attack -2
+Desc
+Qurupco Scraps+ 2
+
 Viking Mail S
 38
 0 3 -2 -2 0
@@ -2575,6 +2645,78 @@ Awaken 1
 Thundr Atk 1
 Desc
 Jinouga Scraps+ 2
+
+Diablos Mail S
+53
+2 -1 -1 -3 -1
+B
+R5
+OO-
+Diablos Thorcic 5
+Majestic Horn 3
+Diablos Spine 3
+Rhenoplos Shell 7
+9500z
+Status -2
+Quake Res 1
+Crit Draw 2
+Sheathe 2
+Desc
+Diablos Scraps+ 2
+
+Diablos Vest S
+30
+4 0 0 -2 0
+G
+R5
+OO-
+Diablos Thorcic 5
+Majestic Horn 3
+Diablos Spine 3
+Rhenoplos Shell 7
+9500z
+PierceS Up 2
+NormalSAdd 2
+Status -2
+Sheathe 1
+Desc
+Diablos Scraps+ 2
+
+Tigrex Mail S
+53
+2 -1 -4 0 -2
+B
+R5
+---
+Tigrex Claw+ 4
+Tigrex Carapace 6
+Tigrex Skl Shl 1
+Grt Jaggi Hide+ 6
+9500z
+Gluttony 1
+Protection -3
+HearProtct 4
+Stamina 3
+Desc
+Tigrex Scraps+ 2
+
+Tigrex Vest S
+30
+3 0 -2 0 -1
+G
+R5
+---
+Tigrex Claw+ 4
+Tigrex Carapace 6
+Tigrex Skl Shl 1
+Grt Jaggi Hide+ 6
+9500z
+Gluttony 2
+Protection -3
+HearProtct 3
+Stamina 3
+Desc
+Tigrex Scraps+ 2
 
 Agnaktor Mail S
 53

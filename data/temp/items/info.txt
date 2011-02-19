@@ -1429,10 +1429,19 @@ R4
 560z
 
 350 Red Qurpeco Scl
+scale red
+R6
+1260z
 
 351 Red Qurpeco Wng
+shell red
+R6
+2205z
 
 352 Piezo Crystal
+ore yellow
+R6
+2240z
 
 353 Ludroth Hide
 hide lime
@@ -1712,6 +1721,9 @@ R4
 2000z
 
 409 Rathian Spike+
+shell green
+R6
+4000z
 
 410 Rathian Plate
 scale green
@@ -2126,6 +2138,9 @@ R4
 520z
 
 499 Tigrex Scale+
+scale yellow
+R6
+1560z
 
 500 Tigrex Shell
 nshell yellow
@@ -2133,6 +2148,9 @@ R4
 750z
 
 501 Tigrex Carapace
+nshell yellow
+R6
+2250z
 
 502 Tigrex Tail
 shell yellow
@@ -2145,6 +2163,9 @@ R4
 700z
 
 504 Tigrex Claw+
+claw yellow
+R6
+2100z
 
 505 Tigrex Fang
 claw yellow
@@ -2154,6 +2175,9 @@ R4
 506 Tigrex Fang+
 
 507 Tigrex Skl Shl
+shell yellow
+R5
+2300z
 
 508 Tigrex Jaw
 
@@ -2171,6 +2195,9 @@ R4
 850z
 
 514 Diablos Carapce
+nshell brown
+R6
+1950z
 
 515 Diablos Spine
 shell brown
@@ -2178,6 +2205,9 @@ R4
 1340z
 
 516 Diablos Thorcic
+shell brown
+R6
+3000z
 
 517 DiablosTailbone
 shell brown
@@ -2195,6 +2225,9 @@ R4
 1200z
 
 520 Majestic Horn
+claw brown
+R4
+2400z
 
 521 Diablos Marrow
 shell brown
@@ -2434,6 +2467,9 @@ garbage gray
 R7
 
 597 Rustshard
+garbage gray
+R4
+180z
 
 598 Lrg Ancnt Shard
 

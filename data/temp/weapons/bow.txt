@@ -652,3 +652,23 @@ R2
 R3
 P4
 YNYNYYN
+
+Selene's Sting
+230
+Focused
+Fire 20
+R7
+0%
+O--
+112500z
+Gld Rathian Cpc 8
+GldRathianSpike 4
+FireWyvernFluid 6
+Rathian Ruby 1
+Desc
+Rathian Scraps+ 2
+P2
+S3
+S4
+YYYNYYN
+Poison

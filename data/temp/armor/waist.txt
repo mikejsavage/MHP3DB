@@ -1710,6 +1710,42 @@ Fire Atk 1
 Desc
 Qurupco Scraps+ 2
 
+Qurupeco Coil U
+38
+-3 -1 4 -5 2
+B
+R6
+O--
+Red Qurpeco Wng 3
+Red Qurpeco Scl 3
+Shrp Mnster Bne 1
+Hercudrome 3
+7200z
+Wide Area 1
+Eating 3
+Thundr Atk 5
+Ice Attack -2
+Desc
+Qurupco Scraps+ 2
+
+Qurupeco Coat U
+20
+-2 0 5 -3 3
+G
+R6
+O--
+Red Qurpeco Wng 3
+Red Qurpeco Scl 3
+Shrp Mnster Bne 1
+Hercudrome 3
+7200z
+Wide Area 1
+Eating 2
+Thundr Atk 5
+Ice Attack -3
+Desc
+Qurupco Scraps+ 2
+
 Viking Tasset S
 38
 0 3 -2 -2 0
@@ -2474,6 +2510,78 @@ Awaken 4
 Thundr Atk 3
 Desc
 Jinouga Scraps+ 2
+
+Diablos Coil S
+53
+2 -1 -1 -3 -1
+B
+R5
+OO-
+Diablos Thorcic 6
+Blos Fang 6
+Diablos Brnstm 1
+Rhenoplos Crpce 6
+9500z
+Status -1
+Quake Res 2
+Crit Draw 2
+Sheathe 4
+Desc
+Diablos Scraps+ 2
+
+Diablos Coat S
+30
+4 0 0 -2 0
+G
+R5
+OO-
+Diablos Thorcic 6
+Blos Fang 6
+Diablos Brnstm 1
+Rhenoplos Crpce 6
+9500z
+PierceS Up 1
+NormalSAdd 3
+Status -3
+Sheathe 2
+Desc
+Diablos Scraps+ 2
+
+Tigrex  Tasset S
+53
+2 -1 -4 0 -2
+B
+R5
+OO-
+Tigrex Carapace 6
+Tigrex Scale+ 5
+Wyvern Stone 1
+Ludroth Hide+ 3
+9500z
+Gluttony 2
+Protection -2
+HearProtct 2
+Stamina 3
+Desc
+Tigrex Scraps+ 2
+
+Tigrex Coat S
+30
+3 0 -2 0 -1
+G
+R5
+OO-
+Tigrex Carapace 6
+Tigrex Scale+ 5
+Wyvern Stone 1
+Ludroth Hide+ 3
+9500z
+Gluttony 5
+Protection -1
+HearProtct 2
+Stamina 1
+Desc
+Tigrex Scraps+ 2
 
 Agnaktor Tasset S
 53

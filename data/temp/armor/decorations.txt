@@ -181,6 +181,9 @@ Protection -1
 Akito Jewel 1
 Rathian Webbing 1
 Urukusu Ear 2
+or
+Battlefield Jwl 1
+Tigrex Carapace 2
 
 WindpressJwl
 gray 4
@@ -420,6 +423,9 @@ Constitutn -1
 Akito Jewel 1
 Hapurubokka Clw 1
 Barroth Spine 2
+or
+Battlefield Jwl 1
+Tigrex Scale+ 2
 
 Unlock Jewel
 red 4
@@ -767,6 +773,16 @@ Battlefield Jwl 1
 Jaggi Scale+ 1
 Drink Ticket 1
 
+Sheathe Jwl
+cyan 5
+2
+Sheathe 3
+Sharpener -1
+375z
+Battlefield Jwl 1
+Diablos Carapce 1
+Quality Abdomen 2
+
 TrapMastrJwl
 cyan 4
 1
@@ -938,6 +954,16 @@ Sense -1
 Suiko Jewel 1
 Qurupeco Feathr 1
 
+FriendshpJwl
+pink 5
+2
+Wide Area 3
+Sense -1
+375z
+Battlefield Jwl 1
+Red Qurpeco Wng 1
+Lifepowder 2
+
 Psychic Jwl
 orange 4
 1
@@ -1059,6 +1085,16 @@ Diablos Shell 2
 or
 Battlefield Jwl 1
 Uragaan Carapce 2
+
+CritDraw Jwl
+red 5
+2
+Crit Draw 3
+Expert -1
+375z
+LapisLazuli Jwl 1
+Diablos Thorcic 1
+Ice Barroth Shl 1
 
 PunshDrw Jwl
 orange 4

@@ -704,6 +704,42 @@ Water Atk 3
 Desc
 Haprbkka Scraps 2
 
+Nebula Greaves
+18
+-4 0 3 3 -2
+B
+R2
+O--
+Horrific Maw 1
+Glossy Hide 4
+Pale Extract 2
+Lightcrystal 1
+2350z
+Stun 3
+Health -1
+Status 3
+ThunderRes 2
+Desc
+Gigginox Scraps 2
+
+Nebula Leggings
+9
+-2 0 4 4 -1
+G
+R2
+O--
+Horrific Maw 1
+Glossy Hide 4
+Pale Extract 2
+Lightcrystal 1
+2350z
+Stun 2
+Health -2
+Status 2
+ThunderRes 3
+Desc
+Gigginox Scraps 2
+
 Guild Bard Boots
 20
 0 0 0 0 0
@@ -845,6 +881,40 @@ Reload Spd 3
 PelletS Up 1
 Whim -2
 Thundr Atk 1
+Desc
+Ore Scraps 2
+
+Atea Greaves
+20
+0 -4 -4 2 3
+B
+R3
+---
+Rustshard 3
+Bealite Ore 6
+Machalite Ore 8
+Iron Ore 14
+2850z
+Fencing 4
+Sharpener -2
+Guard Up 5
+Desc
+Ore Scraps 2
+
+Atea Leggings
+10
+0 -2 -2 4 5
+G
+R3
+---
+Rustshard 3
+Bealite Ore 6
+Machalite Ore 8
+Iron Ore 14
+2850z
+Reload Spd -2
+Recoil 5
+Rapid Fire 4
 Desc
 Ore Scraps 2
 
@@ -1597,6 +1667,42 @@ Wide Area 3
 Ice Res -2
 Psychic 2
 Fire Atk 4
+Desc
+Qurupco Scraps+ 2
+
+Qurupeco Greaves U
+38
+-3 -1 4 -5 2
+B
+R6
+OO-
+Red Qurpeco Scl 3
+Red Qurpeco Wng 2
+Wyvern Stone 1
+Killer Beetle 5
+7200z
+Wide Area 5
+Eating 1
+Thundr Atk 1
+Ice Attack -2
+Desc
+Qurupco Scraps+ 2
+
+Qurupeco Leggings U
+20
+-2 0 5 -3 3
+G
+R6
+OO-
+Red Qurpeco Scl 3
+Red Qurpeco Wng 2
+Wyvern Stone 1
+Killer Beetle 5
+7200z
+Wide Area 4
+Eating 1
+Thundr Atk 1
+Ice Attack -3
 Desc
 Qurupco Scraps+ 2
 
@@ -2389,6 +2495,78 @@ Awaken 5
 Thundr Atk 1
 Desc
 Jinouga Scraps+ 2
+
+Diablos Greaves S
+53
+2 -1 -1 3 -1
+B
+R5
+OO-
+Diablos Carapce 6
+Twisted Horn 5
+Hrd Mnster Bone 3
+Rhnplos Skl Shl 3
+9500z
+Status -1
+Quake Res 4
+Crit Draw 1
+Sheathe 3
+Desc
+Diablos Scraps+ 2
+
+Diablos Leggings S
+30
+4 0 0 -2 0
+G
+R5
+OO-
+Diablos Carapce 6
+Twisted Horn 5
+Hrd Mnster Bone 3
+Rhnplos Skl Shl 3
+9500z
+PierceS Up 1
+NormalSAdd 5
+Status -1
+Sheathe 2
+Desc
+Diablos Scraps+ 2
+
+Tigrex Greaves S
+53
+2 -1 -4 0 -2
+B
+R5
+---
+Tigrex Scale+ 6
+Tigrex Claw+ 4
+Tigrex Shell 4
+Ludroth Hide 6
+9500z
+Gluttony 5
+Protection -2
+HearProtct 4
+Stamina 2
+Desc
+Tigrex Scraps+ 2
+
+Tigrex Leggings S
+30
+3 0 -2 0 -1
+G
+R5
+---
+Tigrex Scale+ 6
+Tigrex Claw+ 4
+Tigrex Shell 4
+Ludroth Hide 6
+9500z
+Gluttony 4
+Protection -2
+HearProtct 4
+Stamina 3
+Desc
+Tigrex Scraps+ 2
 
 Agnaktor Greaves S
 53

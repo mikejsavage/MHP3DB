@@ -498,6 +498,42 @@ Diablos Scraps 2
 0
 0
 
+Tigrex Howl
+170
+R3
+-20%
+O--
+Slow
+???
+Light
+15750z
+Tigrex Skl Shl 2
+Tigrex Shell 6
+Dragonite Ore 6
+Monster Bone+ 4
+Desc
+Tigrex Scraps 2
+7 7 8!
+0 0 3
+0 0 3
+3! 3 3
+1! 1 1
+0 0
+2 0
+0 0
+2 0
+0 0
+0
+0
+0
+3
+1
+2
+2
+1
+0
+0
+
 Agnaktor Striker
 160
 Def 12
@@ -643,6 +679,42 @@ AoashiraScraps+ 2
 2
 1
 0
+0
+
+Peco Thunder Kiss
+190
+R4
+10%
+OO-
+Normal
+???
+Moderate
+67500z
+Red Qurpeco Wng 5
+Splendid Beak 3
+Red Qurpeco Scl 4
+Piezo Crystal 5
+Desc
+Qurupco Scraps+ 2
+5 7 8
+0 0 0
+5! 5 6
+0 0 0
+2 1 0
+3 2
+0 0
+2 0
+2 0
+0 0
+4!
+0
+4!
+0
+0
+2
+2
+1
+1
 0
 
 Carbalite Cannon
@@ -861,3 +933,149 @@ Jinouga Scraps+ 2
 0
 1
 4!
+
+Duel Bazooka
+230
+R6
+-25%
+---
+Fast
+???
+Light
+105000z
+Diablos Thorcic 6
+Diablos Carapce 8
+Majestic Horn 4
+Diablos Brnstm 2
+Desc
+Diablos Scraps+ 2
+3 3! 3!
+3! 3! 3!
+0 0 0
+0 0 0
+0 0 0
+0 0
+0 0
+0 0
+0 0
+2 2
+0
+0
+0
+0
+0
+2
+2
+0
+0
+0
+
+Tigrex Howl+
+210
+R5
+-20%
+O--
+Slow
+???
+Light
+75000z
+Tigrex Carapace 6
+Tigrex Skl Shl 3
+Tigrex Fang+ 6
+FireWyvrnBrnStm 1
+Desc
+Tigrex Scraps+ 2
+7 8 9!
+0 0 3
+0 0 3
+3! 3 3
+1! 1 1
+0 0
+2 0
+0 0
+2 0
+0 0
+0
+0
+0
+3
+1
+2
+2
+1
+0
+0
+
+Agna Blaze Hell
+200
+Def 20
+R6
+0%
+---
+VerySlow
+None
+Moderate
+105000z
+Agnaktor Carpce 6
+Agnaktor Fin+ 4
+Firecell Stone 4
+Hrd Mnster Bone 4
+Desc
+Agnktor Scraps+ 2
+5 7 7
+4 4 5
+0 2 0
+0 1! 0
+0 1 0
+2 1
+2 0
+1 0
+0 0
+0 0
+5!
+0
+0
+0
+0
+2
+2
+0
+1
+0
+
+Ice Agna Averse Hell
+200
+Def 20
+R6
+0%
+---
+VerySlow
+None
+Moderate
+105000z
+Ice Agnktor Shl 6
+Ice Agnktor Fin 4
+Gracium Ore 4
+Hrd Mnster Bone 4
+Desc
+Agnktor Scraps+ 2
+5 6 7
+5 4 5
+0 2 0
+0 0 0
+0 0 0
+2 1
+2 0
+0 0
+0 0
+0 0
+0
+5!
+0
+3!
+0
+2
+2
+0
+1
+0
