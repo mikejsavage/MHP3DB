@@ -31,89 +31,28 @@ local RareColors =
 	"ffffff",
 	"875fff",
 	"fafc4f",
-	"f08297",
+	"ea8bd5",
 	"5dd030",
 	"3581e1",
-	"f2466b",
+	"ec4a65",
 }
 
 local NamedColors =
 {
 	white  = "ffffff",
-	gray   = "aaaaaa",
+	gray   = "aaaaaf",
 	green  = "6bf36e",
 	lime   = "a8d468",
 	teal   = "58e8c0",
 	yellow = "f7f56b",
 	orange = "f49e62",
 	brown  = "c09428",
-	red    = "f2466b",
+	red    = "ec4a65",
 	pink   = "f599f0",
 	purple = "aa70e0",
 	blue   = "718fff",
 	cyan   = "a6fcfd",
 }
-
-function readSharpness( weapon )
-	local cachePath = ( "%s/%s/%s/%s.lua" ):format( Dir, SharpDir, CacheDir, weapon.name.hgg )
-
-	local cached = io.open( cachePath, "r" )
-
-	if cached then
-		weapon.sharpness = loadstring( cached:read( "*all" ) )()
-
-		cached:close()
-		
-		return
-	end
-
-	local img = imlib2.image.load( ( "%s/%s/%s.png" ):format( Dir, SharpDir, weapon.name.hgg ) )
-
-	if not img then
-		return
-	end
-
-	weapon.sharpness = { }
-
-	local x = SharpX
-	local lastColor = 1
-	local currSharp = 1
-
-	while true do
-		local color = img:get_pixel( x, SharpY )
-		local idx = sharpIdx( color )
-
-		if idx ~= lastColor then
-			table.insert( weapon.sharpness, currSharp --[[/ SharpOOMult]] )
-			
-			lastColor = idx
-			currSharp = 1
-		else
-			currSharp = currSharp + 1
-		end
-
-		-- unrecognised color
-		if idx == 0 then
-			assert( nil, "unrecognised sharpness color in " .. weapon.name.hgg .. ": " .. color.red .. ", " .. color.green .. ", " .. color.blue .. " (idx " .. idx .. ")" )
-		end
-
-		-- end of sharpness bar
-		if idx == -1 then
-			break
-		end
-
-		x = x + 1
-	end
-
-	img:free()
-
-	-- save the result for future gens
-	local writeCache = assert( io.open( cachePath, "w" ) )
-
-	writeCache:write( "return { " .. table.concat( weapon.sharpness, ", " ) .. " }" )
-
-	writeCache:close()
-end
 
 function ignored( file )
 	for _, pattern in ipairs( IgnoredFiles ) do
