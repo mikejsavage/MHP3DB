@@ -4,6 +4,8 @@
 --
 -- so i guess this is BSD licensed? i'm not very good at this
 
+TemplateCache = { }
+
 local Actions =
 {
 	[ "{%" ] = function( block )
@@ -20,21 +22,21 @@ local Actions =
 
 	[ "{(" ] = function( str )
 		return ( [[
-			if not cached[ %s ] then
-				cached[ %s ] = loadTemplate( %s )
-			end
-
-			table.insert( output, cached[ %s ]() )
-		]] ):format( str, str, str, str )
+			table.insert( output, loadTemplate( %s )() )
+		]] ):format( str )
 	end,
 }
 
 function compileTemplate( template, name )
+	if TemplateCache[ name ] then
+		return TemplateCache[ name ]
+	end
+
 	-- append a {} so the last bit of text isn't
 	-- chopped by the pattern
 	template = template .. "{}"
 
-	local code = { "local output = { }", "local cached = { }" }
+	local code = { "local output = { }" }
 
 	for text, block in template:gmatch( "([^{]-)(%b{})" ) do
 		if text ~= "" then
@@ -56,7 +58,7 @@ function compileTemplate( template, name )
 
 	local func = assert( loadstring( code, name ) )
 
-	return function( context )
+	local template = function( context )
 		if context then
 			-- copy globals to context
 			setmetatable( context, { __index = _G } )
@@ -67,6 +69,12 @@ function compileTemplate( template, name )
 
 		return func()
 	end
+
+	if not IsLocalHost then
+		TemplateCache[ name ] = template
+	end
+
+	return template
 end
 
 function loadTemplate( file )
