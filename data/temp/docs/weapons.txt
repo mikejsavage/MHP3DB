@@ -91,11 +91,9 @@
 
 				// info on upgrading to this weapon
 				"improve" : {
-					// array of indices into weapons array
-					"from" : [
-						int
-						...
-					]
+					// index into weapons array
+					"from" : int
+
 					// materials required
 					"materials" : [
 						{
@@ -107,6 +105,13 @@
 						...
 					]
 				} (conditional)
+
+				"path" : [
+					// indices into weapons array
+					// will be in order with the tree root as the last element
+					int,
+					...
+				]
 
 				// scraps after manufacturing
 				// TODO: is this ok?
