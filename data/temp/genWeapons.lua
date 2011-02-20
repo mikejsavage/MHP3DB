@@ -359,6 +359,20 @@ function readSharpness( weapon )
 	writeCache:close()
 end
 
+function generatePath( weapon, weapons, path )
+	if not path then
+		path = { }
+	end
+
+	if weapon.improve then
+		table.insert( path, weapon.improve.from )
+
+		return generatePath( weapons[ weapon.improve.from ], weapons, path )
+	end
+
+	return path
+end
+
 local Weapons = { }
 local WeaponsCount = 0
 
@@ -380,6 +394,7 @@ for _, short in pairs( Types ) do
 
 		if trimmed == "" then
 			readSharpness( weapon )
+			weapon.path = generatePath( weapon, class.weapons )
 
 			table.insert( class.weapons, weapon )
 
@@ -402,7 +417,10 @@ for _, short in pairs( Types ) do
 				if depth ~= 1 then
 					local from = lastDepth[ depth - 1 ]
 
-					weapon.improve = { from = { from }, materials = { } }
+					-- assuming there are no path splits in p3
+					--weapon.improve = { from = { from }, materials = { } }
+
+					weapon.improve = { from = from, materials = { } }
 
 					if not class.weapons[ from ].upgrades then
 						class.weapons[ from ].upgrades = { }
@@ -417,6 +435,7 @@ for _, short in pairs( Types ) do
 	end
 
 	readSharpness( weapon )
+	weapon.path = generatePath( weapon, class.weapons )
 
 	table.insert( class.weapons, weapon )
 

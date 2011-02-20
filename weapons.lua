@@ -6,14 +6,6 @@ Translations = translations( "weapons" )
 
 -- templates
 
-local MeleeTrees =
-{
-	hh = "weapons/hhTree",
-	gl = "weapons/glTree",
-	sa = "weapons/saTree",
-	default = "weapons/meleeTree",
-}
-
 weaponNameURL = loadTemplate( "weapons/weaponNameURL" )
 weaponName    = loadTemplate( "weapons/weaponName" )
 
@@ -99,7 +91,7 @@ if Get.class then
 		if state == "class" then
 			header( T( class.name ) )
 
-			local meleeTree = loadTemplate( MeleeTrees[ class.short ] or MeleeTrees.default )
+			local meleeTree = loadTemplate( "weapons/meleeTree" )
 
 			print( meleeTree( { class = class } ) )
 		end
