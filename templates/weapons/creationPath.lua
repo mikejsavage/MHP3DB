@@ -2,7 +2,7 @@
 local creationPathItem = loadTemplate( "weapons/creationPathItem" )
 %}
 
-<h2>Creation path</h2>
+<h3>Creation path</h3>
 
 <table class="data path">
 	<tr>
