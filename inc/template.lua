@@ -28,10 +28,6 @@ local Actions =
 }
 
 function compileTemplate( template, name )
-	if TemplateCache[ name ] then
-		return TemplateCache[ name ]
-	end
-
 	-- append a {} so the last bit of text isn't
 	-- chopped by the pattern
 	template = template .. "{}"
@@ -58,7 +54,7 @@ function compileTemplate( template, name )
 
 	local func = assert( loadstring( code, name ) )
 
-	local template = function( context )
+	return function( context )
 		if context then
 			-- copy globals to context
 			setmetatable( context, { __index = _G } )
@@ -69,16 +65,20 @@ function compileTemplate( template, name )
 
 		return func()
 	end
-
-	if not IsLocalHost then
-		TemplateCache[ name ] = template
-	end
-
-	return template
 end
 
 function loadTemplate( file )
-	return compileTemplate( readFile( ( "%s/%s.lua" ):format( TemplatesDir, file ) ), file )
+	if TemplateCache[ file ] then
+		return TemplateCache[ file ]
+	end
+
+	local template = compileTemplate( readFile( ( "%s/%s.lua" ):format( TemplatesDir, file ) ), file )
+
+	if not IsLocalHost then
+		TemplateCache[ file ] = template
+	end
+
+	return template
 end
 
 function echo( str )
