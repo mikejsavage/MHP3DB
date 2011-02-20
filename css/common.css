@@ -67,8 +67,8 @@ img {
 	border: 0; /* for urls */
 }
 img.icon {
-	width: 1.2em;
 	vertical-align: middle;
+	width: 1.2em;
 }
 
 /* content background colour */
@@ -270,8 +270,15 @@ footer {
 	white-space: pre;
 }
 
+/* :D */
 .data .none {
-	color: #666;
+	color: #666 !important;
+	text-align: center !important;
+}
+
+.data img.icon {
+	padding: 1px 0;
+	vertical-align: top;
 }
 
 .data th {
@@ -314,15 +321,16 @@ footer {
 	border-top: 0;
 }
 
+/* path tables */
+
+.data.path td:not( :first-child ) {
+	text-align: right;
+}
+
 /* armor tables */
 
 .data.eq.armor td:last-child, .data.eq.decorations td:last-child {
 	text-align: left;
-}
-
-.data.eq.armor td:last-child.none {
-	color: #666;
-	text-align: center;
 }
 
 /* decorations tables */

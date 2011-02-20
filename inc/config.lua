@@ -6,6 +6,9 @@ BaseUrl = ""
 
 SharpWidth = 1
 
+WeaponCreatePriceScale = 1.5
+WeaponBuyPriceScale = 2
+
 HeaderLinks =
 {
 	{

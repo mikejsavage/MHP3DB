@@ -60,6 +60,7 @@ function urlFromName( name )
 end
 
 -- returns a HTML element of type elem, with class class and contents contents
+-- TODO: this function is garbage get rid of it
 function E( elem, class, contents )
 	local classStr
 	local contentStr

@@ -2,6 +2,9 @@
 // because setting elem.className is horrendously
 // slow in FF...
 
+// this can still definitely be sped up by precomputing $( "wpn..." )
+// and with a smarter algorithm if needs be
+
 function markWpn( elem )
 {
 	elem.style.backgroundColor = "#222";
