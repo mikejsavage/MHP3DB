@@ -370,7 +370,7 @@ function generatePath( weapon, weapons, path )
 		return generatePath( weapons[ weapon.improve.from ], weapons, path )
 	end
 
-	return path
+	return table.getn( path ) ~= 0 and path or nil
 end
 
 local Weapons = { }

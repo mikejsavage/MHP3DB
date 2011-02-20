@@ -1,7 +1,3 @@
-{%
-local itemCountsAligned = loadTemplate( "itemCountsAligned" )
-%}
-
 <h1>{{ weaponName( { class = class, weapon = weapon } ) }}</h1>
 
 <h2>Stats</h2>
@@ -14,7 +10,7 @@ local itemCountsAligned = loadTemplate( "itemCountsAligned" )
 		print( "Notes: " )
 
 		for _, note in ipairs( weapon.notes ) do
-			print( ( "<span class='note%s'>%s</span> " ):format( note, Special.note ) )
+			print( ( [[<span class="note%s">%s</span> ]] ):format( note, Special.note ) )
 		end
 
 		print( "<br>" )
@@ -27,7 +23,7 @@ local itemCountsAligned = loadTemplate( "itemCountsAligned" )
 
 	{%
 	if weapon.element then
-		print( ( "Element: <span class='elem%s'>%d</span><br>" ):format( weapon.element, weapon.elemAttack ) )
+		print( ( [[Element: <span class="elem%s">%d</span><br>]] ):format( weapon.element, weapon.elemAttack ) )
 	end
 	%}
 
@@ -83,43 +79,9 @@ local itemCountsAligned = loadTemplate( "itemCountsAligned" )
 		end
 	end
 
+	if weapon.path then
+		local creationPath = loadTemplate( "weapons/creationPath" )
 
-
-	print( "<h2>Creation path</h2>" )
-
-	print( "<table class='data path'>" )
-	print( "<tr><th>Name</th><th>Improve</th><th>Create</th></tr>" )
-
-	for depth, idx in ipairs( weapon.path ) do
-		local pathWeapon = class.weapons[ idx ]
-
-		print( "<tr>" )
-
-		print( ( "<td>%s%s</td>" ):format(
-			"", --( "&nbsp;&nbsp;&nbsp;" ):rep( depth - 1 ),
-			weaponNameURL( { class = class, weapon = pathWeapon } )
-		) )
-
-		if pathWeapon.improve then
-			print( ( "<td>%s%sz</td>" ):format(
-				itemCountsAligned( { materials = pathWeapon.improve.materials } ),
-				commas( pathWeapon.price )
-			) )
-		else
-			print( "<td class='none'>-</td>" )
-		end
-
-		if pathWeapon.create then
-			print( ( "<td>%s%sz</td>" ):format(
-				itemCountsAligned( { materials = pathWeapon.create } ),
-				commas( pathWeapon.price * WeaponCreatePriceScale )
-			) )
-		else
-			print( "<td class='none'>-</td>" )
-		end
-
-		print( "</tr>" )
+		print( creationPath( { class = class, weapon = weapon } ) )
 	end
-
-	print( "</table>" )
 	%}
