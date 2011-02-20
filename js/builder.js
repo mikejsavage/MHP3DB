@@ -560,7 +560,6 @@ function slotChanged( short, slot )
 //       it should be made clear to the user when this
 //       is the case
 
-// TODO: actually do these...
 function tlnSkillChanged( skill )
 {
 	// TODO: don't allow the same skill twice
@@ -905,9 +904,10 @@ function calc( force )
 //       much identical
 function getSetUrl()
 {
-	function addDecorations( short )
+	function encodeDecorations( short )
 	{
 		var shortSlot = short + "slot";
+		var decorationsStr = "";
 
 		for( var i = 0, m = numSlots( short ); i < m; i++ )
 		{
@@ -915,25 +915,48 @@ function getSetUrl()
 
 			if( !selSlot.disabled && selSlot.selectedIndex != 0 )
 			{
-				out += "." + numToShort( selSlot.value );
+				decorationsStr += "." + numToShort( selSlot.value );
 			}
 		}
+
+		return decorationsStr;
 	}
 
 
 
-	var out = numToShort( $( "wpn" ).selectedIndex );
-
-	addDecorations( "wpn" );
+	var out = numToShort( $( "wpn" ).selectedIndex ) + encodeDecorations( "wpn" );
 
 	Armors.map( function( type )
 	{
-		out += "_" + numToShort( $( type.short ).value );
-
-		addDecorations( type.short );
+		out += "_" + numToShort( $( type.short ).value ) + encodeDecorations( type.short );
 	} );
 
-	// TODO: talisman
+
+	// talisman
+
+	// TODO: think of a nice url scheme
+
+	/*for( var i = 0; i < MaxTalismanSkills; i++ )
+	{
+		var selSkill = $( "tlnskill" + i );
+
+		if( selSkill.selectedIndex != 0 )
+		{
+			var points = parseInt( $( "tlnskill" + i + "pts" ).value, 10 );
+
+			if( points != 0 )
+			{
+				out += "_" + numToShort( selSkill.value ) + "." + points;
+			}
+		}
+	}
+
+	var tlnDecorations = encodeDecorations( "tln" );
+
+	if( tlnDecorations != "" )
+	{
+		out += "_" + encodeDecorations( "tln" ).substr( 1 );
+	}*/
 
 	return out;
 }
