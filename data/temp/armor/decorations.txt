@@ -1049,6 +1049,10 @@ Artisan -1
 200z
 Akito Jewel 1
 EldrDragonBlood 1
+or
+Battlefield Jwl 1
+Slvr Rthlos Cpc 2
+Ice Agnktr Tail 1
 
 Razor Jewel
 gray 4
