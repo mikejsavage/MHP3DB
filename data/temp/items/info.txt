@@ -2194,10 +2194,19 @@ R5
 508 Tigrex Jaw
 
 509 Blk Tigrex Scl
+scale gray
+R6
+2050z
 
 510 Blk Tigrex Shl
+nshell gray
+R6
+2730z
 
 511 Blk Tigrex Claw
+claw gray
+R6
+2940z
 
 512 Blk Tigrex Fang
 

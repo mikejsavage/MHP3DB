@@ -335,6 +335,19 @@ Bone Scraps 2
 				65000z
 				Desc
 				Rthalos Scraps+ 2
+				
+					Golden Falchion
+					200
+					Fire 40
+					R7
+					0%
+					OO-
+					Gld Rathian Cpc 8
+					Gld Rathian Scl 6
+					Rathian Ruby 1
+					75000z
+					Desc
+					Rathian Scraps+ 2
 
 	Ludroth Claw
 	100
