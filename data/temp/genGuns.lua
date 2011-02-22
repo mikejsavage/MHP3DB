@@ -187,7 +187,7 @@ local Actions =
 		local id, count = parseItem( line )
 
 		if not id then
-			local success, _, l1, l2, l3 = line:find( "^([%d!WMS]+) ([%d!WMS]+) ([%d!WMS]+)$" )
+			local success, _, l1, l2, l3 = line:find( "^([%d!WMSG]+) ([%d!WMSG]+) ([%d!WMSG]+)$" )
 
 			assert( success, "bad scrap in " .. weapon.name.hgg .. ": " .. line )
 
@@ -252,7 +252,7 @@ local Actions =
 
 		assert( Shots[ LastShot ], "bad shot in " .. weapon.name.hgg .. ": " .. line .. " (" .. LastShot .. ")" )
 
-		local success, _, l1, l2, l3 = line:find( ( "([%d!WMS]+) " ):rep( Shots[ LastShot ].levels ):sub( 1, -2 ) )
+		local success, _, l1, l2, l3 = line:find( ( "([%d!WMSG]+) " ):rep( Shots[ LastShot ].levels ):sub( 1, -2 ) )
 
 		assert( success, "bad shot in " .. weapon.name.hgg .. ": " .. line .. " (" .. Shots[ LastShot ].name.hgg .. ")" )
 
