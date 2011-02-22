@@ -1006,7 +1006,7 @@ Normal
 None
 Moderate
 112500z
-Slvr Rthalos Scl 8
+Slvr Rthlos Scl 8
 Gld Rathian Scl 8
 Rathalos Ruby 1
 Rathian Ruby 1
