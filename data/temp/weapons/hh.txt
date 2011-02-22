@@ -204,6 +204,20 @@ Jinouga Claw 2
 Desc
 Jinouga Scraps 2
 
+Blitzworks
+140
+WGR
+Thunder 38
+R3
+0%
+---
+30000z
+Dengeki Ticket 5
+Static Carapace 5
+Lightcrystal 5
+Thunderbug 10
+Desc
+
 Hard Bone Horn
 200
 PYB

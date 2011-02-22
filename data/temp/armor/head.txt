@@ -2892,3 +2892,71 @@ Potential 3
 Slam 3
 Desc
 Doboru Scraps+ 2
+
+Silver Sol Helm
+56
+2 -2 -4 0 3
+BG
+R7
+---
+Slvr Rthlos Scl 5
+Rathalos Ruby 1
+FireWyvernFluid 3
+Union Ore 5
+9900z
+Health -3
+Sharpness 3
+Attack 5
+Debilitate 2
+Desc
+Rthalos Scraps+ 2
+
+Silver Sol Cap
+32
+4 -1 -3 0 4
+BG
+R7
+---
+Slvr Rthlos Scl 5
+Rathalos Ruby 1
+FireWyvernFluid 3
+Union Ore 5
+9900z
+Health -3
+NormalS Up 4
+Attack 5
+Debilitate 3
+
+Snake Face
+47
+1 1 1 1 1
+BG
+R7
+OO-
+Big Boss Title 1
+Hprbkka Skl Shl 2
+Doboru Horn+ 1
+Doboru Sacrum 1
+9000z
+Hunger -2
+SpeedSetup 2
+Constitutn 3
+FastCharge 2
+Desc
+
+Snake Mask
+26
+2 2 2 2 2
+BG
+R7
+O--
+Big Boss Title 1
+Hprbkka Skl Shl 2
+Doboru Horn+ 1
+Doboru Sacrum 1
+9000z
+Hunger -3
+Loading 3
+Precision 3
+SpeedSetup 4
+Desc

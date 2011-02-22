@@ -2718,6 +2718,42 @@ Stamina 3
 Desc
 Tigrex Scraps+ 2
 
+Tigrex Mail U
+56
+2 -4 -2 0 -1
+B
+R6
+---
+Blk Tigrex Claw 5
+Blk Tigrex Shl 4
+Blk Tigrex Fang 2
+Firecell Stone 3
+9500z
+Protection -3
+HearProtct 3
+Psychic 4
+FastCharge 1
+Desc
+Tigrex Scraps+ 2
+
+Tigrex Vest U
+32
+4 -2 -1 0 0
+G
+R6
+---
+Blk Tigrex Claw 5
+Blk Tigrex Shl 4
+Blk Tigrex Fang 2
+Firecell Stone 3
+9500z
+Protection -2
+HearProtct 3
+Psychic 3
+FastCharge 3
+Desc
+Tigrex Scraps+ 2
+
 Agnaktor Mail S
 53
 4 -4 0 -2 -4
@@ -2861,3 +2897,73 @@ Fate 1
 Slam 1
 Desc
 Rathian Scraps+ 2
+
+Silver Sol Mail
+56
+2 -2 -4 0 3
+B
+R7
+OO-
+Slvr Rthlos Cpc 5
+Slvr Rthlos Scl 6
+Rathalos Webbng 3
+Hrd Mnster Bone 3
+9900z
+Health -3
+Sharpness 1
+Attack 1
+Debilitate 2
+Desc
+Rthalos Scraps+ 2
+
+Silver Sol Vest
+32
+4 -1 -3 0 4
+G
+R7
+OO-
+Slvr Rthlos Cpc 5
+Slvr Rthlos Scl 6
+Rathalos Webbng 3
+Hrd Mnster Bone 3
+9900z
+Health -3
+NormalS Up 2
+Attack 1
+Debilitate 1
+Desc
+Rthalos Scraps+ 2
+
+Snake Suit
+47
+1 1 1 1 1
+B
+R7
+---
+Big Boss Title 1
+Hapurubokka Cpc 6
+Haprbokka Hide+ 2
+Mossy Carapace+ 2
+9000z
+Hunger -4
+SpeedSetup 2
+Constitutn 3
+FastCharge 2
+Desc
+
+Snake Body
+26
+2 2 2 2 2
+G
+R7
+O--
+Big Boss Title 1
+Hapurubokka Cpc 6
+Haprbokka Hide+ 2
+Mossy Carapace+ 2
+9000z
+Hunger -2
+Loading 3
+Precision 3
+SpeedSetup 1
+Desc

@@ -925,6 +925,42 @@ Jinouga Scraps+ 2
 1
 4!2M
 
+Tigrex Panzer
+220
+R5
+-25%
+---
+Normal
+???
+Moderate
+75000z
+Blk Tigrex Shl 6
+Blk Tigrex Fang 3
+Blk Tigrex Scl 5
+Tigrex Skl Shl 3
+Desc
+Tigrex Scraps+ 2
+5 2!4W 10
+0 0 3
+0 4 4
+2 2 2
+3!2G 3 3
+0 0
+0 0
+0 0
+0 0
+2 1
+0
+0
+0
+0
+1
+2
+2
+0
+1
+0
+
 Doboru Taurus
 220
 R6
@@ -958,5 +994,42 @@ Doboru Scraps+ 2
 2
 2
 0
+0
+0
+
+Profusion
+230
+R7
+0%
+---
+Normal
+None
+Moderate
+112500z
+Slvr Rthalos Scl 8
+Gld Rathian Scl 8
+Rathalos Ruby 1
+Rathian Ruby 1
+Desc
+Rthalos Scraps+ 1
+Rathian Scraps+ 1
+5 6 9
+3!3M 3 3
+4!3M 5!2M 5
+2 0 0
+1 0 0
+2 1
+4 2
+2 1
+0 0
+0 0
+5
+0
+0
+0
+0
+2
+2
+1
 0
 0

@@ -2752,3 +2752,73 @@ Fate 4
 Slam 3
 Desc
 Rathian Scraps+ 2
+
+Silver Sol Vambraces
+56
+2 -2 -4 0 3
+B
+R7
+OOO
+Slvr RthlosTail 1
+FireWyvrnBrnStm 2
+Fire Wyvern Clw 4
+Firecell Stone 3
+9900z
+Health -2
+Sharpness 1
+Attack 2
+Debilitate 2
+Desc
+Rthalos Scraps+ 2
+
+Silver Sol Guards
+32
+4 -1 -3 0 4
+G
+R7
+OOO
+Slvr RthlosTail 1
+FireWyvrnBrnStm 2
+Fire Wyvern Clw 4
+Firecell Stone 3
+9900z
+Health -2
+NormalS Up 1
+Attack 2
+Debilitate 2
+Desc
+Rthalos Scraps+ 2
+
+Snake Gloves
+47
+1 1 1 1 1
+B
+R7
+OO-
+Big Boss Title 1
+Hapurbokka Clw+ 2
+Hapurubokka Cpc 3
+Doboru Carapace 3
+9000z
+Hunger -2
+SpeedSetup 2
+Constitutn 3
+FastCharge 2
+Desc
+
+Snake Arms
+26
+2 2 2 2 2
+G
+R7
+O--
+Big Boss Title 1
+Hapurbokka Clw+ 2
+Hapurubokka Cpc 3
+Doboru Carapace 3
+9000z
+Hunger -2
+Loading 4
+Precision 3
+SpeedSetup 2
+Desc

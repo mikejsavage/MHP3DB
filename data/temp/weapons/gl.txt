@@ -256,6 +256,20 @@ Fire Stone 4
 Desc
 Jinouga Scraps 2
 
+Silver Crown
+130
+L2
+Ice 40
+R3
+10%
+---
+30000z
+Famitsu S Tckt 5
+Bullfango Head 2
+Rhnplos Skl Shl 2
+Dragonite Ore 8
+Desc
+
 Eisenritter
 200
 N2

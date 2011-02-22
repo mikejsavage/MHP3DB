@@ -1785,10 +1785,19 @@ R7
 9700z
 
 423 Slvr Rthlos Scl
+scale white
+R6
+2200z
 
 424 Slvr Rthlos Cpc
+nshell white
+R6
+3900z
 
 425 Slvr RthlosTail
+shell white
+R6
+4800z
 
 426 Fire Wyvern Clw
 claw red
@@ -2131,6 +2140,9 @@ R5
 2500z
 
 497 Doboru Sacrum
+bone green
+R7
+7000z
 
 498 Tigrex Scale
 scale yellow
@@ -2570,6 +2582,9 @@ R5
 631 Famitsu Ticket
 
 632 Famitsu S Tckt
+ticket gray
+R5
+0z
 
 633 Famitsu G Tckt
 
@@ -2578,10 +2593,16 @@ R5
 635 Famitsu Coin
 
 636 Dengeki Ticket
+ticket yellow
+R5
+0z
 
 637 Dengeki Ticket+
 
 638 Big Boss Title
+ticket moss
+R5
+0z
 
 639 Secret Card
 
