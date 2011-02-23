@@ -23,6 +23,7 @@ local MaxSlots = 3
 
 <script type="text/javascript" src="{{ U( "js/common.js" ) }}"></script>
 <script type="text/javascript" src="{{ U( "js/builder.js" ) }}"></script>
+<script type="text/javascript" src="{{ U( "js/bench.js" ) }}"></script>
 
 <script type="text/javascript">
 var Armors = {{ ArmorsJSON }};
@@ -73,9 +74,9 @@ for _, class in ipairs( Armors ) do
 	print( ( [[<option value="-3">Any 2 slotted %s</option>]] ):format( Singular[ class.short ] ) )
 	print( ( [[<option value="-4">Any 3 slotted %s</option>]] ):format( Singular[ class.short ] ) )
 
-	for i, piece in ipairs( class.pieces ) do
-		print( ( [[<option value="%d">%s</option>]] ):format( i - 1, T( piece.name ) ) )
-	end
+	--for i, piece in ipairs( class.pieces ) do
+	--	print( ( [[<option value="%d">%s</option>]] ):format( i - 1, T( piece.name ) ) )
+	--end
 
 	print( [[</select><div class="slots">]] )
 

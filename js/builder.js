@@ -32,6 +32,20 @@ var Gunner = true;
 
 // init
 
+function arrayUpTo( num )
+{
+	var arr = new Array( num );
+
+	for( var i = 0; i < num; i++ )
+	{
+		arr[ i ] = i;
+	}
+
+	return arr;
+}
+
+var SortedArmors = { };
+
 onLoad( function()
 {
 	// TODO: it would be a million times better if this
@@ -75,6 +89,23 @@ onLoad( function()
 	{
 		loadSet( SetUrl );
 	}
+
+
+
+	// create sorted array and populate selects
+
+	Armors.map( function( type )
+	{
+		SortedArmors[ type.short ] = arrayUpTo( type.pieces.length - 1 );
+
+		SortedArmors[ type.short ].sort( function( a, b )
+		{
+			return type.pieces[ a ].name.T().localeCompare( type.pieces[ b ].name.T() );
+		} );
+	} );
+
+	doRefreshPieces();
+
 
 
 	// we are done loading
@@ -280,7 +311,7 @@ function showSlots( short )
 				pushSelect( selSlot, new Option(
 					decorInfo ?
 						decorationInfo( decoration ) :
-						decoration.name.T(),
+						decoration.name.T() + " [" + decoration.slots + "]",
 					id
 				) );
 			}
@@ -405,8 +436,10 @@ function doRefreshPieces()
 		// don't remove wildcards
 		clearSelect( sel, 4 );
 
-		type.pieces.map( function( piece, id )
+		SortedArmors[ type.short ].map( function( id )
 		{
+			var piece = type.pieces[ id ];
+
 			if( piece.blade & Blade || piece.gunner & Gunner )
 			{
 				var selected = curr == id;
@@ -470,7 +503,7 @@ function refreshSlots( short, refreshUsed )
 					pushSelect( selSlot, new Option(
 						decorInfo ?
 							decorationInfo( decoration ) :
-							decoration.name.T(),
+							decoration.name.T() + " [" + decoration.slots + "]",
 						id,
 						sel, sel
 					) );
