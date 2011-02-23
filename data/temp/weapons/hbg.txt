@@ -970,6 +970,42 @@ Diablos Scraps+ 2
 0
 0
 
+Nero Bazooka
+240
+R6
+-10%
+---
+VerySlow
+???
+Light
+105000z
+Blk Blos Spine 6
+Black Blos Shl 8
+MajesticBlkHorn 4
+Diablos Brnstm 1
+Desc
+Diablos Scraps+ 2
+1! 1! 1!
+5 4 4
+2 2 3
+0 0 0
+0 0 0
+0 0
+0 0
+0 0
+0 0
+3 1
+0
+0
+0
+0
+0
+2
+2
+0
+0
+0
+
 Tigrex Howl+
 210
 R5

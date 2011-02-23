@@ -1876,7 +1876,7 @@ Baggi Coat S
 -2 0 0 4 2
 G
 R5
----
+O--
 Grt Baggi Hide+ 3
 Regal Crest 1
 Baggi Scale+ 6
@@ -2105,6 +2105,80 @@ ThunderRes 4
 Desc
 Altarth Scraps+ 2
 
+Guild Bard Coil S
+44
+0 0 0 0 0
+B
+R5
+OOO
+Commendation G 1
+Drink Ticket 2
+Gracium Ore 4
+Hard Pleura 4
+8800z
+Wide Area 2
+Fate -2
+Rewards 1
+Perception 2
+Desc
+Courage Scraps+ 1
+
+Guild Bard Coat S
+24
+0 0 0 0 0
+G
+R5
+OOO
+Commendation G 1
+Drink Ticket 2
+Gracium Ore 4
+Hard Pleura 4
+8800z
+Wide Area 2
+Fate -3
+Rewards 1
+Perception 1
+Desc
+Courage Scraps+ 1
+
+Ranger Belt
+47
+0 0 0 0 0
+B
+R5
+OO-
+Jhen Mhran Scl+ 6
+Jhen Mohran Shl 2
+Hydro Sac 4
+Yukumo Ticket 3
+8800z
+Expert 2
+Fate -2
+Rec Level 1
+Carving 4
+Desc
+JhenMhrnScraps+ 1
+JhenMhranScraps 1
+
+Scout Belt
+26
+0 0 0 0 0
+G
+R5
+OO-
+Jhen Mhran Scl+ 6
+Jhen Mohran Shl 2
+Hydro Sac 4
+Yukumo Ticket 3
+8800z
+Expert 1
+Fate -3
+Rec Level 2
+Carving 3
+Desc
+JhenMhrnScraps+ 1
+JhenMhranScraps 1
+
 Nebula Tasset S
 44
 -4 0 3 3 -2
@@ -2272,7 +2346,7 @@ Narga Coat U
 -1 3 -2 1 0
 G
 R6
----
+O--
 Grn Narga Pelt 6
 Narga TailSpike 5
 Wyvern Stone 1
@@ -2547,6 +2621,42 @@ Sheathe 2
 Desc
 Diablos Scraps+ 2
 
+Diablos Coil U
+56
+2 -1 -1 -3 -1
+B
+R6
+OOO
+Blk Blos Spine 6
+Black Blos Shl 5
+Blos Fang 6
+Quality Abdomen 3
+9500z
+PunishDraw 1
+Dragon Atk -2
+KO 2
+FatigueAtk 2
+Desc
+Diablos Scraps+ 2
+
+Diablos Coat U
+32
+4 0 0 -2 0
+G
+R6
+OOO
+Blk Blos Spine 6
+Black Blos Shl 5
+Blos Fang 6
+Quality Abdomen 3
+9500z
+Reload Spd 1
+Recoil 1
+NormalSAdd 3
+Dragon Atk -2
+Desc
+Diablos Scraps+ 2
+
 Tigrex  Tasset S
 53
 2 -1 -4 0 -2
@@ -2797,6 +2907,110 @@ Attack 2
 Debilitate 3
 Desc
 Rthalos Scraps+ 2
+
+Vangis Tasset
+59
+0 0 -4 1 -4
+B
+R7
+---
+Deviljho Hide 4
+Deviljho Jewel 1
+Deviljho Scale 6
+Doboru Tailbone 1
+10250z
+Torso Up 0
+Desc
+Deviljho Scraps 2
+
+Vangis Coat
+34
+0 0 -2 3 -2
+G
+R7
+---
+Deviljho Hide 4
+Deviljho Jewel 1
+Deviljho Scale 6
+Doboru Tailbone 1
+10250z
+Torso Up 0
+Desc
+Deviljho Scraps 2
+
+Hi Yamato Waistcoat
+59
+3 0 0 -3 -3
+B
+R7
+---
+Jhen Mhran Arm+ 4
+Jhen Mohran Cpc 6
+Jhen Mohran Scl 5
+Rathalos Plate 1
+15500z
+Rec Speed -1
+Fencing 3
+Expert 6
+FastCharge 3
+Desc
+JhenMhrnScraps+ 2
+
+Hi Courtier Waistcoat
+34
+5 1 1 -2 -2
+G
+R7
+---
+Jhen Mhran Arm+ 4
+Jhen Mohran Cpc 6
+Jhen Mohran Scl 5
+Rathalos Plate 1
+15500z
+Rec Speed -2
+Expert 6
+PierceS Up 4
+FastCharge 1
+Desc
+JhenMhrnScraps+ 2
+
+Damascus Coil
+59
+-2 2 -3 1 -1
+B
+R6
+OOO
+Jhen Mohran Cpc 6
+Gld Rathian Scl 4
+Slvr Rthlos Scl 4
+Jhen Mhran Fang 1
+10250z
+Sharpness -2
+Artisan 2
+Sharpener 2
+Thundr Atk 1
+Desc
+JhenMhrnScraps+ 1
+Rathian Scraps+ 1
+
+Damascus Coat
+34
+-1 3 -2 3 0
+G
+R6
+OOO
+Jhen Mohran Cpc 6
+Gld Rathian Scl 4
+Slvr Rthlos Scl 4
+Jhen Mhran Fang 1
+10250z
+Recoil -2
+PelletS Up 2
+Loading 2
+Thundr Atk 1
+Desc
+JhenMhrnScraps+ 1
+Rathian Scraps+ 1
 
 Snake Belt
 47

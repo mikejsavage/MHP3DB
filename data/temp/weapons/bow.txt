@@ -653,6 +653,26 @@ R3
 P4
 YNYNYYN
 
+Ebony King Bow
+270
+Focused
+Def 16
+R6
+-10%
+---
+105000z
+Black Blos Shl 8
+MajesticBlkHorn 4
+Blk Blos Spine 6
+Diablos Brnstm 3
+Desc
+Diablos Scraps+ 2
+P1
+P1
+P3
+P5
+NNNNNYY
+
 Selene's Sting
 230
 Focused

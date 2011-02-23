@@ -997,6 +997,42 @@ Doboru Scraps+ 2
 0
 0
 
+Evil Machine
+220
+R6
+5%
+---
+Normal
+???
+Moderate
+66666z
+Dviljho Skl Shl 1
+Deviljho Hide 4
+Deviljho Claw 6
+Deviljho Drool 5
+Desc
+Deviljho Scraps 2
+4 4 5
+3 4 5
+0 0 0
+0 0 0
+0 0 0
+0 0
+0 0
+0 1
+0 0
+0 2
+0
+0
+0
+3
+3!2G
+2
+2
+0
+0
+4
+
 Profusion
 230
 R7

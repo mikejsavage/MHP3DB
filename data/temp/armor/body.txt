@@ -2208,6 +2208,42 @@ ThunderRes 1
 Desc
 Altarth Scraps+ 2
 
+Guild Bard Suit S
+44
+0 0 0 0 0
+B
+R5
+O--
+Commendation G 1
+Drink Ticket 2
+Firecell Stone 2
+Venom Gland 3
+8800z
+Wide Area 3
+Fate -2
+Rewards 3
+Perception 1
+Desc
+Courage Scraps+ 1
+
+Guild Bard Vest S
+24
+0 0 0 0 0
+G
+R5
+O--
+Commendation G 1
+Drink Ticket 2
+Firecell Stone 2
+Venom Gland 3
+8800z
+Wide Area 2
+Fate -2
+Rewards 3
+Perception 2
+Desc
+Courage Scraps+ 1
+
 Acorn Mail S
 44
 2 2 0 -2 0
@@ -2239,6 +2275,23 @@ BombStrUp 2
 Gunnery 7
 Desc
 Ore Scraps+ 2
+
+Luxury Bath Towel
+24
+-2 2 -2 -2 0
+BG
+R5
+O--
+Commendation G 1
+HotSpringTicket 8
+Drink Ticket 4
+Yukumo Ticket 3
+8800z
+Attack -4
+Fate 3
+LastingPwr 2
+Desc
+Courage Scraps+ 1
 
 Nebula Mail S
 44
@@ -2933,6 +2986,116 @@ Attack 1
 Debilitate 1
 Desc
 Rthalos Scraps+ 2
+
+Vangis Mail
+59
+0 0 -4 1 -4
+B
+R7
+---
+Deviljho Fang 5
+Deviljho Claw 4
+Deviljho Hide 5
+Jinouga Plate 1
+10250z
+Sharpness -2
+Artisan 3
+Ice Res 3
+Eating 3
+Desc
+Deviljho Scraps 2
+
+Vangis Vest
+34
+0 0 -2 3 -2
+G
+R7
+---
+Deviljho Fang 5
+Deviljho Claw 4
+Deviljho Hide 5
+Jinouga Plate 1
+10250z
+Recoil -2
+Ice Res 3
+Loading 3
+Eating 3
+Desc
+Deviljho Scraps 2
+
+Hi Yamato Plate
+59
+3 0 0 -3 -3
+B
+R7
+O--
+Jhen Mohran Cpc 6
+Jhen Mhrn Fang+ 4
+EldrDragonBlood 1
+Quality Fin 6
+15500z
+Rec Speed -2
+Fencing 1
+Expert 4
+FastCharge 2
+Desc
+JhenMhrnScraps+ 2
+
+Hi Courtier Plate
+34
+5 1 1 -2 -2
+G
+R7
+O--
+Jhen Mohran Cpc 6
+Jhen Mhrn Fang+ 4
+EldrDragonBlood 1
+Quality Fin 6
+15500z
+Rec Speed -2
+Expert 4
+PierceS Up 1
+FastCharge 2
+Desc
+JhenMhrnScraps+ 2
+
+Damascus Mail
+59
+-2 2 -3 1 -1
+B
+R6
+OO-
+Jhen Mhrn Fang+ 4
+Slvr Rthlos Cpc 6
+FireWyvernFluid 3
+Jhen Mohran Scl 3
+10250z
+Sharpness -4
+Artisan 1
+Sharpener 1
+Thundr Atk 1
+Desc
+JhenMhrnScraps+ 1
+Rthalos Scraps+ 1
+
+Damascus Vest
+34
+-1 3 -2 3 0
+G
+R6
+OO-
+Jhen Mhrn Fang+ 4
+Slvr Rthlos Cpc 6
+FireWyvernFluid 3
+Jhen Mohran Scl 3
+10250z
+Recoil -4
+PelletS Up 1
+Loading 1
+Thundr Atk 1
+Desc
+JhenMhrnScraps+ 1
+Rthalos Scraps+ 1
 
 Snake Suit
 47

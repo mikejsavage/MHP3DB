@@ -8,14 +8,16 @@ Skills = data( "skills" )
 
 local Charms = { }
 
-local Used = { }
+local Unused = { }
 local Bad = { }
 
 for _, skill in ipairs( Skills ) do
-	Used[ skill.name.hgg ] = false
+	Unused[ skill.name.hgg ] = true
 end
 
 io.input( DataPath )
+
+-- \r because io.lines() only removes \n...
 
 for line in io.lines() do
 	if line ~= "ID,Charm Type,Charm Name,Skill 1,Skill 2,Charm Slot,Table No.\r" then
@@ -35,7 +37,7 @@ for line in io.lines() do
 		else
 			local _, _, name = skill1:find( "^([%a%-/ ]+) [%+%-]?%d+$" )
 
-			Used[ name ] = true
+			Unused[ name ] = nil
 		end
 
 		--assert( id1, "bad skill1 in " .. line )
@@ -52,7 +54,7 @@ for line in io.lines() do
 			else
 				local _, _, name = skill2:find( "^([%a%-/ ]+) [%+%-]?%d+$" )
 
-				Used[ name ] = true
+				Unused[ name ] = nil
 			end
 
 			--assert( id2, "bad skill1 in " .. line )
@@ -61,15 +63,11 @@ for line in io.lines() do
 end
 
 for name, _ in pairs( Bad ) do
-	if not used then
-		print( "bad: " .. name )
-	end
+	print( "bad: " .. name )
 end
 
-for name, used in pairs( Used ) do
-	if not used then
-		print( "unused: " .. name )
-	end
+for name, _ in pairs( Unused ) do
+	print( "unused: " .. name )
 end
 
 print( "genCharms: ok!" )

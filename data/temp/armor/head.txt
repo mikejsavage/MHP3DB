@@ -2275,6 +2275,42 @@ ThunderRes 3
 Desc
 Altarth Scraps+ 2
 
+Guild Bard Tricorne S
+44
+0 0 0 0 0
+BG
+R5
+O--
+Commendation G 1
+HotSpringTicket 5
+King Scarab 6
+LightningCarpce 2
+8800z
+Wide Area 3
+Fate -3
+Rewards 2
+Perception 3
+Desc
+Courage Scraps+ 1
+
+Guild Bard Hat S
+24
+0 0 0 0 0
+BG
+R5
+O--
+Commendation G 1
+HotSpringTicket 5
+King Scarab 6
+LightningCarpce 2
+8800z
+Wide Area 5
+Fate -3
+Rewards 4
+Perception 3
+Desc
+Courage Scraps+ 1
+
 Acorn Helm S
 44
 2 2 0 -2 0
@@ -2306,6 +2342,23 @@ BombStrUp 9
 Gunnery 4
 Desc
 Ore Scraps+ 2
+
+Luxury Head Towel
+24
+-2 2 -2 -2 0
+BG
+R5
+OO-
+Commendation G 1
+HotSpringTicket 8
+Drink Ticket 4
+Yukumo Ticket 3
+8800z
+Attack -3
+Fate 3
+LastingPwr 3
+Desc
+Courage Scraps+ 1
 
 Nebula Helm S
 44
@@ -2785,6 +2838,42 @@ Sheathe 3
 Desc
 Diablos Scraps+ 2
 
+Diablos Helm U
+56
+2 -1 -1 -3 -1
+BG
+R6
+O--
+Black Blos Shl 4
+DiablosTailbone 4
+Wyvern Stone 1
+Altarth Abdomen 4
+9500z
+PunishDraw 2
+Dragon Atk -2
+KO 3
+FatigueAtk 4
+Desc
+Diablos Scraps+ 2
+
+Diablos Cap U
+32
+4 0 0 -2 0
+BG
+R6
+O--
+Black Blos Shl 4
+DiablosTailbone 4
+Wyvern Stone 1
+Altarth Abdomen 4
+9500z
+Reload Spd 4
+Recoil 4
+NormalSAdd 1
+Dragon Atk -4
+Desc
+Diablos Scraps+ 2
+
 Agnaktor Helm S
 53
 4 -4 0 -2 -4
@@ -2926,6 +3015,116 @@ Health -3
 NormalS Up 4
 Attack 5
 Debilitate 3
+
+Vangis Helm
+59
+0 0 -4 1 -4
+BG
+R7
+O--
+Dviljho Skl Shl 2
+Deviljho Hide 4
+Deviljho Drool 3
+Barioth Spike 1
+10250z
+Sharpness -3
+Artisan 5
+Ice Res 1
+Eating 2
+Desc
+Deviljho Scraps 2
+
+Vangis Cap
+34
+0 0 -2 3 -2
+BG
+R7
+O--
+Dviljho Skl Shl 2
+Deviljho Hide 4
+Deviljho Drool 3
+Barioth Spike 1
+10250z
+Recoil -3
+Ice Res 1
+Loading 5
+Eating 4
+Desc
+Deviljho Scraps 2
+
+Hi Yamato Helm
+59
+3 0 0 -3 -3
+BG
+R7
+OOO
+Jhen Mhrn Fang+ 4
+Jhen Mhran Scl+ 5
+Jhen Mohran Shl 5
+Rathian Plate 1
+15500z
+Rec Speed -3
+Fencing 2
+Expert 1
+FastCharge 1
+Desc
+JhenMhrnScraps+ 2
+
+Hi Courtier Hat
+34
+5 1 1 -2 -2
+BG
+R7
+OOO
+Jhen Mhrn Fang+ 4
+Jhen Mhran Scl+ 5
+Jhen Mohran Shl 5
+Rathian Plate 1
+15500z
+Rec Speed -1
+Expert 1
+PierceS Up 4
+FastCharge 3
+Desc
+JhenMhrnScraps+ 2
+
+Damascus Helm
+59
+-2 2 -3 1 -1
+BG
+R6
+OO-
+Jhen Mhran Scl+ 4
+Gld Rathian Scl 4
+GldRathianSpike 1
+Jhen Mohran Shl 2
+10250z
+Sharpness -2
+Artisan 4
+Sharpener 2
+Thundr Atk 1
+Desc
+JhenMhrnScraps+ 1
+Rathian Scraps+ 1
+
+Damascus Cap
+34
+-1 3 -2 3 0
+BG
+R6
+OO-
+Jhen Mhran Scl+ 4
+Gld Rathian Scl 4
+GldRathianSpike 1
+Jhen Mohran Shl 2
+10250z
+Recoil -2
+PelletS Up 3
+Loading 4
+Thundr Atk 2
+Desc
+JhenMhrnScraps+ 1
+Rathian Scraps+ 1
 
 Snake Face
 47

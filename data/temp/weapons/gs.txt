@@ -265,6 +265,19 @@ Desc
 Bone Scraps+ 1
 Uragaan Scraps 1
 
+Beserk Blade
+180
+Dragon 12
+R5
+5%
+---
+66666z
+Deviljho Fang 5
+Deviljho Claw 3
+Deviljho Tail 3
+Desc
+Deviljho Scraps 2
+
 Rusted Greatsword
 100
 R1

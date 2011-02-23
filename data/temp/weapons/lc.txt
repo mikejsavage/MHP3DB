@@ -185,3 +185,16 @@ Monster Bone+ 5
 Machalite Ore 10
 Desc
 Bone Scraps+ 2
+
+Spear of Sorrow
+180
+Dragon 10
+R5
+5%
+---
+66666z
+Deviljho Tail 3
+Deviljho Fang 5
+Deviljho Scale 8
+Desc
+Deviljho Scraps 2

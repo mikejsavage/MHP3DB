@@ -336,3 +336,16 @@ Dragonite Ore 8
 Bird Wyvrn Bone 10
 Desc
 GrtJaggiScraps+ 2
+
+Cruel Agony
+180
+Dragon 18
+R5
+10%
+O--
+66666z
+Deviljho Fang 5
+Dviljho Skl Shl 2
+Deviljho Hide 3
+Desc
+Deviljho Scraps 2

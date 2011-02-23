@@ -413,6 +413,9 @@ Reload Spd -1
 Akito Jewel 1
 Jhen Mohran Arm 1
 Tigrex Claw 2
+or
+Battlefield Jwl 1
+Dviljho Skl Shl 1
 
 FastChargJwl
 orange 4
@@ -426,6 +429,16 @@ Barroth Spine 2
 or
 Battlefield Jwl 1
 Tigrex Scale+ 2
+
+FastChargJwl
+orange 6
+3
+FastCharge 4
+Constitutn -2
+450z
+LapisLazuli Jwl 1
+Jhen Mohran Cpc 1
+SandBariothShl 2
 
 Unlock Jewel
 red 4
@@ -805,6 +818,16 @@ or
 Battlefield Jwl 1
 Haprbokka Hide+ 2
 
+FastEaterJwl
+yellow 6
+3
+Eating 4
+Rec Level -2
+450z
+LapisLazuli Jwl 1
+Deviljho Fang 2
+Tigrex Fang+ 2
+
 Marathon Jwl
 yellow 4
 1
@@ -911,6 +934,25 @@ Fate -1
 Battlefield Jwl 1
 Commendation 1
 Jinouga Pelt 1
+
+Rewards Jwl
+green 6
+3
+Rewards 4
+Fate -2
+450z
+LapisLazuli Jwl 1
+Commendation G 2
+Jinouga Plate 1
+
+HidecuttrJwl
+orange 4
+1
+Carving 1
+Fate -1
+200z
+Battlefield Jwl 1
+Deviljho Hide 1
 
 BackpckngJwl
 cyan 4

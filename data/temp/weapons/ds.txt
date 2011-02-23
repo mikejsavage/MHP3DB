@@ -159,3 +159,16 @@ Earth Crystal 30
 Iron Ore 50
 Desc
 Ore Scraps+ 2
+
+Blades of Rage
+180
+Dragon 8
+R5
+5%
+---
+66666z
+Deviljho Fang 4
+Dviljho Skl Shl 2
+Deviljho Hide 6
+Desc
+Deviljho Scraps 2

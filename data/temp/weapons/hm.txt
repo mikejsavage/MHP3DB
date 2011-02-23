@@ -223,3 +223,29 @@ Bealite Ore 20
 Iron Ore 50
 Desc
 Ore Scraps+ 2
+
+Hard Bone Hammer
+200
+R4
+0%
+---
+30000z
+Stout Bone 5
+Giant Bone 20
+Bone 40
+Iron Ore 15
+Desc
+Bone Scraps+ 2
+
+Chaos Hammer
+180
+Dragon 10
+R5
+5%
+---
+66666z
+Deviljho Fang 6
+Deviljho Claw 3
+Deviljho Hide 4
+Desc
+Deviljho Scraps 2

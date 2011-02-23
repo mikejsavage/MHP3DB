@@ -2090,6 +2090,59 @@ HearProtct 1
 Desc
 Altarth Scraps+ 2
 
+Guild Bard Boots S
+44
+0 0 0 0 0
+B
+R5
+---
+Commendation G 1
+HotSpringTicket 5
+Union Ore 3
+Chromatic Fluid 3
+8800z
+Wide Area 4
+Fate -1
+Rewards 5
+Perception 3
+Desc
+Courage Scraps+ 1
+
+Guild Bard Shoes S
+24
+0 0 0 0 0
+G
+R5
+---
+Commendation G 1
+HotSpringTicket 5
+Union Ore 3
+Chromatic Fluid 3
+8800z
+Wide Area 4
+Fate -2
+Rewards 3
+Perception 4
+Desc
+Courage Scraps+ 1
+
+Luxury Bath Sandals
+24
+-2 2 -2 -2 0
+BG
+R5
+O--
+Commendation G 1
+HotSpringTicket 8
+Drink Ticket 4
+Yukumo Ticket 3
+8800z
+Attack -3
+Fate 5
+LastingPwr 3
+Desc
+Courage Scraps+ 1
+
 Nebula Greaves U
 47
 0 -4 4 3 -2
@@ -2221,7 +2274,7 @@ Narga Leggings U
 -1 3 -2 1 0
 G
 R6
-O--
+---
 Grn Narga Fang 5
 Green Narga Scl 5
 Narga Marrow 2
@@ -2532,6 +2585,42 @@ Sheathe 2
 Desc
 Diablos Scraps+ 2
 
+Diablos Greaves U
+56
+2 -1 -1 -3 -1
+B
+R6
+OOO
+Black Blos Shl 5
+Twisted Horn 5
+Hrd Mnster Bone 4
+Altaroth Jaw 4
+9500z
+PunishDraw 3
+Dragon Atk -2
+KO 1
+FatigueAtk 1
+Desc
+Diablos Scraps+ 2
+
+Diablos Leggings U
+32
+4 0 0 -2 0
+G
+R6
+OOO
+Black Blos Shl 5
+Twisted Horn 5
+Hrd Mnster Bone 4
+Altaroth Jaw 4
+9500z
+Reload Spd 1
+Recoil 1
+NormalSAdd 3
+Dragon Atk -2
+Desc
+Diablos Scraps+ 2
+
 Tigrex Greaves S
 53
 2 -1 -4 0 -2
@@ -2783,6 +2872,80 @@ Attack 2
 Debilitate 2
 Desc
 Rthalos Scraps+ 2
+
+Hi Yamato Greaves
+59
+3 0 0 -3 -3
+B
+R7
+OOO
+Jhen Mhran Scl+ 5
+Jhen Mohran Cpc 6
+Jhen Mohran Jwl 1
+Large Fin 10
+15500z
+Rec Speed -2
+Fencing 1
+Expert 2
+FastCharge 2
+Desc
+JhenMhrnScraps+ 2
+
+Hi Courtier Greaves
+34
+5 1 1 -2 -2
+G
+R7
+OOO
+Jhen Mhran Scl+ 5
+Jhen Mohran Cpc 6
+Jhen Mohran Jwl 1
+Large Fin 10
+15500z
+Rec Speed -2
+Expert 2
+PierceS Up 1
+FastCharge 2
+Desc
+JhenMhrnScraps+ 2
+
+Damascus Greaves
+59
+-2 2 -3 1 -1
+B
+R6
+---
+Jhen Mohran Cpc 6
+Gld Rathian Cpc 6
+Slvr RthlosTail 1
+Jhen Mohran Scl 3
+10250z
+Sharpness -3
+Artisan 4
+Sharpener 3
+Thundr Atk 3
+Desc
+JhenMhrnScraps+ 1
+Rathian Scraps+ 1
+
+Damascus Leggings
+34
+-1 3 -2 3 0
+G
+R6
+---
+Jhen Mohran Cpc 6
+Gld Rathian Cpc 6
+Slvr RthlosTail 1
+Jhen Mohran Scl 3
+10250z
+Recoil -3
+PelletS Up 4
+Loading 4
+Thundr Atk 2
+Desc
+JhenMhrnScraps+ 1
+Rathian Scraps+ 1
 
 Snake Boots
 47

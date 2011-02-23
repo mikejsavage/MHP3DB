@@ -1090,6 +1090,9 @@ R4
 200z
 
 281 Quality Fin
+shell orange
+R6
+600z
 
 282 Sharp Fang
 claw orange
@@ -2258,8 +2261,14 @@ R5
 522 Diablos Brnstm
 
 523 Black Blos Shl
+nshell gray
+R6
+3280z
 
 524 Blk Blos Spine
+shell gray
+R6
+4500z
 
 525 MajesticBlkHorn
 
@@ -2379,6 +2388,9 @@ R4
 850z
 
 549 Jhen Mohran Cpc
+nshell blue
+R6
+2550z
 
 550 Jhen Mohran Scl
 scale blue
@@ -2386,6 +2398,9 @@ R4
 680z
 
 551 Jhen Mhran Scl+
+scale blue
+R6
+2040z
 
 552 Jhen Mohran Arm
 shell blue
@@ -2393,6 +2408,9 @@ R4
 1000z
 
 553 Jhen Mhran Arm+
+shell blue
+R6
+3000z
 
 554 Jhen Mhran Fang
 claw blue
@@ -2400,24 +2418,48 @@ R4
 1500z
 
 555 Jhen Mhrn Fang+
+claw blue
+R6
+5200z
 
 556 Jhen Mohran Jwl
+hvnly yellow
+R5
+8000z
 
 557 Deviljho Scale
+scale moss
+R6
+2100z
 
 558 Deviljho Hide
+hide moss
+R6
+2800z
 
 559 Deviljho Fang
+claw moss
+R6
+2980z
 
 560 Deviljho Claw
 
 561 Dviljho Skl Shl
+shell moss
+R6
+3800z
 
 562 Deviljho Tail
+shell moss
+R6
+4000z
 
 563 Deviljho Drool
 
 564 Deviljho Jewel
+hvnly moss
+R7
+9700z
 
 565 Akantor Scale
 
@@ -2513,6 +2555,9 @@ R5
 0z
 
 605 Commendation G
+ticket orange
+R5
+0z
 
 606 Pawprint Stamp
 ticket white
