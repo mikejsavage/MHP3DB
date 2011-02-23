@@ -6,8 +6,9 @@ local headerLink = loadTemplate( "headerLink" )
 
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="{{ U( "css/common.css" ) }}">
+		<meta http-equiv="Content-type" content="text/html;charset=utf-8">
 
+		<link rel="stylesheet" type="text/css" href="{{ U( "css/common.css" ) }}">
 		<link rel="shortcut icon" href="{{ U( "favicon.ico" ) }}">
 
 		<title>{{ title and title .. " - " or "" }}3rdDB</title>
