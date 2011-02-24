@@ -1,5 +1,3 @@
-#! /usr/bin/lua
-
 -- templates
 
 local setBuilder = loadTemplate( "sets/builder" )

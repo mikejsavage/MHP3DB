@@ -1,5 +1,3 @@
-#! /usr/bin/lua
-
 -- templates
 
 local setGenerator = loadTemplate( "sets/generator" )

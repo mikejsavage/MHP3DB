@@ -1,5 +1,3 @@
-#! /usr/bin/lua
-
 -- translations
 
 --Translations = translations( "armory" )

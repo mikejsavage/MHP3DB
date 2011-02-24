@@ -1,5 +1,3 @@
-#! /usr/bin/lua
-
 -- TODO: rewrite this in C
 
 require( "profiler" )
