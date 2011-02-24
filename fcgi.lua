@@ -5,7 +5,7 @@ require( "inc.template" )
 
 require( "inc.utils" )
 
-local function parse( str )
+local function parseQuery( str )
 	local tokens = { }
 
 	str:gsub( "([^&]+)&?", function( token )
@@ -32,15 +32,18 @@ Decorations, DecorationsJSON = data( "decorations" )
 Items,       ItemsJSON       = data( "items" )
 Skills,      SkillsJSON      = data( "skills" )
 
+Commits      = data( "commits" )
+LastModified = data( "modified" )
+
 
 function FCGI_Accept( postString )
 	Get = { }
 
 	if os.getenv( "QUERY_STRING" ) then
-		Get = parse( os.getenv( "QUERY_STRING" ) )
+		Get = parseQuery( os.getenv( "QUERY_STRING" ) )
 	end
 
-	Post = postString and parse( postString ) or { }
+	Post = postString and parseQuery( postString ) or { }
 
 
 	IsLocalHost = os.getenv( "SERVER_NAME" ) == "localhost"
