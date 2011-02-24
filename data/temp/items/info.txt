@@ -2378,7 +2378,7 @@ R6
 1875z
 
 547 Clammy Thorax
-shell cyyan
+shell cyan
 R6
 3240z
 
