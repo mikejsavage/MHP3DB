@@ -6,6 +6,9 @@ I made a repo for it because I want to see if building a website like
 this works well or not.
 
 
+Some of the gen files in data/temp depend on LuaFileSystem/lua-imlib2.
+
+
 Typos:
 Pouage Pectus S -> Rouage Pectus S
 Urukuru Leggings S -> Urukusu Leggings S
