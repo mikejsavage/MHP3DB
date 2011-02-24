@@ -56,9 +56,13 @@ int main( int argc, char *argv[] )
 				{
 					postString = malloc( postLength + 1 );
 
-					fread( postString, 1, postLength, stdin );
+					// if malloc fails then don't die completely
+					if( postString != NULL )
+					{
+						fread( postString, 1, postLength, stdin );
 
-					postString[ postLength ] = 0;
+						postString[ postLength ] = 0;
+					}
 				}
 			}
 		}
