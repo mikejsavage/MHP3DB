@@ -1,3 +1,4 @@
+-- returns the contents of the file at path
 function readFile( path )
 	local file = assert( io.open( path, "r" ) )
 
@@ -8,10 +9,13 @@ function readFile( path )
 	return content
 end
 
+-- i've forgotten exactly what this does
 function translations( translations )
 	return dofile( ( "%s/%s.lua" ):format( TranslationsDir, translations ) )
 end
 
+-- reads json data from file
+-- returns table, json string
 function data( file )
 	local contents = readFile( ( "data/%s.json" ):format( file ) )
 
@@ -22,6 +26,8 @@ function string.startsWith( self, needle )
 	return self:sub( 1, needle:len() ) == needle
 end
 
+-- table deep copy
+-- be careful!
 function table.copy( arr )
 	local new = { }
 
@@ -36,6 +42,7 @@ function math.round( num )
 	return math.floor( num + 0.5 )
 end
 
+-- inserts thousand separators into num
 -- function commANNIHILATE( num )
 function commas( num )
 	local out = ""
@@ -51,10 +58,12 @@ end
 
 -- name/url conversion
 
+-- strips bad chars from a string for use in URLs
 function string.urlEscape( self )
-	return self:gsub( "['\"]", "" ):gsub( " ", "_" )
+	return self:gsub( "['\"%[%]]", "" ):gsub( " ", "_" )
 end
 
+-- ensures consistency with URLs and makes things easier
 function urlFromName( name )
 	return name[ DefaultLanguage ]:urlEscape()
 end
@@ -85,16 +94,29 @@ function U( url )
 	return ( "/%s%s" ):format( BaseUrl, url )
 end
 
+-- returns a url with last modified timestamp appended
+-- allows cacheing of commonly modified files
+-- url returned is also rewrite safe
+function C( url )
+	assert( LastModified[ url ], url .. " isn't in modified.json!" )
+
+	return ( "%s/%d" ):format( U( url ), LastModified[ url ] )
+end
+
 -- returns translation
 function T( translation )
 	if translation[ Language ] then
 		return translation[ Language ]
 	end
 
-	return translation.hgg
+	return translation[ DefaultLanguage ]
 end
 
--- templates
+-- templates and helper functions
+-- TODO: perhaps the templates module should be
+--       rewritten so this is done automatically
+--       for every template? should be possible
+--       with varargs
 
 headerTemplate = loadTemplate( "header" )
 header = function( title )
