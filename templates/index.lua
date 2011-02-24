@@ -31,7 +31,7 @@ On that note...
 <h2>Latest commits</h2>
 
 {%
-local MaxCommits = 5
+local MaxCommits = 10
 local Months = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" }
 
 local function dateSuffix( date )
