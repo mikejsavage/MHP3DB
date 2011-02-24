@@ -30,30 +30,39 @@ var EatenSlots = [ ];
 var Blade = true;
 var Gunner = true;
 
-// init
-
-function arrayUpTo( num )
-{
-	var arr = new Array( num );
-
-	for( var i = 0; i < num; i++ )
-	{
-		arr[ i ] = i;
-	}
-
-	return arr;
-}
-
 var SortedArmors = { };
+var SortedSkills;
+
+// init
 
 onLoad( function()
 {
-	// TODO: it would be a million times better if this
-	//       sorted things alphabetically
-	//       possibly create an array of indices which is
-	//       sorted to point to the correct pieces?
+	// create sorted arrays
+	// TODO: push this to server side? could have
+	//       json files created during gen*
+
+	Armors.map( function( type )
+	{
+		SortedArmors[ type.short ] = arrayUpTo( type.pieces.length - 1 );
+
+		SortedArmors[ type.short ].sort( function( a, b )
+		{
+			return type.pieces[ a ].name.T().localeCompare( type.pieces[ b ].name.T() );
+		} );
+	} );
+
+	SortedSkills = arrayUpTo( Skills.length - 1 );
+
+	SortedSkills.sort( function( a, b )
+	{
+		return Skills[ a ].name.T().localeCompare( Skills[ b ].name.T() );
+	} );
+
 
 	// initialize EatenSlots array and setup UI
+
+	doRefreshPieces();
+
 	Types.map( function( type )
 	{
 		EatenSlots[ type ] = [ ];
@@ -72,11 +81,9 @@ onLoad( function()
 	initTalisman();
 
 
-
 	$( "autoCalc" ).checked = AutoCalc == "1" || AutoCalc === null; // default to on
 
 	autoCalcChanged();
-
 
 
 	if( SetUrl === false )
@@ -89,23 +96,6 @@ onLoad( function()
 	{
 		loadSet( SetUrl );
 	}
-
-
-
-	// create sorted array and populate selects
-
-	Armors.map( function( type )
-	{
-		SortedArmors[ type.short ] = arrayUpTo( type.pieces.length - 1 );
-
-		SortedArmors[ type.short ].sort( function( a, b )
-		{
-			return type.pieces[ a ].name.T().localeCompare( type.pieces[ b ].name.T() );
-		} );
-	} );
-
-	doRefreshPieces();
-
 
 
 	// we are done loading
@@ -125,8 +115,10 @@ function initTalisman()
 
 		var idx = 1;
 
-		Skills.map( function( skill, skillId )
+		SortedSkills.map( function( skillId )
 		{
+			var skill = Skills[ skillId ];
+
 			// don't include torso up...
 			if( skill.copy == null )
 			{

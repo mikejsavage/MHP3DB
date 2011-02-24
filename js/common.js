@@ -37,6 +37,18 @@ function isVisible( elem )
 	return elem.style.display != "none";
 }
 
+function arrayUpTo( num )
+{
+	var arr = new Array( num );
+
+	for( var i = 0; i < num; i++ )
+	{
+		arr[ i ] = i;
+	}
+
+	return arr;
+}
+
 function clearTable( table )
 {
 	for( var i = table.rows.length; i > 0; i-- )
