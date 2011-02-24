@@ -21,9 +21,9 @@ local MaxSlots = 3
 
 {( "slow" )}
 
-<script type="text/javascript" src="{{ U( "js/common.js" ) }}"></script>
-<script type="text/javascript" src="{{ U( "js/builder.js" ) }}"></script>
-<script type="text/javascript" src="{{ U( "js/bench.js" ) }}"></script>
+<script type="text/javascript" src="{{ C( "js/common.js" ) }}"></script>
+<script type="text/javascript" src="{{ C( "js/builder.js" ) }}"></script>
+{% --[[<script type="text/javascript" src="{{ C( "js/bench.js" ) }}"></script>]] %}
 
 <script type="text/javascript">
 var Armors = {{ ArmorsJSON }};

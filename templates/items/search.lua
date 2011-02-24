@@ -24,8 +24,8 @@ var ItemsCount = {{ table.getn( Items ) }};
 var BaseUrl = "{{ BaseUrl }}";
 </script>
 
-<script type="text/javascript" src="{{ U( "js/common.js" ) }}"></script>
-<script type="text/javascript" src="{{ U( "js/items.js" ) }}"></script>
+<script type="text/javascript" src="{{ C( "js/common.js" ) }}"></script>
+<script type="text/javascript" src="{{ C( "js/items.js" ) }}"></script>
 
 Search items: <input type="text" id="name" onkeyup="filterItems()">
 
