@@ -4,9 +4,9 @@
 		-- this is stupid slow - perhaps we could preprocess this?
 
 		if UsedNames[ decor.name.hgg ] then
-			print( U( ( "armory/jwl/%s_%d" ):format( decor.name.hgg:urlEscape(), decor.slots ) ) )
+			print( U( ( "armory/jwl/%s_%d" ):format( urlFromName( decor.name ), decor.slots ) ) )
 		else
-			print( U( "armory/jwl/" .. decor.name.hgg:urlEscape() ) )
+			print( U( "armory/jwl/" .. urlFromName( decor.name ) ) )
 
 			UsedNames[ decor.name.hgg ] = true
 		end
