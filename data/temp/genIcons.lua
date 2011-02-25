@@ -34,7 +34,7 @@ local RareColors =
 	"ea8bd5",
 	"5dd030",
 	"3581e1",
-	"ec4a65",
+	"e84458",
 }
 
 local NamedColors =
@@ -47,7 +47,7 @@ local NamedColors =
 	yellow = "f7f56b",
 	orange = "f49e62",
 	brown  = "c09428",
-	red    = "ec4a65",
+	red    = "e84458",
 	pink   = "f599f0",
 	purple = "aa70e0",
 	blue   = "718fff",
