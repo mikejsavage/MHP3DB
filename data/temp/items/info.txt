@@ -3080,8 +3080,14 @@ R6
 300z
 
 773 Rathian Scraps
+scraps green
+R4
+150z
 
 774 Rathian Scraps+
+scraps green
+R6
+450z
 
 775 Rathalos Scraps
 scraps red
@@ -3103,6 +3109,9 @@ R4
 779 Narga Scraps
 
 780 Narga Scraps+
+scraps gray
+R6
+450z
 
 781 Barioth Scraps
 scraps white
@@ -3133,6 +3142,9 @@ R6
 791 Agnaktor Scraps
 
 792 Agnktor Scraps+
+scraps red
+R6
+450z
 
 793 JhenMhranScraps
 

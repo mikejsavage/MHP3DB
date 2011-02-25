@@ -285,6 +285,7 @@ R1
 ---
 0z
 Ruststone 1
+Desc
 
 	Tarnished Greatsword
 	100

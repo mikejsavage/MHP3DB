@@ -569,3 +569,12 @@ Jinouga Scraps 2
 	80000z
 	Desc
 	Jinouga Scraps+ 2
+
+Worn Sword
+50
+R4
+-70%
+---
+0z
+Ancient Stone 1
+Desc

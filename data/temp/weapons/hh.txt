@@ -231,3 +231,13 @@ Monster Broth 8
 Blue Mushroom 8
 Desc
 Bone Scraps+ 2
+
+Worn Hunting Horn
+110
+PRC
+R4
+-70%
+---
+0z
+Ancient Stone 1
+Desc

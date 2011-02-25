@@ -162,6 +162,111 @@ Desc
 		Bone Scraps 1
 		Ore Scraps 1
 
+			Bone Katana "Canine"
+			120
+			R2
+			0%
+			---
+			Med Mnster Bone 3
+			Machalite Ore 5
+			Grt Jaggi Hide 3
+			3200z
+			Desc
+			Bone Scraps 1
+			GrtJaggi Scraps 1
+
+				Infinite Katana
+				110
+				Paralyze 15
+				R2
+				0%
+				---
+				Baggi Hide 8
+				Paralysis Sac 1
+				Iron Ore 8
+				4000z
+				Paralysis Sac 2
+				Grt Baggi Hide 5
+				Brd Wyvern Fang 10
+				Machalite Ore 8
+				Desc
+				Ore Scraps 2
+
+				Twin Fire Wyvern
+				160
+				Fire 18
+				R3
+				0%
+				O--
+				Rathalos Shell 3
+				Rathian Shell 3
+				Flame Sac 3
+				20000z
+				Rathalos Shell 5
+				Rathian Shell 5
+				Fire Wyvern Clw 4
+				FireWyvrnMarrow 1
+				Desc
+				Rathalos Scraps 1
+				Rathian Scraps 1
+
+					Twin Blaze Wyvern
+					170
+					Fire 22
+					R5
+					0%
+					O--
+					Rathalos Carpce 3
+					Rathian Carapce 3
+					Inferno Sac 2
+					50000z
+					Desc
+					Rthalos Scraps+ 1
+					Rathian Scraps+ 1
+
+						Twin Crimson Wyvern
+						190
+						Fire 24
+						R6
+						0%
+						O--
+						Rathalos Scale+ 8
+						Rathian Scale+ 8
+						FireWyvrnBrnStm 3
+						65000z
+						Desc
+						Rthalos Scraps+ 1
+						Rathian Scraps+ 1
+
+				Diapason
+				170
+				Def 20
+				R3
+				0%
+				---
+				Uragaan Shield 4
+				Uragaan Shell 2
+				Monster Bone+ 2
+				Mega Demondrug 3
+				15000z
+				Desc
+				Uragaan Scraps 2
+
+			Froggi Katana
+			100
+			Poison 18
+			R1
+			0%
+			OO-
+			Froggi Hide 5
+			Froggi Fang 8
+			Med Mnster Bone 2
+			Iron Ore 5
+			2500z
+			Desc
+			Bone Scraps 1
+			Ore Scraps 1
+
 Downpour
 130
 Water 14
@@ -175,20 +280,6 @@ Spongy Hide 4
 Lg Monster Bone 1
 Desc
 Ludroth Scraps 2
-
-Infinite Katana
-110
-Paralyze 15
-R2
-0%
----
-6000z
-Paralysis Sac 2
-Grt Baggi Hide 5
-Brd Wyvern Fang 10
-Machalite Ore 8
-Desc
-GrtBaggiScraps 2
 
 Chain Blade
 120
@@ -254,21 +345,6 @@ Narga Marrow 1
 Machalite Ore 5
 Desc
 Narga Scraps 2
-
-Twin Fire Wyvern
-160
-Fire 18
-R3
-0%
-O--
-30000z
-Rathalos Shell 5
-Rathian Shell 5
-Fire Wyvern Clw 4
-FireWyvrnMarrow 1
-Desc
-Rathalos Scraps 1
-Rathian Scraps 1
 
 Rex Katana
 170
