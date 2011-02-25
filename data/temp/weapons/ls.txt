@@ -238,6 +238,20 @@ Desc
 						Rthalos Scraps+ 1
 						Rathian Scraps+ 1
 
+							Silver Wyvern
+							210
+							Fire 26
+							R7
+							0%
+							OO-
+							Slvr Rthlos Cpc 5
+							Slvr RthlosTail 2
+							Fire Wyvern Clw 15
+							Rathalos Ruby 1
+							75000z
+							Desc
+							Rthalos Scraps+ 2
+
 				Diapason
 				170
 				Def 20

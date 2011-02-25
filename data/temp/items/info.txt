@@ -194,6 +194,9 @@ R1
 59 Flash Bomb
 
 60 Sonic Bomb
+ball gray
+R2
+45z
 
 61 Dung
 dung yellow
@@ -764,6 +767,9 @@ R6
 1000z
 
 214 Bell Cricket
+bug pink
+R5
+180z
 
 215 Swallowtail
 
@@ -2591,6 +2597,9 @@ R4
 0z
 
 614 VegElderTcktSlv
+ticket white
+R4
+0z
 
 615 VegElderTcktGld
 
