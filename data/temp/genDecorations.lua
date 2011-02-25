@@ -144,11 +144,16 @@ table.insert( Decorations, decoration )
 
 DecorationsCount = DecorationsCount + 1
 
+local encoded = json.encode( Decorations )
+
+io.output( "../decorations.json" )
+io.write( encoded )
+
+io.output( "../js/decorations.js" )
+io.write( "var Decorations = " .. encoded .. ";" )
+
 print( ( "genDecorations: ok, %.1f%% complete! (%d/%d)" ):format(
 	100 * ( DecorationsCount / NamesCount ),
 	DecorationsCount,
 	NamesCount
 ) )
-
-io.output( "../decorations.json" )
-io.write( json.encode( Decorations ) )

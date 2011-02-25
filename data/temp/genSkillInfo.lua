@@ -67,7 +67,12 @@ end
 
 table.insert( Skills, skill )
 
-print( "genSkillInfo: ok!" )
+local encoded = json.encode( Skills )
 
 io.output( "../skills.json" )
-io.write( json.encode( Skills ) )
+io.write( encoded )
+
+io.output( "../js/skills.js" )
+io.write( "var Skills = " .. encoded .. ";" )
+
+print( "genSkillInfo: ok!" )

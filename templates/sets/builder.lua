@@ -21,16 +21,10 @@ local MaxSlots = 3
 
 {( "slow" )}
 
-<script type="text/javascript" src="{{ C( "js/common.js" ) }}"></script>
-<script type="text/javascript" src="{{ C( "js/builder.js" ) }}"></script>
-{% --[[<script type="text/javascript" src="{{ C( "js/bench.js" ) }}"></script>]] %}
+{{ js( "common", "builder" ) }}
+{{ jsd( "armors", "decorations", "skills", "items" ) }}
 
 <script type="text/javascript">
-var Armors = {{ ArmorsJSON }};
-var Decorations = {{ DecorationsJSON }};
-var Skills = {{ SkillsJSON }};
-var Items = {{ ItemsJSON }};
-
 var SetUrl = {{ Get.set and ( "%q" ):format( Get.set ) or "false" }};
 var BaseUrl = "{{ BaseUrl }}";
 </script>

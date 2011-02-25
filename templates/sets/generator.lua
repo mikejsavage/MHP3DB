@@ -1,14 +1,9 @@
 {( "slow" )}
 
-<script type="text/javascript" src="{{ C( "js/common.js" ) }}"></script>
-<script type="text/javascript" src="{{ C( "js/ajax.js" ) }}"></script>
-<script type="text/javascript" src="{{ C( "js/generator.js" ) }}"></script>
+{{ js( "common", "ajax", "generator" ) }}
+{{ jsd( "armors", "decorations", "skills" ) }}
 
 <script type="text/javascript">
-var Armors = {{ ArmorsJSON }};
-var Decorations = {{ DecorationsJSON }};
-var Skills = {{ SkillsJSON }};
-
 var SetUrl = {{ Get.set and ( "%q" ):format( Get.set ) or "false" }};
 var BaseUrl = "{{ BaseUrl }}";
 </script>

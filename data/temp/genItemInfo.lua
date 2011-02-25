@@ -95,7 +95,12 @@ end
 
 table.insert( Items, item )
 
-print( "genItemInfo: ok!" )
+local encoded = json.encode( Items )
 
 io.output( "../items.json" )
-io.write( json.encode( Items ) )
+io.write( encoded )
+
+io.output( "../js/items.js" )
+io.write( "var Items = " .. encoded .. ";" )
+
+print( "genItemInfo: ok!" )

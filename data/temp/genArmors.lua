@@ -199,11 +199,16 @@ for _, short in pairs( Types ) do
 	table.insert( Armor, class )
 end
 
+local encoded = json.encode( Armor )
+
+io.output( "../armors.json" )
+io.write( encoded )
+
+io.output( "../js/armors.js" )
+io.write( "var Armors = " .. encoded .. ";" )
+
 print( ( "genArmors: ok, %.1f%% complete! (%d/%d)" ):format(
 	100 * ( ArmorCount / NamesCount ),
 	ArmorCount,
 	NamesCount
 ) )
-
-io.output( "../armors.json" )
-io.write( json.encode( Armor ) )

@@ -16,6 +16,7 @@ local IgnoredFiles =
 local DirsToCheck =
 {
 	"js",
+	"data/js",
 	"css",
 }
 

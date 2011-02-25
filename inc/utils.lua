@@ -103,6 +103,34 @@ function C( url )
 	return ( "%s/%d" ):format( U( url ), LastModified[ url ] )
 end
 
+-- returns a rewrite safe url to a cacheable json include
+function D( file )
+	return C( ( "data/js/%s.js" ):format( file ) )
+end
+
+-- returns html for including files from js/
+-- eg js( "a", "b" ) will return <script... src="asdf/a.js">...<script... src="asdf/b.js">...
+function js( ... )
+	local out = ""
+
+	for _, file in ipairs( arg ) do
+		out = ( [[%s<script type="text/javascript" src="%s"></script>]] ):format( out, C( ( "js/%s.js" ):format( file ) ) )
+	end
+
+	return out
+end
+
+-- returns html for including json data from data/js/
+function jsd( ... )
+	local out = ""
+
+	for _, file in ipairs( arg ) do
+		out = ( [[%s<script type="text/javascript" src="%s"></script>]] ):format( out, D( file ) )
+	end
+
+	return out
+end
+
 -- returns translation
 function T( translation )
 	if translation[ Language ] then

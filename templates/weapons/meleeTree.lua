@@ -13,8 +13,7 @@ local TreeHeaders =
 }
 %}
 
-<script type="text/javascript" src="{{ C( "js/common.js" ) }}"></script>
-<script type="text/javascript" src="{{ C( "js/weaponTree.js" ) }}"></script>
+{{ js( "common", "weaponTree" ) }}
 
 <h1>{{ icon( "equipment/" .. class.short ) }} {{ T( class.name ) }}</h1>
 
