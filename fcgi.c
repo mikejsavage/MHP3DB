@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
+#include <signal.h>
 #include <assert.h>
 
 #include <fcgi_stdio.h>
@@ -11,6 +12,8 @@
 #include <lauxlib.h>
 
 #define POST_CONTENT_TYPE "application/x-www-form-urlencoded"
+
+lua_State *L;
 
 // i don't know why this is necessary but it is
 static int fcgiPrint( lua_State *L )
@@ -22,10 +25,22 @@ static int fcgiPrint( lua_State *L )
 	return 0;
 }
 
+void cleanup( int signal )
+{
+	// if fcgi_shutdown.lua doesn't exist then
+	// lua_close is still called
+	( void ) luaL_dofile( L, "fcgi_shutdown.lua" );
+
+	lua_close( L );
+}
+
 int main( int argc, char *argv[] )
 {
-	lua_State *L = lua_open();
+	L = lua_open();
 	luaL_openlibs( L );
+
+	// SIGUSR1 is sent when the server is shutting down
+	signal( SIGUSR1, cleanup );
 
 	lua_register( L, "print", fcgiPrint );
 
@@ -86,14 +101,14 @@ int main( int argc, char *argv[] )
 			free( postString );
 		}
 
+		// this sometimes fails when the script dies
+		// but idk why
 		assert( lua_gettop( L ) == 0 );
 	}
 
-	// this fails if the file doesn't exist
-	// but who cares?
-	( void ) luaL_dofile( L, "fcgi_shutdown.lua" );
-
-	lua_close( L );
+	// this will get called when this is run as
+	// a CGI script but not as FCGI
+	cleanup( SIGUSR1 );
 
 	return EXIT_SUCCESS;
 }	
