@@ -19,9 +19,9 @@ No need to ask before using or even give credit, I'm not bothered at all.
 
 <h2>GitHub? So I can use your code?</h2>
 
-Sure. It's MIT licensed (in short - do whatever you like so long as you give credit).
+Sure, it's <a href="https://github.com/mikejsavage/MHP3DB/blob/master/license.txt">WTFPL licensed</a> so you can do what you like with it.
 <br>
-<small>(Also keep in mind that this is the first proper project I've done in Lua)</small>
+<small>(keep in mind that this is the first proper project I've done in Lua and my code is almost certainly awful)</small>
 
 
 <br><br><br>
