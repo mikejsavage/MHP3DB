@@ -3,6 +3,9 @@
 {%
 -- i think it's simpler to not cache this due to translations
 
+-- TODO: this kicks fcgi's memory usage up by quite a bit
+--       perhaps i should work on cacheing?
+
 local sortedItemNames = { }
 local itemsCount = 0
 
