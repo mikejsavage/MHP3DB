@@ -1,18 +1,11 @@
 onLoad( function()
 {
-	Items.sort( sortByName );
-
 	filterItems();
 
 	$( "name" ).focus();
 
 	hide( $( "loading" ) );
 } );
-
-function sortByName( a, b )
-{
-	return a.localeCompare( b );
-}
 
 function filterItems()
 {
@@ -30,7 +23,7 @@ function filterItems()
 
 	for( var i = 0; i < ItemsCount; i++ )
 	{
-		var name = Items[ i ].toLowerCase();
+		var name = Items[ i ].name.toLowerCase();
 
 		var pos = name.indexOf( filter );
 
@@ -39,7 +32,7 @@ function filterItems()
 			continue;
 		}
 
-		matches.push( { "name" : name, "id" : i, "pos" : pos } );
+		matches.push( { "id" : i, "pos" : pos } );
 		numMatches++;
 	}
 
@@ -58,9 +51,10 @@ function filterItems()
 	{
 		var match = matches[ i ];
 
-		var name = Items[ match.id ];
+		var item = Items[ match.id ];
+		var name = item.name;
 
-		out += "<a href='/" + BaseUrl + "items/" + name.urlEscape() + "'>"
+		out += "<a href='/" + BaseUrl + "items/" + item.url + "'>"
 			+ name.substring( 0, match.pos )
 			+ "<strong>" + name.substring( match.pos, match.pos + filterLen ) + "</strong>"
 			+ name.substr( match.pos + filterLen )

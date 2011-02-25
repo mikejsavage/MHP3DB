@@ -1,31 +1,33 @@
 {( "slow" )}
 
-<script type="text/javascript">
-var Items = [{%
-local key, item = next( Items, nil )
+{%
+-- i think it's simpler to not cache this due to translations
 
-while true do
-	local newKey, newItem = next( Items, key )
+local sortedItemNames = { }
+local itemsCount = 0
 
-	print( ( "%q" ):format( T( item.name ) ) )
+for _, item in ipairs( Items ) do
+	table.insert( sortedItemNames, {
+		name = T( item.name ),
+		url = urlFromName( item.name )
+	} )
 
-	if newKey then
-		print( "," )
-	else
-		break
-	end
-
-	key = newKey
-	item = newItem
+	itemsCount = itemsCount + 1
 end
-%}];
-var ItemsCount = {{ table.getn( Items ) }};
+
+table.sort( sortedItemNames, function( a, b )
+	return a.name < b.name
+end )
+%}
+
+<script type="text/javascript">
+var Items = {{ json.encode( sortedItemNames ) }};
+var ItemsCount = {{ itemsCount }};
 
 var BaseUrl = "{{ BaseUrl }}";
 </script>
 
-<script type="text/javascript" src="{{ C( "js/common.js" ) }}"></script>
-<script type="text/javascript" src="{{ C( "js/items.js" ) }}"></script>
+{{ js( "common", "items" ) }}
 
 Search items: <input type="text" id="name" onkeyup="filterItems()">
 
