@@ -359,6 +359,10 @@ input.small {
 	width: 2.5em;
 }
 
+#tlnInvalid {
+	color: red;
+}
+
 #calcButton {
 	display: block;
 }

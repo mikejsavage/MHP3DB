@@ -51,7 +51,7 @@ onLoad( function()
 		} );
 	} );
 
-	SortedSkills = arrayUpTo( Skills.length - 1 );
+	SortedSkills = arrayUpTo( Skills.length );
 
 	SortedSkills.sort( function( a, b )
 	{
@@ -576,6 +576,11 @@ function slotChanged( short, slot )
 
 	refreshSlots( short );
 
+	if( short == "tln" )
+	{
+		checkTln();
+	}
+
 	calc();
 }
 
@@ -584,6 +589,106 @@ function slotChanged( short, slot )
 //       can provide more than what is specified but
 //       it should be made clear to the user when this
 //       is the case
+
+// this code is super horrid but it runs quick
+function isTlnValid()
+{
+	function charmHasSkill( charm, id, points )
+	{
+		var charm = Charms[ charm ];
+
+		return ( id == charm[ 1 ] && points <= charm[ 2 ] )
+		    || ( id == charm[ 3 ] && points <= charm[ 4 ] );
+	}
+
+	function charmHasSlots( charm, slots )
+	{
+		return slots <= Charms[ charm ][ 0 ];
+	}
+
+
+	var selSkill1 = $( "tlnskill0" );
+	var skill1Id = -1;
+	var skill1Points;
+
+	if( selSkill1.selectedIndex != 0 )
+	{
+		skill1Id     = selSkill1.value;
+		skill1Points = parseInt( $( "tlnskill0pts" ).value, 10 );
+	}
+
+	var selSkill2 = $( "tlnskill1" );
+	var skill2Id = -1;
+	var skill2Points;
+
+	if( selSkill2.selectedIndex != 0 )
+	{
+		skill2Id     = selSkill2.value;
+		skill2Points = parseInt( $( "tlnskill1pts" ).value, 10 );
+	}
+
+	var slots = 0;
+
+	for( var i = 0; i < MaxSlots; i++ )
+	{
+		var sel = $( "tlnslot" + i );
+
+		if( !sel.disabled && sel.selectedIndex != 0 )
+		{
+			slots += Decorations[ sel.value ].slots;
+		}
+	}
+
+
+	if( skill1Id == -1 || skill1Points == 0 )
+	{
+		if( skill2Id == -1 || skill2Points == 0 )
+		{
+			return true;
+		}
+
+		for( var i = 0, m = Charms.length; i < m; i++ )
+		{
+			if( charmHasSkill( i, skill2Id, skill2Points ) && charmHasSlots( i, slots ) )
+			{
+				return true;
+			}
+		}
+
+		return false;
+	}
+
+	if( skill2Id == -1 || skill2Points == 0 )
+	{
+		for( var i = 0, m = Charms.length; i < m; i++ )
+		{
+			if( charmHasSkill( i, skill1Id, skill1Points ) && charmHasSlots( i, slots ) )
+			{
+				return true;
+			}
+		}
+
+		return false;
+	}
+
+	for( var i = 0, m = Charms.length; i < m; i++ )
+	{
+		if( charmHasSkill( i, skill1Id, skill1Points ) && charmHasSkill( i, skill2Id, skill2Points ) && charmHasSlots( i, slots ) )
+		{
+			return true;
+		}
+	}
+
+	return false;
+}
+
+function checkTln()
+{
+	if( Ready )
+	{
+		setVis( $( "tlnInvalid" ), !isTlnValid() );
+	}
+}
 
 function tlnSkillChanged( skill )
 {
@@ -605,6 +710,8 @@ function tlnSkillChanged( skill )
 		$( selId + "pts" ).disabled = false;
 	}
 
+	checkTln();
+
 	calc();
 }
 
@@ -612,6 +719,8 @@ function tlnSkillChanged( skill )
 function tlnPointsChanged( skill )
 {
 	// TODO: make sure they actually entered a number
+
+	checkTln();
 
 	calc();
 }

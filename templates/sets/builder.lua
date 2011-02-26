@@ -22,7 +22,7 @@ local MaxSlots = 3
 {( "slow" )}
 
 {{ js( "common", "builder" ) }}
-{{ jsd( "armors", "decorations", "skills", "items" ) }}
+{{ jsd( "armors", "decorations", "skills", "items", "charms" ) }}
 
 <script type="text/javascript">
 var SetUrl = {{ Get.set and ( "%q" ):format( Get.set ) or "false" }};
@@ -91,14 +91,15 @@ end
 <select id="tlnskill1" onchange="tlnSkillChanged( 1 )"></select>
 <input type="text" id="tlnskill1pts" onblur="tlnPointsChanged( 1 )" class="small" value="0">
 
+<small id="tlnInvalid" style="display: none">This charm doesn't exist!</small>
+
 <div class="slots">
 	<select id="tlnslot0" onchange="slotChanged( 'tln', 0 )"></select>
 	<select id="tlnslot1" onchange="slotChanged( 'tln', 1 )"></select>
 	<select id="tlnslot2" onchange="slotChanged( 'tln', 2 )"></select>
 </div>
 
-<small>(No guarantees as of yet that this charm is legit... watch this space!)</small>
-<br><br>
+<br>
 
 
 <label for="decorInfo">
