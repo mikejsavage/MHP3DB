@@ -15,7 +15,11 @@
 
 lua_State *L;
 
-// i don't know why this is necessary but it is
+FILE *outFD;
+
+// this is needed because libfcgi temporarily sets stdout
+// to something else during a request, and lua can't see
+// the change
 static int fcgiPrint( lua_State *L )
 {
 	const char *str = luaL_checkstring( L, 1 );
@@ -48,12 +52,6 @@ int main( int argc, char *argv[] )
 
 	while( FCGI_Accept() >= 0 )
 	{
-		// it literally does not work without this line
-		// not even if it gets put in fcgi.lua
-		// TODO: this makes redirects/cookies a little awkward
-		printf( "Content-type: text/html\r\n\r\n" );
-
-
 		// POST parsing
 
 		char *postString = NULL;

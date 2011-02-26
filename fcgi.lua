@@ -37,6 +37,9 @@ LastModified = data( "modified" )
 
 
 function FCGI_Accept( postString )
+	print( "Content-type: text/html; charset=utf-8\r\n\r\n" )
+
+
 	Get = { }
 
 	if os.getenv( "QUERY_STRING" ) then
@@ -50,5 +53,7 @@ function FCGI_Accept( postString )
 	CurrentUrl = os.getenv( "REQUEST_URI" ):sub( BaseUrl:len() + 2 )
 
 
+	-- the server should always be passing us a legit request
+	-- so don't bother checking
 	dofile( os.getenv( "SCRIPT_FILENAME" ) )
 end

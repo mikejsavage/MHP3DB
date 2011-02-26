@@ -1,7 +1,6 @@
 {%
 local headerLink = loadTemplate( "headerLink" )
 %}
-
 <!DOCTYPE HTML>
 
 <html>
