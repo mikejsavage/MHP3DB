@@ -755,7 +755,7 @@ function calc( force )
 	var setMaterials = { };
 	var setPrice = 0;
 
-	var defense = 0;
+	var defense = 1;
 	var resistances = { };
 
 	// init resistances
