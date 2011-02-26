@@ -2631,6 +2631,9 @@ R5
 624 Detective Proof
 
 625 Leek Contract
+ticket pink
+R5
+0z
 
 626 Magazine Ticket
 
@@ -2641,8 +2644,14 @@ R5
 629 Legend J Ticket
 
 630 Pirate J Dbloon
+coin red
+R5
+0z
 
 631 Famitsu Ticket
+ticket blue
+R5
+0z
 
 632 Famitsu S Tckt
 ticket gray

@@ -103,6 +103,20 @@ Killer Beetle 6
 Desc
 Rathian Scraps 2
 
+Magical Charm
+90
+WGC
+Dragon 20
+R2
+0%
+---
+2850z
+Bell Cricket 3
+Lightcrystal 2
+Killer Beetle 5
+Desc
+Altaroth Scraps 2
+
 Wave Shell
 80
 WGB

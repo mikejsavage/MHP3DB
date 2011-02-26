@@ -226,6 +226,20 @@ Jinouga Pelt 1
 Desc
 Jinouga Scraps 2
 
+Demon Greatsword
+140
+Thunder 50
+Def 8
+R3
+10%
+---
+30000z
+Leek Contract 5
+Horrific Maw 1
+EldrDragonBlood 2
+Static Carapace 5
+Desc
+
 Carbalite Sword
 180
 R4

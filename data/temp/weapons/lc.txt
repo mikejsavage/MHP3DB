@@ -161,6 +161,18 @@ Jinouga Tail 1
 Desc
 Jinouga Scraps 2
 
+Brain Fox
+150
+Fire 21
+R3
+0%
+O--
+30000z
+Famitsu Ticket 5
+Fire Stone 5
+FireWyvrnMarrow 2
+Desc
+
 Champion's Lance
 180
 R4

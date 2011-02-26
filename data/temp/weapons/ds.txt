@@ -54,6 +54,20 @@ Honey 1
 Desc
 Wood Scraps 1
 
+Insectors
+130
+Dragon 10
+R2
+0%
+---
+3840z
+Swallowtail 4
+Hercudrome 4
+Dragonite Ore 2
+Bnahabra Wing 2
+Desc
+Altaroth Scraps 2
+
 Dual Tomahawks
 150
 R2
