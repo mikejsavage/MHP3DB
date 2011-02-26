@@ -29,3 +29,64 @@ Grt Frggi Arm -> Grt Froggi Arm
 
 Red Qurpeco is used commonly, but the HR scraps are Qurupco. Perhaps one
 should be changed for consistency.
+
+
+
+Lighttpd config:
+(don't copy this straight into your lighttpd.conf, read it and change it
+as needed)
+
+
+index-file.names += (
+	"index.lua",
+)
+
+mimetype.assign += (
+	".lua" => "text/html",
+)
+
+server.modules += (
+	"mod_rewrite",
+	"mod_fastcgi",
+	"mod_expire",
+)
+
+# wrap a $HTTP[ "url" ] check around this if needed
+fastcgi.server += (
+	".lua" => (
+		(
+			 "bin-path" => "/path/to/fcgi",
+			 "socket" => "/tmp/mhp3dbFCGI.socket",
+			 "max-procs" => 2,
+		)
+	)
+)
+
+# possibly change this to a $HTTP[ "url" ] regex?
+# you may need to change these paths
+expire.url += (
+	"/css/" => "access plus 1 months",
+	"/js/" => "access plus 1 months",
+	"/data/js/" => "access plus 1 months",
+	"/data/img/" => "access plus 1 months",
+)
+
+# messy but it works...
+url.rewrite-once += (
+	"^([/A-Za-z0-9]*)/weapons/?$" => "$1/weapons.lua",
+	"^([/A-Za-z0-9]*)/weapons/([a-z]+)/?$" => "$1/weapons.lua?class=$2",
+	"^([/A-Za-z0-9]*)/weapons/([a-z]+)/([A-Za-z0-9_+]+)/?$" => "$1/weapons.lua?class=$
+
+	"^([/A-Za-z0-9]*)/armory/?$" => "$1/armory.lua",
+	"^([/A-Za-z0-9]*)/armory/([a-z]+)/?$" => "$1/armory.lua?class=$2",
+	"^([/A-Za-z0-9]*)/armory/([a-z]+)/([A-Za-z0-9_+]+)/?$" => "$1/armory.lua?class=$2&
+
+	"^([/A-Za-z0-9]*)/items/?$" => "$1/items.lua",
+	"^([/A-Za-z0-9]*)/items/([A-Za-z0-9_+]+)/?$" => "$1/items.lua?name=$2",
+
+	"^([/A-Za-z0-9]*)/builder/?$" => "$1/builder.lua",
+	"^([/A-Za-z0-9]*)/builder/([A-Za-z0-9_\.]+)/?$" => "$1/builder.lua?set=$2",
+
+	"^([/A-Za-z0-9]*)/generator/?$" => "$1/generator.lua",
+)
+
