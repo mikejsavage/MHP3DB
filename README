@@ -67,11 +67,11 @@ fastcgi.server += (
 url.rewrite-once += (
 	"^([/A-Za-z0-9]*)/weapons/?$" => "$1/weapons.lua",
 	"^([/A-Za-z0-9]*)/weapons/([a-z]+)/?$" => "$1/weapons.lua?class=$2",
-	"^([/A-Za-z0-9]*)/weapons/([a-z]+)/([A-Za-z0-9_+]+)/?$" => "$1/weapons.lua?class=$
+	"^([/A-Za-z0-9]*)/weapons/([a-z]+)/([A-Za-z0-9_+]+)/?$" => "$1/weapons.lua?class=$2&name=$3",
 
 	"^([/A-Za-z0-9]*)/armory/?$" => "$1/armory.lua",
 	"^([/A-Za-z0-9]*)/armory/([a-z]+)/?$" => "$1/armory.lua?class=$2",
-	"^([/A-Za-z0-9]*)/armory/([a-z]+)/([A-Za-z0-9_+]+)/?$" => "$1/armory.lua?class=$2&
+        "^([/A-Za-z0-9]*)/armory/([a-z]+)/([A-Za-z0-9_+]+)/?$" => "$1/armory.lua?class=$2&name=$3",
 
 	"^([/A-Za-z0-9]*)/items/?$" => "$1/items.lua",
 	"^([/A-Za-z0-9]*)/items/([A-Za-z0-9_+]+)/?$" => "$1/items.lua?name=$2",
