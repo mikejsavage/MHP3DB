@@ -43,7 +43,7 @@ onLoad( function()
 
 	Armors.map( function( type )
 	{
-		SortedArmors[ type.short ] = arrayUpTo( type.pieces.length - 1 );
+		SortedArmors[ type.short ] = arrayUpTo( type.pieces.length );
 
 		SortedArmors[ type.short ].sort( function( a, b )
 		{
