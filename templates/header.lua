@@ -14,10 +14,10 @@ local headerLink = loadTemplate( "headerLink" )
 	</head>
 
 	<body>
-		<header>
+		<div class="header">
 			<a href="{{ U( "" ) }}" class="home">3rddb</a>
 
-			<nav>
+			<div class="nav">
 				{%
 				for _, link in ipairs( HeaderLinks ) do
 					print( headerLink( { link = link } ) )
@@ -31,8 +31,8 @@ local headerLink = loadTemplate( "headerLink" )
 					end
 					%}
 				</div>
-			</nav>
-		</header>
+			</div>
+		</div>
 
 		<div class="wrapper">
 			<div class="curve L">&nbsp;</div>

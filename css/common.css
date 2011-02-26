@@ -16,12 +16,6 @@ hr {
 	margin: 1em;
 }
 
-/* html5 element styles */
-
-header, nav, footer {
-	display: block;
-}
-
 /* inputs */
 
 select, input {
@@ -73,7 +67,7 @@ img.icon {
 
 /* content background colour */
 
-header, .main, .curve {
+.header, .main, .curve {
 	background: #1a1a1a;
 }
 
@@ -123,35 +117,35 @@ header, .main, .curve {
 
 /* header */
 
-header {
+.header {
 	font-size: large;
 	font-weight: bold;
 	height: 2em;
 	line-height: 2em;
 	min-width: 880px;
 }
-header a {
+.header a {
 	color: #666;
 	display: inline-block;
 	padding: 0 10px;
 	text-decoration: none;
 }
-header a.cur, header a:hover {
+.header a.cur, .header a:hover {
 	color: #f1d910;
 }
 
-header a.home {
+.header a.home {
 	float: left;
 }
 
-nav {
+.nav {
 	margin: 0 auto;
 	width: 800px;
 }
-nav div {
+.nav div {
 	display: inline-block;
 }
-nav div.calcs {
+.nav div.calcs {
 	float: right;
 }
 
@@ -172,10 +166,10 @@ nav div.calcs {
 
 /* footer */
 
-footer, footer a {
+.footer, .footer a {
 	color: #333;
 }
-footer {
+.footer {
 	font-size: small;
 	font-weight: bold;
 	height: 32px;
