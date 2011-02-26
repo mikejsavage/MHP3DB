@@ -1,0 +1,114 @@
+// root is an array
+[
+	// containing objects that describe each item
+	{
+		// item ID as referenced by the game
+		// this is needed because as "No Bottle" is skipped
+		// TODO: this might not actually be needed
+
+		"id" : int
+
+		// name eg Iron Ore
+		"name" : translation
+
+		// name of icon eg ore
+		// list of icons can be found in data/img/icons/items/
+		// TODO: this is optional for now because the list
+		//       is incomplete
+		"icon" : string (optional)
+
+		// icon color eg gray
+		// colors can be found with icons or in genIcons
+		// TODO: this is optional for now because the list
+		//       is incomplete
+		"color" : string (optional)
+
+		// item rarity eg 4
+		// TODO: this is optional for now because the list
+		//       is incomplete
+		"rarity" : int (optional)
+
+		// how much the item sells for
+		// not used for supply/account items
+		"value" : int (optional)
+
+		// yukumo points received for delivering
+		// implies account item
+		"yukumoPoints" : int (optional)
+
+		// is supply item?
+		"supply" : bool (optional)
+
+		// has the teeth icon overlayed?
+		"edible" : bool (optional)
+
+
+		// list of things item is used for
+		"uses" : {
+			// MELEE weapon uses
+			"weapons" : [
+				{
+					// should be self explanatory
+					"type" : "create" or "improve"
+
+					// corresponds to class.short in weapons data
+					"short" : string
+
+					// index into class.weapons in weapons data
+					"id" : int
+
+					// number of item required
+					"count" : int
+				}
+				...
+			]
+
+			// RANGED weapon uses
+			"guns" : [
+				{
+					// should be self explanatory
+					"type" : "create" or "improve"
+
+					// corresponds to class.short in guns data
+					"short" : string
+
+					// index into class.weapons in guns data
+					"id" : int
+
+					// number of item required
+					"count" : int
+				}
+				...
+			]
+
+			// armor uses
+			// creation only
+			"armors" : [
+				{
+					// corresponds to class.short in armors data
+					"short" : string
+
+					// index into class.pieces in armors data
+					"id" : int
+
+					// number of item required
+					"count" : int
+				}
+				...
+			]
+
+			// decoration uses
+			"decorations" : [
+				{
+					// index into decorations array
+					"id" : int
+
+					// number of item required
+					"count" : int
+				}
+				...
+			]
+		} (optional)
+	}
+	...
+]

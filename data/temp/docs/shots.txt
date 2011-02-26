@@ -1,0 +1,16 @@
+// root is an array
+[
+	// containing objects that describe each shot
+	{
+		// name eg Crag
+		"name" : translation
+
+		// number of levels the shot has eg crag has 3
+		"levels" : int
+
+		// TODO: at some point levels should become an array
+		//       of levels, each level being an object with
+		//       recoil/reload info
+	}
+	...
+]
