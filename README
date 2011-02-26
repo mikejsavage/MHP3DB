@@ -85,9 +85,9 @@ url.rewrite-once += (
 # possibly change this to a $HTTP[ "url" ] regex?
 # these will need changing if not installed to web root
 expire.url += (
-	"/css/" => "access plus 1 months",
-	"/js/" => "access plus 1 months",
-	"/data/js/" => "access plus 1 months",
+	"/css/"      => "access plus 1 months",
+	"/js/"       => "access plus 1 months",
+	"/data/js/"  => "access plus 1 months",
 	"/data/img/" => "access plus 1 months",
 )
 
