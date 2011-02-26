@@ -61,7 +61,7 @@
 					"count" : int
 				}
 				...
-			]
+			] (optional)
 
 			// RANGED weapon uses
 			"guns" : [
@@ -79,7 +79,7 @@
 					"count" : int
 				}
 				...
-			]
+			] (optional)
 
 			// armor uses
 			// creation only
@@ -95,7 +95,7 @@
 					"count" : int
 				}
 				...
-			]
+			] (optional)
 
 			// decoration uses
 			"decorations" : [
@@ -107,7 +107,7 @@
 					"count" : int
 				}
 				...
-			]
+			] (optional)
 		} (optional)
 	}
 	...
