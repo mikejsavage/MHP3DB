@@ -38,62 +38,65 @@ as needed)
 
 
 index-file.names += (
-	"index.lua",
+        "index.lua",
 )
 
 server.modules += (
-	"mod_fastcgi",
-	"mod_rewrite",
-	"mod_expire",
+        "mod_fastcgi",
+        "mod_rewrite",
 
-	# not mandatory but it shrinks the files in data/js to like 10%
-	# of their original size, which cuts a huge amount off data
-	# heavy pages (like the set ones)
-	"mod_compress", 
+
+        # these aren't mandatory but i very much recommend you enable them
+        # mod_expire for obvious reasons
+        # mod_compress because it compresses the files in data/js to like 10%
+        # of their original size (which is HUGE given how big they are)
+
+        "mod_expire",
+        "mod_compress", 
 )
 
 # wrap a $HTTP[ "url" ] check around this if needed
 fastcgi.server += (
-	".lua" => (
-		(
-			 "bin-path" => "/path/to/fcgi",
-			 "socket" => "/tmp/mhp3dbFCGI.socket",
-			 "max-procs" => 2,
-		)
-	)
+        ".lua" => (
+                (
+                         "bin-path" => "/path/to/fcgi",
+                         "socket" => "/tmp/mhp3dbFCGI.socket",
+                         "max-procs" => 2,
+                )
+        )
 )
 
 # messy but it works...
 url.rewrite-once += (
-	"^([/A-Za-z0-9]*)/weapons/?$" => "$1/weapons.lua",
-	"^([/A-Za-z0-9]*)/weapons/([a-z]+)/?$" => "$1/weapons.lua?class=$2",
-	"^([/A-Za-z0-9]*)/weapons/([a-z]+)/([A-Za-z0-9_+]+)/?$" => "$1/weapons.lua?class=$2&name=$3",
+        "^([/A-Za-z0-9]*)/weapons/?$" => "$1/weapons.lua",
+        "^([/A-Za-z0-9]*)/weapons/([a-z]+)/?$" => "$1/weapons.lua?class=$2",
+        "^([/A-Za-z0-9]*)/weapons/([a-z]+)/([A-Za-z0-9_+]+)/?$" => "$1/weapons.lua?class=$2&name=$3",
 
-	"^([/A-Za-z0-9]*)/armory/?$" => "$1/armory.lua",
-	"^([/A-Za-z0-9]*)/armory/([a-z]+)/?$" => "$1/armory.lua?class=$2",
+        "^([/A-Za-z0-9]*)/armory/?$" => "$1/armory.lua",
+        "^([/A-Za-z0-9]*)/armory/([a-z]+)/?$" => "$1/armory.lua?class=$2",
         "^([/A-Za-z0-9]*)/armory/([a-z]+)/([A-Za-z0-9_+]+)/?$" => "$1/armory.lua?class=$2&name=$3",
 
-	"^([/A-Za-z0-9]*)/items/?$" => "$1/items.lua",
-	"^([/A-Za-z0-9]*)/items/([A-Za-z0-9_+]+)/?$" => "$1/items.lua?name=$2",
+        "^([/A-Za-z0-9]*)/items/?$" => "$1/items.lua",
+        "^([/A-Za-z0-9]*)/items/([A-Za-z0-9_+]+)/?$" => "$1/items.lua?name=$2",
 
-	"^([/A-Za-z0-9]*)/builder/?$" => "$1/builder.lua",
-	"^([/A-Za-z0-9]*)/builder/([A-Za-z0-9_\.]+)/?$" => "$1/builder.lua?set=$2",
+        "^([/A-Za-z0-9]*)/builder/?$" => "$1/builder.lua",
+        "^([/A-Za-z0-9]*)/builder/([A-Za-z0-9_\.]+)/?$" => "$1/builder.lua?set=$2",
 
-	"^([/A-Za-z0-9]*)/generator/?$" => "$1/generator.lua",
+        "^([/A-Za-z0-9]*)/generator/?$" => "$1/generator.lua",
 )
 
 # possibly change this to a $HTTP[ "url" ] regex?
 # these will need changing if not installed to web root
 expire.url += (
-	"/css/"      => "access plus 1 months",
-	"/js/"       => "access plus 1 months",
-	"/data/js/"  => "access plus 1 months",
-	"/data/img/" => "access plus 1 months",
+        "/css/"      => "access plus 1 months",
+        "/js/"       => "access plus 1 months",
+        "/data/js/"  => "access plus 1 months",
+        "/data/img/" => "access plus 1 months",
 )
 
 compress.cache-dir = "/path/to/cache/"
 compress.filetype = (
-	"text/html",
-	"text/javascript",
-	"text/css",
+        "text/html",
+        "text/javascript",
+        "text/css",
 )
