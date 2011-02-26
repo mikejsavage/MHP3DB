@@ -37,7 +37,7 @@ LastModified = data( "modified" )
 
 
 function FCGI_Accept( postString )
-	print( "Content-type: text/html; charset=utf-8\r\n\r\n" )
+	print( "Content-Type: text/html; charset=utf-8\r\n\r\n" )
 
 
 	Get = { }
