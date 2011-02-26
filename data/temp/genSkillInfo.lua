@@ -73,6 +73,6 @@ io.output( "../skills.json" )
 io.write( encoded )
 
 io.output( "../js/skills.js" )
-io.write( "var Skills = " .. encoded .. ";" )
+io.write( "var Skills=" .. encoded )
 
 print( "genSkillInfo: ok!" )

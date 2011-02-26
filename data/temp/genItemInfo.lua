@@ -101,6 +101,6 @@ io.output( "../items.json" )
 io.write( encoded )
 
 io.output( "../js/items.js" )
-io.write( "var Items = " .. encoded .. ";" )
+io.write( "var Items=" .. encoded )
 
 print( "genItemInfo: ok!" )

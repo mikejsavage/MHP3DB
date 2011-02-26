@@ -205,7 +205,7 @@ io.output( "../armors.json" )
 io.write( encoded )
 
 io.output( "../js/armors.js" )
-io.write( "var Armors = " .. encoded .. ";" )
+io.write( "var Armors=" .. encoded )
 
 print( ( "genArmors: ok, %.1f%% complete! (%d/%d)" ):format(
 	100 * ( ArmorCount / NamesCount ),
