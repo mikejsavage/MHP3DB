@@ -4,9 +4,7 @@
 
 require( "common" )
 
-local DataPath = "../charms.json"
-
-local Charms = json.decode( readFile( DataPath ) )
+local Charms = data( "charms" )
 
 local Maxes = { }
 

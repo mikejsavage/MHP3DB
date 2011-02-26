@@ -11,8 +11,6 @@ local Classes =
 	[ "Dragon Talisman" ] = "dragon",
 }
 
-Skills = data( "skills" )
-
 local Charms = { }
 
 io.input( DataPath )
