@@ -41,14 +41,15 @@ index-file.names += (
 	"index.lua",
 )
 
-mimetype.assign += (
-	".lua" => "text/html",
-)
-
 server.modules += (
-	"mod_rewrite",
 	"mod_fastcgi",
+	"mod_rewrite",
 	"mod_expire",
+
+	# not mandatory but it shrinks the files in data/js to like 10%
+	# of their original size, which cuts a huge amount off data
+	# heavy pages (like the set ones)
+	"mod_compress", 
 )
 
 # wrap a $HTTP[ "url" ] check around this if needed
@@ -60,15 +61,6 @@ fastcgi.server += (
 			 "max-procs" => 2,
 		)
 	)
-)
-
-# possibly change this to a $HTTP[ "url" ] regex?
-# you may need to change these paths
-expire.url += (
-	"/css/" => "access plus 1 months",
-	"/js/" => "access plus 1 months",
-	"/data/js/" => "access plus 1 months",
-	"/data/img/" => "access plus 1 months",
 )
 
 # messy but it works...
@@ -90,3 +82,18 @@ url.rewrite-once += (
 	"^([/A-Za-z0-9]*)/generator/?$" => "$1/generator.lua",
 )
 
+# possibly change this to a $HTTP[ "url" ] regex?
+# these will need changing if not installed to web root
+expire.url += (
+	"/css/" => "access plus 1 months",
+	"/js/" => "access plus 1 months",
+	"/data/js/" => "access plus 1 months",
+	"/data/img/" => "access plus 1 months",
+)
+
+compress.cache-dir = "/path/to/cache/"
+compress.filetype = (
+	"text/html",
+	"text/javascript",
+	"text/css",
+)
