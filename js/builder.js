@@ -866,14 +866,24 @@ function calc( force )
 
 	// defense/resistances
 
-	// mirror mirror on the wall, who's the smuggest of them all?
-	$( "defense" ).innerHTML = emptySet ? "e<sup>&pi;i</sup> + 1" : defense;
+	$( "defense" ).innerHTML = defense;
 
 	// and again
-	Elements.map( function( elem, short )
+	if( emptySet )
 	{
-		$( short + "Res" ).innerHTML = resistances[ elem ];
-	} );
+		Elements.map( function( elem, short )
+		{
+			// mirror mirror on the wall, who's the smuggest of them all?
+			$( short + "Res" ).innerHTML = short == "fire" ? "e<sup>&pi;i</sup> + 1" : 0;
+		} );
+	}
+	else
+	{
+		Elements.map( function( elem, short )
+		{
+			$( short + "Res" ).innerHTML = resistances[ elem ];
+		} );
+	}
 
 
 	// materials
