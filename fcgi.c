@@ -15,8 +15,6 @@
 
 lua_State *L;
 
-FILE *outFD;
-
 // this is needed because libfcgi temporarily sets stdout
 // to something else during a request, and lua can't see
 // the change
