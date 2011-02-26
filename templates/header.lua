@@ -20,14 +20,14 @@ local headerLink = loadTemplate( "headerLink" )
 			<nav>
 				{%
 				for _, link in ipairs( HeaderLinks ) do
-					print( headerLink( { text = link.text.hgg, url = link.url } ) )
+					print( headerLink( { link = link } ) )
 				end
 				%}
 
 				<div class="calcs">
 					{%
 					for _, link in ipairs( HeaderCalcs ) do
-						print( headerLink( { text = link.text.hgg, url = link.url } ) )
+						print( headerLink( { link = link } ) )
 					end
 					%}
 				</div>

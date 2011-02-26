@@ -16,6 +16,10 @@ HeaderLinks =
 		{
 			hgg = "weapons",
 		},
+		title =
+		{
+			hgg = "Weapon trees",
+		},
 		url = "weapons"
 	},
 	{
@@ -23,12 +27,20 @@ HeaderLinks =
 		{
 			hgg = "armory",
 		},
+		title =
+		{
+			hgg = "Armor lists",
+		},
 		url = "armory"
 	},
 	{
 		text =
 		{
 			hgg = "items",
+		},
+		title =
+		{
+			hgg = "Item search",
 		},
 		url = "items"
 	},
@@ -41,12 +53,20 @@ HeaderCalcs =
 		{
 			hgg = "builder",
 		},
+		title =
+		{
+			hgg = "Armor set simulator",
+		},
 		url = "builder"
 	},
 	{
 		text =
 		{
 			hgg = "generator",
+		},
+		title =
+		{
+			hgg = "Armor set generator",
 		},
 		url = "generator"
 	},
