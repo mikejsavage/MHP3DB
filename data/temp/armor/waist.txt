@@ -755,6 +755,42 @@ ThunderRes 1
 Desc
 Gigginox Scraps 2
 
+Rouage Anca
+18
+-5 0 3 -1 1
+B
+R3
+O--
+Swallowtail 2
+Hercudrome 2
+Killer Beetle 4
+Bombhopper 10
+2850z
+Expert 4
+Protection -1
+HearProtct 3
+ThunderRes 1
+Desc
+Altaroth Scraps 2
+
+Rouage Cocusa
+9
+-4 0 5 0 3
+G
+R3
+O--
+Swallowtail 2
+Hercudrome 2
+Killer Beetle 4
+Bombhopper 10
+2850z
+Expert 1
+Protection -2
+HearProtct 2
+ThunderRes 4
+Desc
+Altaroth Scraps 2
+
 Guild Bard Coil
 20
 0 0 0 0 0

@@ -797,6 +797,42 @@ ThunderRes 1
 Desc
 Gigginox Scraps 2
 
+Rouage Petto
+18
+-5 0 3 -1 1
+B
+R3
+O--
+Swallowtail 2
+Bell Cricket 3
+Pale Extract 3
+Hawkmoth Larva 10
+2850z
+Expert 2
+Protection -3
+HearProtct 1
+ThunderRes 1
+Desc
+Altaroth Scraps 2
+
+Pouage Pectus
+9
+-4 0 5 0 3
+G
+R3
+O--
+Swallowtail 2
+Bell Cricket 3
+Pale Extract 3
+Hawkmoth Larva 10
+2850z
+Expert 1
+Protection -3
+HearProtct 2
+ThunderRes 1
+Desc
+Altaroth Scraps 2
+
 Guild Bard Suit
 20
 0 0 0 0 0

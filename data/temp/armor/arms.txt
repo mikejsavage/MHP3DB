@@ -752,6 +752,42 @@ ThunderRes 2
 Desc
 Gigginox Scraps 2
 
+Rouage Mano
+18
+-5 0 3 -1 1
+B
+R3
+O--
+Swallowtail 1
+Hercudrome 1
+Carpenterbug 5
+Bitterbug 10
+2850z
+Expert 4
+Protection -1
+HearProtct 3
+ThunderRes 1
+Desc
+Altaroth Scraps 2
+
+Rouage Brasso
+9
+-4 0 5 0 3
+G
+R3
+O--
+Swallowtail 1
+Hercudrome 1
+Carpenterbug 5
+Bitterbug 10
+2850z
+Expert 3
+Protection -2
+HearProtct 3
+ThunderRes 1
+Desc
+Altaroth Scraps 2
+
 Guild Bard Vambraces
 20
 0 0 0 0 0

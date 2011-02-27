@@ -31,6 +31,9 @@ R2
 25z
 
 10 Mega Nutrients
+drink cyan
+R3
+92z
 
 11 Antidote
 drink blue
@@ -43,6 +46,9 @@ R2
 25z
 
 13 Immunizer
+drink yellow
+R3
+92z
 
 14 Energy Drink
 drink yellow
@@ -93,6 +99,9 @@ R3
 28 Max Potion
 
 29 Ancient Potion
+sac red
+R5
+345z
 
 30 Lifecrystals
 
@@ -248,6 +257,7 @@ R1
 74 Small Barrel
 barrel yellow
 R1
+8z
 
 75 Large Barrel
 barrel red
@@ -694,6 +704,9 @@ R4
 60z
 
 199 Ancnt Sharkskin
+hide blue
+R4
+380z
 
 200 Insect Husk
 bug gray
@@ -2804,6 +2817,9 @@ supply
 R6
 
 684 Binder S
+shot orange
+supply
+R3
 
 685 Royal Honey
 webbing red
@@ -2867,11 +2883,12 @@ R3
 703 FlowrstonePiece
 ore pink
 R3
+180pts
 
 704 Flowrstone Hunk
 ore red
 R4
-900z
+900pts
 
 705 Wyvern Crystal
 bone purple

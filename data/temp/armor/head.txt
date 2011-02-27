@@ -779,6 +779,42 @@ ThunderRes 2
 Desc
 Gigginox Scraps 2
 
+Rouage Testa
+18
+-5 0 3 -1 1
+BG
+R3
+O--
+Swallowtail 1
+Thunderbug 3
+Pale Extract 3
+Flashbug 10
+2850z
+Expert 1
+Protection -3
+HearProtct 2
+ThunderRes 3
+Desc
+Altaroth Scraps 2
+
+Rouage Caput
+9
+-4 0 5 0 3
+BG
+R3
+O--
+Swallowtail 1
+Thunderbug 3
+Pale Extract 3
+Flashbug 10
+2850z
+Expert 5
+Protection -2
+HearProtct 3
+ThunderRes 1
+Desc
+Altaroth Scraps 2
+
 Glass Earrings
 9
 0 0 0 0 2

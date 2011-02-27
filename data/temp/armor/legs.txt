@@ -740,6 +740,42 @@ ThunderRes 3
 Desc
 Gigginox Scraps 2
 
+Rouage Gamba
+18
+-5 0 3 -1 1
+B
+R3
+OO-
+Swallowtail 1
+Hercudrome 1
+Monster Fluid 3
+Snakebee Larva 10
+2850z
+Expert 1
+Protection -2
+HearProtct 1
+ThunderRes 3
+Desc
+Altaroth Scraps 2
+
+Rouage Femur
+9
+-4 0 5 0 3
+G
+R3
+OO-
+Swallowtail 1
+Hercudrome 1
+Monster Fluid 3
+Snakebee Larva 10
+2850z
+Expert 2
+Protection -2
+HearProtct 1
+ThunderRes 2
+Desc
+Altaroth Scraps 2
+
 Guild Bard Boots
 20
 0 0 0 0 0
