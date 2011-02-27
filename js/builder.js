@@ -589,6 +589,12 @@ function slotChanged( short, slot )
 //       can provide more than what is specified but
 //       it should be made clear to the user when this
 //       is the case
+//
+//       thanks to the list only containing the best
+//       charms, if our first match is exact then it's
+//       a one-off charm
+//       
+// TODO: this doesn't do negative skills properly
 
 // this code is super horrid but it runs quick
 function isTlnValid()
