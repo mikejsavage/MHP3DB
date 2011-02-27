@@ -143,8 +143,8 @@ function initTalisman()
 // skill sorting func
 function sortByPoints( a, b )
 {
-	var activeA = a.name != "--";
-	var activeB = b.name != "--";
+	var activeA = a.name != NoSkill;
+	var activeB = b.name != NoSkill;
 
 	// could be neater but this has fewer branches
 	if( activeA )
@@ -153,24 +153,15 @@ function sortByPoints( a, b )
 		{
 			return b.points - a.points;
 		}
-		else
-		{
-			return -1;
-		}
+
+		return -1;
 	}
-	else
+	else if( activeB )
 	{
-		if( activeB )
-		{
-			return 1;
-		}
-		else
-		{
-			return b.points - a.points;
-		}
+		return 1;
 	}
 
-	// this is unreachable
+	return b.points - a.points;
 }
 
 // this relies on Skill[].bounds being sorted desc by points
