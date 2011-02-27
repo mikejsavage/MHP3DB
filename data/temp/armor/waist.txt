@@ -3048,6 +3048,42 @@ Desc
 JhenMhrnScraps+ 1
 Rathian Scraps+ 1
 
+Storm Waist
+62
+-3 4 0 0 -5
+B
+R7
+OOO
+Amatsu Tail 1
+Amatsu Patagium 4
+Amatsu Shell 5
+Narga Brain Stm 1
+16000z
+Artisan 1
+Eating -2
+Awaken 2
+Water Atk 2
+Desc
+Amatsu Scraps 2
+
+Sky Sash
+36
+-2 5 0 0 -4
+G
+R7
+OOO
+Amatsu Tail 1
+Amatsu Patagium 4
+Amatsu Shell 5
+Narga Brain Stm 1
+16000z
+Loading 1
+Eating -2
+Awaken 2
+Water Atk 3
+Desc
+Amatsu Scraps 2
+
 Snake Belt
 47
 1 1 1 1 1

@@ -3062,6 +3062,42 @@ Desc
 JhenMhrnScraps+ 1
 Rthalos Scraps+ 1
 
+Storm Sleeves
+62
+-3 4 0 0 -5
+B
+R7
+---
+Amatsu Claw 4
+Amatsu Patagium 4
+Tempest Sac 3
+Jinouga Jewel 1
+16000z
+Artisan 2
+Eating -1
+Awaken 5
+Water Atk 5
+Desc
+Amatsu Scraps 2
+
+Sky Sleeves
+36
+-2 5 0 0 -4
+G
+R7
+---
+Amatsu Claw 4
+Amatsu Patagium 4
+Tempest Sac 3
+Jinouga Jewel 1
+16000z
+Loading 2
+Eating -1
+Awaken 5
+Water Atk 5
+Desc
+Amatsu Scraps 2
+
 Snake Gloves
 47
 1 1 1 1 1

@@ -1115,3 +1115,39 @@ Agnktor Scraps+ 2
 0
 1
 0
+
+Fierce Shower
+230
+R7
+-5%
+O--
+Fast
+None
+Light
+120000z
+Amatsu Shell 6
+Amatsu Horn 3
+Tempest Sac 5
+Amatsu Jewel 1
+Desc
+Amatsu Scraps 2
+7 8 10
+2 2! 3
+0 3! 0
+1 1 1
+0 0 0
+0 2
+0 2
+0 1!
+0 1
+0 2
+0
+3!
+3
+0
+0
+2
+2
+0
+0
+0

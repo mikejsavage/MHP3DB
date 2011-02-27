@@ -191,3 +191,18 @@ Monster Bone+ 5
 Desc
 Ore Scraps+ 1
 Ore Scraps 1
+
+Ivory Rain
+240
+Power
+Water 12
+R7
+-20%
+---
+120000z
+Amatsu Horn 3
+Amatsu Tail 1
+Amatsu Patagium 4
+Amatsu Jewel 1
+Desc
+Amatsu Scraps 2

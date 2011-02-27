@@ -2983,6 +2983,42 @@ Desc
 JhenMhrnScraps+ 1
 Rathian Scraps+ 1
 
+Storm Pants
+62
+-3 4 0 0 -5
+B
+R7
+OO-
+Amatsu Patagium 4
+Amatsu Shell 5
+Amatsu Claw 4
+Doboru Sacrum 1
+16000z
+Artisan 5
+Eating -2
+Awaken 5
+Water Atk 1
+Desc
+Amatsu Scraps 2
+
+Sky Leggings
+36
+-2 5 0 0 -4
+G
+R7
+OO-
+Amatsu Patagium 4
+Amatsu Shell 5
+Amatsu Claw 4
+Doboru Sacrum 1
+16000z
+Loading 5
+Eating -2
+Awaken 5
+Water Atk 1
+Desc
+Amatsu Scraps 2
+
 Snake Boots
 47
 1 1 1 1 1

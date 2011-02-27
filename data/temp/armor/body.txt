@@ -3133,6 +3133,42 @@ Desc
 JhenMhrnScraps+ 1
 Rthalos Scraps+ 1
 
+Storm Wrap
+62
+-3 4 0 0 -5
+B
+R7
+---
+Amatsu Thorax 5
+Amatsu Shell 5
+Amatsu Jewel 1
+Exquisite Crest 3
+16000z
+Artisan 5
+Eating -2
+Awaken 2
+Water Atk 2
+Desc
+Amatsu Scraps 2
+
+Sky Cover
+36
+-2 5 0 0 -4
+G
+R7
+---
+Amatsu Thorax 5
+Amatsu Shell 5
+Amatsu Jewel 1
+Exquisite Crest 3
+16000z
+Loading 5
+Eating -2
+Awaken 3
+Water Atk 1
+Desc
+Amatsu Scraps 2
+
 Snake Suit
 47
 1 1 1 1 1

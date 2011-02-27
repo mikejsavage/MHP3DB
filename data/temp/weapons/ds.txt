@@ -186,3 +186,17 @@ Dviljho Skl Shl 2
 Deviljho Hide 6
 Desc
 Deviljho Scraps 2
+
+Monsoon Fans
+240
+Water 6
+R7
+-20%
+---
+120000z
+Amatsu Horn 2
+Amatsu Patagium 4
+Amatsu Claw 4
+Amatsu Jewel 1
+Desc
+Amatsu Scraps 2

@@ -1069,3 +1069,39 @@ Rathian Scraps+ 1
 1
 0
 0
+
+Flash Flood
+210
+R7
+-10%
+O--
+Normal
+None
+Moderate
+120000z
+Amatsu Shell 5
+Amatsu Horn 2
+Amatsu Patagium 3
+Amatsu Jewel 1
+Desc
+Amatsu Scraps 2
+6 7 8
+3 3 0
+3 3 0
+2 2 0
+2 0 0
+3 2
+2 1
+0 0
+0 0
+0 0
+3!3W
+3!3W
+3!3W
+3!3W
+3
+2
+2
+1
+1
+2

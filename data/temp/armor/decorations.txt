@@ -453,6 +453,16 @@ or
 Battlefield Jwl 1
 Jinouga Horn+ 1
 
+Unlock Jewel
+red 5
+2
+Awaken 3
+Sense -1
+375z
+LapisLazuli Jwl 1
+Amatsu Horn 1
+Grn Narga Pelt 2
+
 KO Jewel
 orange 4
 1
@@ -954,6 +964,16 @@ Fate -1
 Battlefield Jwl 1
 Deviljho Hide 1
 
+HideCuttrJwl
+orange 6
+3
+Carving 4
+Fate -2
+450z
+LapisLazuli Jwl 1
+Amatsu Patagium 1
+Jhen Mohran Jwl 1
+
 BackpckngJwl
 cyan 4
 1
@@ -1082,6 +1102,16 @@ Sharpness -1
 Akito Jewel 1
 Jhen Mhran Fang 1
 Agnaktor Claw 2
+
+Artisan Jwl
+purple 6
+3
+Artisan 4
+Sharpness -2
+450z
+LapisLazuli Jwl 1
+Amatsu Claw 1
+Deviljho Jewel 1
 
 Fencing Jwl
 cyan 4

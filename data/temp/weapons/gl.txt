@@ -104,6 +104,33 @@ Desc
 				Desc
 				Bone Scraps 2
 
+					Rex Blast
+					170
+					S1
+					R3
+					-20%
+					---
+					Tigrex Fang 4
+					Tigrex Claw 5
+					Tigrex Shell 2
+					20000z
+					Desc
+					Tigrex Scraps 2
+
+					Flamethrower
+					150
+					L2
+					Fire 28
+					R3
+					15%
+					---
+					Agnaktor Tail 1
+					Agnaktor Snout 1
+					Agnaktor Shell 6
+					20000z
+					Desc
+					Agnaktor Scraps 2
+
 				Urukusu Ski
 				110
 				Ice 25
@@ -282,3 +309,18 @@ FireWyvrnMarrow 2
 Iron Ore 30
 Desc
 Ore Scraps+ 2
+
+Auspicious Rain
+240
+L3
+Water 16
+R7
+-20%
+---
+120000z
+Amatsu Horn 3
+Amatsu Shell 6
+Amatsu Patagium 4
+Amatsu Jewel 1
+Desc
+Amatsu Scraps 2

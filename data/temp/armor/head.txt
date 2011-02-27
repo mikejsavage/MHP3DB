@@ -3162,6 +3162,42 @@ Desc
 JhenMhrnScraps+ 1
 Rathian Scraps+ 1
 
+Storm Crown
+62
+-3 4 0 0 -5
+BG
+R7
+OOO
+Amatsu Horn 3
+Amatsu Patagium 4
+Amatsu Thorax 6
+Wyvern Stone 3
+16000z
+Artisan 2
+Eating -3
+Awaken 1
+Water Atk 1
+Desc
+Amatsu Scraps 2
+
+Sky Circlet
+36
+-2 5 0 0 -4
+BG
+R7
+OOO
+Amatsu Horn 3
+Amatsu Patagium 4
+Amatsu Thorax 6
+Wyvern Stone 3
+16000z
+Loading 3
+Eating -3
+Awaken 1
+Water Atk 2
+Desc
+Amatsu Scraps 2
+
 Snake Face
 47
 1 1 1 1 1

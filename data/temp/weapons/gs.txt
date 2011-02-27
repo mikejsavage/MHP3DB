@@ -292,6 +292,20 @@ Deviljho Tail 3
 Desc
 Deviljho Scraps 2
 
+Amassing Cloud
+240
+Water 16
+R7
+-20%
+---
+120000z
+Amatsu Shell 5
+Amatsu Thorax 2
+Amatsu Horn 2
+Amatsu Jewel 1
+Desc
+Amatsu Scraps 2
+
 Rusted Greatsword
 100
 R1

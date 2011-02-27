@@ -249,3 +249,17 @@ Deviljho Claw 3
 Deviljho Hide 4
 Desc
 Deviljho Scraps 2
+
+Ominous Cloud
+240
+Water 16
+R7
+-20%
+---
+120000z
+Amatsu Horn 3
+Amatsu Thorax 2
+Amatsu Patagium 4
+Amatsu Jewel 1
+Desc
+Amatsu Scraps 2

@@ -163,6 +163,10 @@ R2
 47 Rare Fish
 
 48 Gourmet Fish
+fish orange
+edible
+R2
+40z
 
 49 Burnt Fish
 
@@ -2672,6 +2676,9 @@ R5
 0z
 
 633 Famitsu G Tckt
+ticket yellow
+R5
+0z
 
 634 Famitsu P Tckt
 
@@ -2766,6 +2773,9 @@ supply
 R1
 
 672 Portable Spit
+bbq orange
+supply
+R1
 
 673 Mini Whetstone
 whetstone yellow

@@ -246,6 +246,21 @@ Blue Mushroom 8
 Desc
 Bone Scraps+ 2
 
+Autumn Typhoon
+240
+PYO
+Water 16
+R7
+-20%
+---
+120000z
+Amatsu Thorax 4
+Amatsu Horn 3
+Amatsu Patagium 3
+Amatsu Jewel 1
+Desc
+Amatsu Scraps 2
+
 Worn Hunting Horn
 110
 PRC

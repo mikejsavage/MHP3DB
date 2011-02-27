@@ -692,3 +692,19 @@ S3
 S4
 YYYNYYN
 Poison
+
+Night Tempest
+250
+Focused
+Water 11
+R7
+-10%
+O--
+120000z
+Amatsu Horn 4
+Amatsu Patagium 2
+Amatsu Claw 6
+Amatsu Jewel 1
+Desc
+Amatsu Scraps 2
+NYYYYYY

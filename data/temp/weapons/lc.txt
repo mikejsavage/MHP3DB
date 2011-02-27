@@ -94,6 +94,19 @@ Monster Fluid 5
 Desc
 Ore Scraps 2
 
+Prince Shark
+100
+Water 27
+R2
+10%
+OO-
+3750z
+Ancnt Sharkskin 3
+Pelagicite Ore 5
+Glossy Hide 15
+Desc
+Ore Scraps 1
+
 Yukumo Lance
 160
 R3
@@ -210,3 +223,17 @@ Deviljho Fang 5
 Deviljho Scale 8
 Desc
 Deviljho Scraps 2
+
+Skyscraper
+240
+Water 14
+R7
+-20%
+---
+120000z
+Amatsu Thorax 3
+Amatsu Claw 6
+Amatsu Patagium 2
+Amatsu Jewel 1
+Desc
+Amatsu Scraps 2
