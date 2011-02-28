@@ -1,1 +1,1 @@
-return { 20, 9, 16 }
+return { sharp = { 20, 9, 16 } }

@@ -325,6 +325,7 @@ Bone Scraps 2
 
 				Blazing Falchion
 				180
+				Hrd 2 8000z
 				Fire 36
 				R6
 				0%
