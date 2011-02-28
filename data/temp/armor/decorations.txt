@@ -935,6 +935,16 @@ Battlefield Jwl 1
 BrdWyvern Stone 1
 Silver Egg 2
 
+Fate Jewel
+red 6
+3
+Fate 4
+Whim -2
+450z
+LapisLazuli Jwl 1
+GldRathianSpike 2
+Golden Egg 2
+
 Rewards Jwl
 green 4
 1

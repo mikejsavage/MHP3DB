@@ -542,10 +542,15 @@ R3
 
 164 Toadstool
 mushroom purple
+edible
 R2
 8z
 
 165 Exciteshroom
+mushroom purple
+edible
+R3
+18z
 
 166 Wearyshroom
 mushroom cyan
@@ -931,6 +936,9 @@ R6
 210z
 
 244 Giant Bone
+bone white
+R5
+150z
 
 245 Stout Bone
 bone white
@@ -1769,6 +1777,9 @@ R6
 3900z
 
 414 GldRathianSpike
+shell yellow
+R6
+5600z
 
 415 Rathalos Scale
 scale red
@@ -2607,6 +2618,9 @@ R4
 0z
 
 612 VeggieEldrTckt+
+ticket green
+R4
+0z
 
 613 VegElderTcktBrz
 ticket gray

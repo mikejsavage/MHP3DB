@@ -3056,6 +3056,42 @@ Slam 3
 Desc
 Doboru Scraps+ 2
 
+Golden Moon Helm
+56
+2 -2 -4 0 3
+BG
+R7
+OOO
+GldRathianSpike 3
+Gld Rathian Cpc 5
+FireWyvernFluid 3
+Inferno Sac 3
+9900z
+Protection 1
+ThunderRes -3
+Fate 1
+Slam 2
+Desc
+Rathian Scraps+ 2
+
+Golden Moon Cap
+32
+4 -1 -3 0 4
+BG
+R7
+OOO
+GldRathianSpike 3
+Gld Rathian Cpc 5
+FireWyvernFluid 3
+Inferno Sac 3
+9900z
+Protection 1
+ThunderRes -2
+Fate 3
+Slam 3
+Desc
+Rathian Scraps+ 2
+
 Silver Sol Helm
 56
 2 -2 -4 0 3
