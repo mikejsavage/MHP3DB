@@ -2179,6 +2179,44 @@ LastingPwr 3
 Desc
 Courage Scraps+ 1
 
+Ranger Socks
+47
+0 0 0 0 0
+B
+R5
+---
+Amatsu Patagium 3
+Jhen Mohran Scl 3
+Jhen Mohran Jwl 1
+Yukumo Ticket 3
+8800z
+Expert 4
+Fate -1
+Rec Level 4
+Carving 4
+Desc
+Amatsu Scraps 1
+JhenMhranScraps 1
+
+Scout Socks
+26
+0 0 0 0 0
+G
+R5
+---
+Amatsu Patagium 3
+Jhen Mohran Scl 3
+Jhen Mohran Jwl 1
+Yukumo Ticket 3
+8800z
+Expert 4
+Fate -2
+Rec Level 3
+Carving 4
+Desc
+Amatsu Scraps 1
+JhenMhranScraps 1
+
 Nebula Greaves U
 47
 0 -4 4 3 -2

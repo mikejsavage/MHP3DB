@@ -2396,6 +2396,44 @@ LastingPwr 3
 Desc
 Courage Scraps+ 1
 
+Ranger Hat
+47
+0 0 0 0 0
+BG
+R5
+OOO
+Amatsu Shell 6
+Jhen Mohran Shl 2
+Inferno Sac 4
+Yukumo Ticket 3
+8800z
+Expert 1
+Fate -3
+Rec Level 1
+Carving 2
+Desc
+Amatsu Scraps 1
+JhenMhranScraps 1
+
+Scout Veil
+26
+0 0 0 0 0
+G
+R5
+OOO
+Amatsu Shell 6
+Jhen Mohran Shl 2
+Inferno Sac 4
+Yukumo Ticket 3
+8800z
+Expert 3
+Fate -2
+Rec Level 1
+Carving 2
+Desc
+Amatsu Scraps 1
+JhenMhranScraps 1
+
 Nebula Helm S
 44
 -4 0 3 3 -2

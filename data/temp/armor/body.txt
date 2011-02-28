@@ -2329,6 +2329,44 @@ LastingPwr 2
 Desc
 Courage Scraps+ 1
 
+Ranger Belt
+47
+0 0 0 0 0
+B
+R5
+---
+Amatsu Patagium 3
+Jhen Mohran Scl 3
+Thunder Sac 4
+Yukumo Ticket 3
+8800z
+Expert 4
+Fate -3
+Rec Level 2
+Carving 2
+Desc
+Amatsu Scraps 1
+JhenMhranScraps 1
+
+Scout Belt
+26
+0 0 0 0 0
+G
+R5
+---
+Amatsu Patagium 3
+Jhen Mohran Scl 3
+Thunder Sac 4
+Yukumo Ticket 3
+8800z
+Expert 4
+Fate -3
+Rec Level 2
+Carving 2
+Desc
+Amatsu Scraps 1
+JhenMhranScraps 1
+
 Nebula Mail S
 44
 -4 0 3 3 -2
