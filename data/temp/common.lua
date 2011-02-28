@@ -71,3 +71,15 @@ function parseSkill( line )
 
 	return skillID( name ), tonumber( points )
 end
+
+-- table deep copy
+-- be careful!
+function table.copy( arr )
+	local new = { }
+
+	for key, val in pairs( arr ) do
+		new[ key ] = type( val ) == "table" and table.copy( val ) or val
+	end
+
+	return new
+end

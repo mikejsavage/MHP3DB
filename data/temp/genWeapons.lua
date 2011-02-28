@@ -72,7 +72,7 @@ local Notes =
 local SharpX = 101
 local SharpY = 60
 
-local SharpOOMult = 3
+local SharpPlusOneAdds = 12
 
 local SharpColors =
 {
@@ -128,6 +128,18 @@ function isElement( element )
 	return false
 end
 
+local Spheres =
+{
+	Reg = "Enhance Sphere",
+	Pls = "Enhance Sphere+",
+	Hrd = "Hrd Enhance Sphere",
+	Hvy = "Hvy Enhance Sphere",
+}
+
+function sphereID( sphere )
+	return itemID( assert( Spheres[ sphere ] ) )
+end
+
 local MaxSlots = 3
 
 -- perhaps a gigantic FSM was not
@@ -162,6 +174,25 @@ local Actions =
 
 			weapon.shellingType = Shells[ u ]
 			weapon.shellingLevel = d
+
+			return "special"
+		end
+
+		if line:find( "%a+ %d+ %d+z" ) then
+			local _, _, sphere, num, price = line:find( "(%a+) (%d+) (%d+)z" )
+
+			assert( Spheres[ sphere ], "bad sphere in " .. weapon.name.hgg .. ": " .. line )
+
+			weapon.upgrade =
+			{
+				materials =
+				{
+					id = sphereID( sphere ),
+					count = tonumber( num )
+				},
+
+				price = tonumber( price )
+			}
 
 			return "special"
 		end
@@ -304,7 +335,10 @@ function readSharpness( weapon )
 	local cached = io.open( cachePath, "r" )
 
 	if cached then
-		weapon.sharpness = loadstring( cached:read( "*all" ) )()
+		local sharps = loadstring( cached:read( "*all" ) )()
+
+		weapon.sharpness  = sharps.sharp
+		weapon.sharpnessp = sharps.sharpp
 
 		cached:close()
 		
@@ -328,7 +362,7 @@ function readSharpness( weapon )
 		local idx = sharpIdx( color )
 
 		if idx ~= lastColor then
-			table.insert( weapon.sharpness, currSharp --[[/ SharpOOMult]] )
+			table.insert( weapon.sharpness, currSharp )
 			
 			lastColor = idx
 			currSharp = 1
@@ -338,11 +372,37 @@ function readSharpness( weapon )
 
 		-- unrecognised color
 		if idx == 0 then
-			assert( nil, "unrecognised sharpness color in " .. weapon.name.hgg .. ": " .. color.red .. ", " .. color.green .. ", " .. color.blue .. " (idx " .. idx .. ")" )
+			assert( nil, "unrecognised sharpness color in " .. weapon.name.hgg .. ": " .. color.red .. ", " .. color.green .. ", " .. color.blue )
 		end
 
 		-- end of sharpness bar
 		if idx == -1 then
+			local nextColor = img:get_pixel( x + 1, SharpY )
+
+			-- sharpness +1 handling
+			if nextColor.red   ==  96 and
+			   nextColor.green == 228 and
+			   nextColor.blue  == 248 then
+				weapon.sharpnessp = table.copy( weapon.sharpness )
+
+				local toRemove = SharpPlusOneAdds
+				local endSharp = table.getn( weapon.sharpness )
+
+				while toRemove > 0 do
+					if weapon.sharpness[ endSharp ] <= toRemove then
+						toRemove = toRemove - weapon.sharpness[ endSharp ]
+
+						weapon.sharpness[ endSharp ] = nil
+
+						endSharp = endSharp - 1
+					else
+						weapon.sharpness[ endSharp ] = weapon.sharpness[ endSharp ] - toRemove
+
+						toRemove = 0
+					end
+				end
+			end
+
 			break
 		end
 
@@ -354,7 +414,13 @@ function readSharpness( weapon )
 	-- save the result for future gens
 	local writeCache = assert( io.open( cachePath, "w" ) )
 
-	writeCache:write( "return { " .. table.concat( weapon.sharpness, ", " ) .. " }" )
+	writeCache:write( "return { sharp = { " .. table.concat( weapon.sharpness, ", " ) .. " }" )
+
+	if weapon.sharpnessp then
+		writeCache:write( ", sharpp = { " .. table.concat( weapon.sharpnessp, ", " ) .. " }" )
+	end
+
+	writeCache:write( " }" )
 
 	writeCache:close()
 end
