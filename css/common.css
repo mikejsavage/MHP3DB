@@ -218,12 +218,13 @@ img.icon {
 
 .sharpness {
 	background: #333;
-	border: 1px #666 solid;
+	background: #191919;
+	border: 1px #444 solid;
 	display: inline-block;
-	height: 0.75em;
+	height: 0.5em;
 	margin: 1px;
-	padding: 1px;
-	vertical-align: bottom;
+	padding: 2px;
+	vertical-align: top;
 	width: 90px;
 }
 .sharpness.wide {
@@ -233,6 +234,13 @@ img.icon {
 	float: left;
 	font-size: 0;
 	height: inherit;
+}
+.sharpness .p {
+	border: 2px solid #60e4f8;
+	border-left: 0;
+	display: inline-block;
+	padding: 1px 1px 1px 0;
+	margin: -3px -3px -3px 0;
 }
 
 /* set generator output */

@@ -27,7 +27,7 @@
 	end
 	%}
 
-	Sharpness: {{ weapon.sharpness and sharpness( { sharpness = weapon.sharpness, wide = true } ) or "?" }}<br>
+	Sharpness: {{ weapon.sharpness and sharpness( { weapon = weapon, wide = true } ) or "?" }}<br>
 
 	Affinity:
 	{%
