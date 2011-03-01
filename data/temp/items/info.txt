@@ -249,14 +249,26 @@ R1
 6z
 
 69 Net
+net white
+R2
+54z
 
 70 Trap Tool
+traptool green
+R3
+20z
 
 71 Pitfall Trap
 
 72 Shock Trap
+trap purple
+R3
+160z
 
 73 Gunpowder
+sac red
+R2
+22z
 
 74 Small Barrel
 barrel yellow
@@ -794,6 +806,9 @@ R5
 180z
 
 215 Swallowtail
+bug gray
+R4
+220z
 
 216 Stone
 ore gray
@@ -1974,6 +1989,9 @@ R5
 1800z
 
 454 Narga Brain Stm
+shell red
+R7
+6000z
 
 455 Green Narga Scl
 scale green
@@ -2229,6 +2247,9 @@ R5
 2300z
 
 508 Tigrex Jaw
+shell yellow
+R7
+6800z
 
 509 Blk Tigrex Scl
 scale gray
@@ -2506,6 +2527,9 @@ R6
 5580z
 
 567 Akantor Tail
+shell gray
+R6
+8000z
 
 568 Akantor Claw
 claw gray
@@ -2558,16 +2582,34 @@ R7
 586 Alatreon Jewel
 
 587 Amatsu Shell
+nshell white
+R6
+5000z
 
 588 Amatsu Patagium
+webbing white
+R6
+4000z
 
 589 Amatsu Horn
+claw white
+R6
+10000z
 
 590 Amatsu Claw
+claw white
+R6
+6000z
 
 591 Amatsu Tail
+shell white
+R6
+9500z
 
 592 Amatsu Thorax
+shell white
+R6
+9000z
 
 593 Tempest Sac
 

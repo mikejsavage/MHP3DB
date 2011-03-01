@@ -100,6 +100,7 @@ local SharpEnds =
 	imlib2.color.new(   0,   0,   0 ),
 	imlib2.color.new(  48,  44,  32 ), -- for a full sharpness bar
 	imlib2.color.new(  40,  40,  32 ), -- faded sharpness +1 end marker?
+	imlib2.color.new(  40,  36,  32 ), -- faded sharpness +1 end marker?
 }
 
 function sharpIdx( color )

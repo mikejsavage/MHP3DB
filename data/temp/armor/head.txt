@@ -2948,6 +2948,42 @@ Dragon Atk -4
 Desc
 Diablos Scraps+ 2
 
+Tigrex Helm S
+53
+2 -1 -4 0 -2
+BG
+R5
+OO-
+Tigrex Jaw 1
+Tigrex Fang+ 2
+Tigrex Scale 5
+Ludroth Hide+ 4
+9500z
+Gluttony 3
+Protection -3
+HearProtct 2
+Stamina 1
+Desc
+Tigrex Scraps+ 2
+
+Tigrex Cap S
+30
+3 0 -2 0 -1
+BG
+R5
+OO-
+Tigrex Jaw 1
+Tigrex Fang+ 2
+Tigrex Scale 5
+Ludroth Hide+ 4
+9500z
+Gluttony 2
+Protection -3
+HearProtct 3
+Stamina 3
+Desc
+Tigrex Scraps+ 2
+
 Agnaktor Helm S
 53
 4 -4 0 -2 -4

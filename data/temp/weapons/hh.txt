@@ -246,6 +246,20 @@ Blue Mushroom 8
 Desc
 Bone Scraps+ 2
 
+Akantor Deathknell
+250
+PBO
+R7
+40%
+---
+99999z
+Akantor Tail 1
+Akantor Fang 2
+Akantor Scale 8
+Akantor Jewel 1
+Desc
+Akantor Scraps 2
+
 Autumn Typhoon
 240
 PYO
