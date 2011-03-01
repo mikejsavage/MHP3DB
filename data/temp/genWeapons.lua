@@ -72,6 +72,9 @@ local Notes =
 local SharpX = 101
 local SharpY = 60
 
+local SharpEquipX = 342
+local SharpEquipY = 173
+
 local SharpPlusOneAdds = 12
 
 local SharpColors =
@@ -96,6 +99,7 @@ local SharpEnds =
 {
 	imlib2.color.new(   0,   0,   0 ),
 	imlib2.color.new(  48,  44,  32 ), -- for a full sharpness bar
+	imlib2.color.new(  40,  40,  32 ), -- faded sharpness +1 end marker?
 }
 
 function sharpIdx( color )
@@ -355,12 +359,22 @@ function readSharpness( weapon )
 
 	weapon.sharpness = { }
 
-	local x = SharpX
+	local x, y
+
+	-- handle change equip dialog screenshots
+	if img:get_pixel( 472, 24 ).blue == 80 then
+		x = SharpEquipX
+		y = SharpEquipY
+	else
+		x = SharpX
+		y = SharpY
+	end
+
 	local lastColor = 1
 	local currSharp = 1
 
 	while true do
-		local color = img:get_pixel( x, SharpY )
+		local color = img:get_pixel( x, y )
 		local idx = sharpIdx( color )
 
 		if idx ~= lastColor then
@@ -379,7 +393,7 @@ function readSharpness( weapon )
 
 		-- end of sharpness bar
 		if idx == -1 then
-			local nextColor = img:get_pixel( x + 1, SharpY )
+			local nextColor = img:get_pixel( x + 1, y )
 
 			-- sharpness +1 handling
 			if nextColor.red   ==  96 and

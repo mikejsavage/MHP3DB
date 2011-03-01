@@ -162,6 +162,7 @@ Diablos Scraps 2
 
 Divine Thunder
 160
+Pls 2 3000z
 Thunder 18
 R3
 0%
@@ -173,6 +174,20 @@ Jinouga Pelt 2
 Jinouga Tail 1
 Desc
 Jinouga Scraps 2
+
+	Thunderbolt
+	210
+	Thunder 26
+	R6
+	0%
+	O--
+	Jinouga Carapce 2
+	LightningCarpce 6
+	Jinouga Pelt+ 2
+	Jinouga Jewel 1
+	80000z
+	Desc
+	Jinouga Scraps+ 2
 
 Brain Fox
 150

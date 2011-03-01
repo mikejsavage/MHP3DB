@@ -154,7 +154,7 @@ Desc
 							
 							Warrior's Sword
 							180
-							R5
+							R4
 							0%
 							OO-
 							Carbalite Ore 2
