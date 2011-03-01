@@ -258,6 +258,16 @@ or
 Battlefield Jwl 1
 RoyalLudrthScl+ 2
 
+Expert Jewel
+blue 6
+3
+Expert 5
+Dragon Res -1
+450z
+LapisLazuli Jwl 1
+Akantor Spike 1
+Hapurubokka Cpc 2
+
 SpcialAtkJwl
 pink 4
 1
@@ -390,6 +400,16 @@ Rathian Spike 1
 or
 Battlefield Jwl 1
 Rathalos Scale+ 2
+
+DeblitateJwl
+red 6
+3
+Debilitate 4
+Health -2
+450z
+LapisLazuli Jwl 1
+Akantor Fang 1
+Rathalos Ruby 1
 
 Slam Jewel
 purple 4

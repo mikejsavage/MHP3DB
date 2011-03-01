@@ -693,6 +693,24 @@ S4
 YYYNYYN
 Poison
 
+Akantor Wrathmaker
+210
+Blast
+Dragon 23
+R7
+30%
+---
+99999z
+Akantor Fang 2
+Akantor Spike 1
+Akantor Scale 6
+Akantor Jewel 1
+Desc
+Akantor Scraps 2
+S2
+P3
+YYNNYYN
+
 Night Tempest
 250
 Focused

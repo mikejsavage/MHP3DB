@@ -292,6 +292,19 @@ Deviljho Tail 3
 Desc
 Deviljho Scraps 2
 
+Akantor Doomgiver
+250
+R7
+45%
+---
+99999z
+Akantor Shell 5
+Akantor Tail 3
+Akantor Claw 4
+Akantor Jewel 1
+Desc
+Akantor Scraps 2
+
 Amassing Cloud
 240
 Water 16

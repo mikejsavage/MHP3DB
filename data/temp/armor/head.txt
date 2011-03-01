@@ -3236,6 +3236,42 @@ Desc
 JhenMhrnScraps+ 1
 Rathian Scraps+ 1
 
+Dark Akantor Mask
+62
+4 0 -3 2 -5
+BG
+R7
+OO-
+Akantor Spike 3
+Akantor Scale 4
+Akantor Shell 6
+Tigrex Jaw 1
+16000z
+Protection -3
+HearProtct 3
+Fire Atk 1
+Slam 2
+Desc
+Akantor Scraps 2
+
+Dark Akantor Fangs
+36
+5 -1 -2 4 -4
+BG
+R7
+OO-
+Akantor Spike 3
+Akantor Scale 4
+Akantor Shell 6
+Tigrex Jaw 1
+16000z
+Protection -3
+HearProtct 4
+Fire Atk 1
+Slam 3
+Desc
+Akantor Scraps 2
+
 Storm Crown
 62
 -3 4 0 0 -5

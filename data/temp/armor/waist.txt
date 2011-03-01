@@ -3048,6 +3048,42 @@ Desc
 JhenMhrnScraps+ 1
 Rathian Scraps+ 1
 
+DarkAkantor Cincture
+62
+4 0 -3 2 -5
+B
+R7
+---
+Akantor Shell 5
+Akantor Fang 3
+Akantor Tail 1
+Rathian Ruby 1
+16000z
+Protection -2
+HearProtct 5
+Fire Atk 2
+Slam 4
+Desc
+Akantor Scraps 2
+
+Dark Akantor Sash
+36
+5 -1 -2 4 -4
+G
+R7
+---
+Akantor Shell 5
+Akantor Fang 3
+Akantor Tail 1
+Rathian Ruby 1
+16000z
+Protection -2
+HearProtct 4
+Fire Atk 3
+Slam 4
+Desc
+Akantor Scraps 2
+
 Storm Waist
 62
 -3 4 0 0 -5

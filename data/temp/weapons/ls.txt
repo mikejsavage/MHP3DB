@@ -440,6 +440,19 @@ Deviljho Hide 3
 Desc
 Deviljho Scraps 2
 
+Akantor Widowmaker
+250
+R7
+30%
+---
+99999z
+Akantor Spike 3
+Akantor Shell 6
+Akantor Tail 1
+Akantor Jewel 1
+Desc
+Akantor Scraps 2
+
 Blossoming Rain
 240
 Water 12

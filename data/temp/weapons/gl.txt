@@ -310,6 +310,20 @@ Iron Ore 30
 Desc
 Ore Scraps+ 2
 
+Akantor Decimator
+250
+N4
+R7
+35%
+---
+99999z
+Akantor Fang 4
+Akantor Claw 3
+Akantor Shell 5
+Akantor Jewel 1
+Desc
+Akantor Scraps 2
+
 Auspicious Rain
 240
 L3

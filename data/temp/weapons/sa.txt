@@ -192,6 +192,20 @@ Desc
 Ore Scraps+ 1
 Ore Scraps 1
 
+Akantor Subjugator
+250
+Dragon
+R7
+35%
+---
+99999z
+Akantor Shell 4
+Akantor Tail 1
+Akantor Spike 2
+Akantor Jewel 1
+Desc
+Akantor Scraps 2
+
 Ivory Rain
 240
 Power

@@ -2496,18 +2496,36 @@ R7
 9700z
 
 565 Akantor Scale
+scale gray
+R6
+4272z
 
 566 Akantor Shell
+nshell gray
+R6
+5580z
 
 567 Akantor Tail
 
 568 Akantor Claw
+claw gray
+R6
+5700z
 
 569 Akantor Fang
+claw gray
+R6
+8500z
 
 570 Akantor Spike
+shell gray
+R6
+9500z
 
 571 Akantor Jewel
+ball red
+R7
+15000z
 
 572 Ukanlos Shell
 

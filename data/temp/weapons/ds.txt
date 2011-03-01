@@ -187,6 +187,19 @@ Deviljho Hide 6
 Desc
 Deviljho Scraps 2
 
+Akantor Furyblades
+250
+R7
+30%
+---
+99999z
+Akantor Shell 7
+Akantor Claw 7
+Akantor Scale 2
+Akantor Jewel 1
+Desc
+Akantor Scraps 2
+
 Monsoon Fans
 240
 Water 6

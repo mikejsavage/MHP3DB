@@ -1116,6 +1116,42 @@ Agnktor Scraps+ 2
 1
 0
 
+Akantor Destroyer
+220
+R7
+40%
+---
+Slow
+???
+Moderate
+99999z
+Akantor Shell 5
+Akantor Fang 2
+Akantor Spike 6
+Akantor Jewel 1
+Desc
+Akantor Scraps 2
+4 4! 5!
+2! 3 3
+2 0 0
+1 1 1!
+1 1 1
+0 0
+0 0
+0 0
+0 0
+0 0
+2
+0
+0
+0
+2
+2
+2
+1
+0
+2
+
 Fierce Shower
 230
 R7

@@ -3171,6 +3171,42 @@ Desc
 JhenMhrnScraps+ 1
 Rthalos Scraps+ 1
 
+Dark Akantor Aegis
+62
+4 0 -3 2 -5
+BG
+R7
+O--
+Akantor Fang 3
+Akantor Spike 2
+Akantor Scale 4
+Rathalos Ruby 1
+16000z
+Protection -3
+HearProtct 3
+Fire Atk 1
+Slam 2
+Desc
+Akantor Scraps 2
+
+Dark Akantor Plate
+36
+5 -1 -2 4 -4
+G
+R7
+O--
+Akantor Fang 3
+Akantor Spike 2
+Akantor Scale 4
+Rathalos Ruby 1
+16000z
+Protection -3
+HearProtct 4
+Fire Atk 1
+Slam 1
+Desc
+Akantor Scraps 2
+
 Storm Wrap
 62
 -3 4 0 0 -5

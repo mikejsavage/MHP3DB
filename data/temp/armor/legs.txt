@@ -3021,6 +3021,42 @@ Desc
 JhenMhrnScraps+ 1
 Rathian Scraps+ 1
 
+Dark Akantor Hessian
+62
+4 0 -3 2 -5
+B
+R7
+O--
+Akantor Scale 5
+Akantor Claw 5
+Akantor Shell 5
+Uragaan Ruby 1
+16000z
+Protection -2
+HearProtct 2
+Fire Atk 6
+Slam 1
+Desc
+Akantor Scraps 2
+
+Dark Akantor Boots
+36
+5 -1 -2 4 -4
+G
+R7
+O--
+Akantor Scale 5
+Akantor Claw 5
+Akantor Shell 5
+Uragaan Ruby 1
+16000z
+Protection -2
+HearProtct 2
+Fire Atk 6
+Slam 1
+Desc
+Akantor Scraps 2
+
 Storm Pants
 62
 -3 4 0 0 -5
