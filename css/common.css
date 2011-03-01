@@ -217,7 +217,6 @@ img.icon {
 /* sharpness bars */
 
 .sharpness {
-	background: #333;
 	background: #191919;
 	border: 1px #444 solid;
 	display: inline-block;
@@ -225,10 +224,10 @@ img.icon {
 	margin: 1px;
 	padding: 2px;
 	vertical-align: top;
-	width: 90px;
+	width: 91px;
 }
 .sharpness.wide {
-	width: 180px;
+	width: 181px;
 }
 .sharpness div {
 	float: left;
@@ -236,11 +235,19 @@ img.icon {
 	height: inherit;
 }
 .sharpness .p {
+	background: #000;
 	border: 2px solid #60e4f8;
 	border-left: 0;
 	display: inline-block;
 	padding: 1px 1px 1px 0;
-	margin: -3px -3px -3px 0;
+	margin: -3px -3px -3px 1px;
+}
+.sharpness:hover .p {
+	display: none;
+}
+.sharpness .p div:first-child {
+	border-left: 1px solid #191919;
+	margin-left: -1px;
 }
 
 /* set generator output */
