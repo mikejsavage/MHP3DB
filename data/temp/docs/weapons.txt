@@ -44,16 +44,17 @@
 				"elemattack" : int (conditional)
 
 				// array of sharpness info - each elem is number
-				// of hits for that sharpness level / 10
 				"sharpness" : [
 					int
 					...
 				]
 				// same as above but for sharpness +1 skill
-				"sharpness+1" : [
+				// not required for weapons where sharpness +1
+				// has no effect
+				"sharpnessp" : [
 					int
 					...
-				]
+				] (optional)
 
 				// affinity as a percentage eg 25
 				"affinity" : int
@@ -114,7 +115,6 @@
 				]
 
 				// scraps after manufacturing
-				// TODO: is this ok?
 				"scraps" : [
 					{
 						// index into items array
@@ -124,6 +124,26 @@
 					}
 					...
 				] (conditional)
+
+				// attack upgrade
+				"upgrade" : {
+					// materials required
+					// as far as i know, this will always contain 1 element
+					// but it's an array so you can reuse your items array
+					// printing function
+					"materials" : [
+						{
+							// index into items array
+							"id" : int
+							// number required
+							"count" : int
+						}
+						...
+					]
+
+					// price of upgrade
+					"price" : int
+				}
 
 				// weapons this upgrades into
 				// array of indices into weapons array

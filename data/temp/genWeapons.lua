@@ -132,8 +132,8 @@ local Spheres =
 {
 	Reg = "Enhance Sphere",
 	Pls = "Enhance Sphere+",
-	Hrd = "Hrd Enhance Sphere",
-	Hvy = "Hvy Enhance Sphere",
+	Hrd = "Hrd Enhance Sph",
+	Hvy = "Hvy Enhance Sph",
 }
 
 function sphereID( sphere )
@@ -187,8 +187,10 @@ local Actions =
 			{
 				materials =
 				{
-					id = sphereID( sphere ),
-					count = tonumber( num )
+					{
+						id = sphereID( sphere ),
+						count = tonumber( num )
+					}
 				},
 
 				price = tonumber( price )

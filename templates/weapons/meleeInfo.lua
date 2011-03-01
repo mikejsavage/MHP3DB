@@ -46,7 +46,7 @@
 
 	{%
 	if weapon.create then
-		print( E( "h3", nil, "Create" ) )
+		print( "<h3>Create</h3>" )
 
 		print( itemCounts( { materials = weapon.create } ) )
 
@@ -58,15 +58,23 @@
 	end
 
 	if weapon.improve then
-		print( E( "h3", nil, ( "Improve from %s" ):format( weaponNameURL( { class = class, weapon = class.weapons[ weapon.improve.from ] } ) ) ) )
+		print( ( "<h3>Improve from %s</h3>" ):format( weaponNameURL( { class = class, weapon = class.weapons[ weapon.improve.from ] } ) ) )
 
 		print( itemCounts( { materials = weapon.improve.materials } ) )
 
 		print( ( "Price: %sz" ):format( commas( weapon.price ) ) )
 	end
 
+	if weapon.upgrade then
+		print( "<h3>Attack upgrade</h3>" )
+
+		print( itemCounts( { materials = weapon.upgrade.materials } ) )
+
+		print( ( "Price: %sz" ):format( commas( weapon.upgrade.price ) ) )
+	end
+
 	if weapon.scraps then
-		print( E( "h3", nil, "Scraps" ) )
+		print( "<h3>Scraps</h3>" )
 
 		print( itemCounts( { materials = weapon.scraps } ) )
 	end
