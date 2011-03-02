@@ -60,12 +60,21 @@ R2
 16 Mega Juice
 
 17 Demondrug
+drink red
+R4
+67z
 
 18 Mega Demondrug
+drink red
+R5
+283z
 
 19 Power Pill
 
 20 Armorskin
+drink orange
+R4
+58z
 
 21 Mega Armorskin
 

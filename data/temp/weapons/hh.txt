@@ -1,5 +1,6 @@
 Old Yukumo Flute
 50
+Reg 1 1000z
 WBR
 R1
 0%

@@ -1,5 +1,6 @@
 Old Yukumo Machete
 50
+Reg 1 1000z
 R1
 0%
 ---
@@ -261,6 +262,7 @@ Desc
 
 Bone Kukri
 90
+Reg 2 1000z
 R1
 0%
 ---
@@ -271,6 +273,7 @@ Bone Scraps 2
 
 	Bone Kukri+
 	120
+	Reg 2 1000z
 	R1
 	0%
 	---
@@ -282,6 +285,7 @@ Bone Scraps 2
 
 		Bone Handaxe
 		120
+		Reg 2 2000z
 		Fire 15
 		R2
 		0%
@@ -299,6 +303,7 @@ Bone Scraps 2
 
 			Bone Handaxe+
 			140
+			Reg 2 2000z
 			Fire 18
 			R2
 			0%
@@ -309,6 +314,61 @@ Bone Scraps 2
 			3540z
 			Desc
 			Qurupeco Scraps 2
+
+				Qurupeco Tomahawk
+				190
+				Fire 23
+				R5
+				0%
+				---
+				Qurupeco Wing 5
+				Splendid Beak 3
+				Vibrant Down 8
+				Flintstone 6
+				55000z
+				Desc
+				Qurupco Scraps+ 2
+
+				Blood Axe
+				190
+				Poison 18
+				R5
+				0%
+				OO-
+				Gigginox Hide+ 5
+				Gigginox Claw+ 3
+				Toxin Sac 3
+				45000z
+				Desc
+				Giggnox Scraps+ 2
+
+				Baumschnitt
+				180
+				Pls 2 3000z
+				Def 8
+				R3
+				0%
+				O--
+				Doboru Horn 2
+				Mossy Carapace 3
+				Doboru Kelp 1
+				Iron Ore 10
+				20000z
+				Desc
+				Doboru Scraps 2
+
+					Brullenberg
+					220
+					Def 10
+					R6
+					0%
+					O--
+					Doboru Horn+ 2
+					Mossy Carapace+ 5
+					Doboru Sacrum 1
+					70000z
+					Desc
+					Doboru Scraps+ 2
 
 			Djinn
 			150
@@ -352,6 +412,7 @@ Bone Scraps 2
 
 	Ludroth Claw
 	100
+	Reg 2 1000z
 	Water 8
 	R1
 	0%
@@ -370,6 +431,7 @@ Bone Scraps 2
 
 		Royal Claw
 		120
+		Reg 2 2000z
 		Water 12
 		R2
 		0%
@@ -437,6 +499,7 @@ Bone Scraps 2
 
 			Hidden Edge
 			130
+			Pls 2 3000z
 			R3
 			40%
 			---
@@ -447,8 +510,22 @@ Bone Scraps 2
 			Desc
 			Narga Scraps 2
 
+				Shadow Sword "Eve"
+				180
+				R6
+				40%
+				OO-
+				Narga Scale+ 4
+				BlackNargaPelt+ 4
+				Narga TailSpike 8
+				Narga Brain Stm 1
+				65000z
+				Desc
+				Narga Scraps+ 2
+
 			Rex Talon
 			170
+			Pls 2 3000z
 			R3
 			-20%
 			---
@@ -462,6 +539,30 @@ Bone Scraps 2
 			Lg Monster Bone 1
 			Desc
 			Tigrex Scraps 2
+
+				Rex Blade
+				220
+				R6
+				-20%
+				---
+				Tigrex Claw+ 4
+				Tigrex Carapace 6
+				Tigrex Jaw 1
+				70000z
+				Desc
+				Tigrex Scraps+ 2
+
+				Black Talon
+				200
+				R5
+				-20%
+				OO-
+				Blk Tigrex Claw 4
+				Blk Tigrex Shl 6
+				Tigrex Skl Shl 2
+				50000z
+				Desc
+				Tigrex Scraps+ 2
 
 		Dragger Mace
 		140
@@ -481,6 +582,7 @@ Bone Scraps 2
 
 Sector Cero
 70
+Reg 2 1000z
 R1
 0%
 ---
@@ -491,6 +593,78 @@ Monster Fluid 1
 Altaroth Jaw 1
 Desc
 Bnahabra Scraps 2
+
+	Sector Uno
+	100
+	Reg 2 1000z
+	R1
+	0%
+	---
+	Bnahabra Wing 4
+	Bnahabra Shell 3
+	Killer Beetle 3
+	1140z
+	Desc
+	Bnahabra Scraps 2
+
+		Sector Cero Blanc
+		110
+		Ice 8
+		R2
+		0%
+		OO-
+		Bnahabra Wing 2
+		Urukusu Claw 2
+		Isisium Ore 5
+		Altarth Abdomen 2
+		1920z
+		Desc
+		Bnahabra Scraps 2
+
+		Sector Cero Dorado
+		110
+		Reg 2 2000z
+		Thunder 8
+		R2
+		0%
+		OO-
+		Bnahabra Wing 2
+		Thunderbug 4
+		Lightcrystal 1
+		Altarth Abdomen 2
+		1920z
+		Desc
+		Bnahabra Scraps 1
+		Ore Scraps 1
+
+			Sector Uno Dorado
+			170
+			Thunder 20
+			R4
+			0%
+			OOO
+			Bnahabra Carpce 4
+			Monster Broth 2
+			Rare Scarab 4
+			Piezo Crystal 2
+			20000z
+			Desc
+			Bnahbra Scraps+ 1
+			Altarth Scraps+ 1
+
+	Sector Cero Verde
+	90
+	Paralyze 14
+	R2
+	0%
+	---
+	Bnahabra Wing 4
+	Bnahabra Stingr 8
+	Killer Beetle 2
+	Altaroth Jaw 2
+	1920z
+	Desc
+	Bnahabra Scraps 2
 
 Tusk Gear
 130

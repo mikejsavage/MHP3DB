@@ -1,5 +1,6 @@
 Old Yukumo LS
 50
+Reg 1 1000z
 R1
 0%
 ---

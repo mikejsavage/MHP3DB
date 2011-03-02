@@ -1,5 +1,6 @@
 Old Yukumo Gunlance
 50
+Reg 1 1000z
 N1
 R1
 0%
