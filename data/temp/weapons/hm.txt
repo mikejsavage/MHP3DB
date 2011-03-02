@@ -251,6 +251,21 @@ Deviljho Hide 4
 Desc
 Deviljho Scraps 2
 
+Ukanlos Crusher
+250
+Ice 20
+Def 15
+R7
+-20%
+---
+99999z
+Ukanlos Claw 3
+Ukanlos Shell 4
+Thunder Sac 10
+Ukanlos Jewel 1
+Desc
+Ukanlos Scraps 2
+
 Ominous Cloud
 240
 Water 16

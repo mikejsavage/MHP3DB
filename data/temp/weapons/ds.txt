@@ -201,6 +201,21 @@ Akantor Jewel 1
 Desc
 Akantor Scraps 2
 
+Ukanlos Rippers
+250
+Ice 10
+Def 15
+R7
+-20%
+---
+99999z
+Ukanlos Fin 4
+Ukanlos Scale 6
+Ukanlos Jaw 2
+Ukanlos Jewel 1
+Desc
+Ukanlos Scraps 2
+
 Monsoon Fans
 240
 Water 6

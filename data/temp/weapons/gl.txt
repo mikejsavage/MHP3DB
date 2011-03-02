@@ -325,6 +325,22 @@ Akantor Jewel 1
 Desc
 Akantor Scraps 2
 
+Ukanlos Hail
+250
+L4
+Ice 20
+Def 15
+R7
+-20%
+---
+99999z
+Ukanlos Jaw 2
+Ukanlos Fin 4
+Ukanlos Shell 5
+Ukanlos Jewel 1
+Desc
+Ukanlos Scraps 2
+
 Auspicious Rain
 240
 L3

@@ -2585,6 +2585,42 @@ Water Res -2
 Desc
 Uragaan Scraps+ 2
 
+Uragaan Tasset U
+53
+3 -5 1 -2 -3
+B
+R6
+---
+SteelUrgnShield 3
+SteelUragaanScl 4
+SteelUragaanCpc 4
+Firecell Stone 1
+9100z
+Guard 1
+BombStrUp 5
+Dragon Res -3
+Will Recov 4
+Desc
+Uragaan Scraps+ 2
+
+Uragaan Coat U
+30
+5 -4 2 -1 -2
+G
+R6
+---
+SteelUrgnShield 3
+SteelUragaanScl 4
+SteelUragaanCpc 4
+Firecell Stone 1
+9100z
+PelletS Up 4
+BombStrUp 4
+Dragon Res -2
+Will Recov 3
+Desc
+Uragaan Scraps+ 2
+
 Jinouga Tasset S
 53
 -1 -2 4 -3 0
@@ -3083,6 +3119,42 @@ Fire Atk 3
 Slam 4
 Desc
 Akantor Scraps 2
+
+Ukanlos Cincture
+62
+-5 0 -3 4 -2
+B
+R7
+O--
+Ukanlos Shell 6
+Ukanlos Claw 3
+Ukanlos Jewel 1
+Barioth Claw+ 1
+16000z
+Sharpness 4
+Fencing 2
+FastCharge -1
+Debilitate 4
+Desc
+Ukanlos Scraps 2
+
+Ukanlos Sash
+36
+-4 0 -1 5 -1
+G
+R7
+O--
+Ukanlos Shell 6
+Ukanlos Claw 3
+Ukanlos Jewel 1
+Barioth Claw+ 1
+16000z
+NormalS Up 4
+FastCharge -2
+Rapid Fire 3
+Debilitate 2
+Desc
+Ukanlos Scraps 2
 
 Storm Waist
 62

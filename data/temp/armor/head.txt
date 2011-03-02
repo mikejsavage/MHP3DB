@@ -3308,6 +3308,42 @@ Slam 3
 Desc
 Akantor Scraps 2
 
+Ukanlos Mask
+62
+-5 0 -3 4 -2
+BG
+R7
+OO-
+Ukanlos Jaw 3
+Ukanlos Scale 5
+Ukanlos Shell 6
+Horrific Maw 1
+16000z
+Fencing 4
+FastCharge -3
+Ice Attack 1
+Debilitate 1
+Desc
+Ukanlos Scraps 2
+
+Ukanlos Fangs
+36
+-4 0 -1 5 -1
+BG
+R7
+OO-
+Ukanlos Jaw 3
+Ukanlos Scale 5
+Ukanlos Shell 6
+Horrific Maw 1
+16000z
+FastCharge -1
+Rapid Fire 5
+Ice Attack 1
+Debilitate 4
+Desc
+Ukanlos Scraps 2
+
 Storm Crown
 62
 -3 4 0 0 -5

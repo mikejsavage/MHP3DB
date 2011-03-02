@@ -711,6 +711,21 @@ S2
 P3
 YYNNYYN
 
+Ukanlos Frostbreath
+270
+Spread
+Ice 9
+R7
+-30%
+---
+99999z
+Ukanlos Jaw 3
+Ukanlos Fin 4
+Ukanlos Scale 4
+Ukanlos Jewel 1
+Desc
+Ukanlos Scraps 2
+
 Night Tempest
 250
 Focused

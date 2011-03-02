@@ -3057,6 +3057,42 @@ Slam 1
 Desc
 Akantor Scraps 2
 
+Ukanlos Hessian
+62
+-5 0 -3 4 -2
+B
+R7
+OO-
+Ukanlos Claw 3
+Ukanlos Fin 5
+Ukanlos Scale 4
+IceBarrthSklShl 3
+16000z
+Fencing 3
+FastCharge -1
+Ice Attack 2
+Debilitate 3
+Desc
+Ukanlos Scraps 2
+
+Ukanlos Boots
+36
+-4 0 -1 5 -1
+G
+R7
+OO-
+Ukanlos Claw 3
+Ukanlos Fin 5
+Ukanlos Scale 4
+IceBarrthSklShl 3
+16000z
+FastCharge -2
+Rapid Fire 2
+Ice Attack 3
+Debilitate 2
+Desc
+Ukanlos Scraps 2
+
 Storm Pants
 62
 -3 4 0 0 -5

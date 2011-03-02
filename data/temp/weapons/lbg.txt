@@ -1070,6 +1070,42 @@ Rathian Scraps+ 1
 0
 0
 
+Ukanlos Growl
+260
+R7
+-30%
+OO-
+Slow
+???
+Light
+99999z
+Ukanlos Fin 3
+Ukanlos Tail 2
+Ukanlos Scale 4
+Ukanlos Jewel 1
+Desc
+Ukanlos Scraps 2
+6 9 12
+0 3 3
+0 3 3
+0 2 2
+0 1 2
+2 1
+0 0
+0 0
+2 1
+2 1
+0
+3
+0
+5
+0
+2
+2
+0
+1
+0
+
 Flash Flood
 210
 R7

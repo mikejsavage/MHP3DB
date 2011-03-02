@@ -454,6 +454,21 @@ Akantor Jewel 1
 Desc
 Akantor Scraps 2
 
+Ukanlos Chasm
+250
+Ice 14
+Def 15
+R7
+-20%
+---
+99999z
+Ukanlos Fin 4
+Ukanlos Tail 3
+Ukanlos Jaw 2
+Ukanlos Jewel 1
+Desc
+Ukanlos Scraps 2
+
 Blossoming Rain
 240
 Water 12

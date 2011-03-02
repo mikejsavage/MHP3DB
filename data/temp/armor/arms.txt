@@ -3098,6 +3098,42 @@ Slam 2
 Desc
 Akantor Scraps 2
 
+Ukanlos Claw
+62
+-5 0 -3 4 -2
+B
+R7
+---
+Ukanlos Scale 5
+Ukanlos Claw 3
+Ukanlos Tail 1
+ThndrGiggnoxClw 2
+16000z
+Sharpness 2
+FastCharge -3
+Ice Attack 7
+Debilitate 1
+Desc
+Ukanlos Scraps 2
+
+Ukanlos Gauntlet
+36
+-4 0 -1 5 -1
+G
+R7
+---
+Ukanlos Scale 5
+Ukanlos Claw 3
+Ukanlos Tail 1
+ThndrGiggnoxClw 2
+16000z
+NormalS Up 2
+FastCharge -3
+Ice Attack 6
+Debilitate 2
+Desc
+Ukanlos Scraps 2
+
 Storm Sleeves
 62
 -3 4 0 0 -5

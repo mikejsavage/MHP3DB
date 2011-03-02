@@ -1737,6 +1737,9 @@ R4
 320z
 
 400 Venom Gland
+shell purple
+R6
+960z
 
 401 ThdrGiggnoxHide
 hide blue
@@ -2152,6 +2155,9 @@ R6
 485 SteelUragaanJaw
 
 486 SteelUrgnShield
+shell blue
+R6
+5075z
 
 487 Doboru Shell
 nshell green
@@ -2561,18 +2567,39 @@ R7
 15000z
 
 572 Ukanlos Shell
+nshell white
+R6
+6100z
 
 573 Ukanlos Scale
+scale white
+R6
+4500z
 
 574 Ukanlos Tail
+shell white
+R6
+8000z
 
 575 Ukanlos Claw
+claw white
+R6
+5700z
 
 576 Ukanlos Jaw
+shell white
+R6
+9500z
 
 577 Ukanlos Fin
+shell white
+R6
+8500z
 
 578 Ukanlos Jewel
+ball cyan
+R7
+15000z
 
 579 Alatreon Shell
 

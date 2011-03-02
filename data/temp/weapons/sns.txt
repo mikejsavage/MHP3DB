@@ -745,6 +745,21 @@ Jinouga Scraps 2
 	Desc
 	Jinouga Scraps+ 2
 
+Ukanlos Claw
+250
+Ice 10
+Def 15
+R7
+-30%
+---
+99999z
+Ukanlos Fin 2
+Ukanlos Claw 3
+Ukanlos Shell 5
+Ukanlos Jewel 1
+Desc
+Ukanlos Scraps 2
+
 Engulfing Tempest
 240
 Water 12

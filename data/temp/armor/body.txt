@@ -3207,6 +3207,42 @@ Slam 1
 Desc
 Akantor Scraps 2
 
+Ukanlos Aegis
+62
+-5 0 -3 4 -2
+B
+R7
+OOO
+Ukanlos Fin 5
+Ukanlos Jaw 3
+Ukanlos Shell 5
+IceAgnktorSnout 1
+16000z
+Fencing 1
+FastCharge -2
+Ice Attack 1
+Debilitate 1
+Desc
+Ukanlos Scraps 2
+
+Ukanlos Plate
+36
+-4 0 -1 5 -1
+G
+R7
+OOO
+Ukanlos Fin 5
+Ukanlos Jaw 3
+Ukanlos Shell 5
+IceAgnktorSnout 1
+16000z
+FastCharge -2
+Rapid Fire 1
+Ice Attack 1
+Debilitate 1
+Desc
+Ukanlos Scraps 2
+
 Storm Wrap
 62
 -3 4 0 0 -5

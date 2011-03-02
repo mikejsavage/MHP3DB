@@ -424,6 +424,16 @@ or
 Battlefield Jwl 1
 Mossy Carapace+ 2
 
+Slam Jewel
+purple 6
+3
+Slam 4
+Expert -2
+450z
+LapisLazuli Jwl 1
+Ukanlos Claw 1
+Rathian Ruby 1
+
 Ammo Box Jwl
 gray 4
 1
@@ -1156,6 +1166,16 @@ Battlefield Jwl 1
 Slvr Rthlos Cpc 2
 Ice Agnktr Tail 1
 
+Fencing Jwl
+cyan 6
+3
+Fencing 4
+Artisan -2
+450z
+LapisLazuli Jwl 1
+Ukanlos Shell 2
+Tigrex Jaw 1
+
 Razor Jewel
 gray 4
 1
@@ -1305,6 +1325,16 @@ Akito Jewel 1
 Isisium Ore 2
 Wyvern Fang 5
 
+Pellet Jewel
+white 6
+3
+PelletS Up 4
+Recoil -2
+450z
+LapisLazuli Jwl 1
+SteelUrgnShield 1
+Gracium Ore 2
+
 ShotBonusJwl
 orange 4
 1
@@ -1381,6 +1411,16 @@ Barioth Claw 2
 or
 Battlefield Jwl 1
 FireWyvrnBrnStm 2
+
+RapidFireJwl
+cyan 6
+3
+Rapid Fire 4
+Reload Spd -2
+450z
+LapisLazuli Jwl 1
+Ukanlos Jaw 2
+Rathalos Plate 1
 
 HighSpeedJwl
 cyan 4

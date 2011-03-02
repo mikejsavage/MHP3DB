@@ -240,6 +240,21 @@ Deviljho Scale 8
 Desc
 Deviljho Scraps 2
 
+Ukanlos Frostshaft
+250
+Ice 16
+Def 15
+R7
+-20%
+---
+99999z
+Ukanlos Scale 8
+Ukanlos Shell 4
+Ukanlos Tail 2
+Ukanlos Jewel 1
+Desc
+Ukanlos Scraps 2
+
 Skyscraper
 240
 Water 14

@@ -261,6 +261,22 @@ Akantor Jewel 1
 Desc
 Akantor Scraps 2
 
+Ukanlos Howler
+250
+PYO
+Ice 16
+Def 15
+R7
+-20%
+---
+99999z
+Ukanlos Jaw 3
+Ukanlos Tail 2
+Ukanlos Scale 5
+Ukanlos Jewel 1
+Desc
+Ukanlos Scraps 2
+
 Autumn Typhoon
 240
 PYO

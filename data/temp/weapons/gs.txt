@@ -306,6 +306,21 @@ Akantor Jewel 1
 Desc
 Akantor Scraps 2
 
+Ukanlos Divide
+250
+Ice 20
+Def 15
+R7
+-20%
+---
+99999z
+Ukanlos Jaw 1
+Ukanlos Scale 5
+Ukanlos Shell 3
+Ukanlos Jewel 1
+Desc
+Ukanlos Scraps 2
+
 Amassing Cloud
 240
 Water 16
