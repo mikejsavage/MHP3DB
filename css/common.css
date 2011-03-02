@@ -224,10 +224,12 @@ img.icon {
 	margin: 1px;
 	padding: 2px;
 	vertical-align: top;
-	width: 91px;
+	max-width: 91px;
+	min-width: 90px;
 }
 .sharpness.wide {
-	width: 181px;
+	max-width: 181px;
+	min-width: 180px;
 }
 .sharpness div {
 	float: left;
