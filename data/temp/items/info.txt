@@ -2513,6 +2513,9 @@ R6
 2980z
 
 560 Deviljho Claw
+claw moss
+R6
+2600z
 
 561 Dviljho Skl Shl
 shell moss
