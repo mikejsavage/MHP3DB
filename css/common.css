@@ -242,9 +242,6 @@ img.icon {
 	padding: 1px 1px 1px 0;
 	margin: -3px -3px -3px 1px;
 }
-.sharpness:hover .p {
-	display: none;
-}
 .sharpness .p div:first-child {
 	border-left: 1px solid #191919;
 	margin-left: -1px;
