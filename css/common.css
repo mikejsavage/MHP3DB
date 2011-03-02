@@ -473,17 +473,8 @@ input.small {
 
 /* notes */
 
-.notewhite {
-	color: white;
-}
-.notepurple {
-	color: #e115f4;
-}
-.noteyellow {
-	color: yellow;
-}
-.notered {
-	color: red;
+.noteblue {
+	color: #3581e1;
 }
 .notecyan {
 	color: cyan;
@@ -491,6 +482,18 @@ input.small {
 .notegreen {
 	color: lime;
 }
-.noteblue {
-	color: #3581e1;
+.noteorange {
+	color: #dc7c2a;
+}
+.notepurple {
+	color: #e115f4;
+}
+.notered {
+	color: red;
+}
+.notewhite {
+	color: white;
+}
+.noteyellow {
+	color: yellow;
 }

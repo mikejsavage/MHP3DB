@@ -64,6 +64,7 @@ local Notes =
 	B = "blue",
 	C = "cyan",
 	G = "green",
+	O = "orange",
 	P = "purple",
 	R = "red",
 	W = "white",
