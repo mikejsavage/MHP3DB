@@ -2,6 +2,7 @@
 
 require( "common" )
 
+require( "lfs" )
 require( "imlib2" )
 
 Items = data( "items" )
@@ -338,10 +339,11 @@ end
 
 function readSharpness( weapon )
 	local cachePath = ( "%s/%s/%s/%s.lua" ):format( Dir, SharpDir, CacheDir, weapon.name.hgg )
+	local imagePath = ( "%s/%s/%s.png" ):format( Dir, SharpDir, weapon.name.hgg )
 
 	local cached = io.open( cachePath, "r" )
 
-	if cached then
+	if cached and lfs.attributes( cachePath ).modification > lfs.attributes( imagePath ).modification then
 		local sharps = loadstring( cached:read( "*all" ) )()
 
 		weapon.sharpness  = sharps.sharp
@@ -352,7 +354,7 @@ function readSharpness( weapon )
 		return
 	end
 
-	local img = imlib2.image.load( ( "%s/%s/%s.png" ):format( Dir, SharpDir, weapon.name.hgg ) )
+	local img = imlib2.image.load( imagePath )
 
 	if not img then
 		return
