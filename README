@@ -2,9 +2,6 @@ There's not a lot here right now, but since most of the pages will be
 identical to those on TriDB, those should be done fairly quickly. Adding
 actual data will take some time.
 
-I made a repo for it because I want to see if building a website like
-this works well or not.
-
 
 Some of the gen files in data/temp depend on LuaFileSystem/lua-imlib2.
 
@@ -47,10 +44,11 @@ server.modules += (
         "mod_rewrite",
 
 
-        # these aren't mandatory but i very much recommend you enable them
+        # these aren't mandatory but I recommend you enable them
         # mod_expire for obvious reasons
-        # mod_compress because it compresses the files in data/js to like 10%
-        # of their original size (which is HUGE given how big they are)
+        # mod_compress because it compresses the files in data/js to
+        # like 10% of their original size (which is HUGE given how big
+        # they are)
 
         "mod_expire",
         "mod_compress", 
@@ -60,9 +58,11 @@ server.modules += (
 fastcgi.server += (
         ".lua" => (
                 (
-                         "bin-path" => "/path/to/fcgi",
-                         "socket" => "/tmp/mhp3dbFCGI.socket",
-                         "max-procs" => 2,
+                        "bin-path" => "/path/to/fcgi",
+                        "socket" => "/tmp/mhp3dbFCGI.socket",
+                        # each proc maxes at about 15MB of memory
+                        # edit this to suit your setup
+                        "max-procs" => 2, 
                 )
         )
 )
