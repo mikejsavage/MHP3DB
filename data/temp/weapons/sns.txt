@@ -8,6 +8,7 @@ Desc
 
 	Yukumo Machete
 	70
+	Reg 1 1000z
 	R1
 	0%
 	---
@@ -22,6 +23,7 @@ Desc
 
 		Yukumo Machete+
 		90
+		Reg 2 1000z
 		R1
 		0%
 		---
@@ -35,6 +37,7 @@ Desc
 
 			Yukumo Hatchet
 			130
+			Reg 2 2000z
 			R2
 			0%
 			---
@@ -49,6 +52,7 @@ Desc
 
 			Dirty Baron
 			90
+			Reg 2 1000z
 			Poison 24
 			R1
 			0%
@@ -61,8 +65,37 @@ Desc
 			Ore Scraps 1
 			Bone Scraps 1
 
+				Dirty Baron+
+				110
+				Reg 2 2000z
+				Poison 28
+				R2
+				0%
+				---
+				Grt Froggi Hide 2
+				Poison Sac 2
+				Iron Ore 8
+				2940z
+				Desc
+				GrtFroggiScraps 2
+
+					Dirty Duke
+					140
+					Poison 36
+					R3
+					0%
+					---
+					Regal Snout 1
+					Poison Gland 2
+					Doboru Horn 2
+					Carpenterbug 10
+					4920z
+					Desc
+					GrtFroggiScraps 2
+
 		Hunter's Dagger
 		80
+		Reg 2 1000z
 		R1
 		0%
 		---
@@ -77,6 +110,7 @@ Desc
 
 			Hunter's Dagger+
 			110
+			Reg 2 1000z
 			R1
 			0%
 			---
@@ -88,6 +122,7 @@ Desc
 
 				Assassin's Dagger
 				140
+				Reg 2 1000z
 				R2
 				0%
 				---
@@ -100,6 +135,7 @@ Desc
 
 					Icy Bite
 					130
+					Reg 2 2000z
 					Ice 22
 					R2
 					20%
@@ -117,6 +153,7 @@ Desc
 
 						Icy Bite+
 						150
+						Pls 2 3000z
 						Ice 28
 						R3
 						25%
@@ -155,6 +192,7 @@ Desc
 							
 							Warrior's Sword
 							180
+							Pls 2 5000z
 							R4
 							0%
 							OO-
@@ -168,6 +206,19 @@ Desc
 							Desc
 							Ore Scraps+ 1
 							Ore Scraps 1
+
+								Odyssey
+								200
+								Hrd 2 7000z
+								R5
+								0%
+								OO-
+								Union Ore 8
+								Rare Scarab 5
+								Dragonite Ore 10
+								35000z
+								Desc
+								Ore Scraps+ 2
 
 					Shadow Saber
 					130
@@ -197,6 +248,7 @@ Desc
 
 		Soldier's Dagger
 		90
+		Reg 2 1000z
 		R1
 		0%
 		O--
@@ -209,6 +261,7 @@ Desc
 
 			Hydra Knife
 			100
+			Reg 2 2000z
 			R2
 			0%
 			O--
@@ -249,6 +302,7 @@ Desc
 
 				Slumber Knife
 				110
+				Reg 2 2000z
 				Sleep 19
 				R2
 				0%
@@ -259,6 +313,35 @@ Desc
 				2400z
 				Desc
 				GrtBaggiScraps 2
+
+					Slumber Knife+
+					150
+					Pls 2 5000z
+					Sleep 22
+					R4
+					0%
+					O--
+					Grt Jaggi Hide+ 3
+					Bird Wyvrn Bone 5
+					Dragonite Ore 5
+					30000z
+					Desc
+					GrtJaggiScraps+ 1
+					Bone Scraps+ 1
+
+						Deep Sleep
+						160
+						Sleep 24
+						R5
+						0%
+						OO-
+						Grt Baggi Hide+ 5
+						Coma Sac 3
+						Baggi Scale+ 10
+						BrdWyvern Stone 3
+						35000z
+						Desc
+						GrtBaggiScraps+ 2
 
 Bone Kukri
 90
@@ -566,6 +649,7 @@ Bone Scraps 2
 
 		Dragger Mace
 		140
+		Reg 2 2000z
 		R2
 		-30%
 		O--
@@ -579,6 +663,73 @@ Bone Scraps 2
 		Machalite Ore 3
 		Desc
 		Barroth Scraps 2
+
+			Dragger Mace+
+			160
+			Pls 2 3000z
+			R3
+			-30%
+			O--
+			Barroth Skl Shl 2
+			Barroth Spine 5
+			Fire Stone 2
+			4200z
+			Desc
+			Barroth Scraps 2
+
+				Barroth Smasher
+				210
+				R5
+				-40%
+				OO-
+				Barroth Thracic 4
+				Barroth Claw+ 4
+				Rhenoplos Crpce 8
+				55000z
+				Desc
+				Barroth Scraps+ 2
+
+				Gigas Club
+				180
+				Pls 2 3000z
+				Def 16
+				R3
+				0%
+				---
+				Uragaan Shield 3
+				Uragaan Scale 5
+				Magma Shard 3
+				20000z
+				Desc
+				Uragaan Scraps 2
+
+					Gigas Club+
+					200
+					Hrd 2 5000z
+					Def 20
+					R4
+					0%
+					---
+					Uragaan Shell 5
+					Uragaan Marrow 2
+					Shrp Mnster Bne 3
+					35000z
+					Desc
+					Uragaan Scraps 1
+					Bone Scraps+ 1
+
+						Gigas Crusher
+						230
+						Def 30
+						R6
+						0%
+						---
+						Uragaan Carapce 5
+						Uragaan Shield 8
+						Uragaan Ruby 1
+						65000z
+						Desc
+						Uragaan Scraps+ 2
 
 Sector Cero
 70
