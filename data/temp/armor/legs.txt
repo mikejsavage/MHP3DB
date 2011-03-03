@@ -2217,6 +2217,42 @@ Desc
 Amatsu Scraps 1
 JhenMhranScraps 1
 
+Nebula Greaves S
+44
+-4 0 3 3 -2
+B
+R5
+OO-
+Venom Gland 3
+Uncanny Hide+ 2
+Horrific Maw 2
+Grt Baggi Hide+ 4
+8800z
+Sharpness 1
+Status 3
+Hunger 3
+Combo Rate -2
+Desc
+Giggnox Scraps+ 2
+
+Nebula Leggings S
+24
+-2 0 4 4 -1
+G
+R5
+OO-
+Venom Gland 3
+Uncanny Hide+ 2
+Horrific Maw 2
+Grt Baggi Hide+ 4
+8800z
+PierceSAdd 1
+Status 3
+Hunger 3
+Combo Rate -2
+Desc
+Giggnox Scraps+ 2
+
 Nebula Greaves U
 47
 0 -4 4 3 -2
@@ -2946,6 +2982,42 @@ Attack 2
 Debilitate 2
 Desc
 Rthalos Scraps+ 2
+
+Vangis Greaves
+59
+0 0 -4 1 -4
+B
+R7
+OOO
+Deviljho Claw 4
+Deviljho Scale 6
+Deviljho Drool 3
+Uragaan Marrow 1
+10250z
+Sharpness -2
+Artisan 2
+Ice Res 1
+Eating 2
+Desc
+Deviljho Scraps 2
+
+Vangis Leggings
+34
+0 0 -2 3 -2
+G
+R7
+OOO
+Deviljho Claw 4
+Deviljho Scale 6
+Deviljho Drool 3
+Uragaan Marrow 1
+10250z
+Recoil -2
+Ice Res 1
+Loading 2
+Eating 2
+Desc
+Deviljho Scraps 2
 
 Hi Yamato Greaves
 59

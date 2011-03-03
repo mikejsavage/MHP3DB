@@ -2153,6 +2153,9 @@ R6
 4050z
 
 485 SteelUragaanJaw
+shell blue
+R6
+4410z
 
 486 SteelUrgnShield
 shell blue
@@ -2255,6 +2258,9 @@ R4
 600z
 
 506 Tigrex Fang+
+claw yellow
+R6
+1800z
 
 507 Tigrex Skl Shl
 shell yellow
@@ -2282,6 +2288,9 @@ R6
 2940z
 
 512 Blk Tigrex Fang
+claw gray
+R6
+2520z
 
 513 Diablos Shell
 nshell brown
@@ -2916,8 +2925,14 @@ supply
 R2
 
 678 Sply Max Potion
+sac blue
+supply
+R2
 
 679 Sply Pitfall Trp
+trap blue
+supply
+R3
 
 680 Sply Lg Brrl Bmb
 bomb blue

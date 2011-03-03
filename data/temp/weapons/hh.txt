@@ -294,6 +294,7 @@ Amatsu Scraps 2
 
 Worn Hunting Horn
 110
+Pls 2 5000z
 PRC
 R4
 -70%
@@ -301,3 +302,17 @@ R4
 0z
 Ancient Stone 1
 Desc
+
+	Weathered Horn
+	110
+	PRC
+	R4
+	-70%
+	---
+	Earth Crystal 30
+	Monster Broth 5
+	Commendation 2
+	10000z
+	Desc
+	Ore Scraps 1
+	Courage Scraps 1

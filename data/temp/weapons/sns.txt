@@ -555,6 +555,7 @@ Bone Scraps 2
 
 				Majestic Talon
 				170
+				Hrd 2 7000z
 				Water 38
 				R5
 				0%
@@ -927,9 +928,23 @@ Amatsu Scraps 2
 
 Worn Sword
 50
+Pls 2 5000z
 R4
 -70%
 ---
 0z
 Ancient Stone 1
 Desc
+
+	Weathered Sword
+	50
+	R4
+	-70%
+	---
+	Earth Crystal 20
+	Monster Broth 5
+	Commendation 2
+	10000z
+	Desc
+	Ore Scraps 1
+	Courage Scraps 1

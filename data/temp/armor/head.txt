@@ -2984,6 +2984,42 @@ Stamina 3
 Desc
 Tigrex Scraps+ 2
 
+Tigrex Helm U
+56
+2 -4 -2 0 -1
+BG
+R6
+---
+Blk Tigrex Fang 3
+Tigrex Jaw 1
+Tigrex Skl Shl 2
+Rangurotora Cpc 5
+9500z
+Protection -3
+HearProtct 2
+Psychic 5
+FastCharge 3
+Desc
+Tigrex Scraps+ 2
+
+Tigrex Cap U
+32
+4 -2 -1 0 0
+BG
+R6
+---
+Blk Tigrex Fang 3
+Tigrex Jaw 1
+Tigrex Skl Shl 2
+Rangurotora Cpc 5
+9500z
+Protection -3
+HearProtct 4
+Psychic 4
+FastCharge 4
+Desc
+Tigrex Scraps+ 2
+
 Agnaktor Helm S
 53
 4 -4 0 -2 -4

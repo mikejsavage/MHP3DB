@@ -1142,6 +1142,9 @@ Sharpness -1
 Akito Jewel 1
 Jhen Mhran Fang 1
 Agnaktor Claw 2
+or
+Battlefield Jwl 1
+Deviljho Claw 2
 
 Artisan Jwl
 purple 6

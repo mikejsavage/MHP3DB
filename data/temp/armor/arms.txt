@@ -2772,6 +2772,78 @@ Dragon Atk -1
 Desc
 Diablos Scraps+ 2
 
+Tigrex Vambraces S
+53
+2 -1 -4 0 -2
+B
+R5
+OO-
+Tigrex Fang+ 3
+Tigrex Scale+ 6
+Hrd Mnster Bone 2
+Grt Jaggi Hide 5
+9500z
+Gluttony 4
+Protection -2
+HearProtct 2
+Stamina 1
+Desc
+Tigrex Scraps+ 2
+
+Tigrex Guards S
+30
+3 0 -2 0 -1
+G
+R5
+OO-
+Tigrex Fang+ 3
+Tigrex Scale+ 6
+Hrd Mnster Bone 2
+Grt Jaggi Hide 5
+9500z
+Gluttony 3
+Protection -3
+HearProtct 2
+Stamina 1
+Desc
+Tigrex Scraps+ 2
+
+Tigrex Vambraces U
+56
+2 -4 -2 0 -1
+B
+R6
+OO-
+Blk Tigrex Fang 3
+Blk Tigrex Scl 5
+Hrd Mnster Bone 3
+Uroktor Scale+ 10
+9500z
+Protection -2
+HearProtct 1
+Psychic 3
+FastCharge 3
+Desc
+Tigrex Scraps+ 2
+
+Tigrex Guards U
+32
+4 -2 -1 0 0
+G
+R6
+OO-
+Blk Tigrex Fang 3
+Blk Tigrex Scl 5
+Hrd Mnster Bone 3
+Uroktor Scale+ 10
+9500z
+Protection -3
+HearProtct 1
+Psychic 4
+FastCharge 1
+Desc
+Tigrex Scraps+ 2
+
 Agnaktor Vambraces S
 53
 4 -4 0 -2 -4
