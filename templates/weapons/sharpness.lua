@@ -11,7 +11,7 @@ end
 		print( [[<div class="p">]] )
 
 		for i, sharp in ipairs( weapon.sharpnessp ) do
-			if not weapon.sharpness[ i ] or sharp - weapon.sharpness[ i ] ~= 0 then
+			if not weapon.sharpness[ i ] or sharp > weapon.sharpness[ i ] then
 				local width = sharp - ( weapon.sharpness[ i ] or 0 )
 
 				print( ( [[<div class="sharp%d" style="width: %dpx">&nbsp;</div>]] ):format( i, wide and width * 2 * SharpWidth or width * SharpWidth ) )
