@@ -368,6 +368,9 @@ function readSharpness( weapon )
 	local x, y
 
 	-- handle change equip dialog screenshots
+	-- they have the navy triangle pattern near the right
+	-- edge of the screen
+	-- this check is good enough
 	if img:get_pixel( 472, 24 ).blue == 80 then
 		x = SharpEquipX
 		y = SharpEquipY
@@ -399,10 +402,18 @@ function readSharpness( weapon )
 		if idx == -1 then
 			local nextColor = img:get_pixel( x + 1, y )
 
-			-- sharpness +1 handling
+			-- sharpness +1 handling - this checks for the blue border
+			-- that sharpness +1 puts at the end of the bar
 			if nextColor.red   ==  96 and
 			   nextColor.green == 228 and
 			   nextColor.blue  == 248 then
+			   	-- the table in weapon.sharpness actually contains
+				-- sharpness +1 info at this point, so let's copy
+				-- the table and correct it using the fact that
+				-- sharpness +1 will always add the same number of
+				-- pixels
+				-- which is defined as SharpPlusOneAdds
+
 				weapon.sharpnessp = table.copy( weapon.sharpness )
 
 				local toRemove = SharpPlusOneAdds
@@ -410,6 +421,7 @@ function readSharpness( weapon )
 
 				while toRemove > 0 do
 					if weapon.sharpness[ endSharp ] <= toRemove then
+						-- this color doesn't exist without sharpness +1
 						toRemove = toRemove - weapon.sharpness[ endSharp ]
 
 						weapon.sharpness[ endSharp ] = nil
@@ -426,6 +438,7 @@ function readSharpness( weapon )
 			break
 		end
 
+		-- move along 1 pixel
 		x = x + 1
 	end
 
