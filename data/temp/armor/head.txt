@@ -3449,3 +3449,13 @@ Loading 3
 Precision 3
 SpeedSetup 4
 Desc
+
+Sword Saint Piercing
+10
+0 0 0 0 0
+BG
+R7
+---
+0z
+Fencing 10
+Desc
