@@ -43,6 +43,7 @@ local NamedColors =
 	gray   = "aaaaaf",
 	green  = "6bf36e",
 	lime   = "a8d468",
+	moss   = "67a838",
 	teal   = "58e8c0",
 	yellow = "f7f56b",
 	orange = "f49e62",
