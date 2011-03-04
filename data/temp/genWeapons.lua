@@ -344,13 +344,12 @@ function readSharpness( weapon )
 
 	local cached = io.open( cachePath, "r" )
 
-	-- only read cached data if it's more recent than
-	-- the screenshot
+	-- only read cached data if it's more recent than the screenshot
 	if cached and lfs.attributes( cachePath ).modification > lfs.attributes( imagePath ).modification then
-		local sharps = loadstring( cached:read( "*all" ) )()
+		local cachedSharpness = loadstring( cached:read( "*all" ) )()
 
-		weapon.sharpness  = sharps.sharp
-		weapon.sharpnessp = sharps.sharpp
+		weapon.sharpness  = cachedSharpness.sharp
+		weapon.sharpnessp = cachedSharpness.sharpp
 
 		cached:close()
 		
@@ -367,10 +366,9 @@ function readSharpness( weapon )
 
 	local x, y
 
-	-- handle change equip dialog screenshots
-	-- they have the navy triangle pattern near the right
-	-- edge of the screen
-	-- this check is good enough
+	-- handle change equip dialog screenshots by checking
+	-- for the navy triangle pattern near the right edge
+	-- of the screen
 	if img:get_pixel( 472, 24 ).blue == 80 then
 		x = SharpEquipX
 		y = SharpEquipY
@@ -444,18 +442,18 @@ function readSharpness( weapon )
 
 	img:free()
 
-	-- save the result for future gens
-	local writeCache = assert( io.open( cachePath, "w" ) )
+	-- cache the result for future gens
+	local cacheOutput = assert( io.open( cachePath, "w" ) )
 
-	writeCache:write( "return { sharp = { " .. table.concat( weapon.sharpness, ", " ) .. " }" )
+	cacheOutput:write( "return { sharp = { " .. table.concat( weapon.sharpness, ", " ) .. " }" )
 
 	if weapon.sharpnessp then
-		writeCache:write( ", sharpp = { " .. table.concat( weapon.sharpnessp, ", " ) .. " }" )
+		cacheOutput:write( ", sharpp = { " .. table.concat( weapon.sharpnessp, ", " ) .. " }" )
 	end
 
-	writeCache:write( " }" )
+	cacheOutput:write( " }" )
 
-	writeCache:close()
+	cacheOutput:close()
 end
 
 function generatePath( weapon, weapons, path )
