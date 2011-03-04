@@ -344,6 +344,8 @@ function readSharpness( weapon )
 
 	local cached = io.open( cachePath, "r" )
 
+	-- only read cached data if it's more recent than
+	-- the screenshot
 	if cached and lfs.attributes( cachePath ).modification > lfs.attributes( imagePath ).modification then
 		local sharps = loadstring( cached:read( "*all" ) )()
 
@@ -391,9 +393,7 @@ function readSharpness( weapon )
 		end
 
 		-- unrecognised color
-		if idx == 0 then
-			assert( nil, "unrecognised sharpness color in " .. weapon.name.hgg .. ": " .. color.red .. ", " .. color.green .. ", " .. color.blue )
-		end
+		assert( idx ~= 0, "unrecognised sharpness color in " .. weapon.name.hgg .. ": " .. color.red .. ", " .. color.green .. ", " .. color.blue )
 
 		-- end of sharpness bar
 		if idx == -1 then
