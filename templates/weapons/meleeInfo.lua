@@ -10,20 +10,20 @@
 		print( "Notes: " )
 
 		for _, note in ipairs( weapon.notes ) do
-			print( ( [[<span class="note%s">%s</span> ]] ):format( note, Special.note ) )
+			printf( [[<span class="note%s">%s</span> ]], note, Special.note )
 		end
 
 		print( "<br>" )
 	elseif weapon.shellingType then
-		print( ( "Shelling: %s L%d<br>" ):format( weapon.shellingType, weapon.shellingLevel ) )
+		printf( "Shelling: %s L%d<br>", weapon.shellingType, weapon.shellingLevel )
 	elseif weapon.phial then
-		print( ( "Phial: %s<br>" ):format( weapon.phial ) )
+		printf( "Phial: %s<br>", weapon.phial )
 	end
 	%}
 
 	{%
 	if weapon.element then
-		print( ( [[Element: <span class="elem%s">%d</span><br>]] ):format( weapon.element, weapon.elemAttack ) )
+		printf( [[Element: <span class="elem%s">%d</span><br>]], weapon.element, weapon.elemAttack )
 	end
 	%}
 
@@ -32,9 +32,9 @@
 	Affinity:
 	{%
 	if weapon.affinity ~= 0 then
-		print( E( "span", weapon.affinity > 0 and "pos" or "neg", weapon.affinity .. "%" ) )
+		printf( [[<span class="%s">%d%%</span>]], weapon.affinity > 0 and "pos" or "neg", weapon.affinity )
 	else
-		print( ( "%s%%" ):format( weapon.affinity ) )
+		printf( "%s%%", weapon.affinity )
 	end
 	%}<br>
 
@@ -50,19 +50,19 @@
 
 		print( itemCounts( { materials = weapon.create } ) )
 
-		print( ( "Price: %sz" ):format( commas( weapon.price * 1.5 ) ) )
+		printf( "Price: %sz", commas( weapon.price * 1.5 ) )
 
 		if weapon.buyable then
-			print( ( " (buyable for %sz)" ):format( commas( weapon.price * 2 ) ) )
+			printf( " (buyable for %sz)", commas( weapon.price * 2 ) )
 		end
 	end
 
 	if weapon.improve then
-		print( ( "<h3>Improve from %s</h3>" ):format( weaponNameURL( { class = class, weapon = class.weapons[ weapon.improve.from ] } ) ) )
+		printf( "<h3>Improve from %s</h3>", weaponNameURL( { class = class, weapon = class.weapons[ weapon.improve.from ] } ) )
 
 		print( itemCounts( { materials = weapon.improve.materials } ) )
 
-		print( ( "Price: %sz" ):format( commas( weapon.price ) ) )
+		printf( "Price: %sz", commas( weapon.price ) )
 	end
 
 	if weapon.upgrade then
@@ -70,7 +70,7 @@
 
 		print( itemCounts( { materials = weapon.upgrade.materials } ) )
 
-		print( ( "Price: %sz" ):format( commas( weapon.upgrade.price ) ) )
+		printf( "Price: %sz", commas( weapon.upgrade.price ) )
 	end
 
 	if weapon.scraps then
@@ -80,10 +80,10 @@
 	end
 
 	if weapon.upgrades then
-		print( E( "h3", nil, "Upgrades into" ) )
+		print( "<h3>Upgrades into</h3>" )
 
 		for _, id in ipairs( weapon.upgrades ) do
-			print( ( "%s<br>" ):format( weaponNameURL( { class = class, weapon = class.weapons[ id ] } ) ) )
+			printf( "%s<br>", weaponNameURL( { class = class, weapon = class.weapons[ id ] } ) )
 		end
 	end
 

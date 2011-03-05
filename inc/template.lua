@@ -32,7 +32,13 @@ function compileTemplate( template, name )
 	-- chopped by the pattern
 	template = template .. "{}"
 
-	local code = { "local output = { }" }
+	local code = {
+		"local output = { }",
+
+		-- this is so awful
+		"local function print( str ) table.insert( output, str ) end",
+		"local function printf( form, ... ) table.insert( output, form:format( ... ) ) end",
+	}
 
 	for text, block in template:gmatch( "([^{]-)(%b{})" ) do
 		if text ~= "" then
@@ -42,7 +48,7 @@ function compileTemplate( template, name )
 		local action = Actions[ block:sub( 1, 2 ) ]
 
 		if action then
-			table.insert( code, action( block:sub( 3, -3 ):gsub( "%f[%a]print%(", "table.insert%( output," ) ) )
+			table.insert( code, action( block:sub( 3, -3 ) ) )
 		elseif block ~= "{}" then
 			table.insert( code, ( "table.insert( output, [[<h3>Bad block: %s</h3>]] )" ):format( block ) )
 		end

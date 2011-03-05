@@ -6,7 +6,7 @@ Rarity: <span class="rare{{ item.rarity }}">{{ item.rarity or "?" }}</span>
 
 {%
 if item.uses then
-	local itemUses = loadTemplate( "items/itemUses" )
+	local itemUses = loadTemplate( "items/uses" )
 
 	print( itemUses( { item = item } ) )
 end

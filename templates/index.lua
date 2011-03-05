@@ -99,13 +99,13 @@ local function neatDate( ts, now )
 end
 
 for i, commit in ipairs( commits.commits ) do
-	print( ( [[<h4><a href="http://github.com%s">%s</a></h4>]] ):format(
+	printf( [[<h4><a href="http://github.com%s">%s</a></h4>]],
 		commit.url,
 		neatDate( commit.committed_date, os.date( "*t" ) )
-	) )
+	)
 
 	-- lol
-	print( ( commit.message:gsub( "\n", "<br>" ):gsub( "\\<br>", "\\n" ):gsub( "<", "&lt;" ):gsub( ">", "&gt;" ) ) )
+	print( commit.message:gsub( "\n", "<br>" ):gsub( "\\<br>", "\\n" ):gsub( "<", "&lt;" ):gsub( ">", "&gt;" ) )
 
 	print( "<br><br>" )
 

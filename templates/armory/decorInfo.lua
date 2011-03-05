@@ -16,7 +16,7 @@
 				or
 					"%s: <span class=\"neg\">%d</span>"
 
-			print( form:format( T( Skills[ skill.id ].name ), skill.points ) .. "<br>" )
+			printf( form .. "<br>", T( Skills[ skill.id ].name ), skill.points )
 		end
 		%}
 
@@ -30,7 +30,7 @@
 	local firstCreate = true
 
 	for _, create in ipairs( decor.create ) do
-		print( ( "<h3>%s</h3>" ):format( firstCreate and "Materials" or "Alternatively..." ) )
+		printf( "<h3>%s</h3>", firstCreate and "Materials" or "Alternatively..." )
 
 		print( itemCounts( { materials = create } ) )
 

@@ -26,11 +26,11 @@ end
 		for _, weaponUse in ipairs( item.uses.weapons ) do
 			local class = classFromShort( Weapons, weaponUse.short )
 
-			print( ( "<tr><td>%s</td><td>%s</td><td>%d</td></tr>" ):format(
+			printf( "<tr><td>%s</td><td>%s</td><td>%d</td></tr>",
 				weaponUse.type == "create" and "Creating" or "Upgrading to",
 				weaponNameURL( { class = class, weapon = class.weapons[ weaponUse.id ] } ),
 				weaponUse.count
-			) )
+			)
 		end
 	end
 
@@ -40,11 +40,11 @@ end
 		for _, gunUse in ipairs( item.uses.guns ) do
 			local class = classFromShort( Guns, gunUse.short )
 
-			print( ( "<tr><td>%s</td><td>%s</td><td>%d</td></tr>" ):format(
+			printf( "<tr><td>%s</td><td>%s</td><td>%d</td></tr>",
 				gunUse.type == "create" and "Creating" or "Upgrading to",
 				weaponNameURL( { class = class, weapon = class.weapons[ gunUse.id ] } ),
 				gunUse.count
-			) )
+			)
 		end
 	end
 
@@ -54,10 +54,10 @@ end
 		for _, armorUse in ipairs( item.uses.armors ) do
 			local class = classFromShort( Armors, armorUse.short )
 
-			print( ( "<tr><td>Creating</td><td>%s</td><td>%d</td></tr>" ):format(
+			printf( "<tr><td>Creating</td><td>%s</td><td>%d</td></tr>",
 				pieceNameURL( { class = class, piece = class.pieces[ armorUse.id ] } ),
 				armorUse.count
-			) )
+			)
 		end
 	end
 
@@ -65,10 +65,10 @@ end
 		local decorNameURL = loadTemplate( "armory/decorNameURL" )
 
 		for _, decorUse in ipairs( item.uses.decorations ) do
-			print( ( "<tr><td>Creating</td><td>%s</td><td>%d</td></tr>" ):format(
+			printf( "<tr><td>Creating</td><td>%s</td><td>%d</td></tr>",
 				decorNameURL( { decor = Decorations[ decorUse.id ] } ),
 				decorUse.count
-			) )
+			)
 		end
 	end]]
 	%}

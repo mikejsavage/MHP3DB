@@ -4,7 +4,7 @@ if wide then
 end
 %}">{%
 	for i, sharp in ipairs( weapon.sharpness ) do
-		print( ( [[<div class="sharp%d" style="width: %dpx">&nbsp;</div>]] ):format( i, wide and sharp * 2 * SharpWidth or sharp * SharpWidth ) )
+		printf( [[<div class="sharp%d" style="width: %dpx">&nbsp;</div>]], i, wide and sharp * 2 * SharpWidth or sharp * SharpWidth )
 	end
 
 	if weapon.sharpnessp then
@@ -14,7 +14,7 @@ end
 			if not weapon.sharpness[ i ] or sharp > weapon.sharpness[ i ] then
 				local width = sharp - ( weapon.sharpness[ i ] or 0 )
 
-				print( ( [[<div class="sharp%d" style="width: %dpx">&nbsp;</div>]] ):format( i, wide and width * 2 * SharpWidth or width * SharpWidth ) )
+				printf( [[<div class="sharp%d" style="width: %dpx">&nbsp;</div>]], i, wide and width * 2 * SharpWidth or width * SharpWidth )
 			end
 		end
 

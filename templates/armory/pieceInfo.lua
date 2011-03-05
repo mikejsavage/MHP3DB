@@ -27,7 +27,7 @@
 				or
 					"%s"
 
-			print( form:format( T( Skills[ skill.id ].name ), skill.points ) .. "<br>" )
+			printf( form .. "<br>", T( Skills[ skill.id ].name ), skill.points )
 		end
 	end
 	%}
@@ -40,7 +40,7 @@
 		print( "<h3>Create</h3>" )
 
 		print( itemCounts( { materials = piece.create } ) )
-		print( ( "Price: %sz" ):format( commas( piece.price ) ) )
+		printf( "Price: %sz", commas( piece.price ) )
 	end
 
 	if piece.scraps then

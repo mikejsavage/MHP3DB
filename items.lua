@@ -1,8 +1,5 @@
 -- templates
 
-local itemSearch = loadTemplate( "items/search" )
-local itemInfo = loadTemplate( "items/itemInfo" )
-
 itemName    = loadTemplate( "itemName" )
 itemNameURL = loadTemplate( "itemNameURL" )
 
@@ -26,7 +23,7 @@ if Get.name then
 	if item then
 		header( T( item.name ) )
 
-		print( itemInfo( { item = item } ) )
+		print( loadTemplate( "items/info" )( { item = item } ) )
 
 		state = "item"
 	end
@@ -35,7 +32,7 @@ end
 if state == "none" then
 	header( "Item Search" )
 
-	print( itemSearch() )
+	print( loadTemplate( "items/search" )() )
 end
 
 footer()

@@ -49,7 +49,7 @@ var BaseUrl = "{{ BaseUrl }}";
 
 
 {%
-local Singular =
+local Singulars =
 {
 	hlm = "Helmet",
 	plt = "Plate",
@@ -61,21 +61,25 @@ local Singular =
 for _, class in ipairs( Armors ) do
 	print( icon( "equipment/" .. class.short ) )
 
-	print( ( [[ <select id="%s" onchange="pieceChanged( '%s' )">]] ):format( class.short, class.short ) )
+	printf( [[ <select id="%s" onchange="pieceChanged( '%s' )">]], class.short, class.short )
 
-	print( ( [[<option value="-1">Any %s</option>]] ):format( Singular[ class.short ] ) )
-	print( ( [[<option value="-2">Any 1 slotted %s</option>]] ):format( Singular[ class.short ] ) )
-	print( ( [[<option value="-3">Any 2 slotted %s</option>]] ):format( Singular[ class.short ] ) )
-	print( ( [[<option value="-4">Any 3 slotted %s</option>]] ):format( Singular[ class.short ] ) )
+	local singular = Singulars[ class.short ]
 
+	printf( [[<option value="-1">Any %s</option>]],           singular )
+	printf( [[<option value="-2">Any 1 slotted %s</option>]], singular )
+	printf( [[<option value="-3">Any 2 slotted %s</option>]], singular )
+	printf( [[<option value="-4">Any 3 slotted %s</option>]], singular )
+
+	-- if this is included, selected pieces are reselected on refresh
+	-- but it makes the load time so much worse
 	--for i, piece in ipairs( class.pieces ) do
-	--	print( ( [[<option value="%d">%s</option>]] ):format( i - 1, T( piece.name ) ) )
+	--	printf( [[<option value="%d">%s</option>]], i - 1, T( piece.name ) )
 	--end
 
 	print( [[</select><div class="slots">]] )
 
 	for i = 0, 2 do
-		print( ( [[<select id="%sslot%d" onchange="slotChanged( '%s', %d )"></select>]] ):format( class.short, i, class.short, i ) )
+		printf( [[<select id="%sslot%d" onchange="slotChanged( '%s', %d )"></select>]], class.short, i, class.short, i )
 	end
 
 	print( "</div>" )
@@ -142,7 +146,7 @@ Share your set:
 
 			{%
 			for _, class in ipairs( Armors ) do
-				print( ( "<th>%s</th>" ):format( icon( "equipment/" .. class.short ) ) )
+				printf( "<th>%s</th>", icon( "equipment/" .. class.short ) )
 			end
 			%}
 

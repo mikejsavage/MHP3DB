@@ -17,9 +17,9 @@ local ShotMaxLevel = 3
 	Affinity:
 	{%
 	if weapon.affinity ~= 0 then
-		print( E( "span", weapon.affinity > 0 and "pos" or "neg", weapon.affinity .. "%" ) )
+		printf( [[<span class="%s">%d%%</span>]], weapon.affinity > 0 and "pos" or "neg", weapon.affinity )
 	else
-		print( ( "%s%%" ):format( weapon.affinity ) )
+		printf( "%s%%", weapon.affinity )
 	end
 	%}<br>
 
@@ -42,10 +42,10 @@ local ShotMaxLevel = 3
 		<tbody>
 			{%
 			for i, shot in ipairs( Shots ) do
-				print( ( "<tr><td>%s</td>" ):format( T( shot.name ) ) )
+				printf( "<tr><td>%s</td>", T( shot.name ) )
 
 				for _, level in ipairs( weapon.shots[ i ] ) do
-					print( ( "<td>%s</td>" ):format( level.clip == 0 and "-" or level.clip ) )
+					printf( "<td>%s</td>", level.clip == 0 and "-" or level.clip )
 				end
 
 				for j = shot.levels, ShotMaxLevel - 1 do
@@ -63,36 +63,36 @@ local ShotMaxLevel = 3
 
 	{%
 	if weapon.create then
-		print( E( "h3", nil, "Create" ) )
+		print( "<h3>Create</h3>" )
 
 		print( itemCounts( { materials = weapon.create } ) )
 
-		print( ( "Price: %sz" ):format( commas( weapon.price * 1.5 ) ) )
+		printf( "Price: %sz", commas( weapon.price * 1.5 ) )
 
 		if weapon.buyable then
-			print( ( " (buyable for %sz)" ):format( commas( weapon.price * 2 ) ) )
+			printf( " (buyable for %sz)", commas( weapon.price * 2 ) )
 		end
 	end
 
 	if weapon.improve then
-		print( E( "h3", nil, ( "Improve from %s" ):format( weaponNameURL( { class = class, weapon = class.weapons[ weapon.improve.from[ 1 ] ] } ) ) ) )
+		printf( "<h3>Improve from %s</h3>", weaponNameURL( { class = class, weapon = class.weapons[ weapon.improve.from ] } ) )
 
 		print( itemCounts( { materials = weapon.improve.materials } ) )
 
-		print( ( "Price: %sz" ):format( commas( weapon.price ) ) )
+		printf( "Price: %sz", commas( weapon.price ) )
 	end
 
 	if weapon.scraps then
-		print( E( "h3", nil, "Scraps" ) )
+		print( "<h3>Scraps</h3>" )
 
 		print( itemCounts( { materials = weapon.scraps } ) )
 	end
 
 	if weapon.upgrades then
-		print( E( "h3", nil, "Upgrades into" ) )
+		print( "<h3>Upgrades into</h3>" )
 
 		for _, id in ipairs( weapon.upgrades ) do
-			print( ( "%s<br>" ):format( weaponNameURL( { class = class, weapon = class.weapons[ id ] } ) ) )
+			printf( "%s<br>", weaponNameURL( { class = class, weapon = class.weapons[ id ] } ) )
 		end
 	end
 
