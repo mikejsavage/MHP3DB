@@ -1238,6 +1238,16 @@ or
 Battlefield Jwl 1
 Uragaan Scale+ 2
 
+PunshDrw Jwl
+orange 6
+3
+PunishDraw 4
+Sharpness -2
+450z
+LapisLazuli Jwl 1
+MajesticBlkHorn 1
+Barioth Carapce 1
+
 IronWall Jwl
 gray 4
 1

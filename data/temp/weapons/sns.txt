@@ -180,6 +180,7 @@ Desc
 							
 							Saber Bite
 							180
+							Hrd 2 7000z
 							R5
 							0%
 							---
@@ -189,6 +190,19 @@ Desc
 							45000z
 							Desc
 							Barioth Scraps+ 2
+
+								Saber Bite+
+								200
+								R6
+								0%
+								---
+								SandBariothPlt 4
+								Barioth Spike 10
+								Blk Tigrex Claw 4
+								Wyvern Stone 2
+								65000z
+								Desc
+								Barioth Scraps+ 2
 							
 							Warrior's Sword
 							180
@@ -222,6 +236,7 @@ Desc
 
 					Shadow Saber
 					130
+					Reg 2 2000z
 					Poison 19
 					R2
 					0%
@@ -235,6 +250,7 @@ Desc
 
 						Shadow Saber+
 						150
+						Pls 2 3000z
 						Poison 27
 						R3
 						0%
@@ -245,6 +261,18 @@ Desc
 						15000z
 						Desc
 						Gigginox Scraps 2
+
+							Silent Death
+							170
+							R6
+							0%
+							O--
+							Uncanny Hide+ 4
+							Venom Gland 4
+							Horrific Maw 2
+							60000z
+							Desc
+							Giggnox Scraps+ 2
 
 		Soldier's Dagger
 		90
@@ -278,6 +306,7 @@ Desc
 
 				Hydra Knife+
 				140
+				Reg 2 2000z
 				R2
 				0%
 				O--
@@ -290,6 +319,7 @@ Desc
 
 					Deadly Blade
 					170
+					Pls 2 3000z
 					R3
 					0%
 					OO-
@@ -806,6 +836,7 @@ Bnahabra Scraps 2
 
 	Sector Cero Verde
 	90
+	Reg 2 2000z
 	Paralyze 14
 	R2
 	0%
@@ -818,8 +849,22 @@ Bnahabra Scraps 2
 	Desc
 	Bnahabra Scraps 2
 
+		Sector Uno Verde
+		120
+		R3
+		0%
+		O--
+		Bnahabra Shell 5
+		Paralysis Sac 2
+		Hercudrome 4
+		Altarth Abdomen 4
+		4200z
+		Desc
+		Bnahabra Scraps 2
+
 Tusk Gear
 130
+Reg 2 2000z
 R2
 0%
 O--
@@ -830,8 +875,35 @@ Monster Fluid 5
 Desc
 Ore Scraps 2
 
+	Fossil Gear
+	140
+	Pls 2 3000z
+	R3
+	0%
+	OO-
+	Fire Stone 4
+	Dragonite Ore 8
+	Gigginox Claw 3
+	20000z
+	Desc
+	Ore Scraps 2
+
+		Cranium Rush
+		190
+		R6
+		15%
+		OOO
+		Depthlite Ore 10
+		Ancnt Drgn Bone 5
+		Wyvern Stone 2
+		43500z
+		Desc
+		Ore Scraps+ 1
+		Bone Scraps+ 1
+
 Whirlwind
 150
+Pls 2 3000z
 R2
 5%
 ---
@@ -856,8 +928,37 @@ Desc
 Wood Scraps 2
 Ore Scraps 1
 
+	Yukumo Cleaver+
+	190
+	Pls 2 5000z
+	R4
+	0%
+	---
+	Yukumo Wood+ 5
+	Carbalite Ore 8
+	Ludroth Hide+ 5
+	30000z
+	Desc
+	Wood Scraps+ 1
+	Ore Scraps+ 1
+
+		Yukumo Chopper
+		210
+		R6
+		0%
+		---
+		Yukumo Wood+ 8
+		Union Ore 8
+		FireWyvrnMarrow 4
+		IceBarrthSklShl 2
+		50000z
+		Desc
+		Wood Scraps+ 1
+		Ore Scraps+ 1
+
 Jhen Shortsword
 150
+Pls 2 3000z
 Dragon 15
 R3
 10%
@@ -868,6 +969,19 @@ Jhen Mhran Fang 2
 Jhen Mohran Arm 2
 Desc
 JhenMhranScraps 2
+
+	Desert's Calm
+	210
+	Dragon 15
+	R7
+	10%
+	OO-
+	Jhen Mhrn Fang+ 3
+	Jhen Mhran Arm+ 3
+	Deviljho Fang 3
+	65000z
+	Desc
+	JhenMhrnScraps+ 2
 
 Violent Thunder
 160

@@ -298,6 +298,20 @@ Rhnplos Skl Shl 2
 Dragonite Ore 8
 Desc
 
+Gold Crown
+140
+S2
+Thunder 40
+R3
+10%
+---
+30000z
+Famitsu G Tckt 5
+Uragaan Scale 5
+Rangurotora Clw 5
+Diablos Marrow 2
+Desc
+
 Eisenritter
 200
 N2

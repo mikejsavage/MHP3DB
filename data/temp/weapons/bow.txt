@@ -673,6 +673,25 @@ P3
 P5
 NNNNNYY
 
+Sand Crest Bow
+180
+Spread
+Dragon 25
+R6
+0%
+O--
+75000z
+Tigrex Fang+ 4
+Deviljho Fang 4
+Amber Fang+ 4
+Jhen Mhran Fang 4
+Desc
+JhenMhranScraps 2
+R
+P3
+S4
+NYYYYYN
+
 Selene's Sting
 230
 Focused

@@ -2809,6 +2809,42 @@ Sheathe 1
 Desc
 Diablos Scraps+ 2
 
+Diablos Mail U
+56
+2 -1 -1 -3 -1
+B
+R6
+OOO
+MajesticBlkHorn 2
+Blk Blos Spine 5
+Diablos Marrow 2
+Grt Jaggi Claw+ 4
+9500z
+PunishDraw 1
+Dragon Atk -2
+KO 1
+FatigueAtk 1
+Desc
+Diablos Scraps+ 2
+
+Diablos Vest U
+32
+4 0 0 -2 0
+G
+R6
+OOO
+MajesticBlkHorn 2
+Blk Blos Spine 5
+Diablos Marrow 2
+Grt Jaggi Claw+ 4
+9500z
+Reload Spd 2
+Recoil 1
+NormalSAdd 1
+Dragon Atk -1
+Desc
+Diablos Scraps+ 2
+
 Tigrex Mail S
 53
 2 -1 -4 0 -2
