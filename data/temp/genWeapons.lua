@@ -29,15 +29,15 @@ local Types =
 
 local Bases =
 {
-	gs = { name = { hgg = "Great Swords" } },
-	ls = { name = { hgg = "Long Swords" } },
+	gs  = { name = { hgg = "Great Swords" } },
+	ls  = { name = { hgg = "Long Swords" } },
 	sns = { name = { hgg = "Swords" } },
-	ds = { name = { hgg = "Dual Swords" } },
-	hm = { name = { hgg = "Hammers" } },
-	hh = { name = { hgg = "Hunting Horns" } },
-	lc = { name = { hgg = "Lances" } },
-	gl = { name = { hgg = "Gunlances" } },
-	sa = { name = { hgg = "Switch Axes" } },
+	ds  = { name = { hgg = "Dual Swords" } },
+	hm  = { name = { hgg = "Hammers" } },
+	hh  = { name = { hgg = "Hunting Horns" } },
+	lc  = { name = { hgg = "Lances" } },
+	gl  = { name = { hgg = "Gunlances" } },
+	sa  = { name = { hgg = "Switch Axes" } },
 }
 
 local Elements =
@@ -77,8 +77,6 @@ local SharpY = 60
 local SharpEquipX = 342
 local SharpEquipY = 173
 
-local SharpPlusOneAdds = 12
-
 local SharpColors =
 {
 	-- c00c38
@@ -101,23 +99,27 @@ local SharpEnds =
 {
 	imlib2.color.new(   0,   0,   0 ),
 	imlib2.color.new(  48,  44,  32 ), -- for a full sharpness bar
-	imlib2.color.new(  40,  40,  32 ), -- faded sharpness +1 end marker?
-	imlib2.color.new(  40,  36,  32 ), -- faded sharpness +1 end marker?
+	imlib2.color.new(  40,  40,  32 ), -- sharpness +1 end marker?
+	imlib2.color.new(  40,  36,  32 ), -- sharpness +1 end marker?
 }
+
+local SharpPMarker = imlib2.color.new(  96, 228, 248 )
+
+function colorEqual( c1, c2 )
+	return c1.red   == c2.red   and
+	       c1.green == c2.green and
+	       c1.blue  == c2.blue
+end
 
 function sharpIdx( color )
 	for _, endSharp in ipairs( SharpEnds ) do
-		if color.red   == endSharp.red   and
-		   color.green == endSharp.green and
-		   color.blue  == endSharp.blue  then
+		if colorEqual( endSharp, color ) then
 			return -1
 		end
 	end
 
-	for i, col in ipairs( SharpColors ) do
-		if col.red   == color.red   and
-		   col.green == color.green and
-		   col.blue  == color.blue  then
+	for i, sharpColor in ipairs( SharpColors ) do
+		if colorEqual( sharpColor, color ) then
 			return i
 		end
 	end
@@ -338,6 +340,35 @@ function doLine( line, weapon, state )
 	return Actions[ state ]( line, weapon )
 end
 
+function sharpPWidth( img, x, y )
+	-- when this is called the x coord is the line between
+	-- the end of the bar and the sharp +1 marker and the y
+	-- coord is the top of the sharpness bar
+	-- so let's correct it to be inline with the end of the
+	-- sharpness bar and along the sharp +1 marker
+
+	x = x - 1
+	y = y - 2
+
+
+	local width = 0
+
+	while true do
+		local color = img:get_pixel( x, y )
+
+		if not colorEqual( color, SharpPMarker ) then
+			break
+		end
+
+		width = width + 1
+
+		-- move backwards since we started at the end
+		x = x - 1
+	end
+	
+	return width
+end
+
 function readSharpness( weapon )
 	local cachePath = ( "%s/%s/%s/%s.lua" ):format( Dir, SharpDir, CacheDir, weapon.name.hgg )
 	local imagePath = ( "%s/%s/%s.png" ):format( Dir, SharpDir, weapon.name.hgg )
@@ -358,6 +389,7 @@ function readSharpness( weapon )
 
 	local img = imlib2.image.load( imagePath )
 
+	-- no screenshot for this weapon
 	if not img then
 		return
 	end
@@ -400,11 +432,7 @@ function readSharpness( weapon )
 		if idx == -1 then
 			local nextColor = img:get_pixel( x + 1, y )
 
-			-- sharpness +1 handling - this checks for the blue border
-			-- that sharpness +1 puts at the end of the bar
-			if nextColor.red   ==  96 and
-			   nextColor.green == 228 and
-			   nextColor.blue  == 248 then
+			if colorEqual( nextColor, SharpPMarker ) then
 			   	-- the table in weapon.sharpness actually contains
 				-- sharpness +1 info at this point, so let's copy
 				-- the table and correct it using the fact that
@@ -414,7 +442,7 @@ function readSharpness( weapon )
 
 				weapon.sharpnessp = table.copy( weapon.sharpness )
 
-				local toRemove = SharpPlusOneAdds
+				local toRemove = sharpPWidth( img, x, y )
 				local endSharp = table.getn( weapon.sharpness )
 
 				while toRemove > 0 do
