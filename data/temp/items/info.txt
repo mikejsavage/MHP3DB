@@ -2338,6 +2338,9 @@ R5
 2100z
 
 522 Diablos Brnstm
+shell red
+R7
+6300z
 
 523 Black Blos Shl
 nshell gray
@@ -2350,6 +2353,9 @@ R6
 4500z
 
 525 MajesticBlkHorn
+claw gray
+R6
+3600z
 
 526 Uroktor Scale
 scale red
@@ -3000,6 +3006,7 @@ R2
 698 Divine Rhino
 bug cyan
 R4
+1000pts
 
 699 Silver Cricket
 bug white
@@ -3030,6 +3037,7 @@ R4
 
 705 Wyvern Crystal
 bone purple
+R2
 60pts
 
 706 Golden Bone
