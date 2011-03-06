@@ -77,9 +77,9 @@ Desc
 		Yukumo Wood 5
 		Zuwaroposu Hide 4
 		1650z
+		Desc
 		Wood Scraps 1
 		Ore Scraps 1
-		Desc
 		5! 5 0
 		2 0 0
 		3 0 0

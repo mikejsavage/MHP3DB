@@ -62,6 +62,7 @@ Desc
 		Iron Ore 7
 		Nitroshroom 5
 		1000z
+		Desc
 		Ore Scraps 2
 
 		Bone Gunlance
