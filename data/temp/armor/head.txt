@@ -3396,6 +3396,42 @@ Debilitate 4
 Desc
 Ukanlos Scraps 2
 
+Escadora Wisdom
+62
+0 0 1 0 -4
+BG
+R7
+---
+Alatreon Horn 4
+Alatreon Horn+ 1
+Alatreon Plate 6
+SandBariothClw 1
+16000z
+Elemental 2
+Potential -3
+Evade Dist 3
+Blight Res 5
+Desc
+Alatreon Scraps 2
+
+Escadora Sagesse
+36
+1 1 3 1 -2
+BG
+R7
+---
+Alatreon Horn 4
+Alatreon Horn+ 1
+Alatreon Plate 6
+SandBariothClw 1
+16000z
+Elemental 4
+Potential -3
+Evade Dist 4
+Blight Res 4
+Desc
+Alatreon Scraps 2
+
 Storm Crown
 62
 -3 4 0 0 -5

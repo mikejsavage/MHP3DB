@@ -3156,6 +3156,42 @@ Debilitate 2
 Desc
 Ukanlos Scraps 2
 
+Escadora Might
+62
+3 0 1 -3 -4
+B
+R7
+OOO
+Alatreon Webbng 1
+Alatreon Tail 1
+Alatreon Plate 5
+Tigrex Skl Shl 3
+16000z
+Elemental 1
+Potential -2
+Evade Dist 2
+Blight Res 2
+Desc
+Alatreon Scraps 2
+
+Escadora Force
+36
+3 1 3 -3 -2
+G
+R7
+OOO
+Alatreon Webbng 1
+Alatreon Tail 1
+Alatreon Plate 5
+Tigrex Skl Shl 3
+16000z
+Elemental 1
+Potential -2
+Evade Dist 2
+Blight Res 2
+Desc
+Alatreon Scraps 2
+
 Storm Waist
 62
 -3 4 0 0 -5

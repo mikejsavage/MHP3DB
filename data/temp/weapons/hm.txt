@@ -251,6 +251,19 @@ Deviljho Hide 4
 Desc
 Deviljho Scraps 2
 
+Obsidian Hammer
+170
+Dragon 35
+R6
+0%
+O--
+75000z
+Alatreon Claw 6
+Alatreon Shell 4
+EldrDragonBlood 3
+Desc
+Alatreon Scraps 2
+
 Ukanlos Crusher
 250
 Ice 20

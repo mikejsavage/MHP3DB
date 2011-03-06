@@ -293,6 +293,19 @@ Deviljho Tail 3
 Desc
 Deviljho Scraps 2
 
+Obsidian Greatsword
+170
+Dragon 40
+R6
+0%
+O--
+75000z
+Alatreon Horn 3
+Alatreon Claw 5
+EldrDragonBlood 3
+Desc
+Alatreon Scraps 2
+
 Akantor Doomgiver
 250
 R7

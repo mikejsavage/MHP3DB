@@ -444,6 +444,19 @@ Deviljho Scale 8
 Desc
 Deviljho Scraps 2
 
+Obsidian Lance
+170
+Dragon 28
+R6
+0%
+O--
+75000z
+Alatreon Horn 3
+Alatreon Tail 4
+EldrDragonBlood 3
+Desc
+Alatreon Scraps 2
+
 Ukanlos Frostshaft
 250
 Ice 16

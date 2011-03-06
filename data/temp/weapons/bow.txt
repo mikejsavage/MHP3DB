@@ -82,6 +82,25 @@ R3
 YYNNNYN
 Poison
 
+Bamboo Bow
+70
+Focused
+Water 20
+R2
+0%
+---
+3300z
+Drink Ticket 1
+Yukumo Wood 8
+Sap Plant 10
+Killer Beetle 5
+Desc
+Wood Scraps 2
+S2
+R1
+R2
+NYYYNYY
+
 Heart Peco Bow I
 70
 Spread

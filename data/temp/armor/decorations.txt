@@ -292,6 +292,25 @@ Battlefield Jwl 1
 Gigginox Claw+ 1
 Monster Broth 2
 
+Element Jwl
+pink 4
+1
+Elemental 1
+Status -1
+200z
+Battlefield Jwl 1
+Alatreon Shell 2
+
+Element Jwl
+pink 6
+3
+Elemental 4
+Status -2
+450z
+LapisLazuli Jwl 1
+Alatreon Claw 2
+LightningCarpce 1
+
 Fire Atk Jwl
 red 4
 1
@@ -608,6 +627,24 @@ or
 Battlefield Jwl 1
 Aoashira Arm+ 1
 Mega Armorskin 2
+
+Blight Jewel
+cyan 4
+1
+Blight Res 1
+Health -1
+200z
+LapisLazuli Jwl 1
+Alatreon Plate 2
+
+Blight Jewel
+cyan 6
+3
+Blight Res 4
+Health -2
+450z
+LapisLazuli Jwl 1
+Alatreon Horn+ 1
 
 Inferno Jwl
 red 4
@@ -1055,6 +1092,10 @@ Sense -1
 200z
 Suiko Jewel 1
 Qurupeco Feathr 1
+or
+Akito Jewel 1
+Comrade Ticket 1
+Sm Goldenfish 2
 
 FriendshpJwl
 pink 5

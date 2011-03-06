@@ -2491,6 +2491,40 @@ Whim -2
 Desc
 Ore Scraps+ 2
 
+Atea Mail S
+47
+0 -4 -4 2 3
+B
+R5
+O--
+Lrg Ancnt Shard 3
+Rustshard 5
+Union Ore 3
+Carbalite Ore 6
+8800z
+Fencing 1
+Sharpener -3
+Guard Up 5
+Desc
+Ore Scraps+ 2
+
+Atea Vest S
+26
+0 -2 -2 4 5
+G
+R5
+O--
+Lrg Ancnt Shard 3
+Rustshard 5
+Union Ore 3
+Carbalite Ore 6
+8800z
+Reload Spd -3
+Recoil 1
+Rapid Fire 5
+Desc
+Ore Scraps+ 2
+
 Narga Mail S
 47
 -3 1 -4 0 -1
@@ -3330,6 +3364,42 @@ Ice Attack 1
 Debilitate 1
 Desc
 Ukanlos Scraps 2
+
+Escadora Soul
+62
+-3 0 1 3 -4
+B
+R7
+O--
+Alatreon Shell 6
+Alatreon Claw 6
+Alatreon Horn 4
+Hprbkka Skl Shl 3
+16000z
+Elemental 2
+Potential -2
+Evade Dist 4
+Blight Res 1
+Desc
+Alatreon Scraps 2
+
+Escadora Seele
+36
+-3 1 3 3 -2
+G
+R7
+O--
+Alatreon Shell 6
+Alatreon Claw 6
+Alatreon Horn 4
+Hprbkka Skl Shl 3
+16000z
+Elemental 2
+Potential -2
+Evade Dist 2
+Blight Res 3
+Desc
+Alatreon Scraps 2
 
 Storm Wrap
 62

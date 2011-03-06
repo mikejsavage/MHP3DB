@@ -309,6 +309,7 @@ PunishDraw
 10 Unsheathe Stun
 
 Blight Res
+10 Blight Negated
 
 Adversity
 

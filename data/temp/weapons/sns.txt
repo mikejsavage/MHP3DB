@@ -1042,6 +1042,19 @@ Jinouga Scraps 2
 	Desc
 	Jinouga Scraps+ 2
 
+Obsidian Sword
+170
+Dragon 25
+R6
+0%
+O--
+75000z
+Alatreon Shell 5
+Alatreon Webbng 2
+EldrDragonBlood 3
+Desc
+Alatreon Scraps 2
+
 Ukanlos Claw
 250
 Ice 10

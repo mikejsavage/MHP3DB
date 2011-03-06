@@ -193,6 +193,20 @@ Desc
 Ore Scraps+ 1
 Ore Scraps 1
 
+Black Switch Axe
+170
+???
+Dragon 28
+R6
+0%
+O--
+75000z
+Alatreon Claw 4
+Alatreon Horn 4
+EldrDragonBlood 3
+Desc
+Alatreon Scraps 2
+
 Akantor Subjugator
 250
 Dragon
