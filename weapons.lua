@@ -89,9 +89,9 @@ if Get.class then
 		if state == "class" then
 			header( T( class.name ) )
 
-			local meleeTree = loadTemplate( "weapons/meleeTree" )
+			local weaponTree = loadTemplate( "weapons/tree" )
 
-			print( meleeTree( { class = class } ) )
+			print( weaponTree( { class = class } ) )
 		end
 	else
 		class = gunClassFromShort( Get.class )
@@ -114,11 +114,11 @@ if Get.class then
 			end
 
 			if state == "class" then
-				local gunTree = loadTemplate( "weapons/gunTree" )
+				local weaponTree = loadTemplate( "weapons/tree" )
 
 				header( T( class.name ) )
 
-				print( gunTree( { class = class } ) )
+				print( weaponTree( { class = class } ) )
 			end
 		end
 	end

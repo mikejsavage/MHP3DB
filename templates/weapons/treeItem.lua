@@ -1,15 +1,4 @@
 {%
--- moneys
-local TreeInfos =
-{
-	hh = "weapons/hhTreeInfo",
-	gl = "weapons/glTreeInfo",
-	sa = "weapons/saTreeInfo",
-	default = "weapons/meleeTreeInfo",
-}
-
-local treeInfo = loadTemplate( TreeInfos[ class.short ] or TreeInfos.default )
-
 local path = weapon.path and json.encode( weapon.path ) or "[]"
 %}
 
