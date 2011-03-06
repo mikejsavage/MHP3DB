@@ -183,8 +183,11 @@ img.icon {
 .grid {
 	margin: 0 auto;
 }
+.grid td {
+	padding: 0;
+}
 .grid td a {
-	display: table-cell;
+	display: block;
 	padding: 8px;
 	text-decoration: none;
 }
