@@ -1231,6 +1231,22 @@ Slam 3
 Desc
 Doboru Scraps 2
 
+Acorn Helm
+12
+2 2 0 -2 0
+BG
+R3
+---
+Comrade Ticket 4
+Magma Shard 4
+Fire Stone 2
+Igneous Thorax 2
+2850z
+BombStrUp 8
+Gunnery 3
+Desc
+Ore Scraps 2
+
 Yamato Helm
 26
 3 0 0 -3 -3

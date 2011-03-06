@@ -1792,6 +1792,9 @@ R5
 4850z
 
 411 Rathian Ruby
+ball green
+R7
+9700z
 
 412 Gld Rathian Scl
 scale yellow
@@ -2725,6 +2728,9 @@ R5
 0z
 
 610 Comrade Ticket
+ticket blue
+R5
+0z
 
 611 VeggieElderTckt
 ticket green

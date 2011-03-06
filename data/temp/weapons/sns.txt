@@ -264,6 +264,7 @@ Desc
 
 							Silent Death
 							170
+							Poison 39
 							R6
 							0%
 							O--
@@ -656,6 +657,7 @@ Bone Scraps 2
 
 				Rex Blade
 				220
+				Hrd 2 8000z
 				R6
 				-20%
 				---
@@ -791,6 +793,7 @@ Bnahabra Scraps 2
 
 		Sector Cero Blanc
 		110
+		Reg 2 2000z
 		Ice 8
 		R2
 		0%
@@ -802,6 +805,22 @@ Bnahabra Scraps 2
 		1920z
 		Desc
 		Bnahabra Scraps 2
+
+			Sector Uno Blanc
+			170
+			Pls 2 5000z
+			Ice 20
+			R4
+			0%
+			OOO
+			Bnahabra Carpce 4
+			Monster Broth 2
+			King Scarab 5
+			Frost Sac 2
+			20000z
+			Desc
+			Bnahbra Scraps+ 1
+			Altarth Scraps+ 1
 
 		Sector Cero Dorado
 		110
@@ -914,6 +933,18 @@ Lightcrystal 3
 Large Fin 6
 Desc
 Ore Scraps 1
+
+Catspaw
+80
+Paralyze 24
+R2
+0%
+---
+2880z
+Comrade Ticket 1
+Pawprint Stamp 2
+Lightcrystal 1
+Desc
 
 Yukumo Cleaver
 160

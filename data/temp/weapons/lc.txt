@@ -8,6 +8,7 @@ Desc
 
 	Yukumo Spear
 	70
+	Reg 1 1000z
 	R1
 	0%
 	---
@@ -20,20 +21,165 @@ Desc
 	Wood Scraps 1
 	Ore Scraps 1
 
-Saint Lance
-80
-R1
-0%
----
-1500z
-Machalite Ore 2
-Earth Crystal 5
-Jaggi Scale 8
-Desc
-Ore Scraps 2
+		Yukumo Spear+
+		90
+		R1
+		0%
+		---
+		Machalite Ore 5
+		Yukumo Wood 5
+		Ivy 8
+		1000z
+		Desc
+		Wood Scraps 1
+		Ore Scraps 1
+
+		Saint Lance
+		80
+		Reg 2 1000z
+		R1
+		0%
+		---
+		Iron Ore 4
+		Earth Crystal 2
+		Jaggi Hide 3
+		1000z
+		Machalite Ore 2
+		Earth Crystal 5
+		Jaggi Scale 8
+		Desc
+		Ore Scraps 2
+
+			Saint Lance+
+			100
+			Reg 2 1000z
+			R1
+			0%
+			---
+			Grt Jaggi Hide 2
+			Machalite Ore 3
+			Bealite Ore 3
+			1900z
+			Desc
+			GrtJaggi Scraps 1
+			Ore Scraps 1
+
+				Knight Lance
+				130
+				Reg 2 2000z
+				R2
+				0%
+				---
+				Lightcrystal 2
+				Machalite Ore 5
+				Bealite Ore 8
+				4000z
+				Desc
+				Ore Scraps 2
+
+					Rampart
+					140
+					Reg 2 2000z
+					Def 8
+					R2
+					0%
+					---
+					Dragonite Ore 3
+					Isisium Ore 5
+					Iron Ore 15
+					4900z
+					Dragonite Ore 5
+					Lightcrystal 3
+					Bealite Ore 10
+					Earth Crystal 12
+					Desc
+					Ore Scraps 2
+
+						Rampart+
+						160
+						Def 12
+						R3
+						0%
+						O--
+						Magma Shard 3
+						Fire Stone 2
+						Hercudrome 5
+						7000z
+						Desc
+						Ore Scraps 2
+
+						Fang Lance
+						130
+						Reg 2 2000z
+						Ice 16
+						R2
+						15%
+						---
+						Amber Fang 1
+						Barioth Claw 3
+						Barioth Shell 5
+						5900z
+						Desc
+						Barioth Scraps 2
+
+							Fang Lance+
+							140
+							Ice 22
+							R3
+							20%
+							O--
+							Amber Fang 3
+							Frost Sac 4
+							Tigrex Fang 6
+							8200z
+							Desc
+							Barioth Scraps 2
+
+					Hidden Stinger
+					150
+					R3
+					30%
+					---
+					Nargacuga Tail 1
+					Nargacuga Wing 3
+					Nargacuga Fang 6
+					15000z
+					Desc
+					Narga Scraps 2
+
+					Tiger Stinger
+					170
+					R3
+					-25%
+					---
+					Tigrex Scale 4
+					Tigrex Tail 1
+					Tigrex Claw 5
+					20000z
+					Tigrex Tail 2
+					Tigrex Shell 5
+					Tigrex Scale 2
+					Tigrex Fang 5
+					Desc
+					Tigrex Scraps 2
+
+				Drill Lance
+				140
+				Thunder 10
+				R3
+				5%
+				---
+				Dragonite Ore 5
+				Machalite Ore 10
+				Thunderbug 5
+				Monster Fluid 5
+				5900z
+				Desc
+				Ore Scraps 2
 
 Longhorn
 90
+Reg 2 1000z
 R1
 0%
 ---
@@ -43,32 +189,116 @@ Bone 5
 Desc
 Bone Scraps 2
 
-Gouging Hasta
-100
-R2
-0%
----
-2850z
-Rhenoplos Shell 3
-Sm Monster Bone 5
-Grt Jaggi Claw 2
-Warm Pelt 2
-Desc
-Rhnoplos Scraps 2
+	Longhorn+
+	110
+	Reg 2 1000z
+	R1
+	0%
+	---
+	Med Mnster Bone 1
+	Giant Bone 2
+	Carpenterbug 2
+	2500z
+	Desc
+	Bone Scraps 2
 
-Rampart
-140
-Def 8
-R2
-0%
----
-7350z
-Dragonite Ore 5
-Lightcrystal 3
-Bealite Ore 10
-Earth Crystal 12
-Desc
-Ore Scraps 2
+		Long Tusk
+		140
+		Reg 2 2000z
+		R2
+		0%
+		---
+		Lg Monster Bone 1
+		Med Mnster Bone 2
+		Killer Beetle 2
+		4900z
+		Desc
+		Bone Scraps 2
+
+			Diablos Horn
+			180
+			R3
+			-5%
+			---
+			Twisted Horn 1
+			Diablos Shell 4
+			Dragonite Ore 4
+			20000z
+			Twisted Horn 2
+			Diablos Spine 3
+			Blos Fang 5
+			Machalite Ore 5
+			Desc
+			Diablos Scraps 2
+
+			Doboru Spear
+			180
+			Def 14
+			R3
+			0%
+			---
+			Doboru Horn 3
+			Doboru Shell 4
+			Dragonite Ore 5
+			20000z
+			Desc
+			Doboru Scraps 2
+
+				Mountain's Point
+				220
+				Def 20
+				R6
+				0%
+				---
+				Doboru Horn+ 3
+				Mossy Carapace+ 6
+				Doboru Sacrum 1
+				Union Ore 5
+				70000z
+				Desc
+				Doboru Scraps+ 2
+
+		Red Tail
+		160
+		Fire 18
+		R3
+		0%
+		O--
+		Rathalos Scale 5
+		Rathalos Shell 3
+		Rathalos Tail 1
+		Flame Sac 2
+		15000z
+		Desc
+		Rathalos Scraps 2
+
+	Gouging Hasta
+	100
+	R2
+	0%
+	---
+	Rhenoplos Shell 2
+	Sm Monster Bone 3
+	Brd Wyvern Fang 6
+	1900z
+	Rhenoplos Shell 3
+	Sm Monster Bone 5
+	Grt Jaggi Claw 2
+	Warm Pelt 2
+	Desc
+	Rhnoplos Scraps 2
+
+	Wild Bone Lance
+	120
+	R1
+	0%
+	---
+	Bulldrome Tusk 2
+	Bullfango Pelt 5
+	Giant Bone 3
+	3200z
+	Desc
+	Bulldrme Scraps 2
 
 Spiral Lance
 120
@@ -134,32 +364,6 @@ Agnaktor Scale 8
 Uroktor Scale 4
 Desc
 Agnaktor Scraps 2
-
-Tiger Stinger
-170
-R3
--25%
----
-30000z
-Tigrex Tail 2
-Tigrex Shell 5
-Tigrex Scale 2
-Tigrex Fang 5
-Desc
-Tigrex Scraps 2
-
-Diablos Horn
-180
-R3
--5%
----
-30000z
-Twisted Horn 2
-Diablos Spine 3
-Blos Fang 5
-Machalite Ore 5
-Desc
-Diablos Scraps 2
 
 Divine Thunder
 160

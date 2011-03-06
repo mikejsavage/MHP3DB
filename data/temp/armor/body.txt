@@ -1261,6 +1261,22 @@ Slam 1
 Desc
 Doboru Scraps 2
 
+Acorn Mail
+12
+2 2 0 -2 0
+BG
+R3
+---
+Comrade Ticket 4
+Magma Shard 4
+Fire Stone 2
+Uragaan Shield 2
+2850z
+BombStrUp 2
+Gunnery 7
+Desc
+Ore Scraps 2
+
 Yamato Plate
 26
 3 0 0 -3 -3
@@ -2734,6 +2750,42 @@ Recoil 1
 PierceS Up 1
 Fire Res 3
 Water Res -2
+Desc
+Uragaan Scraps+ 2
+
+Uragaan Mail U
+53
+3 -5 1 -2 -3
+B
+R6
+O--
+SteelUragaanJaw 3
+SteelUrgnShield 2
+SteelUragaanScl 5
+Union Ore 3
+9100z
+Guard 5
+BombStrUp 1
+Dragon Res -1
+Will Recov 2
+Desc
+Uragaan Scraps+ 2
+
+Uragaan Vest U
+30
+5 -4 2 -1 -2
+G
+R6
+O--
+SteelUragaanJaw 3
+SteelUrgnShield 2
+SteelUragaanScl 5
+Union Ore 3
+9100z
+PelletS Up 3
+BombStrUp 2
+Dragon Res -1
+Will Recov 3
 Desc
 Uragaan Scraps+ 2
 
