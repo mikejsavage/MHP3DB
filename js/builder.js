@@ -890,7 +890,11 @@ function calc( force )
 			addSkills( type.short, piece.skills );
 
 			addStats( piece );
-			addMaterials( piece.create, piece.price );
+
+			if( piece.create != null )
+			{
+				addMaterials( piece.create, piece.price );
+			}
 		}
 	} );
 
