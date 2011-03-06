@@ -106,6 +106,9 @@ R3
 30z
 
 28 Max Potion
+sac yellow
+R3
+210z
 
 29 Ancient Potion
 sac red
@@ -2623,20 +2626,44 @@ R7
 15000z
 
 579 Alatreon Shell
+nshell purple
+R6
+5380z
 
 580 Alatreon Plate
+scale purple
+R6
+2960z
 
 581 Alatreon Claw
+claw purple
+R6
+3420z
 
 582 Alatreon Webbng
+webbing purple
+R6
+7200z
 
 583 Alatreon Tail
+shell purple
+R6
+9720z
 
 584 Alatreon Horn
+claw purple
+R6
+3800z
 
 585 Alatreon Horn+
+claw purple
+R6
+10000z
 
 586 Alatreon Jewel
+hvnly blue
+R7
+20000z
 
 587 Amatsu Shell
 nshell white
@@ -2686,6 +2713,9 @@ R4
 180z
 
 598 Lrg Ancnt Shard
+garbage gray
+R6
+360z
 
 599 Thn Ancnt Shard
 
@@ -2721,6 +2751,9 @@ R5
 0z
 
 608 Drink Ticket
+ticket green
+R5
+0z
 
 609 HotSpringTicket
 ticket cyan
@@ -3385,6 +3418,8 @@ charm yellow
 R5
 
 809 Ancient Charm
+charm red
+R6
 
 810 Suiko Jewel
 jewel cyan
