@@ -53,7 +53,7 @@ local function decodeString( str, pos )
 		pos = pos + 1
 	end
 
-	print( "FUCK" )
+	error( "unclosed string" )
 end
 
 local function decodeObject( str, pos )
@@ -74,7 +74,7 @@ local function decodeObject( str, pos )
 		end
 
 		if str:at( pos ) ~= "\"" then
-			print( "FUCK THIS SHOULD BE A STRING" )
+			error( "key should be a string" )
 		end
 
 		local key
@@ -83,7 +83,7 @@ local function decodeObject( str, pos )
 		pos = skip( str, pos )
 
 		if str:at( pos ) ~= ":" then
-			print( "FUCK MISSING :" )
+			error( "should be a : after key" )
 		end
 
 		pos = skip( str, pos + 1 )
@@ -97,14 +97,13 @@ local function decodeObject( str, pos )
 		end
 
 		if str:at( pos ) ~= "," then
-			print( str:sub( pos ) )
-			print( "FUCK THERE SHOULD BE A COMMA HERE" )
+			error( "should be a , or } after value" )
 		end
 
 		pos = pos + 1
 	end
 
-	print( "FUCK UNCLOSED }" )
+	error( "unclosed }" )
 end
 
 local function decodeArray( str, pos )
@@ -129,21 +128,21 @@ local function decodeArray( str, pos )
 		end
 
 		if str:at( pos ) ~= "," then
-			print( "FUCK THERE SHOULD BE A COMMA HERE" )
+			error( "should be a , or ] after value" )
 		end
 
 		idx = idx + 1
 		pos = pos + 1
 	end
 
-	print( "FUCK UNCLOSED ]" )
+	error( "unclosed ]" )
 end
 
 local function decodeNumber( str, pos )
 	local partInt = str:match( "^-?%d*", pos )
 
 	if not partInt then
-		print( "WHY THE FUCK DIDN'T I GET A NUMBER" )
+		error( "NaN" )
 	end
 
 	local number = partInt
@@ -197,7 +196,14 @@ function decodeValue( str, pos )
 end
 
 function decode( str )
-	return ( decodeValue( str, 1 ) )
+	local status, obj = pcall( decodeValue, str, 1 )
+
+	if status then
+		return obj
+	end
+
+	-- obj is actually an error code
+	return nil, obj
 end
 
 -- ENCODING
