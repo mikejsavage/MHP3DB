@@ -11,12 +11,14 @@ local Types =
 {
 	"lbg",
 	"hbg",
+	"bow",
 }
 
 local Bases =
 {
 	lbg = { name = { hgg = "Light Bowguns" } },
 	hbg = { name = { hgg = "Heavy Bowguns" } },
+	bow = { name = { hgg = "Bows" } },
 }
 
 local Reloads =
@@ -42,12 +44,62 @@ local Recoils =
 	Strong   = "strong",
 }
 
+local Elements =
+{
+	"fire",
+	"water",
+	"thunder",
+	"ice",
+	"dragon",
+	"poison",
+	"paralyze",
+	"sleep",
+}
+
+function isElement( element )
+	for _, elem in ipairs( Elements ) do
+		if elem == element then
+			return true
+		end
+	end
+
+	return false
+end
+
+local BowRains =
+{
+	Focused = "focused",
+	Spread  = "spread",
+	Blast   = "blast",
+}
+
+local BowCoatings =
+{
+	"power",
+	"poison",
+	"paralyze",
+	"sleep",
+	"razor",
+	"paint",
+	"fatigue",
+}
+
+local CoatingsPattern = "^" .. ( "([YN])" ):rep( table.getn( BowCoatings ) ) .. "$"
+
+local ChargeTypes =
+{
+	R = "rapid",
+	P = "pierce",
+	S = "scatter",
+}
+
 local MaxSlots = 3
 
 local LastShot = 1
 
--- perhaps a gigantic FSM was not
--- the best way of doing this
+
+-- FSM controlling how each line is parsed
+-- each action returns the key of the next state
 
 local Actions =
 {
@@ -64,23 +116,43 @@ local Actions =
 	end,
 
 	special = function( line, weapon )
-		local success, _, rarity = line:find( "^R(%d)$" )
+		local rarity = line:match( "^R(%d)$" )
 
-		if success then
+		if rarity then
 			weapon.rarity = tonumber( rarity )
 
 			return "affinity"
 		end
 
-		local success, _, defense = line:find( "^Def (%d+)$" )
 
-		if success then
+		local defense = line:match( "^Def (%d+)$" )
+
+		if defense then
 			weapon.defense = tonumber( defense )
 
 			return "special"
 		end
 
-		assert( nil, "bad special in " .. weapon.name.hgg .. ": " .. line )
+
+		local element, elemAttack = line:match( "^(%a+) (%d+)$" )
+
+		if element then
+			element = element:lower()
+
+			assert( isElement( element ), "bad element in " .. weapon.name.hgg .. ": " .. line )
+
+			weapon.element    = element
+			weapon.elemAttack = elemAttack
+
+			return "special"
+		end
+
+
+		assert( BowRains[ line ], "bad special in " .. weapon.name.hgg .. ": " .. line )
+
+		weapon.rain = BowRains[ line ]
+
+		return "special"
 	end,
 
 	affinity = function( line, weapon )
@@ -106,7 +178,7 @@ local Actions =
 
 		weapon.slots = slots
 
-		return "reload"
+		return weapon.rain and "improve" or "reload"
 	end,
 
 	reload = function( line, weapon )
@@ -187,54 +259,70 @@ local Actions =
 		local id, count = parseItem( line )
 
 		if not id then
-			local success, _, l1, l2, l3 = line:find( "^([%d!WMSG]+) ([%d!WMSG]+) ([%d!WMSG]+)$" )
+			if weapon.rain then
+				local chargeType, chargeLevel = line:match( "^(%u)(%d)$" )
+				
+				assert( chargeType, "bad charge in " .. weapon.name.hgg .. ": " .. line )
 
-			assert( success, "bad scrap in " .. weapon.name.hgg .. ": " .. line )
+				weapon.charges =
+				{
+					{
+						type  = ChargeTypes[ chargeType ],
+						level = tonumber( chargeLevel ),
+					}
+				}
 
-			local success, _, clip, l1RapidNum, l1RapidStr = l1:find( "^(%d+)!(%d)(%u)$" )
-			if success then
-				l1 = clip
+				return "charges"
 			else
-				local success, _, clip = l1:find( "^(%d+)!$" )
+				local success, _, l1, l2, l3 = line:find( "^([%d!WMSG]+) ([%d!WMSG]+) ([%d!WMSG]+)$" )
 
+				assert( success, "bad scrap in " .. weapon.name.hgg .. ": " .. line )
+
+				local success, _, clip, l1RapidNum, l1RapidStr = l1:find( "^(%d+)!(%d)(%u)$" )
 				if success then
 					l1 = clip
-					l1siege = true
+				else
+					local success, _, clip = l1:find( "^(%d+)!$" )
+
+					if success then
+						l1 = clip
+						l1siege = true
+					end
 				end
-			end
 
-			local success, _, clip, l2RapidNum, l2RapidStr = l2:find( "^(%d+)!(%d)(%u)$" )
-			if success then
-				l2 = clip
-			else
-				local success, _, clip = l2:find( "^(%d+)!$" )
-
+				local success, _, clip, l2RapidNum, l2RapidStr = l2:find( "^(%d+)!(%d)(%u)$" )
 				if success then
 					l2 = clip
-					l2siege = true
+				else
+					local success, _, clip = l2:find( "^(%d+)!$" )
+
+					if success then
+						l2 = clip
+						l2siege = true
+					end
 				end
-			end
 
-			local success, _, clip, l3RapidNum, l3RapidStr = l3:find( "^(%d+)!(%d)(%u)$" )
-			if success then
-				l3 = clip
-			else
-				local success, _, clip = l3:find( "^(%d+)!$" )
-
+				local success, _, clip, l3RapidNum, l3RapidStr = l3:find( "^(%d+)!(%d)(%u)$" )
 				if success then
 					l3 = clip
-					l3siege = true
+				else
+					local success, _, clip = l3:find( "^(%d+)!$" )
+
+					if success then
+						l3 = clip
+						l3siege = true
+					end
 				end
+
+				-- lua automatically drops nils from tables so the result is clean
+				weapon.shots = { {
+					{ clip = tonumber( l1 ), rapidClip = tonumber( l1RapidNum ), rapidStrength = l1RapidStrength, siege = l1siege },
+					{ clip = tonumber( l2 ), rapidClip = tonumber( l2RapidNum ), rapidStrength = l2RapidStrength, siege = l2siege },
+					{ clip = tonumber( l3 ), rapidClip = tonumber( l3RapidNum ), rapidStrength = l3RapidStrength, siege = l3siege },
+				} }
+
+				return "shots"
 			end
-
-			-- lua automatically drops nils from tables so the result is clean
-			weapon.shots = { {
-				{ clip = tonumber( l1 ), rapidClip = tonumber( l1RapidNum ), rapidStrength = l1RapidStrength, siege = l1siege },
-				{ clip = tonumber( l2 ), rapidClip = tonumber( l2RapidNum ), rapidStrength = l2RapidStrength, siege = l2siege },
-				{ clip = tonumber( l3 ), rapidClip = tonumber( l3RapidNum ), rapidStrength = l3RapidStrength, siege = l3siege },
-			} }
-
-			return "shots"
 		end
 
 		if not weapon.scraps then
@@ -303,6 +391,36 @@ local Actions =
 		end
 
 		return "shots"
+	end,
+
+	charges = function( line, weapon )
+		local chargeType, chargeLevel, loadUp = line:match( "^(%u)(%d)(!?)$" )
+
+		if not chargeType then
+			local coatings = { line:match( CoatingsPattern ) }
+
+			assert( table.getn( coatings ) == table.getn( BowCoatings ), "bad coatings in " .. weapon.name.hgg .. ": " .. line )
+
+			weapon.coatings = { }
+
+			for i, coating in ipairs( BowCoatings ) do
+				weapon.coatings[ coating ] = coatings[ i ] == "Y"
+			end
+
+			return "coatingsup"
+		end
+
+
+		table.insert( weapon.charges, {
+			type  = ChargeTypes[ chargeType ],
+			level = tonumber( chargeLevel ),
+			load  = loadUp ~= "" and loadUp or nil,
+		} )
+
+		return "charges"
+	end,
+
+	coatingsup = function( line, weapon )
 	end,
 }
 

@@ -8,6 +8,7 @@ Desc
 R1
 R1
 R2
+S2!
 YYNNNYN
 
 	Yukumo Bow
@@ -25,6 +26,7 @@ YYNNNYN
 	R1
 	P2
 	R2
+	S3!
 	YYNNNYN
 
 Arc Cero
@@ -42,14 +44,15 @@ Bnahabra Scraps 2
 S2
 S2
 P2
+R3!
 YNYNYYN
 
 Hunter's Bow I
 80
 Spread
+Def 5
 R1
 0%
-Def 5
 ---
 1155z
 Bone 4
@@ -61,6 +64,7 @@ Ore Scraps 1
 R1
 R2
 R2
+P3!
 YNNYYYY
 
 Froggi Revolver I
@@ -79,6 +83,7 @@ Ore Scraps 2
 R2
 P2
 R3
+S3!
 YYNNNYN
 Poison
 
@@ -99,6 +104,7 @@ Wood Scraps 2
 S2
 R1
 R2
+R3!
 NYYYNYY
 
 Heart Peco Bow I
@@ -118,6 +124,7 @@ Qurupeco Scraps 2
 S1
 S2
 S2
+S3!
 NNYYYYN
 
 Sponge Gear II
@@ -137,6 +144,7 @@ Ludroth Scraps 2
 S2
 P2
 P3
+P3!
 YNNNYYY
 
 Arc Cero Rouge
@@ -156,6 +164,7 @@ Bnahabra Scraps 2
 P1
 R2
 P3
+R3!
 YNYNYYN
 
 Arc Cero Blanc
@@ -175,6 +184,7 @@ Bnahabra Scraps 2
 S2
 P2
 P3
+S3!
 YNYNYYN
 
 Arc Cero Dorado
@@ -194,6 +204,7 @@ Bnahabra Scraps 2
 S2
 S2
 R3
+P3!
 YNYNYYN
 
 Arca Petra
@@ -230,6 +241,7 @@ GrtFroggiScraps 2
 R2
 P3
 R3
+S4!
 YYNYNYN
 Poison Sleep
 
@@ -250,6 +262,7 @@ Haprbkka Scraps 2
 R2
 R2
 R3
+P3!
 YNNYYYY
 
 Queen Blaster I
@@ -268,6 +281,7 @@ Rathian Scraps 2
 P2
 S2
 S3
+R3!
 YYYNYYN
 Poison
 
@@ -287,6 +301,7 @@ Ore Scraps 2
 R1
 P2
 R3
+S3!
 YYYYYYY
 
 Distant Thunder I
@@ -306,6 +321,7 @@ Jinouga Scraps 2
 R2
 R3
 P3
+R4!
 YNYNYYN
 
 Ice Crest I
@@ -325,6 +341,7 @@ Barioth Scraps 2
 R2
 P2
 R3
+S4!
 YNNYYYN
 
 Brass Corda I
@@ -345,6 +362,7 @@ Uragaan Scraps 2
 P1
 R1
 R2
+P2!
 YNNYNYY
 Sleep
 
@@ -363,6 +381,7 @@ Narga Scraps 2
 R3
 P2
 P3
+P4!
 YYYNYYN
 
 Tiger Arrow
@@ -381,6 +400,7 @@ Tigrex Scraps 2
 R2
 R3
 R4
+S4!
 YYNNNYY
 
 Diablos Horn Bow I
@@ -412,12 +432,13 @@ OO-
 15000z
 Commendation 1
 Kelbi Horn 4
-Doburo Horn 4
+Doboru Horn 4
 Desc
 Courage Scraps 1
 S2
 S3
 R3
+R4!
 YYYYYYY
 
 Dune Bow
@@ -437,6 +458,7 @@ JhenMhranScraps 2
 R2
 P3
 S4
+P4!
 NYYYYYN
 
 Heart Peco Bow III
@@ -452,10 +474,11 @@ Qurupeco Wing 6
 Flintstone 10
 Carbalite Ore 5
 Desc
-Qurupeco Scraps+ 2
+Qurupco Scraps+ 2
 S2
 S3
 S4
+S4!
 NNYYYYN
 
 Amethyst Gear I
@@ -475,6 +498,7 @@ Ludroth Scraps+ 2
 S1
 P2
 P3
+S4!
 YYNNYYY
 
 Arc Dos Rouge
@@ -490,10 +514,11 @@ Monster Broth 4
 Quality Abdomen 6
 Flame Sac 8
 Desc
-Bnahabra Scraps+ 2
+Bnahbra Scraps+ 2
 P2
 R3
 P3
+R4!
 YNYNYYN
 Paralysis
 
@@ -510,10 +535,11 @@ Monster Broth 4
 Quality Abdomen 6
 Urukusu Claw 6
 Desc
-Bnahabra Scraps+ 2
+Bnahbra Scraps+ 2
 S2
 P3
 P3
+S4!
 YNYNYYN
 Paralysis
 
@@ -530,10 +556,11 @@ Monster Broth 4
 Quality Abdomen 6
 Mega Thunderbug 10
 Desc
-Bnahabra Scraps+ 2
+Bnahbra Scraps+ 2
 S2
 S3
 R3
+P4!
 YNYNYYN
 Paralysis
 
@@ -555,6 +582,7 @@ Ore Scraps 1
 R2
 R3
 R3
+P3!
 YNNYYYY
 
 64th Div Bow III
@@ -574,6 +602,7 @@ Hapbkka Scraps+ 2
 R2
 R3
 R3
+P4!
 YNNYYYY
 
 Ice Crest II
@@ -593,6 +622,7 @@ Barioth Scraps+ 2
 R2
 P3
 R3
+S4!
 YNNYYYN
 
 Agile Saber
@@ -605,7 +635,7 @@ O--
 SandBariothShl 4
 Sapphire Fang 2
 SandBariothClw 4
-Hand Pleura 2
+Hard Pleura 2
 Desc
 Barioth Scraps+ 2
 P2
@@ -632,6 +662,7 @@ Uragaan Scraps+ 2
 P1
 R1
 R2
+P2!
 YNNYNYY
 
 Ghillie bow
@@ -670,6 +701,7 @@ Jinouga Scraps+ 2
 R2
 R3
 P4
+R4!
 YNYNYYN
 
 Ebony King Bow
@@ -706,9 +738,10 @@ Amber Fang+ 4
 Jhen Mhran Fang 4
 Desc
 JhenMhranScraps 2
-R
+R2
 P3
 S4
+P4!
 NYYYYYN
 
 Selene's Sting
@@ -728,6 +761,7 @@ Rathian Scraps+ 2
 P2
 S3
 S4
+R4!
 YYYNYYN
 Poison
 
@@ -747,6 +781,7 @@ Desc
 Akantor Scraps 2
 S2
 P3
+R4!
 YYNNYYN
 
 Ukanlos Frostbreath
@@ -763,6 +798,11 @@ Ukanlos Scale 4
 Ukanlos Jewel 1
 Desc
 Ukanlos Scraps 2
+S2
+R3
+P4
+S4!
+YNNYNYY
 
 Night Tempest
 250
@@ -778,4 +818,8 @@ Amatsu Claw 6
 Amatsu Jewel 1
 Desc
 Amatsu Scraps 2
+R2
+R3
+S4
+P4
 NYYYYYY

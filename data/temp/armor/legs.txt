@@ -3270,3 +3270,37 @@ Loading 3
 Precision 3
 SpeedSetup 2
 Desc
+
+The Boss Boots
+47
+1 1 1 1 1
+B
+R7
+OO-
+Big Boss Title 1
+Haprbokka Hide+ 4
+Mossy Carapace+ 2
+Doboru Tail+ 2
+9000z
+Sense 2
+Elemental -2
+Psychic 3
+FastCharge 2
+Desc
+
+The Boss Shoes
+26
+2 2 2 2 2
+G
+R7
+O--
+Big Boss Title 1
+Haprbokka Hide+ 4
+Mossy Carapace+ 2
+Doboru Tail+ 2
+9000z
+Sense 2
+Elemental -2
+Psychic 3
+Loading 4
+Desc

@@ -3311,3 +3311,37 @@ Loading 4
 Precision 3
 SpeedSetup 2
 Desc
+
+The Boss Gloves
+47
+1 1 1 1 1
+B
+R7
+OO-
+Big Boss Title 1
+Hapurbokka Clw+ 2
+Hapurubokka Cpc 3
+Doboru Carapace 3
+9000z
+Sense 2
+Elemental -1
+Psychic 4
+FastCharge 2
+Desc
+
+The Boss Arms
+26
+2 2 2 2 2
+G
+R7
+O--
+Big Boss Title 1
+Hapurbokka Clw+ 2
+Hapurubokka Cpc 3
+Doboru Carapace 3
+9000z
+Sense 2
+Elemental -3
+Psychic 3
+Loading 3
+Desc

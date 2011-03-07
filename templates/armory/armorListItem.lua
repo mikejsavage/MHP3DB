@@ -25,7 +25,7 @@
 					or 
 						( alt and ", %-10s    \n" or "%-10s    " )
 
-				print( form:format( T( Skills[ skill.id ].name ), skill.points ) )
+				printf( form, T( Skills[ skill.id ].name ), skill.points )
 
 				alt = not alt
 			end

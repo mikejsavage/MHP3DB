@@ -10,6 +10,7 @@ local TreeHeaders =
 
 	lbg = "weapons/gunTreeHeader",
 	hbg = "weapons/gunTreeHeader",
+	bow = "weapons/bowTreeHeader",
 
 	def = "weapons/meleeTreeHeader",
 }
@@ -23,6 +24,7 @@ local TreeInfos =
 
 	lbg = "weapons/gunTreeInfo",
 	hbg = "weapons/gunTreeInfo",
+	bow = "weapons/bowTreeInfo",
 
 	def = "weapons/meleeTreeInfo",
 }

@@ -3470,3 +3470,37 @@ Loading 3
 Precision 3
 SpeedSetup 1
 Desc
+
+The Boss Suit
+47
+1 1 1 1 1
+B
+R7
+OO-
+Big Boss Title 1
+Hapurubokka Cpc 6
+Haprbokka Hide+ 2
+Mossy Carapace+ 2
+9000z
+Sense 2
+Elemental -1
+Psychic 2
+FastCharge 2
+Desc
+
+The Boss Body
+26
+2 2 2 2 2
+G
+R7
+O--
+Big Boss Title 1
+Hapurubokka Cpc 6
+Haprbokka Hide+ 2
+Mossy Carapace+ 2
+9000z
+Sense 2
+Elemental -2
+Psychic 2
+Loading 3
+Desc

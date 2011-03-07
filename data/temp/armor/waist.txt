@@ -3261,3 +3261,37 @@ Loading 3
 Precision 4
 SpeedSetup 2
 Desc
+
+The Boss Belt
+47
+1 1 1 1 1
+B
+R7
+OO-
+Big Boss Title 1
+Hapurbokka Clw+ 1
+Wyvern Stone 1
+Doboru Carapace 3
+9000z
+Sense 2
+Elemental -2
+Psychic 3
+FastCharge 2
+Desc
+
+The Boss Band
+26
+2 2 2 2 2
+G
+R7
+O--
+Big Boss Title 1
+Hapurbokka Clw+ 1
+Wyvern Stone 1
+Doboru Carapace 3
+9000z
+Sense 2
+Elemental -2
+Psychic 4
+Loading 3
+Desc

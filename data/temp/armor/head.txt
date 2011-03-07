@@ -3502,6 +3502,40 @@ Precision 3
 SpeedSetup 4
 Desc
 
+The Boss Face
+47
+1 1 1 1 1
+BG       
+R7
+OO-
+Big Boss Title 1
+Hprbkka Skl Shl 2
+Doboru Horn+ 1
+Doboru Sacrum 1
+9000z
+Sense 2
+Elemental -2
+Psychic 3
+FastCharge 2
+Desc
+
+The Boss Mask
+26
+2 2 2 2 2   
+BG          
+R7
+OO-
+Big Boss Title 1
+Hprbkka Skl Shl 2
+Doboru Horn+ 1
+Doboru Sacrum 1
+9000z
+Sense 3
+Elemental -1
+Psychic 4
+Loading 3
+Desc
+
 Sword Saint Piercing
 10
 0 0 0 0 0
