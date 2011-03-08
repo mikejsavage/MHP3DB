@@ -354,13 +354,7 @@ function sharpPWidth( img, x, y )
 
 	local width = 0
 
-	while true do
-		local color = img:get_pixel( x, y )
-
-		if not colorEqual( color, SharpPMarker ) then
-			break
-		end
-
+	while colorEqual( img:get_pixel( x, y ), SharpPMarker ) do
 		width = width + 1
 
 		-- move backwards since we started at the end
@@ -431,9 +425,7 @@ function readSharpness( weapon )
 
 		-- end of sharpness bar
 		if idx == -1 then
-			local nextColor = img:get_pixel( x + 1, y )
-
-			if colorEqual( nextColor, SharpPMarker ) then
+			if colorEqual( img:get_pixel( x + 1, y ), SharpPMarker ) then
 			   	-- the table in weapon.sharpness actually contains
 				-- sharpness +1 info at this point, so let's copy
 				-- the table and correct it using the fact that
