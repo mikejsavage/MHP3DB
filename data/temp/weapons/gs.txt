@@ -213,6 +213,19 @@ Tigrex Skl Shl 1
 Desc
 Tigrex Scraps 2
 
+Fall Parasol
+130
+R3
+0%
+OOO
+7350z
+Drink Ticket 3
+Yukumo Wood 5
+Armorskin 5
+Rathalos Scale 3
+Desc
+Wood Scraps 1
+
 Storm Lightning
 160
 Thunder 30

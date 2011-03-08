@@ -1193,6 +1193,9 @@ R6
 112z
 
 290 Quality Abdomen
+sac lime
+R4
+336z
 
 291 Bullfango Pelt
 hide orange
@@ -3237,6 +3240,9 @@ R4
 754 GrtFrggiScraps+
 
 755 GrtBaggiScraps
+scraps cyan
+R4
+50z
 
 756 GrtBaggiScraps+
 
@@ -3360,6 +3366,9 @@ R6
 790 Diablos Scraps+
 
 791 Agnaktor Scraps
+scraps red
+R4
+150z
 
 792 Agnktor Scraps+
 scraps red

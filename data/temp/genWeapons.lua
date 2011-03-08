@@ -99,8 +99,9 @@ local SharpEnds =
 {
 	imlib2.color.new(   0,   0,   0 ),
 	imlib2.color.new(  48,  44,  32 ), -- for a full sharpness bar
-	imlib2.color.new(  40,  40,  32 ), -- sharpness +1 end marker?
-	imlib2.color.new(  40,  36,  32 ), -- sharpness +1 end marker?
+	imlib2.color.new(  40,  40,  32 ), -- sharpness +1 end markers?
+	imlib2.color.new(  40,  36,  32 ),
+	imlib2.color.new(  48,  48,  40 ),
 }
 
 local SharpPMarker = imlib2.color.new(  96, 228, 248 )
