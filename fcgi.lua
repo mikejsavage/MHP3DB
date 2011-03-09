@@ -31,6 +31,7 @@ Armors,      ArmorsJSON      = data( "armors" )
 Decorations, DecorationsJSON = data( "decorations" )
 Items,       ItemsJSON       = data( "items" )
 Skills,      SkillsJSON      = data( "skills" )
+Shots,       ShotsJSON       = data( "shots" )
 
 Commits      = data( "commits" )
 LastModified = data( "modified" )
