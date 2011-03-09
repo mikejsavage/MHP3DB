@@ -252,6 +252,13 @@ img.icon {
 	margin-left: -1px;
 }
 
+/* bow charge tables */
+
+table.charges td:first-child {
+	padding-right: 0.5em;
+	vertical-align: top;
+}
+
 /* set generator output */
 
 .wanted {
@@ -332,7 +339,7 @@ img.icon {
 	border-top: 0;
 }
 
-.data.eq.weapons .load {
+.charges .load {
 	color: #6bf36e;
 }
 

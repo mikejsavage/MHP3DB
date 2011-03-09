@@ -39,11 +39,16 @@ TATP: {{ getTATP( weapon ) }}<br>
 
 Rain: {{ weapon.rain }}<br>
 
-Charges: {%
-	for _, charge in ipairs( weapon.charges ) do
-		printf( charge.load and [[<div class="load">%-7s Lv%d</div>]] or "%-7s Lv%d\n", charge.type, charge.level )
-	end
-%}
+<table class="charges">
+	<tr>
+		<td>Charges:</td>
+		<td>{%
+			for _, charge in ipairs( weapon.charges ) do
+				printf( charge.load and [[<div class="load">%-7s Lv%d</div>]] or "%-7s Lv%d<br>", charge.type, charge.level )
+			end
+		%}</td>
+	</tr>
+</table>
 
 Coatings: {%
 	for _, coating in ipairs( BowCoatings ) do
