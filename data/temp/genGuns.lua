@@ -474,7 +474,7 @@ for _, short in pairs( Types ) do
 				if depth ~= 1 then
 					local from = lastDepth[ depth - 1 ]
 
-					weapon.improve = { from = { from }, materials = { } }
+					weapon.improve = { from = from, materials = { } }
 
 					if not class.weapons[ from ].upgrades then
 						class.weapons[ from ].upgrades = { }
