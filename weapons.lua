@@ -76,11 +76,11 @@ if Get.class then
 			local weapon = weaponFromName( class, Get.name )
 
 			if weapon then
-				local meleeInfo = loadTemplate( "weapons/meleeInfo" )
+				local info = loadTemplate( "weapons/info" )
 
 				header( T( weapon.name ) )
 
-				print( meleeInfo( { weapon = weapon, class = class } ) )
+				print( info( { class = class, weapon = weapon } ) )
 
 				state = "weapon"
 			end
@@ -103,11 +103,11 @@ if Get.class then
 				local weapon = weaponFromName( class, Get.name )
 
 				if weapon then
-					local gunInfo = loadTemplate( "weapons/gunInfo" )
+					local info = loadTemplate( "weapons/info" )
 
 					header( T( weapon.name ) )
 
-					print( gunInfo( { weapon = weapon, class = class } ) )
+					print( info( { class = class, weapon = weapon } ) )
 
 					state = "weapon"
 				end
