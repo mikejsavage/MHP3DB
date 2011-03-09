@@ -11,6 +11,8 @@ local creationPathItem = loadTemplate( "weapons/creationPathItem" )
 		<th>Create</th>
 	</tr>
 
+	{{ creationPathItem( { class = class, weapon = weapon } ) }}
+
 	{%
 	for depth, idx in ipairs( weapon.path ) do
 		print( creationPathItem( { class = class, weapon = class.weapons[ idx ] } ) )
