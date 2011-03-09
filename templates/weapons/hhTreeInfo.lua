@@ -4,7 +4,7 @@
 
 <td>{%
 for _, note in ipairs( weapon.notes ) do
-	printf( "<span class='note%s'>%s</span>", note, Special.note ) )
+	printf( "<span class='note%s'>%s</span>", note, Special.note )
 end
 %}</td>
 
