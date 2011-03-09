@@ -433,7 +433,21 @@ function doLine( line, weapon, state )
 		print( state )
 	end
 
-	return Actions[ state ]( line:detab(), weapon )
+	return Actions[ state ]( line, weapon )
+end
+
+function generatePath( weapon, weapons, path )
+	if not path then
+		path = { }
+	end
+
+	if weapon.improve then
+		table.insert( path, weapon.improve.from )
+
+		return generatePath( weapons[ weapon.improve.from ], weapons, path )
+	end
+
+	return table.getn( path ) ~= 0 and path or nil
 end
 
 local Weapons = { }
@@ -453,7 +467,11 @@ for _, short in pairs( Types ) do
 	local currentIdx = 1
 
 	for line in io.lines() do
-		if line == "" then
+		local trimmed = line:detab()
+
+		if trimmed == "" then
+			weapon.path = generatePath( weapon, class.weapons )
+
 			table.insert( class.weapons, weapon )
 
 			state = "init"
@@ -484,7 +502,7 @@ for _, short in pairs( Types ) do
 				end
 			end
 
-			state = doLine( line, weapon, state )
+			state = doLine( trimmed, weapon, state )
 		end
 	end
 
