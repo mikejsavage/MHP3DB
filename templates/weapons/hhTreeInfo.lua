@@ -3,9 +3,9 @@
 <td>{{ getTATP( weapon ) }}</td>
 
 <td>{%
-for _, note in ipairs( weapon.notes ) do
-	printf( "<span class='note%s'>%s</span>", note, Special.note )
-end
+	for _, note in ipairs( weapon.notes ) do
+		printf( "<span class='note%s'>%s</span>", note, Special.note )
+	end
 %}</td>
 
 {{ weapon.element and ( "<td class='elem%s'>%d" ):format( weapon.element, weapon.elemAttack ) or "<td class='none'>-" }}</td>
