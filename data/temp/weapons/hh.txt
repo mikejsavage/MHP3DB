@@ -13,7 +13,9 @@ Desc
 	R1
 	0%
 	---
-	750z
+	Yukumo Wood 1
+	Iron Ore 1
+	500z
 	Yukumo Wood 4
 	Iron Ore 2
 	Desc

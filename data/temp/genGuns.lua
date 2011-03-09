@@ -472,6 +472,10 @@ for _, short in pairs( Types ) do
 		if trimmed == "" then
 			weapon.path = generatePath( weapon, class.weapons )
 
+			-- if the weapon is an upgrade then check
+			-- i didn't forget the materials
+			assert( not weapon.improve or table.getn( weapon.improve.materials ) ~= 0, "no improve materials for " .. weapon.name.hgg )
+
 			table.insert( class.weapons, weapon )
 
 			state = "init"

@@ -36,7 +36,9 @@ Desc
 	Normal
 	None
 	Moderate
-	900z
+	Yukumo Wood 1
+	Iron Ore 1
+	600z
 	Yukumo Wood 2
 	Iron Ore 4
 	Desc

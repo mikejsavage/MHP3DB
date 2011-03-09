@@ -3066,6 +3066,8 @@ R3
 200pts
 
 702 Goldstone Hunk
+ore yellow
+R4
 
 703 FlowrstonePiece
 ore pink

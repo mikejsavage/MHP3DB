@@ -34,211 +34,255 @@ Desc
 		Wood Scraps 1
 		Ore Scraps 1
 
-	Twin Daggers
-	80
-	R1
-	0%
-	---
-	Iron Ore 4
-	Earth Crystal 2
-	800z
-	Machalite Ore 1
-	Earth Crystal 4
-	Carpenterbug 2
-	Desc
-	Ore Scraps 2
+		Twin Daggers
+		80
+		R1
+		0%
+		---
+		Iron Ore 4
+		Earth Crystal 2
+		800z
+		Machalite Ore 1
+		Earth Crystal 4
+		Carpenterbug 2
+		Desc
+		Ore Scraps 2
 
-	Bone Scythes
-	90
-	Reg 2 1000z
-	R1
-	0%
-	---
-	Bone 2
-	Brd Wyvern Fang 2
-	1120z
-	Bone 4
-	Brd Wyvern Fang 4
-	Desc
-	Bone Scraps 2
-
-		Bone Scythes+
-		120
+		Bone Scythes
+		90
 		Reg 2 1000z
 		R1
 		0%
 		---
-		Med Mnster Bone 2
-		Sharp Fang 4
-		2560z
+		Bone 2
+		Brd Wyvern Fang 2
+		1120z
+		Bone 4
+		Brd Wyvern Fang 4
 		Desc
 		Bone Scraps 2
 
-			Ludroth Twins
+			Bone Scythes+
 			120
-			Water 16
-			R2
+			Reg 2 1000z
+			R1
 			0%
-			O--
-			Spongy Hide 2
-			Juvenile Sponge 4
-			Bone 6
-			Aqua Sac 2
-			3920z
-			Desc
-			Ludroth Scraps 2
-
-			Twin Flames
-			150
-			R2
-			0%
-			O--
-			Rathalos Scale 4
-			Rathian Scale 4
-			Rathalos Webbng 2
-			Rathian Webbing 2
-			5600z
-			Desc
-			Rathalos Scraps 1
-			Rathian Scraps 1
-
-			Dual Diablos
-			190
-			Def 10
-			R3
-			-5%
 			---
-			Twisted Horn 2
-			DiablosTailbone 4
-			Blos Fang 4
-			20000z
+			Med Mnster Bone 2
+			Sharp Fang 4
+			2560z
 			Desc
-			Diablos Scraps 2
+			Bone Scraps 2
 
-	Jaggi Shotel
-	80
-	Reg 2 1000z
-	R1
-	0%
-	O--
-	Jaggi Scale 2
-	Jaggi Hide 2
-	Brd Wyvern Fang 4
-	Iron Ore 2
-	800z
-	Desc
-	Ore Scraps 2
+				Ludroth Twins
+				120
+				Reg 2 2000z
+				Water 16
+				R2
+				0%
+				O--
+				Spongy Hide 2
+				Juvenile Sponge 4
+				Bone 6
+				Aqua Sac 2
+				3920z
+				Desc
+				Ludroth Scraps 2
 
-		Jaggi Shotel+
-		100
-		Reg 2 2000z
-		R2
+					Ludroth Twins+
+					160
+					Water 20
+					R3
+					0%
+					O--
+					RoyalLudrothScl 4
+					RoyalLudrthTail 2
+					RyalLudrthCrest 1
+					Doboru Tail 2
+					7600z
+					Desc
+					Ludroth Scraps 2
+
+				Twin Flames
+				150
+				R2
+				0%
+				O--
+				Rathalos Scale 4
+				Rathian Scale 4
+				Rathalos Webbng 2
+				Rathian Webbing 2
+				5600z
+				Desc
+				Rathalos Scraps 1
+				Rathian Scraps 1
+
+				Dual Diablos
+				190
+				Def 10
+				R3
+				-5%
+				---
+				Twisted Horn 2
+				DiablosTailbone 4
+				Blos Fang 4
+				20000z
+				Desc
+				Diablos Scraps 2
+
+		Jaggi Shotel
+		80
+		Reg 2 1000z
+		R1
 		0%
 		O--
-		Grt Jaggi Claw 2
-		Grt Jaggi Hide 4
-		Earth Crystal 6
-		1520z
+		Jaggi Scale 2
+		Jaggi Hide 2
+		Brd Wyvern Fang 4
+		Iron Ore 2
+		800z
 		Desc
-		GrtJaggi Scraps 2
+		Ore Scraps 2
 
-			Leader Shotel
-			150
+			Jaggi Shotel+
+			100
 			Reg 2 2000z
 			R2
 			0%
 			O--
-			Grt Baggi Claw 2
-			Regal Frill 2
-			Uroktor Scale 4
-			Grt Frggi Arm 4
-			3920z
+			Grt Jaggi Claw 2
+			Grt Jaggi Hide 4
+			Earth Crystal 6
+			1520z
 			Desc
-			GrtBaggiScraps 1
-			GrtJaggi Scraps 1
+			GrtJaggi Scraps 2
 
-				Flamestorm
-				140
-				Pls 2 3000z
-				Fire 25
-				R3
-				30%
-				---
-				Agnaktor Shell 4
-				Agnaktor Hide 2
-				Agnaktor Fin 2
-				Agnaktor Scale 4
-				20000z
-				Desc
-				Agnaktor Scraps 2
-
-					Salamander
-					180
-					Hrd 2 8000z
-					Fire 32
-					R6
-					35%
-					---
-					Agnaktor Carpce 4
-					Agnaktor Hide+ 2
-					Agnaktor Fin+ 4
-					Uroktor Scale+ 8
-					70000z
-					Desc
-					Agnktor Scraps+ 2
-
-					Aquastorm
-					170
-					Water 24
-					R5
-					15%
-					---
-					Ice Agnktor Shl 4
-					Ice Agnktr Hide 2
-					Ice Agnktor Fin 2
-					IceAgnktorSnout 1
-					50000z
-					Desc
-					Agnktor Scraps+ 2
-
-				Hidden Daggers
-				140
-				R3
-				40%
+				Leader Shotel
+				150
+				Reg 2 2000z
+				R2
+				0%
 				O--
-				Nargacuga Wing 4
-				Narga Scale 2
-				Nargacuga Fang 4
-				15000z
+				Grt Baggi Claw 2
+				Regal Frill 2
+				Uroktor Scale 4
+				Grt Frggi Arm 4
+				3920z
 				Desc
-				Narga Scraps 2
+				GrtBaggiScraps 1
+				GrtJaggi Scraps 1
 
-			Blood Wings
-			130
-			Poison 12
-			R3
-			0%
-			---
-			Gigginox Hide 2
-			Uncanny Hide 2
-			Poison Gland 2
-			Lg Monster Bone 4
-			4720z
-			Desc
-			Gigginox Scraps 2
+					Flamestorm
+					140
+					Pls 2 3000z
+					Fire 25
+					R3
+					30%
+					---
+					Agnaktor Shell 4
+					Agnaktor Hide 2
+					Agnaktor Fin 2
+					Agnaktor Scale 4
+					20000z
+					Desc
+					Agnaktor Scraps 2
 
-			Snow Twins
-			120
-			Ice 18
-			R2
-			0%
-			---
-			Urukusu Pelt 6
-			Urukusu Belly 2
-			Urukusu Claw 2
-			3920z
-			Desc
-			Urukusu Scraps 2
+						Salamander
+						180
+						Hrd 2 8000z
+						Fire 32
+						R6
+						35%
+						---
+						Agnaktor Carpce 4
+						Agnaktor Hide+ 2
+						Agnaktor Fin+ 4
+						Uroktor Scale+ 8
+						70000z
+						Desc
+						Agnktor Scraps+ 2
+
+						Aquastorm
+						170
+						Water 24
+						R5
+						15%
+						---
+						Ice Agnktor Shl 4
+						Ice Agnktr Hide 2
+						Ice Agnktor Fin 2
+						IceAgnktorSnout 1
+						50000z
+						Desc
+						Agnktor Scraps+ 2
+
+					Hidden Daggers
+					140
+					R3
+					40%
+					O--
+					Nargacuga Wing 4
+					Narga Scale 2
+					Nargacuga Fang 4
+					15000z
+					Desc
+					Narga Scraps 2
+
+				Blood Wings
+				130
+				Poison 12
+				R3
+				0%
+				---
+				Gigginox Hide 2
+				Uncanny Hide 2
+				Poison Gland 2
+				Lg Monster Bone 4
+				4720z
+				Desc
+				Gigginox Scraps 2
+
+				Snow Twins
+				120
+				Reg 2 2000z
+				Ice 18
+				R2
+				0%
+				---
+				Urukusu Pelt 6
+				Urukusu Belly 2
+				Urukusu Claw 2
+				3920z
+				Desc
+				Urukusu Scraps 2
+
+					Snow Twins+
+					150
+					Pls 2 3000z
+					Ice 25
+					R3
+					0%
+					---
+					Urukusu Belly 4
+					Urukusu Ear 2
+					Frost Sac 2
+					6560z
+					Desc
+					Urukusu Scraps 2
+
+						Snow Gemini
+						200
+						Ice 30
+						R5
+						0%
+						---
+						Urukusu Pelt+ 6
+						Urksu Hrd Belly 4
+						Urukusu Claw+ 2
+						Frozen Mucus 2
+						35000z
+						Desc
+						Urukusu Scraps+ 2
 
 Hunter Dumplings
 70
