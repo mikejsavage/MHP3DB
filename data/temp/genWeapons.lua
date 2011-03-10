@@ -113,16 +113,16 @@ function colorEqual( c1, c2 )
 end
 
 function sharpIdx( color )
-	for _, endSharp in ipairs( SharpEnds ) do
-		if colorEqual( endSharp, color ) then
-			return -1
-		end
-	end
-
 	for i, sharpColor in ipairs( SharpColors ) do
 		if colorEqual( sharpColor, color ) then
 			return i
 		end
+	end
+
+	if color.red   < 50 and
+	   color.green < 50 and
+	   color.blue  < 50 then
+		return -1
 	end
 
 	return 0

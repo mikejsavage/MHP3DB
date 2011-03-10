@@ -272,6 +272,7 @@ Desc
 
 						Snow Gemini
 						200
+						Hrd 2 7000z
 						Ice 30
 						R5
 						0%
