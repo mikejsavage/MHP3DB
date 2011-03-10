@@ -119,6 +119,8 @@ function sharpIdx( color )
 		end
 	end
 
+	-- stupid constantly changing bar between
+	-- the sharpness bar and sharp +1 marker
 	if color.red   < 50 and
 	   color.green < 50 and
 	   color.blue  < 50 then
