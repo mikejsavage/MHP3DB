@@ -83,3 +83,9 @@ function table.copy( arr )
 
 	return new
 end
+
+function colorEqual( c1, c2 )
+	return c1.red   == c2.red   and
+	       c1.green == c2.green and
+	       c1.blue  == c2.blue
+end

@@ -106,12 +106,6 @@ local SharpEnds =
 
 local SharpPMarker = imlib2.color.new(  96, 228, 248 )
 
-function colorEqual( c1, c2 )
-	return c1.red   == c2.red   and
-	       c1.green == c2.green and
-	       c1.blue  == c2.blue
-end
-
 function sharpIdx( color )
 	for i, sharpColor in ipairs( SharpColors ) do
 		if colorEqual( sharpColor, color ) then

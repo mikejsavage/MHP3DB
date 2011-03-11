@@ -12,8 +12,14 @@ R4
 4 Book of Combos 5
 
 5 Organizer Guide
+book blue
+R4
+buy 3000z
 
 6 BackPacker Guide
+book red
+R5
+buy 5000z
 
 7 Potion
 drink green
@@ -1953,6 +1959,9 @@ R5
 4850z
 
 442 Jinouga Jewel
+ball teal
+R7
+9700z
 
 443 Narga Scale
 scale gray
@@ -2552,6 +2561,9 @@ R6
 4000z
 
 563 Deviljho Drool
+drink moss
+R6
+1700z
 
 564 Deviljho Jewel
 hvnly moss
@@ -2895,48 +2907,114 @@ R5
 646 MH Club Form
 
 647 Lynian Info
+book white
+R1
+buy 100z
 
 648 Neopteron Info
+book white
+R1
+buy 100z
 
 649 Piscine Info
+book white
+R1
+buy 100z
 
 650 Herbivore Info
+book white
+R1
+buy 100z
 
 651 Bird Wyvern Info 1
+book white
+R1
+buy 200z
 
 652 Bird Wyvern Info 2
+book white
+R2
+buy 200z
 
 653 Pelagus Info
+book white
+R1
+buy 200z
 
 654 Brute Wyvern Info 1
+book white
+R1
+buy 300z
 
 655 Brute Wyvern Info 2
+book white
+R2
+buy 300z
 
 656 Doboruberuku Info
+book white
+R2
+buy 200z
 
 657 Deviljho Info
+book white
+R3
+buy 500z
 
 658 Leviathan Info 1
+book white
+R1
+buy 300z
 
 659 Leviathan Info 2
+book white
+R2
+buy 300z
 
 660 Hapurubokka info
+book white
+R2
+buy 200z
 
 661 FlyingWyvernInfo 1
+book white
+R1
+buy 300z
 
 662 FlyingWyvernInfo 2
+book white
+R2
+buy 200z
 
 663 Akantor Info
+book white
+R3
+buy 500z
 
 664 Ukanlos Info
+book white
+R3
+buy 500z
 
 665 Jinouga Info
+book white
+R2
+buy 200z
 
 666 Jhen Mohran Info
+book white
+R3
+buy 500z
 
 667 Amatsu Info
+book white
+R3
+buy 500z
 
 668 Alatreon Info
+book white
+R3
+buy 500z
 
 669 Map
 map white

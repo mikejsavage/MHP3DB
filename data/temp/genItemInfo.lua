@@ -55,6 +55,18 @@ local Actions =
 			return "main"
 		end
 
+		local buyPrice = line:match( "^buy (%d+)z" )
+
+		if buyPrice then
+			if not item.obtain then
+				item.obtain = { }
+			end
+
+			item.obtain.buy = { price = tonumber( buyPrice ) }
+
+			return "main"
+		end
+
 		local success, _, points = line:find( "^(%d+)pts$" )
 
 		if success then
