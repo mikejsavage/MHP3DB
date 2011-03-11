@@ -156,6 +156,8 @@ local Actions =
 	init = function( line, weapon )
 		assert( Names[ line ], "bad name: " .. line )
 
+		Names[ line ] = nil
+
 		weapon.name = { hgg = line }
 
 		return "attack"

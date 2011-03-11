@@ -184,6 +184,10 @@ Desc
 					Agnaktor Fin 2
 					Agnaktor Scale 4
 					20000z
+					Agnaktor Shell 6
+					Agnaktor Hide 4
+					Igneous Thorax 2
+					Uroktor Scale 8
 					Desc
 					Agnaktor Scraps 2
 
@@ -225,6 +229,10 @@ Desc
 					Narga Scale 2
 					Nargacuga Fang 4
 					15000z
+					Nargacuga Wing 8
+					Narga Scale 4
+					Narga Marrow 1
+					Monster Bone+ 4
 					Desc
 					Narga Scraps 2
 
@@ -239,6 +247,10 @@ Desc
 				Poison Gland 2
 				Lg Monster Bone 4
 				4720z
+				Gigginox Claw 2
+				Gigginox Hide 4
+				Uncanny Hide 4
+				Poison Sac 8
 				Desc
 				Gigginox Scraps 2
 
@@ -349,47 +361,6 @@ Dragonite Ore 10
 Desc
 Wood Scraps 2
 Ore Scraps 1
-
-Blood Wings
-130
-Poison 12
-R3
-0%
----
-7080z
-Gigginox Claw 2
-Gigginox Hide 4
-Uncanny Hide 4
-Poison Sac 8
-Desc
-Gigginox Scraps 2
-
-Hidden Daggers
-140
-R3
-40%
-O--
-22500z
-Nargacuga Wing 8
-Narga Scale 4
-Narga Marrow 1
-Monster Bone+ 4
-Desc
-Narga Scraps 2
-
-Flamestorm
-140
-Fire 25
-R3
-30%
----
-30000z
-Agnaktor Shell 6
-Agnaktor Hide 4
-Igneous Thorax 2
-Uroktor Scale 8
-Desc
-Agnaktor Scraps 2
 
 Lords of Thunder
 160
