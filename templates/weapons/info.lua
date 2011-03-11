@@ -23,6 +23,14 @@ local Infos =
 		local creationPath = loadTemplate( "weapons/creationPath" )
 
 		print( creationPath( { class = class, weapon = weapon } ) )
+	elseif weapon.create then
+		print( itemCounts( { materials = weapon.create } ) )
+
+		printf( "Price: %sz", commas( weapon.price * 1.5 ) )
+
+		if weapon.buyable then
+			printf( " (buyable for %sz)", commas( weapon.price * 2 ) )
+		end
 	end
 
 	--[[ these are kind of redundant
