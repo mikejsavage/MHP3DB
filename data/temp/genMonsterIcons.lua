@@ -42,7 +42,7 @@ for file in lfs.dir( Dir ) do
 
 		local outImg = imlib2.image.new( XRes, YRes )
 
-		outImg:set_has_alpha( true )
+		outImg:set_has_alpha( true ) -- gg lua-imlib2
 		outImg:clear()
 
 		for x = 0, XRes - 1 do
