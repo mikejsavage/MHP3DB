@@ -3304,3 +3304,37 @@ Elemental -2
 Psychic 3
 Loading 4
 Desc
+
+Uniqlo Cargo Pants
+47
+-3 1 0 4 0
+B
+R7
+OO-
+Uniqlo Ticket 1
+Blk Tigrex Shl 3
+Blk Tigrex Fang 2
+Jinouga Pelt+ 1
+9000z
+HearProtct 2
+Cold Res 2
+Eating -2
+Evade Dist 3
+Desc
+
+Uniqlo Cut Pants
+26
+-4 2 0 5 0
+G
+R7
+OO-
+Uniqlo Ticket 1
+Blk Tigrex Shl 3
+Blk Tigrex Fang 2
+Jinouga Pelt+ 1
+9000z
+HearProtct 2
+Cold Res 2
+Eating -2
+Evade Dist 3
+Desc

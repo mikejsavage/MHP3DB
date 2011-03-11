@@ -3295,3 +3295,37 @@ Elemental -2
 Psychic 4
 Loading 3
 Desc
+
+Uniqlo Belt
+47
+-3 1 0 4 0
+B
+R7
+OO-
+Uniqlo Ticket 1
+Blk Tigrex Scl 4
+LightningCarpce 1
+Jinouga Jewel 1
+9000z
+HearProtct 2
+Cold Res 2
+Eating -2
+Evade Dist 3
+Desc
+
+Uniqlo Pouch
+26
+-4 2 0 5 0
+G
+R7
+OO-
+Uniqlo Ticket 1
+Blk Tigrex Scl 4
+LightningCarpce 1
+Jinouga Jewel 1
+9000z
+HearProtct 1
+Cold Res 2
+Eating -2
+Evade Dist 4
+Desc

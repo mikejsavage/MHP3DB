@@ -2806,14 +2806,23 @@ R5
 0z
 
 619 Call to Arms
+ticket green
+R5
+0z
 
 620 Champion Proof
 
 621 Lily Proof
 
 622 Ancnt Mnstr Fng
+ticket cyan
+R5
+0z
 
 623 SwdMaster Book
+ticket red
+R5
+0z
 
 624 Detective Proof
 
@@ -2869,6 +2878,9 @@ R5
 639 Secret Card
 
 640 Uniqlo Ticket
+ticket red
+R5
+0z
 
 641 BlkCrystalTckt
 

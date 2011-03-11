@@ -577,6 +577,15 @@ Battlefield Jwl 1
 IceBarrothSpine 2
 Urukusu Lng Ear 2
 
+AdversityJwl
+red 4
+1
+Adversity 1
+Rec Level -1
+200z
+Akito Jewel 1
+Call to Arms 1
+
 BombrdierJwl
 red 4
 1

@@ -3437,6 +3437,34 @@ Water Atk 1
 Desc
 Amatsu Scraps 2
 
+Warfront Jacket
+22
+2 2 2 2 2
+B
+R3
+---
+Call to Arms 3
+Black Narga Plt 4
+Warm Pelt 6
+Commendation 1
+3500z
+Adversity 10
+Desc
+
+Warfront Rider
+11
+2 2 2 2 2
+G
+R3
+---
+Call to Arms 3
+Black Narga Plt 4
+Warm Pelt 6
+Commendation 1
+3500z
+Adversity 10
+Desc
+
 Snake Suit
 47
 1 1 1 1 1
@@ -3503,4 +3531,38 @@ Sense 2
 Elemental -2
 Psychic 2
 Loading 3
+Desc
+
+Uniqlo Blazer
+47
+-3 1 0 4 0
+B
+R7
+O--
+Uniqlo Ticket 1
+Blk Tigrex Shl 3
+Wyvern Stone 1
+Jinouga Pelt+ 2
+9000z
+HearProtct 2
+Cold Res 2
+Eating -2
+Evade Dist 3
+Desc
+
+Uniqlo Jacket
+26
+-4 2 0 5 0
+G
+R7
+O--
+Uniqlo Ticket 1
+Blk Tigrex Shl 3
+Wyvern Stone 1
+Jinouga Pelt+ 2
+9000z
+HearProtct 2
+Cold Res 2
+Eating -2
+Evade Dist 3
 Desc

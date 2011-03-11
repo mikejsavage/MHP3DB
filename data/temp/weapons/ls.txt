@@ -415,6 +415,17 @@ Jinouga Pelt 3
 Desc
 Jinouga Scraps 2
 
+Tetsusaiba
+150
+R3
+0%
+OOO
+30000z
+Ancnt Mnstr Fng 5
+Isisium Ore 5
+Amber Fang 3
+Desc
+
 Strike Katana
 190
 R5
@@ -453,6 +464,19 @@ Alatreon Tail 3
 EldrDragonBlood 3
 Desc
 Alatreon Scraps 2
+
+Tyrant's Blade
+160
+Dragon 40
+R6
+0%
+---
+60000z
+SwdMaster Book 5
+SandBariothClw 5
+Jinouga Horn+ 5
+Akantor Fang 3
+Desc
 
 Akantor Widowmaker
 250

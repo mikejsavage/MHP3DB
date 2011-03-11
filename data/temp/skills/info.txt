@@ -312,6 +312,7 @@ Blight Res
 10 Blight Negated
 
 Adversity
+10 Resilience
 
 Rapid Fire
 10 Rapid Shot +1

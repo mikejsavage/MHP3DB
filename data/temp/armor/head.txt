@@ -3545,3 +3545,37 @@ R7
 0z
 Fencing 10
 Desc
+
+Uniqlo Knit Hat
+47
+-3 1 0 4 0
+BG
+R7
+OO-
+Uniqlo Ticket 1
+Blk Tigrex Scl 4
+Tigrex Jaw 1
+Jinouga Horn+ 1
+9000z
+HearProtct 2
+Cold Res 2
+Eating -2
+Evade Dist 3
+Desc
+
+Uniqlo Headphones
+26
+-4 2 0 5 0
+BG
+R7
+OO-
+Uniqlo Ticket 1
+Blk Tigrex Scl 4
+Tigrex Jaw 1
+Jinouga Horn+ 1
+9000z
+HearProtct 3
+Cold Res 3
+Eating -2
+Evade Dist 3
+Desc
