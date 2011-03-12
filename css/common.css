@@ -145,8 +145,29 @@ img.icon {
 .nav div {
 	display: inline-block;
 }
-.nav div.calcs {
+.nav .calcs {
 	float: right;
+}
+
+/* protips */
+
+.tip {
+	color: #666;
+	font-size: small;
+	margin-bottom: 8px;
+	text-align: center;
+}
+
+.tip:before, .tip:after {
+	content: "PROTIP";
+}
+.tip:before {
+	float: left;
+	margin-left: -8px;
+}
+.tip:after {
+	float: right;
+	margin-right: -8px;
 }
 
 /* main content container */

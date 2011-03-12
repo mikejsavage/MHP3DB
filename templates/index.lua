@@ -12,7 +12,7 @@ Send it to me in a non-stupid format and sure.
 
 Sure, and to make things easier I've got it all in <a href="http://www.json.org">JSON format</a> <a href="https://github.com/mikejsavage/MHP3DB/tree/master/data">on GitHub</a>.
 <br>
-You can find docs for it <a href="https://github.com/mikejsavage/MHP3DB/tree/master/data/temp/docs">here</a> (sorry for the lack of completeness)
+You can find docs for it <a href="https://github.com/mikejsavage/MHP3DB/tree/master/data/temp/docs">here</a> (sorry for some of them being poor/missing/incomplete)
 <br><br>
 No need to ask before using or even give credit, I'm not bothered at all.
 
@@ -24,14 +24,12 @@ Sure, it's <a href="https://github.com/mikejsavage/MHP3DB/blob/master/license.tx
 <small>(keep in mind that this is the first proper project I've done in Lua and my code is almost certainly awful)</small>
 
 
-<br><br><br>
+<br><br>
 
-On that note...
-
-<h2>Latest commits</h2>
+<h2>News</h2>
 
 {%
-local MaxCommits = 10
+local MaxPosts = math.min( 10, table.getn( Posts ) )
 local Months = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" }
 
 local function dateSuffix( date )
@@ -54,65 +52,29 @@ local function dateSuffix( date )
 	return "th"
 end
 
-local function neatDate( ts, now )
-	local year  = tonumber( ts:sub( 1, 4 ) )
-	local month = tonumber( ts:sub( 6, 7 ) )
-	local day   = tonumber( ts:sub( 9, 10 ) )
+local now = os.time()
 
-	local hour = tonumber( ts:sub( 12, 13 ) )
-	local mins = tonumber( ts:sub( 15, 16 ) )
-	local secs = tonumber( ts:sub( 19, 20 ) )
+local function postDate( ts, now )
+	local delta = os.difftime( now, ts )
 
-	local offsetHour = tonumber( ts:sub( 21, 22 ) )
-	local offsetMins = tonumber( ts:sub( 24, 25 ) )
-
-	if ts:sub( 20, 20 ) == "-" then
-		offsetHour = -offsetHour
-		offsetMins = -offsetMins
+	if delta <= 86400 then
+		return "Today"
 	end
 
-	-- cba to come up with proper arithmetic for this
-	-- so let's do it the lazy and slow way
+	if delta <= 86400 * 2 then
+		return "Yesterday"
+	end
 
-	local unixTime = os.time( {
-		year = year,
-		month = month,
-		day = day,
-		hour = hour - offsetHour,
-		min = mins - offsetMins,
-		sec = secs
-	} )
+	local date = os.date( "*t", ts )
 
-	local actualTime = os.date( "*t", unixTime )
-
-	return ( "%s at %d:%02d" ):format(
-		actualTime.day == now.day
-			and "Today"
-			or  ( actualTime.day == now.day - 1
-				and "Yesterday"
-				or  ( "On %d%s %s" ):format( actualTime.day, dateSuffix( actualTime.day ), Months[ actualTime.month ] )
-			),
-
-		actualTime.hour,
-		actualTime.min
+	return ( "%d%s %s" ):format(
+		date.day,
+		dateSuffix( date.day ),
+		Months[ date.month ]
 	)
 end
 
-for i, commit in ipairs( commits.commits ) do
-	printf( [[<h4><a href="http://github.com%s">%s</a></h4>]],
-		commit.url,
-		neatDate( commit.committed_date, os.date( "*t" ) )
-	)
-
-	-- lol
-	print( commit.message:gsub( "\n", "<br>" ):gsub( "\\<br>", "\\n" ):gsub( "<", "&lt;" ):gsub( ">", "&gt;" ) )
-
-	print( "<br><br>" )
-
-	if i == MaxCommits then
-		break
-	end
+for _, post in ipairs( Posts ) do
+	printf( "<h3>%s</h3>%s", postDate( post.date, now ), post.content )
 end
 %}
-
-<small><a href="https://github.com/mikejsavage/MHP3DB/commits/master">See more on GitHub...</a></small>

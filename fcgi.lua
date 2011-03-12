@@ -33,6 +33,8 @@ Items,       ItemsJSON       = data( "items" )
 Skills,      SkillsJSON      = data( "skills" )
 Shots,       ShotsJSON       = data( "shots" )
 
+Tips         = data( "tips" )
+Posts        = data( "posts" )
 Commits      = data( "commits" )
 LastModified = data( "modified" )
 
