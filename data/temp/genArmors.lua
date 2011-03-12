@@ -201,10 +201,6 @@ for _, short in pairs( Types ) do
 	table.insert( Armor, class )
 end
 
-for unused, _ in pairs( Names ) do
-	print( unused )
-end
-
 local encoded = json.encode( Armor )
 
 io.output( "../armors.json" )
