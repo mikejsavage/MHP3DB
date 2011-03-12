@@ -35,7 +35,6 @@ Shots,       ShotsJSON       = data( "shots" )
 
 Tips         = data( "tips" )
 Posts        = data( "posts" )
-Commits      = data( "commits" )
 LastModified = data( "modified" )
 
 
