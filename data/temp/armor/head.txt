@@ -1123,6 +1123,42 @@ Thundr Atk 2
 Desc
 Jinouga Scraps 2
 
+Diablos Helm
+24
+2 -1 -1 -3 -1
+BG
+R3
+O--
+DiablosTailbone 2
+Diablos Shell 4
+Diablos Spine 2
+Grt Froggi Hide 5
+4150z
+Status -3
+Quake Res 1
+Crit Draw 3
+FatigueAtk 2
+Desc
+Diablos Scraps 2
+
+Diablos Cap
+12
+4 0 0 -2 0
+BG
+R3
+O--
+DiablosTailbone 2
+Diablos Shell 4
+Diablos Spine 2
+Grt Froggi Hide 5
+4150z
+PierceS Up 3
+NormalSAdd 4
+Status -2
+FatigueAtk 2
+Desc
+Diablos Scraps 2
+
 Tigrex Helm
 24
 2 -1 -4 0 -2

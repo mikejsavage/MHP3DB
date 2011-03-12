@@ -1369,6 +1369,36 @@ Desc
 Bulldrm Scraps+ 1
 Pelt Scraps+ 2
 
+Loc Lac Coil S
+30
+2 -3 1 0 0
+B
+R4
+OO-
+Quality Abdomen 2
+Altaroth Jaw 3
+Monster Fluid 4
+5350z
+Backpackng 4
+Psychic 5
+Desc
+Bnahbra Scraps+ 2
+
+Loc Lac Coat S
+15
+3 -2 2 0 0
+G
+R4
+OO-
+Quality Abdomen 2
+Altaroth Jaw 3
+Monster Fluid 4
+5350z
+Backpackng 4
+Psychic 5
+Desc
+Bnahbra Scraps+ 2
+
 Bone Tasset S
 30
 2 0 -1 -2 0

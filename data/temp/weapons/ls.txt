@@ -122,6 +122,7 @@ Desc
 
 		Iron Katana
 		80
+		Reg 2 1000z
 		R1
 		0%
 		---
@@ -134,8 +135,180 @@ Desc
 		Desc
 		Ore Scraps 2
 
+			Iron Katana "Grace"
+			100
+			R1
+			0%
+			---
+			Iron Ore 3
+			Machalite Ore 2
+			Bealite Ore 6
+			1900z
+			Desc
+			Ore Scraps 2
+
+				Iron Katana "Gospel"
+				140
+				Reg 2 2000z
+				R2
+				0%
+				---
+				Isisium Ore 3
+				Iron Ore 10
+				Machalite Ore 5
+				3200z
+				Desc
+				Ore Scraps 2
+
+					Hidden Saber
+					140
+					Pls 2 3000z
+					R3
+					40%
+					---
+					Nargacuga Wing 3
+					Black Narga Plt 8
+					Narga TailSpike 5
+					15000z
+					Nargacuga Wing 5
+					Black Narga Plt 5
+					Narga Marrow 1
+					Machalite Ore 5
+					Desc
+					Narga Scraps 2
+
+						Hidden Saber+
+						160
+						Hrd 2 5000z
+						R4
+						40%
+						O--
+						Narga Scale 5
+						Nargacuga Tail 1
+						Narga Marrow 2
+						Carbalite Ore 5
+						35000z
+						Desc
+						Narga Scraps 1
+						Ore Scraps+ 1
+
+							Shadow Saber "Moon"
+							180
+							R6
+							40%
+							OO-
+							Nargacuga Wing+ 3
+							BlackNargaPelt+ 8
+							Narga Brain Stm 1
+							65000z
+							Desc
+							Narga Scraps+ 2
+
+							Ghillie Saber
+							180
+							Hrd 2 7000z
+							R5
+							0%
+							O--
+							Grn Narga Wing 3
+							Grn Narga Pelt 8
+							Nargacuga Tail 3
+							45000z
+							Desc
+							Narga Scraps+ 2
+
+								Gale Saber "Umbra"
+								200
+								Hrd 2 8000z
+								R6
+								0%
+								O--
+								Green Narga Scl 5
+								Grn Narga Fang 8
+								Narga Brain Stm 1
+								Blk Tigrex Shl 5
+								65000z
+								Desc
+								Narga Scraps+ 2
+
+					Rex Katana
+					170
+					R3
+					-20%
+					---
+					Tigrex Fang 5
+					Tigrex Scale 3
+					Tigrex Claw 1
+					20000z
+					Tigrex Fang 10
+					Tigrex Shell 5
+					Tigrex Claw 2
+					Machalite Ore 8
+					Desc
+					Tigrex Scraps 2
+
+				Chain Blade
+				120
+				Thunder 10
+				R2
+				0%
+				O--
+				Iron Ore 15
+				Lightcrystal 1
+				Thunderbug 8
+				4000z
+				Lightcrystal 2
+				Machalite Ore 7
+				Thunderbug 15
+				Desc
+				Ore Scraps 2
+
+			Frost Razor
+			120
+			Reg 2 2000z
+			Ice 15
+			R2
+			0%
+			---
+			Isisium Ore 5
+			Iron Ore 8
+			Ice Crystal 10
+			4900z
+			Desc
+			Ore Scraps 2
+
+				Petal Frost Razor
+				150
+				Pls 2 3000z
+				Ice 22
+				R3
+				0%
+				---
+				Isisium Ore 8
+				Dragonite Ore 5
+				Frost Sac 2
+				8200z
+				Desc
+				Ore Scraps 2
+
+					Snowdrop Ice Blade
+					200
+					Hrd 2 7000z
+					Ice 30
+					R5
+					0%
+					---
+					Gracium Ore 5
+					Lightcrystal 7
+					Glacial Sac 3
+					Frozen Mucus 3
+					45000z
+					Desc
+					Ore Scraps+ 2
+
 		Aoashira Naginata
 		110
+		Reg 2 1000z
 		R1
 		0%
 		---
@@ -145,6 +318,83 @@ Desc
 		2500z
 		Desc
 		Aoashira Scraps 2
+
+			Aoashira Naginata+
+			150
+			R2
+			0%
+			---
+			Aoashira Shell 5
+			Aoashira Arm 3
+			Dragonite Ore 5
+			5900z
+			Desc
+			Aoashira Scraps 2
+
+			Downpour
+			130
+			Reg 2 2000z
+			Water 14
+			Def 8
+			R2
+			0%
+			O--
+			Spongy Hide 2
+			RoyalLudrothClw 4
+			RyalLudrthCrest 2
+			Med Mnster Bone 2
+			4900z
+			RyalLudrthCrest 3
+			RoyalLudrthTail 1
+			Spongy Hide 4
+			Lg Monster Bone 1
+			Desc
+			Ludroth Scraps 2
+			
+				Downpour+
+				170
+				Pls 2 3000z
+				Water 16
+				Def 10
+				R3
+				0%
+				OO-
+				RoyalLudrothClw 6
+				RoyalLudrthTail 1
+				Monster Bone+ 3
+				Twisted Horn 2
+				9500z
+				Desc
+				Ludroth Scraps 2
+
+					Bubbling Deluge
+					190
+					Hrd 2 7000z
+					Water 27
+					Def 12
+					R5
+					0%
+					OO-
+					Spongy Hide+ 2
+					RoyalLudrthScl+ 4
+					RoyalLudrthClw+ 5
+					Shrp Mnster Bne 4
+					55000z
+					Desc
+					Ludroth Scraps+ 2
+
+					Poison Grave
+					190
+					Poison 18
+					R5
+					0%
+					O--
+					SpongyPurplHide 2
+					PurpRylLdrthClw 6
+					Shrp Mnster Bne 5
+					35000z
+					Desc
+					Ludroth Scraps+ 2
 
 		Bone Katana "Fang"
 		90
@@ -282,33 +532,6 @@ Desc
 			Bone Scraps 1
 			Ore Scraps 1
 
-Downpour
-130
-Water 14
-R2
-0%
-O--
-7350z
-RyalLudrthCrest 3
-RoyalLudrthTail 1
-Spongy Hide 4
-Lg Monster Bone 1
-Desc
-Ludroth Scraps 2
-
-Chain Blade
-120
-Thunder 10
-R2
-0%
-O--
-6000z
-Lightcrystal 2
-Machalite Ore 7
-Thunderbug 15
-Desc
-Ore Scraps 2
-
 Wind Eater
 130
 R2
@@ -347,32 +570,6 @@ Dragonite Ore 10
 Desc
 Wood Scraps 2
 Ore Scraps 1
-
-Hidden Saber
-140
-R3
-40%
----
-22500z
-Nargacuga Wing 5
-Black Narga Plt 5
-Narga Marrow 1
-Machalite Ore 5
-Desc
-Narga Scraps 2
-
-Rex Katana
-170
-R3
--20%
----
-30000z
-Tigrex Fang 10
-Tigrex Shell 5
-Tigrex Claw 2
-Machalite Ore 8
-Desc
-Tigrex Scraps 2
 
 Fang Breaker
 160
@@ -441,6 +638,7 @@ GrtJaggiScraps+ 2
 
 Cruel Agony
 180
+Hrd 2 7000z
 Dragon 18
 R5
 10%
@@ -451,6 +649,19 @@ Dviljho Skl Shl 2
 Deviljho Hide 3
 Desc
 Deviljho Scraps 2
+
+	Calamitous Agony
+	200
+	Dragon 23
+	R7
+	10%
+	O--
+	Deviljho Claw 8
+	Deviljho Drool 5
+	Deviljho Jewel 1
+	85000z
+	Desc
+	Deviljho Scraps 2
 
 Jet Black Claw
 170

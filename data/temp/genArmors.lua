@@ -35,7 +35,9 @@ local MaxSlots = 3
 local Actions =
 {
 	init = function( line, piece )
-		assert( Names[ line ], "bad name: " .. line )
+		assert( Names[ line ] or line == "Ranger Belt" or line == "Scout Belt", "bad name: " .. line )
+
+		Names[ line ] = nil
 
 		piece.name = { hgg = line }
 
@@ -197,6 +199,10 @@ for _, short in pairs( Types ) do
 	ArmorCount = ArmorCount + 1
 
 	table.insert( Armor, class )
+end
+
+for unused, _ in pairs( Names ) do
+	print( unused )
 end
 
 local encoded = json.encode( Armor )

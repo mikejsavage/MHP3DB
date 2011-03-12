@@ -670,6 +670,7 @@ Bone Scraps 2
 
 				Black Talon
 				200
+				Hrd 2 7000z
 				R5
 				-20%
 				OO-
@@ -679,6 +680,19 @@ Bone Scraps 2
 				50000z
 				Desc
 				Tigrex Scraps+ 2
+
+					Black Blade
+					230
+					Hrd 2 8000z
+					R6
+					-30%
+					OO-
+					Blk Tigrex Scl 8
+					Tigrex Jaw 1
+					Akantor Claw 2
+					70000z
+					Desc
+					Tigrex Scraps+ 2
 
 		Dragger Mace
 		140
@@ -870,6 +884,7 @@ Bnahabra Scraps 2
 
 		Sector Uno Verde
 		120
+		Paralyze 20
 		R3
 		0%
 		O--
@@ -1096,6 +1111,7 @@ Desc
 
 	Weathered Sword
 	50
+	Pls 2 5000z
 	R4
 	-70%
 	---
@@ -1106,3 +1122,19 @@ Desc
 	Desc
 	Ore Scraps 1
 	Courage Scraps 1
+
+		Eternal Sacrifice
+		80
+		Hrd 2 8000z
+		Dragon 72
+		R6
+		0%
+		---
+		Earth Crystal 70
+		Ancnt Drgn Bone 5
+		Commendation G 3
+		55555z
+		Desc
+		Ore Scraps 1
+		Bone Scraps+ 1
+		Courage Scraps+ 1

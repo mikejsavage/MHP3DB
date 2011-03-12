@@ -1459,6 +1459,36 @@ Desc
 Ore Scraps+ 1
 Ore Scraps 1
 
+Loc Lac Suit S
+30
+2 -3 1 0 0
+B
+R4
+OO-
+Quality Abdomen 1
+Monster Broth 2
+Ice Crystal 5
+5350z
+Backpackng 2
+Psychic 5
+Desc
+Bnahbra Scraps+ 2
+
+Loc Lac Vest S
+15
+3 -2 2 0 0
+G
+R4
+OO-
+Quality Abdomen 1
+Monster Broth 2
+Ice Crystal 5
+5350z
+Backpackng 2
+Psychic 5
+Desc
+Bnahbra Scraps+ 2
+
 Bone Mail S
 30
 2 0 -1 -2 0
