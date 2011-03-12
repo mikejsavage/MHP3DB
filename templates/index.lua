@@ -24,6 +24,11 @@ Sure, it's <a href="https://github.com/mikejsavage/MHP3DB/blob/master/license.tx
 <small>(keep in mind that this is the first proper project I've done in Lua and my code is almost certainly awful)</small>
 
 
+<h2>Why is so much missing?</h2>
+
+I'm one guy doing this in my spare time.
+
+
 <h2>News</h2>
 
 <table>
@@ -76,12 +81,10 @@ Sure, it's <a href="https://github.com/mikejsavage/MHP3DB/blob/master/license.tx
 
 	printf( [[<tr class="post"><td class="date">%s</td><td>%s</td></tr>]], postDate( Posts[ 1 ].date, now ), Posts[ 1 ].content )
 
-	if MaxPosts ~= 1 then
-		for i = 2, MaxPosts do
-			local post = Posts[ i ]
+	for i = 2, MaxPosts do
+		local post = Posts[ i ]
 
-			printf( [[<tr><td colspan="2"><hr></td></tr><tr class="post"><td class="date">%s</td><td>%s</td></tr>]], postDate( post.date, now ), post.content )
-		end
+		printf( [[<tr><td colspan="2"><hr></td></tr><tr class="post"><td class="date">%s</td><td>%s</td></tr>]], postDate( post.date, now ), post.content )
 	end
 	%}
 </table>
