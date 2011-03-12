@@ -201,14 +201,13 @@ img.icon {
 
 /* news */
 
-.post {
-	color: #b6c2c4;
-}
 .post .date {
 	color: #fff;
 	font-weight: bold;
 	padding-right: 1em;
+	text-align: right;
 	vertical-align: top;
+	white-space: nowrap;
 }
 
 /* grids */

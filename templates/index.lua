@@ -74,8 +74,14 @@ Sure, it's <a href="https://github.com/mikejsavage/MHP3DB/blob/master/license.tx
 		)
 	end
 
-	for _, post in ipairs( Posts ) do
-		printf( [[<tr class="post"><td class="date">%s</td><td>%s</td></tr>]], postDate( post.date, now ), post.content )
+	printf( [[<tr class="post"><td class="date">%s</td><td>%s</td></tr>]], postDate( Posts[ 1 ].date, now ), Posts[ 1 ].content )
+
+	if MaxPosts ~= 1 then
+		for i = 2, MaxPosts do
+			local post = Posts[ i ]
+
+			printf( [[<tr><td colspan="2"><hr></td></tr><tr class="post"><td class="date">%s</td><td>%s</td></tr>]], postDate( post.date, now ), post.content )
+		end
 	end
 	%}
 </table>
