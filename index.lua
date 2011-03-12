@@ -1,5 +1,5 @@
 header()
 
-print( loadTemplate( "index" )( { commits = Commits } ) )
+print( loadTemplate( "index" )() )
 
 footer()
