@@ -51,7 +51,8 @@ Sure, it's <a href="https://github.com/mikejsavage/MHP3DB/blob/master/license.tx
 		return "th"
 	end
 
-	local now = os.time()
+	-- UTC time
+	local now = os.time( os.date( "!*t" ) )
 
 	local function postDate( ts, now )
 		local delta = os.difftime( now, ts )
