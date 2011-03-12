@@ -37,3 +37,4 @@ local headerLink = loadTemplate( "headerLink" )
 			<div class="curve R">&nbsp;</div>
 
 			<div class="main">
+				<div class="tip">{{ table.random( Tips ) }}</div>

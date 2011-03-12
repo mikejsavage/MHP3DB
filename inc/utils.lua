@@ -38,6 +38,11 @@ function table.copy( arr )
 	return new
 end
 
+-- returns random element from array
+function table.random( arr )
+	return arr[ math.random( table.getn( arr ) ) ]
+end
+
 function math.round( num )
 	return math.floor( num + 0.5 )
 end
