@@ -24,57 +24,57 @@ Sure, it's <a href="https://github.com/mikejsavage/MHP3DB/blob/master/license.tx
 <small>(keep in mind that this is the first proper project I've done in Lua and my code is almost certainly awful)</small>
 
 
-<br><br>
-
 <h2>News</h2>
 
-{%
-local MaxPosts = math.min( 10, table.getn( Posts ) )
-local Months = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" }
+<table>
+	{%
+	local MaxPosts = math.min( 5, table.getn( Posts ) )
+	local Months = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" }
 
-local function dateSuffix( date )
-	if date ==  1 or
-	   date == 21 or
-	   date == 31 then
-		return "st"
+	local function dateSuffix( date )
+		if date ==  1 or
+		   date == 21 or
+		   date == 31 then
+			return "st"
+		end
+
+		if date ==  2 or
+		   date == 22 then
+			return "nd"
+		end
+
+		if date ==  3 or
+		   date == 23 then
+			return "rd"
+		end
+
+		return "th"
 	end
 
-	if date ==  2 or
-	   date == 22 then
-		return "nd"
+	local now = os.time()
+
+	local function postDate( ts, now )
+		local delta = os.difftime( now, ts )
+
+		if delta <= 86400 then
+			return "Today"
+		end
+
+		if delta <= 86400 * 2 then
+			return "Yesterday"
+		end
+
+		local date = os.date( "*t", ts )
+
+		return ( "%d%s %s" ):format(
+			date.day,
+			dateSuffix( date.day ),
+			Months[ date.month ]
+		)
 	end
 
-	if date ==  3 or
-	   date == 23 then
-		return "rd"
+	for _, post in ipairs( Posts ) do
+		printf( [[<tr class="post"><td class="date">%s</td><td>%s</td></tr>]], postDate( post.date, now ), post.content )
 	end
-
-	return "th"
-end
-
-local now = os.time()
-
-local function postDate( ts, now )
-	local delta = os.difftime( now, ts )
-
-	if delta <= 86400 then
-		return "Today"
-	end
-
-	if delta <= 86400 * 2 then
-		return "Yesterday"
-	end
-
-	local date = os.date( "*t", ts )
-
-	return ( "%d%s %s" ):format(
-		date.day,
-		dateSuffix( date.day ),
-		Months[ date.month ]
-	)
-end
-
-for _, post in ipairs( Posts ) do
-	printf( "<h3>%s</h3>%s", postDate( post.date, now ), post.content )
-end
-%}
+	%}
+</table>

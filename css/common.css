@@ -1,12 +1,12 @@
 body {
 	background: #319db8;
-	color: #ccc;
+	color: #b6c2c4;
 	font-family: sans-serif;
 	margin: 0;
 }
 
 a {
-	color: #ddd;
+	color: #cedbde;
 }
 
 hr {
@@ -46,7 +46,7 @@ h1 {
 }
 
 h2 {
-	padding: 16px 0 4px;
+	padding: 16px 0 8px;
 }
 h3 {
 	padding: 8px 0 4px;
@@ -175,7 +175,7 @@ img.icon {
 .main {
 	border-bottom: 32px solid #1a1a1a;
 	border-radius: 0 0 32px 32px;
-	line-height: 130%;
+	line-height: 140%;
 	margin: 0 auto -32px; /* -ve bottom margin for the footer */
 	padding: 0 32px 16px;
 	width: 752px;
@@ -197,6 +197,18 @@ img.icon {
 	margin: 0 auto 16px;
 	text-align: right;
 	width: 752px;
+}
+
+/* news */
+
+.post {
+	color: #b6c2c4;
+}
+.post .date {
+	color: #fff;
+	font-weight: bold;
+	padding-right: 1em;
+	vertical-align: top;
 }
 
 /* grids */
@@ -236,6 +248,75 @@ img.icon {
 
 .grid.eq img {
 	width: 33px;
+}
+
+/* generic data tables */
+
+.data {
+	font: 14px/130% monospace;
+	white-space: pre;
+}
+
+/* :D */
+.data .none {
+	color: #666 !important;
+	text-align: center !important;
+}
+
+.data img.icon {
+	padding: 1px 0;
+	vertical-align: top;
+}
+
+.data th {
+	border-bottom: 2px solid #333;
+	color: #fff;
+}
+.data td {
+	border-top: 1px solid #333;
+}
+.data td, .data th {
+	border-left: 1px solid #333;
+	padding: 1px 4px;
+	text-align: center;
+}
+.data td:first-child, .data th:first-child {
+	border-left: 0;
+	text-align: left;
+}
+
+/* equipment tables */
+
+.data.eq tbody tr:nth-child( 2n ) {
+	background: #1d1d1d;
+}
+.data.eq tbody tr:hover {
+	background: #222;
+	color: #fff;
+	font-weight: bold;
+}
+.data .split {
+	border-top: 2px solid #333;
+}
+
+.create {
+	font-weight: bold;
+}
+
+/* weapons tables */
+
+.data.eq.weapons td {
+	border-top: 0;
+}
+
+/* path tables */
+
+.data.path {
+	margin: 0 0 8px;
+}
+
+.data.path td:not( :first-child ) {
+	text-align: right;
 }
 
 /* sharpness bars */
@@ -280,97 +361,11 @@ table.charges td:first-child {
 	vertical-align: top;
 }
 
-/* set generator output */
-
-.wanted {
-	margin: 8px 16px 8px;
-}
-.wanted #selects {
-	margin-bottom: 8px;
-}
-.wanted #selects select {
-	display: block;
-}
-
-.set {
-	background-color: #1d1d1d;
-	border: 1px solid #ccc;
-	-moz-border-radius: 8px;
-	display: inline-block;
-	font-family: monospace;
-	padding: 8px;
-	margin: 8px;
-}
-
-/* generic data tables */
-
-.data {
-	font: 14px/130% monospace;
-	white-space: pre;
-}
-
-/* :D */
-.data .none {
-	color: #666 !important;
-	text-align: center !important;
-}
-
-.data img.icon {
-	padding: 1px 0;
-	vertical-align: top;
-}
-
-.data th {
-	border-bottom: 2px solid #333;
-	color: #fff;
-}
-.data td {
-	border-top: 1px solid #333;
-}
-.data td, .data th {
-	border-left: 1px solid #333;
-	padding: 1px 4px;
-	text-align: center;
-}
-.data td:first-child, .data th:first-child {
-	border-left: 0;
-	text-align: left;
-}
-
-/* equipment tables */
-.data.eq tbody tr:nth-child( 2n ) {
-	background: #1d1d1d;
-}
-.data.eq tbody tr:hover {
-	background: #222;
-	color: #fff;
-	font-weight: bold;
-}
-.data .split {
-	border-top: 2px solid #333;
-}
-
-.create {
-	font-weight: bold;
-}
-
-/* weapons tables */
-
-.data.eq.weapons td {
-	border-top: 0;
-}
-
 .charges .load {
 	color: #6bf36e;
 }
 
-/* path tables */
-
-.data.path td:not( :first-child ) {
-	text-align: right;
-}
-
-/* armor tables */
+/* various alignments */
 
 .data.eq.weapons .charges, .data.eq.armor td:last-child, .data.eq.decorations td:last-child {
 	text-align: left;
@@ -412,6 +407,28 @@ input.small {
 
 .data.skills td, .data.skills th {
 	text-align: center;
+}
+
+/* set generator output */
+
+.wanted {
+	margin: 8px 16px 8px;
+}
+.wanted #selects {
+	margin-bottom: 8px;
+}
+.wanted #selects select {
+	display: block;
+}
+
+.set {
+	background-color: #1d1d1d;
+	border: 1px solid #ccc;
+	-moz-border-radius: 8px;
+	display: inline-block;
+	font-family: monospace;
+	padding: 8px;
+	margin: 8px;
 }
 
 
