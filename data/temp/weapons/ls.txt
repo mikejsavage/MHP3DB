@@ -687,6 +687,7 @@ Desc
 					Toxin Sac 4
 					BrdWyvern Stone 3
 					30000z
+					Desc
 					GrtFrggiScraps+ 2
 
 Wind Eater
