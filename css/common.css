@@ -22,9 +22,27 @@ select, input {
 	margin: 2px 4px;
 }
 
-input[ type="text" ], textarea {
+input[ type = "text" ], textarea {
 	border: 1px solid #ccc;
 	padding: 2px;
+}
+
+input[ type = "button" ] {
+	background: #191919;
+	border: 1px #444 solid;
+	border-radius: 4px;
+	color: #b6c2c4;
+	padding: 4px;
+
+	-khtml-border-radius:  4px;
+	-moz-border-radius:    4px;
+	-webkit-border-radius: 4px;
+}
+input[ type = "button" ]:hover {
+	color: #cedbde;
+}
+input[ type = "button" ]:active {
+	color: #f1d910;
 }
 
 /* generic table style */
@@ -82,43 +100,6 @@ img.icon {
 .wrapper {
 	margin: 0 auto;
 	width: 880px;
-}
-
-/* curves joining header to .main */
-
-.curve {
-	height: 32px;
-	width:  32px;
-}
-
-.curve.L {
-	float: left;
-}
-.curve.R {
-	float: right;
-}
-
-.curve.L:before, .curve.R:before {
-	border-top: 32px solid #319db8;
-	content: "";
-	display: block;
-}
-
-.curve.L:before {
-	border-right: 32px solid #319db8; /* webkit */
-	border-radius: 0 32px 0 0;
-
-	-khtml-border-radius:  0 32px 0 0;
-	-moz-border-radius:    0 32px 0 0;
-	-webkit-border-radius: 0 32px 0 0;
-}
-.curve.R:before {
-	border-left: 32px solid #319db8; /* webkit */
-	border-radius: 32px 0 0;
-
-	-khtml-border-radius:  32px 0 0;
-	-moz-border-radius:    32px 0 0;
-	-webkit-border-radius: 32px 0 0;
 }
 
 /* header */
@@ -189,6 +170,43 @@ img.icon {
 	-khtml-border-radius:  0 0 32px 32px;
 	-moz-border-radius:    0 0 32px 32px;
 	-webkit-border-radius: 0 0 32px 32px;
+}
+
+/* curves joining header to .main */
+
+.curve {
+	height: 32px;
+	width:  32px;
+}
+
+.curve.L {
+	float: left;
+}
+.curve.R {
+	float: right;
+}
+
+.curve.L:before, .curve.R:before {
+	border-top: 32px solid #319db8;
+	content: "";
+	display: block;
+}
+
+.curve.L:before {
+	border-right: 32px solid #319db8; /* webkit */
+	border-radius: 0 32px 0 0;
+
+	-khtml-border-radius:  0 32px 0 0;
+	-moz-border-radius:    0 32px 0 0;
+	-webkit-border-radius: 0 32px 0 0;
+}
+.curve.R:before {
+	border-left: 32px solid #319db8; /* webkit */
+	border-radius: 32px 0 0;
+
+	-khtml-border-radius:  32px 0 0;
+	-moz-border-radius:    32px 0 0;
+	-webkit-border-radius: 32px 0 0;
 }
 
 /* footer */
