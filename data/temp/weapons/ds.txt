@@ -452,6 +452,7 @@ Desc
 
 						Aquastorm
 						170
+						Hrd 2 7000z
 						Water 24
 						R5
 						15%
@@ -463,6 +464,19 @@ Desc
 						50000z
 						Desc
 						Agnktor Scraps+ 2
+
+							Undine
+							200
+							Water 26
+							R6
+							15%
+							---
+							Ice Agnktor Shl 4
+							Clammy Thorax 4
+							Tempest Sac 1
+							70000z
+							Desc
+							Agnktor Scraps+ 2
 
 					Hidden Daggers
 					140
