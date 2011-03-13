@@ -8,6 +8,7 @@ Desc
 
 	Yukumo Longsword
 	70
+	Reg 1 1000z
 	R1
 	0%
 	---
@@ -22,6 +23,7 @@ Desc
 
 		Yukumo Longsword+
 		90
+		Reg 2 1000z
 		R1
 		0%
 		---
@@ -35,6 +37,7 @@ Desc
 
 			Yukumo Warblade
 			130
+			Reg 2 2000z
 			R2
 			0%
 			---
@@ -49,6 +52,7 @@ Desc
 
 			Blood Cross
 			120
+			Reg 2 2000z
 			Poison 30
 			R2
 			0%
@@ -67,6 +71,7 @@ Desc
 
 				Blood Cross+
 				150
+				Pls 2 3000z
 				Poison 25
 				R3
 				0%
@@ -93,32 +98,34 @@ Desc
 					Giggnox Scraps+ 1
 					Ore Scraps+ 1
 
-					Crimson Cross
-					170
-					Thunder 26
-					R5
-					10%
+				Crimson Cross
+				170
+				Hrd 2 7000z
+				Thunder 26
+				R5
+				10%
+				---
+				ThdrGiggnoxHide 3
+				Thunder Sac 3
+				Gracium Ore 5
+				40000z
+				Desc
+				Giggnox Scraps+ 1
+				Ore Scraps+ 1
+				
+					Lost Sanctuary
+					190
+					Hrd 2 8000z
+					Thunder 30
+					R6
+					15%
 					---
-					ThdrGiggnoxHide 3
-					Thunder Sac 3
-					Gracium Ore 5
-					40000z
+					ThndrGiggnoxClw 3
+					Horrific Maw 2
+					LightningCarpce 5
+					60000z
 					Desc
-					Giggnox Scraps+ 1
-					Ore Scraps+ 1
-					
-						Lost Sanctuary
-						190
-						Thunder 30
-						R6
-						15%
-						---
-						ThndrGiggnoxClw 3
-						Horrific Maw 2
-						LightningCarpce 5
-						60000z
-						Desc
-						Giggnox Scraps+ 2
+					Giggnox Scraps+ 2
 
 		Iron Katana
 		80
@@ -233,6 +240,7 @@ Desc
 
 					Rex Katana
 					170
+					Pls 2 3000z
 					R3
 					-20%
 					---
@@ -246,6 +254,33 @@ Desc
 					Machalite Ore 8
 					Desc
 					Tigrex Scraps 2
+
+						Rex Katana "Hunger"
+						190
+						Hrd 2 5000z
+						R4
+						-20%
+						---
+						Tigrex Shell 5
+						Tigrex Skl Shl 1
+						Carbalite Ore 6
+						Monster Broth 5
+						40000z
+						Desc
+						Tigrex Scraps 1
+						Ore Scraps+ 1
+
+							Voracious Rex
+							220
+							R6
+							-20%
+							---
+							Tigrex Fang+ 5
+							Tigrex Scale+ 8
+							Tigrex Claw+ 2
+							70000z
+							Desc
+							Tigrex Scraps+ 2
 
 				Chain Blade
 				120
@@ -385,6 +420,7 @@ Desc
 
 					Poison Grave
 					190
+					Hrd 2 7000z
 					Poison 18
 					R5
 					0%
@@ -396,8 +432,23 @@ Desc
 					Desc
 					Ludroth Scraps+ 2
 
+						Venom Grave
+						210
+						Hrd 2 8000z
+						Poison 25
+						R6
+						0%
+						O--
+						PurpRylLdrthClw 6
+						PurpRylLdrthScl 8
+						Hrd Mnster Bone 5
+						55000z
+						Desc
+						Ludroth Scraps+ 2
+
 		Bone Katana "Fang"
 		90
+		Reg 2 1000z
 		R1
 		0%
 		---
@@ -415,6 +466,7 @@ Desc
 
 			Bone Katana "Canine"
 			120
+			Reg 2 2000z
 			R2
 			0%
 			---
@@ -428,6 +480,7 @@ Desc
 
 				Infinite Katana
 				110
+				Reg 2 2000z
 				Paralyze 15
 				R2
 				0%
@@ -443,8 +496,82 @@ Desc
 				Desc
 				Ore Scraps 2
 
+					Infinite Katana+
+					130
+					Pls 2 3000z
+					Paralyze 21
+					R3
+					0%
+					---
+					Grt Baggi Hide 8
+					Paralysis Sac 3
+					Barioth Spike 2
+					Dragonite Ore 5
+					5900z
+					Desc
+					GrtBaggiScraps 2
+
+						Bonded Shade
+						150
+						Pls 2 5000z
+						Paralyze 28
+						R4
+						0%
+						---
+						Grt Baggi Hide+ 5
+						Torpor Sac 3
+						Gracium Ore 5
+						BrdWyvern Stone 3
+						35000z
+						Desc
+						GrtBaggiScraps+ 2
+
+						Strike Katana
+						190
+						R4
+						0%
+						O--
+						Stout Bone 3
+						Jaggi Scale+ 8
+						Carbalite Ore 2
+						20000z
+						Stout Bone 5
+						Grt Jaggi Hide+ 3
+						Dragonite Ore 8
+						Bird Wyvrn Bone 10
+						Desc
+						GrtJaggiScraps+ 2
+
+					Flamedancer
+					140
+					Pls 2 3000z
+					Fire 25
+					R3
+					15%
+					---
+					Agnaktor Fin 2
+					Agnaktor Claw 3
+					Agnaktor Tail 1
+					20000z
+					Desc
+					Agnaktor Scraps 2
+
+						Hellish Flamedancer
+						180
+						Fire 35
+						R6
+						25%
+						---
+						Agnaktor Fin+ 3
+						Agnaktor Claw+ 6
+						Firecell Stone 5
+						70000z
+						Desc
+						Agnktor Scraps+ 2
+
 				Twin Fire Wyvern
 				160
+				Pls 2 3000z
 				Fire 18
 				R3
 				0%
@@ -463,6 +590,7 @@ Desc
 
 					Twin Blaze Wyvern
 					170
+					Hrd 2 7000z
 					Fire 22
 					R5
 					0%
@@ -477,6 +605,7 @@ Desc
 
 						Twin Crimson Wyvern
 						190
+						Hrd 2 8000z
 						Fire 24
 						R6
 						0%
@@ -519,6 +648,7 @@ Desc
 
 			Froggi Katana
 			100
+			Reg 2 1000z
 			Poison 18
 			R1
 			0%
@@ -532,8 +662,36 @@ Desc
 			Bone Scraps 1
 			Ore Scraps 1
 
+				Froggi Katana+
+				130
+				Reg 2 2000z
+				Poison 20
+				R2
+				0%
+				OO-
+				Grt Froggi Hide 3
+				Grt Frggi Arm 2
+				Poison Sac 2
+				5900z
+				Desc
+				GrtFroggiScraps 2
+
+					Poison Heqet
+					180
+					Poison 24
+					R4
+					0%
+					OO-
+					Grt Frggi Hide+ 5
+					Grt Frggi Arm+ 3
+					Toxin Sac 4
+					BrdWyvern Stone 3
+					30000z
+					GrtFrggiScraps+ 2
+
 Wind Eater
 130
+Reg 2 2000z
 R2
 0%
 O--
@@ -543,6 +701,33 @@ Pelagicite Ore 10
 Monster Fluid 5
 Desc
 Ore Scraps 2
+
+	Sonic Eater
+	140
+	Hrd 2 3000z
+	R3
+	0%
+	OO-
+	Fire Stone 4
+	Dragonite Ore 8
+	Deepsea Sardine 8
+	20000z
+	Desc
+	Ore Scraps 2
+
+		Zephyr
+		190
+		Hrd 2 8000z
+		R6
+		15%
+		OOO
+		Depthlite Ore 10
+		Ancnt Drgn Bone 5
+		Wyvern Stone 2
+		43500z
+		Desc
+		Ore Scraps+ 1
+		Bone Scraps+ 1
 
 Scabbardfish Blade
 70
@@ -600,6 +785,7 @@ Ore Scraps 2
 
 Lightning Splitter
 160
+Hrd 2 3000z
 Thunder 20
 R3
 0%
@@ -612,6 +798,20 @@ Jinouga Pelt 3
 Desc
 Jinouga Scraps 2
 
+	Lightning Striker
+	210
+	Thunder 24
+	R6
+	0%
+	O--
+	Jinouga Horn+ 2
+	LightningCarpce 4
+	Jinouga Claw+ 6
+	Jinouga Jewel 1
+	80000z
+	Desc
+	Jinouga Scraps+ 2
+
 Tetsusaiba
 150
 R3
@@ -622,19 +822,6 @@ Ancnt Mnstr Fng 5
 Isisium Ore 5
 Amber Fang 3
 Desc
-
-Strike Katana
-190
-R5
-0%
-O--
-30000z
-Stout Bone 5
-Grt Jaggi Hide+ 3
-Dragonite Ore 8
-Bird Wyvrn Bone 10
-Desc
-GrtJaggiScraps+ 2
 
 Cruel Agony
 180
