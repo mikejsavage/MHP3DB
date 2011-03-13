@@ -29,6 +29,16 @@ Sure, it's <a href="https://github.com/mikejsavage/MHP3DB/blob/master/license.tx
 I'm one guy doing this in my spare time.
 
 
+<h2>Thanks to</h2>
+
+<ul>
+	<li>Capcom</li>
+	<li><a href="http://forums.minegarde.com/user/51-nosuke/">Nosuke</a> for providing ancient charm tables</li>
+	<li><a href="http://zedshaw.com/">Zed Shaw</a> for his <a href="http://tir.mongrel2.org/">Tir framework</a> which I used some ideas and template code from</li>
+	<li>Gunnil for making a female char so I don't have to play the game twice</li>
+</ul>
+
+
 <h2>News</h2>
 
 <table>
