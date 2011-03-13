@@ -110,6 +110,10 @@ img.icon {
 	height: 2em;
 	line-height: 2em;
 	min-width: 880px;
+
+	/* XXX: too slow
+	-moz-box-shadow: 0 0 2px 2px #1a1a1a;
+	*/
 }
 .header a {
 	color: #666;
@@ -170,6 +174,10 @@ img.icon {
 	-khtml-border-radius:  0 0 32px 32px;
 	-moz-border-radius:    0 0 32px 32px;
 	-webkit-border-radius: 0 0 32px 32px;
+
+	/* XXX: too slow
+	-moz-box-shadow: 0 0 2px 2px #1a1a1a;
+	*/
 }
 
 /* curves joining header to .main */
@@ -190,11 +198,19 @@ img.icon {
 	border-top: 32px solid #319db8;
 	content: "";
 	display: block;
+
+	/* XXX: too slow
+	-moz-border-top-colors: #1c2628 #22464f #2a7284 #2f92ab #319db8;
+	*/
 }
 
 .curve.L:before {
 	border-right: 32px solid #319db8; /* webkit */
 	border-radius: 0 32px 0 0;
+
+	/* XXX: too slow
+	-moz-border-right-colors: #1c2628 #22464f #2a7284 #2f92ab #319db8;
+	*/
 
 	-khtml-border-radius:  0 32px 0 0;
 	-moz-border-radius:    0 32px 0 0;
@@ -203,6 +219,10 @@ img.icon {
 .curve.R:before {
 	border-left: 32px solid #319db8; /* webkit */
 	border-radius: 32px 0 0;
+
+	/* XXX: too slow
+	-moz-border-left-colors: #1c2628 #22464f #2a7284 #2f92ab #319db8;
+	*/
 
 	-khtml-border-radius:  32px 0 0;
 	-moz-border-radius:    32px 0 0;
