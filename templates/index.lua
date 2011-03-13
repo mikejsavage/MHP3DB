@@ -66,17 +66,21 @@ I'm one guy doing this in my spare time.
 		return "th"
 	end
 
-	-- UTC time
-	local now = os.time( os.date( "!*t" ) )
+	local function sameDay( date1, date2 )
+		return date1.year == date2.year and date1.yday == date2.yday
+	end
 
-	local function postDate( ts, now )
-		local delta = os.difftime( now, ts )
+	local now       = os.date( "!*t" ) -- ! for UTC
+	local yesterday = os.date( "*t", os.time( now ) - 86400 )
 
-		if delta <= 86400 then
+	local function postDate( ts )
+		local date = os.date( "*t", ts )
+
+		if sameDay( date, now ) then
 			return "Today"
 		end
 
-		if delta <= 86400 * 2 then
+		if sameDay( date, yesterday ) then
 			return "Yesterday"
 		end
 
@@ -89,7 +93,7 @@ I'm one guy doing this in my spare time.
 		)
 	end
 
-	printf( [[<tr class="post"><td class="date">%s</td><td>%s</td></tr>]], postDate( Posts[ 1 ].date, now ), Posts[ 1 ].content )
+	printf( [[<tr class="post"><td class="date">%s</td><td>%s</td></tr>]], postDate( Posts[ 1 ].date ), Posts[ 1 ].content )
 
 	for i = 2, MaxPosts do
 		local post = Posts[ i ]
