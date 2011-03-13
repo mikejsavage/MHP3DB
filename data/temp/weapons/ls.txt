@@ -284,6 +284,7 @@ Desc
 
 				Chain Blade
 				120
+				Reg 2 2000z
 				Thunder 10
 				R2
 				0%
@@ -297,6 +298,19 @@ Desc
 				Thunderbug 15
 				Desc
 				Ore Scraps 2
+
+					Chain Blade+
+					170
+					Thunder 12
+					R3
+					0%
+					O--
+					Dragonite Ore 5
+					Jinouga Pelt 5
+					Diablos Marrow 1
+					15000z
+					Desc
+					Ore Scraps 2
 
 			Frost Razor
 			120
@@ -356,6 +370,7 @@ Desc
 
 			Aoashira Naginata+
 			150
+			Reg 2 2000z
 			R2
 			0%
 			---
@@ -365,6 +380,66 @@ Desc
 			5900z
 			Desc
 			Aoashira Scraps 2
+
+				Reaching Slasher
+				200
+				Hrd 2 5000z
+				R4
+				0%
+				---
+				Aoashira Pelt+ 5
+				Aoashira Arm+ 5
+				King Scarab 3
+				Yukumo Wood+ 3
+				35000z
+				Desc
+				AoashiraScraps+ 2
+
+				Fang Breaker
+				160
+				Pls 2 3000z
+				Dragon 10
+				Def 8
+				R3
+				0%
+				O--
+				Jhen Mhran Fang 2
+				Jhen Mohran Shl 3
+				Pelagicite Ore 5
+				20000z
+				Jhen Mhran Fang 3
+				Jhen Mohran Shl 5
+				EldrDragonBlood 1
+				Desc
+				JhenMhranScraps 2
+
+					Fang Splitter
+					210
+					Hvy 1 10000z
+					Dragon 15
+					Def 16
+					R7
+					0%
+					OO-
+					Jhen Mhrn Fang+ 3
+					Jhen Mhran Arm+ 2
+					Uragaan Carapce 5
+					Jhen Mohran Jwl 1
+					65000z
+					Desc
+					JhenMhrnScraps+ 2
+
+				Mountain Sickle
+				180
+				R3
+				0%
+				---
+				Doboru Horn 1
+				Mossy Carapace 5
+				Dragonite Ore 5
+				20000z
+				Desc
+				Doboru Scraps 2
 
 			Downpour
 			130
@@ -528,6 +603,7 @@ Desc
 
 						Strike Katana
 						190
+						Pls 2 5000z
 						R4
 						0%
 						O--
@@ -541,6 +617,20 @@ Desc
 						Bird Wyvrn Bone 10
 						Desc
 						GrtJaggiScraps+ 2
+						
+							Broken Shade
+							210
+							Hrd 2 7000z
+							R5
+							0%
+							OO-
+							Grt Jaggi Hide+ 3
+							Union Ore 5
+							Rare Scarab 5
+							35000z
+							Desc
+							GrtJaggiScraps+ 1
+							Ore Scraps+ 1
 
 					Flamedancer
 					140
@@ -746,6 +836,7 @@ Wood Scraps 1
 
 Yukumo Katana
 160
+Pls 2 3000z
 R3
 0%
 ---
@@ -757,19 +848,18 @@ Desc
 Wood Scraps 2
 Ore Scraps 1
 
-Fang Breaker
-160
-Dragon 10
-Def 8
-R3
-0%
-O--
-30000z
-Jhen Mhran Fang 3
-Jhen Mohran Shl 5
-EldrDragonBlood 1
-Desc
-JhenMhranScraps 2
+	Yukumo Katana+
+	190
+	R4
+	0%
+	---
+	Yukumo Wood+ 5
+	Carbalite Ore 8
+	Zuwaropsu Hide+ 5
+	30000z
+	Desc
+	Wood Scraps+ 1
+	Ore Scraps+ 1
 
 South Sea Blade
 160

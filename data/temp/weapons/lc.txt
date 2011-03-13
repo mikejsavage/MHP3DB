@@ -274,6 +274,7 @@ Bone Scraps 2
 
 	Gouging Hasta
 	100
+	Reg 2 1000z
 	R2
 	0%
 	---
@@ -288,8 +289,122 @@ Bone Scraps 2
 	Desc
 	Rhnoplos Scraps 2
 
+		Rheno Hasta
+		130
+		R2
+		0%
+		---
+		Rhnplos Skl Shl 2
+		Lg Monster Bone 2
+		Queer Beak 2
+		4000z
+		Desc
+		Rhnoplos Scraps 2
+
+		Ludroth Bone Spear
+		110
+		Reg 2 1000z
+		R1
+		0%
+		---
+		Juvenile Sponge 2
+		Ludroth Hide 4
+		Carpenterbug 2
+		Bone 2
+		2500z
+		Desc
+		Bone Scraps 2
+
+			Spiral Lance
+			120
+			Reg 2 2000z
+			Water 11
+			R2
+			0%
+			O--
+			Spongy Hide 3
+			RoyalLudrothClw 2
+			RyalLudrthCrest 2
+			4000z
+			Spongy Hide 5
+			Aqua Sac 4
+			Lg Monster Bone 2
+			Desc
+			Ludroth Scraps 2
+
+				Spiral Lance+
+				160
+				Pls 2 3000z
+				Water 18
+				R3
+				0%
+				O--
+				Spongy Hide 4
+				Blos Fang 4
+				Monster Bone+ 5
+				9500z
+				Desc
+				Ludroth Scraps 2
+
+					Spiral Bore
+					180
+					Hrd 2 7000z
+					Water 25
+					R5
+					0%
+					OO-
+					Spongy Hide+ 5
+					Exquisite Crest 2
+					RoyalLudrthClw+ 4
+					Hydro Sac 5
+					55000z
+					Desc
+					Ludroth Scraps+ 2
+
+					Varuna's Tears
+					180
+					Hrd 2 7000z
+					Poison 15
+					R5
+					0%
+					OO-
+					SpongyPurplHide 5
+					PurpRylLdrthClw 5
+					Toxin Sac 3
+					35000z
+					Desc
+					Ludroth Scraps+ 2
+
+						Varuna's Burden
+						200
+						Hrd 2 8000z
+						Poison 20
+						R6
+						0%
+						OO-
+						PurpRylLdrthScl 8
+						Ice Agnktor Fin 3
+						Venom Gland 3
+						55000z
+						Desc
+						Ludroth Scraps+ 2
+
+			Shadow Javelin
+			130
+			Poison 20
+			R3
+			0%
+			O--
+			Gigginox Claw 3
+			Uncanny Hide 5
+			Poison Sac 3
+			5900z
+			Desc
+			Gigginox Scraps 2
+
 	Wild Bone Lance
 	120
+	Reg 2 1000z
 	R1
 	0%
 	---
@@ -300,18 +415,31 @@ Bone Scraps 2
 	Desc
 	Bulldrme Scraps 2
 
-Spiral Lance
-120
-Water 11
-R2
-0%
-O--
-6000z
-Spongy Hide 5
-Aqua Sac 4
-Lg Monster Bone 2
-Desc
-Ludroth Scraps 2
+		Wild Bone Lance+
+		170
+		Reg 2 2000z
+		R2
+		0%
+		---
+		Bulldrome Hide 5
+		Bullfango Head 1
+		Amber Fang 2
+		8200z
+		Desc
+		Bulldrme Scraps 2
+
+			Bulldrome Spear
+			200
+			Pls 2 5000z
+			R4
+			0%
+			OO-
+			Bulldrome Tusk 6
+			Bulldrome Hide+ 4
+			Stout Bone 6
+			35000z
+			Desc
+			Bulldrm Scraps+ 2
 
 Blue Crater
 130

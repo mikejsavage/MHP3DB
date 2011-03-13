@@ -1,0 +1,1 @@
+return { sharp = { 6, 7, 32 }, sharpp = { 6, 7, 38, 5 } }
