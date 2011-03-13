@@ -23,6 +23,7 @@ Desc
 
 		Yukumo Blades+
 		90
+		Reg 2 1000z
 		R1
 		0%
 		---
@@ -34,8 +35,56 @@ Desc
 		Wood Scraps 1
 		Ore Scraps 1
 
+			Yukumo Slicers
+			130
+			Reg 2 2000z
+			R2
+			0%
+			---
+			Lightcrystal 1
+			Machalite Ore 10
+			Yukumo Wood 10
+			Urukusu Ear 2
+			1600z
+			Desc
+			Wood Scraps 1
+			Ore Scraps 2
+
+			Insectors
+			130
+			Reg 2 2000z
+			Dragon 10
+			R2
+			0%
+			---
+			Swallowtail 2
+			Hercudrome 2
+			Monster Fluid 4
+			2560z
+			Swallowtail 4
+			Hercudrome 4
+			Dragonite Ore 2
+			Bnahabra Wing 2
+			Desc
+			Altaroth Scraps 2
+
+				Insectors+
+				150
+				Dragon 12
+				R3
+				0%
+				---
+				Swallowtail 5
+				Bnahabra Shell 5
+				Monster Fluid 8
+				EldrDragonBlood 2
+				5600z
+				Desc
+				Altaroth Scraps 2
+
 		Twin Daggers
 		80
+		Reg 2 1000z
 		R1
 		0%
 		---
@@ -47,6 +96,201 @@ Desc
 		Carpenterbug 2
 		Desc
 		Ore Scraps 2
+
+			Twin Daggers+
+			110
+			Reg 2 1000z
+			R1
+			0%
+			---
+			Bealite Ore 4
+			Machalite Ore 2
+			2000z
+			Desc
+			Ore Scraps 2
+
+				Twin Duel Daggers
+				140
+				Reg 2 2000z
+				R2
+				0%
+				---
+				Isisium Ore 4
+				Iron Ore 8
+				Earth Crystal 4
+				3920z
+				Desc
+				Ore Scraps 2
+
+					Dual Tomahawks
+					150
+					Reg 2 2000z
+					R2
+					0%
+					---
+					Dragonite Ore 4
+					Machalite Ore 7
+					Bealite Ore 8
+					4720z
+					Dragonite Ore 5
+					Iron Ore 10
+					Killer Beetle 6
+					Desc
+					Ore Scraps 2
+
+						Dual Tomahawks+
+						170
+						Pls 2 3000z
+						R3
+						0%
+						---
+						Magma Shard 4
+						Dragonite Ore 8
+						Machalite Ore 12
+						6560z
+						Desc
+						Ore Scraps 2
+
+							Hurricane
+							190
+							Pls 2 5000z
+							R4
+							0%
+							OO-
+							Carbalite Ore 3
+							Earth Crystal 20
+							Bealite Ore 20
+							20000z
+							Carbalite Ore 5
+							Earth Crystal 30
+							Iron Ore 50
+							Desc
+							Ore Scraps+ 2
+
+								Cyclone
+								210
+								Hrd 2 7000z
+								R5
+								0%
+								OO-
+								Union Ore 5
+								Carbalite Ore 15
+								Machalite Ore 30
+								35000z
+								Desc
+								Ore Scraps+ 2
+
+							Order Rapiers
+							190
+							Water 10
+							R4
+							0%
+							O--
+							Gracium Ore 6
+							Lightcrystal 4
+							Ancient Fish 4
+							45000z
+							Desc
+							Ore Scraps+ 2
+
+						Rex Slicers
+						180
+						Pls 2 3000z
+						R3
+						-25%
+						---
+						Tigrex Claw 6
+						Tigrex Fang 2
+						Tigrex Scale 2
+						20000z
+						Desc
+						Tigrex Scraps 2
+
+							Bloody Rex Slicers
+							220
+							R6
+							-20%
+							---
+							Tigrex Claw+ 6
+							Tigrex Fang+ 2
+							Tigrex Jaw 1
+							70000z
+							Desc
+							Tigrex Scraps+ 2
+
+					Saw Slicers
+					140
+					Reg 2 2000z
+					Thunder 8
+					R2
+					0%
+					O--
+					Dragonite Ore 6
+					Thunderbug 5
+					Zuwaroposu Hide 6
+					3920z
+					Desc
+					Ore Scraps 2
+
+						Saw Slicers+
+						180
+						Thunder 10
+						R4
+						0%
+						O--
+						Carbalite Ore 6
+						Mega Thunderbug 5
+						Zuwaropsu Hide+ 6
+						45000z
+						Desc
+						Ore Scraps+ 2
+
+				51st Division Clubs
+				140
+				Reg 2 2000z
+				Def 20
+				R2
+				0%
+				---
+				Hapurubokka Shl 4
+				Hapurbokka Hide 2
+				Iron Ore 4
+				Bone 4
+				3920z
+				Hapurubokka Clw 2
+				Hapurubokka Shl 4
+				Hapurbokka Hide 4
+				Sm Monster Bone 6
+				Desc
+				Haprbkka Scraps 2
+
+					51st Division Clubs+
+					180
+					Pls 2 3000z
+					Def 25
+					R3
+					0%
+					---
+					Hapurubokka Shl 6
+					Hprbkka Skl Shl 1
+					Jhen Mohran Arm 2
+					15000z
+					Desc
+					Haprbkka Scraps 2
+
+						Hapurubokka Strikers
+						220
+						Hrd 2 8000z
+						Def 25
+						R6
+						0%
+						---
+						Hapurubokka Cpc 4
+						Haprbokka Hide+ 2
+						Bird Wyvrn Bone 4
+						60000z
+						Desc
+						Hapbkka Scraps+ 2
 
 		Bone Scythes
 		90
@@ -238,6 +482,7 @@ Desc
 
 				Blood Wings
 				130
+				Pls 2 3000z
 				Poison 12
 				R3
 				0%
@@ -253,6 +498,64 @@ Desc
 				Poison Sac 8
 				Desc
 				Gigginox Scraps 2
+
+					Blood Wings+
+					160
+					Hrd 2 7000z
+					Poison 16
+					R5
+					0%
+					---
+					Gigginox Claw 2
+					Horrific Maw 1
+					Toxin Sac 4
+					Shrp Mnster Bne 2
+					35000z
+					Desc
+					Gigginox Scraps 1
+					Bone Scraps+ 1
+
+						Venom Wings
+						180
+						Poison 20
+						R6
+						0%
+						---
+						Gigginox Hide+ 4
+						Uncanny Hide+ 4
+						Venom Gland 4
+						60000z
+						Desc
+						Giggnox Scraps+ 2
+
+						Voltergeist
+						170
+						Hrd 2 7000z
+						Thunder 26
+						R5
+						10%
+						---
+						ThdrGiggnoxHide 4
+						Uncanny Hide+ 4
+						Thunder Sac 2
+						40000z
+						Desc
+						Giggnox Scraps+ 2
+
+							Giggabolt
+							190
+							Hrd 2 8000z
+							Thunder 30
+							R6
+							15%
+							---
+							ThndrGiggnoxClw 2
+							Horrific Maw 2
+							LightningCarpce 4
+							Wyvern Stone 1
+							60000z
+							Desc
+							Giggnox Scraps+ 2
 
 				Snow Twins
 				120
@@ -299,6 +602,7 @@ Desc
 
 Hunter Dumplings
 70
+Reg 2 1000z
 R1
 0%
 OO-
@@ -309,45 +613,30 @@ Honey 1
 Desc
 Wood Scraps 1
 
-Insectors
-130
-Dragon 10
-R2
-0%
----
-3840z
-Swallowtail 4
-Hercudrome 4
-Dragonite Ore 2
-Bnahabra Wing 2
-Desc
-Altaroth Scraps 2
+	White Dumplings
+	100
+	R1
+	0%
+	OO-
+	Exciteshroom 2
+	Yukumo Wood 4
+	Bulldrome Tusk 2
+	1520z
+	Desc
+	Wood Scraps 2
 
-Dual Tomahawks
-150
-R2
-0%
----
-7080z
-Dragonite Ore 5
-Iron Ore 10
-Killer Beetle 6
-Desc
-Ore Scraps 2
-
-51st Division Clubs
-140
-Def 20
-R2
-0%
----
-5880z
-Hapurubokka Clw 2
-Hapurubokka Shl 4
-Hapurbokka Hide 4
-Sm Monster Bone 6
-Desc
-Haprbkka Scraps 2
+	Purple Dumplings
+	100
+	Poison 8
+	R2
+	0%
+	O--
+	Toadstool 4
+	Lifecrystals 2
+	Grt Froggi Hide 2
+	2000z
+	Desc
+	GrtFroggiScraps 2
 
 Yukumo Duals
 160
@@ -391,20 +680,9 @@ Jinouga Scraps 2
 	Desc
 	Jinouga Scraps+ 2
 
-Hurricane
-190
-R5
-0%
-OO-
-30000z
-Carbalite Ore 5
-Earth Crystal 30
-Iron Ore 50
-Desc
-Ore Scraps+ 2
-
 Blades of Rage
 180
+Hrd 2 7000z
 Dragon 8
 R5
 5%
@@ -415,6 +693,19 @@ Dviljho Skl Shl 2
 Deviljho Hide 6
 Desc
 Deviljho Scraps 2
+
+	Las Depredadores
+	210
+	Dragon 12
+	R7
+	10%
+	O--
+	Deviljho Scale 6
+	Deviljho Drool 5
+	Deviljho Jewel 1
+	85000z
+	Desc
+	Deviljho Scraps 2
 
 Akantor Furyblades
 250
