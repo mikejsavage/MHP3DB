@@ -489,6 +489,18 @@ function generatePath( weapon, weapons, path )
 	return table.getn( path ) ~= 0 and path or nil
 end
 
+-- check screenshots are all correctly named
+-- must do this first as Names gets destroyed
+-- during weapon parsing
+
+for file in lfs.dir( Dir .. "/" .. SharpDir ) do
+	if file ~= "." and file ~= ".." and file ~= CacheDir then
+		assert( Names[ file:match( "^(.+)%.png$" ) ], "bad screenshot: " .. file )
+	end
+end
+
+-- weapon parsing
+
 local Weapons = { }
 local WeaponsCount = 0
 
