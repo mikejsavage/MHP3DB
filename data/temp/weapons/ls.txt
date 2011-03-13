@@ -431,6 +431,7 @@ Desc
 
 				Mountain Sickle
 				180
+				Pls 2 3000z
 				R3
 				0%
 				---
@@ -440,6 +441,31 @@ Desc
 				20000z
 				Desc
 				Doboru Scraps 2
+
+					Mountain Scythe
+					200
+					Hrd 2 7000z
+					R5
+					0%
+					O--
+					Doboru Horn+ 1
+					Mossy Carapace+ 5
+					Union Ore 5
+					50000z
+					Desc
+					Doboru Scraps+ 2
+
+						Wild Mountain Scythe
+						220
+						R6
+						0%
+						O--
+						Doboru Horn+ 3
+						Doboru Sacrum 1
+						Jhen Mhrn Fang+ 2
+						70000z
+						Desc
+						Doboru Scraps+ 2
 
 			Downpour
 			130
@@ -724,6 +750,7 @@ Desc
 
 				Diapason
 				170
+				Pls 2 3000z
 				Def 20
 				R3
 				0%
@@ -735,6 +762,48 @@ Desc
 				15000z
 				Desc
 				Uragaan Scraps 2
+
+					Diapason+
+					200
+					Hrd 2 5000z
+					Def 30
+					R4
+					0%
+					---
+					Uragaan Scale 5
+					Uragaan Jaw 2
+					Uragaan Marrow 2
+					Shrp Mnster Bne 3
+					40000z
+					Desc
+					Uragaan Scraps 1
+					Bone Scraps+ 1
+
+						Grand Fork
+						230
+						Def 40
+						R6
+						0%
+						---
+						Uragaan Shield 8
+						Uragaan Carapce 4
+						Uragaan Ruby 1
+						65000z
+						Desc
+						Uragaan Scraps+ 2
+
+						Chrome Might
+						210
+						Def 20
+						R6
+						-20%
+						---
+						SteelUrgnShield 4
+						SteelUragaanCpc 2
+						Magma Shard 5
+						45000z
+						Desc
+						Uragaan Scraps+ 2
 
 			Froggi Katana
 			100

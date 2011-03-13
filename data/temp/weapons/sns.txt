@@ -445,6 +445,7 @@ Bone Scraps 2
 
 				Blood Axe
 				190
+				Hrd 2 7000z
 				Poison 18
 				R5
 				0%
@@ -455,6 +456,21 @@ Bone Scraps 2
 				45000z
 				Desc
 				Giggnox Scraps+ 2
+
+					Plague Axe
+					210
+					Hrd 2 8000z
+					Poison 24
+					R6
+					0%
+					OO-
+					Uncanny Hide+ 5
+					Venom Gland 3
+					Hrd Mnster Bone 3
+					King Scarab 7
+					70000z
+					Desc
+					Giggnox Scraps+ 2
 
 				Baumschnitt
 				180

@@ -268,7 +268,7 @@ Ore Scraps+ 2
 
 Agito
 190
-R5
+R4
 0%
 O--
 30000z

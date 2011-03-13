@@ -480,6 +480,7 @@ Desc
 
 					Hidden Daggers
 					140
+					Pls 2 3000z
 					R3
 					40%
 					O--
@@ -493,6 +494,59 @@ Desc
 					Monster Bone+ 4
 					Desc
 					Narga Scraps 2
+
+						Hidden Daggers+
+						160
+						Hrd 2 5000z
+						R4
+						40%
+						O--
+						Black Narga Plt 6
+						Narga TailSpike 4
+						Narga Marrow 2
+						Shrp Mnster Bne 4
+						35000z
+						Desc
+						Narga Scraps 1
+						Bone Scraps+ 1
+
+							Black Wing Edge
+							180
+							R6
+							40%
+							OO-
+							Nargacuga Wing+ 8
+							Narga Scale+ 4
+							Narga Brain Stm 1
+							65000z
+							Desc
+							Narga Scraps+ 2
+
+							Ghillie Daggers
+							180
+							Hrd 2 7000z
+							R5
+							0%
+							O--
+							Grn Narga Wing 4
+							Green Narga Scl 2
+							Grn Narga Fang 4
+							45000z
+							Desc
+							Narga Scraps+ 2
+
+								Shadow Wing Edge
+								200
+								R6
+								0%
+								O--
+								Grn Narga Wing 6
+								Grn Narga Pelt 4
+								Narga Brain Stm 1
+								Hrd Mnster Bone 4
+								65000z
+								Desc
+								Narga Scraps+ 2
 
 				Blood Wings
 				130
@@ -654,6 +708,7 @@ Wood Scraps 1
 
 Yukumo Duals
 160
+Pls 2 3000z
 R3
 0%
 ---
@@ -664,6 +719,35 @@ Dragonite Ore 10
 Desc
 Wood Scraps 2
 Ore Scraps 1
+
+	Yukumo Duals+
+	190
+	Pls 2 5000z
+	R4
+	0%
+	---
+	Yukumo Wood+ 5
+	Carbalite Ore 8
+	Quality Abdomen 5
+	30000z
+	Desc
+	Wood Scraps+ 1
+	Ore Scraps+ 1
+
+		Yukumo Ritualdancers
+		210
+		Hrd 2 8000z
+		R6
+		0%
+		---
+		Yukumo Wood+ 8
+		Union Ore 8
+		Uragaan Marrow 3
+		Barioth Claw+ 3
+		50000z
+		Desc
+		Wood Scraps+ 1
+		Ore Scraps+ 1
 
 Lords of Thunder
 160

@@ -2711,6 +2711,9 @@ R6
 9000z
 
 593 Tempest Sac
+sac white
+R6
+4800z
 
 594 Amatsu Jewel
 
