@@ -73,6 +73,12 @@ h2 + h3 {
 	padding-top: 0;
 }
 
+/* breadcrumbs */
+
+.crumb {
+	color: #666;
+}
+
 /* lists */
 
 ul {

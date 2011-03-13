@@ -7,9 +7,25 @@ local Infos =
 
 	def = "weapons/meleeInfo",
 }
+
+local Shorts =
+{
+	gs  = "GS",
+	ls  = "LS",
+	sns = "SnS",
+	ds  = "DS",
+	hm  = "HM",
+	hh  = "HH",
+	lc  = "LC",
+	gl  = "GL",
+	sa  = "SA",
+	lbg = "LBG",
+	hbg = "HBG",
+	bow = "Bows",
+}
 %}
 
-<h1>{{ weaponName( { class = class, weapon = weapon } ) }}</h1>
+<h1><a href="{{ U( "weapons/" .. class.short ) }}">{{ Shorts[ class.short ] }}</a> <span class="crumb">&raquo;</span> {{ weaponName( { class = class, weapon = weapon } ) }}</h1>
 
 <h2>Stats</h2>
 
