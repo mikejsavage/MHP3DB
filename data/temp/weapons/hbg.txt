@@ -462,7 +462,7 @@ Narga Scraps 2
 0
 3!
 
-Dual Stab
+Duel Stab
 180
 R3
 -15%

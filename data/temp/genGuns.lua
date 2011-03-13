@@ -7,6 +7,8 @@ Shots = data( "shots" )
 
 local Dir = "weapons"
 
+local Names, NamesCount = loadNames( Dir .. "/namesGuns.txt" )
+
 local Types =
 {
 	"lbg",
@@ -104,6 +106,10 @@ local LastShot = 1
 local Actions =
 {
 	init = function( line, weapon )
+		assert( Names[ line ], "bad name: " .. line )
+
+		Names[ line ] = nil
+
 		weapon.name = { hgg = line }
 
 		return "attack"
@@ -451,6 +457,7 @@ function generatePath( weapon, weapons, path )
 end
 
 local Weapons = { }
+local WeaponsCount = 0
 
 for _, short in pairs( Types ) do
 	io.input( Dir .. "/" .. short .. ".txt" )
@@ -477,6 +484,8 @@ for _, short in pairs( Types ) do
 			assert( not weapon.improve or table.getn( weapon.improve.materials ) ~= 0, "no improve materials for " .. weapon.name.hgg )
 
 			table.insert( class.weapons, weapon )
+
+			WeaponsCount = WeaponsCount + 1
 
 			state = "init"
 			weapon = { }
@@ -514,7 +523,11 @@ for _, short in pairs( Types ) do
 	table.insert( Weapons, class )
 end
 
-print( "genGuns: ok!" )
+print( ( "genGuns: ok, %.1f%% complete! (%d/%d)" ):format(
+	100 * ( WeaponsCount / NamesCount ),
+	WeaponsCount,
+	NamesCount
+) )
 
 io.output( "../guns.json" )
 io.write( json.encode( Weapons ) )
