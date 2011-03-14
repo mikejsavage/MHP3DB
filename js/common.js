@@ -6,7 +6,7 @@ function onLoad( func )
 	}
 	else if( window.attachEvent )
 	{
-		window.attachEvent( "onload", func )
+		window.attachEvent( "onload", func );
 	}
 	else
 	{
