@@ -1006,6 +1006,7 @@ function calc( force )
 	{
 		// i can't do icons here because browser vendors have
 		// literally outdone moore's law with shittiness
+		// TODO: some sort of per piece breakdown?
 
 		var materialsOut = "";
 
@@ -1068,7 +1069,6 @@ function getSetUrl()
 	}
 
 
-
 	var out = numToShort( $( "wpn" ).selectedIndex ) + encodeDecorations( "wpn" );
 
 	Armors.map( function( type )
@@ -1079,19 +1079,19 @@ function getSetUrl()
 
 	// talisman
 
-	// TODO: think of a nice url scheme
-
-	/*for( var i = 0; i < MaxTalismanSkills; i++ )
+	for( var i = 0; i < MaxTalismanSkills; i++ )
 	{
-		var selSkill = $( "tlnskill" + i );
+		var selId = "tlnskill" + i;
+
+		var selSkill = $( selId );
 
 		if( selSkill.selectedIndex != 0 )
 		{
-			var points = parseInt( $( "tlnskill" + i + "pts" ).value, 10 );
+			var points = parseInt( $( selId + "pts" ).value, 10 );
 
 			if( points != 0 )
 			{
-				out += "_" + numToShort( selSkill.value ) + "." + points;
+				out += "_" + numToShort( selSkill.value ) + "=" + numToShort( points );
 			}
 		}
 	}
@@ -1101,7 +1101,7 @@ function getSetUrl()
 	if( tlnDecorations != "" )
 	{
 		out += "_" + encodeDecorations( "tln" ).substr( 1 );
-	}*/
+	}
 
 	return out;
 }
@@ -1111,13 +1111,18 @@ function getSetUrl()
 // on people trying to make duff sets
 function loadSet( url )
 {
-	function loadDecorations( short, decorations )
+	function loadDecorations( short, decorations, start )
 	{
+		// default from 1 as the first "decoration"
+		// is really the piece id
+		if( start == null )
+		{
+			start = 1;
+		}
+
 		var shortSlot = short + "slot";
 
-		// start from 1 as the first "decoration"
-		// is really the piece id
-		for( var i = 1, m = decorations.length; i < m; i++ )
+		for( var i = start, m = decorations.length; i < m; i++ )
 		{
 			var decoration = decorations[ i ];
 			var slot = freeSlot[ short ];
@@ -1140,7 +1145,7 @@ function loadSet( url )
 
 
 	// set up freeSlot array
-	var freeSlot = { "wpn" : 0 };
+	var freeSlot = { "wpn" : 0, "tln" : 0 };
 
 	Armors.map( function( type )
 	{
@@ -1195,6 +1200,36 @@ function loadSet( url )
 
 		loadDecorations( type.short, decorations );
 	} );
+
+	// load talisman
+	{
+		var skillIdx = 0;
+
+		for( var i = 6, m = parts.length; i < m; i++ )
+		{
+			var part = parts[ i ];
+
+			if( part.indexOf( "=" ) == -1 )
+			{
+				loadDecorations( "tln", part.split( "." ), 0 );
+			}
+			else
+			{
+				var skillSplit = part.split( "=" );
+				var selId = "tlnskill" + skillIdx;
+
+				selectWithValue( $( selId ), numFromShort( skillSplit[ 0 ] ) );
+
+				var pointsInput = $( selId + "pts" );
+
+				pointsInput.value = numFromShort( skillSplit[ 1 ] );
+				pointsInput.disabled = false;
+
+				skillIdx++;
+			}
+
+		}
+	}
 
 	// refresh pieces
 	refreshPieces();
