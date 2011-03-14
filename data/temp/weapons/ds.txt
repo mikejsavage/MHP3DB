@@ -335,6 +335,7 @@ Desc
 
 					Ludroth Twins+
 					160
+					Pls 2 3000z
 					Water 20
 					R3
 					0%
@@ -347,8 +348,24 @@ Desc
 					Desc
 					Ludroth Scraps 2
 
+						Dual Ludroth
+						180
+						Hrd 2 7000z
+						Water 30
+						R5
+						0%
+						OO-
+						Spongy Hide+ 2
+						Ludroth Hide+ 4
+						Bird Wyvrn Bone 6
+						Hydro Sac 2
+						55000z
+						Desc
+						Ludroth Scraps+ 2
+
 				Twin Flames
 				150
+				Reg 2 2000z
 				R2
 				0%
 				O--
@@ -360,6 +377,53 @@ Desc
 				Desc
 				Rathalos Scraps 1
 				Rathian Scraps 1
+
+					Hi Twin Flames
+					170
+					Pls 2 3000z
+					Fire 18
+					R3
+					0%
+					O--
+					Rathalos Tail 3
+					Rathian Spike 2
+					FireWyvrnMarrow 2
+					Igneous Thorax 3
+					20000z
+					Desc
+					Rathalos Scraps 1
+					Rathian Scraps 1
+
+						Gradios Ultimus
+						190
+						Hrd 2 8000z
+						Fire 26
+						R6
+						0%
+						O--
+						Rathalos Scale+ 8
+						Rathian Scale+ 8
+						Rathalos Plate 1
+						Rathian Plate 1
+						65000z
+						Desc
+						Rthalos Scraps+ 1
+						Rathian Scraps+ 1
+
+							Corpse Blades
+							210
+							Fire 28
+							R7
+							0%
+							O--
+							Slvr Rthlos Scl 6
+							Gld Rathian Scl 6
+							Rathalos Ruby 1
+							Rathian Ruby 1
+							75000z
+							Desc
+							Rthalos Scraps+ 1
+							Rathian Scraps+ 1
 
 				Dual Diablos
 				190

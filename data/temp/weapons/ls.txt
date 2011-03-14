@@ -301,6 +301,7 @@ Desc
 
 					Chain Blade+
 					170
+					Pls 2 3000z
 					Thunder 12
 					R3
 					0%
@@ -311,6 +312,21 @@ Desc
 					15000z
 					Desc
 					Ore Scraps 2
+
+						Lumber Ruin
+						200
+						Pls 2 5000z
+						Thunder 14
+						R4
+						0%
+						O--
+						Carbalite Ore 8
+						Barroth Claw+ 3
+						Lightcrystal 7
+						Mega Thunderbug 10
+						45000z
+						Desc
+						Ore Scraps+ 2
 
 			Frost Razor
 			120

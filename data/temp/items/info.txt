@@ -476,6 +476,9 @@ R3
 140 Blast Bait
 
 141 Bountiful Bait
+bait green
+R2
+4z
 
 142 Binoculars
 
@@ -595,6 +598,9 @@ R3
 168 Mega Parashroom
 
 169 Pickaxe Shroom
+mushroom gray
+R1
+6z
 
 170 Paintberry
 berry pink
@@ -726,6 +732,9 @@ R2
 48z
 
 195 Ancient Fish
+fish gray
+R5
+1500z
 
 196 Cutlassfish
 fish cyan
