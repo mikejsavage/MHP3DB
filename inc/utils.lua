@@ -52,7 +52,7 @@ end
 function commas( num )
 	local out = ""
 
-	while num > 1000 do
+	while num >= 1000 do
 		out = ( ",%03d%s" ):format( num % 1000, out )
 
 		num = math.floor( num / 1000 )
