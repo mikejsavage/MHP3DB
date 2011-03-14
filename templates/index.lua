@@ -44,6 +44,8 @@ I'm one guy doing this in my spare time.
 <table>
 	{%
 	local MaxPosts = math.min( 5, table.getn( Posts ) )
+
+	-- TODO: not translation friendly...
 	local Months = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" }
 
 	local function dateSuffix( date )
@@ -102,3 +104,5 @@ I'm one guy doing this in my spare time.
 	end
 	%}
 </table>
+
+{{ defer( "armors", "decorations", "skills", "items", "charms" ) }}

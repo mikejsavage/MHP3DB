@@ -152,17 +152,17 @@ end
 --       with varargs
 
 headerTemplate = loadTemplate( "header" )
-header = function( title )
+function header( title )
 	print( headerTemplate( { title = title } ) )
 end
 
 footerTemplate = loadTemplate( "footer" )
-footer = function()
+function footer()
 	print( footerTemplate() )
 end
 
 iconTemplate = loadTemplate( "icon" )
-icon = function( icon, color )
+function icon( icon, color )
 	if color then
 		if type( color ) == "number" then
 			color = "rare" .. color
@@ -172,4 +172,15 @@ icon = function( icon, color )
 	end
 
 	return iconTemplate( { icon = icon, color = color } )
+end
+
+deferTemplate = loadTemplate( "defer" )
+function defer( ... )
+	local deferred = { }
+
+	for _, script in ipairs( arg ) do
+		table.insert( deferred, D( script ) )
+	end
+
+	return deferTemplate( { deferred = deferred } )
 end
