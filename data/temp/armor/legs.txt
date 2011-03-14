@@ -776,7 +776,7 @@ ThunderRes 2
 Desc
 Altaroth Scraps 2
 
-Guild Bard Boots
+Guild Bard Boots / Scholar Socks
 20
 0 0 0 0 0
 B
@@ -794,7 +794,7 @@ Perception 2
 Desc
 Courage Scraps 1
 
-Guild Bard Shoes
+Guild Bard Shoes / Scholar Sandals
 10
 0 0 0 0 0
 G
@@ -2156,7 +2156,7 @@ HearProtct 1
 Desc
 Altarth Scraps+ 2
 
-Guild Bard Boots S
+Guild Bard Boots S / Scholar Socks S
 44
 0 0 0 0 0
 B
@@ -2174,7 +2174,7 @@ Perception 3
 Desc
 Courage Scraps+ 1
 
-Guild Bard Shoes S
+Guild Bard Shoes S / Scholar Sandals S
 24
 0 0 0 0 0
 G

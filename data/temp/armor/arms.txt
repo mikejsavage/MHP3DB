@@ -788,7 +788,7 @@ ThunderRes 1
 Desc
 Altaroth Scraps 2
 
-Guild Bard Vambraces
+Guild Bard Vambraces / Scholar Gloves
 20
 0 0 0 0 0
 B
@@ -806,7 +806,7 @@ Perception 2
 Desc
 Courage Scraps 2
 
-Guild Bard Guards
+Guild Bard Guards / Scholar Cuffs
 10
 0 0 0 0 0
 G
@@ -2167,7 +2167,7 @@ ThunderRes 4
 Desc
 Altarth Scraps+ 2
 
-Guild Bard Braces S
+Guild Bard Braces S / Scholar Gloves S
 44
 0 0 0 0 0
 B
@@ -2185,7 +2185,7 @@ Perception 1
 Desc
 Courage Scraps+ 1
 
-Guild Bard Guards S
+Guild Bard Guards S / Scholar Cuffs S
 24
 0 0 0 0 0
 G

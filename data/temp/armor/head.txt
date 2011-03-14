@@ -840,7 +840,7 @@ Hunger 10
 Desc
 Bulldrme Scraps 4
 
-Guild Bard Tricorne
+Guild Bard Tricorne / Scholar Hood
 20
 0 0 0 0 0
 BG
@@ -858,7 +858,7 @@ Perception 2
 Desc
 Courage Scraps 1
 
-Guild Bard Hat
+Guild Bard Hat / Scholar Beret
 10
 0 0 0 0 0
 BG
@@ -2363,7 +2363,7 @@ ThunderRes 3
 Desc
 Altarth Scraps+ 2
 
-Guild Bard Tricorne S
+Guild Bard Tricorne S / Scholar Hood S
 44
 0 0 0 0 0
 BG
@@ -2381,7 +2381,7 @@ Perception 3
 Desc
 Courage Scraps+ 1
 
-Guild Bard Hat S
+Guild Bard Hat S / Scholar Beret S
 24
 0 0 0 0 0
 BG

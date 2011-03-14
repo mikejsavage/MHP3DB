@@ -791,7 +791,7 @@ ThunderRes 4
 Desc
 Altaroth Scraps 2
 
-Guild Bard Coil
+Guild Bard Coil / Scholar Skirt
 20
 0 0 0 0 0
 B
@@ -809,7 +809,7 @@ Perception 2
 Desc
 Courage Scraps 1
 
-Guild Bard Coat
+Guild Bard Coat / Scholar Frills
 10
 0 0 0 0 0
 G
@@ -2171,7 +2171,7 @@ ThunderRes 4
 Desc
 Altarth Scraps+ 2
 
-Guild Bard Coil S
+Guild Bard Coil S / Scholar Skirt S
 44
 0 0 0 0 0
 B
@@ -2189,7 +2189,7 @@ Perception 2
 Desc
 Courage Scraps+ 1
 
-Guild Bard Coat S
+Guild Bard Coat S / Scholar Frills S
 24
 0 0 0 0 0
 G

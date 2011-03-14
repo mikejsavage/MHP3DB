@@ -35,11 +35,38 @@ local MaxSlots = 3
 local Actions =
 {
 	init = function( line, piece )
-		assert( Names[ line ] or line == "Ranger Belt" or line == "Scout Belt", "bad name: " .. line )
+		if line:find( "/" ) then
+			local maleName, femaleName = line:match( "^([%a ]*) / ([%a ]*)$" )
 
-		Names[ line ] = nil
+			-- supports blanks for snake armor
+			-- although lua doesn't do lazy evaluation so every
+			-- assert using piece.name.hgg after this will fail
+			-- so i've not set any pieces up for this
 
-		piece.name = { hgg = line }
+			if maleName == "" then
+				maleName = nil
+			else
+				assert( Names[ maleName ], "bad name: " .. maleName )
+
+				Names[ maleName ] = nil
+			end
+
+			if femaleName == "" then
+				femaleName = nil
+			else
+				assert( femaleName == "" or Names[ femaleName ], "bad name: " .. femaleName )
+
+				Names[ femaleName ] = nil
+			end
+
+			piece.name = { hgg = maleName, hgg_fem = femaleName }
+		else
+			assert( Names[ line ] or line == "Ranger Belt" or line == "Scout Belt", "bad name: " .. line )
+
+			Names[ line ] = nil
+
+			piece.name = { hgg = line }
+		end
 
 		return "defense"
 	end,

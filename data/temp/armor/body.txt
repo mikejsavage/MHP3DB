@@ -833,7 +833,7 @@ ThunderRes 1
 Desc
 Altaroth Scraps 2
 
-Guild Bard Suit
+Guild Bard Suit / Scholar Suit
 20
 0 0 0 0 0
 B
@@ -851,7 +851,7 @@ Perception 2
 Desc
 Courage Scraps 1
 
-Guild Bard Vest
+Guild Bard Vest / Scholar Vest
 10
 0 0 0 0 0
 G
@@ -2290,7 +2290,7 @@ ThunderRes 1
 Desc
 Altarth Scraps+ 2
 
-Guild Bard Suit S
+Guild Bard Suit S / Scholar Suit S
 44
 0 0 0 0 0
 B
@@ -2308,7 +2308,7 @@ Perception 1
 Desc
 Courage Scraps+ 1
 
-Guild Bard Vest S
+Guild Bard Vest S / Scholar Vest S
 24
 0 0 0 0 0
 G
