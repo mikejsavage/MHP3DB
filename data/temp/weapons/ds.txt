@@ -70,6 +70,7 @@ Desc
 
 				Insectors+
 				150
+				Pls 2 3000z
 				Dragon 12
 				R3
 				0%
@@ -81,6 +82,21 @@ Desc
 				5600z
 				Desc
 				Altaroth Scraps 2
+
+					Humming Insectors
+					190
+					Dragon 18
+					R5
+					0%
+					---
+					Swallowtail 6
+					Rare Scarab 4
+					Monster Broth 4
+					Ancnt Drgn Bone 5
+					40000z
+					Desc
+					Altaroth Scraps 1
+					Altarth Scraps+ 2
 
 		Twin Daggers
 		80
@@ -182,6 +198,7 @@ Desc
 
 							Order Rapiers
 							190
+							Hrd 2 5000z
 							Water 10
 							R4
 							0%
@@ -192,6 +209,21 @@ Desc
 							45000z
 							Desc
 							Ore Scraps+ 2
+
+								Holy Sabers
+								210
+								Hrd 2 7000z
+								Water 14
+								R5
+								0%
+								O--
+								Lightcrystal 8
+								Rare Scarab 10
+								Ice Agnktor Clw 4
+								50000z
+								Desc
+								Ore Scraps 1
+								Altarth Scraps+ 2
 
 						Rex Slicers
 						180
@@ -747,6 +779,7 @@ Wood Scraps 1
 
 	White Dumplings
 	100
+	Reg 2 1000z
 	R1
 	0%
 	OO-
@@ -756,6 +789,72 @@ Wood Scraps 1
 	1520z
 	Desc
 	Wood Scraps 2
+
+		Pearl Dumplings
+		140
+		R3
+		0%
+		OOO
+		Commendation 1
+		Lifecrystals 2
+		Glossy Hide 5
+		Barioth Pelt 2
+		3920z
+		Desc
+		Courage Scraps 1
+
+		Green Dumplings
+		110
+		Ice 10
+		R2
+		0%
+		O--
+		Snow Herb 4
+		Lifecrystals 2
+		Zuwaroposu Hide 3
+		2560z
+		Desc
+		Zuwaru Scraps 2
+
+		Pink Dumplings
+		110
+		Reg 2 2000z
+		Fire 10
+		R2
+		0%
+		O--
+		Flintstone 1
+		Fire Herb 4
+		Vibrant Down 2
+		2560z
+		Desc
+		Qurupeco Scraps 2
+
+			Garnet Dumplings
+			160
+			Fire 12
+			R4
+			0%
+			OO-
+			Yukumo Wood+ 4
+			Fire Stone 4
+			Froggi Scale+ 8
+			20000z
+			Desc
+			Wood Scraps+ 2
+
+		Yellow Dumplings
+		110
+		Thunder 10
+		R2
+		0%
+		O--
+		Thunderbug 4
+		Lifecrystals 2
+		Spongy Hide 2
+		2560z
+		Desc
+		Ludroth Scraps 2
 
 	Purple Dumplings
 	100
