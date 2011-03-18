@@ -3,6 +3,11 @@
 An English (based on Team HGG's translation) info site for Monster Hunter Portable 3rd.
 
 
+<h2>Why is so much missing?</h2>
+
+I'm one guy doing this in my spare time.
+
+
 <h2>Can you add my translation?</h2>
 
 Send it to me in a non-stupid format and sure.
@@ -22,11 +27,6 @@ No need to ask before using or even give credit, I'm not bothered at all.
 Sure, it's <a href="https://github.com/mikejsavage/MHP3DB/blob/master/license.txt">WTFPL licensed</a> so you can do what you like with it.
 <br>
 <small>(keep in mind that this is the first proper project I've done in Lua and my code is almost certainly awful)</small>
-
-
-<h2>Why is so much missing?</h2>
-
-I'm one guy doing this in my spare time.
 
 
 <h2>Thanks to</h2>
