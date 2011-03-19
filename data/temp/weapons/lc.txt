@@ -299,6 +299,7 @@ Desc
 
 						Tiger Stinger+
 						180
+						Hrd 2 5000z
 						R4
 						-25%
 						---
@@ -309,6 +310,46 @@ Desc
 						40000z
 						Desc
 						Tigrex Scraps 2
+
+							Tigrex Lance
+							220
+							R6
+							-15%
+							---
+							Tigrex Scale+ 4
+							Tigrex Tail 3
+							Tigrex Claw+ 5
+							Tigrex Jaw 1
+							70000z
+							Desc
+							Tigrex Scraps+ 2
+
+							Black Tiger Stinger
+							200
+							Hrd 2 7000z
+							R5
+							-20%
+							OO-
+							Blk Tigrex Scl 6
+							Blk Tigrex Claw 3
+							Gracium Ore 5
+							50000z
+							Desc
+							Tigrex Scraps+ 2
+
+								Black Tigrex Lance
+								230
+								Hrd 2 8000z
+								R6
+								-30%
+								OO-
+								Blk Tigrex Shl 5
+								Blk Tigrex Fang 4
+								Tigrex Jaw 1
+								Akantor Claw 4
+								70000z
+								Desc
+								Tigrex Scraps+ 2
 
 				Drill Lance
 				140

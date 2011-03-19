@@ -296,6 +296,7 @@ R1
 75 Large Barrel
 barrel red
 R2
+21z
 
 76 Sm Barrel-Bomb
 bomb yellow
@@ -3138,6 +3139,9 @@ R3
 689 Great Mushroom
 
 690 Special Bamboo
+bamboo yellow
+R2
+60pts
 
 691 Aurora Plant
 

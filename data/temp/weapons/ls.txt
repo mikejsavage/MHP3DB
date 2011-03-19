@@ -907,6 +907,7 @@ Ore Scraps 2
 
 Scabbardfish Blade
 70
+Reg 2 2000z
 Water 22
 R2
 0%
@@ -918,6 +919,34 @@ Knife Mackerel 5
 Juvenile Sponge 5
 Desc
 Wood Scraps 1
+
+	Scabbardfish Blade+
+	110
+	Pls 2 3000z
+	Water 30
+	R3
+	0%
+	---
+	Cutlassfish 5
+	Deepsea Sardine 5
+	Aqua Sac 3
+	Large Fin 2
+	4900z
+	Desc
+
+		Calm Sea Blade
+		160
+		Hrd 2 7000z
+		Water 40
+		R5
+		0%
+		---
+		Cutlassfish 10
+		Ancient Fish 5
+		Hydro Sac 3
+		Rare Scarab 5
+		25000z
+		Desc
 
 Yukumo Katana
 160
@@ -948,6 +977,7 @@ Ore Scraps 1
 
 South Sea Blade
 160
+Pls 2 3000z
 Water 18
 R3
 10%
@@ -958,6 +988,18 @@ Ancnt Sharkskin 3
 Lightcrystal 2
 Desc
 Ore Scraps 2
+
+	South Sea Blade+
+	180
+	Water 21
+	R4
+	15%
+	O--
+	Ancnt Sharkskin 5
+	Ancient Fish 5
+	Wyvern Stone 2
+	35000z
+	Desc
 
 Lightning Splitter
 160

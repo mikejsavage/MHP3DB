@@ -81,6 +81,7 @@ Desc
 
 					Dirty Duke
 					140
+					Pls 2 3000z
 					Poison 36
 					R3
 					0%
@@ -953,7 +954,7 @@ Ore Scraps 2
 
 Whirlwind
 150
-Pls 2 3000z
+Pls 2 2000z
 R2
 5%
 ---
@@ -965,8 +966,36 @@ Large Fin 6
 Desc
 Ore Scraps 1
 
+	Whirlwind+
+	170
+	Pls 2 3000z
+	R3
+	10%
+	O--
+	Diablos Marrow 1
+	Fire Stone 5
+	Brilliant Fluid 3
+	20000z
+	Desc
+	Ore Scraps 2
+
+		Tornado
+		210
+		Hrd 2 8000z
+		R6
+		15%
+		O--
+		Jinouga Jewel 1
+		Deviljho Claw 3
+		Gracium Ore 5
+		Monster Broth 5
+		40000z
+		Desc
+		Ore Scraps+ 2
+
 Catspaw
 80
+Reg 2 2000z
 Paralyze 24
 R2
 0%
@@ -976,6 +1005,32 @@ Comrade Ticket 1
 Pawprint Stamp 2
 Lightcrystal 1
 Desc
+
+	Catspaw+
+	100
+	Pls 2 3000z
+	Paralyze 28
+	R3
+	0%
+	---
+	Comrade Ticket 3
+	Small Barrel 1
+	Commendation 1
+	2940z
+	Desc
+	Courage Scraps 1
+
+		Catburgler
+		130
+		Paralyze 30
+		R4
+		0%
+		---
+		Comrade Ticket 5
+		Pawprint Stamp 5
+		Torpor Sac 3
+		25000z
+		Desc
 
 Yukumo Cleaver
 160
