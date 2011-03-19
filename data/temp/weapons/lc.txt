@@ -23,6 +23,7 @@ Desc
 
 		Yukumo Spear+
 		90
+		Reg 2 1000z
 		R1
 		0%
 		---
@@ -33,6 +34,47 @@ Desc
 		Desc
 		Wood Scraps 1
 		Ore Scraps 1
+
+			Yukumo Stinger
+			130
+			R2
+			0%
+			---
+			Lightcrystal 1
+			Machalite Ore 10
+			Yukumo Wood 10
+			RoyalLudrthTail 2
+			2000z
+			Desc
+			Wood Scraps 1
+			Ore Scraps 2
+
+			Battle Banner
+			120
+			Reg 2 2000z
+			R2
+			0%
+			OOO
+			Yukumo Wood 5
+			Iron Ore 10
+			Glossy Hide 8
+			3200z
+			Desc
+			Wood Scraps 1
+			Ore Scraps 1
+
+				Warcry Banner
+				180
+				R5
+				0%
+				OOO
+				Yukumo Wood+ 5
+				Carbalite Ore 5
+				High Qualty Plt 6
+				30000z
+				Desc
+				Wood Scraps+ 1
+				Ore Scraps+ 1
 
 		Saint Lance
 		80
@@ -97,6 +139,7 @@ Desc
 
 						Rampart+
 						160
+						Pls 2 3000z
 						Def 12
 						R3
 						0%
@@ -107,6 +150,81 @@ Desc
 						7000z
 						Desc
 						Ore Scraps 2
+
+							Babel Spear
+							190
+							Pls 2 5000z
+							Def 16
+							R4
+							0%
+							O--
+							Carbalite Ore 5
+							Uragaan Shell 5
+							Uragaan Shield 2
+							RoyalLudrthScl+ 3
+							30000z
+							Desc
+							Ore Scraps+ 1
+							Uragaan Scraps 1
+
+								Babel Spear+
+								200
+								Def 20
+								R4
+								0%
+								OO-
+								Firecell Stone 5
+								Lightcrystal 5
+								King Scarab 5
+								SteelUragaanScl 3
+								45000z
+								Desc
+								Ore Scraps+ 2
+
+									Elder Babel Spear
+									210
+									Hrd 2 7000z
+									Def 24
+									R5
+									0%
+									OO-
+									Carbalite Ore 20
+									Gld Rathian Scl 8
+									Uragaan Ruby 1
+									FireWyvernFluid 3
+									60000z
+									Desc
+									Ore Scraps+ 2
+
+							Champion's Lance
+							180
+							Pls 2 5000z
+							R4
+							0%
+							OO-
+							Carbalite Ore 3
+							Dragonite Ore 5
+							Fire Stone 2
+							20000z
+							Carbalite Ore 5
+							Fire Stone 5
+							Bealite Ore 20
+							King Scarab 5
+							Desc
+							Ore Scraps+ 1
+
+								Millennium Lance
+								210
+								Hrd 2 7000z
+								R5
+								0%
+								OO-
+								Gracium Ore 5
+								Rare Scarab 5
+								Horrific Maw 2
+								35000z
+								Desc
+								Ore Scraps+ 2
 
 						Fang Lance
 						130
@@ -137,6 +255,7 @@ Desc
 
 					Hidden Stinger
 					150
+					Pls 2 3000z
 					R3
 					30%
 					---
@@ -147,8 +266,23 @@ Desc
 					Desc
 					Narga Scraps 2
 
+						Black Rain
+						180
+						Hrd 2 8000z
+						R6
+						40%
+						OO-
+						Nargacuga Tail 3
+						Nargacuga Wing+ 5
+						Nargacuga Fang+ 6
+						Narga Brain Stm 1
+						65000z
+						Desc
+						Narga Scraps+ 2
+
 					Tiger Stinger
 					170
+					Pls 2 3000z
 					R3
 					-25%
 					---
@@ -163,8 +297,22 @@ Desc
 					Desc
 					Tigrex Scraps 2
 
+						Tiger Stinger+
+						180
+						R4
+						-25%
+						---
+						Tigrex Shell 5
+						Tigrex Fang 4
+						Tigrex Skl Shl 1
+						Grt Jaggi Claw+ 5
+						40000z
+						Desc
+						Tigrex Scraps 2
+
 				Drill Lance
 				140
+				Pls 2 3000z
 				Thunder 10
 				R3
 				5%
@@ -176,6 +324,36 @@ Desc
 				5900z
 				Desc
 				Ore Scraps 2
+
+					Mega Drill Lance
+					180
+					Pls 2 5000z
+					Thunder 12
+					R4
+					10%
+					---
+					Carbalite Ore 5
+					Dragonite Ore 15
+					Mega Thunderbug 10
+					Monster Broth 5
+					35000z
+					Desc
+					Ore Scraps+ 2
+
+						Giga Drill Lance
+						200
+						Hrd 2 7000z
+						Thunder 14
+						R5
+						15%
+						O--
+						Union Ore 10
+						Magma Shard 15
+						Thunder Sac 5
+						Uragaan Carapce 5
+						50000z
+						Desc
+						Ore Scraps+ 2
 
 Longhorn
 90
@@ -217,6 +395,7 @@ Bone Scraps 2
 
 			Diablos Horn
 			180
+			Pls 2 3000z
 			R3
 			-5%
 			---
@@ -230,6 +409,49 @@ Bone Scraps 2
 			Machalite Ore 5
 			Desc
 			Diablos Scraps 2
+
+				Diablos Horn+
+				200
+				R4
+				-10%
+				---
+				Twisted Horn 3
+				DiablosTailbone 4
+				Shrp Mnster Bne 5
+				40000z
+				Desc
+				Diablos Scraps 1
+				Bone Scraps+ 1
+
+				Hard Bone Lance
+				200
+				Pls 2 5000z
+				R4
+				0%
+				O--
+				Stout Bone 2
+				Giant Bone 15
+				Iron Ore 30
+				20000z
+				Stout Bone 5
+				Monster Bone+ 5
+				Machalite Ore 10
+				Desc
+				Bone Scraps+ 2
+
+					Hard Bone Lance+
+					230
+					Hrd 2 7000z
+					R5
+					0%
+					O--
+					Shrp Mnster Bne 6
+					Bird Wyvrn Bone 12
+					Unknown Skull 3
+					Ancnt Drgn Bone 2
+					35000z
+					Desc
+					Bone Scraps+ 2
 
 			Doboru Spear
 			180
@@ -260,6 +482,7 @@ Bone Scraps 2
 
 		Red Tail
 		160
+		Pls 2 3000z
 		Fire 18
 		R3
 		0%
@@ -271,6 +494,36 @@ Bone Scraps 2
 		15000z
 		Desc
 		Rathalos Scraps 2
+
+			Hellfire
+			180
+			Hrd 2 5000z
+			Fire 20
+			R4
+			0%
+			O--
+			Rathalos Webbng 5
+			FireWyvrnMarrow 2
+			Rathalos Plate 1
+			Shrp Mnster Bne 3
+			35000z
+			Desc
+			Rathalos Scraps 1
+			Bone Scraps+ 1
+
+				Spear of Prominence
+				200
+				Fire 24
+				R6
+				0%
+				O--
+				Rathalos Tail 5
+				Rathalos Carpce 7
+				Inferno Sac 2
+				Rathalos Ruby 1
+				65000z
+				Desc
+				Rthalos Scraps+ 2
 
 	Gouging Hasta
 	100
@@ -291,6 +544,7 @@ Bone Scraps 2
 
 		Rheno Hasta
 		130
+		Reg 2 2000z
 		R2
 		0%
 		---
@@ -300,6 +554,133 @@ Bone Scraps 2
 		4000z
 		Desc
 		Rhnoplos Scraps 2
+
+			Ragged Lance
+			150
+			R2
+			-15%
+			O--
+			Barroth Shell 5
+			Barroth Claw 2
+			Isisium Ore 5
+			5900z
+			Desc
+			Barroth Scraps 2
+
+				Ragged Lance+
+				190
+				Pls 2 3000z
+				R3
+				-25%
+				OO-
+				Barroth Skl Shl 2
+				Barroth Spine 5
+				Twisted Horn 2
+				10900z
+				Desc
+				Barroth Scraps 2
+
+					Barroth Scraper
+					220
+					Hrd 2 8000z
+					R6
+					-25%
+					OO-
+					Barroth Carapce 5
+					Barroth Claw+ 2
+					Carbalite Ore 3
+					Majestic Horn 1
+					55000z
+					Desc
+					Barroth Scraps+ 1
+					Ore Scraps+ 1
+
+				Spiral Heat
+				140
+				Pls 2 3000z
+				Fire 23
+				R3
+				15%
+				---
+				Agnaktor Snout 1
+				Agnaktor Shell 5
+				Agnaktor Fin 3
+				20000z
+				Agnaktor Snout 2
+				Agnaktor Fin 5
+				Agnaktor Scale 8
+				Uroktor Scale 4
+				Desc
+				Agnaktor Scraps 2
+
+					Spiral Heat+
+					170
+					Fire 26
+					R5
+					20%
+					---
+					Agnaktor Snout 5
+					Agnaktor Claw+ 5
+					Agnaktor Fin+ 5
+					50000z
+					Desc
+					Agnktor Scraps+ 2
+
+					Spiral Aqua
+					170
+					Water 16
+					R5
+					20%
+					---
+					IceAgnktorSnout 2
+					Ice Agnktor Clw 5
+					Ice Agnktor Fin 5
+					50000z
+					Desc
+					Agnktor Scraps+ 2
+
+			Azure Crest
+			120
+			Reg 2 2000z
+			Sleep 15
+			R2
+			0%
+			---
+			Regal Crest 3
+			Baggi Hide 10
+			Lg Monster Bone 2
+			4900z
+			Desc
+			GrtBaggiScraps 1
+			Bone Scraps 1
+
+				Azure Crest+
+				140
+				Pls 2 3000z
+				Sleep 20
+				R3
+				0%
+				---
+				Sleep Sac 3
+				Grt Baggi Hide 5
+				Barioth Tail 2
+				7000z
+				Desc
+				GrtBaggiScraps 2
+
+					Great Azure
+					160
+					Sleep 25
+					R5
+					0%
+					---
+					Coma Sac 5
+					Grt Baggi Hide+ 5
+					Grt Baggi Claw+ 4
+					BrdWyvern Stone 3
+					35000z
+					Desc
+					GrtBaggiScraps+ 2
 
 		Ludroth Bone Spear
 		110
@@ -391,6 +772,7 @@ Bone Scraps 2
 
 			Shadow Javelin
 			130
+			Pls 2 3000z
 			Poison 20
 			R3
 			0%
@@ -401,6 +783,35 @@ Bone Scraps 2
 			5900z
 			Desc
 			Gigginox Scraps 2
+
+				Shadow Javelin+
+				170
+				Hrd 2 5000z
+				Poison 24
+				R4
+				0%
+				O--
+				Gigginox Hide 7
+				Poison Gland 3
+				Toxin Sac 5
+				40000z
+				Desc
+				Gigginox Scraps 2
+
+					Toxic Javelin
+					190
+					Hrd 2 8000z
+					Poison 29
+					R6
+					0%
+					O--
+					Gigginox Claw+ 3
+					Venom Gland 3
+					Uncanny Hide+ 3
+					Wyvern Stone 1
+					60000z
+					Desc
+					Giggnox Scraps+ 2
 
 	Wild Bone Lance
 	120
@@ -443,6 +854,7 @@ Bone Scraps 2
 
 Blue Crater
 130
+Reg 2 2000z
 R2
 0%
 O--
@@ -452,6 +864,33 @@ Pelagicite Ore 10
 Monster Fluid 5
 Desc
 Ore Scraps 2
+
+	Smalto Crater
+	140
+	Pls 2 3000z
+	R3
+	0%
+	OO-
+	Fire Stone 4
+	Dragonite Ore 8
+	RoyalLudrthTail 3
+	20000z
+	Desc
+	Ore Scraps 2
+
+		Crown of Doom
+		190
+		Hrd 2 8000z
+		R6
+		15%
+		OOO
+		Depthlite Ore 10
+		Ancnt Drgn Bone 5
+		Wyvern Stone 2
+		43500z
+		Desc
+		Ore Scraps+ 1
+		Bone Scraps+ 1
 
 Prince Shark
 100
@@ -468,6 +907,7 @@ Ore Scraps 1
 
 Yukumo Lance
 160
+Pls 2 3000z
 R3
 0%
 ---
@@ -479,19 +919,34 @@ Desc
 Wood Scraps 2
 Ore Scraps 2
 
-Spiral Heat
-140
-Fire 23
-R3
-15%
----
-30000z
-Agnaktor Snout 2
-Agnaktor Fin 5
-Agnaktor Scale 8
-Uroktor Scale 4
-Desc
-Agnaktor Scraps 2
+	Yukumo Lance+
+	190
+	Pls 2 5000z
+	R4
+	0%
+	---
+	Yukumo Wood+ 5
+	Carbalite Ore 8
+	Ancient Fish 3
+	30000z
+	Desc
+	Wood Scraps+ 1
+	Ore Scraps+ 1
+
+		Yukumo Deific Spear
+		210
+		Hrd 2 8000z
+		R6
+		0%
+		---
+		Yukumo Wood+ 8
+		Union Ore 8
+		Narga Marrow 2
+		Chromatic Fluid 3
+		50000z
+		Desc
+		Wood Scraps+ 1
+		Ore Scraps+ 1
 
 Divine Thunder
 160
@@ -534,33 +989,9 @@ Fire Stone 5
 FireWyvrnMarrow 2
 Desc
 
-Champion's Lance
-180
-R4
-0%
-OO-
-30000z
-Carbalite Ore 5
-Fire Stone 5
-Bealite Ore 20
-King Scarab 5
-Desc
-Ore Scraps+ 1
-
-Hard Bone Lance
-200
-R4
-0%
-O--
-30000z
-Stout Bone 5
-Monster Bone+ 5
-Machalite Ore 10
-Desc
-Bone Scraps+ 2
-
 Spear of Sorrow
 180
+Hrd 2 7000z
 Dragon 10
 R5
 5%
@@ -571,6 +1002,19 @@ Deviljho Fang 5
 Deviljho Scale 8
 Desc
 Deviljho Scraps 2
+
+	Tower of Atrocity
+	210
+	Dragon 15
+	R7
+	10%
+	O--
+	Dviljho Skl Shl 3
+	Deviljho Drool 5
+	Deviljho Jewel 1
+	85000z
+	Desc
+	Deviljho Scraps 2
 
 Obsidian Lance
 170

@@ -2728,6 +2728,9 @@ R6
 4800z
 
 594 Amatsu Jewel
+hvnly cyan
+R7
+20000z
 
 595 Ruststone
 garbage gray
@@ -2865,6 +2868,9 @@ R5
 628 Pirate J Ticket
 
 629 Legend J Ticket
+ticket red
+R5
+0z
 
 630 Pirate J Dbloon
 coin red
@@ -3242,6 +3248,7 @@ R5
 720 Zuwaru Blubber
 drink green
 R3
+100pts
 
 721 Popo Tongue
 meat red

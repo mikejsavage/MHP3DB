@@ -3258,6 +3258,40 @@ Water Atk 3
 Desc
 Amatsu Scraps 2
 
+Jolly Roger Coil
+26
+-3 -3 -3 -3 -3
+B
+R7
+---
+Legend J Ticket 1
+ThndrGiggnoxClw 2
+SteelUrgnShield 3
+Agnaktor Hide+ 4
+9000z
+Protection -3
+Fate 3
+Carving 4
+Rewards 3
+Desc
+
+Jolly Roger Skirt
+13
+-2 -2 -2 -2 -2
+G
+R7
+---
+Legend J Ticket 1
+ThndrGiggnoxClw 2
+SteelUrgnShield 3
+Agnaktor Hide+ 4
+9000z
+Protection -3
+Fate 3
+Carving 3
+Rewards 4
+Desc
+
 Snake Belt
 47
 1 1 1 1 1

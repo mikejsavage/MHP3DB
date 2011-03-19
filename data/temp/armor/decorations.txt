@@ -1378,6 +1378,16 @@ Akito Jewel 1
 Uragaan Jaw 1
 Hercudrome 2
 
+Pierce Jewel
+white 6
+3
+PierceS Up 4
+Recoil -2
+450z
+LapisLazuli Jwl 1
+Uragaan Ruby 1
+King Scarab 2
+
 Pellet Jewel
 white 4
 1

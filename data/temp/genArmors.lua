@@ -61,7 +61,9 @@ local Actions =
 
 			piece.name = { hgg = maleName, hgg_fem = femaleName }
 		else
-			assert( Names[ line ] or line == "Ranger Belt" or line == "Scout Belt", "bad name: " .. line )
+			assert( Names[ line ]
+				or line == "Ranger Belt" or line == "Scout Belt" or line == "Jolly Roger Skirt",
+				"bad name: " .. line )
 
 			Names[ line ] = nil
 

@@ -3495,6 +3495,40 @@ Commendation 1
 Adversity 10
 Desc
 
+Jolly Roger Suit
+26
+-3 -3 -3 -3 -3
+B
+R7
+---
+Legend J Ticket 1
+Red Qurpeco Wng 2
+Uncanny Hide+ 2
+Igneous Thorax+ 3
+9000z
+Protection -4
+Fate 2
+Carving 2
+Rewards 3
+Desc
+
+Jolly Roger Jacket
+13
+-2 -2 -2 -2 -2
+G
+R7
+---
+Legend J Ticket 1
+Red Qurpeco Wng 2
+Uncanny Hide+ 2
+Igneous Thorax+ 3
+9000z
+Protection -4
+Fate 2
+Carving 2
+Rewards 3
+Desc
+
 Snake Suit
 47
 1 1 1 1 1

@@ -3278,6 +3278,40 @@ Water Atk 5
 Desc
 Amatsu Scraps 2
 
+Jolly Roger Gloves
+26
+-3 -3 -3 -3 -3
+B
+R7
+---
+Legend J Ticket 1
+ThdrGiggnoxHide 6
+Rathalos Ruby 1
+Agnaktor Carpce 5
+9000z
+Protection -4
+Fate 4
+Carving 2
+Rewards 3
+Desc
+
+Jolly Roger Cuffs
+13
+-2 -2 -2 -2 -2
+G
+R7
+---
+Legend J Ticket 1
+ThdrGiggnoxHide 6
+Rathalos Ruby 1
+Agnaktor Carpce 5
+9000z
+Protection -5
+Fate 3
+Carving 2
+Rewards 4
+Desc
+
 Snake Gloves
 47
 1 1 1 1 1

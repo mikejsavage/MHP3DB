@@ -3504,6 +3504,40 @@ Water Atk 2
 Desc
 Amatsu Scraps 2
 
+Jolly Roger Hat
+26
+-3 -3 -3 -3 -3
+BG
+R7
+O--
+Legend J Ticket 1
+Vibrant Down 2
+Rathalos Scale+ 5
+SteelUragaanScl 6
+9000z
+Protection -4
+Fate 2
+Carving 3
+Rewards 2
+Desc
+
+Jolly Roger Cap
+13
+-2 -2 -2 -2 -2
+BG
+R7
+O--
+Legend J Ticket 1
+Vibrant Down 2
+Rathalos Scale+ 5
+SteelUragaanScl 6
+9000z
+Protection -3
+Fate 3
+Carving 4
+Rewards 3
+Desc
+
 Snake Face
 47
 1 1 1 1 1
