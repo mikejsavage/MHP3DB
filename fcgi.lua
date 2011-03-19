@@ -44,8 +44,10 @@ function FCGI_Accept( postString )
 
 	Get = { }
 
-	if os.getenv( "QUERY_STRING" ) then
-		Get = parseQuery( os.getenv( "QUERY_STRING" ) )
+	local queryString = os.getenv( "QUERY_STRING" )
+
+	if queryString then
+		Get = parseQuery( queryString )
 	end
 
 	Post = postString and parseQuery( postString ) or { }
