@@ -11,7 +11,8 @@ local Actions =
 
 		assert( success, "bad id/name: " .. line )
 
-		item.id = tonumber( id )
+		-- whoops...
+		item.id = tonumber( id ) + 1
 		item.name = { hgg = name }
 
 		return "main"
