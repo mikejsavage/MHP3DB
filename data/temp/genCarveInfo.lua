@@ -4,14 +4,10 @@ require( "common" )
 
 Items = data( "items" )
 
+-- this contains a memory dump that's been hit with
+-- "od -t x1", had all the new lines/addresses removed and
+-- then been trimmed to only include the relevant data
 local DataPath = "monsters/carves.txt"
-
-local carveInfo = readFile( DataPath )
-
-local dummy =
-{
-	blocks = 1,
-}
 
 local sep =
 {
@@ -20,11 +16,12 @@ local sep =
 
 local Schema =
 {
-	sep,
-
 	-- anteka KO
 	{
 		blocks = 3,
+		type = "carve",
+		name = { hgg = "KO", },
+		monster = "Anteka"
 	},
 
 	sep,
@@ -32,6 +29,9 @@ local Schema =
 	-- steel ura back mining
 	{
 		blocks = 1,
+		type = "carve",
+		name = { hgg = "Back", },
+		monster = "Steel Uragaan"
 	},
 
 	sep,
@@ -39,13 +39,20 @@ local Schema =
 	-- dobo tail mining
 	{
 		blocks = 2,
+		type = "carve",
+		name = { hgg = "Tail Mine", },
+		monster = "Doboruberuku"
 	},
 
 	sep,
 
-	-- something to do with a living jin
+	-- TODO: something to do with a living jin
+	-- Mega Thunderbug, Jinouga Pelt
 	{
 		blocks = 3,
+		type = "carve",
+		name = { hgg = "Something", },
+		monster = "Jinouga"
 	},
 
 	sep,
@@ -53,6 +60,9 @@ local Schema =
 	-- kelbi KO
 	{
 		blocks = 3,
+		type = "carve",
+		name = { hgg = "KO", },
+		monster = "Kelbi"
 	},
 
 	sep,
@@ -60,6 +70,9 @@ local Schema =
 	-- jhen's mouth
 	{
 		blocks = 2,
+		type = "carve",
+		name = { hgg = "Mouth", },
+		monster = "Jhen Mohran"
 	},
 
 	sep,
@@ -67,6 +80,9 @@ local Schema =
 	-- jhen back mining
 	{
 		blocks = 2,
+		type = "carve",
+		name = { hgg = "Back", },
+		monster = "Jhen Mohran"
 	},
 
 	sep,
@@ -74,6 +90,9 @@ local Schema =
 	-- regular ura back mining
 	{
 		blocks = 2,
+		type = "carve",
+		name = { hgg = "Back", },
+		monster = "Uragaan"
 	},
 
 	sep,
@@ -81,6 +100,9 @@ local Schema =
 	-- ice barroth's head
 	{
 		blocks = 1,
+		type = "carve",
+		name = { hgg = "Head", },
+		monster = "Ice Barroth"
 	},
 
 	sep,
@@ -88,6 +110,9 @@ local Schema =
 	-- regular barroth's head
 	{
 		blocks = 3,
+		type = "carve",
+		name = { hgg = "Head", },
+		monster = "Barroth"
 	},
 
 	sep,
@@ -95,6 +120,9 @@ local Schema =
 	-- bulldrome shiny
 	{
 		blocks = 3,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Bulldrome"
 	},
 
 	sep,
@@ -102,6 +130,9 @@ local Schema =
 	-- uka shiny
 	{
 		blocks = 1,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Ukanlos"
 	},
 
 	sep,
@@ -109,6 +140,9 @@ local Schema =
 	-- aka shiny
 	{
 		blocks = 1,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Akantor"
 	},
 
 	sep,
@@ -116,6 +150,9 @@ local Schema =
 	-- reg narga shiny
 	{
 		blocks = 2,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Nargacuga"
 	},
 
 	sep,
@@ -123,6 +160,9 @@ local Schema =
 	-- reg tigrex shiny
 	{
 		blocks = 2,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Tigrex"
 	},
 
 	sep,
@@ -130,6 +170,9 @@ local Schema =
 	-- ice agna shiny
 	{
 		blocks = 1,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Ice Agnaktor"
 	},
 
 	sep,
@@ -137,6 +180,9 @@ local Schema =
 	-- purple ludroth shiny
 	{
 		blocks = 1,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Purple Royal Ludroth"
 	},
 
 	sep,
@@ -144,6 +190,9 @@ local Schema =
 	-- steel ura shiny
 	{
 		blocks = 1,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Steel Uragaan"
 	},
 
 	sep,
@@ -151,6 +200,9 @@ local Schema =
 	-- ice barroth shiny
 	{
 		blocks = 1,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Ice Barroth"
 	},
 
 	sep,
@@ -158,6 +210,9 @@ local Schema =
 	-- sand barioth shiny
 	{
 		blocks = 1,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Sand Barioth"
 	},
 
 	sep,
@@ -165,6 +220,9 @@ local Schema =
 	-- thundr giggi shiny
 	{
 		blocks = 1,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Thunder Gigginox"
 	},
 
 	sep,
@@ -172,6 +230,9 @@ local Schema =
 	-- red peco shiny
 	{
 		blocks = 1,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Red Qurupeco"
 	},
 
 	-- no sep!
@@ -179,11 +240,17 @@ local Schema =
 	-- gagua golden eggs
 	{
 		blocks = 3,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Gagua"
 	},
 
 	-- gagua normal eggs
 	{
 		blocks = 3,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Gagua"
 	},
 
 	sep,
@@ -192,6 +259,9 @@ local Schema =
 	-- Gagua Dung, Herb, Insect Husk
 	{
 		blocks = 1,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Gagua"
 	},
 
 	sep,
@@ -199,6 +269,9 @@ local Schema =
 	-- hapu shiny
 	{
 		blocks = 3,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Hapurubokka"
 	},
 
 	sep,
@@ -206,6 +279,9 @@ local Schema =
 	-- dobo shiny
 	{
 		blocks = 2,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Doboruberuku"
 	},
 
 	sep,
@@ -213,6 +289,9 @@ local Schema =
 	-- grt froggi shiny
 	{
 		blocks = 3,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Great Froggi"
 	},
 
 	sep,
@@ -220,6 +299,9 @@ local Schema =
 	-- ranguro shiny
 	{
 		blocks = 3,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Rangurotora"
 	},
 
 	sep,
@@ -227,6 +309,9 @@ local Schema =
 	-- uru shiny
 	{
 		blocks = 3,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Urukusu"
 	},
 
 	sep,
@@ -235,6 +320,9 @@ local Schema =
 	-- Sushifish, Goldenfish
 	{
 		blocks = 3,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Aoashira"
 	},
 
 	sep,
@@ -243,6 +331,9 @@ local Schema =
 	-- Honey
 	{
 		blocks = 3,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Aoashira"
 	},
 
 	sep,
@@ -250,6 +341,9 @@ local Schema =
 	-- aoa shiny
 	{
 		blocks = 3,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Aoashira"
 	},
 
 	sep,
@@ -257,6 +351,9 @@ local Schema =
 	-- jin shiny
 	{
 		blocks = 3,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Jinouga"
 	},
 
 	sep,
@@ -265,6 +362,9 @@ local Schema =
 	-- TODO: what colour?
 	{
 		blocks = 3,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Altaroth"
 	},
 
 	sep,
@@ -273,6 +373,9 @@ local Schema =
 	-- TODO: what colour?
 	{
 		blocks = 3,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Altaroth"
 	},
 
 	sep,
@@ -281,6 +384,9 @@ local Schema =
 	-- TODO: what colour?
 	{
 		blocks = 3,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Altaroth"
 	},
 
 	sep,
@@ -289,6 +395,9 @@ local Schema =
 	-- TODO: what colour?
 	{
 		blocks = 3,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Altaroth"
 	},
 
 	sep,
@@ -296,6 +405,9 @@ local Schema =
 	-- green narga shiny
 	{
 		blocks = 1,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Green Nargacuga"
 	},
 
 	sep,
@@ -303,6 +415,9 @@ local Schema =
 	-- melynx shiny
 	{
 		blocks = 3,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Melynx"
 	},
 
 	sep,
@@ -310,6 +425,9 @@ local Schema =
 	-- felyne shiny
 	{
 		blocks = 3,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Felyne"
 	},
 
 	sep,
@@ -317,6 +435,9 @@ local Schema =
 	-- black tigrex shiny
 	{
 		blocks = 1,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Black Tigrex"
 	},
 
 	sep,
@@ -324,6 +445,9 @@ local Schema =
 	-- black blos shiny
 	{
 		blocks = 1,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Black Diablos"
 	},
 
 	sep,
@@ -331,6 +455,9 @@ local Schema =
 	-- agna shiny
 	{
 		blocks = 2,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Agnaktor"
 	},
 
 	sep,
@@ -338,6 +465,9 @@ local Schema =
 	-- silver los shiny
 	{
 		blocks = 1,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Silver Rathalos"
 	},
 
 	sep,
@@ -345,6 +475,9 @@ local Schema =
 	-- ludroth shiny
 	{
 		blocks = 3,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Royal Ludroth"
 	},
 
 	sep,
@@ -352,6 +485,9 @@ local Schema =
 	-- gold ian shiny
 	{
 		blocks = 1,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Gold Rathian"
 	},
 
 	sep,
@@ -359,6 +495,9 @@ local Schema =
 	-- great baggi shiny
 	{
 		blocks = 3,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Great Baggi"
 	},
 
 	sep,
@@ -366,6 +505,9 @@ local Schema =
 	-- great jaggi shiny
 	{
 		blocks = 3,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Great Jaggi"
 	},
 
 	sep,
@@ -373,6 +515,9 @@ local Schema =
 	-- ura shiny
 	{
 		blocks = 2,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Uragaan"
 	},
 
 	sep,
@@ -380,6 +525,9 @@ local Schema =
 	-- barroth shiny
 	{
 		blocks = 3,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Barroth"
 	},
 
 	sep,
@@ -387,6 +535,9 @@ local Schema =
 	-- jho shiny
 	{
 		blocks = 1,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Deviljho"
 	},
 
 	sep,
@@ -394,6 +545,9 @@ local Schema =
 	-- blos shiny
 	{
 		blocks = 2,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Diablos"
 	},
 
 	sep,
@@ -401,6 +555,9 @@ local Schema =
 	-- barioth shiny
 	{
 		blocks = 2,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Barioth"
 	},
 
 	sep,
@@ -408,6 +565,9 @@ local Schema =
 	-- giggi shiny
 	{
 		blocks = 3,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Gigginox"
 	},
 
 	sep,
@@ -415,6 +575,9 @@ local Schema =
 	-- peco shiny
 	{
 		blocks = 3,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Qurupeco"
 	},
 
 	sep,
@@ -422,6 +585,9 @@ local Schema =
 	-- los shiny
 	{
 		blocks = 2,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Rathalos"
 	},
 
 	sep,
@@ -429,6 +595,900 @@ local Schema =
 	-- ian shiny
 	{
 		blocks = 2,
+		type = "shiny",
+		action = { hgg = "?", },
+		monster = "Rathian"
+	},
+
+	sep,
+
+	-- uka tail
+	{
+		blocks = 1,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Ukanlos"
+	},
+
+	sep,
+
+	-- aka tail
+	{
+		blocks = 1,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Akantor"
+	},
+
+	sep,
+
+	-- narga tail
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Nargacuga"
+	},
+
+	sep,
+
+	-- tigrex tail
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Tigrex"
+	},
+
+	sep,
+
+	-- ice agna tail
+	{
+		blocks = 1,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Ice Agnaktor"
+	},
+
+	sep,
+
+	-- purple ludroth tail
+	{
+		blocks = 1,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Purple Royal Ludroth"
+	},
+
+	sep,
+
+	-- steel ura tail
+	{
+		blocks = 1,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Steel Uragaan"
+	},
+
+	sep,
+
+	-- ice barroth tail
+	{
+		blocks = 1,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Ice Barroth"
+	},
+
+	sep,
+
+	-- sand barioth tail
+	{
+		blocks = 1,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Sand Barioth"
+	},
+
+	sep,
+
+	-- dobo tail
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Doboruberuku"
+	},
+
+	sep,
+
+	-- ama tail
+	{
+		blocks = 1,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Amatsumagatsuchi"
+	},
+
+	sep,
+
+	-- jin tail
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Jinouga"
+	},
+
+	sep,
+
+	-- green narga tail
+	{
+		blocks = 1,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Green Nargacuga"
+	},
+
+	sep,
+
+	-- ala tail
+	{
+		blocks = 1,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Alatreon"
+	},
+
+	sep,
+
+	-- black tigrex tail
+	{
+		blocks = 1,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Black Tigrex"
+	},
+
+	sep,
+
+	-- black blos tail
+	{
+		blocks = 1,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Black Diablos"
+	},
+
+	sep,
+
+	-- agna tail
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Agnaktor"
+	},
+
+	sep,
+
+	-- silver los tail
+	{
+		blocks = 1,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Silver Rathalos"
+	},
+
+	sep,
+
+	-- royal ludroth tail
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Royal Ludroth"
+	},
+
+	sep,
+
+	-- gold ian tail
+	{
+		blocks = 1,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Gold Rathian"
+	},
+
+	sep,
+
+	-- ura tail
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Uragaan"
+	},
+
+	sep,
+
+	-- barroth tail
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Barroth"
+	},
+
+	sep,
+
+	-- jho tail
+	{
+		blocks = 1,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Deviljho"
+	},
+
+	sep,
+
+	-- blos tail
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Diablos"
+	},
+
+	sep,
+
+	-- barioth tail
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Barioth"
+	},
+
+	sep,
+
+	-- los tail
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Rathalos"
+	},
+
+	sep,
+
+	-- ian tail
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Tail", },
+		monster = "Rathian"
+	},
+
+	sep,
+
+	-- Zuwaroposu carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Zuwaroposu"
+	},
+
+	sep,
+
+	-- Anteka carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Anteka"
+	},
+
+	sep,
+
+	-- Bullfango carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Bullfango"
+	},
+
+	sep,
+
+	-- Bulldrome carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Bulldrome"
+	},
+
+	sep,
+
+	-- Ukanlos carves
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Ukanlos"
+	},
+
+	sep,
+
+	-- Akantor carves
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Akantor"
+	},
+
+	sep,
+
+	-- Nargacuga carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Nargacuga"
+	},
+
+	sep,
+
+	-- Tigrex carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Tigrex"
+	},
+
+	sep,
+
+	-- Ice Agnaktor carves
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Ice Agnaktor"
+	},
+
+	sep,
+
+	-- Purple Royal Ludroth carves
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Purple Royal Ludroth"
+	},
+
+	sep,
+
+	-- Steel Uragaan carves
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Steel Uragaan"
+	},
+
+	sep,
+
+	-- Ice Barroth carves
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Ice Barroth"
+	},
+
+	sep,
+
+	-- Sand Barioth carves
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Sand Barioth"
+	},
+
+	sep,
+
+	-- Thunder Gigginox carves
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Thunder Gigginox"
+	},
+
+	sep,
+
+	-- Red Qurupeco carves
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Red Qurupeco"
+	},
+
+	sep,
+
+	-- Gagua carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Gagua"
+	},
+
+	sep,
+
+	-- Zuwaroposu carves
+	-- yes, again...
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Zuwaroposu"
+	},
+
+	sep,
+
+	-- Froggi carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Froggi"
+	},
+
+	sep,
+
+	-- Hapurubokka carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Hapurubokka"
+	},
+
+	sep,
+
+	-- Doboruberuku carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Doboruberuku"
+	},
+
+	sep,
+
+	-- Great Froggi carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Great Froggi"
+	},
+
+	sep,
+
+	-- Rangurotora carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Rangurotora"
+	},
+
+	sep,
+
+	-- Urukusu carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Urukusu"
+	},
+
+	sep,
+
+	-- Aoashira carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Aoashira"
+	},
+
+	sep,
+
+	-- Amatsumagatsuchi carves
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Amatsumagatsuchi"
+	},
+
+	sep,
+
+	-- Jinouga carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Jinouga"
+	},
+
+	sep,
+
+	-- Bnahabra carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Bnahabra"
+	},
+
+	sep,
+
+	-- Bnahabra carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Bnahabra"
+	},
+
+	sep,
+
+	-- Bnahabra carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Bnahabra"
+	},
+
+	sep,
+
+	-- Bnahabra carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Bnahabra"
+	},
+
+	sep,
+
+	-- Kelbi carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Kelbi"
+	},
+
+	sep,
+
+	-- Altaroth carves
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Altaroth"
+	},
+
+	sep,
+
+	-- Green Nargacuga carves
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Green Nargacuga"
+	},
+
+	sep,
+
+	-- Rhenoplos carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Rhenoplos"
+	},
+
+	sep,
+
+	-- Popo carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Popo"
+	},
+
+	sep,
+
+	-- Aptanoth carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Aptanoth"
+	},
+
+	sep,
+
+	-- Giggi carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Giggi"
+	},
+
+	sep,
+
+	-- Jhen Mohran carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Jhen Mohran"
+	},
+
+	sep,
+
+	-- Alatreon carves
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Alatreon"
+	},
+
+	sep,
+
+	-- Black Tigrex carves
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Black Tigrex"
+	},
+
+	sep,
+
+	-- Delex carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Delex"
+	},
+
+	sep,
+
+	-- Uroktor carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Uroktor"
+	},
+
+	sep,
+
+	-- Black Diablos carves
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Black Diablos"
+	},
+
+	sep,
+
+	-- Agnaktor carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Agnaktor"
+	},
+
+	sep,
+
+	-- Silver Rathalos carves
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Silver Rathalos"
+	},
+
+	sep,
+
+	-- Ludroth carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Ludroth"
+	},
+
+	sep,
+
+	-- Royal Ludroth carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Royal Ludroth"
+	},
+
+	sep,
+
+	-- Gold Rathian carves
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Gold Rathian"
+	},
+
+	sep,
+
+	-- Great Baggi carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Great Baggi"
+	},
+
+	sep,
+
+	-- Baggi carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Baggi"
+	},
+
+	sep,
+
+	-- Great Jaggi carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Great Jaggi"
+	},
+
+	sep,
+
+	-- Jaggia carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Jaggia"
+	},
+
+	sep,
+
+	-- Jaggi carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Jaggi"
+	},
+
+	sep,
+
+	-- Uragaan carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Uragaan"
+	},
+
+	sep,
+
+	-- Barroth carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Barroth"
+	},
+
+	sep,
+
+	-- Deviljho carves
+	{
+		blocks = 2,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Deviljho"
+	},
+
+	sep,
+
+	-- Diablos carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Diablos"
+	},
+
+	sep,
+
+	-- Barioth carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Barioth"
+	},
+
+	sep,
+
+	-- Gigginox carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Gigginox"
+	},
+
+	sep,
+
+	-- Qurupeco carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Qurupeco"
+	},
+
+	sep,
+
+	-- Rathalos carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Rathalos"
+	},
+
+	sep,
+
+	-- Rathian carves
+	{
+		blocks = 3,
+		type = "carve",
+		name = { hgg = "Body", },
+		monster = "Rathian"
 	},
 }
 
@@ -442,18 +1502,158 @@ local function itemFromId( id )
 	assert( nil, "bad id: " .. id )
 end
 
-local SchemaPos = 1
+local MonsterNames =
+{
+	"Rathian",
+	"Rathalos",
+	"Qurupeco",
+	"Gigginox",
+	"Barioth",
+	"Diablos",
+	"Deviljho",
+	"Barroth",
+	"Uragaan",
+	"Jaggi",
+	"Jaggia",
+	"Great Jaggi",
+	"Baggi",
+	"Great Baggi",
+	"Gold Rathian",
+	"Royal Ludroth",
+	"Ludroth",
+	"Silver Rathalos",
+	"Agnaktor",
+	"Black Diablos",
+	"Uroktor",
+	"Delex",
+	"Black Tigrex",
+	"Alatreon",
+	"Jhen Mohran",
+	"Giggi",
+	"Aptanoth",
+	"Popo",
+	"Rhenoplos",
+	"Felyne",
+	"Melynx",
+	"Green Nargacuga",
+	"Altaroth",
+	"Kelbi",
+	"Bnahabra",
+	"Jinouga",
+	"Amatsumagatsuchi",
+	"Aoashira",
+	"Urukusu",
+	"Rangurotora",
+	"Great Froggi",
+	"Doboruberuku",
+	"Hapurubokka",
+	"Froggi",
+	"Zuwaroposu",
+	"Gagua",
+	"Red Qurupeco",
+	"Thunder Gigginox",
+	"Sand Barioth",
+	"Ice Barroth",
+	"Steel Uragaan",
+	"Purple Royal Ludroth",
+	"Ice Agnaktor",
+	"Tigrex",
+	"Nargacuga",
+	"Akantor",
+	"Ukanlos",
+	"Bulldrome",
+	"Bullfango",
+	"Anteka",
+}
 
-carveInfo:gsub( ( "([%da-f][%da-f]) " ):rep( 4 ), function( b1, b2, b3, b4 )
-	if b1 == "ff" and b2 == "ff" and b3 == "ff" and b4 == "ff" then
-		print( "-----------------------------" )
+local Monsters = { }
 
-		SchemaPos = SchemaPos + 1
-
-		return
+local function monsterFromName( name )
+	for _, monster in ipairs( Monsters ) do
+		if monster.name.hgg == name then
+			return monster
+		end
 	end
 
-	if b2 .. b3 == "9bd8" then
+	assert( nil, "bad monster name: " .. name )
+end
+
+for _, name in ipairs( MonsterNames ) do
+	local monster =
+	{
+		name = { hgg = name },
+	}
+
+	table.insert( Monsters, monster )
+end
+
+
+local SchemaPos = 1
+local Block = Schema[ SchemaPos ]
+local NewPosIn = Block.blocks
+
+local carveInfo = readFile( DataPath )
+
+local monster = monsterFromName( Block.monster )
+local curData = { }
+local curRank = "pre"
+
+-- the last block is ffffffff so don't bother with " ?"
+carveInfo:gsub( ( "([%da-f][%da-f]) " ):rep( 4 ), function( b1, b2, b3, b4 )
+	if b1 == "ff" and b2 == "ff" and b3 == "ff" and b4 == "ff" then
+		if NewPosIn == 0 then
+			if Block.type == "carve" then
+				if not monster.carves then
+					monster.carves = { }
+				end
+
+				table.insert( monster.carves, curData )
+			elseif Block.type == "shiny" then
+				if not monster.shinies then
+					monster.shinies = { }
+				end
+
+				table.insert( monster.shinies, curData )
+			end
+
+			SchemaPos = SchemaPos + 1
+			Block = Schema[ SchemaPos ]
+			NewPosIn = Block.blocks
+
+			if Block ~= sep then
+				monster = monsterFromName( Block.monster )
+				curRank = "pre"
+
+				if Block.type == "carve" then
+					curData =
+					{
+						name = Block.name,
+					}
+				elseif Block.type == "shiny" then
+					curData =
+					{
+						action = Block.action,
+					}
+				else
+					assert( nil, "bad type: " .. Block.type )
+				end
+			end
+		end
+
+		NewPosIn = NewPosIn - 1
+
+		if curRank == "pre" then
+			curRank = "high"
+		elseif curRank == "high" then
+			curRank = "low"
+		elseif curRank == "low" then
+			curRank = "event"
+		else
+			--assert( nil, "bad rank: " .. curRank )
+		end
+
+		curData[ curRank ] = { }
+
 		return
 	end
 
@@ -463,7 +1663,22 @@ carveInfo:gsub( ( "([%da-f][%da-f]) " ):rep( 4 ), function( b1, b2, b3, b4 )
 
 	local item = itemFromId( itemId )
 
-	print( ( "%-16s x%d %d%%" ):format(
-		item.name.hgg, count, chance
-	) )
+	if not curData[ curRank ] then print( curRank ) end
+	table.insert( curData[ curRank ], { id = itemId, count = count, chance = chance } )
 end )
+
+if Block.type == "carve" then
+	if not monster.carves then
+		monster.carves = { }
+	end
+
+	table.insert( monster.carves, curData )
+elseif Block.type == "shiny" then
+	if not monster.shinies then
+		monster.shinies = { }
+	end
+
+	table.insert( monster.shinies, curData )
+end
+
+print( json.encode( Monsters ) )
