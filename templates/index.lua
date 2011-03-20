@@ -33,6 +33,7 @@ Sure, it's <a href="https://github.com/mikejsavage/MHP3DB/blob/master/license.tx
 
 <ul>
 	<li>Capcom</li>
+	<li><a href="http://www.gamefaqs.com/psp/991479-monster-hunter-portable-3rd/faqs/61490?page=0#section12">VioletKira</a> for her explanation on carve data</li>
 	<li><a href="http://forums.minegarde.com/user/51-nosuke/">Nosuke</a> for providing ancient charm tables</li>
 	<li><a href="http://zedshaw.com/">Zed Shaw</a> for his <a href="http://tir.mongrel2.org/">Tir framework</a> which I used some ideas and template code from</li>
 	<li>Gunnil for making a female char so I don't have to play the game twice</li>
