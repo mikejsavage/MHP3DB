@@ -45,6 +45,10 @@ input[ type = "button" ]:active {
 	color: #f1d910;
 }
 
+label {
+	cursor: pointer;
+}
+
 /* generic table style */
 
 table {
