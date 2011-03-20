@@ -27,6 +27,7 @@ Grt Frggi Arm -> Grt Froggi Arm
 Grt Frggi Arm+ -> Grt Froggi Arm+
 GrtBaggiScraps -> GrtBaggi Scraps
 Why are the Jhen waist parts called waistcoats?
+Aptanoth -> Aptonoth
 
 
 Red Qurpeco is used commonly, but the HR scraps are Qurupco. Perhaps one
@@ -73,6 +74,9 @@ fastcgi.server += (
 
 # messy but it works...
 url.rewrite-once += (
+        "^([/A-Za-z0-9]*)/monsters/?$" => "$1/monsters.lua",
+        "^([/A-Za-z0-9]*)/monsters/([A-Za-z_]+)/?$" => "$1/monsters.lua?monster=$2",
+
         "^([/A-Za-z0-9]*)/weapons/?$" => "$1/weapons.lua",
         "^([/A-Za-z0-9]*)/weapons/([a-z]+)/?$" => "$1/weapons.lua?class=$2",
         "^([/A-Za-z0-9]*)/weapons/([a-z]+)/([A-Za-z0-9_+]+)/?$" => "$1/weapons.lua?class=$2&name=$3",
@@ -82,7 +86,7 @@ url.rewrite-once += (
         "^([/A-Za-z0-9]*)/armory/([a-z]+)/([A-Za-z0-9_+]+)/?$" => "$1/armory.lua?class=$2&name=$3",
 
         "^([/A-Za-z0-9]*)/items/?$" => "$1/items.lua",
-        "^([/A-Za-z0-9]*)/items/([A-Za-z0-9_+]+)/?$" => "$1/items.lua?name=$2",
+        "^([/A-Za-z0-9]*)/items/([A-Za-z0-9_+]+)/?$" => "$1/items.lua?item=$2",
 
         "^([/A-Za-z0-9]*)/builder/?$" => "$1/builder.lua",
         "^([/A-Za-z0-9]*)/builder/([A-Za-z0-9_\.]+)/?$" => "$1/builder.lua?set=$2",
