@@ -1492,16 +1492,6 @@ local Schema =
 	},
 }
 
-local function itemFromId( id )
-	for _, item in ipairs( Items ) do
-		if item.id == id then
-			return item
-		end
-	end
-
-	assert( nil, "bad id: " .. id )
-end
-
 local MonsterNames =
 {
 	"Rathian",
@@ -1565,6 +1555,17 @@ local MonsterNames =
 	"Bullfango",
 	"Anteka",
 }
+
+local function itemIdxFromId( id )
+	for idx, item in ipairs( Items ) do
+		if item.id == id then
+			return idx
+		end
+	end
+
+	assert( nil, "bad id: " .. id )
+end
+
 
 local Monsters = { }
 
@@ -1661,10 +1662,7 @@ carveInfo:gsub( ( "([%da-f][%da-f]) " ):rep( 4 ), function( b1, b2, b3, b4 )
 	local count  = tonumber( b2, 16 )
 	local itemId = tonumber( b4 .. b3, 16 )
 
-	local item = itemFromId( itemId )
-
-	if not curData[ curRank ] then print( curRank ) end
-	table.insert( curData[ curRank ], { id = itemId, count = count, chance = chance } )
+	table.insert( curData[ curRank ], { id = itemIdxFromId( itemId ), count = count, chance = chance } )
 end )
 
 if Block.type == "carve" then
