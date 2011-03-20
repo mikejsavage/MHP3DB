@@ -4,18 +4,8 @@
 
 -- templates
 
-local armorList = loadTemplate( "armory/armorList" )
-local pieceInfo = loadTemplate( "armory/pieceInfo" )
-
-local decorList = loadTemplate( "armory/decorList" )
-local decorInfo = loadTemplate( "armory/decorInfo" )
-
 itemCounts  = loadTemplate( "itemCounts" )
 itemNameURL = loadTemplate( "itemNameURL" )
-
-grid      = loadTemplate( "grid" )
-gridCell  = loadTemplate( "armory/gridCell" )
-gridDecor = loadTemplate( "armory/gridDecor" )
 
 
 
@@ -64,6 +54,8 @@ if Get.class then
 			local decoration = decorFromName( Get.name )
 
 			if decoration then
+				local decorInfo = loadTemplate( "armory/decorInfo" )
+
 				header( T( decoration.name ) )
 
 				print( decorInfo( { decor = decoration } ) )
@@ -73,6 +65,8 @@ if Get.class then
 		end
 
 		if state == "nothing" then
+			local decorList = loadTemplate( "armory/decorList" )
+
 			header( "Decorations" )
 
 			print( decorList() )
@@ -89,6 +83,8 @@ if Get.class then
 				local piece = pieceFromName( class, Get.name )
 
 				if piece then
+					local pieceInfo = loadTemplate( "armory/pieceInfo" )
+
 					header( T( piece.name ) )
 
 					print( pieceInfo( { class = class, piece = piece } ) )
@@ -98,6 +94,8 @@ if Get.class then
 			end
 
 			if state == "class" then
+				local armorList = loadTemplate( "armory/armorList" )
+
 				header( T( class.name ) )
 
 				print( armorList( { class = class } ) )
@@ -107,6 +105,10 @@ if Get.class then
 end
 
 if state == "nothing" then
+	grid      = loadTemplate( "armory/grid" )
+	gridCell  = loadTemplate( "armory/gridCell" )
+	gridDecor = loadTemplate( "armory/gridDecor" )
+
 	header( "Armory" )
 
 	print( grid( { classes = Armors, cols = 5 } ) )

@@ -1,4 +1,4 @@
-<table class="grid eq">
+<table class="grid eq armor">
 	{%
 	local col = 0
 

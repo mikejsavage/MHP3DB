@@ -7,7 +7,6 @@ Translations = translations( "weapons" )
 weaponNameURL = loadTemplate( "weapons/weaponNameURL" )
 weaponName    = loadTemplate( "weapons/weaponName" )
 
-
 itemCounts  = loadTemplate( "itemCounts" )
 itemNameURL = loadTemplate( "itemNameURL" )
 
@@ -125,7 +124,7 @@ if Get.class then
 end
 
 if state == "nothing" then
-	grid     = loadTemplate( "grid" )
+	grid     = loadTemplate( "weapons/grid" )
 	gridCell = loadTemplate( "weapons/gridCell" )
 
 	header( "Weapons" )
