@@ -1,5 +1,3 @@
-Monsters = data( "monsters" )
-
 local function monsterFromName( name )
 	for _, monster in ipairs( Monsters ) do
 		if urlFromName( monster.name ) == name then

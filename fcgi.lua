@@ -25,6 +25,7 @@ end
 math.randomseed( os.time() )
 
 
+Monsters,    MonstersJSON    = data( "monsters" )
 Weapons,     WeaponsJSON     = data( "weapons" )
 Guns,        GunsJSON        = data( "guns" )
 Armors,      ArmorsJSON      = data( "armors" )
