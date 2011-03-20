@@ -12,6 +12,7 @@ local DataPath = "monsters/carves.txt"
 local sep =
 {
 	blocks = 2,
+	monster = nil
 }
 
 local Schema =
@@ -1621,20 +1622,22 @@ local curRank = "pre"
 carveInfo:gsub( ( "([%da-f][%da-f]) " ):rep( 4 ), function( b1, b2, b3, b4 )
 	if b1 == "ff" and b2 == "ff" and b3 == "ff" and b4 == "ff" then
 		if NewPosIn == 0 then
-			sortRanks( curData )
+			if monster then
+				sortRanks( curData )
 
-			if Block.type == "carve" then
-				if not monster.carves then
-					monster.carves = { }
+				if Block.type == "carve" then
+					if not monster.carves then
+						monster.carves = { }
+					end
+
+					table.insert( monster.carves, curData )
+				elseif Block.type == "shiny" then
+					if not monster.shinies then
+						monster.shinies = { }
+					end
+
+					table.insert( monster.shinies, curData )
 				end
-
-				table.insert( monster.carves, curData )
-			elseif Block.type == "shiny" then
-				if not monster.shinies then
-					monster.shinies = { }
-				end
-
-				table.insert( monster.shinies, curData )
 			end
 
 			SchemaPos = SchemaPos + 1
@@ -1658,6 +1661,9 @@ carveInfo:gsub( ( "([%da-f][%da-f]) " ):rep( 4 ), function( b1, b2, b3, b4 )
 				else
 					assert( nil, "bad type: " .. Block.type )
 				end
+			else
+				monster = nil
+				curData = { }
 			end
 		end
 
@@ -1701,4 +1707,7 @@ elseif Block.type == "shiny" then
 	table.insert( monster.shinies, curData )
 end
 
-print( json.encode( Monsters ) )
+io.output( "../monsters.json" )
+io.write( json.encode( Monsters ) )
+
+print( "genCarveInfo: ok!" )
