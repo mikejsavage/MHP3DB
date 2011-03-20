@@ -2,6 +2,13 @@
 local Ranks =
 {
 	{
+		short = "low",
+		name =
+		{
+			hgg = "Low Rank",
+		},
+	},
+	{
 		short = "high",
 		name =
 		{
@@ -9,10 +16,10 @@ local Ranks =
 		},
 	},
 	{
-		short = "low",
+		short = "event",
 		name =
 		{
-			hgg = "Low Rank",
+			hgg = "Something Rank",
 		},
 	},
 }
@@ -40,8 +47,11 @@ local itemChances = loadTemplate( "itemChances" )
 			printf( "<tr><td>%s</td>", T( location.name ) )
 
 			for _, rank in ipairs( Ranks ) do
-				
-				printf( "<td>%s</td>", itemChances( { materials = location[ rank.short ] } ) )
+				if location[ rank.short ] then
+					printf( "<td>%s</td>", itemChances( { materials = location[ rank.short ] } ) )
+				else
+					print( "<td class='none'>-</td>" )
+				end
 			end
 
 			print( "</tr>" )
@@ -52,9 +62,31 @@ local itemChances = loadTemplate( "itemChances" )
 
 	if monster.shinies then
 		print( "<h2>Shinies</h2>" )
+
+		print( "<table class='data'><thead>" )
+
+		print( "<tr><th>Action</th>" )
+
+		for _, rank in ipairs( Ranks ) do
+			printf( "<th>%s</th>", T( rank.name ) )
+		end
+
+		print( "</tr></head>" )
+
+		for _, location in ipairs( monster.shinies ) do
+			printf( "<tr><td>%s</td>", T( location.action ) )
+
+			for _, rank in ipairs( Ranks ) do
+				if location[ rank.short ] then
+					printf( "<td>%s</td>", itemChances( { materials = location[ rank.short ] } ) )
+				else
+					print( "<td class='none'>-</td>" )
+				end
+			end
+
+			print( "</tr>" )
+		end
+
+		print( "</table>" )
 	end
 %}
-
-<h2>json</h2>
-
-{{ json.encode( monster ) }}
