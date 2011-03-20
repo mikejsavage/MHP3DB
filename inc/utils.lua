@@ -167,8 +167,6 @@ function icon( icon, color )
 		if type( color ) == "number" then
 			color = "rare" .. color
 		end
-	else
-		color = "rare1"
 	end
 
 	return iconTemplate( { icon = icon, color = color } )

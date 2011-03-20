@@ -24,6 +24,11 @@ local NamedDirs =
 	"items",
 }
 
+local NoSuffixDirs =
+{
+	"equipment",
+}
+
 -- these are done by eye. I don't really care
 -- -- if they're off because they still look ok
 local RareColors =
@@ -90,6 +95,16 @@ function recolor( img, htmlColor )
 	end
 end
 
+local function copy( src, dst )
+	local contents = readFile( src )
+
+	local outFile = io.open( dst, "w" )
+
+	outFile:write( contents )
+
+	outFile:close()
+end
+
 for _, rareDir in ipairs( RareDirs ) do
 	local dir = ( "%s/%s" ):format( Dir, rareDir )
 
@@ -130,6 +145,17 @@ for _, nameDir in ipairs( NamedDirs ) do
 	end
 end
 
+for _, noSuffixDir in ipairs( NoSuffixDirs ) do
+	local dir = ( "%s/%s" ):format( Dir, noSuffixDir )
+
+	lfs.mkdir( OutputDir .. "/" .. noSuffixDir )
+
+	for file in lfs.dir( dir ) do
+		if not ignored( file ) then
+			copy( dir .. "/" .. file, OutputDir .. "/" .. noSuffixDir .. "/" .. file )
+		end
+	end
+end
 
 
 print( "genIcons: ok!" )
