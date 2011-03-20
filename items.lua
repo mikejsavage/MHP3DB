@@ -17,8 +17,8 @@ end
 
 local state = "none"
 
-if Get.name then
-	local item = itemFromName( Get.name )
+if Get.item then
+	local item = itemFromName( Get.item )
 
 	if item then
 		header( T( item.name ) )
