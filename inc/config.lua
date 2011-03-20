@@ -14,13 +14,24 @@ HeaderLinks =
 	{
 		text =
 		{
+			hgg = "monsters",
+		},
+		title =
+		{
+			hgg = "Monster info",
+		},
+		url = "monsters",
+	},
+	{
+		text =
+		{
 			hgg = "weapons",
 		},
 		title =
 		{
 			hgg = "Weapon trees",
 		},
-		url = "weapons"
+		url = "weapons",
 	},
 	{
 		text =
@@ -31,7 +42,7 @@ HeaderLinks =
 		{
 			hgg = "Armor lists",
 		},
-		url = "armory"
+		url = "armory",
 	},
 	{
 		text =
@@ -42,7 +53,7 @@ HeaderLinks =
 		{
 			hgg = "Item search",
 		},
-		url = "items"
+		url = "items",
 	},
 }
 
@@ -57,7 +68,7 @@ HeaderCalcs =
 		{
 			hgg = "Armor set simulator",
 		},
-		url = "builder"
+		url = "builder",
 	},
 	{
 		text =
@@ -68,7 +79,7 @@ HeaderCalcs =
 		{
 			hgg = "Armor set generator",
 		},
-		url = "generator"
+		url = "generator",
 	},
 }
 

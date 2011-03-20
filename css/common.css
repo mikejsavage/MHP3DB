@@ -278,7 +278,6 @@ img.icon {
 	border: 1px solid #ccc;
 	border-radius: 4px;
 	padding: 4px;
-	margin-right: 8px;
 
 	-khtml-border-radius:  4px;
 	-moz-border-radius:    4px;
@@ -292,11 +291,34 @@ img.icon {
 	margin-top: 24px;
 }
 
+/* monsters grid */
+
+.grid.monsters {
+	text-align: center;
+}
+
+.grid.monsters div, .grid.armor div {
+	width: 125px;
+}
+
+.grid.monsters img {
+	display: block;
+	margin: 0 auto;
+	width: 65px;
+}
+
 /* smaller images for equipment grids
  * so they don't get stretched */
 
 .grid.eq img {
+	margin-right: 8px;
 	width: 33px;
+}
+
+/* weapons grid */
+
+.grid.weapons div {
+	width: 175px;
 }
 
 /* generic data tables */
