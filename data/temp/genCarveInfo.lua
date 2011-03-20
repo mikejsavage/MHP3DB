@@ -1566,6 +1566,24 @@ local function itemIdxFromId( id )
 	assert( nil, "bad id: " .. id )
 end
 
+local function sortByChanceDesc( a, b )
+	return a.chance > b.chance
+end
+
+local function sortRanks( arr )
+	if arr.high then
+		table.sort( arr.high, sortByChanceDesc )
+	end
+
+	if arr.low then
+		table.sort( arr.low, sortByChanceDesc )
+	end
+
+	if arr.event then
+		table.sort( arr.event, sortByChanceDesc )
+	end
+end
+
 
 local Monsters = { }
 
@@ -1603,6 +1621,8 @@ local curRank = "pre"
 carveInfo:gsub( ( "([%da-f][%da-f]) " ):rep( 4 ), function( b1, b2, b3, b4 )
 	if b1 == "ff" and b2 == "ff" and b3 == "ff" and b4 == "ff" then
 		if NewPosIn == 0 then
+			sortRanks( curData )
+
 			if Block.type == "carve" then
 				if not monster.carves then
 					monster.carves = { }
@@ -1664,6 +1684,8 @@ carveInfo:gsub( ( "([%da-f][%da-f]) " ):rep( 4 ), function( b1, b2, b3, b4 )
 
 	table.insert( curData[ curRank ], { id = itemIdxFromId( itemId ), count = count, chance = chance } )
 end )
+
+sortRanks( curData )
 
 if Block.type == "carve" then
 	if not monster.carves then
