@@ -90,3 +90,10 @@ local itemChances = loadTemplate( "itemChances" )
 		print( "</table>" )
 	end
 %}
+
+
+{%
+	if IsLocalHost then
+		printf( "<h2>json</h2>%s", json.encode( monster ) )
+	end
+%}

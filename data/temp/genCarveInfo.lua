@@ -1585,6 +1585,26 @@ local function sortRanks( arr )
 	end
 end
 
+local function sortCarves( a, b )
+	if b.name.hgg == "Body" then
+		return false
+	end
+
+	if a.name.hgg == "Body" then
+		return true
+	end
+
+	if b.name.hgg == "Tail" then
+		return false
+	end
+
+	if a.name.hgg == "Tail" then
+		return true
+	end
+
+	return false
+end
+
 
 local Monsters = { }
 
@@ -1615,8 +1635,22 @@ local NewPosIn = Block.blocks
 local carveInfo = readFile( DataPath )
 
 local monster = monsterFromName( Block.monster )
-local curData = { }
+local curData
 local curRank = "pre"
+
+if Block.type == "carve" then
+	curData =
+	{
+		name = Block.name,
+	}
+elseif Block.type == "shiny" then
+	curData =
+	{
+		action = Block.action,
+	}
+else
+	assert( nil, "bad type: " .. Block.type )
+end
 
 -- the last block is ffffffff so don't bother with " ?"
 carveInfo:gsub( ( "([%da-f][%da-f]) " ):rep( 4 ), function( b1, b2, b3, b4 )
@@ -1705,6 +1739,12 @@ elseif Block.type == "shiny" then
 	end
 
 	table.insert( monster.shinies, curData )
+end
+
+for _, monster in ipairs( Monsters ) do
+	if monster.carves then
+		table.sort( monster.carves, sortCarves )
+	end
 end
 
 io.output( "../monsters.json" )
