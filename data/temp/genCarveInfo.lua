@@ -31,7 +31,7 @@ local Schema =
 	{
 		blocks = 1,
 		type = "carve",
-		name = { hgg = "Back", },
+		name = { hgg = "Tripped", },
 		monster = "Steel Uragaan"
 	},
 
@@ -52,7 +52,7 @@ local Schema =
 	{
 		blocks = 3,
 		type = "carve",
-		name = { hgg = "Something", },
+		name = { hgg = "idk", },
 		monster = "Jinouga"
 	},
 
@@ -92,7 +92,7 @@ local Schema =
 	{
 		blocks = 2,
 		type = "carve",
-		name = { hgg = "Back", },
+		name = { hgg = "Tripped", },
 		monster = "Uragaan"
 	},
 
