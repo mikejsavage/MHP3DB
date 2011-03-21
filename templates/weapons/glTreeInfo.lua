@@ -20,7 +20,13 @@ local shellShorts =
 <td>{{ weapon.attack }}</td>
 <td>{{ getTATP( weapon ) }}</td>
 <td>{{ T( shellShorts[ weapon.shellingType ] ) }} L{{ weapon.shellingLevel }}</td>
-{{ weapon.element and ( "<td class='elem%s'>%d" ):format( weapon.element, weapon.elemAttack ) or "<td class='none'>-" }}</td>
-<td{{ weapon.affinity ~= 0 and ( ( " class='%s'" ):format( weapon.affinity > 0 and "pos" or "neg" ) ) or ""}}>{{ weapon.affinity }}%</td>
+{{ weapon.element and ( [[<td class="elem%s">%d]] ):format( weapon.element, weapon.elemAttack ) or [[<td class="none">-]] }}</td>
+
+<td{%
+	if weapon.affinity ~= 0 then
+		printf( [[ class="%s"]], weapon.affinity > 0 and "pos" or "neg" )
+	end
+%}>{{ weapon.affinity }}%</td>
+
 <td>{{ weapon.sharpness and sharpness( { weapon = weapon } ) or "?" }}</td>
-<td{{ weapon.slots == 0 and " class='none'>-" or ">" .. ( "O" ):rep( weapon.slots ) }}</td>
+<td{{ weapon.slots == 0 and [[ class="none">-]] or ">" .. ( "O" ):rep( weapon.slots ) }}</td>

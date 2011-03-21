@@ -40,7 +40,7 @@ local CoatingsPerRow = 3
 <td>{{ weapon.attack }}</td>
 <td>{{ getTATP( weapon ) }}</td> 
 <td>{{ weapon.rain }}</td>
-{{ weapon.element and ( [[<td class="elem%s">%d]] ):format( weapon.element, weapon.elemAttack ) or "<td class='none'>-" }}</td>
+{{ weapon.element and ( [[<td class="elem%s">%d]] ):format( weapon.element, weapon.elemAttack ) or [[<td class="none">-]] }}</td>
 <td{{ weapon.affinity ~= 0 and ( ( [[ class="%s"]] ):format( weapon.affinity > 0 and "pos" or "neg" ) ) or ""}}>{{ weapon.affinity }}%</td>
 
 <td class="charges">{%

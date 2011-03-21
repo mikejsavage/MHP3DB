@@ -19,18 +19,18 @@
 				-- :)
 				local form =
 					skill.points > 0 and
-						( alt and ", %-10s %3d\n" or "%-10s %3d" )
+						( alt and ", %-10s %3d<br>" or "%-10s %3d" )
 					or skill.points < 0 and
-						( alt and ", <span class=\"neg\">%-10s %3d</span>\n" or "<span class=\"neg\">%-10s %3d</span>" )
+						( alt and [[, <span class="neg">%-10s %3d</span><br>]] or [[<span class="neg">%-10s %3d</span>]] )
 					or 
-						( alt and ", %-10s    \n" or "%-10s    " )
+						( alt and ", %-10s    <br>" or "%-10s    " )
 
 				printf( form, T( Skills[ skill.id ].name ), skill.points )
 
 				alt = not alt
 			end
 		else
-			print( " class='none'>-" )
+			print( [[ class="none">-]] )
 		end
 	%}</td>
 </tr>
