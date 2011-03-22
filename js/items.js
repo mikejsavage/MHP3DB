@@ -56,7 +56,7 @@ function filterItems()
 
 		out += "<a href='/" + BaseUrl + "items/" + item.url + "'>"
 			+ name.substring( 0, match.pos )
-			+ "<strong>" + name.substring( match.pos, match.pos + filterLen ) + "</strong>"
+			+ "<b>" + name.substring( match.pos, match.pos + filterLen ) + "</b>"
 			+ name.substr( match.pos + filterLen )
 			+ "</a><br>";
 	}

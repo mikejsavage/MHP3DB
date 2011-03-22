@@ -1015,7 +1015,7 @@ function calc( force )
 			// lua gg
 			var item = Items[ id - 1 ];
 
-			materialsOut += "<a href='/" + BaseUrl + "items/" + item.name.hgg.urlEscape() + "'>" + item.name.T() + "</a> <strong>x" + count + "</strong><br>";
+			materialsOut += "<a href='/" + BaseUrl + "items/" + item.name.hgg.urlEscape() + "'>" + item.name.T() + "</a> <b>x" + count + "</b><br>";
 		} );
 
 		materialsOut += "Price: " + setPrice.insertCommas() + "z";

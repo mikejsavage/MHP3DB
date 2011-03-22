@@ -4,7 +4,7 @@ local itemNameURLAligned = loadTemplate( "itemNameURLAligned" )
 for _, material in ipairs( materials ) do
 	local item = Items[ material.id ]
 
-	printf( "%s <strong>%3s</strong><br>",
+	printf( "%s <b>%3s</b><br>",
 		itemNameURLAligned( { item = item } ),
 		"x" .. material.count
 	)
