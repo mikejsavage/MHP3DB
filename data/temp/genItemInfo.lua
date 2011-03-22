@@ -76,6 +76,18 @@ local Actions =
 			return "main"
 		end
 
+		if line == "carry" then
+			item.carry = "light"
+
+			return "main"
+		end
+		
+		if line == "carryheavy" then
+			item.carry = "heavy"
+
+			return "main"
+		end
+
 		assert( nil, "couldn't parse line: " .. line )
 	end,
 }

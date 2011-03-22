@@ -3233,8 +3233,16 @@ egg orange
 R5
 
 714 Gagua Egg
+egg cyan
+R4
+200pts
+carry
 
 715 Gagua GoldenEgg
+egg yellow
+R5
+500pts
+carryheavy
 
 716 Sootstone Ore
 ore gray
