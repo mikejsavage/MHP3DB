@@ -63,7 +63,7 @@ for file in lfs.dir( Dir ) do
 			end
 		end
 
-		outImg:save( OutputDir .. "/" .. file )
+		outImg:save( OutputDir .. "/" .. file:gsub( " ", "_" ) )
 
 		outImg:free()
 		inImg:free()
