@@ -22,32 +22,630 @@ Desc
 	Wood Scraps 1
 	Ore Scraps 1
 
-Metal Bagpipe
-80
-WCR
-R1
-0%
-O--
-1500z
-Machalite Ore 5
-Earth Crystal 4
-Carpenterbug 3
-Desc
-Ore Scraps 2
+		Yukumo Flute+
+		90
+		Reg 2 1000z
+		WBR
+		R1
+		0%
+		---
+		Machalite Ore 5
+		Yukumo Wood 5
+		Gagua Feather 2
+		1000z
+		Desc
+		Wood Scraps 1
+		Ore Scraps 1
 
-Grizzly Shoko MK I
-120
-WRY
-R1
-0%
----
-4800z
-Aoashira Pelt 4
-Aoashira Arm 2
-Yukumo Wood 3
-Bealite Ore 5
-Desc
-Aoashira Scraps 2
+			Yukumo Horn
+			130
+			WBR
+			R2
+			0%
+			---
+			Lightcrystal 1
+			Machalite Ore 10
+			Yukumo Wood 10
+			Screamer 3
+			2000z
+			Desc
+			Wood Scraps 1
+			Ore Scraps 2
+
+			Valkyrie Recorder
+			120
+			Reg 2 2000z
+			WBY
+			Fire 25
+			R2
+			0%
+			---
+			Rathian Scale 5
+			Rathian Shell 2
+			Dragonite Ore 5
+			4900z
+			Rathian Scale 6
+			Rathian Shell 4
+			Zuwaroposu Hide 4
+			Killer Beetle 6
+			Desc
+			Rathian Scraps 2
+
+				Valkyrie Recorder+
+				150
+				Pls 2 3000z
+				WBY
+				Fire 30
+				R3
+				0%
+				---
+				Rathian Webbing 3
+				Rathalos Webbng 3
+				Rathian Plate 1
+				15000z
+				Desc
+				Rathian Scraps 2
+
+					Queen Recorder
+					170
+					Hrd 2 8000z
+					PBY
+					Fire 40
+					R6
+					0%
+					O--
+					Rathian Scale+ 7
+					Rathian Carapce 5
+					FireWyvrnBrnStm 1
+					60000z
+					Desc
+					Rathian Scraps+ 2
+
+						Gold Recorder
+						210
+						Hvy 1 10000z
+						PBY
+						Dragon 28
+						R7
+						0%
+						O--
+						Gld Rathian Scl 6
+						Gld Rathian Cpc 4
+						Rathian Ruby 1
+						Sm Goldenfish 20
+						75000z
+						Desc
+						Rathian Scraps+ 2
+
+		Metal Bagpipe
+		80
+		Reg 2 1000z
+		WCR
+		Def 10
+		R1
+		0%
+		O--
+		Machalite Ore 2
+		Iron Ore 5
+		1000z
+		Machalite Ore 5
+		Earth Crystal 4
+		Carpenterbug 3
+		Desc
+		Ore Scraps 2
+
+			Metal Bagpipe+
+			110
+			Reg 2 2000z
+			WCR
+			Def 12
+			R2
+			0%
+			O--
+			Machalite Ore 3
+			Bealite Ore 2
+			Screamer 2
+			1900z
+			Desc
+			Ore Scraps 2
+
+				Great Bagpipe
+				140
+				Reg 2 2000z
+				WCR
+				Def 15
+				R2
+				0%
+				O--
+				Dragonite Ore 5
+				Machalite Ore 8
+				Screamer 5
+				4900z
+				Desc
+				Ore Scraps 2
+
+					Heavy Bagpipe
+					170
+					Pls 2 3000z
+					WCR
+					Def 20
+					R3
+					-5%
+					O--
+					Dragonite Ore 8
+					Iron Ore 20
+					Doboru Shell 2
+					22500z
+					Doboru Tail 3
+					Magma Shard 6
+					Machalite Ore 10
+					Screamer 8
+					Desc
+					Doboru Scraps 2
+
+						Heavy Bagpipe+
+						180
+						Pls 2 5000z
+						PCR
+						Def 25
+						R4
+						-5%
+						O--
+						Carbalite Ore 3
+						Dragonite Ore 10
+						Splendid Beak 2
+						Uragaan Jaw 2
+						45000z
+						Desc
+						Ore Scraps+ 1
+						Ore Scraps 1
+
+							Fortissimo
+							200
+							Hrd 2 7000z
+							PCR
+							Def 25
+							R5
+							-5%
+							O--
+							Union Ore 10
+							Carbalite Ore 15
+							SteelUragaanJaw 2
+							Hprbkka Skl Shl 3
+							50000z
+							Desc
+							Ore Scraps+ 2
+
+						Hard Bone Horn
+						200
+						Pls 2 5000z
+						PYB
+						R4
+						0%
+						OO-
+						Stout Bone 3
+						Monster Bone+ 5
+						King Scarab 5
+						Blue Mushroom 5
+						20000z
+						Stout Bone 5
+						Bird Wyvrn Bone 10
+						Monster Broth 8
+						Blue Mushroom 8
+						Desc
+						Bone Scraps+ 2
+
+							Hard Bone Horn+
+							210
+							Hrd 2 7000z
+							PYB
+							R5
+							0%
+							OO-
+							Shrp Mnster Bne 5
+							Ancnt Drgn Bone 3
+							Wearyshroom 5
+							35000z
+							Desc
+							Bone Scraps+ 2
+
+								Heavy Bone Horn
+								230
+								Hrd 2 8000z
+								PYB
+								R6
+								0%
+								OO-
+								Hrd Mnster Bone 5
+								Diablos Brnstm 1
+								Dragn Toadstool 5
+								45000z
+								Desc
+								Bone Scraps+ 2
+
+					Hidden Tone
+					140
+					Pls 2 3000z
+					WBC
+					R3
+					40%
+					---
+					Black Narga Plt 4
+					Nargacuga Wing 4
+					Narga TailSpike 3
+					15000z
+					Desc
+					Narga Scraps 2
+
+						Shadow Horn
+						180
+						Hrd 2 8000z
+						PBC
+						R6
+						40%
+						OO-
+						BlackNargaPelt+ 6
+						Nargacuga Wing+ 4
+						Narga TailSpike 8
+						Narga Brain Stm 1
+						65000z
+						Desc
+						Narga Scraps+ 2
+
+				Qurupeco Cornet
+				130
+				Reg 2 2000z
+				WCG
+				Fire 12
+				R2
+				0%
+				O--
+				Queer Beak 1
+				Qurupeco Feathr 5
+				Med Mnster Bone 3
+				Screamer 1
+				4900z
+				Queer Beak 2
+				Flintstone 3
+				Qurupeco Scale 8
+				Lg Monster Bone 2
+				Desc
+				Qurupeco Scraps 2
+
+					Qurupeco Flugelhorn
+					160
+					Pls 2 3000z
+					WCG
+					Fire 15
+					R3
+					0%
+					O--
+					Queer Beak 3
+					Vibrant Down 3
+					Monster Bone+ 3
+					Igneous Thorax 2
+					8200z
+					Desc
+					Qurupeco Scraps 2
+
+						Qurupeco Trumpet
+						190
+						Hrd 2 7000z
+						PCG
+						Fire 18
+						R5
+						0%
+						OO-
+						Splendid Beak 3
+						Qurupeco Wing 7
+						Shrp Mnster Bne 5
+						Screamer 8
+						55000z
+						Desc
+						Qurupco Scraps+ 2
+
+					63rd Div Harmonica
+					140
+					Pls 2 3000z
+					WBC
+					Water 20
+					Def 16
+					R3
+					0%
+					---
+					Hapurubokka Shl 4
+					Hapurbokka Hide 3
+					Hapurubokka Clw 3
+					Machalite Ore 5
+					7000z
+					Desc
+					Haprbkka Scraps 2
+
+						63rd Div Harmonica+
+						190
+						Hrd 2 7000z
+						PBC
+						Water 22
+						Def 18
+						R5
+						0%
+						---
+						Hapurubokka Cpc 4
+						Haprbokka Hide+ 3
+						Chromatic Fluid 4
+						40000z
+						Desc
+						Hapbkka Scraps+ 2
+
+							Hapuru Harmonics
+							210
+							PBC
+							Water 30
+							Def 22
+							R6
+							0%
+							---
+							Hapurbokka Clw+ 3
+							Hprbkka Skl Shl 3
+							Clammy Thorax 5
+							Gracium Ore 5
+							60000z
+							Desc
+							Hapbkka Scraps+ 2
+
+				Battle Sho
+				140
+				Reg 2 2000z
+				WRG
+				R2
+				-5%
+				---
+				Barroth Skl Shl 1
+				Barroth Claw 3
+				Barroth Tail 1
+				Iron Ore 7
+				4900z
+				Barroth Skl Shl 2
+				Barroth Tail 1
+				Barroth Shell 5
+				Machalite Ore 5
+				Desc
+				Barroth Scraps 2
+
+					Brutal Sho
+					160
+					Pls 2 3000z
+					WRG
+					R3
+					-10%
+					---
+					Barroth Spine 3
+					Barroth Claw 5
+					Uragaan Scale 5
+					7000z
+					Desc
+					Barroth Scraps 2
+
+						Relentless Sho
+						210
+						PRG
+						R5
+						-30%
+						---
+						Barroth Skl Shl 5
+						Barroth Thracic 5
+						Barroth Claw+ 3
+						Dragonite Ore 10
+						55000z
+						Desc
+						Barroth Scraps+ 2
+
+						Ice Khene
+						180
+						PRY
+						Ice 20
+						R5
+						-20%
+						OO-
+						IceBarrthSklShl 3
+						Ice Barroth Clw 5
+						IceBarrothTail 1
+						35000z
+						Desc
+						Barroth Scraps+ 2
+
+					Agna Accordion
+					140
+					Pls 2 3000z
+					WCY
+					Fire 35
+					R3
+					15%
+					---
+					Agnaktor Shell 3
+					Agnaktor Hide 5
+					Dragonite Ore 5
+					20000z
+					Desc
+					Agnaktor Scraps 2
+
+						Agna Accordion+
+						160
+						PCY
+						Fire 42
+						R4
+						25%
+						---
+						Agnaktor Tail 1
+						Agnaktor Scale 3
+						Carbalite Ore 5
+						Ludroth Hide+ 10
+						40000z
+						Desc
+						Agnaktor Scraps 1
+						Ore Scraps+ 2
+
+		Grizzly Shoko MK I
+		120
+		Reg 2 1000z
+		WRY
+		R1
+		0%
+		---
+		Aoashira Pelt 2
+		Aoashira Arm 1
+		Bealite Ore 3
+		3200z
+		Aoashira Pelt 4
+		Aoashira Arm 2
+		Yukumo Wood 3
+		Bealite Ore 5
+		Desc
+		Aoashira Scraps 2
+
+			Grizzly Shoko MK II
+			150
+			WRY
+			R2
+			0%
+			---
+			Aoashira Pelt 5
+			Sharp Fang 8
+			Dragonite Ore 5
+			5900z
+			Desc
+			Aoashira Scraps 2
+
+		Ludroth Voice
+		120
+		Reg 2 2000z
+		WBG
+		Water 32
+		R2
+		0%
+		O--
+		Spongy Hide 3
+		RoyalLudrothScl 3
+		RoyalLudrothClw 3
+		Thunderbug 4
+		5900z
+		Desc
+		Ludroth Scraps 2
+
+			Ludroth Voice+
+			150
+			Pls 2 3000z
+			WBG
+			Water 38
+			R3
+			0%
+			O--
+			RyalLudrthCrest 3
+			Aqua Sac 2
+			Monster Bone+ 1
+			Mega Thunderbug 5
+			9500z
+			Desc
+			Ludroth Scraps 2
+
+				Screaming Ludroth
+				180
+				Hrd 2 7000z
+				PBG
+				Water 42
+				R5
+				0%
+				O--
+				Spongy Hide+ 5
+				RoyalLudrthScl+ 5
+				RoyalLudrthClw+ 3
+				Exquisite Crest 3
+				55000z
+				Desc
+				Ludroth Scraps+ 2
+
+			Black Coffin
+			130
+			Pls 2 3000z
+			WCR
+			Poison 25
+			R3
+			0%
+			O--
+			Uncanny Hide 4
+			Gigginox Claw 3
+			Poison Gland 3
+			Lg Monster Bone 1
+			7000z
+			Poison Gland 4
+			Uncanny Hide 6
+			Med Mnster Bone 4
+			Poison Sac 8
+			Desc
+			Gigginox Scraps 2
+
+				Shadow Coffin
+				150
+				Hrd 2 5000z
+				PCR
+				Poison 32
+				R4
+				0%
+				O--
+				Gigginox Hide 4
+				Horrific Maw 2
+				Toxin Sac 5
+				Unknown Skull 5
+				35000z
+				Desc
+				Gigginox Scraps 2
+
+					Dark Coffin
+					170
+					PCR
+					Poison 38
+					R6
+					0%
+					O--
+					Uncanny Hide+ 4
+					Gigginox Hide+ 4
+					Gigginox Claw+ 3
+					Venom Gland 3
+					60000z
+					Desc
+					Giggnox Scraps+ 2
+
+					Blood Coffin
+					150
+					Hrd 2 7000z
+					PCG
+					Paralyze 10
+					R5
+					0%
+					---
+					Uncanny Hide+ 4
+					ThdrGiggnoxHide 4
+					ThndrGiggnoxClw 3
+					Thunder Sac 3
+					40000z
+					Desc
+					Giggnox Scraps+ 2
+
+						Blood Scream
+						170
+						Hrd 2 8000z
+						PCO
+						Paralyze 16
+						R6
+						0%
+						---
+						ThdrGiggnoxHide 6
+						Ancnt Drgn Bone 4
+						Jinouga Pelt+ 5
+						Wyvern Stone 1
+						60000z
+						Desc
+						Giggnox Scraps+ 2
 
 Cello Ve Cero
 80
@@ -62,52 +660,9 @@ Yukumo Wood 3
 Desc
 Bnahabra Scraps 2
 
-Qurupeco Cornet
-130
-WCG
-Fire 12
-R2
-0%
-O--
-7350z
-Queer Beak 2
-Flintstone 3
-Qurupeco Scale 8
-Lg Monster Bone 2
-Desc
-Qurupeco Scraps 2
-
-Battle Sho
-140
-WRG
-R2
--5%
----
-7350z
-Barroth Skl Shl 2
-Barroth Tail 1
-Barroth Shell 5
-Machalite Ore 5
-Desc
-Barroth Scraps 2
-
-Valkyrie Recorder
-120
-WBY
-Fire 25
-R2
-0%
----
-7350z
-Rathian Scale 6
-Rathian Shell 4
-Zuwaroposu Hide 4
-Killer Beetle 6
-Desc
-Rathian Scraps 2
-
 Magical Charm
 90
+Reg 2 2000z
 WGC
 Dragon 20
 R2
@@ -120,8 +675,24 @@ Killer Beetle 5
 Desc
 Altaroth Scraps 2
 
+	Magical Charm+
+	130
+	WGC
+	Dragon 30
+	R3
+	0%
+	---
+	Bell Cricket 5
+	Altarth Abdomen 7
+	Monster Fluid 5
+	EldrDragonBlood 2
+	5900z
+	Desc
+	Altaroth Scraps 2
+
 Wave Shell
 80
+Reg 2 2000z
 WGB
 R2
 20%
@@ -132,6 +703,35 @@ Pelagicite Ore 3
 Earth Crystal 5
 Desc
 Ore Scraps 2
+
+	Wave Shell+
+	150
+	Pls 2 3000z
+	WGB
+	R3
+	30%
+	OOO
+	Shellfish 4
+	Brilliant Fluid 3
+	Lightcrystal 2
+	Diablos Marrow 1
+	5900z
+	Desc
+	Ore Scraps 2
+
+		Vortex Shell
+		170
+		PGB
+		R5
+		35%
+		OOO
+		Shellfish 8
+		Depthlite Ore 5
+		Hydro Sac 2
+		Quality Fin 2
+		45000z
+		Desc
+		Ore Scraps+ 2
 
 Yukumo Fife
 150
@@ -147,38 +747,9 @@ Desc
 Wood Scraps 2
 Ore Scraps 1
 
-Heavy Bagpipe
-170
-WCR
-Def 20
-R3
--5%
-O--
-22500z
-Doboru Tail 3
-Magma Shard 6
-Machalite Ore 10
-Screamer 8
-Desc
-Doboru Scraps 2
-
-Black Coffin
-130
-WCR
-Poison 25
-R3
-0%
-O--
-10500z
-Poison Gland 4
-Uncanny Hide 6
-Med Mnster Bone 4
-Poison Sac 8
-Desc
-Gigginox Scraps 2
-
 Brass Ghenia
 170
+Pls 2 3000z
 Def 30
 WRB
 R3
@@ -191,6 +762,53 @@ Uragaan Shell 5
 Magma Shard 6
 Desc
 Uragaan Scraps 2
+
+	Brass Ghenia+
+	190
+	Hrd 2 5000z
+	PRB
+	Def 35
+	R4
+	0%
+	---
+	Uragaan Shell 5
+	Uragaan Marrow 1
+	Barroth Carapce 5
+	35000z
+	Desc
+	Uragaan Scraps 2
+
+		Giga Ghenia
+		210
+		Hrd 2 8000z
+		PRB
+		Def 40
+		R6
+		0%
+		---
+		Uragaan Jaw 3
+		Uragaan Scale+ 5
+		Uragaan Ruby 1
+		Union Ore 5
+		65000z
+		Desc
+		Uragaan Scraps+ 1
+		Ore Scraps+ 1
+
+		Dvondva
+		200
+		PBG
+		Fire 15
+		Def 20
+		R5
+		0%
+		O--
+		SteelUragaanJaw 1
+		SteelUrgnShield 6
+		SteelUragaanScl 3
+		45000z
+		Desc
+		Uragaan Scraps+ 2
 
 Striped Gong
 160
@@ -235,20 +853,6 @@ Lightcrystal 5
 Thunderbug 10
 Desc
 
-Hard Bone Horn
-200
-PYB
-R4
-0%
-OO-
-30000z
-Stout Bone 5
-Bird Wyvrn Bone 10
-Monster Broth 8
-Blue Mushroom 8
-Desc
-Bone Scraps+ 2
-
 Akantor Deathknell
 250
 PBO
@@ -281,6 +885,7 @@ Ukanlos Scraps 2
 
 Autumn Typhoon
 240
+Hvy 1 10000z
 PYO
 Water 16
 R7
