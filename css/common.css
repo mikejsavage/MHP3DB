@@ -273,6 +273,7 @@ img.icon {
 }
 .grid td {
 	padding: 0;
+	vertical-align: top;
 }
 .grid td a {
 	display: block;
