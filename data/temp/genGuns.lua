@@ -284,7 +284,7 @@ local Actions =
 
 				assert( success, "bad scrap in " .. weapon.name.hgg .. ": " .. line )
 
-				local success, _, clip, l1RapidNum, l1RapidStr = l1:find( "^(%d+)!(%d)(%u)$" )
+				local success, _, clip, l1RapidNum, l1RapidRecoil = l1:find( "^(%d+)!(%d)(%u)$" )
 				if success then
 					l1 = clip
 				else
@@ -296,7 +296,7 @@ local Actions =
 					end
 				end
 
-				local success, _, clip, l2RapidNum, l2RapidStr = l2:find( "^(%d+)!(%d)(%u)$" )
+				local success, _, clip, l2RapidNum, l2RapidRecoil = l2:find( "^(%d+)!(%d)(%u)$" )
 				if success then
 					l2 = clip
 				else
@@ -308,7 +308,7 @@ local Actions =
 					end
 				end
 
-				local success, _, clip, l3RapidNum, l3RapidStr = l3:find( "^(%d+)!(%d)(%u)$" )
+				local success, _, clip, l3RapidNum, l3RapidRecoil = l3:find( "^(%d+)!(%d)(%u)$" )
 				if success then
 					l3 = clip
 				else
@@ -322,9 +322,9 @@ local Actions =
 
 				-- lua automatically drops nils from tables so the result is clean
 				weapon.shots = { {
-					{ clip = tonumber( l1 ), rapidClip = tonumber( l1RapidNum ), rapidStrength = l1RapidStrength, siege = l1siege },
-					{ clip = tonumber( l2 ), rapidClip = tonumber( l2RapidNum ), rapidStrength = l2RapidStrength, siege = l2siege },
-					{ clip = tonumber( l3 ), rapidClip = tonumber( l3RapidNum ), rapidStrength = l3RapidStrength, siege = l3siege },
+					{ clip = tonumber( l1 ), rapidClip = tonumber( l1RapidNum ), rapidRecoil = l1RapidRecoil, siege = l1siege },
+					{ clip = tonumber( l2 ), rapidClip = tonumber( l2RapidNum ), rapidRecoil = l2RapidRecoil, siege = l2siege },
+					{ clip = tonumber( l3 ), rapidClip = tonumber( l3RapidNum ), rapidRecoil = l3RapidRecoil, siege = l3siege },
 				} }
 
 				return "shots"
@@ -350,7 +350,7 @@ local Actions =
 
 		assert( success, "bad shot in " .. weapon.name.hgg .. ": " .. line .. " (" .. Shots[ LastShot ].name.hgg .. ")" )
 
-		local success, _, clip, l1RapidNum, l1RapidStr = l1:find( "^(%d+)!(%d)(%u)$" )
+		local success, _, clip, l1RapidNum, l1RapidRecoil = l1:find( "^(%d+)!(%d)(%u)$" )
 		if success then
 			l1 = clip
 		else
@@ -362,10 +362,10 @@ local Actions =
 			end
 		end
 
-		table.insert( weapon.shots, { { clip = tonumber( l1 ), rapidClip = tonumber( l1RapidNum ), rapidStrength = l1RapidStrength, siege = l1siege } } )
+		table.insert( weapon.shots, { { clip = tonumber( l1 ), rapidClip = tonumber( l1RapidNum ), rapidRecoil = l1RapidRecoil, siege = l1siege } } )
 
 		if l2 then
-			local success, _, clip, l2RapidNum, l2RapidStr = l2:find( "^(%d+)!(%d)(%u)$" )
+			local success, _, clip, l2RapidNum, l2RapidRecoil = l2:find( "^(%d+)!(%d)(%u)$" )
 			if success then
 				l2 = clip
 			else
@@ -377,10 +377,10 @@ local Actions =
 				end
 			end
 
-			table.insert( weapon.shots[ LastShot ], { clip = tonumber( l2 ), rapidClip = tonumber( l2RapidNum ), rapidStrength = l2RapidStrength, siege = l2siege } )
+			table.insert( weapon.shots[ LastShot ], { clip = tonumber( l2 ), rapidClip = tonumber( l2RapidNum ), rapidRecoil = l2RapidRecoil, siege = l2siege } )
 
 			if l3 then
-				local success, _, clip, l3RapidNum, l3RapidStr = l3:find( "^(%d+)!(%d)(%u)$" )
+				local success, _, clip, l3RapidNum, l3RapidRecoil = l3:find( "^(%d+)!(%d)(%u)$" )
 				if success then
 					l3 = clip
 				else
@@ -392,7 +392,7 @@ local Actions =
 					end
 				end
 
-				table.insert( weapon.shots[ LastShot ], { clip = tonumber( l3 ), rapidClip = tonumber( l3RapidNum ), rapidStrength = l3RapidStrength, siege = l3siege } )
+				table.insert( weapon.shots[ LastShot ], { clip = tonumber( l3 ), rapidClip = tonumber( l3RapidNum ), rapidRecoil = l3RapidRecoil, siege = l3siege } )
 			end
 		end
 
