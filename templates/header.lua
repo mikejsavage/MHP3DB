@@ -8,12 +8,12 @@ local headerLink = loadTemplate( "headerLink" )
 		<link rel="stylesheet" type="text/css" href="{{ C( "css/common.css" ) }}">
 		<link rel="shortcut icon" href="{{ U( "favicon.ico" ) }}">
 
-		<title>{{ title and title .. " - " or "" }}3rdDB</title>
+		<title>{{ title and title .. " - " or "" }}P3DB</title>
 	</head>
 
 	<body>
 		<div class="header">
-			<a href="{{ U( "" ) }}" class="home">3rddb</a>
+			<a href="{{ U( "" ) }}" class="home">p3db</a>
 
 			<div class="nav">
 				{%
