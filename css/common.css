@@ -87,7 +87,7 @@ h2 + h3 {
 /* lists */
 
 ul {
-	margin: 0.5em 0 0;
+	margin: 0.5em 0;
 	padding: 0 2.5em;
 }
 
@@ -264,6 +264,10 @@ img.icon {
 	text-align: right;
 	vertical-align: top;
 	white-space: nowrap;
+}
+
+.post h3 {
+	padding: 0 0 8px;
 }
 
 /* grids */
