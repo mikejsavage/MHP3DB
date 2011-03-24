@@ -74,24 +74,24 @@ fastcgi.server += (
 
 # messy but it works...
 url.rewrite-once += (
-        "^([/A-Za-z0-9]*)/monsters/?$" => "$1/monsters.lua",
-        "^([/A-Za-z0-9]*)/monsters/([A-Za-z_]+)/?$" => "$1/monsters.lua?monster=$2",
+        "monsters/?$" => "monsters.lua",
+        "monsters/([A-Za-z_]+)/?$" => "monsters.lua?monster=$1",
 
-        "^([/A-Za-z0-9]*)/weapons/?$" => "$1/weapons.lua",
-        "^([/A-Za-z0-9]*)/weapons/([a-z]+)/?$" => "$1/weapons.lua?class=$2",
-        "^([/A-Za-z0-9]*)/weapons/([a-z]+)/([A-Za-z0-9_+]+)/?$" => "$1/weapons.lua?class=$2&name=$3",
+        "weapons/?$" => "weapons.lua",
+        "weapons/([a-z]+)/?$" => "weapons.lua?class=$1",
+        "weapons/([a-z]+)/([A-Za-z0-9_+]+)/?$" => "weapons.lua?class=$1&name=$2",
 
-        "^([/A-Za-z0-9]*)/armory/?$" => "$1/armory.lua",
-        "^([/A-Za-z0-9]*)/armory/([a-z]+)/?$" => "$1/armory.lua?class=$2",
-        "^([/A-Za-z0-9]*)/armory/([a-z]+)/([A-Za-z0-9_+]+)/?$" => "$1/armory.lua?class=$2&name=$3",
+        "armory/?$" => "armory.lua",
+        "armory/([a-z]+)/?$" => "armory.lua?class=$1",
+        "armory/([a-z]+)/([A-Za-z0-9_+]+)/?$" => "armory.lua?class=$1&name=$2",
 
-        "^([/A-Za-z0-9]*)/items/?$" => "$1/items.lua",
-        "^([/A-Za-z0-9]*)/items/([A-Za-z0-9_+-]+)/?$" => "$1/items.lua?item=$2",
+        "items/?$" => "items.lua",
+        "items/([A-Za-z0-9_+-]+)/?$" => "items.lua?item=$1",
 
-        "^([/A-Za-z0-9]*)/builder/?$" => "$1/builder.lua",
-        "^([/A-Za-z0-9]*)/builder/([A-Za-z0-9_\.]+)/?$" => "$1/builder.lua?set=$2",
+        "builder/?$" => "builder.lua",
+        "builder/([A-Za-z0-9_\-\.=]+)/?$" => "builder.lua?set=$1",
 
-        "^([/A-Za-z0-9]*)/generator/?$" => "$1/generator.lua",
+        "generator/?$" => "generator.lua",
 )
 
 # possibly change this to a $HTTP[ "url" ] regex?
