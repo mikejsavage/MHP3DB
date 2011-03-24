@@ -27,7 +27,7 @@ local Ranks =
 local itemChances = loadTemplate( "itemChances" )
 %}
 
-<h1>{{ icon( "monsters/" .. monster.name.hgg ) }} {{ T( monster.name ) }}</h1>
+<h1>{{ icon( "monsters/" .. urlFromName( monster.name ) ) }} {{ T( monster.name ) }}</h1>
 
 {%
 	if monster.carves then
