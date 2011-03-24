@@ -72,7 +72,6 @@ fastcgi.server += (
         )
 )
 
-# messy but it works...
 url.rewrite-once += (
         "monsters/?$" => "monsters.lua",
         "monsters/([A-Za-z_]+)/?$" => "monsters.lua?monster=$1",
