@@ -3,7 +3,7 @@
 			<div class="footer">
 				{%
 					if IsLocalHost then
-						printf( [[<a href="http://divinewh.im/p3/%s">Live link</a> / ]], CurrentUrl )
+						printf( [[<a href="http://p3db.com/%s">Live link</a> / ]], CurrentUrl )
 					end
 				%}
 
