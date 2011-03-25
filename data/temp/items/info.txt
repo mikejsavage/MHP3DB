@@ -3279,6 +3279,9 @@ R3
 725 Sparkling Gut
 
 726 Giggi Essence
+drink purple
+R2
+80pts
 
 727 Monster Liver
 shell yellow
