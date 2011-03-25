@@ -1,30 +1,30 @@
 {%
-local Ranks =
-{
+	local Ranks =
 	{
-		short = "low",
-		name =
 		{
-			hgg = "Low Rank",
+			short = "baby",
+			name =
+			{
+				hgg = "1-2 " .. Special.star .. " Guild",
+			},
 		},
-	},
-	{
-		short = "high",
-		name =
 		{
-			hgg = "High Rank",
+			short = "low",
+			name =
+			{
+				hgg = "Low Rank",
+			},
 		},
-	},
-	{
-		short = "event",
-		name =
 		{
-			hgg = "Something Rank",
+			short = "high",
+			name =
+			{
+				hgg = "High Rank",
+			},
 		},
-	},
-}
+	}
 
-local itemChances = loadTemplate( "itemChances" )
+	local itemChances = loadTemplate( "itemChances" )
 %}
 
 <h1>{{ icon( "monsters/" .. urlFromName( monster.name ) ) }} {{ T( monster.name ) }}</h1>

@@ -85,7 +85,7 @@ HeaderCalcs =
 
 Special =
 {
-	star = "&#9833;",
+	star = "&#9733;",
 	note = "&#9834;",
 	arrow = "&rarr;",
 	cross = "<b>&times;</b>",

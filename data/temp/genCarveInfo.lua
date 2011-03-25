@@ -1580,8 +1580,8 @@ local function sortRanks( arr )
 		table.sort( arr.low, sortByChanceDesc )
 	end
 
-	if arr.event then
-		table.sort( arr.event, sortByChanceDesc )
+	if arr.baby then
+		table.sort( arr.baby, sortByChanceDesc )
 	end
 end
 
@@ -1708,7 +1708,7 @@ carveInfo:gsub( ( "([%da-f][%da-f]) " ):rep( 4 ), function( b1, b2, b3, b4 )
 		elseif curRank == "high" then
 			curRank = "low"
 		elseif curRank == "low" then
-			curRank = "event"
+			curRank = "baby"
 		else
 			--assert( nil, "bad rank: " .. curRank )
 		end
