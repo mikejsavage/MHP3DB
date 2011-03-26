@@ -65,7 +65,7 @@ fastcgi.server += (
                 (
                         "bin-path" => "/path/to/fcgi",
                         "socket" => "/tmp/mhp3dbFCGI.socket",
-                        # each proc maxes at about 15MB of memory
+                        # each proc maxes at about 25MB of memory
                         # edit this to suit your setup
                         "max-procs" => 2, 
                 )
