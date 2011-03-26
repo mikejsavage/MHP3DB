@@ -27,6 +27,7 @@ local MaxSlots = 3
 <script type="text/javascript">
 var SetUrl = {{ Get.set and ( "%q" ):format( Get.set ) or "false" }};
 var BaseUrl = "{{ BaseUrl }}";
+var BaseSetUrl = "{{ os.getenv( "SERVER_NAME" ) .. U( "sets" ) }}";
 </script>
 
 <h3>Equipment</h3>
@@ -174,3 +175,8 @@ Dragon Res: <span id="dragonRes"></span>
 <h3>Materials</h3>
 
 <div id="materials"></div>
+
+
+<h3>Easy Copy pasta</h3>
+
+<textarea id="textOut" rows="10"></textarea>

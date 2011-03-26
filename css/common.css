@@ -22,12 +22,12 @@ select, input {
 	margin: 2px 4px;
 }
 
-input[ type = "text" ], textarea {
+input[ type = "text" ] {
 	border: 1px solid #ccc;
 	padding: 2px;
 }
 
-input[ type = "button" ] {
+input[ type = "button" ], textarea {
 	background: #191919;
 	border: 1px #444 solid;
 	border-radius: 4px;
@@ -43,6 +43,10 @@ input[ type = "button" ]:hover {
 }
 input[ type = "button" ]:active {
 	color: #f1d910;
+}
+
+textarea {
+	font-family: sans-serif;
 }
 
 label {
@@ -491,6 +495,10 @@ input.small {
 	text-align: center;
 }
 
+#textOut {
+	width: 100%;
+}
+
 /* set generator output */
 
 .wanted {
@@ -506,11 +514,12 @@ input.small {
 .set {
 	background-color: #1d1d1d;
 	border: 1px solid #ccc;
-	-moz-border-radius: 8px;
 	display: inline-block;
 	font-family: monospace;
 	padding: 8px;
 	margin: 8px;
+
+	-moz-border-radius: 8px;
 }
 
 

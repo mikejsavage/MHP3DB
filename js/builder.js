@@ -18,6 +18,16 @@ var Elements =
 	"dragon" : "Dragon"
 };
 
+var Singulars =
+{
+	"wpn" : "weapon",
+	"hlm" : "helmet",
+	"plt" : "plate",
+	"arm" : "gloves",
+	"wst" : "tasset",
+	"leg" : "leggings"
+};
+
 var NoSkill = "--"; // = "gunners";
 
 // globals
@@ -227,6 +237,11 @@ function typeFromShort( short )
 	alert( "typeFromShort failed: " + short );
 }
 
+function decorationNameSlots( decoration )
+{
+	return decoration.name.T() + " [" + decoration.slots + "]";
+}
+
 function decorationInfo( decoration )
 {
 	// first skill is always main
@@ -294,7 +309,7 @@ function showSlots( short )
 				pushSelect( selSlot, new Option(
 					decorInfo ?
 						decorationInfo( decoration ) :
-						decoration.name.T() + " [" + decoration.slots + "]",
+						decorationNameSlots( decoration ),
 					id
 				) );
 			}
@@ -437,7 +452,7 @@ function doRefreshPieces()
 	} );
 }
 
-function refreshSlots( short, refreshUsed )
+function refreshSlots( short, refreshEaten )
 {
 	var decorInfo = $( "decorInfo" ).checked;
 	var shortSlot = short + "slot";
@@ -486,21 +501,21 @@ function refreshSlots( short, refreshUsed )
 					pushSelect( selSlot, new Option(
 						decorInfo ?
 							decorationInfo( decoration ) :
-							decoration.name.T() + " [" + decoration.slots + "]",
+							decorationNameSlots( decoration ),
 						id,
 						sel, sel
 					) );
 				}
 			} );
 		}
-		else if( refreshUsed && isVisible( selSlot ) )
+		else if( refreshEaten && isVisible( selSlot ) )
 		{
 			var decoration = Decorations[ curr ];
 
 			selSlot.options[ 0 ] = new Option(
 				decorInfo ?
 					decorationInfo( decoration ) :
-					decoration.name.T(),
+					decorationNameSlots( decoration ),
 				curr
 			);
 		}
@@ -612,6 +627,11 @@ function isTlnValid()
 	{
 		skill1Id     = selSkill1.value;
 		skill1Points = parseInt( $( "tlnskill0pts" ).value, 10 );
+
+		if( isNaN( skill1Points ) )
+		{
+			skill1Id = -1;
+		}
 	}
 
 	var selSkill2 = $( "tlnskill1" );
@@ -622,6 +642,11 @@ function isTlnValid()
 	{
 		skill2Id     = selSkill2.value;
 		skill2Points = parseInt( $( "tlnskill1pts" ).value, 10 );
+
+		if( isNaN( skill2Points ) )
+		{
+			skill2Id = -1;
+		}
 	}
 
 	var slots = 0;
@@ -791,20 +816,84 @@ function calc( force )
 
 	function addDecorations( short )
 	{
-		for( var i = 0, m = numSlots( short ); i < m; i++ )
+		var slots = numSlots( short );
+
+		if( slots != 0 )
 		{
-			var selSlot = $( short + "slot" + i );
+			var decorations = { };
 
-			if( !selSlot.disabled && selSlot.selectedIndex != 0 )
+			for( var i = 0; i < slots; i++ )
 			{
-				var decoration = Decorations[ selSlot.value ];
+				var selSlot = $( short + "slot" + i );
 
-				addSkills( short, decoration.skills );
+				if( !selSlot.disabled && selSlot.selectedIndex != 0 )
+				{
+					var decorationId = selSlot.value;
 
-				// TODO: how can I nicely support decorations
-				//       with multiple creation methods?
-				addMaterials( decoration.create[ 0 ], decoration.price );
+					var decoration = Decorations[ decorationId ];
+
+					addSkills( short, decoration.skills );
+
+					// TODO: how can I nicely support decorations
+					//       with multiple creation methods?
+					addMaterials( decoration.create[ 0 ], decoration.price );
+
+					if( decorations[ decorationId ] == undefined )
+					{
+						decorations[ decorationId ] =
+						{
+							"name" : decorationNameSlots( decoration ),
+							"count" : 1
+						};
+					}
+					else
+					{
+						decorations[ decorationId ].count++;
+					}
+				}
 			}
+
+			var firstIter = true;
+
+			decorations.map( function( decoration )
+			{
+				if( firstIter )
+				{
+					textOut += short == "tln" ? ", " : ": ";
+
+					textOut += decoration.name;
+
+					if( decoration.count != 1 )
+					{
+						textOut += " x" + decoration.count;
+					}
+
+					firstIter = false;
+				}
+				else
+				{
+					textOut += ", " + decoration.name;
+
+					if( decoration.count != 1 )
+					{
+						textOut += " x" + decoration.count;
+					}
+				}
+			} );
+		}
+	}
+
+	function addGenericTextOut( short )
+	{
+		var slots = numSlots( short );
+
+		if( slots == 0 )
+		{
+			textOut += "Any " + Singulars[ short ];
+		}
+		else
+		{
+			textOut += slots + " " + Singulars[ short ] + " slot" + ( slots == 1 ? "" : "s" );
 		}
 	}
 
@@ -864,6 +953,8 @@ function calc( force )
 	var defense = 1;
 	var resistances = { };
 
+	var textOut = "";
+
 	// init resistances
 	Elements.map( function( elem )
 	{
@@ -874,15 +965,25 @@ function calc( force )
 	Types.map( function( short )
 	{
 		pieces[ short ] = [ ];
-
-		addDecorations( short );
 	} );
+
+	// TODO: potential optimization
+	// numSlots( short ) gets calculated many more times than
+	// is necessary in the following sections
+
+	{
+		addGenericTextOut( "wpn" );
+
+		addDecorations( "wpn" );
+
+		textOut += "\n";
+	}
 
 	Armors.map( function( type )
 	{
 		var idx = $( type.short ).value;
 
-		// values < 0 are for "no x" or "y slotted x"
+		// values < 0 are for "any x" or "y slotted x"
 		if( idx >= 0 )
 		{
 			var piece = type.pieces[ idx ];
@@ -895,27 +996,74 @@ function calc( force )
 			{
 				addMaterials( piece.create, piece.price );
 			}
+
+			textOut += piece.name.T();
 		}
+		else
+		{
+			addGenericTextOut( type.short );
+		}
+
+		addDecorations( type.short );
+
+		textOut += "\n";
 	} );
 
-	var tlnSkills = [ ];
-
-	for( var i = 0; i < MaxTalismanSkills; i++ )
 	{
-		var selId = "tlnskill" + i;
+		var tlnSkills = [ ];
 
-		var sel = $( selId );
+		textOut += "Charm: ";
+		var firstSkillOut = true;
 
-		if( sel.selectedIndex != 0 )
+		for( var i = 0; i < MaxTalismanSkills; i++ )
 		{
-			tlnSkills.push(	{
-				"id" : sel.value,
-				"points" : parseInt( $( selId + "pts" ).value, 10 )
-			} );
-		}
-	}
+			var selId = "tlnskill" + i;
 
-	addSkills( "tln", tlnSkills );
+			var sel = $( selId );
+
+			if( sel.selectedIndex != 0 )
+			{
+				var pointsInput = $( selId + "pts" );
+				var points = parseInt( pointsInput.value, 10 );
+
+				if( !isNaN( points ) )
+				{
+					var skillId = sel.value;
+
+					tlnSkills.push(	{
+						"id" : skillId,
+						"points" : points
+					} );
+
+					if( firstSkillOut )
+					{
+						firstSkillOut = false;
+					}
+					else
+					{
+						textOut += ", ";
+					}
+
+					textOut += Skills[ skillId ].name.T() + " " + ( points > 0 ? "+" + points : points );
+
+					pointsInput.style.borderColor = "";
+				}
+				else
+				{
+					pointsInput.style.borderColor = "red";
+				}
+			}
+		}
+
+		if( firstSkillOut )
+		{
+			textOut += "no skills";
+		}
+
+		addSkills( "tln", tlnSkills );
+
+		addDecorations( "tln" );
+	}
 
 	var result = skillTotals().sort( sortByPoints );
 
@@ -927,6 +1075,7 @@ function calc( force )
 	clearTable( skillTable );
 
 	var printedSkills = 0;
+	var firstActive = true;
 
 	for( var i = 0, m = result.length; i < m; i++ )
 	{
@@ -942,9 +1091,25 @@ function calc( force )
 		var name = row.insertCell( 0 );
 		name.innerHTML = skill.name;
 
-		if( skill.points < 0 && skill.name != NoSkill )
+		if( skill.name != NoSkill )
 		{
-			name.className = "neg";
+			if( firstActive )
+			{
+				textOut += "\n\nSkills: ";
+
+				firstActive = false;
+			}
+			else
+			{
+				textOut += ", ";
+			}
+
+			textOut += skill.name;
+
+			if( skill.points < 0 )
+			{
+				name.className = "neg";
+			}
 		}
 
 		row.insertCell( 1 ).innerHTML = Skills[ skill.id ].name.T();
@@ -972,6 +1137,8 @@ function calc( force )
 		cell.colSpan = "10";
 		cell.innerHTML = "You have no skills. Are you a gunner?"; // :)
 	}
+
+	textOut += "\nhttp://" + BaseSetUrl + "/" + setUrl;
 
 
 	// defense/resistances
@@ -1040,6 +1207,9 @@ function calc( force )
 		link.href = "/" + BaseUrl + "builder/" + setUrl;
 		$( "setUrlSpan" ).innerHTML = setUrl;
 	}
+
+
+	$( "textOut" ).value = textOut;
 }
 
 
@@ -1089,7 +1259,7 @@ function getSetUrl()
 		{
 			var points = parseInt( $( selId + "pts" ).value, 10 );
 
-			if( points != 0 )
+			if( !isNaN( points ) && points != 0 )
 			{
 				out += "_" + numToShort( selSkill.value ) + "=" + numToShort( points );
 			}
