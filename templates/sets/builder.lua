@@ -179,4 +179,4 @@ Dragon Res: <span id="dragonRes"></span>
 
 <h3>Easy Copy pasta</h3>
 
-<textarea id="textOut" rows="10"></textarea>
+<textarea id="textOut" rows="10" readonly></textarea>
