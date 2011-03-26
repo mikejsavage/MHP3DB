@@ -1044,7 +1044,8 @@ function calc( force )
 						textOut += ", ";
 					}
 
-					textOut += Skills[ skillId ].name.T() + " " + ( points > 0 ? "+" + points : points );
+					// lua -> js correction...
+					textOut += Skills[ skillId - 1 ].name.T() + " " + ( points > 0 ? "+" + points : points );
 
 					pointsInput.style.borderColor = "";
 				}
