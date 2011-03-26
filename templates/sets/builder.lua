@@ -27,7 +27,7 @@ local MaxSlots = 3
 <script type="text/javascript">
 var SetUrl = {{ Get.set and ( "%q" ):format( Get.set ) or "false" }};
 var BaseUrl = "{{ BaseUrl }}";
-var BaseSetUrl = "{{ os.getenv( "SERVER_NAME" ) .. U( "sets" ) }}";
+var BaseSetUrl = "{{ os.getenv( "SERVER_NAME" ) .. U( "builder" ) }}";
 </script>
 
 <h3>Equipment</h3>
@@ -124,7 +124,7 @@ end
 
 
 Share your set:
-<a id="setUrl">http://{{ os.getenv( "SERVER_NAME" ) .. U( "sets" ) }}/<span id="setUrlSpan"></span></a>
+<a id="setUrl">http://{{ os.getenv( "SERVER_NAME" ) .. U( "builder" ) }}/<span id="setUrlSpan"></span></a>
 <span id="setEmpty">but not quite yet...</span>
 
 <br><small>(I wouldn't actually share it because the link may point to a different set when this page is updated)</small>
