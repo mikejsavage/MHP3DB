@@ -99,7 +99,7 @@ local function genIcon( img, name, startX )
 		end
 	end
 
-	outImg:save( OutputDir .. "/" .. name .. ".png" )
+	outImg:save( OutputDir .. "/" .. name:gsub( " ", "_" ) .. ".png" )
 	outImg:free()
 end
 
