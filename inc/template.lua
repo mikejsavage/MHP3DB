@@ -32,7 +32,8 @@ function compileTemplate( template, name )
 	-- chopped by the pattern
 	template = template .. "{}"
 
-	local code = {
+	local code =
+	{
 		"local output = { }",
 
 		-- this is so awful
