@@ -118,12 +118,20 @@ for file in lfs.dir( Dir ) do
 			numNames = numNames + 1
 		end )
 
-		local x = StartX - ( XRes + Padding ) * ( numNames - 1 )
+		local x, dx
+
+		if numNames % 2 == 0 then
+			x = StartX - math.ceil( ( XRes + Padding ) / 2 ) * ( numNames - 1 )
+			dx = XRes + Padding
+		else
+			x = StartX - ( XRes / 2 ) * ( numNames - 1 )
+			dx = XRes
+		end
 
 		for i, name in ipairs( names ) do
 			genIcon( img, name, x )
 
-			x = x + StartX + Padding
+			x = x + dx
 		end
 
 		img:free()
