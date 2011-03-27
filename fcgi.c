@@ -48,6 +48,11 @@ int main( int argc, char *argv[] )
 
 	( void ) luaL_dofile( L, "fcgi.lua" );
 
+	// put debug.traceback on the stack
+	lua_getglobal( L, "debug" );
+	lua_getfield( L, -1, "traceback" );
+	lua_remove( L, -2 );
+
 	while( FCGI_Accept() >= 0 )
 	{
 		// POST parsing
@@ -85,11 +90,11 @@ int main( int argc, char *argv[] )
 
 		lua_pushstring( L, postString );
 
-		if( lua_pcall( L, 1, 0, 0 ) )
+		if( lua_pcall( L, 1, 0, -3 ) )
 		{
 			printf( "ERR: %s\n", lua_tostring( L, -1 ) );
 
-			lua_pop( L, 1 );
+			lua_pop( L, 2 );
 		}
 
 		if( postString != NULL )
@@ -97,9 +102,9 @@ int main( int argc, char *argv[] )
 			free( postString );
 		}
 
-		// this sometimes fails when the script dies
-		// but idk why
-		assert( lua_gettop( L ) == 0 );
+		// assert == 1 as debug.traceback remains on
+		// the stack
+		assert( lua_gettop( L ) == 1 );
 	}
 
 	// this will get called when this is run as
