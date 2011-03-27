@@ -6,6 +6,10 @@ require( "inc.template" )
 require( "inc.utils" )
 
 local function parseQuery( str )
+	if not str then
+		return { }
+	end
+
 	local tokens = { }
 
 	str:gsub( "([^&]+)&?", function( token )
@@ -43,16 +47,8 @@ function FCGI_Accept( postString )
 	print( "Content-Type: text/html; charset=utf-8\r\n\r\n" )
 
 
-	Get = { }
-
-	local queryString = os.getenv( "QUERY_STRING" )
-
-	if queryString then
-		Get = parseQuery( queryString )
-	end
-
-	Post = postString and parseQuery( postString ) or { }
-
+	Get  = parseQuery( os.getenv( "QUERY_STRING" ) )
+	Post = parseQuery( postString )
 
 	IsLocalHost = os.getenv( "SERVER_NAME" ) == "localhost"
 	CurrentUrl = os.getenv( "REQUEST_URI" ):sub( BaseUrl:len() + 2 )
