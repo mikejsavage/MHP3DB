@@ -755,7 +755,7 @@ ThunderRes 1
 Desc
 Gigginox Scraps 2
 
-Rouage Anca
+Rouage Anca / Falmer Anca
 18
 -5 0 3 -1 1
 B
@@ -773,7 +773,7 @@ ThunderRes 1
 Desc
 Altaroth Scraps 2
 
-Rouage Cocusa
+Rouage Cocusa / Falmer Cocusa
 9
 -4 0 5 0 3
 G
@@ -1187,7 +1187,7 @@ Slam 1
 Desc
 Doboru Scraps 2
 
-Yamato Waistcoat
+Yamato Waistcoat / Solar Waistcoat
 26
 3 0 0 -3 -3
 B
@@ -1205,7 +1205,7 @@ FastCharge 2
 Desc
 JhenMhranScraps 2
 
-Courtier Waistcoat
+Courtier Waistcoat / Divine Waistcoat
 13
 5 1 1 -2 -2
 G
@@ -1848,6 +1848,42 @@ Sheathe 3
 Desc
 Ore Scraps+ 1
 
+Dianthus Skirt
+38
+0 0 0 0 0
+B
+R5
+O--
+Yukumo Wood+ 3
+Comrade Ticket 2
+Armord Beakfish 5
+Shellfish 5
+8800z
+Poison -2
+Wide Area 4
+Psychic 4
+Perception 1
+Desc
+Wood Scraps+ 2
+
+Bellflower Skirt
+20
+0 0 0 0 0
+G
+R5
+O--
+Yukumo Wood+ 3
+Comrade Ticket 2
+Armord Beakfish 5
+Shellfish 5
+8800z
+Poison -1
+Wide Area 5
+Psychic 2
+Perception 3
+Desc
+Wood Scraps+ 2
+
 Ludroth Tasset S
 38
 -4 2 -2 -2 1
@@ -2135,7 +2171,7 @@ Sheathe 2
 Desc
 Hapbkka Scraps+ 2
 
-Rouage Anca S
+Rouage Anca S / Falmer Anca S
 44
 -5 0 3 -1 1
 B
@@ -2153,7 +2189,7 @@ ThunderRes 3
 Desc
 Altarth Scraps+ 2
 
-Rouage Cocusa S
+Rouage Cocusa S / Falmer Cocusa S
 24
 -4 0 5 0 3
 G
@@ -3040,7 +3076,7 @@ Torso Up 0
 Desc
 Deviljho Scraps 2
 
-Hi Yamato Waistcoat
+Hi Yamato Waistcoat / Hi Solar Waistcoat
 59
 3 0 0 -3 -3
 B
@@ -3058,7 +3094,7 @@ FastCharge 3
 Desc
 JhenMhrnScraps+ 2
 
-Hi Courtier Waistcoat
+Hi Courtier Waistcoat / Hi Divine Waistcoat
 34
 5 1 1 -2 -2
 G
@@ -3392,4 +3428,36 @@ HearProtct 1
 Cold Res 2
 Eating -2
 Evade Dist 4
+Desc
+
+Street Belt
+47
+0 0 0 0 0
+B
+R7
+---
+Lily Proof 2
+Rathalos Tail 2
+Tigrex Tail 2
+Nargacuga Tail 2
+9000z
+Sense -4
+Attack 5
+Will Recov 4
+Desc
+
+Street Buckle
+26
+1 1 1 1 1
+G
+R7
+---
+Lily Proof 2
+Rathalos Tail 2
+Tigrex Tail 2
+Nargacuga Tail 2
+9000z
+Sense -4
+Attack 5
+Will Recov 4
 Desc

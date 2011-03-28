@@ -317,42 +317,6 @@ Defense 3
 Desc
 Aoashira Scraps 2
 
-Froggi Helm
-14
-2 -2 1 -4 0
-BG
-R2
-O--
-Regal Snout 1
-Grt Froggi Hide 2
-Froggi Scale 2
-Killer Beetle 2
-1350z
-Poison 2
-Stun -3
-Constitutn 2
-Perception 2
-Desc
-GrtFroggiScraps 2
-
-Froggi Cap
-7
-4 -1 2 -2 0
-BG
-R2
-O--
-Regal Snout 1
-Grt Froggi Hide 2
-Froggi Scale 2
-Killer Beetle 2
-1350z
-Poison 2
-Stun -1
-Constitutn 4
-Perception 4
-Desc
-GrtFroggiScraps 2
-
 Qurupeco Helm
 12
 2 -2 -1 -4 2
@@ -388,6 +352,42 @@ Eating -1
 Horn 2
 Desc
 Qurupeco Scraps 2
+
+Froggi Helm
+14
+2 -2 1 -4 0
+BG
+R2
+O--
+Regal Snout 1
+Grt Froggi Hide 2
+Froggi Scale 2
+Killer Beetle 2
+1350z
+Poison 2
+Stun -3
+Constitutn 2
+Perception 2
+Desc
+GrtFroggiScraps 2
+
+Froggi Cap
+7
+4 -1 2 -2 0
+BG
+R2
+O--
+Regal Snout 1
+Grt Froggi Hide 2
+Froggi Scale 2
+Killer Beetle 2
+1350z
+Poison 2
+Stun -1
+Constitutn 4
+Perception 4
+Desc
+GrtFroggiScraps 2
 
 Urukusu Helm
 14
@@ -779,7 +779,7 @@ ThunderRes 2
 Desc
 Gigginox Scraps 2
 
-Rouage Testa
+Rouage Testa / Falmer Testa
 18
 -5 0 3 -1 1
 BG
@@ -797,7 +797,7 @@ ThunderRes 3
 Desc
 Altaroth Scraps 2
 
-Rouage Caput
+Rouage Caput / Falmer Caput
 9
 -4 0 5 0 3
 BG
@@ -1283,7 +1283,7 @@ Gunnery 3
 Desc
 Ore Scraps 2
 
-Yamato Helm
+Yamato Helm / Solar Headband
 26
 3 0 0 -3 -3
 BG
@@ -1301,7 +1301,7 @@ FastCharge 1
 Desc
 JhenMhranScraps 2
 
-Courtier Hat
+Courtier Hat / Divine Headband
 13
 5 1 1 -2 -2
 BG
@@ -1951,6 +1951,42 @@ Sheathe 4
 Desc
 Ore Scraps+ 1
 
+Dianthus Hat
+38
+0 0 0 0 0
+BG
+R5
+O--
+Yukumo Wood+ 3
+Gagua Feather 5
+Rustshard 3
+Pepipo Pumpkin 5
+8800z
+Poison -3
+Wide Area 2
+Psychic 2
+Perception 2
+Desc
+Wood Scraps+ 2
+
+Bellflower Hat
+20
+0 0 0 0 0
+BG
+R5
+O--
+Yukumo Wood+ 3
+Gagua Feather 5
+Rustshard 3
+Pepipo Pumpkin 5
+8800z
+Poison -2
+Wide Area 5
+Psychic 4
+Perception 2
+Desc
+Wood Scraps+ 2
+
 Bullfango Mask S
 38
 -2 -1 -4 1 2
@@ -2327,7 +2363,7 @@ Sheathe 3
 Desc
 Hapbkka Scraps+ 2
 
-Rouage Testa S
+Rouage Testa S / Falmer Testa S
 44
 -5 0 3 -1 1
 BG
@@ -2345,7 +2381,7 @@ ThunderRes 3
 Desc
 Altarth Scraps+ 2
 
-Rouage Caput S
+Rouage Caput S / Falmer Caput S
 24
 -4 0 5 0 3
 BG
@@ -2819,6 +2855,34 @@ OOO
 Carbalite Ore 3
 Lightcrystal 2
 8800z
+Desc
+
+Wyvern's Eye Patch
+28
+2 2 2 2 2
+BG
+R5
+---
+Alatreon Plate 3
+Akantor Scale 3
+Ukanlos Scale 3
+8800z
+Psychic 15
+Desc
+
+Oakley Shades
+28
+2 2 2 2 2
+BG
+R7
+---
+BlkCrystalTckt 3
+Deviljho Scale 3
+MajesticBlkHorn 1
+Commendation G 1
+9000z
+Wide Area 20
+Desc
 
 Uragaan Helm S
 50
@@ -3286,7 +3350,7 @@ Eating 4
 Desc
 Deviljho Scraps 2
 
-Hi Yamato Helm
+Hi Yamato Helm / Hi Solar Headband
 59
 3 0 0 -3 -3
 BG
@@ -3304,7 +3368,7 @@ FastCharge 1
 Desc
 JhenMhrnScraps+ 2
 
-Hi Courtier Hat
+Hi Courtier Hat / Hi Divine Headband
 34
 5 1 1 -2 -2
 BG
@@ -3606,16 +3670,6 @@ Psychic 4
 Loading 3
 Desc
 
-Sword Saint Piercing
-10
-0 0 0 0 0
-BG
-R7
----
-0z
-Fencing 10
-Desc
-
 Uniqlo Knit Hat
 47
 -3 1 0 4 0
@@ -3648,4 +3702,24 @@ HearProtct 3
 Cold Res 3
 Eating -2
 Evade Dist 3
+Desc
+
+Sword Saint Piercing
+10
+0 0 0 0 0
+BG
+R7
+---
+0z
+Fencing 10
+Desc
+
+Barrage Piercing
+10
+0 0 0 0 0
+BG
+R7
+---
+0z
+Loading 15
 Desc

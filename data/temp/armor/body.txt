@@ -797,7 +797,7 @@ ThunderRes 1
 Desc
 Gigginox Scraps 2
 
-Rouage Petto
+Rouage Petto / Falmer Petto
 18
 -5 0 3 -1 1
 B
@@ -815,7 +815,7 @@ ThunderRes 1
 Desc
 Altaroth Scraps 2
 
-Pouage Pectus
+Pouage Pectus / Falmer Pectus
 9
 -4 0 5 0 3
 G
@@ -1277,7 +1277,7 @@ Gunnery 7
 Desc
 Ore Scraps 2
 
-Yamato Plate
+Yamato Plate / Solar Plate
 26
 3 0 0 -3 -3
 B
@@ -1295,7 +1295,7 @@ FastCharge 1
 Desc
 JhenMhranScraps 2
 
-Courtier Plate
+Courtier Plate / Divine Plate
 13
 5 1 1 -2 -2
 G
@@ -1966,6 +1966,42 @@ Sheathe 1
 Desc
 Ore Scraps+ 1
 
+Dianthus Blouse
+38
+0 0 0 0 0
+B
+R5
+---
+Yukumo Wood+ 3
+HotSpringTicket 3
+Lrg Ancnt Shard 1
+Bell Cricket 3
+8800z
+Poison -2
+Wide Area 5
+Psychic 3
+Perception 1
+Desc
+Wood Scraps+ 2
+
+Bellflower Blouse
+20
+0 0 0 0 0
+G
+R5
+---
+Yukumo Wood+ 3
+HotSpringTicket 3
+Lrg Ancnt Shard 1
+Bell Cricket 3
+8800z
+Poison -3
+Wide Area 3
+Psychic 3
+Perception 2
+Desc
+Wood Scraps+ 2
+
 Ludroth Mail S
 38
 -4 2 -2 -2 1
@@ -2254,7 +2290,7 @@ Sheathe 1
 Desc
 Hapbkka Scraps+ 2
 
-Rouage Petto S
+Rouage Petto S / Falmer Petto S
 44
 -5 0 3 -1 1
 B
@@ -2272,7 +2308,7 @@ ThunderRes 1
 Desc
 Altarth Scraps+ 2
 
-Pouage Pectus S
+Pouage Pectus S / Falmer Pectus S
 24
 -4 0 5 0 3
 G
@@ -3249,7 +3285,7 @@ Eating 3
 Desc
 Deviljho Scraps 2
 
-Hi Yamato Plate
+Hi Yamato Plate / Hi Solar Plate
 59
 3 0 0 -3 -3
 B
@@ -3267,7 +3303,7 @@ FastCharge 2
 Desc
 JhenMhrnScraps+ 2
 
-Hi Courtier Plate
+Hi Courtier Plate / Hi Divine Plate
 34
 5 1 1 -2 -2
 G
@@ -3495,6 +3531,34 @@ Commendation 1
 Adversity 10
 Desc
 
+Hunter Jacket
+47
+2 2 2 2 2
+B
+R7
+---
+Wht Raven Quill 3
+Barioth Pelt+ 4
+High Qualty Plt 6
+Commendation G 1
+9000z
+Adversity 10
+Desc
+
+Hunter Rider
+26
+2 2 2 2 2
+G
+R7
+---
+Wht Raven Quill 3
+Barioth Pelt+ 4
+High Qualty Plt 6
+Commendation G 1
+9000z
+Adversity 10
+Desc
+
 Jolly Roger Suit
 26
 -3 -3 -3 -3 -3
@@ -3629,4 +3693,62 @@ HearProtct 2
 Cold Res 2
 Eating -2
 Evade Dist 3
+Desc
+
+Street Jacket
+47
+0 0 0 0 0
+B
+R7
+---
+Lily Proof 2
+Rathalos Carpce 4
+Tigrex Carapace 4
+BlackNargaPelt+ 4
+9000z
+Sense -3
+Attack 5
+Will Recov 3
+Desc
+
+Street Jumper
+26
+1 1 1 1 1
+G
+R7
+---
+Lily Proof 2
+Rathalos Carpce 4
+Tigrex Carapace 4
+BlackNargaPelt+ 4
+9000z
+Sense -3
+Attack 5
+Will Recov 3
+Desc
+
+MH Jacket
+47
+3 3 3 3 3
+B
+R7
+---
+MH Club Form 3
+Deviljho Hide 2
+Vibrant Down 2
+9000z
+Huntsman 10
+Desc
+
+MH Jersey
+26
+4 4 4 4 4
+G
+R7
+---
+MH Club Form 3
+Deviljho Hide 2
+Vibrant Down 2
+9000z
+Huntsman 10
 Desc

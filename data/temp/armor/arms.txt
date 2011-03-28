@@ -752,7 +752,7 @@ ThunderRes 2
 Desc
 Gigginox Scraps 2
 
-Rouage Mano
+Rouage Mano / Falmer Mano
 18
 -5 0 3 -1 1
 B
@@ -770,7 +770,7 @@ ThunderRes 1
 Desc
 Altaroth Scraps 2
 
-Rouage Brasso
+Rouage Brasso / Falmer Brasso
 9
 -4 0 5 0 3
 G
@@ -1218,7 +1218,7 @@ Slam 3
 Desc
 Doboru Scraps 2
 
-Yamato Bracers
+Yamato Bracers / Solar Bracers
 26
 3 0 0 -3 -3
 B
@@ -1236,7 +1236,7 @@ FastCharge 3
 Desc
 JhenMhranScraps 2
 
-Courtier Bracers
+Courtier Bracers / Divine Bracers
 13
 5 1 1 -2 -2
 G
@@ -1843,6 +1843,42 @@ Sheathe 1
 Desc
 Ore Scraps+ 1
 
+Dianthus Sleeves
+38
+0 0 0 0 0
+B
+R5
+O--
+Yukumo Wood+ 3
+Drink Ticket 1
+Thn Ancnt Shard 1
+Cutlassfish 3
+8800z
+Poison -1
+Wide Area 2
+Psychic 4
+Perception 4
+Desc
+Wood Scraps+ 2
+
+Bellflower Sleeves
+20
+0 0 0 0 0
+G
+R5
+O--
+Yukumo Wood+ 3
+Drink Ticket 1
+Thn Ancnt Shard 1
+Cutlassfish 3
+8800z
+Poison -2
+Wide Area 4
+Psychic 4
+Perception 1
+Desc
+Wood Scraps+ 2
+
 Ludroth Vambraces S
 38
 -4 2 -2 -2 1
@@ -2131,7 +2167,7 @@ Sheathe 1
 Desc
 Hapbkka Scraps+ 2
 
-Rouage Mano S
+Rouage Mano S / Falmer Mano S
 44
 -5 0 3 -1 1
 B
@@ -2149,7 +2185,7 @@ ThunderRes 3
 Desc
 Altarth Scraps+ 2
 
-Rouage Brasso S
+Rouage Brasso S / Falmer Brasso S
 24
 -4 0 5 0 3
 G
@@ -2363,6 +2399,40 @@ Reload Spd 3
 PelletS Up 2
 PelletSAdd 2
 Whim -2
+Desc
+Ore Scraps+ 2
+
+Atea Vambraces S
+47
+0 -4 -4 2 3
+B
+R5
+O--
+Thn Ancnt Shard 3
+Rustshard 5
+Union Ore 3
+Dragonite Ore 9
+8800z
+Fencing 5
+Sharpener -5
+Guard Up 1
+Desc
+Ore Scraps+ 2
+
+Atea Guards S
+26
+0 -2 -2 4 5
+G
+R5
+O--
+Thn Ancnt Shard 3
+Rustshard 5
+Union Ore 3
+Dragonite Ore 9
+8800z
+Reload Spd -5
+Recoil 5
+Rapid Fire 1
 Desc
 Ore Scraps+ 2
 
@@ -3060,7 +3130,7 @@ Eating 4
 Desc
 Deviljho Scraps 2
 
-Hi Yamato Bracers
+Hi Yamato Bracers / Hi Solar Bracers
 59
 3 0 0 -3 -3
 B
@@ -3078,7 +3148,7 @@ FastCharge 2
 Desc
 JhenMhrnScraps+ 2
 
-Hi Courtier Bracers
+Hi Courtier Bracers / Hi Divine Bracers
 34
 5 1 1 -2 -2
 G

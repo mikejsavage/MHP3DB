@@ -4,12 +4,24 @@ R4
 100z
 
 1 Book of Combos 2
+book gray
+R4
+200z
 
 2 Book of Combos 3
+book white
+R4
+500z
 
 3 Book of Combos 4
+book white
+R5
+1000z
 
 4 Book of Combos 5
+book yellow
+R5
+1500z
 
 5 Organizer Guide
 book blue
@@ -62,8 +74,14 @@ R2
 6z
 
 15 Power Juice
+drink yellow
+R2
+29z
 
 16 Mega Juice
+drink yellow
+R3
+205z
 
 17 Demondrug
 drink red
@@ -76,6 +94,9 @@ R5
 283z
 
 19 Power Pill
+sac red
+R1
+280z
 
 20 Armorskin
 drink orange
@@ -83,8 +104,14 @@ R4
 58z
 
 21 Mega Armorskin
+drink orange
+R5
+269z
 
 22 Armor Pill
+sac orange
+R1
+260z
 
 23 Cool Drink
 drink white
@@ -122,8 +149,14 @@ R5
 345z
 
 30 Lifecrystals
+sac white
+R3
+59z
 
 31 Lifepowder
+sac white
+R4
+315z
 
 32 Catalyst
 sac gray
@@ -131,14 +164,29 @@ R2
 48z
 
 33 Tranquilizer
+drink red
+R4
+15z
 
 34 Power Charm
+sac red
+R5
+3600z
 
 35 Powertalon
+claw red
+R5
+6840z
 
 36 Armor Charm
+sac orange
+R5
+2400z
 
 37 Armortalon
+claw orange
+R5
+5040z
 
 38 Raw Meat
 meat red
@@ -173,12 +221,28 @@ R2
 48z
 
 44 Burnt Meat
+meat gray
+edible
+R1
+1z
 
 45 Cold Meat
+meat cyan
+edible
+R1
+30z
 
 46 Hot Meat
+meat red
+edible
+R1
+25z
 
 47 Rare Fish
+fish cyan
+edible
+R1
+2z
 
 48 Gourmet Fish
 fish orange
@@ -187,6 +251,10 @@ R2
 40z
 
 49 Burnt Fish
+fish gray
+edible
+R1
+1z
 
 50 Hotspring Egg
 egg white
@@ -195,6 +263,9 @@ R2
 1z
 
 51 Boomerang
+boomerang yellow
+R4
+15z
 
 52 Throwing Knife
 knife white
@@ -202,6 +273,9 @@ supply
 R1
 
 53 Poison Thrw Knf
+knife purple
+supply
+R1
 
 54 SleepingThrwKnf
 knife cyan
@@ -209,8 +283,14 @@ supply
 R1
 
 55 ParalyzeThrwKnf
+knife yellow
+supply
+R1
 
 56 Tranq Thrw Knf
+knife red
+supply
+R4
 
 57 Bomb Material
 ball white
@@ -223,6 +303,9 @@ R1
 10z
 
 59 Flash Bomb
+bomb yellow
+R2
+57z
 
 60 Sonic Bomb
 ball gray
@@ -245,6 +328,9 @@ R2
 80z
 
 64 Smoke Bomb
+smoke white
+R2
+44z
 
 65 Poison Bomb
 smoke purple
@@ -277,6 +363,9 @@ R3
 20z
 
 71 Pitfall Trap
+trap purple
+R3
+160z
 
 72 Shock Trap
 trap purple
@@ -309,6 +398,9 @@ R4
 52z
 
 78 Lg Barrel-Bomb+
+bomb red
+R4
+80z
 
 79 Bounce Bomb
 bomb blue
@@ -316,10 +408,19 @@ R2
 18z
 
 80 Catnip Bomb
+bomb pink
+R4
+12z
 
 81 Jump Barrel Bmb
+bomb blue
+R5
+80z
 
 82 Polytan Bomb
+bomb yellow
+R5
+50z
 
 83 Old Pickaxe
 pickaxe gray
@@ -332,8 +433,14 @@ R1
 16z
 
 85 Mega Pickaxe
+pickaxe yellow
+R3
+24z
 
 86 Old Bugnet
+bugnet gray
+R1
+3z
 
 87 Bugnet
 bugnet white
@@ -341,8 +448,14 @@ R1
 8z
 
 88 Mega Bugnet
+bugnet yellow
+R3
+12z
 
 89 BBQ Spit
+bbq red
+R4
+56z
 
 90 Whetstone
 whetstone yellow
@@ -362,16 +475,32 @@ R2
 93 Normal S Lv1
 shot white
 R1
+0z
 
 94 Normal S Lv2
+shot white
+R1
+1z
 
 95 Normal S Lv3
+shot white
+R2
+2z
 
 96 Pierce S Lv1
+shot white
+R2
+1z
 
 97 Pierce S Lv2
+shot white
+R2
+2z
 
 98 Pierce S Lv3
+shot white
+R3
+3z
 
 99 Pellet S Lv1
 shot white
@@ -381,48 +510,112 @@ R2
 100 Pellet S Lv2
 shot white
 R2
+2z
 
 101 Pellet S Lv3
+shot white
+R3
+2z
 
 102 Crag S Lv1
+shot white
+R3
+4z
 
 103 Crag S Lv2
+shot white
+R3
+7z
 
 104 Crag S Lv3
+shot white
+R3
+7z
 
 105 Clust S Lv1
+shot white
+R2
+4z
 
 106 Clust S Lv2
+shot white
+R3
+6z
 
 107 Clust S Lv3
+shot white
+R3
+10z
 
 108 Flaming S
+shot red
+R3
+2z
 
 109 Water S
+shot cyan
+R3
+2z
 
 110 Thunder S
+shot yellow
+R3
+2z
 
 111 Freeze S
+shot blue
+R3
+2z
 
 112 Dragon S
+shot red
+R5
+10z
 
 113 Cutter S
+shot white
+R3
+3z
 
 114 Poison S Lv1
+shot purple
+R2
+2z
 
 115 Poison S Lv2
+shot purple
+R3
+2z
 
 116 Para S Lv1
+shot yellow
+R3
+3z
 
 117 Para S Lv2
+shot yellow
+R4
+5z
 
 118 Sleep S Lv1
+shot cyan
+R3
+2z
 
 119 Sleep S Lv2
+shot cyan
+R4
+2z
 
 120 Fatigue S Lv1
+shot blue
+R2
+3z
 
 121 Fatigue S Lv2
+shot blue
+R3
+5z
 
 122 Recov S Lv1
 shot green
@@ -430,10 +623,19 @@ R1
 2z
 
 123 Recov S Lv2
+shot green
+R2
+2z
 
 124 Demon S
+shot red
+R3
+9z
 
 125 Armor S
+shot orange
+R3
+7z
 
 126 Tranq S
 shot red
@@ -441,26 +643,47 @@ R3
 4z
 
 127 Paint S
+shot pink
+R1
+6z
 
 129 Empty Bottle
 bottle white
 R1
 
 130 Power Coating
+coating red
+R2
+3z
 
 131 Razor Coating
+coating white
+R3
+3z
 
 132 Poison Coating
 coating purple
 R3
 
 133 ParalysisCoatng
+coating yellow
+R3
+3z
 
 134 Sleep Coating
+coating cyan
+R3
+2z
 
 135 Fatigue Coating
+coating blue
+R3
+2z
 
 136 Paint Coating
+coating pink
+R1
+6z
 
 137 Worm
 bait gray
@@ -473,8 +696,14 @@ R3
 3z
 
 139 Goldenfish Bait
+bait yellow
+R4
+30z
 
 140 Blast Bait
+bait red
+R2
+7z
 
 141 Bountiful Bait
 bait green
@@ -482,6 +711,9 @@ R2
 4z
 
 142 Binoculars
+binoculars white
+R1
+5z
 
 143 Garbage
 garbage gray
@@ -489,14 +721,29 @@ R1
 1z
 
 144 Flute
+flute yellow
+R2
+48z
 
 145 Health Flute
+flute green
+R4
+550z
 
 146 Antidote Flute
+flute blue
+R4
+300z
 
 147 Demon Flute
+flute red
+R5
+1080z
 
 148 Armor Flute
+flute orange
+R5
+986z
 
 149 Honey
 webbing orange
@@ -597,6 +844,9 @@ R3
 40z
 
 168 Mega Parashroom
+mushroom yellow
+R4
+40z
 
 169 Pickaxe Shroom
 mushroom gray
@@ -2752,8 +3002,14 @@ R6
 360z
 
 599 Thn Ancnt Shard
+garbage gray
+R6
+360z
 
 600 Lng Ancnt Shard
+garbage gray
+R6
+360z
 
 601 Steel Egg
 egg gray
@@ -2761,8 +3017,14 @@ R4
 1000z
 
 602 Silver Egg
+egg white
+R4
+10000z
 
 603 Golden Egg
+egg yellow
+R4
+20000z
 
 604 Commendation
 ticket orange
@@ -2820,6 +3082,9 @@ R4
 0z
 
 615 VegElderTcktGld
+ticket yellow
+R4
+0z
 
 616 SecretSwordBook
 book cyan
@@ -2842,8 +3107,14 @@ R5
 0z
 
 620 Champion Proof
+ticket red
+R5
+0z
 
 621 Lily Proof
+ticket gray
+R5
+0z
 
 622 Ancnt Mnstr Fng
 ticket cyan
@@ -2856,6 +3127,9 @@ R5
 0z
 
 624 Detective Proof
+ticket blue
+R5
+0z
 
 625 Leek Contract
 ticket pink
@@ -2863,10 +3137,19 @@ R5
 0z
 
 626 Magazine Ticket
+ticket orange
+R5
+0z
 
 627 Treasure J Tckt
+ticket red
+R5
+0z
 
 628 Pirate J Ticket
+ticket red
+R5
+0z
 
 629 Legend J Ticket
 ticket red
@@ -2894,8 +3177,14 @@ R5
 0z
 
 634 Famitsu P Tckt
+ticket white
+R5
+0z
 
 635 Famitsu Coin
+coin yellow
+R5
+0z
 
 636 Dengeki Ticket
 ticket yellow
@@ -2903,6 +3192,9 @@ R5
 0z
 
 637 Dengeki Ticket+
+ticket yellow
+R5
+0z
 
 638 Big Boss Title
 ticket moss
@@ -2910,6 +3202,9 @@ R5
 0z
 
 639 Secret Card
+traptool brown
+R5
+0z
 
 640 Uniqlo Ticket
 ticket red
@@ -2917,16 +3212,34 @@ R5
 0z
 
 641 BlkCrystalTckt
+ticket gray
+R5
+0z
 
 642 Wht Raven Quill
+ticket white
+R5
+0z
 
 643 DragnScaleTckt
+ticket gray
+R5
+0z
 
 644 Mafumofu Ticket
+ticket white
+R5
+0z
 
 645 Felyne Diary
+book orange
+R5
+0z
 
 646 MH Club Form
+ticket pink
+R5
+0z
 
 647 Lynian Info
 book white
@@ -3130,6 +3443,8 @@ R2
 50pts
 
 687 Select Mushroom
+mushroom white
+R4
 
 688 Ripe Mushroom
 mushroom green
@@ -3137,6 +3452,8 @@ R3
 100pts
 
 689 Great Mushroom
+mushroom orange
+R3
 
 690 Special Bamboo
 bamboo yellow
@@ -3144,16 +3461,28 @@ R2
 60pts
 
 691 Aurora Plant
+herb white
+R3
 
 692 Volcano Pepper
+seed brown
+R3
 
 693 Goldenfish
+fish yellow
+R3
 
 694 Silverfish
+fish white
+R5
 
 695 Brocadefish
+fish pink
+R3
 
 696 Ryl Brocadefish
+fish red
+R5
 
 697 Royal Rhino
 bug cyan
@@ -3225,12 +3554,21 @@ R4
 1250pts
 
 711 Cannon S
+shot gray
+supply
+R5
 
 712 Wyvern Egg
+egg white
+R5
+1200pts
+carry
 
 713 Herbivore Egg
 egg orange
 R5
+1000pts
+carry
 
 714 Gagua Egg
 egg cyan
@@ -3252,10 +3590,18 @@ R5
 717 Powderstone
 ore red
 R5
+3000pts
+carry
 
 718 Gagua Dung
+dung orange
+R2
+25z
 
 719 White Liver
+meat white
+R2
+100z
 
 720 Zuwaru Blubber
 drink green
@@ -3273,10 +3619,19 @@ R3
 100pts
 
 723 Perfect Acorn
+seed green
+R3
+30pts
 
 724 Clean Gut
+sac yellow
+R2
+150pts
 
 725 Sparkling Gut
+sac orange
+R3
+450pts
 
 726 Giggi Essence
 drink purple
@@ -3306,6 +3661,7 @@ R3
 731 Pelagus Sobs
 shell cyan
 R5
+1800pts
 
 732 Wood Scraps
 scraps yellow
@@ -3313,8 +3669,14 @@ R4
 10z
 
 733 Wood Scraps+
+scraps yellow
+R6
+30z
 
 734 Pumpkin Scraps
+scraps orange
+R4
+10z
 
 735 Ore Scraps
 scraps gray
@@ -3332,30 +3694,69 @@ R4
 10z
 
 738 Bone Scraps+
+scraps yellow
+R6
+30z
 
 739 Pelt Scraps
+scraps orange
+R4
+10z
 
 740 Pelt Scraps+
+scraps orange
+R6
+30z
 
 741 Rhnoplos Scraps
+scraps gray
+R4
+10z
 
 742 Rhnplos Scraps+
+scraps gray
+R6
+30z
 
 743 Zuwaru Scraps
+scraps green
+R4
+10z
 
 744 Zuwaru Scraps+
+scraps green
+R6
+30z
 
 745 Bnahabra Scraps
+scraps yellow
+R4
+10z
 
 746 Bnahbra Scraps+
+scraps yellow
+R6
+30z
 
 747 Altaroth Scraps
+scraps gray
+R4
+10z
 
 748 Altarth Scraps+
+scraps gray
+R6
+30z
 
 749 Bulldrme Scraps
+scraps white
+R4
+50z
 
 750 Bulldrm Scraps+
+scraps white
+R6
+150z
 
 751 GrtJaggi Scraps
 scraps purple
@@ -3363,10 +3764,19 @@ R4
 50z
 
 752 GrtJaggiScraps+
+scraps purple
+R6
+150z
 
 753 GrtFroggiScraps
+scraps orange
+R4
+50z
 
 754 GrtFrggiScraps+
+scraps orange
+R6
+150z
 
 755 GrtBaggiScraps
 scraps cyan
@@ -3374,10 +3784,19 @@ R4
 50z
 
 756 GrtBaggiScraps+
+scraps cyan
+R6
+150z
 
 757 Aoashira Scraps
+scraps blue
+R4
+50z
 
 758 AoashiraScraps+
+scraps blue
+R6
+150z
 
 759 Urukusu Scraps
 scraps white
@@ -3405,6 +3824,9 @@ R4
 100z
 
 764 Qurupco Scraps+
+scraps lime
+R6
+300z
 
 765 Ludroth Scraps
 scraps yellow
@@ -3417,12 +3839,24 @@ R6
 300z
 
 767 Barroth Scraps
+scraps orange
+R4
+100z
 
 768 Barroth Scraps+
+scraps orange
+R6
+300z
 
 769 Haprbkka Scraps
+scraps brown
+R4
+100z
 
 770 Hapbkka Scraps+
+scraps brown
+R6
+300z
 
 771 Gigginox Scraps
 scraps red
@@ -3460,8 +3894,14 @@ R4
 150z
 
 778 Jinouga Scraps+
+scraps teal
+R6
+450z
 
 779 Narga Scraps
+scraps gray
+R4
+150z
 
 780 Narga Scraps+
 scraps gray
@@ -3479,20 +3919,44 @@ R6
 450z
 
 783 Uragaan Scraps
+scraps yellow
+R4
+150z
 
 784 Uragaan Scraps+
+scraps yellow
+R6
+450z
 
 785 Doboru Scraps
+scraps green
+R4
+150z
 
 786 Doboru Scraps+
+scraps green
+R6
+450z
 
 787 Tigrex Scraps
+scraps yellow
+R4
+150z
 
 788 Tigrex Scraps+
+scraps yellow
+R6
+450z
 
 789 Diablos Scraps
+scraps brown
+R4
+150z
 
 790 Diablos Scraps+
+scraps brown
+R6
+450z
 
 791 Agnaktor Scraps
 scraps red
@@ -3505,18 +3969,39 @@ R6
 450z
 
 793 JhenMhranScraps
+scraps blue
+R4
+200z
 
 794 JhenMhrnScraps+
+scraps blue
+R6
+600z
 
 795 Deviljho Scraps
+scraps moss
+R6
+600z
 
 796 Akantor Scraps
+scraps gray
+R6
+600z
 
 797 Ukanlos Scraps
+scraps white
+R6
+600z
 
 798 Alatreon Scraps
+scraps purple
+R6
+600z
 
 799 Amatsu Scraps
+scraps white
+R6
+600z
 
 800 Courage Scraps
 

@@ -740,7 +740,7 @@ ThunderRes 3
 Desc
 Gigginox Scraps 2
 
-Rouage Gamba
+Rouage Gamba / Falmer Gamba
 18
 -5 0 3 -1 1
 B
@@ -758,7 +758,7 @@ ThunderRes 3
 Desc
 Altaroth Scraps 2
 
-Rouage Femur
+Rouage Femur / Falmer Femur
 9
 -4 0 5 0 3
 G
@@ -1206,7 +1206,7 @@ Slam 2
 Desc
 Doboru Scraps 2
 
-Yamato Greaves
+Yamato Greaves / Solar Pants
 26
 3 0 0 -3 -3
 B
@@ -1224,7 +1224,7 @@ FastCharge 3
 Desc
 JhenMhranScraps 2
 
-Courtier Greaves
+Courtier Greaves / Divine Pants
 13
 5 1 1 -2 -2
 G
@@ -1628,6 +1628,36 @@ Desc
 Ore Scraps 1
 Bone Scraps+ 1
 
+Grove Greaves S
+35
+-3 1 -1 -2 1
+B
+R4
+---
+Aoashira Arm+ 2
+Aoashira Pelt+ 4
+Bnahabra Shell 3
+King Scarab 2
+7200z
+Torso Up 0
+Desc
+AoashiraScraps+ 2
+
+Grove Leggings S
+18
+-2 2 0 -1 3
+G
+R4
+---
+Aoashira Arm+ 2
+Aoashira Pelt+ 4
+Bnahabra Shell 3
+King Scarab 2
+7200z
+Torso Up 0
+Desc
+AoashiraScraps+ 2
+
 Froggi Greaves S
 38
 2 -2 1 -4 0
@@ -1808,6 +1838,42 @@ Sheathe 2
 Desc
 Ore Scraps+ 1
 
+Dianthus Shoes
+38
+0 0 0 0 0
+B
+R5
+O--
+Yukumo Wood+ 3
+Yukumo Ticket 2
+Lng Ancnt Shard 1
+Swallowtail 5
+8800z
+Poison -2
+Wide Area 5
+Psychic 2
+Perception 2
+Desc
+Wood Scraps+ 2
+
+Bellflower Shoes
+20
+0 0 0 0 0
+G
+R5
+O--
+Yukumo Wood+ 3
+Yukumo Ticket 2
+Lng Ancnt Shard 1
+Swallowtail 5
+8800z
+Poison -3
+Wide Area 4
+Psychic 2
+Perception 2
+Desc
+Wood Scraps+ 2
+
 Ludroth Greaves S
 38
 -4 2 -2 -2 1
@@ -1843,36 +1909,6 @@ Thundr Atk -2
 KO 4
 Desc
 Ludroth Scraps+ 2
-
-Grove Greaves S
-35
--3 1 -1 -2 1
-B
-R4
----
-Aoashira Arm+ 2
-Aoashira Pelt+ 4
-Bnahabra Shell 3
-King Scarab 2
-7200z
-Torso Up 0
-Desc
-AoashiraScraps+ 2
-
-Grove Leggings S
-18
--2 2 0 -1 3
-G
-R4
----
-Aoashira Arm+ 2
-Aoashira Pelt+ 4
-Bnahabra Shell 3
-King Scarab 2
-7200z
-Torso Up 0
-Desc
-AoashiraScraps+ 2
 
 Ludroth Greaves U
 41
@@ -2120,7 +2156,7 @@ Sheathe 4
 Desc
 Hapbkka Scraps+ 2
 
-Rouage Gamba S
+Rouage Gamba S / Falmer Gamba S
 44
 -5 0 3 -1 1
 B
@@ -2138,7 +2174,7 @@ HearProtct 1
 Desc
 Altarth Scraps+ 2
 
-Rouage Femur S
+Rouage Femur S / Falmer Femur S
 24
 -4 0 5 0 3
 G
@@ -2352,6 +2388,40 @@ PelletS Up 2
 PierceSAdd 2
 PelletSAdd 3
 Whim -2
+Desc
+Ore Scraps+ 2
+
+Atea Greaves S
+47
+0 -4 -4 2 3
+B
+R5
+O--
+Lng Ancnt Shard 3
+Rustshard 5
+Carbalite Ore 6
+Dragonite Ore 9
+8800z
+Fencing 4
+Sharpener -2
+Guard Up 5
+Desc
+Ore Scraps+ 2
+
+Atea Leggings S
+26
+0 -2 -2 4 5
+G
+R5
+O--
+Lng Ancnt Shard 3
+Rustshard 5
+Carbalite Ore 6
+Dragonite Ore 9
+8800z
+Reload Spd -2
+Recoil 5
+Rapid Fire 4
 Desc
 Ore Scraps+ 2
 
@@ -3049,7 +3119,7 @@ Eating 2
 Desc
 Deviljho Scraps 2
 
-Hi Yamato Greaves
+Hi Yamato Greaves / Hi Solar Pants
 59
 3 0 0 -3 -3
 B
@@ -3067,7 +3137,7 @@ FastCharge 2
 Desc
 JhenMhrnScraps+ 2
 
-Hi Courtier Greaves
+Hi Courtier Greaves / Hi Divine Pants
 34
 5 1 1 -2 -2
 G
@@ -3267,6 +3337,34 @@ Water Atk 1
 Desc
 Amatsu Scraps 2
 
+Black Leather Pants
+47
+2 2 2 2 2
+B
+R7
+O--
+DragnScaleTckt 3
+Black Narga Plt 4
+Warm Pelt 6
+Commendation 1
+9000z
+Potential 11
+Desc
+
+Black Leather Leggings
+26
+2 2 2 2 2
+G
+R7
+O--
+DragnScaleTckt 3
+Black Narga Plt 4
+Warm Pelt 6
+Commendation 1
+9000z
+Potential 11
+Desc
+
 Jolly Roger Pants
 26
 -3 -3 -3 -3 -3
@@ -3401,4 +3499,36 @@ HearProtct 2
 Cold Res 2
 Eating -2
 Evade Dist 3
+Desc
+
+Street Jeans
+47
+0 0 0 0 0
+B
+R7
+O--
+Lily Proof 2
+Rathalos Scale+ 5
+Tigrex Scale+ 5
+Narga Scale+ 6
+9000z
+Sense -3
+Attack 5
+Will Recov 3
+Desc
+
+Street Denims
+26
+1 1 1 1 1
+G
+R7
+O--
+Lily Proof 2
+Rathalos Scale+ 5
+Tigrex Scale+ 5
+Narga Scale+ 6
+9000z
+Sense -3
+Attack 5
+Will Recov 3
 Desc

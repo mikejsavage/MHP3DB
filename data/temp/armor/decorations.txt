@@ -185,6 +185,16 @@ or
 Battlefield Jwl 1
 Tigrex Carapace 2
 
+Earplug Jwl
+gray 6
+3
+HearProtct 4
+Protection -2
+450z
+LapisLazuli Jwl 1
+Blk Tigrex Fang 2
+Uncanny Hide+ 2
+
 WindpressJwl
 gray 4
 1
@@ -466,6 +476,16 @@ or
 Battlefield Jwl 1
 Dviljho Skl Shl 1
 
+Ammo Box Jwl
+gray 6
+3
+Loading 4
+Reload Spd -2
+450z
+LapisLazuli Jwl 1
+Jhen Mhran Arm+ 1
+Wyvern Stone 1
+
 FastChargJwl
 orange 4
 1
@@ -585,6 +605,15 @@ Rec Level -1
 200z
 Akito Jewel 1
 Call to Arms 1
+
+AdversityJwl
+red 5
+2
+Adversity 3
+Rec Level -1
+375z
+Battlefield Jwl 1
+Wht Raven Quill 1
 
 BombrdierJwl
 red 4
