@@ -516,7 +516,7 @@ Desc
 Barroth Scraps 2
 
 Barroth Cap
-6
+8
 2 2 4 -1 0
 BG
 R2
@@ -744,7 +744,7 @@ Desc
 Haprbkka Scraps 2
 
 Nebula Helm
-17
+18
 -4 0 3 3 -2
 BG
 R2
@@ -1071,7 +1071,7 @@ Uragaan Scraps 2
 
 Uragaan Cap
 11
-4 -4 2 -1 -1
+4 -4 2 -1 -2
 BG
 R3
 O--
@@ -1095,7 +1095,7 @@ R3
 OO-
 Jinouga Horn 1
 Jinouga Pelt 2
-Jinouga Shell 3
+Jinouga Shell 2
 Bulldrome Hide 3
 3350z
 Sense -2
@@ -1113,7 +1113,7 @@ R3
 OO-
 Jinouga Horn 1
 Jinouga Pelt 2
-Jinouga Shell 3
+Jinouga Shell 2
 Bulldrome Hide 3
 3350z
 Sense -2
@@ -1465,7 +1465,7 @@ Ore Scraps 1
 
 Bone Helm S
 30
-2 0 -1 2 0
+2 0 -2 2 0
 BG
 R4
 O--
@@ -1581,7 +1581,7 @@ Bnahabra Carpce 2
 Bnahabra Shell 3
 Bnahabra Stingr 5
 King Scarab 2
-8900z
+6900z
 Paralysis 2
 Fencing 3
 Status 1
@@ -1599,7 +1599,7 @@ Bnahabra Carpce 2
 Bnahabra Shell 3
 Bnahabra Stingr 5
 King Scarab 2
-8900z
+6900z
 Paralysis 3
 Reload Spd 4
 Status 3
@@ -1674,7 +1674,7 @@ Zuwaru Scraps+ 4
 Gagua Mask S
 32
 -4 -2 -1 2 1
-BG
+B
 R5
 ---
 Yukumo Wood+ 2
@@ -1688,7 +1688,7 @@ Pelt Scraps+ 4
 Gagua Head S
 18
 -2 -1 0 4 2
-BG
+G
 R5
 ---
 Yukumo Wood+ 2
@@ -2164,7 +2164,7 @@ Ranguro Scraps+ 2
 Jaggi Mask S
 41
 0 0 0 0 0
-BG
+B
 R5
 ---
 Grt Jaggi Hide+ 3
@@ -2179,7 +2179,7 @@ GrtJaggiScraps+ 4
 Jaggi Head S
 22
 1 1 1 1 1
-BG
+G
 R5
 ---
 Grt Jaggi Hide+ 3
@@ -2194,7 +2194,7 @@ GrtJaggiScraps+ 4
 Skull Face S
 41
 2 -2 -2 -2 1
-BG
+B
 R5
 ---
 Firecell Stone 5
@@ -2209,7 +2209,7 @@ Courage Scraps+ 1
 Skull Head S
 22
 4 -1 -1 -1 2
-BG
+G
 R5
 ---
 Firecell Stone 5

@@ -1076,10 +1076,10 @@ Jinouga Scraps 2
 
 Diablos Vambraces
 24
-2 -1 -1 3 -1
+2 -1 -1 -3 -1
 B
 R3
-O--
+OO-
 Blos Fang 3
 Diablos Marrow 1
 Twisted Horn 2
@@ -1097,7 +1097,7 @@ Diablos Guards
 4 0 0 -2 0
 G
 R3
-O--
+OO-
 Blos Fang 3
 Diablos Marrow 1
 Twisted Horn 2
@@ -1580,7 +1580,7 @@ Jaggi Vambraces S
 B
 R4
 OO-
-Grt Jaggi Claw 4
+Grt Jaggi Claw+ 4
 Regal Frill 1
 BrdWyvern Stone 1
 Pelagicite Ore 2
@@ -1598,7 +1598,7 @@ Jaggi Guards S
 G
 R4
 OO-
-Grt Jaggi Claw 4
+Grt Jaggi Claw+ 4
 Regal Frill 1
 BrdWyvern Stone 1
 Pelagicite Ore 2
@@ -2808,7 +2808,7 @@ Diablos Scraps+ 2
 
 Diablos Vambraces U
 56
-2 -1 -1 3 -1
+2 -1 -1 -3 -1
 B
 R6
 O--
