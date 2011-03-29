@@ -1279,7 +1279,7 @@ Pelt Scraps 2
 
 Leather Coat S
 14
-0 0 0 0 -2
+0 0 0 0 2
 G
 R4
 O--

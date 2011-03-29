@@ -132,6 +132,9 @@ local Actions =
 			return "materialsEndCount", { count = store.count }
 		end
 
+		-- some items have random trailing digits...
+		part = part:gsub( "%s*%-?%d+$", "" )
+
 		local idx = materialIdx( piece.create, itemID( part ) )
 
 		e( idx )
@@ -179,6 +182,9 @@ local Actions =
 
 			return "skillsEndCount", { count = store.count }
 		end
+
+		-- some skills have random trailing digits...
+		part = part:gsub( "%s*%-?%d+$", "" )
 
 		local idx = skillIdx( piece.skills, skillID( part ) )
 

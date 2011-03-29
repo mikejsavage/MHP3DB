@@ -1465,7 +1465,7 @@ Ore Scraps 1
 
 Bone Helm S
 30
-2 0 -2 2 0
+2 0 -1 -2 0
 BG
 R4
 O--
@@ -2506,7 +2506,7 @@ JhenMhranScraps 1
 Scout Veil
 26
 0 0 0 0 0
-G
+BG
 R5
 OOO
 Amatsu Shell 6
