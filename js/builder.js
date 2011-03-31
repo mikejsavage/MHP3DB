@@ -706,10 +706,12 @@ function isTlnValid()
 
 function checkTln()
 {
+	/* TODO: complete charm tables and uncomment this
 	if( Ready )
 	{
 		setVis( $( "tlnInvalid" ), !isTlnValid() );
 	}
+	*/
 }
 
 function tlnSkillChanged( skill )
