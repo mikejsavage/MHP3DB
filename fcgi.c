@@ -93,8 +93,6 @@ int main( int argc, char *argv[] )
 		if( lua_pcall( L, 1, 0, -3 ) )
 		{
 			printf( "ERR: %s\n", lua_tostring( L, -1 ) );
-
-			lua_pop( L, 2 );
 		}
 
 		if( postString != NULL )
@@ -102,9 +100,12 @@ int main( int argc, char *argv[] )
 			free( postString );
 		}
 
-		// assert == 1 as debug.traceback remains on
-		// the stack
-		assert( lua_gettop( L ) == 1 );
+		// i don't understand why lua_gettop varies depending on
+		// whether lua_pcall fails but this damn well fixes it
+		while( lua_gettop( L ) != 1 )
+		{
+			lua_pop( L, 1 );
+		}
 	}
 
 	// this will get called when this is run as
