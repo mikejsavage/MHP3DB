@@ -19,7 +19,7 @@ A <select id="bg"><option>blademaster</option><option>gunner</option></select> s
 			for skillId, skill in ipairs( Skills ) do
 				if skill.bounds then
 					for _, bound in ipairs( skill.bounds ) do
-						printf( "<option value='%d %d'>%s</option>", skillId, bound.points, T( bound.name ) )
+						printf( [[<option value="%d %d">%s</option>]], skillId, bound.points, T( bound.name ) )
 					end
 				end
 			end

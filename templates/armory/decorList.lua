@@ -1,7 +1,5 @@
 {%
-local listItem = loadTemplate( "armory/decorListItem" )
-
-UsedNames = { }
+	local listItem = loadTemplate( "armory/decorListItem" )
 %}
 
 <h1>{{ icon( "equipment/jwl" ) }} Decorations</h1>
@@ -18,9 +16,9 @@ UsedNames = { }
 
 	<tbody>
 		{%
-		for _, decor in ipairs( Decorations ) do
-			print( listItem( { decor = decor } ) )
-		end
+			for _, decor in ipairs( Decorations ) do
+				print( listItem( { decor = decor } ) )
+			end
 		%}
 	</tbody>
 </table>

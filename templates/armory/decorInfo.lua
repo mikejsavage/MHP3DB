@@ -9,15 +9,15 @@
 	<h3>Skill points</h3>
 
 		{%
-		for _, skill in ipairs( decor.skills ) do
-			local form =
-				skill.points > 0 and
-					"%s: +%d"
-				or
-					"%s: <span class=\"neg\">%d</span>"
+			for _, skill in ipairs( decor.skills ) do
+				local form =
+					skill.points > 0 and
+						"%s: +%d"
+					or
+						"%s: <span class=\"neg\">%d</span>"
 
-			printf( form .. "<br>", T( Skills[ skill.id ].name ), skill.points )
-		end
+				printf( form .. "<br>", T( Skills[ skill.id ].name ), skill.points )
+			end
 		%}
 
 
@@ -27,13 +27,13 @@
 	Price: {{ decor.price }}z
 
 	{%
-	local firstCreate = true
+		local firstCreate = true
 
-	for _, create in ipairs( decor.create ) do
-		printf( "<h3>%s</h3>", firstCreate and "Materials" or "Alternatively..." )
+		for _, create in ipairs( decor.create ) do
+			printf( "<h3>%s</h3>", firstCreate and "Materials" or "Alternatively..." )
 
-		print( itemCounts( { materials = create } ) )
+			print( itemCounts( { materials = create } ) )
 
-		firstCreate = false
-	end
+			firstCreate = false
+		end
 	%}

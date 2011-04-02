@@ -1,17 +1,12 @@
 <tr>
 	<td>{{ icon( "items/jewel", decor.color ) }}</td>
-	<td class="name"><a href="{%
-		-- this is stupid slow - perhaps we could preprocess this?
 
-		if UsedNames[ decor.name.hgg ] then
-			print( U( ( "armory/jwl/%s_%d" ):format( urlFromName( decor.name ), decor.slots ) ) )
-		else
-			print( U( "armory/jwl/" .. urlFromName( decor.name ) ) )
+	<td class="name"><a href="{{
+		U( ( "armory/jwl/%s_%d" ):format( urlFromName( decor.name ), decor.slots ) )
+	}}" class="rare{{ decor.rarity }}">{{ T( decor.name ) }}</a></td>
 
-			UsedNames[ decor.name.hgg ] = true
-		end
-	%}" class="rare{{ decor.rarity }}">{{ T( decor.name ) }}</a></td>
 	<td>{{ ( "O" ):rep( decor.slots ) }}</td>
+
 	<td>{%
 		local first = true
 
