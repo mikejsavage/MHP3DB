@@ -73,27 +73,6 @@ function urlFromName( name )
 	return name[ DefaultLanguage ]:urlEscape()
 end
 
--- returns a HTML element of type elem, with class class and contents contents
--- TODO: this function is garbage get rid of it
-function E( elem, class, contents )
-	local classStr
-	local contentStr
-
-	if class then
-		classStr = ( " class=\"%s\"" ):format( class )
-	else
-		classStr = ""
-	end
-
-	if contents then
-		contentStr = ( ">%s</%s" ):format( contents, elem )
-	else
-		contentStr = ""
-	end
-
-	return ( "<%s%s%s>" ):format( elem, classStr, contentStr )
-end
-
 -- returns a rewrite safe url
 function U( url )
 	return ( "/%s%s" ):format( BaseUrl, url )
