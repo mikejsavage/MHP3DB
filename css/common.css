@@ -411,6 +411,10 @@ img.icon {
 	text-align: right;
 }
 
+.data .object {
+	text-align: left;
+}
+
 /* sharpness bars */
 
 .sharpness {
