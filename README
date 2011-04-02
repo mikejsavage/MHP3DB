@@ -78,11 +78,11 @@ url.rewrite-once += (
 
         "weapons/?$" => "weapons.lua",
         "weapons/([a-z]+)/?$" => "weapons.lua?class=$1",
-        "weapons/([a-z]+)/([A-Za-z0-9_+]+)/?$" => "weapons.lua?class=$1&name=$2",
+        "weapons/([a-z]+)/([A-Za-z0-9_+-]+)/?$" => "weapons.lua?class=$1&name=$2",
 
         "armory/?$" => "armory.lua",
         "armory/([a-z]+)/?$" => "armory.lua?class=$1",
-        "armory/([a-z]+)/([A-Za-z0-9_+]+)/?$" => "armory.lua?class=$1&name=$2",
+        "armory/([a-z]+)/([A-Za-z0-9_+-]+)/?$" => "armory.lua?class=$1&name=$2",
 
         "items/?$" => "items.lua",
         "items/([A-Za-z0-9_+-]+)/?$" => "items.lua?item=$1",
