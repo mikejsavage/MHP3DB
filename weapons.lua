@@ -26,26 +26,6 @@ function getTATP( weapon )
 	return math.round( weapon.attack * ( 1 + 0.0025 * weapon.affinity ) * sharpMult( weapon ) )
 end
 
-local function classFromShort( short )
-	for _, class in ipairs( Weapons ) do
-		if class.short == short then
-			return class
-		end
-	end
-
-	return nil
-end
-
-local function gunClassFromShort( short )
-	for _, class in ipairs( Guns ) do
-		if class.short == short then
-			return class
-		end
-	end
-
-	return nil
-end
-
 local function weaponFromName( class, name )
 	for _, weapon in ipairs( class.weapons ) do
 		-- convert every weapon name to a url and not the other
@@ -64,7 +44,7 @@ end
 local state = "nothing"
 
 if Get.class then
-	local class = classFromShort( Get.class )
+	local class = weaponClassFromShort( Get.class )
 
 	if class then
 		sharpness = loadTemplate( "weapons/sharpness" )

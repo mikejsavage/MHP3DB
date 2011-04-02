@@ -9,16 +9,6 @@ itemNameURL = loadTemplate( "itemNameURL" )
 
 
 
-local function classFromShort( short )
-	for _, class in ipairs( Armors ) do
-		if class.short == short then
-			return class
-		end
-	end
-
-	return nil
-end
-
 local function pieceFromName( class, name )
 	for _, piece in ipairs( class.pieces ) do
 		-- convert every piece name to a url and not the other
@@ -34,9 +24,9 @@ end
 
 local function decorFromName( name )
 	for _, decor in ipairs( Decorations ) do
-		local urlName = urlFromName( decor.name )
+		local urlName = urlFromName( decor.name ) .. "_" .. decor.slots
 
-		if urlName == name or urlName .. "_" .. decor.slots == name then
+		if urlName == name then
 			return decor
 		end
 	end
@@ -74,7 +64,7 @@ if Get.class then
 			state = "decorations"
 		end
 	else
-		local class = classFromShort( Get.class )
+		local class = armorClassFromShort( Get.class )
 
 		if class then
 			state = "class"

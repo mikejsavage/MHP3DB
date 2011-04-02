@@ -112,6 +112,40 @@ function T( translation )
 	return translation[ DefaultLanguage ]
 end
 
+-- classFromShort functions
+-- all return the class object where class.short == short
+-- or nil if nothing matched
+
+function weaponClassFromShort( short )
+	for _, class in ipairs( Weapons ) do
+		if class.short == short then
+			return class
+		end
+	end
+
+	return nil
+end
+
+function gunClassFromShort( short )
+	for _, class in ipairs( Guns ) do
+		if class.short == short then
+			return class
+		end
+	end
+
+	return nil
+end
+
+function armorClassFromShort( short )
+	for _, class in ipairs( Armors ) do
+		if class.short == short then
+			return class
+		end
+	end
+
+	return nil
+end
+
 -- templates and helper functions
 -- TODO: perhaps the templates module should be
 --       rewritten so this is done automatically
