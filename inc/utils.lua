@@ -22,20 +22,9 @@ function data( file )
 	return json.decode( contents ), contents
 end
 
+-- returns true if self starts with needle
 function string.startsWith( self, needle )
 	return self:sub( 1, needle:len() ) == needle
-end
-
--- table deep copy
--- be careful!
-function table.copy( arr )
-	local new = { }
-
-	for key, val in pairs( arr ) do
-		new[ key ] = type( val ) == "table" and table.copy( val ) or val
-	end
-
-	return new
 end
 
 -- returns random element from array
@@ -43,12 +32,12 @@ function table.random( arr )
 	return arr[ math.random( table.getn( arr ) ) ]
 end
 
+-- round to nearest whole number
 function math.round( num )
 	return math.floor( num + 0.5 )
 end
 
 -- inserts thousand separators into num
--- function commANNIHILATE( num )
 function commas( num )
 	local out = ""
 
@@ -60,8 +49,6 @@ function commas( num )
 
 	return ( "%s%s" ):format( num, out )
 end
-
--- name/url conversion
 
 -- strips bad chars from a string for use in URLs
 function string.urlEscape( self )
@@ -115,7 +102,8 @@ function jsd( ... )
 	return out
 end
 
--- returns translation
+-- returns translated string from translation object
+-- based on Language, defaults to DefaultLanguage
 function T( translation )
 	if translation[ Language ] then
 		return translation[ Language ]
