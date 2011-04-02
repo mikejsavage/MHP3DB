@@ -312,7 +312,7 @@ img.icon {
 	text-align: center;
 }
 
-.grid.monsters div, .grid.armor div {
+.grid.monsters div {
 	width: 125px;
 }
 
@@ -334,6 +334,12 @@ img.icon {
 
 .grid.weapons div {
 	width: 175px;
+}
+
+/* armors grid */
+
+.grid.armor div {
+	width: 125px;
 }
 
 /* generic data tables */

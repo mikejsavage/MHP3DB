@@ -105,13 +105,13 @@ if Get.class then
 end
 
 if state == "nothing" then
-	grid      = loadTemplate( "armory/grid" )
-	gridCell  = loadTemplate( "armory/gridCell" )
+	grid      = loadTemplate( "equipGrid" )
+	gridCell  = loadTemplate( "equipGridCell" )
 	gridDecor = loadTemplate( "armory/gridDecor" )
 
 	header( "Armory" )
 
-	print( grid( { classes = Armors, cols = 5 } ) )
+	print( grid( { classes = Armors, class = "armor", page = "armory", cols = 5 } ) )
 
 	print( gridDecor() )
 end

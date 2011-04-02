@@ -1,5 +1,5 @@
 <td>
-	<a href="{{ U( "armory/" .. class.short ) }}">
+	<a href="{{ U( page .. "/" .. class.short ) }}">
 		<div>
 			{{ icon( "equipment/" .. class.short ) }}
 			{{ T( class.name ) }}

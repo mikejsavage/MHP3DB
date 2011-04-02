@@ -124,20 +124,20 @@ if Get.class then
 end
 
 if state == "nothing" then
-	grid     = loadTemplate( "weapons/grid" )
-	gridCell = loadTemplate( "weapons/gridCell" )
+	grid     = loadTemplate( "equipGrid" )
+	gridCell = loadTemplate( "equipGridCell" )
 
 	header( "Weapons" )
 
 
 	print( "<h1>Real weapons</h1>" )
 
-	print( grid( { classes = Weapons, cols = 3 } ) )
+	print( grid( { classes = Weapons, class = "weapons", page = "weapons", cols = 3 } ) )
 
 
 	print( "<h1>Sissy weapons</h1>" ) -- :)
 
-	print( grid( { classes = Guns, cols = 3 } ) )
+	print( grid( { classes = Guns, class = "weapons", page = "weapons", cols = 3 } ) )
 end
 
 footer()

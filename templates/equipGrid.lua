@@ -1,4 +1,4 @@
-<table class="grid eq armor">
+<table class="grid eq {{ class }}">
 	{%
 	local col = 0
 
@@ -7,7 +7,7 @@
 			print( "<tr>" )
 		end
 
-		print( gridCell( { class = class } ) )
+		print( gridCell( { class = class, page = page } ) )
 
 		col = col + 1
 
