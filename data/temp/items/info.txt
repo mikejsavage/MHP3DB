@@ -4004,6 +4004,9 @@ R6
 600z
 
 800 Courage Scraps
+scraps orange
+R4
+0z
 
 801 Courage Scraps+
 

@@ -155,8 +155,9 @@ local Actions =
 {
 	init = function( line, weapon )
 		assert( Names[ line ], "bad name: " .. line )
+		assert( Names[ line ] ~= "used", "duplicate weapon: " .. line )
 
-		Names[ line ] = nil
+		Names[ line ] = "used"
 
 		weapon.name = { hgg = line }
 

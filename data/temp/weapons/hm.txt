@@ -8,6 +8,7 @@ Desc
 
 	Yukumo Mallet
 	70
+	Reg 1 1000z
 	R1
 	0%
 	---
@@ -20,19 +21,404 @@ Desc
 	Wood Scraps 1
 	Ore Scraps 1
 
-War Hammer
-80
-R1
-0%
-O--
-1500z
-Machalite Ore 2
-Iron Ore 6
-Desc
-Ore Scraps 2
+		Yukumo Mallet+
+		90
+		Reg 2 1000z
+		R1
+		0%
+		---
+		Machalite Ore 5
+		Yukumo Wood 5
+		Bullfango Pelt 2
+		1000z
+		Desc
+		Wood Scraps 1
+		Ore Scraps 1
+
+			Yukumo Impact
+			130
+			R2
+			0%
+			---
+			Lightcrystal 1
+			Machalite Ore 10
+			Yukumo Wood 10
+			Barroth Shell 3
+			2000z
+			Desc
+			Wood Scraps 1
+			Ore Scraps 2
+
+			Bound Binder
+			110
+			Reg 2 2000z
+			Paralyze 15
+			R2
+			0%
+			---
+			Rangurotora Shl 4
+			Rangrtora Belly 2
+			Paralysis Sac 2
+			Machalite Ore 4
+			4000z
+			Desc
+			Ranguro Scraps 2
+
+				Bound Binder+
+				130
+				Paralyze 22
+				R4
+				0%
+				---
+				Rangurotora Clw 3
+				Sharp Fang 10
+				Rhenoplos Crpce 4
+				Stout Bone 4
+				30000z
+				Desc
+				Ranguro Scraps 1
+				Bone Scraps+ 1
+
+		War Hammer
+		80
+		Reg 2 1000z
+		R1
+		0%
+		O--
+		Iron Ore 3
+		Earth Crystal 2
+		1000z
+		Machalite Ore 2
+		Iron Ore 6
+		Desc
+		Ore Scraps 2
+
+			War Hammer+
+			100
+			Reg 2 1000z
+			R1
+			0%
+			O--
+			Bealite Ore 5
+			Machalite Ore 2
+			1900z
+			Desc
+			Ore Scraps 2
+
+				War Mace
+				140
+				Reg 2 2000z
+				R2
+				0%
+				O--
+				Isisium Ore 4
+				Bealite Ore 6
+				Earth Crystal 8
+				4900z
+				Desc
+				Ore Scraps 2
+
+					Iron Striker
+					150
+					Reg 2 2000z
+					R2
+					0%
+					O--
+					Dragonite Ore 4
+					Bealite Ore 10
+					Iron Ore 12
+					5900z
+					Dragonite Ore 6
+					Machalite Ore 6
+					Iron Ore 20
+					Desc
+					Ore Scraps 2
+
+						Iron Striker+
+						160
+						Pls 2 3000z
+						R3
+						0%
+						OO-
+						Magma Shard 4
+						Machalite Ore 8
+						Iron Ore 15
+						7000z
+						Desc
+						Ore Scraps 2
+
+							Iron Impact
+							200
+							Pls 2 5000z
+							R4
+							0%
+							OOO
+							Gracium Ore 4
+							Carbalite Ore 20
+							Iron Ore 50
+							50000z
+							Desc
+							Ore Scraps+ 1
+							Ore Scraps 1
+
+							Iron Fiend
+							190
+							Pls 2 5000z
+							R4
+							0%
+							OO-
+							Carbalite Ore 5
+							Dragonite Ore 8
+							Iron Ore 30
+							20000z
+							Carbalite Ore 8
+							Bealite Ore 20
+							Iron Ore 50
+							Desc
+							Ore Scraps+ 2
+
+								Iron Devil
+								210
+								Hrd 2 7000z
+								R5
+								0%
+								OO-
+								Union Ore 10
+								Uragaan Jaw 2
+								Monster Broth 5
+								35000z
+								Desc
+								Ore Scraps+ 2
+
+						Gunhammer
+						150
+						Pls 2 3000z
+						Fire 22
+						R3
+						10%
+						O--
+						Magma Shard 5
+						Fire Stone 3
+						Dragonite Ore 10
+						7000z
+						Desc
+						Ore Scraps 2
+
+							Gunhammer+
+							170
+							Fire 25
+							R4
+							10%
+							O--
+							Fire Stone 5
+							Carbalite Ore 8
+							Monster Broth 5
+							FireWyvrnMarrow 2
+							45000z
+							Desc
+							Ore Scraps+ 2
+
+					Striped Striker
+					170
+					Pls 2 3000z
+					R3
+					-25%
+					---
+					Tigrex Claw 3
+					Tigrex Scale 5
+					Tigrex Shell 5
+					20000z
+					Desc
+					Tigrex Scraps 2
+
+						Tigrex Hammer
+						220
+						Hrd 2 8000z
+						R6
+						-20%
+						---
+						Tigrex Claw+ 3
+						Tigrex Scale+ 5
+						Tigrex Jaw 1
+						70000z
+						Desc
+						Tigrex Scraps+ 2
+
+				Frozen Core
+				120
+				Reg 2 2000z
+				Ice 20
+				R2
+				0%
+				---
+				Isisium Ore 3
+				Ice Crystal 10
+				Machalite Ore 10
+				4900z
+				Desc
+				Ore Scraps 2
+
+					Frozen Core+
+					150
+					Pls 2 3000z
+					Ice 27
+					R3
+					0%
+					O--
+					Isisium Ore 8
+					Dragonite Ore 10
+					Frost Sac 3
+					8200z
+					Desc
+					Ore Scraps 2
+
+						Cocytos
+						190
+						Ice 40
+						R5
+						0%
+						OO-
+						Gracium Ore 10
+						Carbalite Ore 10
+						Frozen Mucus 5
+						50000z
+						Desc
+						Ore Scraps+ 2
+
+		Flint Warclub
+		110
+		Reg 2 2000z
+		Fire 25
+		R2
+		0%
+		---
+		Qurupeco Feathr 3
+		Flintstone 1
+		Lg Monster Bone 2
+		4000z
+		Qurupeco Feathr 4
+		Flintstone 2
+		Med Mnster Bone 5
+		Desc
+		Qurupeco Scraps 2
+
+			Flint Warclub+
+			130
+			Pls 2 3000z
+			Fire 30
+			R3
+			0%
+			OO-
+			Vibrant Down 2
+			Flintstone 3
+			Flame Sac 1
+			7000z
+			Desc
+			Qurupeco Scraps 2
+
+				Qurupeco Flint
+				180
+				Hrd 2 7000z
+				Fire 32
+				R5
+				0%
+				OO-
+				Qurupeco Wing 3
+				Qurupeco Scale+ 5
+				Shrp Mnster Bne 2
+				55000z
+				Desc
+				Qurupco Scraps+ 1
+				Bone Scraps+ 1
+
+					Electro Peco
+					180
+					Hrd 2 7000z
+					Thunder 30
+					R5
+					5%
+					OO-
+					Red Qurpeco Wng 3
+					Piezo Crystal 3
+					Vibrant Down 8
+					35000z
+					Desc
+					Qurupco Scraps+ 2
+
+						Lightning Peco
+						190
+						Hrd 2 8000z
+						Thunder 40
+						R6
+						10%
+						OO-
+						Red Qurpeco Wng 2
+						Red Qurpeco Scl 5
+						LightningCarpce 3
+						55000z
+						Desc
+						Qurupco Scraps+ 2
+
+			Red Beater
+			140
+			Pls 2 3000z
+			Fire 38
+			R3
+			0%
+			O--
+			Rathalos Shell 6
+			FireWyvrnMarrow 1
+			Fire Stone 3
+			20000z
+			Desc
+			Rathalos Scraps 2
+
+				Huracan Crusher
+				180
+				Hrd 2 8000z
+				Fire 42
+				R6
+				0%
+				O--
+				Rathalos Carpce 6
+				FireWyvrnBrnStm 1
+				Firecell Stone 3
+				65000z
+				Desc
+				Rthalos Scraps+ 1
+				Ore Scraps+ 1
+
+					Prometheus Crusher
+					200
+					Hvy 1 10000z
+					Fire 44
+					R7
+					0%
+					O--
+					Slvr Rthlos Cpc 6
+					FireWyvernFluid 3
+					Rathalos Ruby 1
+					75000z
+					Desc
+					Rthalos Scraps+ 2
+
+			Bud Hammer
+			130
+			Poison 25
+			R3
+			0%
+			---
+			Qurupeco Feathr 8
+			Rathian Spike 2
+			Poison Sac 3
+			4900z
+			Desc
+			Qurupeco Scraps 1
+			Rathian Scraps 1
 
 Bone Hammer
 90
+Reg 2 1000z
 R1
 0%
 O--
@@ -42,88 +428,310 @@ Mystery Bone 2
 Desc
 Bone Scraps 2
 
-Bull Hammer
-100
-R1
-0%
----
-2850z
-Bullfango Pelt 4
-Bullfango Head 1
-Bone 5
-Carpenterbug 2
-Desc
-Pelt Scraps 2
+	Bone Hammer+
+	100
+	Reg 2 1000z
+	R1
+	0%
+	OO-
+	Med Mnster Bone 3
+	Giant Bone 3
+	Rhenoplos Shell 1
+	1900z
+	Desc
+	Bone Scraps 2
 
-Iron Striker
-150
-R2
-0%
-O--
-8850z
-Dragonite Ore 6
-Machalite Ore 6
-Iron Ore 20
-Desc
-Ore Scraps 2
+		Dragger Hammer
+		140
+		Reg 2 2000z
+		Def 8
+		R2
+		-10%
+		---
+		Barroth Skl Shl 2
+		Barroth Shell 3
+		Rhnplos Skl Shl 2
+		4900z
+		Barroth Skl Shl 3
+		Barroth Spine 3
+		Barroth Tail 1
+		Rhenoplos Shell 5
+		Desc
+		Barroth Scraps 2
 
-Ludroth Bore Hammer
-120
-Water 21
-R2
-0%
----
-7350z
-RyalLudrthCrest 3
-Spongy Hide 5
-Ludroth Hide 8
-Lg Monster Bone 3
-Desc
-Ludroth Scraps 2
+			Dragger Hammer+
+			160
+			Def 16
+			R3
+			-10%
+			O--
+			Barroth Spine 3
+			Uragaan Shield 2
+			Mega Demondrug 1
+			7000z
+			Desc
+			Barroth Scraps 2
 
-Flint Warclub
-110
-Fire 25
-R2
-0%
----
-6000z
-Qurupeco Feathr 4
-Flintstone 2
-Med Mnster Bone 5
-Desc
-Qurupeco Scraps 2
+			Brass Knuckle
+			170
+			Reg 2 2000z
+			Def 5
+			R2
+			0%
+			---
+			Uragaan Shell 2
+			Uragaan Scale 5
+			Monster Bone+ 4
+			8200z
+			Uragaan Jaw 1
+			Uragaan Shell 5
+			Magma Shard 4
+			Lg Monster Bone 5
+			Desc
+			Uragaan Scraps 2
 
-Dragger Hammer
-140
-Def 8
-R2
--10%
----
-7350z
-Barroth Skl Shl 3
-Barroth Spine 3
-Barroth Tail 1
-Rhenoplos Shell 5
-Desc
-Barroth Scraps 2
+				Grand Knuckle
+				190
+				Pls 2 3000z
+				Def 10
+				R3
+				0%
+				---
+				Uragaan Jaw 2
+				Uragaan Shield 2
+				Doboru Kelp 4
+				Uragaan Marrow 1
+				15000z
+				Desc
+				Uragaan Scraps 2
 
-Brass Knuckle
-170
-Def 5
-R2
-0%
----
-12300z
-Uragaan Jaw 1
-Uragaan Shell 5
-Magma Shard 4
-Lg Monster Bone 5
-Desc
-Uragaan Scraps 2
+					Gigas Quake
+					240
+					Hrd 2 8000z
+					Def 20
+					R6
+					0%
+					---
+					Uragaan Carapce 2
+					Uragaan Scale+ 5
+					Uragaan Jaw 3
+					Uragaan Ruby 1
+					65000z
+					Desc
+					Uragaan Scraps+ 2
+
+					Molten Knuckle
+					210
+					Fire 18
+					Def 15
+					R5
+					0%
+					---
+					SteelUragaanJaw 1
+					SteelUragaanCpc 2
+					SteelUragaanScl 2
+					Shrp Mnster Bne 4
+					45000z
+					Desc
+					Uragaan Scraps+ 1
+					Bone Scraps+ 1
+
+	Ludroth Bone Mace
+	110
+	Reg 2 1000z
+	R1
+	0%
+	---
+	Juvenile Sponge 2
+	Ludroth Hide 2
+	Carpenterbug 2
+	Sm Monster Bone 3
+	2500z
+	Desc
+	Bone Scraps 2
+
+		Ludroth Bore Hammer
+		120
+		Reg 2 2000z
+		Water 21
+		R2
+		0%
+		---
+		Spongy Hide 3
+		RoyalLudrothClw 2
+		RyalLudrthCrest 1
+		Aqua Sac 2
+		4900z
+		RyalLudrthCrest 3
+		Spongy Hide 5
+		Ludroth Hide 8
+		Lg Monster Bone 3
+		Desc
+		Ludroth Scraps 2
+
+			Ludroth Bore Hammer+
+			150
+			Pls 2 3000z
+			Water 32
+			R3
+			0%
+			O--
+			Spongy Hide 3
+			Diablos Spine 4
+			Brilliant Fluid 4
+			15000z
+			Desc
+			Ludroth Scraps 2
+			
+				Vodyanoi
+				180
+				Hrd 2 7000z
+				Water 40
+				R5
+				0%
+				OO-
+				Spongy Hide+ 5
+				RoyalLudrthClw+ 4
+				Exquisite Crest 2
+				Hydro Sac 5
+				55000z
+				Desc
+				Ludroth Scraps+ 2
+
+			Jupiter's Globe
+			180
+			R3
+			0%
+			---
+			Doboru Tail 3
+			Doboru Horn 2
+			Mossy Carapace 2
+			Doboru Tailbone 1
+			20000z
+			Desc
+			Doboru Scraps 2
+
+	Bull Hammer
+	100
+	Reg 2 1000z
+	R1
+	0%
+	---
+	Bullfango Pelt 2
+	Brd Wyvern Fang 5
+	Bone 3
+	1900z
+	Bullfango Pelt 4
+	Bullfango Head 1
+	Bone 5
+	Carpenterbug 2
+	Desc
+	Pelt Scraps 2
+
+		Bull Head Hammer
+		120
+		Reg 2 2000z
+		R2
+		0%
+		O--
+		Bulldrome Hide 2
+		Bulldrome Tusk 2
+		Giant Bone 1
+		Unknown Skull 1
+		3200z
+		Desc
+		Bulldrme Scraps 2
+
+			Bull Tusk Hammer
+			150
+			Reg 2 2000z
+			R2
+			0%
+			OO-
+			Bulldrome Hide 5
+			Bulldrome Tusk 4
+			Bullfango Head 2
+			Hercudrome 5
+			5900z
+			Desc
+			Bulldrme Scraps 2
+
+				Hidden Breaker
+				140
+				Pls 2 3000z
+				R3
+				40%
+				---
+				Black Narga Plt 6
+				Narga Scale 3
+				Nargacuga Fang 3
+				15000z
+				Black Narga Plt 8
+				Narga Scale 5
+				Narga Marrow 1
+				Lg Monster Bone 6
+				Desc
+				Narga Scraps 2
+
+					Hidden Breaker+
+					160
+					Hrd 2 7000z
+					R4
+					40%
+					O--
+					Narga Scale 5
+					Narga TailSpike 4
+					Narga Marrow 2
+					Shrp Mnster Bne 3
+					35000z
+					Desc
+					Narga Scraps 1
+					Bone Scraps+ 1
+
+						Blitz Breaker
+						180
+						Hrd 2 8000z
+						R6
+						40%
+						OO-
+						BlackNargaPelt+ 7
+						Narga Scale+ 3
+						Nargacuga Fang+ 2
+						Narga Brain Stm 1
+						65000z
+						Desc
+						Narga Scraps+ 2
+
+						Ghillie Hammer
+						180
+						Hrd 2 7000z
+						R5
+						0%
+						O--
+						Grn Narga Pelt 6
+						Green Narga Scl 3
+						Grn Narga Fang 2
+						45000z
+						Desc
+						Narga Scraps+ 2
+
+							Shadow Blitz Breaker
+							200
+							Hrd 2 8000z
+							R6
+							0%
+							O--
+							Grn Narga Fang 5
+							Green Narga Scl 5
+							Narga Brain Stm 1
+							Tigrex Jaw 1
+							65000z
+							Desc
+							Narga Scraps+ 2
 
 Gaia Spoo
 130
+Reg 2 2000z
 R2
 0%
 O--
@@ -134,8 +742,36 @@ Monster Fluid 5
 Desc
 Ore Scraps 2
 
+	Gaia Rook
+	140
+	Pls 2 3000z
+	R3
+	0%
+	OO-
+	Fire Stone 4
+	Dragonite Ore 8
+	Rathian Shell 3
+	20000z
+	Desc
+	Ore Scraps 2
+
+		Great Rook
+		190
+		Hrd 2 8000z
+		R6
+		15%
+		OOO
+		Depthlite Ore 10
+		Ancnt Drgn Bone 5
+		Wyvern Stone 2
+		43500z
+		Desc
+		Ore Scraps+ 1
+		Bone Scraps+ 1
+
 Pumpkin Hammer
 90
+Reg 2 2000z
 Fire 6
 R2
 0%
@@ -147,8 +783,41 @@ Killer Beetle 3
 Desc
 Pumpkin Scraps 2
 
+	Jack-O'-Hammer
+	140
+	Pls 2 3000z
+	Fire 8
+	R3
+	0%
+	OO-
+	Pepipo Pumpkin 5
+	Flame Sac 2
+	Hercudrome 5
+	Commendation 1
+	4900z
+	Desc
+	Pumpkin Scraps 1
+	Courage Scraps 1
+
+		Smashing Pumpkin
+		180
+		Pls 2 5000z
+		Fire 10
+		R4
+		0%
+		OOO
+		Pepipo Pumpkin 10
+		Yukumo Wood+ 3
+		Igneous Thorax 2
+		King Scarab 5
+		45000z
+		Desc
+		Pumpkin Scraps 1
+		Wood Scraps+ 2
+
 Yukumo Maul
 160
+Pls 2 3000z
 R3
 0%
 ---
@@ -160,21 +829,37 @@ Desc
 Wood Scraps 2
 Ore Scraps 1
 
-Hidden Breaker
-140
-R3
-40%
----
-22500z
-Black Narga Plt 8
-Narga Scale 5
-Narga Marrow 1
-Lg Monster Bone 6
-Desc
-Narga Scraps 2
+	Yukumo Maul+
+	190
+	Pls 2 5000z
+	R4
+	0%
+	---
+	Yukumo Wood+ 5
+	Carbalite Ore 8
+	Rhenoplos Crpce 5
+	30000z
+	Desc
+	Wood Scraps+ 1
+	Ore Scraps+ 1
+
+		Yukumo Spirit Hammer
+		210
+		Hrd 2 8000z
+		R6
+		0%
+		Yukumo Wood+ 8
+		Union Ore 8
+		Rathalos Plate 2
+		Gigginox Claw+ 3
+		50000z
+		Desc
+		Wood Scraps+ 1
+		Ore Scraps+ 1
 
 Divine Resonance
 160
+Pls 2 3000z
 Water 25
 R3
 0%
@@ -187,8 +872,40 @@ Pelagicite Ore 10
 Desc
 JhenMhranScraps 2
 
+	Divine Demolisher
+	180
+	Hrd 2 8000z
+	Water 33
+	R6
+	0%
+	O--
+	Jhen Mohran Arm 2
+	Depthlite Ore 10
+	Ice Agnktor Clw 3
+	45000z
+	Desc
+	JhenMhranScraps 2
+	Ore Scraps+ 1
+
+		Mohran's Ridge
+		200
+		Hvy 1 10000z
+		Water 35
+		R7
+		0%
+		O--
+		Jhen Mhrn Fang+ 3
+		Jhen Mhran Arm+ 2
+		Jhen Mohran Cpc 4
+		Jhen Mohran Jwl 1
+		65000z
+		Desc
+		JhenMhrnScraps+ 2
+		JhenMhranScraps 1
+
 Egg Hammer
 180
+Pls 2 3000z
 R3
 -40%
 O--
@@ -199,8 +916,22 @@ Monster Bone+ 3
 Desc
 Pelt Scraps 2
 
+	Gagua Hammer
+	230
+	R4
+	-50%
+	O--
+	Gagua Feather 10
+	Shrp Mnster Bne 3
+	BrdWyvern Stone 3
+	35000z
+	Desc
+	Pelt Scraps 2
+	Bone Scraps+ 1
+
 Clashing Thunder
 160
+Pls 2 3000z
 Thunder 26
 R3
 0%
@@ -213,20 +944,23 @@ Jinouga Plate 1
 Desc
 Jinouga Scraps 2
 
-Iron Fiend
-190
-R4
-0%
-OO-
-30000z
-Carbalite Ore 8
-Bealite Ore 20
-Iron Ore 50
-Desc
-Ore Scraps+ 2
+	Thunderclap
+	210
+	Thunder 32
+	R6
+	0%
+	O--
+	Jinouga Horn+ 2
+	Jinouga Carapce 5
+	Jinouga Pelt+ 4
+	Jinouga Jewel 1
+	80000z
+	Desc
+	Jinouga Scraps+ 2
 
 Hard Bone Hammer
 200
+Pls 2 5000z
 R4
 0%
 ---
@@ -238,8 +972,23 @@ Iron Ore 15
 Desc
 Bone Scraps+ 2
 
+	Hard Bone Hammer+
+	220
+	Hrd 2 7000z
+	R5
+	0%
+	O--
+	Stout Bone 6
+	Bird Wyvrn Bone 10
+	Union Ore 5
+	Rare Scarab 10
+	35000z
+	Desc
+	Bone Scraps+ 2
+
 Chaos Hammer
 180
+Hrd 2 7000z
 Dragon 10
 R5
 5%
@@ -251,8 +1000,22 @@ Deviljho Hide 4
 Desc
 Deviljho Scraps 2
 
+	Chaos Rush
+	210
+	Dragon 18
+	R7
+	5%
+	O--
+	Deviljho Scale 6
+	Deviljho Drool 5
+	Deviljho Jewel 1
+	85000z
+	Desc
+	Deviljho Scraps 2
+
 Obsidian Hammer
 170
+Hrd 2 8000z
 Dragon 35
 R6
 0%
@@ -264,8 +1027,24 @@ EldrDragonBlood 3
 Desc
 Alatreon Scraps 2
 
+	Radiant Obsidian
+	190
+	Dragon 40
+	R7
+	0%
+	OO-
+	Commendation G 3
+	Alatreon Claw 6
+	Alatreon Plate 4
+	Alatreon Jewel 1
+	100000z
+	Desc
+	Courage Scraps+ 1
+	Alatreon Scraps 2
+
 Ukanlos Crusher
 250
+Hvy 1 10000z
 Ice 20
 Def 15
 R7
