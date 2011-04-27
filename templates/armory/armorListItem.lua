@@ -1,5 +1,5 @@
 <tr>
-	<td><a class="rare{{ piece.rarity }}" href="{{ U( ( "armory/%s/%s" ):format( class.short, urlFromName( piece.name ) ) ) }}">{{ piece.name.hgg }}</td>
+	<td><a class="rare{{ piece.rarity }}" href="{{ U( ( "armory/%s/%s" ):format( class.short, urlFromName( piece.name ) ) ) }}">{{ T( piece.name ) }}</td>
 	<td>{{ piece.blade and "Y" or "N" }}</td>
 	<td>{{ piece.gunner and "Y" or "N" }}</td>
 	<td>{{ piece.defense }}</td>
