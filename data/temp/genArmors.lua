@@ -29,9 +29,6 @@ local Bases =
 
 local MaxSlots = 3
 
--- perhaps a gigantic FSM was not
--- the best way of doing this
-
 local Actions =
 {
 	init = function( line, piece )
@@ -84,7 +81,6 @@ local Actions =
 	end,
 
 	elemdef = function( line, piece )
-		-- TODO: correct order?
 		local success, _, fire, water, thunder, ice, dragon = line:find( "(%-?%d+) (%-?%d+) (%-?%d+) (%-?%d+) (%-?%d+)" )
 
 		assert( success, "bad elemdef in " .. piece.name.hgg .. ": " .. line )
