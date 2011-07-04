@@ -19,7 +19,7 @@ end
 function data( file )
 	local contents = readFile( ( "data/%s.json" ):format( file ) )
 
-	return json.decode( contents ), contents
+	return dofile( ( "data/%s.lua" ):format( file ) ), contents
 end
 
 -- returns true if self starts with needle

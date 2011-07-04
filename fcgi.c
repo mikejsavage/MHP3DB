@@ -44,14 +44,21 @@ int main( int argc, char *argv[] )
 	// SIGUSR1 is sent when the server is shutting down
 	signal( SIGUSR1, cleanup );
 
+	// register functions
 	lua_register( L, "print", fcgiPrint );
-
-	( void ) luaL_dofile( L, "fcgi.lua" );
 
 	// put debug.traceback on the stack
 	lua_getglobal( L, "debug" );
 	lua_getfield( L, -1, "traceback" );
 	lua_remove( L, -2 );
+
+	// load init script
+	if( luaL_loadfile( L, "fcgi.lua" ) || lua_pcall( L, 0, 0, -2 ) )
+	{
+		printf( "Error loading fcgi.lua: %s\n", lua_tostring( L, -1 ) );
+
+		exit( 1 );
+	}
 
 	while( FCGI_Accept() >= 0 )
 	{

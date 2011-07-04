@@ -4,7 +4,7 @@
 --
 -- so i guess this is BSD licensed? i'm not very good at this
 
-TemplateCache = { }
+--TemplateCache = { }
 
 local Actions =
 {
@@ -75,15 +75,15 @@ function compileTemplate( template, name )
 end
 
 function loadTemplate( file )
-	if TemplateCache[ file ] then
+	--[[if TemplateCache[ file ] then
 		return TemplateCache[ file ]
-	end
+	end]]
 
 	local template = compileTemplate( readFile( ( "%s/%s.lua" ):format( TemplatesDir, file ) ), file )
 
-	if not IsLocalHost then
+	--[[if not IsLocalHost then
 		TemplateCache[ file ] = template
-	end
+	end]]
 
 	return template
 end
