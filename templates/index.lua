@@ -3,11 +3,6 @@
 An English (based on Team HGG's translation) info site for Monster Hunter Portable 3rd.
 
 
-<h2>Why is so much missing?</h2>
-
-I'm one guy doing this in my spare time.
-
-
 <h2>Can you add my translation?</h2>
 
 Send it to me in a non-stupid format and sure.
@@ -39,71 +34,5 @@ Sure, it's <a href="https://github.com/mikejsavage/MHP3DB/blob/master/license.tx
 	<li>Gunnil for making a female char so I don't have to play the game twice</li>
 </ul>
 
-
-<h2>News</h2>
-
-<table>
-	{%
-	local MaxPosts = math.min( 5, table.getn( Posts ) )
-
-	-- TODO: not translation friendly...
-	local Months = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" }
-
-	local function dateSuffix( date )
-		if date ==  1 or
-		   date == 21 or
-		   date == 31 then
-			return "st"
-		end
-
-		if date ==  2 or
-		   date == 22 then
-			return "nd"
-		end
-
-		if date ==  3 or
-		   date == 23 then
-			return "rd"
-		end
-
-		return "th"
-	end
-
-	local function sameDay( date1, date2 )
-		return date1.year == date2.year and date1.yday == date2.yday
-	end
-
-	local now       = os.date( "!*t" ) -- ! for UTC
-	local yesterday = os.date( "*t", os.time( now ) - 86400 )
-
-	local function postDate( ts )
-		local date = os.date( "*t", ts )
-
-		if sameDay( date, now ) then
-			return "Today"
-		end
-
-		if sameDay( date, yesterday ) then
-			return "Yesterday"
-		end
-
-		local date = os.date( "*t", ts )
-
-		return ( "%d%s %s" ):format(
-			date.day,
-			dateSuffix( date.day ),
-			Months[ date.month ]
-		)
-	end
-
-	printf( [[<tr class="post"><td class="date">%s</td><td>%s</td></tr>]], postDate( Posts[ 1 ].date ), Posts[ 1 ].content )
-
-	for i = 2, MaxPosts do
-		local post = Posts[ i ]
-
-		printf( [[<tr><td colspan="2"><hr></td></tr><tr class="post"><td class="date">%s</td><td>%s</td></tr>]], postDate( post.date, now ), post.content )
-	end
-	%}
-</table>
 
 {{ defer( "armors", "decorations", "skills", "items", "charms" ) }}
